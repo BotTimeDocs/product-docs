@@ -2,12 +2,10 @@
 
 欢迎来到天匠智能RPA的文档库。
 
-## 如何开始贡献文档
+## 天匠智能RPA社区版产品文档
 
-### 创建GitHub账号
-如果你还没有GitHub账号，可以参照这个指南创建一个账号 [Setup GitHub Account](https://docs.microsoft.com/contribute/get-started-setup-github)
-
-### 需要的工具
-- [Git](https://git-scm.com/download)
-- [Visual Studio Code](https://code.visualstudio.com/Download)
+在我们将产品文档全部迁移到GitHub之前，您可以从以下链接下载到最新的PDF格式的文档。
+- [天匠编辑器文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Studio.pdf?st=2020-01-06T15%3A26%3A36Z&se=2020-04-07T15%3A26%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=vTd9Au%2FyAAhymwbWyfgZ%2Fd%2F5NTRfnUgB%2B8CvOFOa4Os%3D)
+- [天匠组件库文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Activity.pdf?st=2020-01-06T15%3A24%3A10Z&se=2020-04-07T15%3A24%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=AYX2POGEL6N4zmK8eNmHzlJVAsvdt%2FSDtEa1EqTQNyY%3D)
+- [天匠控制台文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Console.pdf?st=2020-01-06T15%3A27%3A01Z&se=2020-04-07T15%3A27%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=OW4TiR1fv1mffAa%2BAweqSTaxDVEOM1lrVQFYG1N7s0U%3D)
 
