@@ -1,13 +1,13 @@
-#Ìì½³ÖÇÄÜRPAÎÄµµ
+# å¤©åŒ æ™ºèƒ½RPAæ–‡æ¡£
 
-»¶Ó­À´µ½Ìì½³ÖÇÄÜRPAµÄÎÄµµ¿â¡£
+æ¬¢è¿æ¥åˆ°å¤©åŒ æ™ºèƒ½RPAçš„æ–‡æ¡£åº“ã€‚
 
-## ÈçºÎ¿ªÊ¼¹±Ï×ÎÄµµ
+## å¦‚ä½•å¼€å§‹è´¡çŒ®æ–‡æ¡£
 
-### ´´½¨GitHubÕËºÅ
-Èç¹ûÄã»¹Ã»ÓĞGitHubÕËºÅ£¬¿ÉÒÔ²ÎÕÕÕâ¸öÖ¸ÄÏ´´½¨Ò»¸öÕËºÅ [Setup GitHub Account](https://docs.microsoft.com/contribute/get-started-setup-github)
+### åˆ›å»ºGitHubè´¦å·
+å¦‚æœä½ è¿˜æ²¡æœ‰GitHubè´¦å·ï¼Œå¯ä»¥å‚ç…§è¿™ä¸ªæŒ‡å—åˆ›å»ºä¸€ä¸ªè´¦å· [Setup GitHub Account](https://docs.microsoft.com/contribute/get-started-setup-github)
 
-### ĞèÒªµÄ¹¤¾ß
+### éœ€è¦çš„å·¥å…·
 - [Git](https://git-scm.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 
