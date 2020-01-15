@@ -1,10 +1,10 @@
 [
     {
       "name":"Introduction.md",
-      "localname":"产品介绍"
+      "localizedName":"产品介绍"
     },
     {
      "name":"TheUserInterface.md",
-     "localname":"安装"
+     "localizedName":"安装"
    }
 ]

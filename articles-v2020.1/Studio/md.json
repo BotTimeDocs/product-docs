@@ -1,50 +1,50 @@
 [
    {
      "name":"Introduction",
-     "localname":"入门"
+     "localizedName":"入门"
    },
    {
     "name":"Installation",
-    "localname":"安装"
+    "localizedName":"安装"
   }, 
   {
     "name":"ProjectProcedures",
-    "localname":"项目流程"
+    "localizedName":"项目流程"
   }, 
   {
     "name":"TypeOfWorkflow",
-    "localname":"工作流类型"
+    "localizedName":"工作流类型"
   }, 
   {
     "name":"ActivityMarket",
-    "localname":"组件市场"
+    "localizedName":"组件市场"
   },   {
     "name":"FlowMarket",
-    "localname":"流程市场"
+    "localizedName":"流程市场"
   }, 
   {
     "name":"Variables",
-    "localname":"变量"
+    "localizedName":"变量"
   }, 
   {
     "name":"Arguments",
-    "localname":"参数"
+    "localizedName":"参数"
   }, 
   {
     "name":"Recording",
-    "localname":"录制"
+    "localizedName":"录制"
   }, 
   {
     "name":"AutomationProjects",
-    "localname":"自动化项目"
+    "localizedName":"自动化项目"
   }, 
   {
     "name":"Selector",
-    "localname":"选择器"
+    "localizedName":"选择器"
   }, 
   {
     "name":"Extensions",
-    "localname":"扩展"
+    "localizedName":"扩展"
   }
 ]
    
