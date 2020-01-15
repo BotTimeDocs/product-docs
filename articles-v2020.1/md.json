@@ -1,5 +1,13 @@
 [
   {
+    "name": "Index.md",
+    "localizedName": "概览"
+  },
+  {
+    "name": "Studio",
+    "localizedName": "天匠编辑器"
+  },
+  {
     "id": null,
     "name": "Activities",
     "localizedName": "组件"

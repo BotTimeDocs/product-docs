@@ -1,0 +1,50 @@
+[
+   {
+     "name":"Introduction",
+     "localizedName":"入门"
+   },
+   {
+    "name":"Installation",
+    "localizedName":"安装"
+  }, 
+  {
+    "name":"ProjectProcedures",
+    "localizedName":"项目流程"
+  }, 
+  {
+    "name":"TypeOfWorkflow",
+    "localizedName":"工作流类型"
+  }, 
+  {
+    "name":"ActivityMarket",
+    "localizedName":"组件市场"
+  },   {
+    "name":"FlowMarket",
+    "localizedName":"流程市场"
+  }, 
+  {
+    "name":"Variables",
+    "localizedName":"变量"
+  }, 
+  {
+    "name":"Arguments",
+    "localizedName":"参数"
+  }, 
+  {
+    "name":"Recording",
+    "localizedName":"录制"
+  }, 
+  {
+    "name":"AutomationProjects",
+    "localizedName":"自动化项目"
+  }, 
+  {
+    "name":"Selector",
+    "localizedName":"选择器"
+  }, 
+  {
+    "name":"Extensions",
+    "localizedName":"扩展"
+  }
+]
+   
