@@ -11,5 +11,10 @@
     "id": null,
     "name": "Activities",
     "localizedName": "组件"
+  },
+  {
+    "id": null,
+    "name": "Console",
+    "localizedName": "天匠控制台"
   }
 ]
