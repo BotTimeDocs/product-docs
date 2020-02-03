@@ -1,1 +1,17 @@
-[{"id":null,"name":"SendMailSMTP.md","localizedName":"发送邮件SMTP"},{"id":null,"name":"GetMailPOP3.md","localizedName":"获取邮件POP3"},{"id":null,"name":"SaveAttachment.md","localizedName":"保存附件"}]
+[
+  {
+    "id": "BotTime.Mail.Activity.Activities.SendSmtpMailActivity",
+    "name": "SendMailSMTP.md",
+    "localizedName": "发送邮件SMTP"
+  },
+  {
+    "id": "BotTime.Mail.Activity.Activities.GetPOP3MailMessagesActivity",
+    "name": "GetMailPOP3.md",
+    "localizedName": "获取邮件POP3"
+  },
+  {
+    "id": "BotTime.Mail.Activity.Activities.SaveMailAttachmentsActivity",
+    "name": "SaveAttachment.md",
+    "localizedName": "保存附件"
+  }
+]
