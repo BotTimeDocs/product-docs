@@ -12,9 +12,9 @@
     "localizedName": "循环操作(Do While)"
   },
   {
-    "id": "BotTime.Flow.Activities.ForEach<T>",
+    "id": "BotTime.Flow.Activities.ForEach",
     "name": "ForEach.md",
-    "localizedName": "循环操作For Each)"
+    "localizedName": "循环操作(For Each)"
   },
   {
     "id": "BotTime.Flow.Activities.Continue",
