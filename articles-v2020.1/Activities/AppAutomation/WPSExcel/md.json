@@ -1,1 +1,102 @@
-[{"id":null,"name":"OpenExcel.md","localizedName":"打开新建"},{"id":null,"name":"ReadCell.md","localizedName":"读取单元格"},{"id":null,"name":"ReadRange.md","localizedName":"读取区域"},{"id":null,"name":"WriteCell.md","localizedName":"写入单元格"},{"id":null,"name":"WriteRange.md","localizedName":"写入区域"},{"id":null,"name":"WriteRowOrColumn.md","localizedName":"写入行或列数据"},{"id":null,"name":"Delete.md","localizedName":"删除数据"},{"id":null,"name":"GetLastRow.md","localizedName":"获取末行号"},{"id":null,"name":"GetLastColumn.md","localizedName":"获取末列号"},{"id":null,"name":"GetWorksheetsName.md","localizedName":"获取所有工作表名"},{"id":null,"name":"InsertWorksheet.md","localizedName":"插入工作表"},{"id":null,"name":"InsertFormula.md","localizedName":"插入公式"},{"id":null,"name":"Sort.md","localizedName":"排序"},{"id":null,"name":"Filter.md","localizedName":"筛选"},{"id":null,"name":"Search.md","localizedName":"查找"},{"id":null,"name":"GetCellBackcolor.md","localizedName":"获取单元格背景色"},{"id":null,"name":"SetCellBackcolor.md","localizedName":"设置单元格背景色"},{"id":null,"name":"Merge.md","localizedName":"合并单元格"}]
+[
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelOpenOrCreateActivity",
+    "name": "OpenExcel.md",
+    "localizedName": "打开新建"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelReadCellActivity",
+    "name": "ReadCell.md",
+    "localizedName": "读取单元格"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelRangesReadActivity",
+    "name": "ReadRange.md",
+    "localizedName": "读取区域"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelWriteCellActivity",
+    "name": "WriteCell.md",
+    "localizedName": "写入单元格"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelRangesWriteActivity",
+    "name": "WriteRange.md",
+    "localizedName": "写入区域"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelWriteRowColumnActivity",
+    "name": "WriteRowOrColumn.md",
+    "localizedName": "写入行或列数据"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelDeleteRecordActivity",
+    "name": "Delete.md",
+    "localizedName": "删除数据"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelGetMaxRowActivity",
+    "name": "GetLastRow.md",
+    "localizedName": "获取末行号"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelGetMaxColumnActivity",
+    "name": "GetLastColumn.md",
+    "localizedName": "获取末列号"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelGetSheetNamesActivity",
+    "name": "GetWorksheetsName.md",
+    "localizedName": "获取所有工作表名"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelCreateSheetActivity",
+    "name": "InsertWorksheet.md",
+    "localizedName": "插入工作表"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelAddFormulaActivity",
+    "name": "InsertFormula.md",
+    "localizedName": "插入公式"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelSortActivity",
+    "name": "Sort.md",
+    "localizedName": "排序"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelFilterActivity",
+    "name": "Filter.md",
+    "localizedName": "筛选"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelFindCellsActivity",
+    "name": "Search.md",
+    "localizedName": "查找"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelGetCellBackgroundColorActivity",
+    "name": "GetCellBackcolor.md",
+    "localizedName": "获取单元格背景色"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelSetCellBackgroundColorActivity",
+    "name": "SetCellBackcolor.md",
+    "localizedName": "设置单元格背景色"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelMergeCellsActivity",
+    "name": "Merge.md",
+    "localizedName": "合并单元格"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelReadRowColumnActivity",
+    "name": "ReadRowColumn.md",
+    "localizedName": "读取行或列数据"
+  },
+  {
+    "id": "BotTime.WPS.Activity.WPSExcelHideSheetActivity",
+    "name": "HideSheet.md",
+    "localizedName": "隐藏工作表"
+  }
+]
