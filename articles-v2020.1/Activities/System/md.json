@@ -1,1 +1,42 @@
-[{"id":null,"name":"Application","localizedName":"应用程序"},{"id":null,"name":"File","localizedName":"文件"},{"id":null,"name":"ConfirmDialog.md","localizedName":"确认框"},{"id":null,"name":"InputDialog.md","localizedName":"输入框"},{"id":null,"name":"WriteLog.md","localizedName":"写入日志"},{"id":null,"name":"SetLogLevel.md","localizedName":"设置日志级别"},{"id":null,"name":"SetPassword.md","localizedName":"设置密码"},{"id":null,"name":"ExecuteCMD.md","localizedName":"执行命令行"}]
+[
+    {
+        "id": null,
+        "name": "Application",
+        "localizedName": "应用程序"
+    },
+    {
+        "id": null,
+        "name": "File",
+        "localizedName": "文件"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.ConfirmMessageBox",
+        "name": "ConfirmDialog.md",
+        "localizedName": "确认框"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputDialogActivity",
+        "name": "InputDialog.md",
+        "localizedName": "输入框"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.LogActivity",
+        "name": "WriteLog.md",
+        "localizedName": "写入日志"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetLogLevelActivity",
+        "name": "SetLogLevel.md",
+        "localizedName": "设置日志级别"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetPasswordActivity",
+        "name": "SetPassword.md",
+        "localizedName": "设置密码"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.ExecuteCmd",
+        "name": "ExecuteCMD.md",
+        "localizedName": "执行命令行"
+    }
+]

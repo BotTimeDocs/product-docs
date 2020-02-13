@@ -1,1 +1,47 @@
-[{"id":null,"name":"Flowchart","localizedName":"流程图"},{"id":null,"name":"Determine","localizedName":"判断"},{"id":null,"name":"Loop","localizedName":"循环操作"},{"id":null,"name":"Sequence.md","localizedName":"序列"},{"id":null,"name":"Parallel.md","localizedName":"并行"},{"id":null,"name":"TryCatch.md","localizedName":"错误捕捉(Try Catch)"},{"id":null,"name":"Assign.md","localizedName":"赋值"},{"id":null,"name":"Delay.md","localizedName":"延迟"},{"id":null,"name":"InvokeWorkflow.md","localizedName":"调用流程"}]
+[
+  {
+    "id": null,
+    "name": "Flowchart",
+    "localizedName": "流程图"
+  },
+  {
+    "id": null,
+    "name": "Determine",
+    "localizedName": "判断"
+  },
+  {
+    "id": null,
+    "name": "Loop",
+    "localizedName": "循环操作"
+  },
+  {
+    "id": "System.Activities.Statements.Sequence",
+    "name": "Sequence.md",
+    "localizedName": "序列"
+  },
+  {
+    "id": "BotTime.Flow.Activities.Parallel",
+    "name": "Parallel.md",
+    "localizedName": "并行"
+  },
+  {
+    "id": "BotTime.Flow.Activities.TryCatch",
+    "name": "TryCatch.md",
+    "localizedName": "错误捕捉(Try Catch)"
+  },
+  {
+    "id": "BotTime.Flow.Activities.Assign",
+    "name": "Assign.md",
+    "localizedName": "赋值"
+  },
+  {
+    "id": "BotTime.Flow.Activities.Delay",
+    "name": "Delay.md",
+    "localizedName": "延迟"
+  },
+  {
+    "id": "BotTime.Flow.Activities.InvokeWorkflow",
+    "name": "InvokeWorkflow.md",
+    "localizedName": "调用流程"
+  }
+]
