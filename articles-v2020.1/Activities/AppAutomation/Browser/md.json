@@ -1,1 +1,27 @@
-[{"id":"Encootech.AutomationActivity.WebAction.BrowserAttach","name":"AttachBrowser.md","localizedName":"绑定浏览器"},{"id":"Encootech.AutomationActivity.WebAction.BrowserOpen","name":"OpenBrowser.md","localizedName":"打开浏览器"},{"id":"Encootech.AutomationActivity.WebAction.BrowserRefresh","name":"RefreshBrowser.md","localizedName":"刷新浏览器"}]
+[
+    {
+        "id": "Encootech.AutomationActivity.WebAction.BrowserAttach",
+        "name": "AttachBrowser.md",
+        "localizedName": "绑定浏览器"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WebAction.BrowserOpen",
+        "name": "OpenBrowser.md",
+        "localizedName": "打开浏览器"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WebAction.BrowserRefresh",
+        "name": "RefreshBrowser.md",
+        "localizedName": "刷新浏览器"
+    },
+    {
+        "id": null,
+        "name": "NavigateTo.md",
+        "localizedName": "当前页跳转"
+    },
+    {
+        "id": null,
+        "name": "CloseTab.md",
+        "localizedName": "关闭标签页"
+    }
+]
