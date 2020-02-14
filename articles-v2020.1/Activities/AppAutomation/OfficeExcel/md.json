@@ -22,6 +22,11 @@
     },
     {
         "id": null,
+        "name": "ReadRowOrColumn.md",
+        "localizedName": "读取行/列数据"
+      },
+    {
+        "id": null,
         "name": "WriteCell.md",
         "localizedName": "写入单元格"
     },

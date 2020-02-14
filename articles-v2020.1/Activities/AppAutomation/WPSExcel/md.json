@@ -15,6 +15,11 @@
     "localizedName": "读取区域"
   },
   {
+    "id": null,
+    "name": "ReadRowOrColumn.md",
+    "localizedName": "读取行/列数据"
+  },
+  {
     "id": "BotTime.WPS.Activity.WPSExcelWriteCellActivity",
     "name": "WriteCell.md",
     "localizedName": "写入单元格"
@@ -48,6 +53,11 @@
     "id": "BotTime.WPS.Activity.WPSExcelGetSheetNamesActivity",
     "name": "GetWorksheetsName.md",
     "localizedName": "获取所有工作表名"
+  },
+  {
+    "id": null,
+    "name": "HideWorksheet.md",
+    "localizedName": "隐藏工作表"
   },
   {
     "id": "BotTime.WPS.Activity.WPSExcelCreateSheetActivity",
