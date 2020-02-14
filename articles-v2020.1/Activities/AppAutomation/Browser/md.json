@@ -15,12 +15,12 @@
         "localizedName": "刷新浏览器"
     },
     {
-        "id": null,
+        "id": "Encootech.AutomationActivity.WebAction.BrowserNavigate",
         "name": "NavigateTo.md",
         "localizedName": "当前页跳转"
     },
     {
-        "id": null,
+        "id": "Encootech.AutomationActivity.WebAction.CloseTab",
         "name": "CloseTab.md",
         "localizedName": "关闭标签页"
     }
