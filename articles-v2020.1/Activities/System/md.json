@@ -35,7 +35,7 @@
         "localizedName": "设置密码"
     },
     {
-        "id": null,
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetWindowsCredential",
         "name": "GetWindowsCredential.md",
         "localizedName": "获取Windows凭据"
     },
