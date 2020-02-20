@@ -4,47 +4,44 @@
      "localizedName":"入门"
    },
    {
-    "name":"Installation",
-    "localizedName":"安装"
-  }, 
-  {
-    "name":"ProjectProcedures.md",
-    "localizedName":"项目流程"
-  }, 
-  {
-    "name":"TypeOfWorkflow",
-    "localizedName":"工作流类型"
-  }, 
-  {
-    "name":"ActivityMarket",
-    "localizedName":"组件市场"
-  },   {
-    "name":"FlowMarket",
-    "localizedName":"流程市场"
-  }, 
-  {
-    "name":"Variables",
-    "localizedName":"变量"
-  }, 
-  {
-    "name":"Arguments",
-    "localizedName":"参数"
-  }, 
-  {
-    "name":"Recording",
-    "localizedName":"录制"
-  }, 
-  {
+     "name":"Settings",
+     "localizedName":"设置"
+   }, 
+   {
+     "name":"WorkingProcess.md",
+     "localizedName":"项目流程"
+   }, 
+   {
     "name":"AutomationProjects",
     "localizedName":"自动化项目"
-  }, 
-  {
-    "name":"Selector.md",
-    "localizedName":"选择器"
-  }, 
-  {
-    "name":"Extensions",
-    "localizedName":"扩展"
-  }
+   },
+   {
+     "name":"TypeOfWorkflow",
+     "localizedName":"工作流类型"
+   }, 
+   {
+     "name":"Market.md",
+     "localizedName":"天匠市场"
+   },
+   {
+     "name":"Variables",
+     "localizedName":"变量"
+   }, 
+   {
+     "name":"Arguments",
+     "localizedName":"参数"
+   }, 
+   {
+     "name":"Recording",
+     "localizedName":"智能录制"
+   },  
+   {
+     "name":"Selector.md",
+     "localizedName":"选择器"
+   }, 
+   {
+     "name":"Extensions",
+     "localizedName":"扩展"
+   }
 ]
    
