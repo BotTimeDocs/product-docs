@@ -5,7 +5,9 @@
 
 ## 录制描述 
 当界面出现矩形框，代表着您已经开始录制。此时，您才可以点击目标元素，因为矩形代表了识别出的元素，也意味着您可以点击它来获取数据或者以其他方式进行交互。如下图所示，这样就能确保您选择了正确的按钮、文本或菜单。 
+
 ![录制中](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/recording.png)
+
 录制过程中与 UI 元素的交互会产生信息性屏幕截图。无论所选录制的类型如何，有些操作是可记录的，而有些则是不可记录的。 
 
 **可录制的操作** 
@@ -39,7 +41,9 @@
 
 ### 录制器界面操作
 **录制器界面**
+
 ![录制器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/recorder.PNG)
+
 |选项| 	描述|
 |-----|-----| 
 |智能录制 |	单击后，开始对网站或桌面应用程序进行录制。 |

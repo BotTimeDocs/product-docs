@@ -1,5 +1,6 @@
 # 变量面板 
 使用变量面板可以创建和修改变量。 
+
 ![变量面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/createdVariable.png)
 
 |字段| 	描述| 
@@ -16,6 +17,7 @@
 >2. 变量的名称不可使用系统保留字。例如：add、delete 等。 
 
 ## 变量上下文菜单 
+
 ![菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variablePanelMenu.png)
 
 |字段| 	描述| 

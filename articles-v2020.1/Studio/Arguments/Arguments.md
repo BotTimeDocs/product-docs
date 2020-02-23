@@ -13,7 +13,8 @@
 >如 in_DefaultTimeout，in_FileName，out_TextResult，io_RetryNumber。
 
 要创建新参数： 
-1、在“设计窗口”中，单击“参数”。将显示参数面板。  
+1、在“设计窗口”中，单击“参数”。将显示参数面板。 
+
 ![创建参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/argumentPanel-createArgument.png)
 
 2、单击“创建参数”行。将显示具有默认字段值的新参数。 
@@ -25,5 +26,6 @@
 ## 删除参数 
 1、在参数面板中，选择一个参数并按 Delete 。 
 2、在参数面板中，选中一个参数并右击，在上下文菜单中点击“删除”选项。 
+
 ![删除参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/deleteArgument.png)
 

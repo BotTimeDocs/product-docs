@@ -4,6 +4,10 @@
      "localizedName":"入门"
    },
    {
+    "name":"HarewareAndSoftwareRequirements.md",
+    "localizedName":"硬件和软件要求"
+   },
+   {
      "name":"Settings",
      "localizedName":"设置"
    }, 
@@ -32,6 +36,10 @@
      "localizedName":"参数"
    }, 
    {
+    "name":"ImportNamespaces.md",
+    "localizedName":"导入命名空间"
+  },
+   {
      "name":"Recording",
      "localizedName":"智能录制"
    },  
@@ -42,6 +50,10 @@
    {
      "name":"Extensions",
      "localizedName":"扩展"
-   }
+   },
+   {
+    "name":"FAQ.md",
+    "localizedName":"常见问题"
+  }
 ]
    

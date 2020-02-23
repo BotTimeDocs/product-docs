@@ -8,6 +8,7 @@
 存储在变量中的数据称为值，它可以是多种类型。在天匠编辑器中，我们支持大量类型，例如文本、数字、数据表格、时间和日期等等。 
 
 ## 创建变量
+
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variabletips.png)
 
 >注意： 
@@ -16,6 +17,7 @@
   
 **从上下文菜单创建变量** 
 1、右击当前组件，唤出上下文菜单，单击“创建变量”。 
+
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/menu-createVariable.png)
 
 2、填写名称，然后按 Enter 键。您可以在变量面板中查看和编辑它。像这样创建的变量的范围始终属于它所属的最小容器。
@@ -26,6 +28,7 @@
   
 **从变量面板创建变量** 
 1、在设计窗口中，单击“变量”，将显示“变量”面板。
+
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variablePanel-createVariable.png)
 
 2、单击“创建变量”，将显示具有默认字段值的新变量。 
@@ -35,6 +38,7 @@
   
 ## 删除变量 
 1、在变量面板中，选中一个变量并右击，在上下文菜单中点击“删除”。 
+
 ![删除变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/deleteVariable.png)
 
 2、在变量面板中，选择一个变量并按 Delete 键。 
@@ -46,12 +50,15 @@
 要搜索“变量类型”列表中默认未显示的变量类型，请执行以下操作：
 
 1、在变量面板的“变量类型”下拉列表中，选择“浏览类型”。显示“浏览并选择 .Net 类型”窗口。 
+
 ![浏览类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/viewTypeOfVariable.png)
 
-2、在“类型名称”字段中，输入要查找的变量类型的关键字，例如 table 。 
+2、在“类型名称”字段中，输入要查找的变量类型的关键字，例如 table 。
+
 ![输入变量类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/inputTable.png)
 
 3、选中table类型并单击“确定”。该变量类型将显示在变量面板中。 
+
 ![选中类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/confirmTable.png)
 
 >  注意： 
