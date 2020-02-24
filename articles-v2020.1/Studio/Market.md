@@ -58,7 +58,7 @@
 
 ### 管理流程市场
 
-通过管理流程市场，您可添加、更新或删除您的流程市场。
+通过管理流程市场，您可以添加您的私有化流程市场，详细步骤请咨询我们的工作人员。
 
 ![管理流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/manageFlowmarket.PNG)
 
