@@ -2,6 +2,9 @@
 
 将两个值进行对比，根据对比条件返回布尔值
 
+可使用此种方法取得元素的属性值：IUiObject.**GetProperty**(“attributeName”).toString()
+
+
 
 ## 属性
 
