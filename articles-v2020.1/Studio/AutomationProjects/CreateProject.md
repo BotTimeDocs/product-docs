@@ -45,11 +45,12 @@
     ![拖入条件组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoIf.PNG)
 
 15. 拖入一个确认框组件到条件的Then部分，并在输入类别下输入相关提示信息：
-* 标题："明日天气提醒"
-* 描述："明天有雨，记得带伞哦" 
+ * 标题："明日天气提醒"
+ * 描述："明天有雨，记得带伞哦" 
+
 16. 拖入另一个确认框到条件的Else部分，并在输入类别下输入相关提示信息：
-* 标题："明日天气提醒"
-* 描述："明天无雨，出去走走吧"
+ * 标题："明日天气提醒"
+ * 描述："明天无雨，出去走走吧"
 
     ![拖入确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoInput.PNG)
 

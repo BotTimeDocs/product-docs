@@ -16,6 +16,7 @@
 >如果设计窗口没有组件，则无法创建变量。 
   
 **从上下文菜单创建变量** 
+
 1、右击当前组件，唤出上下文菜单，单击“创建变量”。 
 
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/menu-createVariable.png)
@@ -27,6 +28,7 @@
 >  创建此类变量时，将根据所选属性自动生成类型。 
   
 **从变量面板创建变量** 
+
 1、在设计窗口中，单击“变量”，将显示“变量”面板。
 
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variablePanel-createVariable.png)

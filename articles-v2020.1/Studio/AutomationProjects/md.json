@@ -2,5 +2,9 @@
     {
       "name":"CreateProject.md",
       "localizedName":"创建自动化项目"
+    },
+    {
+      "name":"PublishProject.md",
+      "localizedName":"发布自动化项目"
     }
 ]

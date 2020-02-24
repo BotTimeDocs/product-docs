@@ -15,7 +15,7 @@
     ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-createVariables.png)
 
 3. 将“流程图”添加至设计窗口中，并连接到“开始”节点。
-* 显示名称：“用户登录”
+ * 显示名称：“用户登录”
 
     ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoFlowchart.png)
 
@@ -24,10 +24,10 @@
     ![输入框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoInput1.png)
 
 5. 在“输入框”的属性窗口中，输入如下内容： 
-* 输入的内容：name 
-* 标题："用户名"
-* 描述："请输入用户名" 
-* 显示名称：输入用户名 
+ * 输入的内容：name 
+ * 标题："用户名"
+ * 描述："请输入用户名" 
+ * 显示名称：输入用户名 
 
     ![输入框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-input1Properties.png)
 
@@ -36,8 +36,8 @@
     ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoDecision1.png)
 
 7. 在“流程决策”的属性窗口中输入如下内容： 
-* 判断条件：name==""。该字段用来判断用户名是否为空 
-* 显示名称：判断用户名是否为空。该字段可自行更改为您所想要的其他内容 
+ * 判断条件：name==""。该字段用来判断用户名是否为空 
+ * 显示名称：判断用户名是否为空。该字段可自行更改为您所想要的其他内容 
 
     ![流程决策属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision1Properties.png)
 
@@ -46,10 +46,10 @@
     ![输入框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoInput2.png)
 
 9. 在“输入框”的属性窗口中，输入如下内容： 
-* 输入的内容：password 
-* 标题："密码"
-* 描述："请输入密码"
-* 显示名称：输入密码 
+ * 输入的内容：password 
+ * 标题："密码"
+ * 描述："请输入密码"
+ * 显示名称：输入密码 
 
     ![输入框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-input2Properties.png)
 
@@ -58,8 +58,8 @@
     ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoDecision2.png)
 
 11. 在“流程决策”的属性窗口中输入如下内容： 
-* 判断条件：password==""。该字段用来判断密码是否为空 
-* 显示名称：判断密码是否为空。该字段可自行更改为您所需要的其他内容 
+ * 判断条件：password==""。该字段用来判断密码是否为空 
+ * 显示名称：判断密码是否为空。该字段可自行更改为您所需要的其他内容 
 
     ![流程决策属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision2Properties.png)
 
@@ -68,8 +68,8 @@
     ![确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoConfirm.png)
 
 13. 在“确认框”的属性窗口中输入如下内容： 
-* 标题："用户登录"
-* 描述：name+"登录成功" 
+ * 标题："用户登录"
+ * 描述：name+"登录成功" 
 
 14. 最终，流程图如下所示： 
 

@@ -42,8 +42,7 @@
 
     ![确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/seq-intoConfirm.png)
 
-9. 选择“确认框”，然后在属性窗口的“描述”字段中添加变量和字符串，以使您可以显示从用户那里收集的所有信息，例如：Name+"的年龄为"+Age+"岁。"
-（可选）“标题”字段可填入"用户信息"
+9. 选择“确认框”，然后在属性窗口的“描述”字段中添加变量和字符串，以使您可以显示从用户那里收集的所有信息，例如：Name+"的年龄为"+Age+"岁。"</br>（可选）“标题”字段可填入"用户信息"
 
     ![确认框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/seq-confirmProperties.png)
 
