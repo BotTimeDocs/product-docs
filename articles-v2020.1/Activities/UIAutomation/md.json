@@ -1,1 +1,57 @@
-[{"id":"Encootech.AutomationActivity.ClickActivity","name":"Click.md","localizedName":"点击"},{"id":"Encootech.AutomationActivity.HoverActivity","name":"Hover.md","localizedName":"悬停"},{"id":"Encootech.AutomationActivity.SendHotKeyActivity","name":"SendHotkey.md","localizedName":"发送快捷键"},{"id":"Encootech.AutomationActivity.GetTextActivity","name":"GetText.md","localizedName":"获取文本"},{"id":"Encootech.AutomationActivity.GetElementActivity","name":"GetElement.md","localizedName":"获取元素"},{"id":"Encootech.AutomationActivity.WaitElementVanishActivity","name":"WaitElementVanish.md","localizedName":"等待元素消失"},{"id":"Encootech.AutomationActivity.WaitElementAppearActivity","name":"WaitElementAppear.md","localizedName":"等待元素出现"},{"id":"Encootech.AutomationActivity.SelectItemActivity","name":"SelectItem.md","localizedName":"选择项目"},{"id":"Encootech.AutomationActivity.CheckActivity","name":"Check.md","localizedName":"勾选"},{"id":"Encootech.AutomationActivity.SetTextActivity","name":"TypeInto.md","localizedName":"输入文本"}]
+[
+    {
+        "id": "Encootech.AutomationActivity.ClickActivity",
+        "name": "Click.md",
+        "localizedName": "点击"
+    },
+    {
+        "id": "Encootech.AutomationActivity.HoverActivity",
+        "name": "Hover.md",
+        "localizedName": "悬停"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SendHotKeyActivity",
+        "name": "SendHotkey.md",
+        "localizedName": "发送快捷键"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetTextActivity",
+        "name": "GetText.md",
+        "localizedName": "获取文本"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetElementActivity",
+        "name": "GetElement.md",
+        "localizedName": "获取元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
+        "name": "WaitElementVanish.md",
+        "localizedName": "等待元素消失"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WaitElementAppearActivity",
+        "name": "WaitElementAppear.md",
+        "localizedName": "等待元素出现"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SelectItemActivity",
+        "name": "SelectItem.md",
+        "localizedName": "选择项目"
+    },
+    {
+        "id": "Encootech.AutomationActivity.CheckActivity",
+        "name": "Check.md",
+        "localizedName": "勾选"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SetTextActivity",
+        "name": "TypeInto.md",
+        "localizedName": "输入文本"
+    },
+    {
+        "id": null,
+        "name": "DesktopOnly",
+        "localizedName": "桌面控件专有"
+    }
+]
