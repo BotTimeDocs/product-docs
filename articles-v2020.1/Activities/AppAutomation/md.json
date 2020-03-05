@@ -2,7 +2,7 @@
   {
     "id": null,
     "name": "Browser",
-    "localizedName": "???"
+    "localizedName": "浏览器"
   },
   {
     "id": null,
@@ -13,10 +13,10 @@
     "id": null,
     "name": "WPSExcel",
     "localizedName": "WPS Excel"
-  }
+  },
   {
     "id": null,
     "name": "Mail",
-    "localizedName": "??"
+    "localizedName": "邮件"
   }
 ]
