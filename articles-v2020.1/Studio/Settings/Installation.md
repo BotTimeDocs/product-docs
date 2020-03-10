@@ -1,9 +1,9 @@
 # 安装编辑器
-1. 打开天匠智能控制台（<https://www.bottime.com/#/user/register>）并注册登录。点击左侧“安装包下载”的导航按钮，选择 BotTime Studio安装包进行下载。 
+1. 打开云扩智能控制台（<https://www.bottime.com/#/user/register>）并注册登录。点击左侧“安装包下载”的导航按钮，选择 BotTime Studio安装包进行下载。 
  
    ![开始](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/downloadexe.png)
 
-2. 下载完成后双击安装包进行安装，进入如下图所示界面,勾选我已阅读并同意用户协议后点击“开始安装”即可安装天匠编辑器。 
+2. 下载完成后双击安装包进行安装，进入如下图所示界面,勾选我已阅读并同意用户协议后点击“开始安装”即可安装云扩编辑器。 
   
    ![开始安装](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/startInstallation.png )
 

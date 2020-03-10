@@ -1,24 +1,38 @@
 # Java扩展 
-## 安装配置 
-1. 安装java运行环境   
-如果电脑上已经安装了java运行环境，直接跳到步骤3 ，如果还没有安装的话，用浏览器打开 https://www.java.com/zh_CN/download/， 下载最新的版本。 
+BotTime Jave扩展适用于Java1.6及以上应用程序的自动化。
 
-2. 点击下载的安装文件安装java  
-
-3. 启用JAB</br>启用前需要关闭所有java应用程序，以管理员身份运行cmd，运行以下命令： 
-   * cd “C:\Program Files (x86)\Java\jre1.8.0_231\bin”  
-   * jabswitch.exe -enable  
-
->注意：
->
->"C:\Program Files (x86)\Java\jre1.8.0_231" 为java安装目录，根据您实际安装的java版本指定相应路径  
+对于使用Java 9+ JRE 打开的应用程序：
+在Java 9之前，JRE会包含attach模块，BotTime Java扩展依赖其对Java程序进行自动化。对于Java 9+，attach模块仅包含在JDK中，所以对于使用JRE9+打开的程序，需要手动在JRE目录下添加此模块。
 
 ## 常见问题  
-1. 找不到32位/64位的Java运行环境</br>BotTime找不到Java运行环境初始化Java扩展，需要按提示安装32位或64位的JRE. 可以到以下地址下载对应版本的Java[下载链接](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) 
-   * 点击 Accept License Argument
+1. 提示找不到32位/64位的Java运行环境
+
+    BotTime找不到公共Java运行环境初始化Java扩展，需要按提示安装32位或64位的JRE。可以到以下地址下载对应版本的Java：<https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html>
+
+    a）点击 Accept License Argument
 
    ![接受许可协议](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-acceptLicenseArguments.png)
 
-   * 按提示点击下载32位或64位的Java（x86为32位，x64为64位）
-   
+    b) 按BotTime提示点击下载32位或64位的Java（x86为32位，x64为64位）
+
    ![下载java](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-downloadJava.png)
+
+ 2. 对于Java Applet应用或无法attach的应用，需要手动安装Java扩展到runtime目录
+
+    a) 找到Studio或Robot安装目录下的JavaSupport文件夹
+
+    ![查找JavaSupport文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-javaSupport.png)
+
+    b) 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下
+
+    将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下
+    
+    然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
+
+    |BotTime扩展文件|目标路径|
+    |---|---|
+    |BotTimeJavaBridge-32/64.dll|%JAVAHOME%\bin|
+    |BotTimeJAWTBridge-32/64.dll|%JAVAHOME%\bin|
+    |accessibility.properties|%JAVAHOME%\lib|
+    |BotTimeJavaBridge.jar|%JAVAHOME%\lib\ext|
+    |jaccess.jar|%JAVAHOME%\lib\ext|
