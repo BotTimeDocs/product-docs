@@ -5,16 +5,16 @@
   },
   {
     "name": "Studio",
-    "localizedName": "天匠编辑器"
+    "localizedName": "云扩编辑器"
   },
   {
     "id": null,
     "name": "Activities",
-    "localizedName": "组件"
+    "localizedName": "云扩组件库"
   },
   {
     "id": null,
     "name": "Console",
-    "localizedName": "天匠控制台"
+    "localizedName": "云扩控制台"
   }
 ]
