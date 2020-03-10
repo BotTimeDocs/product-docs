@@ -1,6 +1,6 @@
 # 创建自动化项目
 ## 创建流程
-1. 打开天匠编辑器
+1. 打开云扩编辑器
 2. 新建一个项目，并输入项目名称（以 MyFirstProject 为例） 
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/newProject.PNG)

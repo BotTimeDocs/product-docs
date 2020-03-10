@@ -1,11 +1,15 @@
-# 天匠智能RPA文档
+# 云扩RPA平台
 
-欢迎来到天匠智能RPA的文档库。
+**云扩RPA平台**（Encoo Automate）是云扩科技自主开发的企业级RPA（机器人流程自动化）平台，旨在为企业客户提供简单易用、安全稳定的智能自动化解决方案。云扩RPA平台一共有三个核心组件，分别是云扩编辑器(Encoo Studio)、云扩机器人(Encoo Robot)、云扩控制台（Encoo Console），三个组件相互配合，帮助企业快速实现业务流程的自动化。
 
-## 天匠智能RPA社区版产品文档
+![产品架构图](https://docimages.blob.core.chinacloudapi.cn/images/encoo-structure.png)
 
-在我们将产品文档全部迁移到GitHub之前，您可以从以下链接下载到最新的PDF格式的文档。
-- [天匠编辑器文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Studio.pdf?st=2020-01-06T15%3A26%3A36Z&se=2020-04-07T15%3A26%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=vTd9Au%2FyAAhymwbWyfgZ%2Fd%2F5NTRfnUgB%2B8CvOFOa4Os%3D)
-- [天匠组件库文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Activity.pdf?st=2020-01-06T15%3A24%3A10Z&se=2020-04-07T15%3A24%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=AYX2POGEL6N4zmK8eNmHzlJVAsvdt%2FSDtEa1EqTQNyY%3D)
-- [天匠控制台文档](https://bottimeweblog.blob.core.chinacloudapi.cn/docs/2020-01-06/BotTime_Console_v1.01.pdf?st=2020-01-10T05%3A47%3A25Z&se=2020-04-11T05%3A47%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=clq%2FtWo7Wgo0jLdfwefESsu3umhOCFHzR%2B8VJ1u3BUM%3D)
+
+## 云扩RPA产品文档
+
+本文作为云扩RPA的帮助指南，所以我们将主要介绍如何使用云扩RPA平台去自动化业务流程。点击以下链接，快速开始我们的RPA之旅！
+
+- [云扩编辑器文档](./Studio/Introduction/Introduction.md)
+- [云扩组件库文档](./Activities/WorkflowControl/Sequence.md)
+- [云扩控制台文档](./Console/register.md)
 
