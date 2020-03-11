@@ -1,5 +1,9 @@
 [
-    {
+  {
+    "name":"ChromeExtension.md",
+    "localizedName":"Chrome扩展"
+  },
+  {
       "name":"JavaExtension.md",
       "localizedName":"Java扩展"
     }

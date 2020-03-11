@@ -2,7 +2,7 @@
 
    ![安装崩溃](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installCollapse.png)
 
-   **A：** 打开控制面板->程序->卸载程序，在卸载或更改程序列表中检查是否安装.Net Framework 4.6.1及以上版本的.Net Framework环境。如果未安装，请先下载.Net Framework 4.6.1并安装，安装好之后重启电脑再进行天匠编辑器的安装。下载地址：<https://www.microsoft.com/zh-CN/download/details.aspx?id=49982>
+   **A：** 打开控制面板->程序->卸载程序，在卸载或更改程序列表中检查是否安装.Net Framework 4.6.1及以上版本的.Net Framework环境。如果未安装，请先下载.Net Framework 4.6.1并安装，安装好之后重启电脑再进行云扩编辑器的安装。下载地址：<https://www.microsoft.com/zh-CN/download/details.aspx?id=49982>
 
 2. **Q:** 点击安装，显示安装失败
 

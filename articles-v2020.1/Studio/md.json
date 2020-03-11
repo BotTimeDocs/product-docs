@@ -20,12 +20,16 @@
     "localizedName":"自动化项目"
    },
    {
+    "name":"Debugging.md",
+    "localizedName":"调试"
+   },
+   {
      "name":"TypeOfWorkflow",
      "localizedName":"工作流类型"
    }, 
    {
      "name":"Market.md",
-     "localizedName":"天匠市场"
+     "localizedName":"云扩市场"
    },
    {
      "name":"Variables",

@@ -6,6 +6,11 @@
   },
   {
     "id": null,
+    "name": "Browser",
+    "localizedName": "浏览器"
+  },
+  {
+    "id": null,
     "name": "OfficeExcel",
     "localizedName": "Office Excel"
   },
