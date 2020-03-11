@@ -4,6 +4,10 @@
     "localizedName":"Chrome扩展"
   },
   {
+      "name":"FireFoxExtension.md",
+      "localizedName":"FireFox扩展"
+    },
+  {
       "name":"JavaExtension.md",
       "localizedName":"Java扩展"
     }
