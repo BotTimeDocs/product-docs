@@ -5,6 +5,7 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Selector.png)
 
 组成： 
+
 1.目标元素预览图
   - 此区域仅在使用图像识别方式指定元素时会显示，显示的是指定元素的截图
   - **选择器编辑区** <img Role="Image" FilePath="XXXXXXX"...> 中的**FilePath**指定图片，并可通过点击右侧按钮，弹出文件选择对话框后，更换目标元素图。同时此区域会同步更新
