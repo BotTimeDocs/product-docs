@@ -16,6 +16,8 @@
     * 值："请问，你的名字是什么？"
 
 5. 此时，子流程文件如下所示：
+    
+    ![子流程文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/argument1.xaml.png)
 
 6. 打开Main.xaml文件，打开“变量”面板，创建一个String型变量（result）
 
@@ -35,5 +37,7 @@
     * 日志内容："result+"我的名字是小匠。""
 
 12. 此时，主流程文件如下所示：
+    
+    ![主流程文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/main.xaml.png)
 
 最终运行该流程，日志窗口将会显示相关信息。
