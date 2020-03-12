@@ -6,7 +6,7 @@
 
 该项目中包含了以下两个部分：
 - 自动创建的Main.xaml流程文件。该文件作为流程执行时的开始文件，包含了你编辑器的主要流程。
-- 其他的.xaml流程文件。这些文件需要通过[调用流程](https://academy.bottime.com/en-us/wiki/Activities/WorkflowControl/InvokeWorkflow.md)组件，将其与Main.xaml文件连接起来，因为当运行或调试自动化流程时，将从Main.xaml文件开始。
+- 其他的.xaml流程文件。这些文件需要通过[调用流程](https://academy.encoo.com/zh-cn/wiki/Activities/WorkflowControl/InvokeWorkflow.md)组件，将其与Main.xaml文件连接起来，因为当运行或调试自动化流程时，将从Main.xaml文件开始。
 
 ## 创建流程
 本示例将教你如何创建并运行一个基本自动化流程。我们将会打开浏览器，搜索天气预报，获取明天的天气信息，并进行提示：明天是否有雨。
