@@ -27,4 +27,7 @@
 
 - **结果** ：将两个值对比后的结果保存到此变量
 
+<table><td bgcolor=	#F0F8FF>HTML返回 tagName属性的值为大写</td></table>
+
+
 

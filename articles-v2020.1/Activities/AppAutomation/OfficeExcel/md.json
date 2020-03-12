@@ -93,5 +93,25 @@
         "id": null,
         "name": "Save.md",
         "localizedName": "保存"
+    },
+    {
+        "id": null,
+        "name": "HideWorksheets.md",
+        "localizedName": "隐藏工作表"
+    },
+    {
+        "id": null,
+        "name": "InsertWorksheets.md",
+        "localizedName": "插入工作表"
+    },
+    {
+        "id": null,
+        "name": "InsertRoworColumn.md",
+        "localizedName": "插入行或列"
+    },
+    {
+        "id": null,
+        "name": "MergeCells.md",
+        "localizedName": "合并单元格"
     }
 ]
