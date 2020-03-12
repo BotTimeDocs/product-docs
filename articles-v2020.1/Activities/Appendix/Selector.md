@@ -1,6 +1,7 @@
 ## 选择器
 
 点击**选择器**属性右侧的按钮，弹出下述界面。用户可在此窗口查看所指定元素的详细信息，同时提供编辑功能，用户可以自定义指定元素信息
+
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Selector.png)
 
 组成： 

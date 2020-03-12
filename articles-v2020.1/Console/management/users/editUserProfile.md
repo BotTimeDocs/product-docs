@@ -1,7 +1,7 @@
-# 编辑用户信息
+# 修改用户信息
 
 编辑用户基本信息：
-进入用户管理-用户信息，找到你想要编辑的用户，点击查看按钮跳转到用户详情。
+进入全局设置-用户信息，找到你想要编辑的用户，点击查看按钮跳转到用户详情。
  ![edituser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/edituserprofile1.png)
 你可以在用户详情点击修改按钮，编辑用户姓名，密码，手机。
   ![edituser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/edituserprofile2.png)

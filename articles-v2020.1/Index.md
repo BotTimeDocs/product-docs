@@ -10,6 +10,6 @@
 本文作为云扩RPA的帮助指南，所以我们将主要介绍如何使用云扩RPA平台去自动化业务流程。点击以下链接，快速开始我们的RPA之旅！
 
 - [云扩编辑器文档](./Studio/Introduction/Introduction.md)
-- [云扩组件库文档](./Activities/WorkflowControl/Sequence.md)
+- [云扩组件库文档](./Activities/ComponentsIntroduction.md)
 - [云扩控制台文档](./Console/register.md)
 

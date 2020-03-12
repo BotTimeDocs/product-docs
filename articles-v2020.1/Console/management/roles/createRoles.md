@@ -1,5 +1,5 @@
 # 创建角色
-进入用户管理-角色管理，点击新增按钮打开创建角色弹窗。
+进入全局设置-角色管理，点击新增按钮打开创建角色弹窗。
 ![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/roles/createroles1.png)
 打开创建角色弹窗，输入角色名称及备注，注意角色名不可重复。
 ![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/roles/createroles2.png)
