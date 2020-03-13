@@ -1,10 +1,10 @@
 # FireFox扩展
 ## 安装
 1. 在编辑器的**扩展**工具栏下你可以看到你需要安装的 FireFox 扩展。
-<!-- 
-   ![FireFox 扩展]() -->
 
-2. 点击“Chrome扩展”按钮。显示安装对话框，点击“确定“。
+   ![FireFox扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-clickExtension.png)
+
+2. 点击“FireFox扩展”按钮。显示安装对话框，点击“确定“。
 <!--  
    ![确定安装 FireFox 扩展]() -->
 

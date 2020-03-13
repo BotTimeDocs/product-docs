@@ -17,7 +17,9 @@
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/newProject.PNG)
 
 3. 从组件窗口，搜索“打开浏览器”组件，并将其拖入到设计窗口连接至开始节点
-4. 在该组件的属性窗口输入类别下的网址字段中填入"https://www.baidu.com"
+4. 在该组件的属性窗口的目标类别下输入相关提示信息：
+    * 浏览器类型：IE
+    * 网址："https://www.baidu.com"
 
     ![打开浏览器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoOpenBrowser.PNG)
 
@@ -34,7 +36,7 @@
 
     ![百度一下](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/clickBaidu.png)
 
-9. 打开录制器界面，选择文本-获取文本，点击第二栏的天气 
+9. 打开录制器界面，选择文本-获取文本，点击明天的天气信息以获取天气文本
 
     ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/getText.png)
 
@@ -51,17 +53,18 @@
 
     ![输入变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/inputWeather.PNG)
 
-14. 从组件窗口拖入一个“条件（If）”组件连接到“获取文本”组件，属性面板的条件字段中输入weather.Contains(“雨”)
+14. 从组件窗口拖入一个“条件（If）”组件连接到“获取文本”组件，属性窗口的输入类别下输入相关提示信息：
+    * 判断条件：weather.Contains(“雨”)
 
     ![拖入条件组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoIf.PNG)
 
 15. 拖入一个确认框组件到条件的Then部分，并在输入类别下输入相关提示信息：
- * 标题："明日天气提醒"
- * 描述："明天有雨，记得带伞哦" 
+    * 标题："明日天气提醒"
+    * 描述："明天有雨，记得带伞哦" 
 
 16. 拖入另一个确认框到条件的Else部分，并在输入类别下输入相关提示信息：
- * 标题："明日天气提醒"
- * 描述："明天无雨，出去走走吧"
+    * 标题："明日天气提醒"
+    * 描述："明天无雨，出去走走吧"
 
     ![拖入确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoInput.PNG)
 
