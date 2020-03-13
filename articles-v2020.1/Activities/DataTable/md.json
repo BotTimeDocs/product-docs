@@ -5,7 +5,7 @@
         "localizedName": "搭建数据表"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTablePreviewActivity",
         "name": "PreviewDataTable.md",
         "localizedName": "预览数据表"
     },
@@ -25,7 +25,7 @@
         "localizedName": "合并数据表"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.JoinDataTablesActivity",
         "name": "JoinDataTable.md",
         "localizedName": "联结数据表"
     },
@@ -50,7 +50,7 @@
         "localizedName": "移除列"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTableRemoveDuplicateRowActivity",
         "name": "RemoveDuplicateRow.md",
         "localizedName": "移除重复行"
     },
@@ -60,27 +60,27 @@
         "localizedName": "遍历行"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTableSortActivity",
         "name": "SortDataTable.md",
         "localizedName": "排序"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.FilterDataTableActivity",
         "name": "FilterDataTable.md",
         "localizedName": "筛选"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTableGetValueActivity",
         "name": "GetValue.md",
         "localizedName": "获取单元格的值"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTableReadCSVActivity",
         "name": "ReadCSV.md",
         "localizedName": "读取CSV文件"
     },
     {
-        "id": null,
+        "id": "BotTime.DataTableActivity.Activities.DataTableSaveToCSVActivity",
         "name": "SaveToCSV.md",
         "localizedName": "保存为CSV文件"
     }
