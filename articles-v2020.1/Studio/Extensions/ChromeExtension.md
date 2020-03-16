@@ -14,6 +14,8 @@
 
    ![打开扩展程序](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-openExtension.png)
 
-4. 在chrome://extensions/页面中，找到Encoo Recorder扩展。
+4. 在chrome://extensions/页面中，找到“云扩录制器”扩展。
 
 5. 点击该扩展右下角的启用按钮。
+
+   ![启用扩展程序](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)

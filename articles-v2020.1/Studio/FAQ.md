@@ -18,15 +18,15 @@
 
 4. **Q:** 编辑器的默认安装目录是什么？
 
-   **A：** %USERNAME%\AppData\Local\Encootech\BotTime Studio
+   **A：** %USERNAME%\AppData\Local\Encootech\Encoo Studio
 
 5. **Q:** 机器人的默认安装目录是什么？
 
-   **A：** %programfiles(x86)%\Encootech\BotTime Robot
+   **A：** %programfiles(x86)%\Encootech\Encoo Robot
 
 6. **Q:** 默认日志路径是什么？
 
-   **A：** %username%\AppData\Local\BotTime\Log。(Installation为安装日志)
+   **A：** %username%\AppData\Local\Encoo\Log。(Installation为安装日志)
 
 7. **Q:** 从市场下载的组件包存放在本地计算机什么目录？
 
@@ -53,7 +53,7 @@
 
    ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/googleExtension.png)
 
-   ② 当打开chrome后，检查任务管理器是否存在进程：BotTimeNativeMessageHost.exe，该进程是RPA与chrome浏览器的通信进程，如果不存在，则检查①。
+   ② 当打开chrome后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是RPA与chrome浏览器的通信进程，如果不存在，则检查①。
 
    ![检查进程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/taskManager.png)
 
