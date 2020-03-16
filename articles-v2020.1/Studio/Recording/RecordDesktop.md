@@ -11,7 +11,7 @@
 
 5. 找到记事本，点击主窗口，会弹出一个窗口
 
-6. 输入一段自定义的文本，然后点击“确定”，该段文本将会显示在记事本中<br>例如：你好！欢迎使用云扩编辑器！
+6. 输入一段自定义的文本，然后点击“确定”，该段文本将会显示在记事本中<br>例如：你好！欢迎使用云扩RPA编辑器！
 
     ![输入文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/inputText.PNG)
 

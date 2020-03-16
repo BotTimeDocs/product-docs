@@ -11,7 +11,7 @@
 ## 创建流程
 本示例将教你如何创建并运行一个基本自动化流程。我们将会打开浏览器，搜索天气预报，获取明天的天气信息，并进行提示：明天是否有雨。
 
-1. 打开云扩编辑器
+1. 打开云扩RPA编辑器
 2. 新建一个项目，并输入项目名称（以 MyFirstProject 为例） 
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/newProject.PNG)

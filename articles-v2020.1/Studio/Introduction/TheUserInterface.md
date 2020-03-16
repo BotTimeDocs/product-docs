@@ -1,5 +1,5 @@
 # 用户界面
-云扩编辑器的用户界面主要由工具栏、工具窗口以及设计窗口三个区域组成。 
+云扩RPA编辑器的用户界面主要由工具栏、工具窗口以及设计窗口三个区域组成。 
 
 ![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
 

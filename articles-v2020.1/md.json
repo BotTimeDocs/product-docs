@@ -5,7 +5,7 @@
   },
   {
     "name": "Studio",
-    "localizedName": "云扩编辑器"
+    "localizedName": "云扩RPA编辑器"
   },
   {
     "id": null,
@@ -15,6 +15,6 @@
   {
     "id": null,
     "name": "Console",
-    "localizedName": "云扩控制台"
+    "localizedName": "云扩RPA控制台"
   }
 ]
