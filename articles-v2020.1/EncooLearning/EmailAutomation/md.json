@@ -1,0 +1,12 @@
+[
+    {
+        "id": null,
+        "name": "EmailAutomationIntro.md",
+        "localizedName": "介绍"
+    },
+    {
+        "id": null,
+        "name": "HowToEmailAutomation.md",
+        "localizedName": "如何实现自动发送Email的机器人"
+    }
+]
