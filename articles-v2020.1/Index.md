@@ -11,5 +11,6 @@
 
 - [云扩RPA编辑器文档](./Studio/Introduction/Introduction.md)
 - [云扩组件库文档](./Activities/ComponentsIntroduction.md)
+- [云扩RPA机器人文档](./Robot/aboutRobot.md)
 - [云扩RPA控制台文档](./Console/register.md)
 
