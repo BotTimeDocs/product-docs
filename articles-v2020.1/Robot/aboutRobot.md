@@ -50,3 +50,10 @@
 
 **未激活**：指当前激活许可证过期或未到激活开始时间的机器人，未激活机器人无法进行任何操作
 
+# 机器人托盘状态
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotupdatestatus.png)
+表示机器人有新版本待更新
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotunconnectedstatus.png)
+表示机器人为获得许可
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotcommonstatus.png)
+表示机器人正常连接状态
