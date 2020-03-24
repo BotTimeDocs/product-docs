@@ -30,11 +30,11 @@
 
 7. **Q:** 从市场下载的组件包存放在本地计算机什么目录？
 
-   **A：** %username%.botTimeRPA\packages\Activity
+   **A：** %username%\\.botTimeRPA\packages\Activity
 
 8. **Q:** 如何在没有外网访问的计算机使用组件市场的组件？
 
-   **A：** 打开本地下载好的组件包地址：C:\Users%USERNAME%.botTimeRPA\packages\Activity
+   **A：** 打开本地下载好的组件包地址：C:\Users\\%USERNAME%\\.botTimeRPA\packages\Activity
 
    ![本地下载组件地址](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/localActivitiesPosition.png)
 

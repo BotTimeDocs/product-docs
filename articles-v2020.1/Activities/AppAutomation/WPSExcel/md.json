@@ -15,7 +15,7 @@
     "localizedName": "读取区域"
   },
   {
-    "id": null,
+    "id": "BotTime.WPS.Activity.WPSExcelReadRowColumnActivity",
     "name": "ReadRowOrColumn.md",
     "localizedName": "读取行/列数据"
   },
@@ -55,7 +55,7 @@
     "localizedName": "获取所有工作表名"
   },
   {
-    "id": null,
+    "id": "BotTime.WPS.Activity.WPSExcelHideSheetActivity",
     "name": "HideWorksheet.md",
     "localizedName": "隐藏工作表"
   },
@@ -98,15 +98,5 @@
     "id": "BotTime.WPS.Activity.WPSExcelMergeCellsActivity",
     "name": "Merge.md",
     "localizedName": "合并单元格"
-  },
-  {
-    "id": "BotTime.WPS.Activity.WPSExcelReadRowColumnActivity",
-    "name": "ReadRowColumn.md",
-    "localizedName": "读取行或列数据"
-  },
-  {
-    "id": "BotTime.WPS.Activity.WPSExcelHideSheetActivity",
-    "name": "HideSheet.md",
-    "localizedName": "隐藏工作表"
   }
 ]
