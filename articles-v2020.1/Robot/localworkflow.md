@@ -60,3 +60,4 @@
 
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/executorRobot.png)
 
+你可以通过[机器人日志](\log.md)查看更详细的执行日志。
