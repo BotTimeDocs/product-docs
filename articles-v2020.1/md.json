@@ -14,6 +14,11 @@
   },
   {
     "id": null,
+    "name": "Robot",
+    "localizedName": "云扩RPA机器人"
+  },
+  {
+    "id": null,
     "name": "Console",
     "localizedName": "云扩RPA控制台"
   }
