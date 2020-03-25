@@ -4,6 +4,14 @@
     "localizedName": "关于机器人"
   },
   {
+    "name": "installRobot.md",
+    "localizedName": "安装机器人"
+  },
+  {
+    "name": "updateRobot.md",
+    "localizedName": "更新机器人"
+  },
+  {
     "name": "license.md",
     "localizedName": "激活机器人"
   },
