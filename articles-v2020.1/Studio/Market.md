@@ -58,8 +58,9 @@
 
 ### 管理流程市场
 
-通过管理流程市场，你可以添加你的私有化流程市场，详细步骤请咨询我们的工作人员。
+通过管理流程市场，不但可以创建本地市场，也可以部署私有化流程市场。
+部署私有化市场的详细步骤您可以拨打 400-639-2198 联系您的专属顾问，我们将竭诚为您提供帮助！也可以访问[此页面](https://www.encoo.com/apply)并留下您的联系方式，我们的工作人员会在1-2个工作日联系您。
 
-![管理流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/manageFlowmarket.PNG)
 
- 
+![管理流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/PersonalMarket.png)
+
