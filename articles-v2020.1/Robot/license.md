@@ -19,7 +19,6 @@
 
 机器人码：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**机器码**复制填入
 
-机器人如何创建：详见[控制台创建机器人]()
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
 
 
@@ -35,18 +34,20 @@
 首次安装后打开机器人，激活设置窗口将自动打开。
 
 你也可以通过右键机器人ICON，点击“**激活配置**”进入页面。
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotmenu.png)
 
 
 机器人码：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**机器码**复制填入
 
-机器人如何创建：详见[控制台创建机器人]()
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
 
 控制台地址：将**控制台地址**复制填入
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getconsolewebsite.png)
 
 点击绑定，即可激活机器人：
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebyconsole2.png)
 
 绑定成功后，机器人状态由**未绑定**转为**已绑定**
@@ -55,7 +56,9 @@
 安装机器人后，打开**激活设置**，点击“**许可证激活**”。将机器码复制，发给我们的实施人员。
 
 实施人员会通过机器码返回你对应的许可证。
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activerobotbylicense.png)
+
 将返回的**许可证**填入机器码对应的机器人，点击**激活**。
 
 激活成功后，机器人状态由**未绑定**转为**已激活**
@@ -67,24 +70,29 @@
 首次安装后打开机器人，激活设置窗口将自动打开。
 
 你也可以通过右键机器人ICON，点击“**激活配置**”进入页面。
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotmenu.png)
 
 
 机器人码：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**机器码**复制填入
 
-机器人如何创建：详见[控制台创建机器人]()
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
 
 控制台地址：将**控制台地址**复制填入
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getconsolewebsite.png)
 
 点击绑定，即可激活机器人：
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebyconsole2.png)
 
 ## 配置用户
 进入**配置用户**，点击添加，填入本机器的域名/用户名和密码。
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/configrobotuser.png)
 
 获取域名/用户名：
 
 绑定成功后，机器人状态由**未绑定**转为**已绑定**
+
+机器人如何创建：详见[控制台创建机器人]()

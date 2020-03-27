@@ -4,16 +4,24 @@
     "localizedName": "关于机器人"
   },
   {
+    "name": "installRobot.md",
+    "localizedName": "安装机器人"
+  },
+  {
+    "name": "updateRobot.md",
+    "localizedName": "更新机器人"
+  },
+  {
     "name": "license.md",
     "localizedName": "激活机器人"
   },
   {
-    "name": "basesetting0.md",
+    "name": "basesetting.md",
     "localizedName": "基本设置"
   }
   ,
   {
-    "name": "localworkflaw.md",
+    "name": "localworkflow.md",
     "localizedName": "流程库"
   }
   ,
