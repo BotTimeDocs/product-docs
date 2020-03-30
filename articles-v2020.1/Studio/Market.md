@@ -18,6 +18,7 @@
 2. 在工具栏点击“组件市场”打开组件市场窗口
 3. 在搜索文本框输入关键字查找组件，例如“云扩”
 4. 选中组件并点击“下载”图标
+
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-1.png)
 
 5. 在“安装组件”窗口点击“确认”将此组件安装至项目中
@@ -58,7 +59,9 @@
 
 ### 下载与使用 
 
+&nbsp;
     ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-0.png)
+
 
 1. 在流程列表选择想要下载的流程
 2. 点击“下载”图标
@@ -76,12 +79,11 @@
 
     ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-3.png)
 
-
 ## 管理市场
 
 在“组件/流程市场”窗口点击“管理市场”可创建本地或基于特定网络的私有市场
+    ![ManagementMarket](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/MarketManagement.png)
 
-![管理市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/MarketManagement.png)
 
 ### 本地私有市场
 
