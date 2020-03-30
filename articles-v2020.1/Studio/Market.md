@@ -19,7 +19,9 @@
 3. 在搜索文本框输入关键字查找组件，例如“云扩”
 4. 选中组件并点击“下载”图标
 
+
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-1.png)
+
 
 5. 在“安装组件”窗口点击“确认”将此组件安装至项目中
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-2-0.png)
