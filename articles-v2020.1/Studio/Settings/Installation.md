@@ -1,4 +1,5 @@
-# 安装编辑器
+# 编辑器的安装与更新
+## 安装
 1. 打开云扩RPA控制台（<https://console.encoo.com/#/user/register>）并注册登录。点击左侧“安装包下载”的导航按钮，选择云扩RPA编辑器安装包进行下载。 
  
    ![开始](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/downloadexe.png)
@@ -13,13 +14,9 @@
   
    ![安装](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/immediateInstallation.png)
 
-5. 请注意：安装完成后，打开该程序时，需要进行登录以及选择工作目录。 
-   * 登录编辑器：使用控制台账号登录即可。 
-     
-      ![用户登录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/login.PNG)
+## 更新
+当编辑器有新版本时，系统会自动检测并弹出更新窗口，提示更新。
 
-   * 选择工作目录：若需自定义工作目录，可点击“浏览”来选择你的工作目录，选择完成后点击![下一步](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/next.png)打开编辑器。 
-     
-      ![选择工作目录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/chooseWorkspace.png)
-  
-  
+当你点击“确定”时，系统将下载最新版的编辑器，你可以通过后续步骤更新至最新版本。
+
+若你暂时不想更新编辑器，可点击“取消”，关闭提示弹窗，进入编辑器继续你的工作。

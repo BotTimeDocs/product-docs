@@ -1,7 +1,7 @@
-# 变量面板 
-使用变量面板可以创建和修改变量。 
+# 变量列表 
+使用变量列表可以创建和修改变量。 
 
-![变量面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/createdVariable.png)
+![变量列表](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/createdVariable.png)
 
 |字段| 	描述| 
 |---|---|
@@ -22,7 +22,7 @@
 
 |字段| 	描述| 
 |---|---| 
-|删除 |	将变量从面板中删除，但不从流程中删除。| 
+|删除 |	将变量从列表中删除，但不从流程中删除。| 
 |添加批注| 	打开“添加批注”窗口，为变量添加注释。| 
-|编辑批注 |	打开“添加批注”窗口对已有的注释进行更改。| 
+|编辑批注 |	打开“添加批注”窗口，对已有的注释进行更改。| 
 |删除批注| 	删除为变量添加的注释。| 

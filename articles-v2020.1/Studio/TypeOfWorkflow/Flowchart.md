@@ -6,15 +6,15 @@
 ## 流程图示例 
 创建一个对用户登录进行判断的示例来对流程图进行说明。具体操作如下：
 
-1. 创建一个空白的自动化流程项目。在工具栏-设计中点击新建项目图标新建一个项目，并输入项目名称，例如 “flowTest”。 
+1. 创建一个空白的自动化流程项目。在项目面板中点击“新建项目”以新建一个项目，并输入项目名称，例如 “flowTest”。 
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-createProject.png)
 
-2. 点击“变量”，唤出变量面板，并点击“创建变量”，创建两个String型变量（name、password）。
+2. 在编辑区域点击“变量”，唤出变量列表，并点击“创建变量”，创建两个字符串型（String）变量（name、password）。
 
     ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-createVariables.png)
 
-3. 将“流程图”添加至设计窗口中，并连接到“开始”节点。
+3. 将“流程图”添加至编辑区域中，并连接到“开始”节点。并在该组件的属性面板中，输入以下内容：
    * 显示名称：“用户登录”
 
     ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoFlowchart.png)
@@ -23,7 +23,7 @@
 
     ![输入框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoInput1.png)
 
-5. 在“输入框”的属性窗口中，输入如下内容： 
+5. 在“输入框”的属性面板中，输入以下内容： 
     * 输入的内容：name 
     * 标题："用户名"
     * 描述："请输入用户名" 
@@ -31,11 +31,11 @@
 
     ![输入框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-input1Properties.png)
 
-6. 将“流程决策”添加到设计窗口中，并连接到“输入框”。此组件可以判断用户是否正确输入用户名。 
+6. 将“流程决策”添加到编辑区域中，并连接到“输入框”。此组件可以判断用户是否正确输入用户名。 
 
     ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoDecision1.png)
 
-7. 在“流程决策”的属性窗口中输入如下内容： 
+7. 在“流程决策”的属性面板中，输入以下内容： 
     * 判断条件：name==""。该字段用来判断用户名是否为空 
     * 显示名称：判断用户名是否为空。该字段可自行更改为你所想要的其他内容 
 
@@ -45,7 +45,7 @@
 
     ![输入框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoInput2.png)
 
-9. 在“输入框”的属性窗口中，输入如下内容： 
+9. 在“输入框”的属性面板中，输入以下内容： 
     * 输入的内容：password 
     * 标题："密码"
     * 描述："请输入密码"
@@ -57,7 +57,7 @@
 
     ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoDecision2.png)
 
-11. 在“流程决策”的属性窗口中输入如下内容： 
+11. 在“流程决策”的属性面板中，输入以下内容： 
     * 判断条件：password==""。该字段用来判断密码是否为空 
     * 显示名称：判断密码是否为空。该字段可自行更改为你所需要的其他内容 
 
@@ -67,7 +67,7 @@
 
     ![确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoConfirm.png)
 
-13. 在“确认框”的属性窗口中输入如下内容： 
+13. 在“确认框”的属性面板中，输入以下内容： 
     * 标题："用户登录"
     * 描述：name+"登录成功" 
 
@@ -75,7 +75,7 @@
 
     ![示例](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-example.PNG)
 
-在工具栏-设计中点击“运行”，输入用户名、密码，最终结果将显示Tewin登录成功。 
+在运行面板中点击“运行”，输入用户名、密码，最终结果将显示Tewin登录成功。 
 
 ![结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-result.png)
 

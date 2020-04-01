@@ -3,13 +3,13 @@
 
 自动化项目发布到控制台后，将存储在流程包管理页面，以便分配给指定机器人执行。而发布到流程市场后，将存储在你指定的流程市场中，以便实现共享。
 
-要实现发布流程，从工具栏的设计->发布中选择你想要发布的位置，然后点击它。
+要实现发布流程，从工具栏->发布中选择你想要发布的位置，然后点击它。
 
 ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/choosePosition.PNG)
 
 ## 发布流程
 1. 创建一个自动化项目。项目示例参看[创建自动化项目](./CreateProject.md)
-2. 在工具栏的设计->发布选择发布的位置：
+2. 在工具栏->发布选择发布的位置：
     * 发布到控制台
     
         ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToConsole.PNG)

@@ -14,7 +14,7 @@
 
 要创建新参数： 
 
-1. 在“设计窗口”中，点击“参数”。将显示参数面板。 
+1. 在“编辑区域”中，点击“参数”。将显示参数列表。 
 
     ![创建参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/argumentPanel-createArgument.png)
 
@@ -25,11 +25,11 @@
 >默认情况下，所有参数都是输入方向的字符串 (String) 类型。  
 
 ## 删除参数 
-1.  在参数面板中，选中一个参数并右击，在上下文菜单中点击“删除”选项。 
+1.  在参数列表中，选中一个参数并右击，在上下文菜单中点击“删除”选项。 
 
     ![删除参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/deleteArgument.png)
 
-2. 在参数面板中，选择一个参数并按 Delete 。 
+2. 在参数列表中，选择一个参数并按 Delete 。 
 
 >  注意： 
 > 
