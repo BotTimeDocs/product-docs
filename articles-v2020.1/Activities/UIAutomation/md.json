@@ -54,10 +54,6 @@
         "id": "Encootech.AutomationActivity.SetTextActivity",
         "name": "TypeInto.md",
         "localizedName": "输入文本"
-    },
-    {
-        "id": null,
-        "name": "DesktopOnly",
-        "localizedName": "桌面控件专有"
     }
+  
 ]
