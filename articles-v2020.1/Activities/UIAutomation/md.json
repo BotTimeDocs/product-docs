@@ -20,6 +20,12 @@
         "localizedName": "获取文本"
     },
     {
+        "id": "Encootech.AutomationActivity.GetStructuredDataActivity",
+        "name": "ExtractStructuredData.md",
+        "localizedName": "获取结构化数据"
+    },
+
+    {
         "id": "Encootech.AutomationActivity.GetElementActivity",
         "name": "GetElement.md",
         "localizedName": "获取元素"
