@@ -1,4 +1,4 @@
-## 新增流程执行
+## 查看流程执行
 进入**流程执行**，你可以看到当前资源组下的所有流程执行。
 你可以通过输入**流程执行名称**或**流程包名称**进行模糊查询，找到对应的流程执行。
 ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/viewprocess.png)
