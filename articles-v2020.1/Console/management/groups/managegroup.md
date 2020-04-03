@@ -3,10 +3,10 @@
 ## 查找资源组
 进入全局设置-资源组管理，你将在左侧看到租户下所有资源组。
 你可以通过资源组名模糊查询资源组。
+![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/group/groupview.png)
 
-
-## 新建资源组
-点击新建按钮，即可新建资源组。
+## 新增资源组
+点击新增按钮，即可新增资源组。
 ![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/group/addgroup.png)
 
 ## 编辑资源组
