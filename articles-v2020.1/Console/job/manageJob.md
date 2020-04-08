@@ -19,3 +19,29 @@
 
 当你的当前的筛选条件附带了弹框内容时，![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/searchJob2.png)将会变蓝提醒。
 
+你可以点击“**查看**”查看队列详情。
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/ViewJobdetail.png)
+
+# 终止执行队列
+当队列处于**等待**或**运行中**状态时，你可以手动点击“**终止**”，终止队列。
+
+当队列处于**等待**状态时，被终止成功的队列将不再执行。
+
+当队列处于**运行中**状态时，被终止成功的队列将强制结束运行。
+
+若队列终止出错，请检查你的应用端机器人状态，确保机器人正确连接。
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/stopjob.png)
+
+
+# 重新启动执行队列
+当队列处于**失败**，**等待**或**成功**状态时，你可以手动点击“**重新运行**”，重复执行队列。
+
+重新运行后，系统将自动创建一条相同的队列，进入队列排队。
+
+若队列重新运行出错，请检查你的应用端机器人和运行的流程包状态，确保流程包存在且机器人正确连接。
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/restartjob.png)
+
+# 优先执行队列
+当队列处于“**等待**”状态时，你可以点击详情看到当前队列排队顺序。
+
+
