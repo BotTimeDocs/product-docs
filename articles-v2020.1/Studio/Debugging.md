@@ -3,12 +3,12 @@
 
 你可以使用运行面板下的多个调试操作来执行调试，还可以通过其他相关面板来查看调试的具体过程。
 
-![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugging.PNG)
+<!-- ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugging.PNG) -->
 
 ## 调试操作
 你可以通过运行面板的“调试”按钮启动调试，也可以通过**F5**快捷键启动调试。
 
-![调试操作](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugging-actions.PNG)
+<!-- ![调试操作](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugging-actions.PNG) -->
 
 >注意：
 >
@@ -79,7 +79,7 @@
 
 该面板仅在调试过程中可见。变量面板的变量及属性可以展开/收起，这个对复杂类型的变量展示很有用。
 
-![变量面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/variablePanel.PNG)
+<!-- ![变量面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/variablePanel.PNG) -->
 
 使用该面板，我们可以清楚地查看到每一个变量在当前组件的类型和值。在流程运行到断点处暂停时，开始进行下一步调试，此时需要特别注意观察流程运行的每一步的数据是否为正确的数据，来判断流程是否正确执行。
 如果流程运行时，数据出错或并未进入我们预先设置的断点处，此时根据错误信息和运行逻辑重新判断流程出错的位置，重新设置断点，最终将流程不断细化找到流程的错误位置。

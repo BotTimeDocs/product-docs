@@ -73,10 +73,10 @@
 ## 运行流程
 1. 点击“运行”来尝试运行自动化流程
 
-    ![运行项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/runProject.PNG)
+    <!-- ![运行项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/runProject.PNG) -->
 
 2. 运行过程中，编辑器会自动回放录制的过程，并提示明天是否有雨 
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/result.png)
+    <!-- ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/result.png) -->
 
 

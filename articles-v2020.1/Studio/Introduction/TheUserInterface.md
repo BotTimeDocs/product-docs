@@ -1,13 +1,15 @@
 # 用户界面
-云扩RPA编辑器的用户界面主要由工具栏、工具面板以及编辑区域三个区域组成，其简单直观的布局，最大程度地为编辑区域提供空间。
+云扩RPA编辑器的用户界面主要由菜单栏、工具栏、工具面板以及编辑区域四部分组成，其简单直观的布局，最大程度地为编辑区域提供空间。
 
 ![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
 
-![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/1.PNG)  **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
+![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/1.PNG)  **菜单栏** - 一种树形结构，为编辑器提供一些功能入口。
 
-![2](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/2.PNG) **工具面板** — 使你可以访问诸如项目、组件之类的不同面板视图，在你处理项目时为你提供帮助。
+![2](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/2.PNG) **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
 
-![3](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/3.PNG) **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。 
+![3](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/3.PNG) **工具面板** — 使你可以访问诸如项目、组件之类的不同面板视图，在你处理项目时为你提供帮助。
+
+![4](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/4.PNG) **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。
 
 ## 项目面板
 **项目面板**以树形结构的方式显示你创建的全部的项目内容，你可以通过双击项目名打开该项目。 
@@ -39,7 +41,7 @@
 ## 组件面板
 **组件面板**主要显示自动化项目中所需要使用的组件，用鼠标拖拽到编辑区域中进行使用。组件面板提供快速查找工具的搜索框，输入组件名称即可搜索。 
 
-通过右键菜单或F1快捷键，可快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法。
+通过F1快捷键，可快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法。
 
 ![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activities.png)
 
@@ -54,19 +56,19 @@
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
-## 扩展面板
-**扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
-
-![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
-
-## 市场
-通过工具栏的**市场**按钮可打开组件市场和流程市场。
+## 市场面板
+**市场面板**使你可打开组件市场和流程市场。
 * **组件市场**-使你可以下载和管理第三方的组件，将其作为依赖项添加至自动化项目中。 
 * **流程市场**-你可以下载流程，已完成对相关组件的了解及应用。 
 
 有关市场的详细信息，请查看[云扩市场](../Market.md)。
 
 ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)
+
+## 扩展面板
+**扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
+
+![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
 
 ## 发布
 通过工具栏的**发布**按钮可将自动化项目发布到控制台、流程市场或组件市场。
@@ -81,7 +83,7 @@
 ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG)
 
 ## 个人信息
-通过点击编辑器顶部栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**进行用户注销。 
+通过点击菜单栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**进行用户注销。 
  
 ![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
 

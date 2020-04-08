@@ -6,7 +6,7 @@
 
 2. **Q:** 点击安装，显示安装失败
 
-   ![安装失败](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installationFailed.png)
+   <!-- ![安装失败](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installationFailed.png) -->
 
    **A：** 检查当前用户在安装目录的读写权限，如果当前用户在安装路径没有读写权限，则要用管理员账号登录，在安装目录右键，点击属性，点击安全标签，添加目标账户，并添加完全控制权限，最后点击确定，然后退出管理员账号，用目标用户登录进行安装。
 
