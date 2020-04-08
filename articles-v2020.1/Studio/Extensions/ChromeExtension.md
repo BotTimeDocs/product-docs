@@ -2,7 +2,7 @@
 在编辑器中，你可以通过安装Chrome扩展来进行浏览器的自动化。请注意，在你安装该扩展前，可能会要求你关闭Google Chrome，因此请务必将处理中的相关任务进行保存。
 
 ## 安装
-1. 在编辑器的**扩展**工具栏下你可以看到你需要安装的Chrome扩展。
+1. 在编辑器的**扩展面板**下你可以看到你需要安装的Chrome扩展。
 
    ![Chrome扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-clickExtension.PNG)
 

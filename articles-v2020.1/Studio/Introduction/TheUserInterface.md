@@ -16,9 +16,10 @@
 
 项目面板提供一些按钮，对项目进行诸如新建、导入之类的操作。你还可以使用相关工具来帮助你完成自动化流程的快速实现。
 - **新建项目** - 创建一个新的自动化项目
+- **保存** - 将当前编辑好的流程保存
 - **全部保存** - 将所有编辑好的流程保存
 - **导入项目** - 导入外部的自动化项目到编辑器里，以供使用
-- **智能录制** - 通过录制器可以完成对网站应用程序、桌面应用程序的自动化操作
+
 
 ![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/workspace.PNG)
 
@@ -46,7 +47,7 @@
 ![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activities.png)
 
 ## 运行面板
-**运行面板**用于运行和调试你的自动化项目，在特定情况下会在内部显示示日志面板和变量面板。
+**运行面板**用于运行和调试你的自动化项目，在特定情况下会在内部显示日志面板和变量面板。
 
 **运行**自动化项目时，所有项目运行时相关过程的详细信息都将显示在日志面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
 
@@ -63,7 +64,7 @@
 
 有关市场的详细信息，请查看[云扩市场](../Market.md)。
 
-![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)
+<!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 
 ## 扩展面板
 **扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
@@ -78,9 +79,9 @@
 有关发布自动化项目的详细信息，请查看[发布自动化项目](../AutomationProjects/PublishProject.md)。
 
 ## 帮助 
-通过工具栏的**帮助**按钮使你能够快速打开产品文档、在线课程、社区论坛，以获取帮助。 
+通过工具栏或菜单栏的**帮助**按钮使你能够快速打开产品文档、在线课程、社区论坛，以获取帮助。 
 
-![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG)
+<!-- ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG) -->
 
 ## 个人信息
 通过点击菜单栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**进行用户注销。 
@@ -90,7 +91,7 @@
 ## 系统设置
 **系统设置**用于管理编辑器相关的设置信息，同时还可以找到产品的版本信息。 
  
-![系统设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start.png)
+![系统设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/settings.PNG)
 
 ## 编辑区域 
 **编辑区域**显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。

@@ -4,7 +4,7 @@
  
    ![开始](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/downloadexe.png)
 
-2. 下载完成后双击安装包进行安装，进入如下图所示界面,勾选我已阅读并同意用户协议后点击“开始安装”即可安装云扩RPA编辑器。 
+2. 下载完成后双击安装包进行安装，进入如下图所示界面,勾选“已阅读并同意用户协议”后，点击“开始安装”即可安装云扩RPA编辑器。 
   
    ![开始安装](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/startInstallation.png )
 

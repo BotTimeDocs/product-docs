@@ -1,6 +1,6 @@
 # FireFox扩展
 ## 安装
-1. 在编辑器的**扩展**工具栏下你可以看到你需要安装的 FireFox 扩展。
+1. 在编辑器的**扩展面板**下你可以看到你需要安装的 FireFox 扩展。
 
    ![FireFox扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-clickExtension.png)
 
