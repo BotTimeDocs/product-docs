@@ -6,5 +6,9 @@
     {
      "name":"TheUserInterface.md",
      "localizedName":"用户界面"
-   }
+   },
+   {
+    "name":"KeyboardShortcuts.md",
+    "localizedName":"键盘快捷键"
+  }
 ]
