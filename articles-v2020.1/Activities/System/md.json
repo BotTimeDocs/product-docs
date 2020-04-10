@@ -40,6 +40,11 @@
         "localizedName": "获取Windows凭据"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetClipboardTextActivity",
+        "name": "GetContentsFromClipboard.md",
+        "localizedName": "获取剪贴板文本"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.ExecuteCmd",
         "name": "ExecuteCMD.md",
         "localizedName": "执行命令行"
