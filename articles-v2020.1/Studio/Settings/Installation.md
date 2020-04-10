@@ -16,6 +16,8 @@
 
 ## 更新
 当编辑器有新版本时，系统会自动检测并弹出更新窗口，提示更新。
+  
+   ![更新](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/update.PNG)
 
 当你点击“确定”时，系统将下载最新版的编辑器，你可以通过后续步骤更新至最新版本。
 
