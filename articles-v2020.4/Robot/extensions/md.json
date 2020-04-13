@@ -1,7 +1,15 @@
 [
   {
     "name":"extensions.md",
-    "localizedName":"浏览器扩展"
+    "localizedName":"关于扩展"
+  },
+  {
+    "name":"ChromeExtension.md",
+    "localizedName":"Chrome扩展"
+  },
+  {
+    "name":"FirefoxExtension.md",
+    "localizedName":"Firefox扩展"
   },
   {
       "name":"JavaExtension.md",
