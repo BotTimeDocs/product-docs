@@ -23,7 +23,7 @@
 
     ![打开浏览器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoOpenBrowser.PNG)
 
-5. 双击“打开浏览器”组件，并点击项目面板里的“智能录制”，打开录制器
+5. 双击“打开浏览器”组件，并点击菜单栏-工具下的“智能录制”，打开录制器
 6. 打开IE浏览器的百度网站的首页，然后点击录制器的“智能录制”进行网站操作的录制 
 
     ![录制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/baidu.PNG)
@@ -63,11 +63,11 @@
     - 标题："明日天气提醒"
     - 描述："明天有雨，记得带伞哦" 
 
+    ![拖入确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoInput.PNG)
+
 16. 拖入另一个确认框到条件的Else部分，并在该组件的属性面板中，输入以下内容：
     - 标题："明日天气提醒"
     - 描述："明天无雨，出去走走吧"
-
-    ![拖入确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoInput.PNG)
 
 
 ## 运行流程
