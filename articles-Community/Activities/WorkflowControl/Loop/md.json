@@ -1,0 +1,30 @@
+
+
+[
+  {
+    "id": "BotTime.Flow.Activities.While",
+    "name": "While.md",
+    "localizedName": "循环操作(While)"
+  },
+  {
+    "id": "BotTime.Flow.Activities.DoWhile",
+    "name": "DoWhile.md",
+    "localizedName": "循环操作(Do While)"
+  },
+  {
+    "id": "BotTime.Flow.Activities.ForEach",
+    "name": "ForEach.md",
+    "localizedName": "循环操作(For Each)"
+  },
+  {
+    "id": "BotTime.Flow.Activities.Continue",
+    "name": "Continue.md",
+    "localizedName": "继续循环"
+  },
+  {
+    "id": "BotTime.Flow.Activities.Break",
+    "name": "Break.md",
+    "localizedName": "终止循环"
+  }
+ 
+]

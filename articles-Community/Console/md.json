@@ -1,0 +1,12 @@
+[{"id":null,"name":"login.md","localizedName":"登录"},
+{"id":null,"name":"register.md","localizedName":"注册"},
+{"id":null,"name":"forgotPassword.md","localizedName":"忘记密码"},
+{"id":null,"name":"activeAccount.md","localizedName":"激活账户"},
+{"id":null,"name":"dashboard.md","localizedName":"仪表盘"},
+{"id":null,"name":"job","localizedName":"执行队列"},
+{"id":null,"name":"process","localizedName":"流程执行"},
+{"id":null,"name":"robot","localizedName":"机器人管理"},
+{"id":null,"name":"packages","localizedName":"流程包管理"},
+{"id":null,"name":"management","localizedName":"全局管理"},
+{"id":null,"name":"download","localizedName":"安装包下载"},
+{"id":null,"name":"cancelaccount.md","localizedName":"注销账户"}]

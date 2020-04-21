@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Index.md",
+    "localizedName": "概览"
+  },
+  {
+    "name": "Studio",
+    "localizedName": "云扩RPA编辑器"
+  },
+  {
+    "id": null,
+    "name": "Activities",
+    "localizedName": "云扩组件库"
+  },
+  {
+    "id": null,
+    "name": "Robot",
+    "localizedName": "云扩RPA机器人"
+  },
+  {
+    "id": null,
+    "name": "Console",
+    "localizedName": "云扩RPA控制台"
+  }
+]

@@ -1,0 +1,14 @@
+[
+    {
+      "name":"Introduction.md",
+      "localizedName":"产品介绍"
+    },
+    {
+     "name":"TheUserInterface.md",
+     "localizedName":"用户界面"
+   },
+   {
+    "name":"KeyboardShortcuts.md",
+    "localizedName":"键盘快捷键"
+  }
+]
