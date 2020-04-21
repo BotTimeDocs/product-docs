@@ -1,0 +1,22 @@
+[
+  {
+    "id": "BotTime.Mail.Activity.Activities.SendSmtpMailActivity",
+    "name": "SendMailSMTP.md",
+    "localizedName": "发送邮件(SMTP)"
+  },
+  {
+    "id": "BotTime.Mail.Activity.Activities.GetPOP3MailMessagesActivity",
+    "name": "GetMailPOP3.md",
+    "localizedName": "获取邮件(POP3)"
+  },
+  {
+    "id": "BotTime.Mail.Activity.Activities.GetIMAPMailMessagesActivity",
+    "name": "GetMailIMAP.md",
+    "localizedName": "获取邮件(IMAP)"
+  },
+  {
+    "id": "BotTime.Mail.Activity.Activities.SaveMailAttachmentsActivity",
+    "name": "SaveAttachment.md",
+    "localizedName": "保存附件"
+  }
+]

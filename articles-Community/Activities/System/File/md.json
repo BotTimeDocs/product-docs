@@ -1,0 +1,42 @@
+[
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.ReadTextFile",
+        "name": "ReadFile.md",
+        "localizedName": "读取文件"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.WriteTextFile",
+        "name": "WriteFile.md",
+        "localizedName": "写入文件"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.CreateActivity",
+        "name": "NewFileOrFolder.md",
+        "localizedName": "新建文件或文件夹"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.DeleteActivity",
+        "name": "DeleteFileOrFolder.md",
+        "localizedName": "删除文件或文件夹"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.FileCopyMoveActivity",
+        "name": "CopyOrMoveFile.md",
+        "localizedName": "复制或移动文件"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.FolderCopyMoveActivity",
+        "name": "CopyOrMoveFolder.md",
+        "localizedName": "复制或移动文件夹"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.GetFileListActivity",
+        "name": "GetFileOrFolderList.md",
+        "localizedName": "获取文件或文件夹列表"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.PathExistsActivity",
+        "name": "FileOrFolderExist.md",
+        "localizedName": "文件或文件夹是否存在"
+    }
+]
