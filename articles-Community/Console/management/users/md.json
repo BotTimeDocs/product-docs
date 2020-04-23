@@ -1,1 +1,32 @@
-[{"id":null,"name":"aboutUsers.md","localizedName":"关于用户信息"},{"id":null,"name":"viewUser.md","localizedName":"查看用户"},{"id":null,"name":"createUser.md","localizedName":"新增用户"},{"id":null,"name":"editUserProfile.md","localizedName":"修改用户信息"},{"id":null,"name":"editUserStatus.md","localizedName":"修改用户状态"}]
+[
+    {
+        "id": null,
+        "name": "aboutUsers.md",
+        "localizedName": "关于用户信息",
+        "uuid": "b5d41387-dfc8-435a-b328-42b896a8eec9"
+    },
+    {
+        "id": null,
+        "name": "viewUser.md",
+        "localizedName": "查看用户",
+        "uuid": "631cc621-55ea-49d2-a070-b29cac0681d4"
+    },
+    {
+        "id": null,
+        "name": "createUser.md",
+        "localizedName": "新增用户",
+        "uuid": "c0b60cd0-22ef-4aaf-9d46-3bacde7c60c2"
+    },
+    {
+        "id": null,
+        "name": "editUserProfile.md",
+        "localizedName": "修改用户信息",
+        "uuid": "d3f237e6-14c2-4178-b74a-ae22d131b93c"
+    },
+    {
+        "id": null,
+        "name": "editUserStatus.md",
+        "localizedName": "修改用户状态",
+        "uuid": "bf43bb21-8a44-4682-bc99-5c404591d6d6"
+    }
+]

@@ -1,10 +1,12 @@
 [
     {
-      "name":"Recording.md",
-      "localizedName":"智能录制"
+        "name": "Recording.md",
+        "localizedName": "智能录制",
+        "uuid": "be7cd362-e18a-4074-97bb-a949374bfccf"
     },
     {
-      "name":"RecordDesktop.md",
-      "localizedName":"录制桌面示例"
+        "name": "RecordDesktop.md",
+        "localizedName": "录制桌面示例",
+        "uuid": "a30626cc-878b-48f9-abd7-acacb0b281d8"
     }
 ]
