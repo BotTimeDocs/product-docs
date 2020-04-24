@@ -1,2 +1,14 @@
-[{"id":null,"name":"aboutRobot.md","localizedName":"关于机器人"},
-{"id":null,"name":"manageRobot.md","localizedName":"管理机器人"}]
+[
+    {
+        "id": null,
+        "name": "aboutRobot.md",
+        "localizedName": "关于机器人",
+        "uuid": "3d1c7c2d-857e-4791-b738-9ff9455d85bd"
+    },
+    {
+        "id": null,
+        "name": "manageRobot.md",
+        "localizedName": "管理机器人",
+        "uuid": "cdb519a8-e291-44e2-9215-92d794cd4f5b"
+    }
+]
