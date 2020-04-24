@@ -2,41 +2,49 @@
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.ReadTextFile",
         "name": "ReadFile.md",
-        "localizedName": "读取文件"
+        "localizedName": "读取文件",
+        "uuid": "64460436-d8e4-45ef-bced-267f3ae23d6a"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.WriteTextFile",
         "name": "WriteFile.md",
-        "localizedName": "写入文件"
+        "localizedName": "写入文件",
+        "uuid": "6463c4d1-9484-4833-b0fe-1e147dd55468"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.CreateActivity",
         "name": "NewFileOrFolder.md",
-        "localizedName": "新建文件或文件夹"
+        "localizedName": "新建文件或文件夹",
+        "uuid": "dba08bb4-1fd1-4df0-8e3d-09db3d102493"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.DeleteActivity",
         "name": "DeleteFileOrFolder.md",
-        "localizedName": "删除文件或文件夹"
+        "localizedName": "删除文件或文件夹",
+        "uuid": "cd3b00f7-3a9b-4b6a-b7b3-6aa622b835b1"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.FileCopyMoveActivity",
         "name": "CopyOrMoveFile.md",
-        "localizedName": "复制或移动文件"
+        "localizedName": "复制或移动文件",
+        "uuid": "fc027810-28ca-43af-ab31-9ed75f6b32f7"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.FolderCopyMoveActivity",
         "name": "CopyOrMoveFolder.md",
-        "localizedName": "复制或移动文件夹"
+        "localizedName": "复制或移动文件夹",
+        "uuid": "42ca697c-be37-4c93-9d43-cc323ea6ced6"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.GetFileListActivity",
         "name": "GetFileOrFolderList.md",
-        "localizedName": "获取文件或文件夹列表"
+        "localizedName": "获取文件或文件夹列表",
+        "uuid": "e79b6ecb-7eda-4f70-ab0c-905585b055e7"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.File.PathExistsActivity",
         "name": "FileOrFolderExist.md",
-        "localizedName": "文件或文件夹是否存在"
+        "localizedName": "文件或文件夹是否存在",
+        "uuid": "af8e39ff-ba43-4a3e-97cd-063bf94569f2"
     }
 ]

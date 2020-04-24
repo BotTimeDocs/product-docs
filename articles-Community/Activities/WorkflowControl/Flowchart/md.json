@@ -1,1 +1,14 @@
-[{"id":"System.Activities.Statements.Flowchart","name":"Flowchart.md","localizedName":"流程图"},{"id":"System.Activities.Statements.FlowDecision","name":"Decision.md","localizedName":"流程决策"}]
+[
+    {
+        "id": "System.Activities.Statements.Flowchart",
+        "name": "Flowchart.md",
+        "localizedName": "流程图",
+        "uuid": "06ebeccf-5af5-42f2-8226-03d48453a063"
+    },
+    {
+        "id": "System.Activities.Statements.FlowDecision",
+        "name": "Decision.md",
+        "localizedName": "流程决策",
+        "uuid": "b7deb2f5-e512-488c-9b29-86a317226e54"
+    }
+]

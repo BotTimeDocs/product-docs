@@ -2,17 +2,19 @@
     {
         "id": null,
         "name": "Encoding.md",
-        "localizedName": "支持的字符编码"
+        "localizedName": "支持的字符编码",
+        "uuid": "e01a2675-1934-417b-83aa-3a4be6268157"
     },
     {
         "id": null,
         "name": "SupportedAttribute.md",
-        "localizedName": "支持的属性列表"
+        "localizedName": "支持的属性列表",
+        "uuid": "b1d2d88d-5322-469b-9df0-939db05d256a"
     },
     {
         "id": null,
         "name": "Selector.md",
-        "localizedName": "选择器"
+        "localizedName": "选择器",
+        "uuid": "3b7fa33e-041d-49dd-bd80-5876b7971019"
     }
-    
 ]
