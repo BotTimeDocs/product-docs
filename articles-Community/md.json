@@ -5,6 +5,11 @@
         "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f"
     },
     {
+        "name": "Release_note.md",
+        "localizedName": "发版说明",
+        "uuid": "20c471b3-c9e4-4e1f-8f1b-69494d6b1fad"
+    },
+    {
         "name": "Studio",
         "localizedName": "云扩RPA编辑器"
     },
