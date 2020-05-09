@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Index.md",
+    "localizedName": "概览",
+    "uuid": "d00f9c12-6b85-48c1-8793-a158a4d6acae"
+  },
+  {
+    "name": "Studio",
+    "localizedName": "云扩RPA编辑器"
+  },
+  {
+    "id": null,
+    "name": "Activities",
+    "localizedName": "云扩组件库"
+  },
+  {
+    "id": null,
+    "name": "Robot",
+    "localizedName": "云扩RPA机器人"
+  },
+  {
+    "id": null,
+    "name": "Console",
+    "localizedName": "云扩RPA控制台"
+  }
+]
