@@ -42,6 +42,12 @@
         "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelAutoFillRangeActivity",
+        "name": "AutoFillRange.md",
+        "localizedName": "自动填充",
+        "uuid": "3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteDataActivity",
         "name": "Delete.md",
         "localizedName": "删除数据",
