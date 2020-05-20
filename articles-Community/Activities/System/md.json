@@ -46,6 +46,12 @@
         "uuid": "1d9d79be-39fc-47a3-807b-e227940b0c8e"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetClipboardTextActivity",
+        "name": "SetContentsToClipboard.md",
+        "localizedName": "设置剪贴板文本",
+        "uuid": "9088e781-2267-4e46-affc-921a3c9276ec"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetClipboardTextActivity",
         "name": "GetContentsFromClipboard.md",
         "localizedName": "获取剪贴板文本",
