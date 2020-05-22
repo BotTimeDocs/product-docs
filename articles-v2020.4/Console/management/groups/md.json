@@ -1,17 +1,3 @@
-[
-    {
-        "name": "aboutGroups.md",
-        "localizedName": "关于资源组",
-        "uuid": "e44256ca-5ea4-4d9c-9c0f-223f6a4bfdb4"
-    },
-    {
-        "name": "managegroup.md",
-        "localizedName": "管理资源组",
-        "uuid": "603e545d-fb9f-42d0-ab62-c970312a2c27"
-    },
-    {
-        "name": "useringroup.md",
-        "localizedName": "管理资源组用户",
-        "uuid": "95e4f49b-0f35-4d91-ab0a-c5576b5f90e7"
-    }
-]
+[{"name":"aboutGroups.md","localizedName":"关于资源组"},
+{"name":"managegroup.md","localizedName":"管理资源组"},
+{"name":"useringroup.md","localizedName":"管理资源组用户"}]
