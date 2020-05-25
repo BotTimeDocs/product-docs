@@ -1,0 +1,53 @@
+[
+    {
+        "id": "",
+        "name": "ComponentsIntroduction.md",
+        "localizedName": "介绍",
+        "uuid": "9f790d12-315d-4aa2-b69f-7ed0d02997a5"
+    },
+    {
+        "id": null,
+        "name": "WorkflowControl",
+        "localizedName": "流程控制"
+    },
+    {
+        "id": null,
+        "name": "UIAutomation",
+        "localizedName": "界面自动化"
+    },
+    {
+        "id": null,
+        "name": "AppAutomation",
+        "localizedName": "软件自动化"
+    },
+    {
+        "id": null,
+        "name": "System",
+        "localizedName": "系统"
+    },
+    {
+        "id": null,
+        "name": "Check",
+        "localizedName": "校验"
+    },
+    {
+        "id": null,
+        "name": "DataTable",
+        "localizedName": "数据表"
+    },
+    {
+        "id": null,
+        "name": "Database",
+        "localizedName": "数据库"
+    },
+    {
+        "id": null,
+        "name": "CodeExecuter",
+        "localizedName": "代码工具"
+    },
+    {
+        "id": null,
+        "name": "Appendix",
+        "localizedName": "附录"
+    }
+]

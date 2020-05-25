@@ -1,0 +1,41 @@
+[
+    {
+        "name": "aboutRobot.md",
+        "localizedName": "关于机器人",
+        "uuid": "2d7394e2-3be3-4661-8c12-1af740746e34"
+    },
+    {
+        "name": "installRobot.md",
+        "localizedName": "安装机器人",
+        "uuid": "ff9f6b33-32b1-4be9-ba41-368ed8d1dfc9"
+    },
+    {
+        "name": "updateRobot.md",
+        "localizedName": "更新机器人",
+        "uuid": "d18f5372-97a8-4626-b101-2b35f5db9716"
+    },
+    {
+        "name": "license.md",
+        "localizedName": "激活机器人",
+        "uuid": "d807b28a-f1a8-4a6b-a99d-5e6417b0e518"
+    },
+    {
+        "name": "basesetting.md",
+        "localizedName": "基本设置",
+        "uuid": "846de338-5da6-4542-9338-9070eb81a40b"
+    },
+    {
+        "name": "localworkflow.md",
+        "localizedName": "流程库",
+        "uuid": "d0b56def-0739-43c0-887a-c43d2a71847b"
+    },
+    {
+        "name": "log.md",
+        "localizedName": "机器人日志",
+        "uuid": "f7579ae9-ab5e-46e3-ab07-9395f1174913"
+    },
+    {
+        "name": "extensions",
+        "localizedName": "安装扩展"
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "id": null,
+        "name": "Flowchart",
+        "localizedName": "流程图"
+    },
+    {
+        "id": null,
+        "name": "Determine",
+        "localizedName": "判断"
+    },
+    {
+        "id": null,
+        "name": "Loop",
+        "localizedName": "循环操作"
+    },
+    {
+        "id": "System.Activities.Statements.Sequence",
+        "name": "Sequence.md",
+        "localizedName": "序列",
+        "uuid": "bb60c573-1c45-4304-adfe-fa700fc92210"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Parallel",
+        "name": "Parallel.md",
+        "localizedName": "并行",
+        "uuid": "7b1d8e9c-1b38-4017-a25d-f369deb644bf"
+    },
+    {
+        "id": "BotTime.Flow.Activities.TryCatch",
+        "name": "TryCatch.md",
+        "localizedName": "错误捕捉(Try Catch)",
+        "uuid": "48b2d381-2ebc-4611-85eb-5b6ea87ae5aa"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Assign",
+        "name": "Assign.md",
+        "localizedName": "赋值",
+        "uuid": "f3357989-015c-4a1b-8087-d1fd90a8511b"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Delay",
+        "name": "Delay.md",
+        "localizedName": "延迟",
+        "uuid": "74e120e9-1212-4a2b-a134-04644553afec"
+    },
+    {
+        "id": "BotTime.Flow.Activities.InvokeWorkflow",
+        "name": "InvokeWorkflow.md",
+        "localizedName": "调用流程",
+        "uuid": "979ab9aa-e5ae-4663-a5af-b8b7c5be7579"
+    }
+]
