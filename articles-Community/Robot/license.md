@@ -60,4 +60,4 @@
 
 绑定成功后，机器人状态由**未绑定**转为**已绑定**
 
-机器人如何创建：详见[控制台创建机器人](..\Console\robot\manageRobot.md)
+机器人如何创建：详见[控制台创建机器人](..\Console\robot\manageRobot.md?_v=Community)
