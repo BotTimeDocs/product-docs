@@ -8,7 +8,7 @@
 <!-- ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/choosePosition.PNG) -->
 
 ## 发布流程
-1. 创建一个自动化项目。项目示例参看[创建自动化项目](./CreateProject.md)
+1. 创建一个自动化项目。项目示例参看[创建自动化项目](./CreateProject.md?_v=Community)
 2. 在工具栏->发布选择发布的位置：
     * 发布到控制台
     
@@ -23,7 +23,7 @@
     
         <!-- ![发布到流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToFlowmarket.PNG) -->
 
-        a. 选择流程市场，以作为自动化项目最终的存储位置。首次发布需通过“管理流程市场”配置你的市场，具体步骤请参考[管理流程市场](../Market.md)。</br>
+        a. 选择流程市场，以作为自动化项目最终的存储位置。首次发布需通过“管理流程市场”配置你的市场，具体步骤请参考[管理流程市场](../Market.md?_v=Community)。</br>
         b. 流程包名称默认情况下为项目名称，可进行更改。</br>
         c. 将最新版本号添加至项目中。若更改版本号信息，需注意的是最新版本号要大于当前版本号。</br>
         d. (可选)图标主要用于对当前发布的流程进行标识。</br>
