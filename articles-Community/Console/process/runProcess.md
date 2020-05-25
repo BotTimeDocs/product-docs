@@ -28,4 +28,4 @@
 ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/mulrunproccess.png)
 
 注意：当机器人无法再没有配置用户的情况下生成队列。
-配置用户详情请见：[配置用户](../../Robot/license.md)
+配置用户详情请见：[配置用户](../../Robot/license.md?_v=Community)
