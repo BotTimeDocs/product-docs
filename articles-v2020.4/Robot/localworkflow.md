@@ -1,11 +1,11 @@
 # 执行流程
 
 机器人可以通过桌面点击的方式执行流程，也可以通过控制台集中管理执行流程。
-控制台集中管理执行流程详见：[如何下发一个流程]()
+控制台集中管理执行流程详见：[如何下发一个流程](../Console/process/runProcess.md?_v=v2020.4)
 
 本地执行的流程来源分为两种：
 1. 本地流程文件文件：通过编辑器导出的流程包（后缀为.dgs的流程压缩包）
-2. 在线流程库:获取机器人所在资源组的[流程包](..\Console\packages\aboutPackages.md)
+2. 在线流程库:获取机器人所在资源组的[流程包](..\Console\packages\aboutPackages.md?_v=v2020.4)
 
 **在线流程库**仅供通过控制台激活的机器人使用。
 
@@ -21,7 +21,7 @@
 4. 点击执行，你会看到流程在执行窗口中准备，流程在快速准备后将自动执行。
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlocalprocess.png)
 
-配置流程库地址见：[修改本地流程库地址](\basesetting.md)
+配置流程库地址见：[修改本地流程库地址](basesetting.md?_v=v2020.4)
 你可以通过点击右上角的设置按钮，进行快速配置。
 
 当机器人处于以下情况时，流程库窗口无法打开：
@@ -60,4 +60,4 @@
 
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/executorRobot.png)
 
-你可以通过[机器人日志](\log.md)查看更详细的执行日志。
+你可以通过[机器人日志](log.md?_v=v2020.4)查看更详细的执行日志。
