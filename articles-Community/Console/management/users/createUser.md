@@ -18,7 +18,7 @@
 你也可以在同样的位置取消用户的系统管理员权限。
 
 
-<!-- 绑定角色（角色新增详见：[新增角色](../roles/createRoles)），以确保用户在激活后可以正常使用控制台。
+<!-- 绑定角色（角色新增详见：[新增角色](../roles/createRoles.md?_v=Community)），以确保用户在激活后可以正常使用控制台。
 点击编辑角色按钮，打开编辑角色弹窗。
  ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser4.png)
 点击角色选择框，你可以在下拉选项中看到角色管理的全部角色。

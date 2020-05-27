@@ -1,5 +1,5 @@
 # 手动上传流程
-将流程包通过编辑器导出（详见：[导出流程]()）.
+将流程包通过编辑器导出（详见：[导出流程](../../Studio/Introduction/TheUserInterface.md?_v=Community)）.
 
 进入流程包管理，点击上传按钮，选择需要上传的流程文件。
 ![packages](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/uploadpackages1.png)

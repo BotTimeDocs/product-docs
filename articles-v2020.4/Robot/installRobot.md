@@ -1,6 +1,6 @@
 # 安装机器人
 
-进入控制台 - [下载管理](..\Console\download\aboutdownload.md)。
+进入控制台 - [下载管理](..\Console\download\aboutdownload.md?_v=v2020.4)。
 
 下载机器人最新版本安装包到本地。
 
