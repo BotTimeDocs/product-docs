@@ -13,11 +13,6 @@
     },
     {
         "id": null,
-        "name": "deletePackage.md",
-        "localizedName": "删除流程包"
-    },
-    {
-        "id": null,
         "name": "uploadPackage.md",
         "localizedName": "上传流程包",
         "uuid": "85faaca2-fb76-4521-8564-22286a2961fc"
