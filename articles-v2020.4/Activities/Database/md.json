@@ -2,25 +2,21 @@
     {
         "id": "BotTime.DataBase.Activity.DatabaseConnectActivity",
         "name": "ConnectDatabase.md",
-        "localizedName": "连接数据库",
-        "uuid": "15796251-0ca5-4e33-ba9a-d5ccd5a9752b"
+        "localizedName": "连接数据库"
     },
     {
         "id": "BotTime.DataBase.Activity.ExecuteTransactionActivity",
         "name": "StartTransaction.md",
-        "localizedName": "执行事务",
-        "uuid": "5a0689c2-239a-4d76-acdd-b197c5d055a5"
+        "localizedName": "执行事务"
     },
     {
         "id": "BotTime.DataBase.Activity.ExecuteSqlActivity",
         "name": "ExecuteNonQuery.md",
-        "localizedName": "执行语句",
-        "uuid": "bda101e7-b730-4640-9648-0d70fcc48344"
+        "localizedName": "执行语句"
     },
     {
         "id": "BotTime.DataBase.Activity.QueryTableActivity",
         "name": "Select.md",
-        "localizedName": "查询",
-        "uuid": "a638f17b-405b-4d9e-9ba1-50ced2521862"
+        "localizedName": "查询"
     }
 ]

@@ -12,49 +12,41 @@
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.ConfirmMessageBox",
         "name": "ConfirmDialog.md",
-        "localizedName": "确认框",
-        "uuid": "0b62b88d-2c45-4626-a40a-186c0f7dee63"
+        "localizedName": "确认框"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputDialogActivity",
         "name": "InputDialog.md",
-        "localizedName": "输入框",
-        "uuid": "f9cd10c0-90af-4f6c-a823-b2faa0daa98a"
+        "localizedName": "输入框"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.LogActivity",
         "name": "WriteLog.md",
-        "localizedName": "写入日志",
-        "uuid": "e872e128-9c76-4ab3-a4b4-5def33430cdd"
+        "localizedName": "写入日志"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetLogLevelActivity",
         "name": "SetLogLevel.md",
-        "localizedName": "设置日志级别",
-        "uuid": "2484000c-d3f6-4cc6-8e9c-f2df2aa6d1a8"
+        "localizedName": "设置日志级别"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetPasswordActivity",
         "name": "SetPassword.md",
-        "localizedName": "设置密码",
-        "uuid": "2cc94c74-5623-4270-94be-b2dad5c2bcc7"
+        "localizedName": "设置密码"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetWindowsCredential",
         "name": "GetWindowsCredential.md",
-        "localizedName": "获取Windows凭据",
-        "uuid": "1d9d79be-39fc-47a3-807b-e227940b0c8e"
+        "localizedName": "获取Windows凭据"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetClipboardTextActivity",
         "name": "GetContentsFromClipboard.md",
-        "localizedName": "获取剪贴板文本",
-        "uuid": "065719d1-6655-41bd-90bf-fc0ca575df3b"
+        "localizedName": "获取剪贴板文本"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.ExecuteCmd",
         "name": "ExecuteCMD.md",
-        "localizedName": "执行命令行",
-        "uuid": "ff449f85-ae4a-4e53-aad3-0a1edbca5804"
+        "localizedName": "执行命令行"
     }
 ]

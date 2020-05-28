@@ -1,20 +1,3 @@
-[
-    {
-        "id": null,
-        "name": "aboutProcess.md",
-        "localizedName": "关于流程执行",
-        "uuid": "25a2682e-f84b-4983-bf20-8bc0d8206a33"
-    },
-    {
-        "id": null,
-        "name": "manageProcess.md",
-        "localizedName": "管理流程执行",
-        "uuid": "dc96c202-3cce-4d62-8d6b-18a088e7819b"
-    },
-    {
-        "id": null,
-        "name": "runProcess.md",
-        "localizedName": "执行流程",
-        "uuid": "697ad199-d72c-456d-b83d-c76f122d8c96"
-    }
-]
+[{"id":null,"name":"aboutProcess.md","localizedName":"关于流程执行"},
+{"id":null,"name":"manageProcess.md","localizedName":"管理流程执行"},
+{"id":null,"name":"runProcess.md","localizedName":"执行流程"}]
