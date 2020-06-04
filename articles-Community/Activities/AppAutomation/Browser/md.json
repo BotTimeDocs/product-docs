@@ -2,7 +2,8 @@
     {
         "id": "Encootech.AutomationActivity.WebAction.BrowserAttach",
         "name": "AttachBrowser.md",
-        "localizedName": "绑定浏览器"
+        "localizedName": "绑定浏览器",
+        "uuid":"sdfasd222"
     },
     {
         "id": "Encootech.AutomationActivity.WebAction.BrowserOpen",
