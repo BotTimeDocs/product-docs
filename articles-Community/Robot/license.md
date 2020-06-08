@@ -43,7 +43,7 @@
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
 
-控制台地址：将**控制台地址**复制填入
+控制台地址：在**安装包下载**页将**控制台服务地址**复制填入
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getconsolewebsite.png)
 

@@ -18,5 +18,10 @@
         "name": "JavaExtension.md",
         "localizedName": "Java扩展",
         "uuid": "576624f6-e22b-46ca-8f0f-d65fa215ec06"
+    },
+    {
+        "name": "360SE.md",
+        "localizedName": "360安全浏览器扩展",
+        "uuid": "bb284b19-580e-4907-900f-199449ca16c0"
     }
 ]
