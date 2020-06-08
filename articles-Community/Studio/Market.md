@@ -21,11 +21,12 @@
 
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-1.png)
 
-
 5. 在“安装组件”窗口点击“确认”将此组件安装至项目中
+
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-2-0.png)
 
 6. 在项目的“依赖项”中可查看下载的组件信息
+
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-2.png)
 
     >注意：
@@ -35,7 +36,6 @@
     >要管理依赖项，右击工作目录窗口中的依赖项类别，打开菜单，点击“管理”。或者点击工具栏下的设计->组件市场。这都将打开“组件市场”窗口：
     > - 对于未添加依赖项的项目，只需通过搜索相应的组件包，找到并安装它们，即可将所需组件添加到项目中。 
     > - 对于已添加依赖项的项目，通过已安装组件页面，点击删除即可删除该依赖项，要想更新组件包，只需点击更新按钮。
-
 
 7. “组件”面板“扩展”目录包含了从“组件市场”下载的所有组件，直接拖拽到流程中即可使用
 
@@ -54,13 +54,13 @@
 
     ![本地组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/localActivities.PNG)
 
+### 管理依赖项
 
-### 管理依赖项 
 在组件市场中，可查看依赖项的版本，同时可对依赖项进行添加、更新和删除。
 要管理依赖项，右击项目面板中的依赖项类别，打开菜单，点击“管理”。或者点击“市场”->“组件市场”。这都将打开“组件市场”窗口。
+
 1. 对于未添加依赖项的项目，只需通过搜索相应的组件包，找到并安装它们，即可将所需组件添加到项目中。 
 2. 对于已添加依赖项的项目，通过已安装组件页面，点击删除即可删除该依赖项，要想更新组件包，只需点击更新按钮。
-
 
 ## 流程市场
 
@@ -68,9 +68,7 @@
 
 ### 下载与使用 
 
-&nbsp;
-    ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-0.png)
-
+![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-0.png)
 
 1. 在流程列表选择想要下载的流程
 2. 点击“下载”图标
@@ -85,14 +83,14 @@
     >与下载组件不同的是，流程下载后将作为一个独立的项目存在
 
 4. 在工作目录面板即可查看以新项目名称命名的流程
-    <br/>
 
     ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-3.png)
 
 ## 管理市场
 
 在“组件/流程市场”窗口点击“管理市场”可创建本地或基于特定网络的私有市场
-    ![ManagementMarket](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/MarketManagement.png)
+
+![ManagementMarket](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/MarketManagement.png)
 
 ### 本地私有市场
 

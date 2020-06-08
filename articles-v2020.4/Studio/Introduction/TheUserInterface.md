@@ -47,13 +47,13 @@
 ![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activities.png)
 
 ## 运行面板
-**运行面板**用于运行和调试你的自动化项目，在特定情况下会在内部显示日志面板和变量面板。
+**运行面板**用于运行和调试你的自动化项目，在特定情况下会在内部显示输出面板和变量面板。
 
-**运行**自动化项目时，所有项目运行时相关过程的详细信息都将显示在日志面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
+**运行**自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
 
 ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/logs.PNG)
 
-**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和日志面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../Debugging.md?_v=v2020.4)。
+**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../Debugging.md?_v=v2020.4)。
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
