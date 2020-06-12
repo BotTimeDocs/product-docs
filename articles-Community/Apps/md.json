@@ -1,0 +1,17 @@
+[
+    {
+        "id": null,
+        "name": "aboutApps.md",
+        "localizedName": "关于云扩工作台"
+    },
+    {
+        "id": null,
+        "name": "devApps",
+        "localizedName": "开发者模式"
+    },
+    {
+        "id": null,
+        "name": "userApps",
+        "localizedName": "使用者模式"
+    }
+]
