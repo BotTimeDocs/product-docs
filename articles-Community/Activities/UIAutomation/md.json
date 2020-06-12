@@ -64,5 +64,11 @@
         "name": "TypeInto.md",
         "localizedName": "输入文本",
         "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7"
+    },
+     {
+        "id": "Encootech.AutomationActivity.ScreenshotActivity",
+        "name": "Screenshot.md",
+        "localizedName": "截屏",
+        "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
     }
 ]

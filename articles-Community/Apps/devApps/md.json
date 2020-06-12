@@ -1,0 +1,32 @@
+[
+    {
+        "id": null,
+        "name": "devApps.md",
+        "localizedName": "开发者模式导览"
+    },
+    {
+        "id": null,
+        "name": "createApps.md",
+        "localizedName": "创建应用"
+    },
+    {
+        "id": null,
+        "name": "addbaseinfo.md",
+        "localizedName": "基本设置"
+    },
+    {
+        "id": null,
+        "name": "setparameter.md",
+        "localizedName": "参数设置"
+    },
+    {
+        "id": null,
+        "name": "setcomponents.md",
+        "localizedName": "组件设置"
+    },
+    {
+        "id": null,
+        "name": "runapps.md",
+        "localizedName": "预览"
+    }
+]

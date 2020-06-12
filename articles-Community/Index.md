@@ -13,4 +13,5 @@
 - [云扩组件库文档](./Activities/ComponentsIntroduction.md?_v=Community)
 - [云扩RPA机器人文档](./Robot/aboutRobot.md?_v=Community)
 - [云扩RPA控制台文档](./Console/register.md?_v=Community)
+- [云扩工作台文档](./Apps/aboutApps.md?_v=Community)
 
