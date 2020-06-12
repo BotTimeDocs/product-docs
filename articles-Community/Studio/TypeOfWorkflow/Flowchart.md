@@ -15,7 +15,7 @@
     ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-createVariables.png)
 
 3. 将“流程图”添加至编辑区域中，并连接到“开始”节点。并在该组件的属性面板中，输入以下内容：
-   * 显示名称：“用户登录”
+     * 显示名称：“用户登录”
 
     <!-- ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-intoFlowchart.png) -->
 
