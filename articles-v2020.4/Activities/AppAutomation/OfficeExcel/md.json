@@ -2,116 +2,151 @@
     {
         "id": "BotTime.Office.Activity.OfficeExcelOpenOrCreateActivity",
         "name": "OpenExcel.md",
-        "localizedName": "打开新建"
+        "localizedName": "打开新建",
+        "uuid": "c4138eee-05ad-4a13-ad96-297c2bc68aa5"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadCellActivity",
         "name": "ReadCell.md",
-        "localizedName": "读取单元格"
+        "localizedName": "读取单元格",
+        "uuid": "ceb807c2-691f-47be-aa74-026c789b1fbf"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRangeActivity",
         "name": "ReadRange.md",
-        "localizedName": "读取区域"
+        "localizedName": "读取区域",
+        "uuid": "85e879df-c737-4f72-bf45-b56d338046c0"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRowColumnActivity",
         "name": "ReadRowOrColumn.md",
-        "localizedName": "读取行/列数据"
+        "localizedName": "读取行/列数据",
+        "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetCellActivity",
         "name": "WriteCell.md",
-        "localizedName": "写入单元格"
+        "localizedName": "写入单元格",
+        "uuid": "dadb9ee9-042b-4455-8ceb-c691af8699eb"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRangeActivity",
         "name": "WriteRange.md",
-        "localizedName": "写入区域"
+        "localizedName": "写入区域",
+        "uuid": "967a43d8-af97-482b-ac04-610fe81511f2"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
         "name": "WriteRowOrColumn.md",
-        "localizedName": "写入行或列数据"
+        "localizedName": "写入行或列数据",
+        "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelAutoFillRangeActivity",
+        "name": "AutoFillRange.md",
+        "localizedName": "自动填充",
+        "uuid": "3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteDataActivity",
         "name": "Delete.md",
-        "localizedName": "删除数据"
+        "localizedName": "删除数据",
+        "uuid": "01e15b84-e5ae-443f-b8b1-ff81b32ced8a"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetLastRowIndexActivity",
         "name": "GetLastRow.md",
-        "localizedName": "获取末行号"
+        "localizedName": "获取末行号",
+        "uuid": "4a3839bc-c15f-4b00-8953-1e1f803e9a71"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetLastColIndexActivity",
         "name": "GetLastColumn.md",
-        "localizedName": "获取末列号"
+        "localizedName": "获取末列号",
+        "uuid": "69e88aec-430b-4434-be21-a42b102adacd"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetAllSheetsActivity",
         "name": "GetWorksheetsName.md",
-        "localizedName": "获取所有工作表名"
+        "localizedName": "获取所有工作表名",
+        "uuid": "5c30fc71-cb52-4721-908a-660ef1f99b0b"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelAddFormulaActivity",
         "name": "InsertFormula.md",
-        "localizedName": "插入公式"
+        "localizedName": "插入公式",
+        "uuid": "124a7b04-9abf-4ae2-a220-4285be345d57"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSortActivity",
         "name": "Sort.md",
-        "localizedName": "排序"
+        "localizedName": "排序",
+        "uuid": "590b8a1b-1875-4f22-80a4-a94ada1c3055"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelFilterActivity",
         "name": "Filter.md",
-        "localizedName": "筛选"
+        "localizedName": "筛选",
+        "uuid": "39dd1504-31fd-452c-8379-6108d3ec35d4"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelFindCellAddressActivity",
         "name": "Search.md",
-        "localizedName": "查找"
+        "localizedName": "查找",
+        "uuid": "74f9677b-3bcc-4a23-8cfb-2bedd2753c9c"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelRemoveDuplicateActivity",
+        "name": "RemoveDuplicateCells.md",
+        "localizedName": "去重",
+        "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
-        "localizedName": "获取单元格背景色"
+        "localizedName": "获取单元格背景色",
+        "uuid": "dcbd3b98-747d-4efe-9253-ccc32ca82855"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetCellBackgroundColorActivity",
         "name": "SetCellBackcolor.md",
-        "localizedName": "设置单元格背景色"
+        "localizedName": "设置单元格背景色",
+        "uuid": "494dddca-023c-4863-8e4c-6efd79bc9ce4"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
         "name": "ExecuteMacro.md",
-        "localizedName": "执行宏"
+        "localizedName": "执行宏",
+        "uuid": "0c9398c4-a260-4df8-9d2c-a96bbf7d1e56"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSaveActivity",
         "name": "Save.md",
-        "localizedName": "保存"
+        "localizedName": "保存",
+        "uuid": "7a3027c5-6676-4720-945c-4a2f58909ae5"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelHideSheetActivity",
         "name": "HideWorksheets.md",
-        "localizedName": "隐藏工作表"
+        "localizedName": "隐藏工作表",
+        "uuid": "a20a23b6-3062-4b7b-a79b-e720082a9e35"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertSheetActivity",
         "name": "InsertWorksheets.md",
-        "localizedName": "插入工作表"
+        "localizedName": "插入工作表",
+        "uuid": "04908cff-82bf-41a4-b3a2-b819be9bba7d"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertRowColumnActivity",
         "name": "InsertRoworColumn.md",
-        "localizedName": "插入行或列"
+        "localizedName": "插入行或列",
+        "uuid": "dc145410-f5aa-4a06-b21d-6c1d4d7240e1"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelMergeCellsActivity",
         "name": "MergeCells.md",
-        "localizedName": "合并单元格"
+        "localizedName": "合并单元格",
+        "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b"
     }
 ]

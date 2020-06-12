@@ -6,7 +6,7 @@
 ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser2.png)
 发送成功后，系统会为你邀请的用户新增一个未激活账户，你可以在列表查看该用户。
 ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser3.png)
-未激活状态的用户无法登录控制台，用户需要通过邀请邮件激活他的账户（详见：[激活账户](../../activeAccount.md?_v=v2020.4)）
+未激活状态的用户无法登录控制台，用户需要通过邀请邮件激活他的账户（详见：[激活账户](/articles-v2020.1\Console\activeAccount.md?_v=v2020.4)）
 *邀请用户需要在72小时内激活账号，激活链接将在72小时后失效。若链接失效，你需要删除该未激活状态账号重新添加用户。
 
 
@@ -18,7 +18,7 @@
 你也可以在同样的位置取消用户的系统管理员权限。
 
 
-<!-- 绑定角色（角色新增详见：[新增角色](../roles/createRoles)），以确保用户在激活后可以正常使用控制台。
+<!-- 绑定角色（角色新增详见：[新增角色](../roles/createRoles.md?_v=v2020.4)），以确保用户在激活后可以正常使用控制台。
 点击编辑角色按钮，打开编辑角色弹窗。
  ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser4.png)
 点击角色选择框，你可以在下拉选项中看到角色管理的全部角色。

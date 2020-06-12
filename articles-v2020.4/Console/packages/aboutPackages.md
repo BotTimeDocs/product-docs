@@ -2,8 +2,8 @@
 本页面用于管理上传到控制台的流程。
 - 流程：指在编辑器新增的自动化项目，一个自动化项目被称为一个流程。
  - 上传流程到控制台: 用户可以把编辑好的流程上传到控制台，生成自己的在线流程库
-   - [通过编辑器上传](../../Studio/AutomationProjects/CreateProject.md?_v=v2020.4)
-   - [手动上传](./uploadPackage)
+   - [通过编辑器上传](/articles-v2020.1/Studio/AutomationProjects/CreateProject.md?_v=v2020.4)
+   - [手动上传](./uploadPackage.md?_v=v2020.4)
 
 上传的流程可以用于线上指派机器人运行，也可以生成在线流程库用于机器人本地运行。
 
