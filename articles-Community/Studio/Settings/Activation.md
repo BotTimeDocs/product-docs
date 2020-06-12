@@ -1,18 +1,23 @@
 # 编辑器的激活
+
 编辑器的激活方式分为以下两种：
+
 - 登录控制台激活：仅限拥有控制台时使用
 - 使用许可证激活：未购买控制台时使用
 
 社区版编辑器：只能通过**登录控制台**激活
+
 企业版编辑器：可通过**登录控制台**或**使用许可证**激活
 
 ## 激活社区版编辑器
+
 首次安装并运行社区版编辑器后，将会自动打开“用户登录”窗口
 选择使用**邮箱登录**还是**手机登录**，在对应文本框中输入相应信息，即可激活编辑器
 
 ![登录控制台激活](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/login.PNG)
 
 ## 激活企业版编辑器
+
 首次安装并运行编辑器后，系统会通过选择激活方式窗口，提示用户对编辑器进行激活。
 
 ![选择激活方式](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/chooseActivation.PNG)

@@ -40,4 +40,4 @@
     
     ![主流程文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/main.xaml.png)
 
-最终运行该流程，日志面板将会显示相关信息。
+最终运行该流程，输出面板将会显示相关信息。
