@@ -22,5 +22,10 @@
     "id": null,
     "name": "Console",
     "localizedName": "云扩RPA控制台"
+  },
+  {
+    "id": null,
+    "name": "Test",
+    "localizedName": "测试"
   }
 ]
