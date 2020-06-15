@@ -15,5 +15,5 @@
 6. [调整参数和排版](./setparameter.md)
 7. [设置控件详情](./setcomponents.md)
 8. [试运行你的应用](./runapps.md)
-9. 管理并启用你的应用
+9. [管理并启用你的应用](./manageapps.md)
 
