@@ -70,5 +70,11 @@
         "name": "Screenshot.md",
         "localizedName": "截屏",
         "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
+    },
+     {
+        "id": null,
+        "name": "SAP",
+        "localizedName": "SAP（企业版）",
+        "uuid": "c21dac3b-d4c0-5639-bc8b-50d26670a547"
     }
 ]
