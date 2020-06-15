@@ -28,5 +28,10 @@
         "id": null,
         "name": "runapps.md",
         "localizedName": "预览"
+    },
+    {
+        "id": null,
+        "name": "manageapps.md",
+        "localizedName": "应用管理"
     }
 ]
