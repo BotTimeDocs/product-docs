@@ -2,36 +2,43 @@
     {
         "id": null,
         "name": "devApps.md",
-        "localizedName": "开发者模式导览"
+        "localizedName": "开发者模式导览",
+        "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8"
     },
     {
         "id": null,
         "name": "createApps.md",
-        "localizedName": "创建应用"
+        "localizedName": "创建应用",
+        "uuid": "465a7c5c-5eb4-4288-960a-09397ab0473c"
     },
     {
         "id": null,
         "name": "addbaseinfo.md",
-        "localizedName": "基本设置"
+        "localizedName": "基本设置",
+        "uuid": "cc228d37-ef14-48bf-bc79-77829e394fd7"
     },
     {
         "id": null,
         "name": "setparameter.md",
-        "localizedName": "参数设置"
+        "localizedName": "参数设置",
+        "uuid": "3fd4b7b4-f26d-4b03-a323-22e971ed776f"
     },
     {
         "id": null,
         "name": "setcomponents.md",
-        "localizedName": "组件设置"
+        "localizedName": "组件设置",
+        "uuid": "b7ea1e42-ee6d-44d9-8524-c6148fb9b4b6"
     },
     {
         "id": null,
         "name": "runapps.md",
-        "localizedName": "预览"
+        "localizedName": "预览",
+        "uuid": "676fca9d-d442-4f0d-89f4-9ac1d7f111f8"
     },
     {
         "id": null,
         "name": "manageapps.md",
-        "localizedName": "应用管理"
+        "localizedName": "应用管理",
+        "uuid": "4f34fa63-ccb7-4b7a-9cfd-936618f20c3d"
     }
 ]
