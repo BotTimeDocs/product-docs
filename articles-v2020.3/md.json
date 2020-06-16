@@ -3,5 +3,10 @@
     "name": "test.md",
     "localizedName": "测试",
     "uuid": "d00f9c12-6b85-48c1-8793-2323ss"
+  },
+  {
+    "name": "Index.md",
+    "localizedName": "首页概览",
+    "uuid": "d00f9c12-6b85-48c1-2ss-2323ss"
   }
 ]
