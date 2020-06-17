@@ -56,5 +56,11 @@
         "name": "ExecuteCMD.md",
         "localizedName": "执行命令行",
         "uuid": "ff449f85-ae4a-4e53-aad3-0a1edbca5804"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetDateActivity",
+        "name": "SetDateTime.md",
+        "localizedName": "设置日期和时间",
+        "uuid": "0fccefc9-5de7-4d35-90fa-af3f46ef194b"
     }
 ]
