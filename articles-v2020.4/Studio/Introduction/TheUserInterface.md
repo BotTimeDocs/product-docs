@@ -71,6 +71,8 @@
 
 有关市场的详细信息，请查看[云扩市场](../Market.md?_v=v2020.4)。
 
+![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-marketplace.PNG)
+
 <!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 
 ## 扩展面板
@@ -81,7 +83,7 @@
 
 ## 发布
 
-通过工具栏的**发布**按钮可将自动化项目发布到控制台、流程市场或组件市场。
+通过工具栏的**发布**按钮可将自动化项目打包进行发布，方便后续的执行及共享。
 
 自动化项目发布后，将会自动存储到对应的位置，如果后续要对该位置的项目进行修改，在本地修改后，再次发布即可。
 
@@ -102,6 +104,12 @@
 ## 系统设置
 
 **系统设置**用于管理编辑器相关的设置信息，同时还可以找到产品的版本信息。 
+
+* 常规 - 显示编辑器的语言配置。
+* 项目 - 对项目相关信息进行设置。
+   * 要更改项目存储位置，只需要在“工作目录”后更换新路径。
+   * “运行时最小化”让你可以将编辑器窗口设置为运行时是否最小化。
+* 关于我们 - 显示编辑器的产品版本信息。
  
 ![系统设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/settings.PNG)
 
@@ -112,6 +120,8 @@
 通过双击某一个组件，可以查看此组件的具体内容，也可以对其进行属性的添加和更改。 
 
 ![设计](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design.png)
+
+通过点击![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png)图标，按住空格键或按鼠标中键来激活平移模式。</br>通过按住Ctrl+鼠标滚动方式更改缩放级别，然后点击![重置为100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%.png)图标将其重置为100%。</br>通过点击![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png)图标，使整个自动化项目按照编辑区域的大小进行自适应。
 
 ### 上下文菜单 
 
@@ -133,7 +143,9 @@
    |另存为图像    |将编辑区域中显示的内容保存为图片，但图片的名称、类型、存储路径等可以进行自定义。|
    |创建变量      |在变量列表中创建变量。|
    |提取为子流程   |创建一个包含目标组件的新流程。通过将大型流程拆解，以降低查看项目的复杂度。</br>在提取为子流程的组件处会自动生成一个调用流程组件，参数由组件中使用的变量自动生成。|
+   |帮助 |快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法，也可以通过快捷键F1实现。|
    |设置为开始节点 |将当前选中组件设为开始节点，流程执行由当前组件开始。 </br> 注意：只在当前容器组件为流程图时显示。|
+
 
 ## 属性面板
 
@@ -152,3 +164,5 @@
 当项目验证出现问题时，将在输出面板中显示错误信息。针对调试项目时，输出面板将显示所有组件从开始到结束的详细日志。当流程出错误，通过日志信息将可以轻松地定位到出现错误的组件。
 
 请注意，每次运行或调试项目时，将会自动清除此面板中存储的日志信息。
+
+![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outputPanel.png)
