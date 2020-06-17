@@ -1,5 +1,17 @@
 [
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.SelectFileActivity",
+        "name": "SelectFile.md",
+        "localizedName": "选择文件",
+        "uuid": "10935009-d8b9-4615-960c-5ab06b9225c8"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.SelectFolderActivity",
+        "name": "SelectFolder.md",
+        "localizedName": "选择文件夹",
+        "uuid": "d32065d7-7dbc-46a0-bd82-85d7d97a8b40"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.File.ReadTextFile",
         "name": "ReadFile.md",
         "localizedName": "读取文件",
