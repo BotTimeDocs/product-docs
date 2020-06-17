@@ -65,7 +65,7 @@
         "localizedName": "输入文本",
         "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7"
     },
-     {
+    {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
         "name": "Screenshot.md",
         "localizedName": "截屏",

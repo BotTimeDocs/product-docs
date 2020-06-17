@@ -114,6 +114,12 @@
         "uuid": "494dddca-023c-4863-8e4c-6efd79bc9ce4"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelSetFontColorActivity",
+        "name": "SetTextColor.md",
+        "localizedName": "设置文字颜色",
+        "uuid": "b72d8f8e-7f36-4c39-b558-dd5c1eea137b"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
         "name": "ExecuteMacro.md",
         "localizedName": "执行宏",
