@@ -19,12 +19,19 @@
 3. 【编辑器】支持删除命名空间。
 4. 【编辑器】支持设置运行时是否最小化编辑器主界面。
 5. 【编辑器】支持更多的快捷键。详情请参看[键盘快捷键](./Studio/Introduction/KeyboardShortcuts.md)。
+6. 【组件】新增“设置日期和时间”组件。详情请查看[设置日期和时间](Activities/System/SetDateTime.md)
+7. 【组件】新增“选择文件”及“选择文件夹”对话框组件。详情请查看[选择文件](Activities/System/File/SelectFile.md?_v=v2020.4)与[选择文件夹](Activities/System/File/SelectFolder.md)
+8. 【组件】新增Office Excel"设置文字颜色"组件并使用拾色器提升颜色设置体验。详情请查看[设置文字颜色](Activities/AppAutomation/OfficeExxcel/SetTextColor.md)
+9. 【机器人】执行本地流程时支持填写流程参数
+
 
 ### 增强功能
 
 1. 【编辑器】输出面板改造等界面优化。
 2. 【编辑器】项目打开及编译错误详细化，更易定位错误位置。
 3. 【编辑器】在编辑区域，支持通过组件的右键菜单，访问组件的帮助文档。
+4. 【组件】优化Office Excel“排序”组件：支持指定开始行号。详情请查看[排序](Activities/AppAutomation/OfficeExxcel/Sort.md)
+5. 【组件】优化Office Excel“设置单元格背景色”组件：使用拾色器提升颜色设置体验。详情请查看[设置单元格背景色](Activities/AppAutomation/OfficeExxcel/SetCellBackcolor.md)
 
 
 ### 修复问题
