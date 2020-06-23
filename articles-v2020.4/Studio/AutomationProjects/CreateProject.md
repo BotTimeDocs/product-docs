@@ -12,7 +12,16 @@
 本示例将教你如何创建并运行一个基本自动化项目。我们将会打开浏览器，搜索天气预报，获取明天的天气信息，并进行提示：明天是否有雨。
 
 1. 打开云扩RPA编辑器
-2. 新建一个项目，并输入项目名称（以 MyFirstProject 为例） 
+2. 新建一个项目，并输入项目名称（以 MyFirstProject 为例） </br>
+   针对高级设置下的**桌面录制技术**选择，推荐使用UIA3。
+
+   UIA3和UIA的区别在于对于不同技术的支持力度不同： </br>
+   * 对于WPF和Windows Store Apps，UIA3支持力度更佳；
+   * 对于C#和WinForms，UIA支持力度更佳。
+
+    >注意：
+    >
+    >UIA3和UIA不可以同时使用于同一个项目中。
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/newProject.PNG)
 
@@ -36,7 +45,7 @@
 
     ![百度一下](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/clickBaidu.png)
 
-9. 打开录制器界面，选择“文本”->“获取文本”，当出现黄色矩形框时，点击明天的天气信息以获取天气文本
+9.  打开录制器界面，选择“文本”->“获取文本”，当出现黄色矩形框时，点击明天的天气信息以获取天气文本
 
     ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/getText.png)
 

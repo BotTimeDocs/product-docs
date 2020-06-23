@@ -1,5 +1,50 @@
 # 云扩产品发版说明
 
+## 2020.06.16 发版说明
+
+2020.06.16 发布了云扩 RPA 编辑器和机器人社区版。
+本次发布的编辑器和机器人的版本号分别是：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2006.16 |
+| 机器人   | 1.1.2006.16 |
+
+你可以通过*云扩 RPA 控制台* -> [*安装包下载*](https://console.encoo.com/#/download) 页面体验相关产品。
+
+### 新增功能
+
+1. 【编辑器】调试时，在变量面板支持查看值的详细信息。
+2. 【编辑器】新建项目时支持选择桌面录制技术-UIA/UIA3。
+3. 【编辑器】支持删除命名空间。
+4. 【编辑器】支持设置运行时是否最小化编辑器主界面。
+5. 【编辑器】支持更多的快捷键。详情请参看[键盘快捷键](./Studio/Introduction/KeyboardShortcuts.md)。
+6. 【插件】支持360安全浏览器
+9. 【组件】支持SAP（企业版）。并新加5个相关组件：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)，[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)，[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)，[选择SAP项](Activities/UIAutomation/SAP/SAP_Select.md)，[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)
+1. 【组件】新增“截屏”组件。详情请查看[截屏](Activities/UIAutomation/Screenshot.md)
+6. 【组件】新增“设置日期和时间”组件。详情请查看[设置日期和时间](Activities/System/SetDateTime.md)
+7. 【组件】新增“选择文件”及“选择文件夹”对话框组件。详情请查看[选择文件](Activities/System/File/SelectFile.md)与[选择文件夹](Activities/System/File/SelectFolder.md)
+8. 【组件】新增Office Excel"设置文字颜色"组件并使用拾色器提升颜色设置体验。详情请查看[设置文字颜色](Activities/AppAutomation/OfficeExxcel/SetTextColor.md)
+9. 【机器人】执行本地流程时支持填写流程参数
+
+
+### 增强功能
+
+1. 【编辑器】输出面板改造等界面优化。
+2. 【编辑器】项目打开及编译错误详细化，更易定位错误位置。
+3. 【编辑器】在编辑区域，支持通过组件的右键菜单，访问组件的帮助文档。
+4. 【组件】优化Office Excel“排序”组件：支持指定开始行号。详情请查看[排序](Activities/AppAutomation/OfficeExxcel/Sort.md)
+5. 【组件】优化Office Excel“设置单元格背景色”组件：使用拾色器提升颜色设置体验。详情请查看[设置单元格背景色](Activities/AppAutomation/OfficeExxcel/SetCellBackcolor.md)
+6. 增强对用友NC和金蝶EAS的支持
+7. 增强UIA3识别微信
+8. 增强JAVA Automation不同DPI下的识别回放
+9. 点击组件新增辅助键属性
+
+
+### 修复问题
+
+1. 
+
 ## 2020.05.21 发版说明
 
 2020.05.21 发布了云扩 RPA 编辑器和机器人社区版。

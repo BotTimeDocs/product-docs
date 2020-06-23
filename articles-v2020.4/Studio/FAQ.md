@@ -49,7 +49,7 @@
 
    **A：** ① 检查chrome浏览器扩展，是否安装了chrome插件并且启用，如图：
 
-   ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/googleExtension.png)
+   ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)
 
    ② 当打开chrome后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是RPA与chrome浏览器的通信进程，如果不存在，则检查①。
 
@@ -60,4 +60,4 @@
 
     **A：** 打开编辑器，在窗口的工具栏点击“扩展”，然后点击Chrome扩展，根据提示操作即可。（在安装后，请手动打开浏览器，并打开扩展：chrome://extensions/，启用扩展。）
 
-    ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installExtension.png)
+    ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
