@@ -21,13 +21,12 @@
 4. 点击执行，你会看到流程在执行窗口中准备，流程在快速准备后将自动执行。
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlocalprocess.png)
 
-配置流程库地址见：[修改本地流程库地址](\basesetting.md)
-你可以通过点击右上角的设置按钮，进行快速配置。
-
 当机器人处于以下情况时，流程库窗口无法打开：
 - 当前机器人正在运行流程
 - 机器人未获得许可
 
+**注意** 若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）：
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/InputArgDialog.png)
 
 ### 执行在线流程
 1. 打开流程库
