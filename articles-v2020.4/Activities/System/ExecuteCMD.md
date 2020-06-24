@@ -1,6 +1,7 @@
 # 执行命令行
 
 执行CMD命令行，并提供返回值。例如使用命令行实现60秒后定时关机： &quot;shutdown -s -t 60&quot;
+注意：此组件也支持对Python文件的操作，例如：在“命令行”属性中填写“Python Test.py arg1 arg2”, 其中“arg1”和“arg2”为参数。
 
 ## 属性
 基本
