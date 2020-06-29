@@ -35,7 +35,7 @@
 1. 【组件】优化 Office Excel “设置单元格背景色”组件：使用拾色器提升颜色设置体验。详情请查看[设置单元格背景色](Activities/AppAutomation/OfficeExxcel/SetCellBackcolor.md)。
 1. 【自动化场景】增强对用友 NC 和金蝶 EAS 的支持。
 1. 【自动化场景】增强 UIA3 识别微信。
-1. 【自动化场景】增强 JAVA Automation 不同 DPI 下的识别回放。
+1. 【自动化场景】增强 JAVA 应用在不同 DPI 下的识别回放。
 1. 【自动化场景】点击组件新增辅助键属性。比如，你可以在点击的同时按下 *Ctrl* 键。
 
 ## 2020.05.21 发版说明
