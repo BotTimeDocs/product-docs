@@ -16,5 +16,10 @@
         "name": "Selector.md",
         "localizedName": "选择器",
         "uuid": "3b7fa33e-041d-49dd-bd80-5876b7971019"
+    },
+    {
+        "id": null,
+        "name": "UiDetector.md",
+        "localizedName": "元素探测器",
     }
 ]
