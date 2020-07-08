@@ -51,7 +51,7 @@ EncooJavaExtensionInstaller是用于在计算机上自动部署Java扩展的应�
 - EncooJavaExtensionInstaller.exe -install -d，扫描默认位置(Program Files && Program Files (x86))的公用JRE并安装Java插件。
 - EncooJavaExtensionInstaller.exe -install -p "specified path"，向特定的路径安装Java插件，路径可以是java.exe或者javaw.exe的路径或所在目录。
 
-2. 卸载
+ 2. 卸载
  - EncooJavaExtensionInstaller.exe -uninstall -a，全盘扫描JRE并卸载已安装的Java插件，此操作比较耗时。
 - EncooJavaExtensionInstaller.exe -uninstall -d，扫描默认位置(Program Files && Program Files (x86))的公用JRE并卸载已安装的Java插件。
 - EncooJavaExtensionInstaller.exe -uninstall -p "specified path"，卸载特定的路径下已安装的Java插件，路径可以是java.exe或者javaw.exe的路径或所在目录。
