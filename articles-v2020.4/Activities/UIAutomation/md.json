@@ -70,5 +70,10 @@
         "name": "Screenshot.md",
         "localizedName": "截屏",
         "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
+    },
+    {
+        "id": null,
+        "name": "DesktopOnly",
+        "localizedName": "桌面控件专有（企业版）",  
     }
 ]
