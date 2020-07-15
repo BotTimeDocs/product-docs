@@ -73,6 +73,11 @@
     },
     {
         "id": null,
+        "name": "SAP",
+        "localizedName": "SAP（企业版）",  
+    }
+    {
+        "id": null,
         "name": "DesktopOnly",
         "localizedName": "桌面控件专有（企业版）",  
     }
