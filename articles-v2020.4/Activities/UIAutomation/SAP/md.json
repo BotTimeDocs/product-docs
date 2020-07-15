@@ -1,0 +1,36 @@
+[
+{
+    "name": "SAP Configuration.md",
+    "localizedName": "配置SAP",
+    "uuid": "087d07a5-2a4d-5d5b-9622-53fefb2f74e7"
+},
+{
+    "id": "Encootech.AutomationActivity.SapActivity.SapLogin",
+    "name": "SAP_Login.md",
+    "localizedName": "登录应用",
+    "uuid": "3942ef5a-ea23-5049-b7bd-01c166dc0b60"
+},
+{
+    "id": "Encootech.AutomationActivity.SapActivity.SapCallTransaction",
+    "name": "SAP_Transaction.md",
+    "localizedName": "执行事务",
+    "uuid": "d21d3ec4-1f84-58ea-baa4-ce3ae462b00e"
+},
+{
+    "id": "Encootech.AutomationActivity.SapActivity.SapSelectDate",
+    "name": "SAP_SelectCalendar.md",
+    "localizedName": "选择日期",
+    "uuid": "f09f9056-5938-51eb-bd35-d42f62e221cd"
+},
+{
+    "id": "Encootech.AutomationActivity.SapActivity.SapSelectItem",
+    "name": "SAP_Select.md",
+    "localizedName": "选择SAP项",
+    "uuid": "378035c5-6963-5ae9-ac90-2c6c8b9c1083"
+},{
+    "id": "Encootech.AutomationActivity.SapActivity.SapReadStatusbar",
+    "name": "SAP_GetStatus.md",
+    "localizedName": "获取状态栏信息",
+    "uuid": "187da91b-8226-5be2-b702-c1d5976cb306"
+}
+]
