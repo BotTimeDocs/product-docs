@@ -6,6 +6,11 @@
     },
     {
         "id": null,
+        "name": "StateMachine",
+        "localizedName": "状态机"
+    },
+    {
+        "id": null,
         "name": "Determine",
         "localizedName": "判断"
     },
