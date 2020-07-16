@@ -22,6 +22,12 @@
         "uuid": "f9cd10c0-90af-4f6c-a823-b2faa0daa98a"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.DropdownListBoxActivity",
+        "name": "DropdownListDialog.md",
+        "localizedName": "下拉选择框",
+        "uuid": "ccedfc92-db58-4730-b431-0a024798cf4b"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.LogActivity",
         "name": "WriteLog.md",
         "localizedName": "写入日志",

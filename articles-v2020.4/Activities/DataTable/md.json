@@ -100,5 +100,11 @@
         "name": "SaveToCSV.md",
         "localizedName": "保存为CSV文件",
         "uuid": "f42d698f-895d-46b1-9fd4-2314d2952f03"
+    },
+    {
+        "id": "BotTime.DataTableActivity.Activities.AppendToCSVActivity",
+        "name": "AppendToCSV.md",
+        "localizedName": "追加到CSV文件",
+        "uuid": "8d2b5294-b537-4865-a78f-0ae790d8bfcb"
     }
 ]
