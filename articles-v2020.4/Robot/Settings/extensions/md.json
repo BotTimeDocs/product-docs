@@ -1,10 +1,5 @@
 [
     {
-        "name": "extensions.md",
-        "localizedName": "关于扩展",
-        "uuid": "bedca32b-ec8c-440f-bcc2-d0e411d65af6"
-    },
-    {
         "name": "ChromeExtension.md",
         "localizedName": "Chrome扩展",
         "uuid": "f63640f7-3a81-46b9-ae53-2ff15e2bc1b8"
