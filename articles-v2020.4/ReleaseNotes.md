@@ -10,6 +10,7 @@
 | 编辑器   | 1.1.2007. |
 | 机器人   | 1.1.2007. |
 
+
 你可以通过*云扩 RPA 控制台* -> [*安装包下载*](https://console.encoo.com/#/download) 页面体验相关产品。
 
 ### 新增功能
@@ -20,6 +21,13 @@
 4. 【编辑器】支持浮窗通知。
 5. 【编辑器】集成NuGet，可以将任意的NuGet包下载并安装到项目中。
 6. 【编辑器】对项目中的某一类组件设置属性值，使之调试或运行时按照设置的属性值进行。
+1. 【组件】新增**状态机**系列组件。详情请查看[状态机](Activities/WorkflowControl/StateMachine/StateMachine.md)
+1. 【组件】新增**数据格式化**组件。详情请查看[数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)
+1. 【组件】新增流程控制类**重试**、**抛出异常**和**重新抛出异常**组件。详情请查看[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)
+1. 【组件】新增系统**下拉选择框**组件。详情请查看[下拉选择框](Activities/System/DropdownListDialog.md)
+1. 【组件】新增数据表**追加到CSV文件**组件。详情请查看[追加到CSV文件](Activities/DataTable/AppendToCSV.md)
+1. 【组件】新增对Outlook支持组件**获取邮件(Outlook)**、**发送邮件(Outlook)**。详情请查看[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)
+
 
 ### 增强功能
 
@@ -27,6 +35,14 @@
 2. 【编辑器】导出项目支持导出后选择是否打开所在文件夹。
 3. 【编辑器】导入项目支持导入后选择是否立即打开该项目。
 4. 【编辑器】统一项目名称及流程包名称的命名规则。
+1. 【组件】**发送邮件(SMTP)**、**获取邮件(IMAP)**、**获取邮件(POP3)**组件支持手动选择安全方式。详情请查看[发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)
+1. 【组件】**获取邮件(IMAP)**组件支持仅获取未读邮件。详情请查看[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)
+1. 【机器人】UI体验增强。详情请查看[云扩RPA机器人](Robot/aboutRobot.md)
+
+### 修复问题
+
+1. 
+
 
 ## 2020.06.16 发版说明
 

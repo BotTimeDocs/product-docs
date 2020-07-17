@@ -1,5 +1,17 @@
 [
     {
+        "id": "BotTime.Mail.Activity.Activities.SendOutlookMailActivity",
+        "name": "SendOutlookMail.md",
+        "localizedName": "发送邮件(Outlook)",
+        "uuid": "e9578822-8a59-4f6d-bf84-c62718f5b6b3"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetOutlookMailActivity",
+        "name": "GetOutlookMail.md",
+        "localizedName": "获取邮件(Outlook)",
+        "uuid": "f678a928-bc21-41a1-8ea5-822f799cabd8"
+    },
+    {
         "id": "BotTime.Mail.Activity.Activities.SendSmtpMailActivity",
         "name": "SendMailSMTP.md",
         "localizedName": "发送邮件(SMTP)",

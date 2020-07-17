@@ -6,6 +6,3 @@
 
 如果你暂时不想更新机器人，你也可以选择“**请勿更新**”，关闭提示弹窗。
 
-稍后，你可以在**基本配置**里找到机器人的更新提示，单击黄色按钮，更新机器人。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/updaterobot2.png)
-
