@@ -1,18 +1,18 @@
 [
 {
-    "id": null,
+    "id": "Encootech.AutomationActivity.GetAreaTextActivity",
     "name": "GetJsonStructure.md",
     "localizedName": "获取区域结构"
    
 },
 {
-    "id": null,
+    "id": "Encootech.AutomationActivity.SwitchControlActivity",
     "name": "SwitchControl.md",
     "localizedName": "切换控件"
     
 },
 {
-    "id": null,
+    "id": "Encootech.AutomationActivity.GetFocusedControlElementActivity",
     "name": "GetFocus.md",
     "localizedName": "获取焦点控件"    
 }
