@@ -25,7 +25,7 @@
 1. 【组件】新增 **数据格式化** 组件。详情请查看[数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)。
 1. 【组件】新增流程控制类组件：**重试**、**抛出异常**和**重新抛出异常**。详情请查看[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
 1. 【组件】新增 **下拉选择框** 组件，方便在流程中弹出下拉选择框形态的用户交互界面。详情请查看[下拉选择框](Activities/System/DropdownListDialog.md)。
-1. 【组件】新增 **追加到CSV文件** 组件。详情请查看[追加到CSV文件](Activities/DataTable/AppendToCSV.md)
+1. 【组件】新增 **追加到CSV文件** 组件。详情请查看[追加到CSV文件](Activities/DataTable/AppendToCSV.md)。
 1. 【组件】新增 **获取邮件(Outlook)**、**发送邮件(Outlook)**。你可以使用本地 Outlook 发送和获取邮件。详情请查看[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
 
 
@@ -36,7 +36,7 @@
 3. 【编辑器】导入项目时，支持导入后选择是否立即打开该项目。
 4. 【编辑器】统一项目名称及流程包名称的命名规则，避免发布流程时名称校验不通过。
 1. 【组件】**发送邮件(SMTP)**、**获取邮件(IMAP)**、**获取邮件(POP3)** 组件支持手动选择安全方式。详情请查看[发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)。
-1. 【组件】**获取邮件(IMAP)** 组件支持仅获取未读邮件。详情请查看[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)
+1. 【组件】**获取邮件(IMAP)** 组件支持仅获取未读邮件。详情请查看[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)。
 1. 【机器人】UI 体验优化。
 
 ## 2020.06.16 发版说明
