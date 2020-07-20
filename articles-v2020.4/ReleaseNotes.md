@@ -21,17 +21,15 @@
 4. 【编辑器】编辑器右下角支持浮窗通知。
 5. 【编辑器】集成 NuGet，可以将任意的 NuGet 包下载并安装到项目中，方便在项目中引用其他的代码。
 6. 【编辑器】对项目中的某一类组件设置通用属性值，使之调试或运行时按照设置的属性值进行。
+1. 【编辑器】支持使用强大的元素探测器实现选择器中元素的属性编辑。此功能仅在企业版中支持。参见[元素探测器](Activities/Appendix/UiDetector.md)。
+1. 【编辑器】在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性。参见[项目设置](Studio/AutomationProjects/ProjectSettings.md)。
 1. 【组件】新增 **状态机** 系列组件。详情请查看[状态机](Activities/WorkflowControl/StateMachine/StateMachine.md)。
 1. 【组件】新增 **数据格式化** 组件。详情请查看[数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)。
 1. 【组件】新增流程控制类组件：**重试**、**抛出异常**和**重新抛出异常**。详情请查看[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
 1. 【组件】新增 **下拉选择框** 组件，方便在流程中弹出下拉选择框形态的用户交互界面。详情请查看[下拉选择框](Activities/System/DropdownListDialog.md)。
 1. 【组件】新增 **追加到CSV文件** 组件。详情请查看[追加到CSV文件](Activities/DataTable/AppendToCSV.md)。
 1. 【组件】新增 **获取邮件(Outlook)**、**发送邮件(Outlook)**。你可以使用本地 Outlook 发送和获取邮件。详情请查看[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
-1. 元素探测器
-2. 通用属性加入项目设置
-3. 【组件 - 企业版 】获取焦点控件，切换控件
-4. 【市场组件】清空文本
-
+1. 【组件】新增 **获取焦点控件**，**切换控件**。这两个空间仅在企业版中支持。参见[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)和[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)。
 
 ### 增强功能
 
@@ -42,7 +40,7 @@
 1. 【组件】**发送邮件(SMTP)**、**获取邮件(IMAP)**、**获取邮件(POP3)** 组件支持手动选择安全方式。详情请查看[发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)。
 1. 【组件】**获取邮件(IMAP)** 组件支持仅获取未读邮件。详情请查看[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)。
 1. 【机器人】UI 体验优化。
-1. Java扩展部署
+1. 【编辑器】支持 Java 扩展。你可以使用 Java 扩展识别一些原本无法识别的桌面 Java 应用中的元素。
 
 ## 2020.06.16 发版说明
 
