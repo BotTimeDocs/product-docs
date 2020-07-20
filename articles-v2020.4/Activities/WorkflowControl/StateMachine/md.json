@@ -1,0 +1,20 @@
+[
+    {
+        "id": "System.Activities.Statements.StateMachine",
+        "name": "StateMachine.md",
+        "localizedName": "状态机",
+        "uuid": "9ffda030-b74b-4d4f-8bdb-ce5ec251bd07"
+    },
+    {
+        "id": "System.Activities.Statements.State",
+        "name": "State.md",
+        "localizedName": "状态",
+        "uuid": "1eaa7512-cd73-4b0b-9161-aec7b5a03a5c"
+    },
+    {
+        "id": "System.Activities.Statements.State",
+        "name": "FinalState.md",
+        "localizedName": "最终状态",
+        "uuid": "1eea1644-9ffe-400a-b695-260b0f427a6e"
+    }
+]

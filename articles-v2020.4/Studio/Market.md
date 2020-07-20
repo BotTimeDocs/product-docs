@@ -14,14 +14,14 @@
 
 ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-0.png)
 
-1. 在“工作目录”面板中双击打开将要被安装组件的目标项目
+1. 在“项目面板”面板中双击打开将要被安装组件的目标项目
 2. 在工具栏点击“组件市场”打开组件市场窗口
 3. 在搜索文本框输入关键字查找组件，例如“云扩”
 4. 选中组件并点击“下载”图标
 
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-1.png)
 
-5. 在“安装组件”窗口点击“确认”将此组件安装至项目中
+5. 在“安装组件”窗口点击“确定”将此组件安装至项目中
 
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-2-0.png)
 
@@ -30,29 +30,27 @@
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-2.png)
 
     >注意：
+    >
     >在每个项目中，只有至少存在一个引用时，才会设置依赖项。
-    >已安装的依赖项仅适用于当前的项目，并且在botTimeRPA.json文件中可以看到每个项目的依赖项列表。
-    >在组件市场中，可查看依赖项的版本，同时可对依赖项进行添加、更新和删除。
-    >要管理依赖项，右击工作目录窗口中的依赖项类别，打开菜单，点击“管理”。或者点击工具栏下的设计->组件市场。这都将打开“组件市场”窗口：
-    > - 对于未添加依赖项的项目，只需通过搜索相应的组件包，找到并安装它们，即可将所需组件添加到项目中。 
-    > - 对于已添加依赖项的项目，通过已安装组件页面，点击删除即可删除该依赖项，要想更新组件包，只需点击更新按钮。
+    >
+    >已安装的依赖项仅适用于当前的项目，并且在project.json文件中可以看到每个项目的依赖项列表。
 
-7. “组件”面板“扩展”目录包含了从“组件市场”下载的所有组件，直接拖拽到流程中即可使用
+7. “组件面板”的“扩展”目录包含了从“组件市场”下载的所有组件，直接拖拽到流程中即可使用
 
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-3.png)
 
 
-### 已安装组件与本地组件
+### 已安装组件
 
-在组件市场窗口中，还存在两个其他分类：已安装组件和本地组件
+在组件市场窗口中，还存在一个其他分类：已安装组件
 
 * **已安装组件**仅针对当前项目存在，仅显示当前项目已安装的组件包，通过该页面可以管理项目中的依赖项。
 
     ![已安装组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installedActivities.PNG)
-
+<!-- 
 * **本地组件**最为重要的是，当你处于无网络或其他无法连接到组件市场的情况时，你依然可以使用曾经下载过的组件包，将他们应用于你的自动化项目中。
 
-    ![本地组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/localActivities.PNG)
+    ![本地组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/localActivities.PNG) -->
 
 ### 管理依赖项
 
@@ -61,6 +59,59 @@
 
 1. 对于未添加依赖项的项目，只需通过搜索相应的组件包，找到并安装它们，即可将所需组件添加到项目中。 
 2. 对于已添加依赖项的项目，通过已安装组件页面，点击删除即可删除该依赖项，要想更新组件包，只需点击更新按钮。
+
+## 代码市场 
+代码市场中的代码包可以下载到编辑器中，主要用于执行代码组件及表达式编辑器中。与组件市场不同，其在组件面板不可见，如果需要使用，可在编辑区域底部的**导入**中进行引用。
+
+### 下载、安装与使用
+
+![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-0.png)
+
+1. 在“项目面板”面板中双击打开将要被安装代码包的目标项目
+2. 在工具栏点击“代码市场”打开代码市场窗口
+3. 在搜索文本框输入关键字查找代码包，例如“queue”
+4. 选中代码包并点击“下载”图标
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-1.png)
+
+5. 在“安装组件”窗口点击“确定”将此代码包安装至项目中
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-2.png)
+
+6. 如果该代码包需要接受许可证，则会弹出“接受许可证”窗口，接受则继续下载，拒绝则不下载。
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-3.png)
+
+7. 在项目的“依赖项”中可查看下载的代码包信息
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-4.PNG)
+
+    >注意：
+    >
+    >在每个项目中，只有至少存在一个引用时，才会设置依赖项。
+    >
+    >已安装的依赖项仅适用于当前的项目，并且在project.json文件中可以看到每个项目的依赖项列表。
+
+8. 编辑区域的“导入”中可以搜索到下载的代码包，搜索后点击即可引用到项目中。
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-5.PNG)
+
+
+### 已安装代码包
+
+在代码市场窗口中，还存在一个其他分类：已安装代码包
+
+* **已安装代码包**仅针对当前项目存在，仅显示当前项目已安装的代码包，通过该页面可以管理项目中的依赖项。
+
+    ![已安装代码包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-6.PNG)
+
+### 管理依赖项
+
+在代码市场中，可查看依赖项的版本，同时可对依赖项进行添加、更新和删除。
+要管理依赖项，右击项目面板中的依赖项类别，打开菜单，点击“管理”。或者点击“市场”->“代码市场”。这都将打开“代码市场”窗口。
+
+1. 对于未添加依赖项的项目，只需通过搜索相应的代码包，找到并安装它们，即可将所需代码包添加到项目中。 
+2. 对于已添加依赖项的项目，通过已安装代码包页面，点击删除即可删除该依赖项，要想更新代码包，只需点击更新按钮。
 
 ## 流程市场
 
@@ -82,7 +133,7 @@
     >注意：
     >与下载组件不同的是，流程下载后将作为一个独立的项目存在
 
-4. 在工作目录面板即可查看以新项目名称命名的流程
+4. 在项目面板面板即可查看以新项目名称命名的流程
 
     ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/FM-3.png)
 

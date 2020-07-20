@@ -6,6 +6,11 @@
     },
     {
         "id": null,
+        "name": "StateMachine",
+        "localizedName": "状态机"
+    },
+    {
+        "id": null,
         "name": "Determine",
         "localizedName": "判断"
     },
@@ -43,6 +48,24 @@
         "name": "Delay.md",
         "localizedName": "延迟",
         "uuid": "74e120e9-1212-4a2b-a134-04644553afec"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Retry",
+        "name": "Retry.md",
+        "localizedName": "重试",
+        "uuid": "3a5ca6b3-47d9-4e27-b4a0-91abe47b59bb"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Throw",
+        "name": "Throw.md",
+        "localizedName": "抛出异常",
+        "uuid": "5e7a2f51-28b7-4675-84d2-ef9fff67fdb5"
+    },
+    {
+        "id": "BotTime.Flow.Activities.ReThrow",
+        "name": "ReThrow.md",
+        "localizedName": "重新抛出异常",
+        "uuid": "e148fedd-8ad2-4db2-ac54-c76a1e15cfa7"
     },
     {
         "id": "BotTime.Flow.Activities.InvokeWorkflow",

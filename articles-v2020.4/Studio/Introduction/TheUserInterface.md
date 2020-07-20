@@ -12,6 +12,10 @@
 
 ![4](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/4.PNG) **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。
 
+![5](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/5.svg) **输出面板** — 在编辑器下方可以打开输出面板，以输出不同的日志信息，如错误、调试等。
+
+![6](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/6.png) **状态栏** — 展示打开的项目和编辑器通知等相关信息。
+
 ## 项目面板
 
 **项目面板**以树形结构的方式显示你创建的全部的项目内容，你可以通过双击项目名打开该项目。 
@@ -29,11 +33,14 @@
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|新增文件|在所选中项目下添加子流程。</br>注意：仅在选择项目时出现 |
+|添加|选择可以在所选中项目下添加的子流程：[序列](../TypeOfWorkflow/Sequence.md)、[流程图](../TypeOfWorkflow/Flowchart.md)</br>注意：仅在选择项目时出现 |
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件</br>注意：仅在选择项目时出现 |
 |打开所在文件夹| 	打开所选项目或文件的本地文件夹 |
+|项目设置| 	打开“项目设置”以设置某一类别组件属性</br>注意：仅在选择项目时出现 |
+|调试文件| 	调试所选中的.xaml文件|
+|运行文件| 	运行所选中的.xaml文件 |
 
 >注意： 
 >
@@ -67,6 +74,8 @@
 
 * **组件市场**-使你可以下载和管理第三方的组件，将其作为依赖项添加至自动化项目中。
 
+* **代码市场**-集成了NuGet，使你可以更方便地加载NuGet包到自动化项目中。 
+
 * **流程市场**-你可以下载流程，已完成对相关组件的了解及应用。 
 
 有关市场的详细信息，请查看[云扩市场](../Market.md?_v=v2020.4)。
@@ -89,18 +98,6 @@
 
 有关发布自动化项目的详细信息，请查看[发布自动化项目](../AutomationProjects/PublishProject.md?_v=v2020.4)。
 
-## 帮助 
-
-通过工具栏或菜单栏的**帮助**按钮使你能够快速打开产品文档、在线课程、社区论坛，以获取帮助。 
-
-<!-- ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG) -->
-
-## 个人信息
-
-通过点击菜单栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**进行用户注销。 
- 
-![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
-
 ## 系统设置
 
 **系统设置**用于管理编辑器相关的设置信息，同时还可以找到产品的版本信息。 
@@ -113,6 +110,19 @@
  
 ![系统设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/settings.PNG)
 
+<!-- ## 帮助 
+
+通过工具栏或菜单栏的**帮助**按钮使你能够快速打开产品文档、在线课程、社区论坛，以获取帮助。  -->
+
+<!-- ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG) -->
+
+## 个人信息
+
+通过点击菜单栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**退出登录。 
+ 
+![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
+
+
 ## 编辑区域 
 
 **编辑区域**显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。
@@ -121,7 +131,7 @@
 
 ![设计](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design.png)
 
-通过点击![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png)图标，按住空格键或按鼠标中键来激活平移模式。</br>通过按住Ctrl+鼠标滚动方式更改缩放级别，然后点击![重置为100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%.png)图标将其重置为100%。</br>通过点击![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png)图标，使整个自动化项目按照编辑区域的大小进行自适应。
+通过点击![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png)图标，按住空格键或按鼠标中键来激活平移模式。</br>通过按住Ctrl+鼠标滚动方式更改缩放级别，然后点击![重置为100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%25.png)图标将其重置为100%。</br>通过点击![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png)图标，使整个自动化项目按照编辑区域的大小进行自适应。
 
 ### 上下文菜单 
 
@@ -161,7 +171,7 @@
 
 **输出面板**可以显示当前项目中的所有信息，包括但不限于项目打开或执行时的信息、写入日志组件的输出信息。通过输出面板，你可以快速定位到项目中错误出现的位置，及时更改，保证项目的正确性。
 
-当项目验证出现问题时，将在输出面板中显示错误信息。针对调试项目时，输出面板将显示所有组件从开始到结束的详细日志。当流程出错误，通过日志信息将可以轻松地定位到出现错误的组件。
+当项目验证出现问题时，将在输出面板中显示错误信息。针对调试项目时，输出面板将显示所有组件从开始到结束的详细日志。当流程出错，通过日志信息将可以轻松地定位到出现错误的组件。
 
 请注意，每次运行或调试项目时，将会自动清除此面板中存储的日志信息。
 
