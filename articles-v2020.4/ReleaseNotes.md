@@ -7,8 +7,8 @@
 
 |         | 版本号      |
 | -----:  | -----:     |
-| 编辑器   | 1.1.2007. |
-| 机器人   | 1.1.2007. |
+| 编辑器   | 1.1.2007.29 |
+| 机器人   | 1.1.2007.29 |
 
 
 你可以通过*云扩 RPA 控制台* -> [*安装包下载*](https://console.encoo.com/#/download) 页面体验相关产品。
@@ -38,11 +38,6 @@
 1. 【组件】**发送邮件(SMTP)**、**获取邮件(IMAP)**、**获取邮件(POP3)**组件支持手动选择安全方式。详情请查看[发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)
 1. 【组件】**获取邮件(IMAP)**组件支持仅获取未读邮件。详情请查看[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)
 1. 【机器人】UI体验增强。详情请查看[云扩RPA机器人](Robot/aboutRobot.md)
-
-### 修复问题
-
-1. 
-
 
 ## 2020.06.16 发版说明
 
