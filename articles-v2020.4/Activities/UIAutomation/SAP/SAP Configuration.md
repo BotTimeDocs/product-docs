@@ -11,7 +11,6 @@
 4. **维护参数文件参数**窗口中，参数名称输入**sapgui/user_scripting**，点击**显示**
 5. 点击**更改值**，**新值**设置为**TRUE**，**保存更改**
 5. 重复第四步，分别将下述参数的值改为**FALSE**
-    - sapgui/nwbc_scripting
     - sapgui/user_scripting_disable_recording
     - sapgui/user_scripting_force_notification
     - sapgui/user_scripting_per_user
