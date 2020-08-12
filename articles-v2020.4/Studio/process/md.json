@@ -1,0 +1,36 @@
+[
+    {
+        "name": "WorkingProcess.md",
+        "localizedName": "创建-编辑-调试-发布-运行",
+        "uuid": "7b8abe50-2e5c-4644-be3f-08623515f9ec"
+    },
+    {
+        "name": "CreateProject.md",
+        "localizedName": "创建自动化项目",
+        "uuid": "45df4772-e03e-43f8-a8c3-1e113f9cb7ef"
+    },
+    {
+        "name": "ProjectSettings.md",
+        "localizedName": "项目设置",
+        "uuid": "e98f8b0d-c3fd-4ef1-949a-9524cce22e4e"
+    },
+    {
+        "name": "developProject",
+        "localizedName": "编辑项目"
+    },
+    {
+        "name": "Debugging.md",
+        "localizedName": "调试",
+        "uuid": "8381dd9a-db27-4d8a-99b4-63209ea835f1"
+    },
+    {
+        "name": "partialDebug.md",
+        "localizedName": "分步调试",
+        "uuid": "a7743895-3b55-4d82-b592-867f1e4426bb"
+    },
+    {
+        "name": "PublishProject.md",
+        "localizedName": "发布自动化项目",
+        "uuid": "6c8d9220-3c6b-4597-ae3a-4f0b1d47fa16"
+    }
+]
