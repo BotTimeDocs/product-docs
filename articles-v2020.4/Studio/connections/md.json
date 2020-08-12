@@ -1,0 +1,10 @@
+[
+    {
+        "name": "externalConnection",
+        "localizedName": "外部软件兼容性"
+    },
+    {
+        "name": "internalConnection",
+        "localizedName": "内部软件协作关系"
+    }
+]

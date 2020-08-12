@@ -1,0 +1,23 @@
+[
+    {
+        "name": "TypeOfWorkflow",
+        "localizedName": "流程类型"
+    },
+    {
+        "name": "Variables",
+        "localizedName": "变量"
+    },
+    {
+        "name": "Arguments",
+        "localizedName": "参数"
+    },
+    {
+        "name": "ImportNamespaces.md",
+        "localizedName": "导入命名空间",
+        "uuid": "3fd45467-7f58-48a5-bacf-69219e62ee22"
+    },
+    {
+        "name": "Recording",
+        "localizedName": "智能录制"
+    },
+]

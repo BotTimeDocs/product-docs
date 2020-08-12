@@ -2,7 +2,7 @@
 
 ## 硬件要求
 
-- 双核1.8 GHz 或更快的处理器。 推荐使用四核或更好的内核 
+- 双核1.8 GHz 或更快的处理器。 推荐使用四核+内核。
 - 最低 3 GB RAM；建议 8 GB RAM（如果在虚拟机上运行，则最低 3.5 GB）
 - 硬盘空间：2GB - 10 GB 可用空间；典型安装需要 2GB 的可用空间
 
@@ -18,7 +18,7 @@
 	> Microsoft Visual C++ 2013 [下载链接](https://www.microsoft.com/zh-CN/download/details.aspx?id=40784)</br>
 	> Microsoft Visual C++ 2015 [下载链接](https://www.microsoft.com/en-us/download/details.aspx?id=48145)<br>
 	> Microsoft Visual C++ 2017 [下载链接(x64)](https://go.microsoft.com/fwlink/?LinkId=746572) [下载链接(x86)](https://go.microsoft.com/fwlink/?LinkId=746571)
-- Office相关组件使用需要安装Office 2016或WPS 2016
+- Office相关组件使用需要安装 Office 2016 或 WPS 2016。
 - 支持的操作系统如下：
 	
 	> Windows 7 SP1 (x86 and x64)</br>Windows 8 (x86 and x64)</br>
@@ -28,6 +28,4 @@
 	> Windows Server 2012 (x64)</br>
 	> Windows Server 2012 R2 (x64)</br>
 	> Windows Server 2016 (x64)</br>
-	> 注意：Win7和Windows Server 2008 R2系统需要SP1补丁
-
-
+	> 注意：Win7和Windows Server 2008 R2系统需要SP1补丁。
