@@ -33,7 +33,7 @@
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|添加|选择可以在所选中项目下添加的子流程：[序列](../TypeOfWorkflow/Sequence.md)、[流程图](../TypeOfWorkflow/Flowchart.md)</br>注意：仅在选择项目时出现 |
+|添加|选择可以在所选中项目下添加的子流程：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)</br>注意：仅在选择项目时出现 |
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件</br>注意：仅在选择项目时出现 |
@@ -64,7 +64,7 @@
 
 ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/logs.PNG) -->
 
-**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../Debugging.md?_v=v2020.4)。
+**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../process/Debugging.md?_v=v2020.4)。
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
@@ -78,7 +78,7 @@
 
 * **流程市场**-你可以下载流程，已完成对相关组件的了解及应用。 
 
-有关市场的详细信息，请查看[云扩市场](../Market.md?_v=v2020.4)。
+有关市场的详细信息，请查看[云扩市场](../connections/internalConnection/Market.md?_v=v2020.4)。
 
 ![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-marketplace.PNG)
 
@@ -96,7 +96,7 @@
 
 自动化项目发布后，将会自动存储到对应的位置，如果后续要对该位置的项目进行修改，在本地修改后，再次发布即可。
 
-有关发布自动化项目的详细信息，请查看[发布自动化项目](../AutomationProjects/PublishProject.md?_v=v2020.4)。
+有关发布自动化项目的详细信息，请查看[发布自动化项目](../process/PublishProject.md?_v=v2020.4)。
 
 ## 系统设置
 

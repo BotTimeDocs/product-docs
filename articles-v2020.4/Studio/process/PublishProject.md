@@ -41,7 +41,7 @@
     
         ![发布到流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToFlowmarket.PNG)
 
-        a. 在**流程市场**部分，可以选择需要将项目发布到哪个流程市场中。请注意，首次发布需通过**管理市场**配置你的市场，具体步骤请参考[管理市场](../Market.md?_v=v2020.4)。
+        a. 在**流程市场**部分，可以选择需要将项目发布到哪个流程市场中。请注意，首次发布需通过**管理市场**配置你的市场，具体步骤请参考[管理市场](../connections/internalConnection/Market.md?_v=v2020.4)。
 
         b. **流程包名称**默认情况下为项目名称，可进行更改。
         
