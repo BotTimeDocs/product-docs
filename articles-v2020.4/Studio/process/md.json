@@ -1,5 +1,10 @@
 [
     {
+        "name": "WorkingProcess.md",
+        "localizedName": "创建-编辑-调试-发布-运行",
+        "uuid": "7b8abe50-2e5c-4644-be3f-08623515f9ec"
+    },
+    {
         "name": "CreateProject.md",
         "localizedName": "创建自动化项目",
         "uuid": "45df4772-e03e-43f8-a8c3-1e113f9cb7ef"
