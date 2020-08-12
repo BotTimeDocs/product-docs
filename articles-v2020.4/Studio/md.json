@@ -4,31 +4,16 @@
         "localizedName": "产品介绍"
     },
     {
-        "name": "Settings",
-        "localizedName": "设置"
+        "name": "quickStart",
+        "localizedName": "快速开始"
     },
     {
-        "name": "WorkingProcess.md",
-        "localizedName": "工作过程",
-        "uuid": "8c41bcda-af0c-4fda-9550-3ed262105c84"
+        "name": "process",
+        "localizedName": "项目流程"
     },
     {
-        "name": "AutomationProjects",
-        "localizedName": "自动化项目"
-    },
-    {
-        "name": "Debugging.md",
-        "localizedName": "调试",
-        "uuid": "8381dd9a-db27-4d8a-99b4-63209ea835f1"
-    },
-    {
-        "name": "Market.md",
-        "localizedName": "云扩市场",
-        "uuid": "f1777edd-af4e-4308-94d0-2493bc479ff4"
-    },
-    {
-        "name": "Extensions",
-        "localizedName": "扩展"
+        "name": "connections",
+        "localizedName": "兼容性说明"
     },
     {
         "name": "FAQ.md",
