@@ -4,15 +4,17 @@
 
 ## 1、设置工作区
 
-这是你可能已经完成的阶段：[安装云扩RPA编辑器](./Settings/Installation.md?_v=v2020.4)。 <br>
-使用云扩RPA编辑器创建一个自动化项目。有关创建自动化项目的具体操作，请查看[创建自动化项目](./AutomationProjects/CreateProject.md?_v=v2020.4)。 
+这是你可能已经完成的阶段：[安装云扩RPA编辑器](../quickStart/Installation.md?_v=v2020.4)。
+
+使用云扩RPA编辑器创建一个自动化项目。有关创建自动化项目的具体操作，请查看[创建自动化项目](CreateProject.md?_v=v2020.4)。 
 
 ## 2、编辑自动化项目 
 
 现在你可以开始工作了。
 
-编辑自动化项目其实就是将平时员工的业务流程在编辑器中通过拖拽组件的方式来实现。详细的组件功能介绍请查看[组件模块](../Activities/ComponentsIntroduction.md?_v=v2020.4)。<br>
-其次，云扩RPA编辑器还包含可以帮助你更快开展工作及编辑高质量自动化项目的工具。有关可用工具和功能的详细信息，请查看[云扩市场](./Market.md?_v=v2020.4)和[智能录制](./Recording/Recording.md?_v=v2020.4)。
+编辑自动化项目其实就是将平时员工的业务流程在编辑器中通过拖拽组件的方式来实现。详细的组件功能介绍请查看[组件模块](../../Activities/ComponentsIntroduction.md?_v=v2020.4)。
+
+其次，云扩RPA编辑器还包含可以帮助你更快开展工作及编辑高质量自动化项目的工具。有关可用工具和功能的详细信息，请查看[云扩市场](../connections/internalConnection/Market.md?_v=v2020.4)和[智能录制](developProject/Recording/Recording.md?_v=v2020.4)。
 
 <!-- ![编辑器自动化项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/writeProject.png) -->
 
@@ -30,7 +32,7 @@
 
 ## 5、发布
 
-经过多次运行测试并通过交付标准的自动化项目，你可以利用编辑器的“发布”功能将项目发布到控制台和流程市场中。有关发布的详细信息，请查看[发布自动化项目](./AutomationProjects/PublishProject.md?_v=v2020.4).
+经过多次运行测试并通过交付标准的自动化项目，你可以利用编辑器的“发布”功能将项目发布到控制台和流程市场中。有关发布的详细信息，请查看[发布自动化项目](PublishProject.md?_v=v2020.4).
 
 <!-- ![发布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/publishProject.png) -->
 
