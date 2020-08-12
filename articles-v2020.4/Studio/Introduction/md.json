@@ -1,7 +1,7 @@
 [
     {
         "name": "Introduction.md",
-        "localizedName": "产品介绍",
+        "localizedName": "产品简介",
         "uuid": "169ccae4-2874-48b5-9989-3d5b7b37d5c4"
     },
     {
@@ -10,8 +10,8 @@
         "uuid": "b7963e12-b4c9-41dc-bca5-ebc6d69b4cf7"
     },
     {
-        "name": "KeyboardShortcuts.md",
-        "localizedName": "键盘快捷键",
-        "uuid": "46de7d41-033a-44eb-b516-d529fff09a3a"
+        "name": "terms.md",
+        "localizedName": "产品术语",
+        "uuid": "733620c8-89a0-4d31-80b7-ec2c3c41a4b4"
     }
 ]
