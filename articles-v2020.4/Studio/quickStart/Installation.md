@@ -1,10 +1,13 @@
-# 编辑器的安装与更新
+# 安装与更新
 
 ## 安装
 
-1. 打开云扩RPA控制台（<https://console.encoo.com/#/user/register>）并注册登录。点击左侧“安装包下载”的导航按钮，选择云扩RPA编辑器安装包进行下载。 
+1. 获取云扩 RPA 编辑器。
 
+   对于社区版编辑器，你可以在[云扩 RPA 控制台页面](https://console.encoo.com/#/user/register)注册登录并下载。
    ![开始](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/downloadexe.png)
+
+   对于企业版编辑器，请联系云扩获取。
 
 2. 下载完成后双击安装包进行安装，进入如下图所示界面,勾选“已阅读并同意用户协议”后，点击“开始安装”即可安装云扩RPA编辑器。 
   

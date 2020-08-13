@@ -16,3 +16,8 @@ A: 从产品形态上来讲，社区版和企业版都由编辑器，控制台�
         3. [关于资源组](Console/management/groups/aboutGroups.md?_v=v2020.4)。
         4. [关于审计日志](Console/management/log/aboutlog.md?_v=v2020.4)。
     5. 私有化部署功能。详情请联系云扩。
+
+## 获取最新版本的离线产品文档？
+Q: 如何获取最新版本的离线产品文档？
+
+A: [pdf下载](https://dev-academy.bottime.com/pdf/book.pdf)
