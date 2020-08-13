@@ -13,5 +13,15 @@
         "id": null,
         "name": "JavaScript",
         "localizedName": "JavaScript"
+    },
+    {
+        "id": null,
+        "name": "CollectionProcessing",
+        "localizedName": "集合处理"
+    },
+    {
+        "id": null,
+        "name": "TextProcessing",
+        "localizedName": "文本处理"
     }
 ]

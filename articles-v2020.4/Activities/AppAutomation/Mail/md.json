@@ -12,6 +12,18 @@
         "uuid": "f678a928-bc21-41a1-8ea5-822f799cabd8"
     },
     {
+        "id": "BotTime.Mail.Activity.Activities.SendExchangeMailActivity",
+        "name": "SendExchangeMail.md",
+        "localizedName": "发送邮件(Exchange)",
+        "uuid": "52329d2c-aa9e-4ef9-83e9-91063051377f"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetExchangeMailActivity",
+        "name": "GetExchangeMail.md",
+        "localizedName": "获取邮件(Exchange)",
+        "uuid": "4bd5441b-0cd5-48b2-9bca-a90b233472da"
+    },
+    {
         "id": "BotTime.Mail.Activity.Activities.SendSmtpMailActivity",
         "name": "SendMailSMTP.md",
         "localizedName": "发送邮件(SMTP)",
