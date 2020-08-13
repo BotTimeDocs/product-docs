@@ -51,6 +51,7 @@
         "id": null,
         "name": "GetElementAttributeValue.md",
         "localizedName": "获取元素属性值",
+	"uuid":	"172E0D63-B057-4EC2-9F75-8D7B96C953B9"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
@@ -68,6 +69,7 @@
         "id": null,
         "name": "WaitElementAttributeValue.md",
         "localizedName": "等待元素属性值",
+	"id": "F55DF204-9AE5-4002-9230-9439C0B3D773"
     },
     {
         "id": "Encootech.AutomationActivity.SelectItemActivity",
@@ -79,6 +81,7 @@
         "id": null,
         "name": "SelectMultipleItems.md",
         "localizedName": "选择多个项目",
+	"id": "C2B3CFEA-FF53-47E3-BD7C-B10D34380E66"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
@@ -90,16 +93,19 @@
         "id": null,
         "name": "Highlight.md",
         "localizedName": "高亮",
+	"id": "BF7C5379-A332-46E3-BD66-11EB6913E0D4"
     },
        {
         "id": null,
         "name": "SetFocus.md",
         "localizedName": "设置焦点",
+	"id": "3FC7C597-50B6-4605-951D-A85C9D8226D6"
     },
        {
         "id": null,
         "name": "MatchImage.md",
         "localizedName": "匹配图片",
+	"id": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613"
     },
       {
         "id": null,
