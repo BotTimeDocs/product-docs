@@ -11,6 +11,18 @@
         "localizedName": "悬停",
         "uuid": "f8de87aa-2206-4e6f-95d8-11b299bccf3c"
     },
+      {
+        "id": "Encootech.AutomationActivity.CheckActivity",
+        "name": "Check.md",
+        "localizedName": "勾选",
+        "uuid": "8954a07f-7bf3-47f6-8e83-c7f7c31c363a"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SetTextActivity",
+        "name": "TypeInto.md",
+        "localizedName": "输入文本",
+        "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7"
+    },
     {
         "id": "Encootech.AutomationActivity.SendHotKeyActivity",
         "name": "SendHotkey.md",
@@ -35,6 +47,11 @@
         "localizedName": "获取元素",
         "uuid": "580eca70-9c1b-4abe-8ba3-1f03a0955ae5"
     },
+      {
+        "id": null,
+        "name": "GetElementAttributeValue.md",
+        "localizedName": "获取元素属性值",
+    },
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
         "name": "WaitElementVanish.md",
@@ -47,29 +64,47 @@
         "localizedName": "等待元素出现",
         "uuid": "303626bc-bab2-42c0-b3ea-1ddddc10ac61"
     },
+       {
+        "id": null,
+        "name": "WaitElementAttributeValue.md",
+        "localizedName": "等待元素属性值",
+    },
     {
         "id": "Encootech.AutomationActivity.SelectItemActivity",
         "name": "SelectItem.md",
         "localizedName": "选择项目",
         "uuid": "089bcf7f-b628-4421-980d-b52b3b9bf17f"
     },
-    {
-        "id": "Encootech.AutomationActivity.CheckActivity",
-        "name": "Check.md",
-        "localizedName": "勾选",
-        "uuid": "8954a07f-7bf3-47f6-8e83-c7f7c31c363a"
-    },
-    {
-        "id": "Encootech.AutomationActivity.SetTextActivity",
-        "name": "TypeInto.md",
-        "localizedName": "输入文本",
-        "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7"
+     {
+        "id": null,
+        "name": "SelectMultipleItems.md",
+        "localizedName": "选择多个项目",
     },
     {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
         "name": "Screenshot.md",
         "localizedName": "截屏",
         "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
+    },
+       {
+        "id": null,
+        "name": "Highlight.md",
+        "localizedName": "高亮",
+    },
+       {
+        "id": null,
+        "name": "SetFocus.md",
+        "localizedName": "设置焦点",
+    },
+       {
+        "id": null,
+        "name": "MatchImage.md",
+        "localizedName": "匹配图片",
+    },
+      {
+        "id": null,
+        "name": "OCR",
+        "localizedName": "OCR（企业版）"
     },
     {
         "id": null,

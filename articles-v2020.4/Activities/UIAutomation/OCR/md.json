@@ -1,0 +1,20 @@
+[
+{
+    "id": null,
+    "name": "GetOCRText.md",
+    "localizedName": "获取OCR文本"
+   
+},
+{
+    "id": null,
+    "name": "GetSpecificTextOCRElement.md",
+    "localizedName": "获取含OCR文本的元素"
+    
+},
+{
+    "id": null,
+    "name": "IdentifyOCRTextExist.md",
+    "localizedName": "判断OCR文本是否存在"    
+}
+]
+
