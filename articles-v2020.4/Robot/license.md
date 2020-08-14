@@ -17,9 +17,9 @@
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activecommunityrobot-N-1.png)
 
 
-连接字符串：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**连接字符串 或机器人码**复制填入
+连接字符串：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**连接字符串**复制填入
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
+![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotconnectionstring.png)
 
 
 点击激活，即可激活机器人
@@ -30,9 +30,9 @@
 
 ## 控制台激活
 
-连接字符串：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**连接字符串机器人码**复制填入
+连接字符串：进入控制台，找到**断开**状态的机器人，将控制台创建的机器人的**连接字符串**复制填入
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotkey.png)
+![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotconnectionstring.png)
 
 
 点击激活，即可激活机器人：

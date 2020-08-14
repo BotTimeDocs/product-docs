@@ -21,11 +21,7 @@
 **注意** 若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）
 
 5. 点击确认，流程在快速准备后将自动执行。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlocalprocess-1.png)
-
-
-
-
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-0.png)
 
 
 ### 执行控制台流程
@@ -33,8 +29,7 @@
 2. 点击控制台流程库，即可获取流程库所有流程包
 3. 你可以通过流程包名搜索找到你想要执行的流程包。
 4. 选择要执行的版本，点击执行。
-
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlocalprocess2-1.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Console-0.png)
 
 
 ### 终止流程
@@ -43,7 +38,7 @@
 1. 打开本地/控制台流程库，找到正在运行的流程
 2. 在右侧按钮中点击**终止**
 3. 确认**终止**后，机器人将强制杀死正在运行的流程，无论流程运行到哪一步。**终止**操作无法撤回，无法删除。请谨慎操作。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotkillprocess-1.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Kill-0.png)
 
 
 ### 查看日志（包括录制的流程执行视频）
@@ -51,7 +46,7 @@
 当流程执行结束后，用户可查看日志。
 1. 打开本地/控制台流程库，找到运行过的流程
 2. 点击**日志**打开此流程执行记录的日志文件夹，包括视频文件。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlog-1.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Log-0.png)
 
 ### 删除流程
 支持用户删除本地流程库流程，若删除控制台流程库中的流程需前往控制台。
