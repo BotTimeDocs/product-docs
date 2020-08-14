@@ -1,5 +1,26 @@
 # 云扩产品发版说明
 
+## 2020.08.13 发版说明
+
+### 新增功能
+
+1. 【组件】新增 [获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md)与[发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)组件
+1. 【组件】新增6个文本处理类组件，分别为[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、[替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
+1. 【组件】新增[赋值(多个)](Activities/WorkflowControl/MultipleAssign.md)组件
+1. 【组件】新增Excel[插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)组件
+1. 【组件】新增[条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)组件
+1. 【组件】新增[遍历文件夹](Activities/System/File/ForeachFolder.md)组件
+1. 【组件】新增6个集合处理类组件，分别为[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
+1. 【机器人】增加[概览页](Robot/Overview.md)、[流程执行历史页](Robot/ProcessHistory.md)
+1. 【机器人】合并社区版与企业版安装包并支持不同激活方式[激活机器人](Robot/license.md)
+1. 【机器人】支持用户配置日志与视频文件保留时间[设置](Robot/Settings/Basic.md)
+
+
+### 增强功能
+1. 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击“导入参数”可直接将子流程参数导入
+
+
+
 ## 2020.07.17 发版说明
 
 2020.07.17 发布了云扩 RPA 编辑器和机器人社区版。
