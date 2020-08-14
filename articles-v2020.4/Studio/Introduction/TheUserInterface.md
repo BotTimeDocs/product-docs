@@ -1,6 +1,6 @@
 # 用户界面
 
-云扩RPA编辑器的用户界面主要由菜单栏、工具栏、工具面板以及编辑区域四部分组成，其简单直观的布局，最大程度地为编辑区域提供空间。
+云扩RPA编辑器采用简单直观的布局，可以最大程度地为编辑区域提供空间，同时为浏览项目或项目的整个上下文留出足够的空间。其用户界面分为以下几个区域：
 
 ![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
 
@@ -180,3 +180,9 @@
 请注意，每次运行或调试项目时，将会自动清除此面板中存储的日志信息。
 
 ![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outputPanel.png)
+
+## 意见反馈
+
+**意见反馈**可以使你快速地寻求帮助。通过点击![在线咨询](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help.png)图标，打开反馈窗口。
+
+当我们的客服人员在线时，你可以将你的问题反馈给客服人员，客服人员将会及时帮助你解决问题；当客服人员不在线时，你也可以通过留言来反馈你的问题。
