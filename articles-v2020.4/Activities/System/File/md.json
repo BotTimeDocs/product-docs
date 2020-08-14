@@ -1,5 +1,11 @@
 [
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.Foreach",
+        "name": "ForeachFolder.md",
+        "localizedName": "遍历文件夹",
+        "uuid": "6aa69ad1-7816-48a0-9b38-4d9d08b49fc9"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.File.SelectFileActivity",
         "name": "SelectFile.md",
         "localizedName": "选择文件",

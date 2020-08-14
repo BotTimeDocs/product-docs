@@ -44,6 +44,12 @@
         "uuid": "f3357989-015c-4a1b-8087-d1fd90a8511b"
     },
     {
+        "id": "BotTime.Flow.Activities.MultipleAssign",
+        "name": "MultipleAssign.md",
+        "localizedName": "赋值(多个)",
+        "uuid": "216356ac-79a8-4d9c-8907-b5bd24c36a07"
+    },
+    {
         "id": "BotTime.Flow.Activities.Delay",
         "name": "Delay.md",
         "localizedName": "延迟",

@@ -78,6 +78,12 @@
         "uuid": "124a7b04-9abf-4ae2-a220-4285be345d57"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelInsertPictureActivity",
+        "name": "InsertPicture.md",
+        "localizedName": "插入图片",
+        "uuid": "5078c96e-56a7-4b12-b41e-d2e17e39c51f"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelSortActivity",
         "name": "Sort.md",
         "localizedName": "排序",
