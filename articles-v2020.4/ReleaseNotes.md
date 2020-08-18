@@ -2,39 +2,57 @@
 
 ## 2020.08.13 发版说明
 
+2020.08.13 发布了云扩 RPA 编辑器和机器人社区版。
+本次发布的编辑器和机器人的版本号分别是：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2008.5 |
+| 机器人   | 1.1.2008.5 |
+
+
+你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
+
 ### 新增功能
 
-1. 【组件】匹配图片
-2. 【组件】设置焦点
-3. 【组件】选择多个项目
-4. 【组件】高亮
-5. 【组件】等待元素属性值
-6. 【组件】获取元素属性值
-7. 【组件 - 企业版 】获取OCR文本
-8. 【组件 - 企业版 】获取含OCR文本的元素
-9. 【组件 - 企业版 】判断OCR文本是否存在
-1. 【组件】新增 [获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md)与[发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)组件
-1. 【组件】新增6个文本处理类组件，分别为[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、[替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
-1. 【组件】新增[赋值(多个)](Activities/WorkflowControl/MultipleAssign.md)组件
-1. 【组件】新增Excel[插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)组件
-1. 【组件】新增[条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)组件
-1. 【组件】新增[遍历文件夹](Activities/System/File/ForeachFolder.md)组件
-1. 【组件】新增6个集合处理类组件，分别为[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
-1. 【机器人】增加[概览页](Robot/Overview.md)、[流程执行历史页](Robot/ProcessHistory.md)
-1. 【机器人】合并社区版与企业版安装包并支持不同激活方式[激活机器人](Robot/license.md)
-1. 【机器人】支持用户配置日志与视频文件保留时间[设置](Robot/Settings/Basic.md)
+1. 【编辑器】支持启用/禁用组件
+2. 【编辑器】新增意见反馈，可快速寻求帮助
+3. 【编辑器】合并社区版与企业版安装包并支持不同激活方式
+4. 【编辑器】输出面板支持分类筛选输出信息
+5. 【组件】匹配图片
+6. 【组件】设置焦点
+7. 【组件】选择多个项目
+8. 【组件】高亮
+9. 【组件】等待元素属性值
+10. 【组件】获取元素属性值
+11. 【组件 - 企业版 】获取OCR文本
+12. 【组件 - 企业版 】获取含OCR文本的元素
+13. 【组件 - 企业版 】判断OCR文本是否存在
+14. 【组件】新增 [获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md)与[发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)组件
+15. 【组件】新增6个文本处理类组件，分别为[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、[替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
+16. 【组件】新增[赋值(多个)](Activities/WorkflowControl/MultipleAssign.md)组件
+17. 【组件】新增Excel[插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)组件
+18. 【组件】新增[条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)组件
+19. 【组件】新增[遍历文件夹](Activities/System/File/ForeachFolder.md)组件
+20. 【组件】新增6个集合处理类组件，分别为[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
+21. 【机器人】增加[概览页](Robot/Overview.md)、[流程执行历史页](Robot/ProcessHistory.md)
+22. 【机器人】合并社区版与企业版安装包并支持不同激活方式[激活机器人](Robot/license.md)
+23. 【机器人】支持用户配置日志与视频文件保留时间[设置](Robot/Settings/Basic.md)
 
 
 ### 增强功能
-1. 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击“导入参数”可直接将子流程参数导入
-1. NC新增支持控件类型
-2. EAS报表类型界面支持获取结构化数据
-3. 等待元素出现返回的控件元素为图象而非锚点
-4. IE增加支持：内嵌IE浏览器的应用，360安全浏览器的兼容模式
-5. 浏览器端支持图像识别
-6. 输入文本组件增加对于桌面的设置控件条件下清空文本操作
-7. 获取区域文本更名为获取区域结构
-8. 悬停组件支持图像识别
+
+1. 【编辑器】发布项目前，对项目的正确性进行校验
+2. 【编辑器】将部分弹窗更改为浮窗，提升用户体验
+3. 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击“导入参数”可直接将子流程参数导入
+4. NC新增支持控件类型
+5. EAS报表类型界面支持获取结构化数据
+6. 等待元素出现返回的控件元素为图象而非锚点
+7. IE增加支持：内嵌IE浏览器的应用，360安全浏览器的兼容模式
+8.  浏览器端支持图像识别
+9.  输入文本组件增加对于桌面的设置控件条件下清空文本操作
+10. 获取区域文本更名为获取区域结构
+11. 悬停组件支持图像识别
 
 
 
