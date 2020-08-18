@@ -4,6 +4,15 @@
 
 ### 新增功能
 
+1. 【组件】匹配图片
+2. 【组件】设置焦点
+3. 【组件】选择多个项目
+4. 【组件】高亮
+5. 【组件】等待元素属性值
+6. 【组件】获取元素属性值
+7. 【组件 - 企业版 】获取OCR文本
+8. 【组件 - 企业版 】获取含OCR文本的元素
+9. 【组件 - 企业版 】判断OCR文本是否存在
 1. 【组件】新增 [获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md)与[发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)组件
 1. 【组件】新增6个文本处理类组件，分别为[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、[替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
 1. 【组件】新增[赋值(多个)](Activities/WorkflowControl/MultipleAssign.md)组件
@@ -18,6 +27,14 @@
 
 ### 增强功能
 1. 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击“导入参数”可直接将子流程参数导入
+1. NC新增支持控件类型
+2. EAS报表类型界面支持获取结构化数据
+3. 等待元素出现返回的控件元素为图象而非锚点
+4. IE增加支持：内嵌IE浏览器的应用，360安全浏览器的兼容模式
+5. 浏览器端支持图像识别
+6. 输入文本组件增加对于桌面的设置控件条件下清空文本操作
+7. 获取区域文本更名为获取区域结构
+8. 悬停组件支持图像识别
 
 
 
