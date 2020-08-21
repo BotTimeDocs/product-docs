@@ -18,5 +18,10 @@
         "name": "360SE.md",
         "localizedName": "360安全浏览器扩展",
         "uuid": "bb284b19-580e-4907-900f-199449ca16c0"
+    },
+    {
+        "name": "EdgeExtension.md",
+        "localizedName": "Microsoft Edge扩展",
+        "uuid": "c1bb0fb0-91c2-4729-9028-79cbc7db4456"
     }
 ]
