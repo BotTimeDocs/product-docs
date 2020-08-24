@@ -1,21 +1,20 @@
 [
-{
-    "id": "Encootech.AutomationActivity.GetAreaTextActivity",
-    "name": "GetJsonStructure.md",
-    "localizedName": "获取区域结构",
-    "uuid": "9ea923f6-4b25-4761-991c-ee73848c2c56"   
-},
-{
-    "id": "Encootech.AutomationActivity.SwitchControlActivity",
-    "name": "SwitchControl.md",
-    "localizedName": "切换控件",
-    "uuid": "9477ee0b-9247-4d7f-aac4-b5ead442a421"
-    
-},
-{
-    "id": "Encootech.AutomationActivity.GetFocusedControlElementActivity",
-    "name": "GetFocus.md",
-    "localizedName": "获取焦点控件",
-    "uuid": "5ae51cbd-5f3b-4d98-81e2-086023dcbf31"
-}
+    {
+        "id": "Encootech.AutomationActivity.GetAreaTextActivity",
+        "name": "GetJsonStructure.md",
+        "localizedName": "获取区域结构",
+        "uuid": "9ea923f6-4b25-4761-991c-ee73848c2c56"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SwitchControlActivity",
+        "name": "SwitchControl.md",
+        "localizedName": "切换控件",
+        "uuid": "9477ee0b-9247-4d7f-aac4-b5ead442a421"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetFocusedControlElementActivity",
+        "name": "GetFocus.md",
+        "localizedName": "获取焦点控件",
+        "uuid": "5ae51cbd-5f3b-4d98-81e2-086023dcbf31"
+    }
 ]

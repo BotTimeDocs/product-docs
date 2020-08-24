@@ -11,7 +11,7 @@
         "localizedName": "悬停",
         "uuid": "f8de87aa-2206-4e6f-95d8-11b299bccf3c"
     },
-      {
+    {
         "id": "Encootech.AutomationActivity.CheckActivity",
         "name": "Check.md",
         "localizedName": "勾选",
@@ -47,11 +47,11 @@
         "localizedName": "获取元素",
         "uuid": "580eca70-9c1b-4abe-8ba3-1f03a0955ae5"
     },
-      {
+    {
         "id": "Encootech.AutomationActivity.GetElementPropertyValueActivity",
         "name": "GetElementAttributeValue.md",
         "localizedName": "获取元素属性值",
-		"uuid":	"172E0D63-B057-4EC2-9F75-8D7B96C953B9"
+        "uuid": "172E0D63-B057-4EC2-9F75-8D7B96C953B9"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
@@ -65,11 +65,11 @@
         "localizedName": "等待元素出现",
         "uuid": "303626bc-bab2-42c0-b3ea-1ddddc10ac61"
     },
-       {
+    {
         "id": "Encootech.AutomationActivity.WaitElementPropertyActivity",
         "name": "WaitElementAttributeValue.md",
         "localizedName": "等待元素属性值",
-		"uuid": "F55DF204-9AE5-4002-9230-9439C0B3D773"
+        "uuid": "F55DF204-9AE5-4002-9230-9439C0B3D773"
     },
     {
         "id": "Encootech.AutomationActivity.SelectItemActivity",
@@ -77,11 +77,11 @@
         "localizedName": "选择项目",
         "uuid": "089bcf7f-b628-4421-980d-b52b3b9bf17f"
     },
-     {
+    {
         "id": "Encootech.AutomationActivity.SelectMultipleItemActivity",
         "name": "SelectMultipleItems.md",
         "localizedName": "选择多个项目",
-		"uudid": "C2B3CFEA-FF53-47E3-BD7C-B10D34380E66"
+        "uuid": "06e49c23-671a-418c-b468-9f469961e3e3"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
@@ -89,25 +89,25 @@
         "localizedName": "截屏",
         "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
     },
-       {
+    {
         "id": "Encootech.AutomationActivity.HighlightActivity",
         "name": "Highlight.md",
         "localizedName": "高亮",
-		"uuid": "BF7C5379-A332-46E3-BD66-11EB6913E0D4"
+        "uuid": "BF7C5379-A332-46E3-BD66-11EB6913E0D4"
     },
-       {
+    {
         "id": "Encootech.AutomationActivity.SetFocusActivity",
         "name": "SetFocus.md",
         "localizedName": "设置焦点",
-		"uuid": "3FC7C597-50B6-4605-951D-A85C9D8226D6"
+        "uuid": "3FC7C597-50B6-4605-951D-A85C9D8226D6"
     },
-       {
+    {
         "id": "Encootech.AutomationActivity.MatchImageActivity",
         "name": "MatchImage.md",
         "localizedName": "匹配图片",
-		"uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613"
+        "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613"
     },
-      {
+    {
         "id": null,
         "name": "OCR",
         "localizedName": "OCR（企业版）"
