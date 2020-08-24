@@ -148,8 +148,8 @@
 
 1. 【编辑器】输出面板改造等界面优化。
 1. 【编辑器】更详细的项目打开及编译错误描述，更易定位错误位置。
-1. 【组件】优化 Office Excel “排序”组件：支持指定开始行号。详情请查看[排序](Activities/AppAutomation/OfficeExxcel/Sort.md)。
-1. 【组件】优化 Office Excel “设置单元格背景色”组件：使用拾色器提升颜色设置体验。详情请查看[设置单元格背景色](Activities/AppAutomation/OfficeExxcel/SetCellBackcolor.md)。
+1. 【组件】优化 Office Excel “排序”组件：支持指定开始行号。详情请查看[排序](Activities/AppAutomation/OfficeExcel/Sort.md)。
+1. 【组件】优化 Office Excel “设置单元格背景色”组件：使用拾色器提升颜色设置体验。详情请查看[设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)。
 1. 【自动化场景】增强对用友 NC 和金蝶 EAS 的支持。
 1. 【自动化场景】增强 UIA3 识别微信。
 1. 【自动化场景】增强 JAVA 应用在不同 DPI 下的识别回放。
