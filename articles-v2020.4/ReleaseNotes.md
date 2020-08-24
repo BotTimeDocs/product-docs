@@ -15,7 +15,7 @@
 
 ### 新增功能
 
-#### 编辑器
+#### 【编辑器】
 1. 支持启用/禁用组件。
 2. 新增意见反馈按钮，可快速寻求帮助。
 3. 输出面板支持分类筛选输出信息，信息有以下分类：
@@ -23,7 +23,7 @@
     - 信息；
     - 调试。
 
-#### 组件
+#### 【组件】
 1. [匹配图片](Activities/UIAutomation/MatchImage.md)
 1. [设置焦点](Activities/UIAutomation/SetFocus.md)
 1. [选择多个项目](Activities/UIAutomation/SelectMultipleItems.md)
@@ -53,7 +53,7 @@
     - [获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)
     - [初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 
-#### 机器人
+#### 【机器人】
 1. [概览页](Robot/Overview.md)
 1. [流程执行历史页](Robot/ProcessHistory.md)
 1. [配置日志与视频文件保留时间](Robot/Settings/Basic.md)
@@ -64,14 +64,15 @@
 1. 【编辑器】发布项目前，对项目的正确性进行校验。
 2. 【编辑器】将部分弹窗更改为浮窗，提升用户体验。
 3. 【组件】提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击*导入参数*可直接将子流程参数导入。
-4. NC 新增支持控件类型。
-5. EAS 报表类型界面支持获取结构化数据。
-6. 等待元素出现返回的控件元素为图象而非锚点
-7. IE增加支持：内嵌IE浏览器的应用，360安全浏览器的兼容模式
-8. 浏览器端支持图像识别
-9. 输入文本组件增加对于桌面的设置控件条件下清空文本操作
-10. 获取区域文本更名为获取区域结构
-11. 悬停组件支持图像识别
+4. 【自动化驱动】加强对 NC 的支持。
+5. 【自动化驱动】支持在 EAS 报表类型界面下，获取结构化数据。
+6. 【自动化驱动】在图像识别模式下，*等待元素出现*组件返回的控件元素为图象，而非锚点。
+7. 【自动化驱动】支持内嵌IE浏览器中元素的识别。
+1. 【自动化驱动】支持360安全浏览器兼容模式下元素的识别。
+8. 【自动化驱动】浏览器端支持*图像识别*功能。
+9. 【自动化驱动】对于桌面应用，*输入文本*组件支持*清空文本*操作。
+10. 【自动化驱动】*获取区域文本* 组件更名为*获取区域结构*。【企业版】
+11. 【自动化驱动】悬停组件支持图像识别。
 
 
 
