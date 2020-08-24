@@ -97,7 +97,7 @@
 4. 【编辑器】编辑器右下角支持浮窗通知。
 5. 【编辑器】集成 NuGet，可以方便的引用 NuGet 应用。
 1. 【编辑器】支持使用元素探测器选择元素，功能较此前的选择器编辑器更强。此功能仅在企业版中支持。参见[元素探测器](Activities/Appendix/UiDetector.md)。
-1. 【编辑器】在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性。参见[项目设置](Studio/AutomationProjects/ProjectSettings.md)。
+1. 【编辑器】在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性。参见[项目设置](Studio/process/ProjectSettings.md)。
 1. 【组件】新增 **状态机** 系列组件。详情请查看[状态机](Activities/WorkflowControl/StateMachine/StateMachine.md)。
 1. 【组件】新增 **数据格式化** 组件。详情请查看[数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)。
 1. 【组件】新增流程控制类组件：**重试**、**抛出异常**和**重新抛出异常**。详情请查看[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
@@ -135,13 +135,13 @@
 2. 【编辑器】新建项目时支持选择桌面录制技术 UIA/UIA3。
 3. 【编辑器】支持删除命名空间。
 4. 【编辑器】支持设置运行时是否最小化编辑器主界面。
-5. 【编辑器】支持更多的快捷键。详情请参看[键盘快捷键](./Studio/Introduction/KeyboardShortcuts.md)。
+5. 【编辑器】支持更多的快捷键。详情请参看[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)。
 6. 【插件】支持360安全浏览器。
 9. 【组件】企业版编辑器中包含 SAP 相关组件：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)，[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)，[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)，[选择SAP项](Activities/UIAutomation/SAP/SAP_Select.md)，[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)。
 1. 【组件】新增“截屏”组件。详情请查看[截屏](Activities/UIAutomation/Screenshot.md)。
 6. 【组件】新增“设置日期和时间”组件。详情请查看[设置日期和时间](Activities/System/SetDateTime.md)。
 7. 【组件】新增“选择文件”及“选择文件夹”对话框组件。详情请查看[选择文件](Activities/System/File/SelectFile.md)与[选择文件夹](Activities/System/File/SelectFolder.md)。
-8. 【组件】新增 Office Excel "设置文字颜色"组件并使用拾色器提升颜色设置体验。详情请查看[设置文字颜色](Activities/AppAutomation/OfficeExxcel/SetTextColor.md)。
+8. 【组件】新增 Office Excel "设置文字颜色"组件并使用拾色器提升颜色设置体验。详情请查看[设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md)。
 9. 【机器人】执行本地流程时支持填写流程参数。
 
 ### 增强功能

@@ -6,7 +6,7 @@
 ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser2.png)
 发送成功后，系统会为你邀请的用户新增一个未激活账户，你可以在列表查看该用户。
 ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser3.png)
-未激活状态的用户无法登录控制台，用户需要通过邀请邮件激活他的账户（详见：[激活账户](/articles-v2020.1\Console\activeAccount.md?_v=v2020.4)）
+未激活状态的用户无法登录控制台，用户需要通过邀请邮件激活他的账户（详见：[激活账户](../../activeAccount.md?_v=v2020.4)）
 *邀请用户需要在72小时内激活账号，激活链接将在72小时后失效。若链接失效，你需要删除该未激活状态账号重新添加用户。
 
 
