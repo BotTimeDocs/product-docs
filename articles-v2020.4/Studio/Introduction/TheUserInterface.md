@@ -78,7 +78,7 @@
 
 * **流程市场**-你可以下载流程，已完成对相关组件的了解及应用。 
 
-有关市场的详细信息，请查看[云扩市场](../connections/internalConnection/Market.md?_v=v2020.4)。
+有关市场的详细信息，请查看[云扩市场](../market/Market.md?_v=v2020.4)。
 
 ![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-marketplace.PNG)
 

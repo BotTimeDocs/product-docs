@@ -8,4 +8,4 @@
 你可以修改上传流程的版本号和备注，确认无误后点击确认。流程将被上传到控制台指定资源组下。
 ![packages](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/uploadpackages2.png)
 
-你还可以通过编辑器上传流程至控制台：[通过编辑器上传](/articles-v2020.1/Studio/AutomationProjects/CreateProject.md?_v=v2020.4)
+你还可以通过编辑器上传流程至控制台：[通过编辑器上传](../../Studio/process/CreateProject.md?_v=v2020.4)
