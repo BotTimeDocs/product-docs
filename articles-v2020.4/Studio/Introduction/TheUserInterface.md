@@ -4,17 +4,12 @@
 
 ![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
 
-![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/1.PNG)  **菜单栏** - 一种树形结构，为编辑器提供一些功能入口。
-
-![2](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/2.PNG) **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
-
-![3](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/3.PNG) **工具面板** — 使你可以访问诸如项目、组件之类的不同面板视图，在你处理项目时为你提供帮助。
-
-![4](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/4.PNG) **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。
-
-![5](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/5.svg) **输出面板** — 在编辑器下方可以打开输出面板，以输出不同的日志信息，如错误、调试等。
-
-![6](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/6.png) **状态栏** — 展示打开的项目和编辑器通知等相关信息。
+1. **菜单栏** - 一种树形结构，为编辑器提供一些功能入口。
+2. **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
+3. **工具面板** — 使你可以访问诸如项目、组件之类的不同面板视图，在你处理项目时为你提供帮助。
+4. **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。
+5. **输出面板** — 在编辑器下方可以打开输出面板，以输出不同的日志信息，如错误、调试等。
+6. **状态栏** — 展示打开的项目和编辑器通知等相关信息。
 
 ## 项目面板
 
