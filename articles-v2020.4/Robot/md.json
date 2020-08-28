@@ -35,6 +35,11 @@
         "uuid": "8ac310b6-e403-4327-9ad2-068f4e767652"
     },
     {
+        "name": "RunningProcess.md",
+        "localizedName": "正在执行",
+        "uuid": "1ec7462f-9446-4472-bd60-6dffaea9fb5a"
+    },
+    {
         "name": "Settings",
         "localizedName": "设置"
     }
