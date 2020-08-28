@@ -132,6 +132,12 @@
         "uuid": "0c9398c4-a260-4df8-9d2c-a96bbf7d1e56"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelResetPasswordActivity",
+        "name": "OfficeExcelResetPassword.md",
+        "localizedName": "重置密码",
+        "uuid": "6bec567e-3ce5-473f-958d-8021bc0788a4"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelSaveActivity",
         "name": "Save.md",
         "localizedName": "保存",
