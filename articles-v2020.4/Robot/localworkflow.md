@@ -17,8 +17,11 @@
 2. 点击导入流程，将编辑器导出的项目文件（*.dgs）导入本地流程库。
 3. 选择你想要执行的流程，你可以输入流程名点击搜索进行查询。
 4. 点击执行，将会弹窗确认信息
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/InputArgDialog-N-0.png)
-**注意** 若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-ExecuteProcessDialog-0.png)
+**注意** 
+若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）;
+若需要在流程执行过程中录制视频，可勾选“录制视频”选项，并选择保留什么状态的视频；
+支持选择当前流程以什么权限执行；
 
 5. 点击确认，流程在快速准备后将自动执行。
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-0.png)
