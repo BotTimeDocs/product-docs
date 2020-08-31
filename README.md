@@ -12,5 +12,5 @@
 - [云扩RPA编辑器文档](https://academy.encoo.com/zh-cn/wiki/Studio/Introduction/Introduction.md)
 - [云扩组件库文档](https://academy.encoo.com/zh-cn/wiki/Activities/ComponentsIntroduction.md)
 - [云扩RPA机器人文档](https://academy.encoo.com/zh-cn/wiki/Robot/aboutRobot.md)
-- [云扩RPA控制台文档](https://academy.encoo.com/zh-cn/wiki/Console/register.md)
+
 
