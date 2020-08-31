@@ -22,6 +22,12 @@
         "uuid": "f9cd10c0-90af-4f6c-a823-b2faa0daa98a"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.PromptBoxActivity",
+        "name": "PromptBox.md",
+        "localizedName": "提示框",
+        "uuid": "2d3a8979-d6bb-4789-9dc4-67f0f34d86d2"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.DropdownListBoxActivity",
         "name": "DropdownListDialog.md",
         "localizedName": "下拉选择框",
