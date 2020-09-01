@@ -18,17 +18,17 @@
 #### 【编辑器】
 1. 支持大纲，用于显示当前流程的结构，可快速定位应组件。
 2. 表达式编辑器支持右键菜单。
-3. 新增全局快捷键-Ctrl+Alt+F5，使编辑器最小化后在后台运行时也能够停止执行流程。
+3. 新增全局快捷键 *Ctrl+Alt+F5*，使编辑器最小化后在后台运行时,也能够停止执行流程。
 4. 调试状态下，支持暂停调试过程。
 
 #### 【组件】
-1. [提示框](Activities/System/PromptBox.md)
-1. [重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)
+1. [提示框](Activities/System/PromptBox.md)。
+1. [Excel 组件 - 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)。
 
 #### 【机器人】
-1. [关于页](Robot/Settings/About.md)
-1. [正在执行页](Robot/RunningProcess.md)
-1. [执行流程时支持权限配置](Robot/localworkflow.md)
+1. [关于页](Robot/Settings/About.md)。
+1. 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
+1. 在执行流程时，支持权限配置。具体功能请参看[流程库](Robot/localworkflow.md)。
 
 ### 增强功能
 
