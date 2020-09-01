@@ -1,5 +1,21 @@
 # 云扩产品发版说明
 
+
+
+### 新增功能
+
+
+#### 【组件】
+1. [提示框](Activities/System/PromptBox.md)
+1. [重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)
+
+#### 【机器人】
+1. [关于页](Robot/Settings/About.md)
+1. [正在执行页](Robot/RunningProcess.md)
+1. [执行流程时支持权限配置](Robot/localworkflow.md)
+
+
+
 ## 2020.08.13 发版说明
 
 2020.08.13 发布了云扩 RPA 编辑器和机器人。
