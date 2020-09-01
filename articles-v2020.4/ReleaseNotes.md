@@ -21,13 +21,21 @@
 3. 新增全局快捷键-Ctrl+Alt+F5，使编辑器最小化后在后台运行时也能够停止执行流程。
 4. 调试状态下，支持暂停调试过程。
 
+#### 【组件】
+1. [提示框](Activities/System/PromptBox.md)
+1. [重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)
+
+#### 【机器人】
+1. [关于页](Robot/Settings/About.md)
+1. [正在执行页](Robot/RunningProcess.md)
+1. [执行流程时支持权限配置](Robot/localworkflow.md)
+
 ### 增强功能
 
 1. 【编辑器】项目操作性能优化，优化如下：
    - 项目打开速度；
    - 复制粘贴组件速度；
    - 运行/调试时增加提示信息。
-
 
 ## 2020.08.13 发版说明
 
