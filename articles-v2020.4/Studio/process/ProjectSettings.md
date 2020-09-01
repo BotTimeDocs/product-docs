@@ -4,7 +4,7 @@
 ## 设置组件属性
 如何对某一类别组件进行属性设置呢？
 
-你可以右键点击项目面板中的项目文件夹，打开菜单，然后点击“项目设置”，将打开“项目设置”窗口。
+你可以右键点击工作目录中的项目文件夹，打开菜单，然后点击“项目设置”，将打开“项目设置”窗口。
 
 ![项目设置窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectSettings/projectSettings.PNG)
 
