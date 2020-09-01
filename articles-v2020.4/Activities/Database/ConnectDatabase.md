@@ -1,6 +1,8 @@
 # 连接数据库
 
-连接到指定数据库.点击&quot;配置向导&quot;后可进行连接测试。组件执行结束后自动断开连接，所有数据库相关操作均需放置在此组件内且无需二次配置连接
+连接到指定数据库.点击 *配置向导* 后可进行连接测试。组件执行结束后自动断开连接，所有数据库相关操作均需放置在此组件内且无需二次配置连接。
+
+> 如果您需要连接 DB2 数据库，请确保您已安装 *Microsoft Visual C++ 2005 RunTime Pack*。如果未安装，您可以下载 [RunTimePack.zip](https://docimages.blob.core.chinacloudapi.cn/images/Studio/DataBase/RuntimePack.zip) 并安装。
 
 ## 属性
 基本
