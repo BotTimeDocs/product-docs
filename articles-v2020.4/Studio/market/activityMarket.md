@@ -9,6 +9,7 @@
 2. 打开组件市场窗口
 3. 搜索找到需要安装的组件
 4. 选中组件并下载
+
     ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-1.png)
 
 5. 安装组件
