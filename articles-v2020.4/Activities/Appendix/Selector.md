@@ -31,4 +31,3 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Xpath%E5%88%97%E8%A1%A8.png)
 
 注意：XPath 选项只支持 Web 元素。
-
