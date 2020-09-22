@@ -1,5 +1,37 @@
 # 云扩产品发版说明
 
+
+
+
+
+
+
+
+
+### 新增功能
+
+
+#### 【组件】
+1. [文件触发器](Activities/Triggers/FileTrigger.md)
+1. [邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)
+1. [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)
+1. [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)
+1. [JSON - 序列化](Activities/CodeExecuter/JSON/SerializeObject.md)
+1. [JSON - 反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)
+1. [Excel - 刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)
+
+
+### 增强功能
+1. 【机器人】优化安装/升级体验
+
+
+
+
+
+
+
+
+
 ## 2020.08.31 发版说明
 
 2020.08.31 发布了云扩 RPA 编辑器和机器人。
