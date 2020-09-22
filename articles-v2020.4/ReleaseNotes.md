@@ -19,6 +19,8 @@
 1. [JSON - 序列化](Activities/CodeExecuter/JSON/SerializeObject.md)
 1. [JSON - 反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)
 1. [Excel - 刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)
+1. [Excel - 创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)
+1. [HTTP - HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)
 
 
 ### 增强功能
