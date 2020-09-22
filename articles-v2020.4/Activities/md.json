@@ -47,6 +47,11 @@
     },
     {
         "id": null,
+        "name": "Triggers",
+        "localizedName": "触发器"
+    },
+    {
+        "id": null,
         "name": "Appendix",
         "localizedName": "附录"
     }
