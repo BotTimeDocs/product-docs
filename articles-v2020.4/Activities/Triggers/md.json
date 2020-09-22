@@ -1,0 +1,26 @@
+[
+    {
+        "id": "Encoo.Trigger.Activity.Activities.FileTriggerActivity",
+        "name": "FileTrigger.md",
+        "localizedName": "文件触发器",
+        "uuid": "a6e287c9-1153-4033-bffa-5423c87a78e3"
+    },
+    {
+        "id": "Encoo.Trigger.Activity.Activities.OutlookTriggerActivity",
+        "name": "OutlookTrigger.md",
+        "localizedName": "邮件触发器(Outlook)",
+        "uuid": "275976c5-0684-49ab-8ca8-e6d06f3042a9"
+    },
+    {
+        "id": "Encoo.Trigger.Activity.Activities.ExchangeTriggerActivity",
+        "name": "ExchangeTrigger.md",
+        "localizedName": "邮件触发器(Exchange)",
+        "uuid": "e8455ed4-0e3e-42ea-b8b7-e61a8aaca9c3"
+    },
+    {
+        "id": "Encoo.Trigger.Activity.Activities.IMAPTriggerActivity",
+        "name": "IMAPTrigger.md",
+        "localizedName": "邮件触发器(IMAP)",
+        "uuid": "eb6b7880-d910-46e9-971c-320934d9d139"
+    }
+]
