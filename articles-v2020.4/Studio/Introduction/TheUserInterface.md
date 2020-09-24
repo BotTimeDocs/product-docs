@@ -28,12 +28,13 @@
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|添加|选择可以在所选中项目下添加的子流程：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)</br>注意：仅在选择项目时出现 |
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、文件夹 |
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
-|导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件</br>注意：仅在选择项目时出现 |
+|导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件|
 |打开所在文件夹| 	打开所选项目或文件的本地文件夹 |
-|项目设置| 	打开“项目设置”以设置某一类别组件属性</br>注意：仅在选择项目时出现 |
+|项目设置| 	打开[项目设置](../process/ProjectSettings.md)以设置某一类别组件属性 |
+|项目属性| 	打开项目属性以设置项目的相关属性，如项目名称、作者等|
 |调试文件| 	调试所选中的.xaml文件|
 |运行文件| 	运行所选中的.xaml文件 |
 
@@ -44,10 +45,10 @@
 >2.一个项目下面可以新建任意个子流程文件（文件名任意）
 
 ## 大纲面板
+
 **大纲面板**用于显示当前流程文件的层级结构。通过在大纲中选中某一组件来定位到编辑区域的组件，也可以通过在编辑区域选择组件来显示大纲中的组件。
 
 ![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outline.png)
-
 
 ## 组件面板
 
@@ -65,7 +66,7 @@
 
 ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/logs.PNG) -->
 
-**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../process/Debugging.md?_v=v2020.4)。
+**调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 

@@ -1,4 +1,4 @@
-# 创建-编辑-调试-发布-运行
+# 创建-编辑-调试-发布
 
 云扩RPA编辑器的工作过程与其他应用程序并没有太大区别，其具体指的就是如何从无到有完成一个自动化项目的完整过程。但是，要有效地完成自动化项目，你需要用到一些专业的工具。以下列表概述了完成一个自动化项目的过程，并添加了在工作过程的每个阶段可能会使用的一些工具的链接。 
 
@@ -20,7 +20,7 @@
 
 ## 3、调试
 
-在这个迭代阶段，你可以继续编辑流程，但更着重于识别并清除流程中的错误以提高正确性。有关调试的详细信息，请查看[调试](./Debugging.md?_v=v2020.4)。
+在这个迭代阶段，你可以继续编辑流程，但更着重于识别并清除流程中的错误以提高正确性。有关调试的详细信息，请查看[调试](Debugging/Debugging.md?_v=v2020.4)。
 
 <!-- ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/debugProject.png) -->
 
@@ -35,9 +35,3 @@
 经过多次运行测试并通过交付标准的自动化项目，你可以利用编辑器的“发布”功能将项目发布到控制台和流程市场中。有关发布的详细信息，请查看[发布自动化项目](PublishProject.md?_v=v2020.4).
 
 <!-- ![发布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/publishProject.png) -->
-
-## 6、运行
-
-在此阶段，你可以运行编辑好的自动化项目，并查看运行结果。
-
-<!-- ![运行](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/runProject.png) -->

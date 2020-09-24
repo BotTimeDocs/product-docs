@@ -1,17 +1,28 @@
 # 云扩产品发版说明
 
 
+## 2020.09. 发版说明
 
+2020.09. 发布了云扩 RPA 编辑器和机器人。
+本次发布的编辑器和机器人的版本号分别是：
 
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2009. |
+| 机器人   | 1.1.2009. |
 
-
-
-
+你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
 
 ### 新增功能
 
+#### 【编辑器】
+
+1. 在项目中可创建子文件夹。
+2. 在项目中可设置项目属性，如项目名称、作者等。
+3. 新增控制台流程库，可对控制台的流程进行查看和编辑。
 
 #### 【组件】
+
 1. [文件触发器](Activities/Triggers/FileTrigger.md)
 1. [邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)
 1. [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)
@@ -22,17 +33,11 @@
 1. [Excel - 创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)
 1. [HTTP - HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)
 
-
 ### 增强功能
-1. 【机器人】优化安装/升级体验
 
-
-
-
-
-
-
-
+1. 【编辑器】优化安装/升级体验
+2. 【编辑器】优化在线咨询
+3. 【机器人】优化安装/升级体验
 
 ## 2020.08.31 发版说明
 
@@ -44,22 +49,24 @@
 | 编辑器   | 1.1.2008.12 |
 | 机器人   | 1.1.2008.12 |
 
-
 你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
 
 ### 新增功能
 
 #### 【编辑器】
+
 1. 支持大纲，用于显示当前流程的结构，可快速定位应组件。
 2. 表达式编辑器支持右键菜单。
 3. 新增全局快捷键 *Ctrl+Alt+F5*，使编辑器最小化后在后台运行时,也能够停止执行流程。
 4. 调试状态下，支持暂停调试过程。
 
 #### 【组件】
+
 1. [提示框](Activities/System/PromptBox.md)。
 1. [Excel 组件 - 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)。
 
 #### 【机器人】
+
 1. [关于页](Robot/Settings/About.md)。
 1. 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
 1. 在执行流程时，支持权限配置。具体功能请参看[流程库](Robot/localworkflow.md)。
@@ -87,6 +94,7 @@
 ### 新增功能
 
 #### 【编辑器】
+
 1. 支持启用/禁用组件。
 2. 新增意见反馈按钮，可快速寻求帮助。
 3. 输出面板支持分类筛选输出信息，信息有以下分类：
@@ -95,6 +103,7 @@
     - 调试。
 
 #### 【组件】
+
 1. [匹配图片](Activities/UIAutomation/MatchImage.md)
 1. [设置焦点](Activities/UIAutomation/SetFocus.md)
 1. [选择多个项目](Activities/UIAutomation/SelectMultipleItems.md)
@@ -125,10 +134,10 @@
     - [初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 
 #### 【机器人】
+
 1. [概览页](Robot/Overview.md)
 1. [流程执行历史页](Robot/ProcessHistory.md)
 1. [配置日志与视频文件保留时间](Robot/Settings/Basic.md)
-
 
 ### 增强功能
 
