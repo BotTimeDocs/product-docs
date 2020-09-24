@@ -7,12 +7,12 @@
     },
     {
         "id": null,
-        "name": "destop",
-        "localizedName": "桌面版工作台"
+        "name": "devApps",
+        "localizedName": "应用开发"
     },
     {
         "id": null,
-        "name": "Web",
-        "localizedName": "云端工作台"
+        "name": "userApps",
+        "localizedName": "我的应用"
     }
 ]

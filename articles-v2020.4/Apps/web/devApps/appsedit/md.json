@@ -1,0 +1,26 @@
+[
+    {
+        "id": null,
+        "name": "component",
+        "localizedName": "导航栏",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "page.md",
+        "localizedName": "页面配置",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "addbaseinfo.md",
+        "localizedName": "基本配置",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "runapps.md",
+        "localizedName": "基本操作",
+        "uuid": ""
+    }
+]
