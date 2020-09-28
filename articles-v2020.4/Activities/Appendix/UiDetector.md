@@ -19,3 +19,11 @@
 ### 7. 预览窗口
 当使用图片识别指定某元素时，此窗口出现并展示图片详情
 
+## 使用元素探测器获取元素 XPath 信息
+如果你希望使用 XPath 的形式对元素进行描述，而非使用默认的节点和属性的方式，你可以勾选 *生成 XPath* 选项，然后使用指定元素按钮，重新指定元素。
+
+![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/%E5%85%83%E7%B4%A0%E6%8E%A2%E6%B5%8B%E5%99%A8XPath.jpg)
+
+指定完成后，你可以获得对应元素的 XPath 表达式。
+
+注意：XPath 选项只支持 Web 元素。

@@ -23,6 +23,13 @@ OCR
 - **AppKey** ：选中平台所需的AppKey。仅支持字符串变量和字符串
 - **AppSecret** ：选中平台所需的AppSecret。仅支持字符串变量和字符串
 
+注意：
+当你选择不同的平台进行 OCR 识别时，你需要购买对应的服务，并使用对应的 AK。参考以下文档获取对应的信息：
+- 当你选择 *百度* 时，参考 [Quickstart](https://cloud.baidu.com/doc/OCR/s/dk3iqnq51) ；
+- 当你选择 *阿里* 时，参考 [创建 AccessKey](https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.6.581.1fd87d0aEHqZj6&parentId=43579)；
+- 当你选择 *腾讯* 时，参考 [一分钟接入服务端 API](https://cloud.tencent.com/document/product/866/34681)。
+
 输出
 - **纯文本** ：将OCR的结果以纯文本的形式存储在此变量。仅支持字符串变量和字符串
 - **Json文本** ：将OCR的结果以Json文本的形式存储在此变量。仅支持字符串变量和字符串
+
