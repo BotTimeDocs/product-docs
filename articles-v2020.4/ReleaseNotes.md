@@ -1,18 +1,61 @@
 # 云扩产品发版说明
-## 2020.09.21 发版说明
-2020.09.21 发布了云扩工作台V1.0.0
-可以通过[*云扩控制台*](https://console.encoo.com/) 申请企业版体验相关产品。
+## 2020.09.27 发版说明
+
+2020.09.27 发布了云扩 RPA 编辑器、机器人和工作台。
+本次发布的产品版本号分别是：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2009.11 |
+| 机器人   | 1.1.2009.11 |
+| 工作台   | V1.0.0 |
+
+你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验编辑器和机器人，或者申请体验工作台产品。
 
 ### 新增功能
+
+#### 【编辑器】
+
+1. Microsoft Edge 支持。自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
+2. 选择器编辑器新增获取 XPath 功能。参看[选择器](Activities\Appendix\Selector.md)。
+3. IE 前端日志收集器程序。参看[收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
+
+#### 【组件】
+
+1. [文件触发器](Activities/Triggers/FileTrigger.md)
+1. [邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)
+1. [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)
+1. [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)
+1. [JSON - 序列化](Activities/CodeExecuter/JSON/SerializeObject.md)
+1. [JSON - 反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)
+1. [Excel - 刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)
+1. [Excel - 创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)
+1. [HTTP - HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)
+
 #### 【工作台】
-1.支持创建多页面应用
-2.支持通过应用调用流程
-3.支持应用发布到控制台
-4.支持“我的应用”查找并运行
+关于工作台的详情，请参考 [关于云扩工作台](Apps/aboutApps.md)。
+
+1. 支持创建多页面应用。
+2. 支持通过应用调用流程。
+3. 支持应用发布到控制台。
+4. 支持*我的应用*查找并运行。
 
 #### 【控制台】
-1.支持查看发布的应用
-2.支持应用上下架管理
+
+1. 支持查看发布的应用。
+2. 支持应用上下架管理。
+
+### 增强功能
+
+1. 【编辑器】优化安装/升级体验，更换安装框架
+2. 【编辑器】非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示
+8. 【编辑器】选择器编辑器Java应用的Name属性全部层级支持通配符
+4. 【编辑器】选择器编辑器界面优化
+5. 【编辑器】界面自动化组件支持即刻优雅终止流程
+6. 【组件】界面自动化下组件全部新增超时属性
+7. 【组件】*获取含OCR文本元素*，*判断OCR文本是否存在*组件的文本属性支持正则表达式
+3. 【组件】优化钉钉程序内元素识别
+1. 【机器人】优化安装/升级体验
 
 ## 2020.08.31 发版说明
 
@@ -24,22 +67,24 @@
 | 编辑器   | 1.1.2008.12 |
 | 机器人   | 1.1.2008.12 |
 
-
 你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
 
 ### 新增功能
 
 #### 【编辑器】
+
 1. 支持大纲，用于显示当前流程的结构，可快速定位应组件。
 2. 表达式编辑器支持右键菜单。
 3. 新增全局快捷键 *Ctrl+Alt+F5*，使编辑器最小化后在后台运行时,也能够停止执行流程。
 4. 调试状态下，支持暂停调试过程。
 
 #### 【组件】
+
 1. [提示框](Activities/System/PromptBox.md)。
 1. [Excel 组件 - 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)。
 
 #### 【机器人】
+
 1. [关于页](Robot/Settings/About.md)。
 1. 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
 1. 在执行流程时，支持权限配置。具体功能请参看[流程库](Robot/localworkflow.md)。
@@ -67,6 +112,7 @@
 ### 新增功能
 
 #### 【编辑器】
+
 1. 支持启用/禁用组件。
 2. 新增意见反馈按钮，可快速寻求帮助。
 3. 输出面板支持分类筛选输出信息，信息有以下分类：
@@ -75,6 +121,7 @@
     - 调试。
 
 #### 【组件】
+
 1. [匹配图片](Activities/UIAutomation/MatchImage.md)
 1. [设置焦点](Activities/UIAutomation/SetFocus.md)
 1. [选择多个项目](Activities/UIAutomation/SelectMultipleItems.md)
@@ -105,10 +152,10 @@
     - [初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 
 #### 【机器人】
+
 1. [概览页](Robot/Overview.md)
 1. [流程执行历史页](Robot/ProcessHistory.md)
 1. [配置日志与视频文件保留时间](Robot/Settings/Basic.md)
-
 
 ### 增强功能
 
