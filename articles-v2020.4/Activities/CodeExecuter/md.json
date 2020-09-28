@@ -21,6 +21,16 @@
     },
     {
         "id": null,
+        "name": "JSON",
+        "localizedName": "JSON"
+    },
+    {
+        "id": null,
+        "name": "HTTP",
+        "localizedName": "HTTP"
+    },
+    {
+        "id": null,
         "name": "TextProcessing",
         "localizedName": "文本处理"
     }

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.SerializeObjectActivity",
+        "name": "SerializeObject.md",
+        "localizedName": "序列化",
+        "uuid": "24f30a0d-0637-41da-af8c-8d5d7b5c5ad8"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.DeserializeObjectActivity",
+        "name": "DeserializeObject.md",
+        "localizedName": "反序列化",
+        "uuid": "18c51f72-2f79-4f08-841a-c185ffd92032"
+    }
+]
