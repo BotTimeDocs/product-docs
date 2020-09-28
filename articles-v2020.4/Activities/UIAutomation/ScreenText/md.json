@@ -1,0 +1,26 @@
+[
+    {
+        "id": null,
+        "name": "GetScreenText.md",
+        "localizedName": "获取屏幕文本",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "GetTextElement.md",
+        "localizedName": "获取屏幕含某文本的元素",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "IdentifyScreenTextExist.md",
+        "localizedName": "判断屏幕文本是否存在",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "ClickScreenText.md",
+        "localizedName": "点击屏幕文本",
+        "uuid": ""
+    }
+]
