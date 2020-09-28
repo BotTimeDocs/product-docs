@@ -2,17 +2,17 @@
     {
         "id": null,
         "name": "aboutApps.md",
-        "localizedName": "关于云扩工作台",
+        "localizedName": "关于云端工作台",
         "uuid": "b0209e2f-1e0a-46cb-8903-60719654430e"
     },
     {
         "id": null,
-        "name": "destop",
-        "localizedName": "桌面版工作台"
+        "name": "devApps",
+        "localizedName": "应用开发"
     },
     {
         "id": null,
-        "name": "web",
-        "localizedName": "云端工作台"
+        "name": "userApps",
+        "localizedName": "我的应用"
     }
 ]

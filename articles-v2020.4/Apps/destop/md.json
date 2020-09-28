@@ -1,0 +1,18 @@
+[
+    {
+        "id": null,
+        "name": "aboutApps.md",
+        "localizedName": "关于桌面版工作台",
+        "uuid": "b0209e2f-1e0a-46cb-8903-60719654430e"
+    },
+    {
+        "id": null,
+        "name": "devApps",
+        "localizedName": "开发者模式"
+    },
+    {
+        "id": null,
+        "name": "userApps",
+        "localizedName": "使用者模式"
+    }
+]
