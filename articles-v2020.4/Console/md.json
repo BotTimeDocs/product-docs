@@ -39,7 +39,7 @@
         "id": null,
         "name": "packages",
         "localizedName": "流程包管理"
-    },
+    },``
     {
         "id": null,
         "name": "robot",
@@ -69,11 +69,6 @@
         "id": null,
         "name": "management",
         "localizedName": "全局管理"
-    },
-    {
-        "id": null,
-        "name": "download",
-        "localizedName": "安装包下载"
     },
     {
         "id": null,
