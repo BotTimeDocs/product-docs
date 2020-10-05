@@ -39,7 +39,7 @@
         "id": null,
         "name": "packages",
         "localizedName": "流程包管理"
-    },``
+    },
     {
         "id": null,
         "name": "robot",
@@ -75,5 +75,10 @@
         "name": "cancelaccount.md",
         "localizedName": "注销账户",
         "uuid": "0f233a42-14ac-4654-ac64-8a1e742b577a"
+    }
+    {
+        "id": null,
+        "name": "Apps",
+        "localizedName": "应用管理",
     }
 ]
