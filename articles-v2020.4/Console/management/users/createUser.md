@@ -1,30 +1,29 @@
-# 新增用户
-## 添加用户
-进入全局设置-用户信息，点击新增按钮打开邀请用户弹窗。
-![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser1.png)
-请填写正确的用户姓名和邮箱，点击发送，系统将会向填写的邮箱发送一封邀请邮件。
-![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser2.png)
-发送成功后，系统会为你邀请的用户新增一个未激活账户，你可以在列表查看该用户。
-![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser3.png)
-未激活状态的用户无法登录控制台，用户需要通过邀请邮件激活他的账户（详见：[激活账户](../../activeAccount.md?_v=v2020.4)）
-*邀请用户需要在72小时内激活账号，激活链接将在72小时后失效。若链接失效，你需要删除该未激活状态账号重新添加用户。
+# 管理用户
+## 查看用户列表
+进入“全局设置”-“用户信息”页面，即可查看当前租户下的所有用户信息。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/云端版邀请用户.png)
 
+## 新建用户
+**云端企业版添加用户**
+进入全局设置-用户信息，点击新增按钮打开邀请用户弹窗，填写您需要邀请的用户账号以及该用户在当前租户内的姓名，即可邀请该用户进入该云端企业版。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/云端版邀请用户.png)
 
-## 设置系统管理员
-进入全局设置-用户信息，找到你希望设为系统管理员的用户。
+**私有化企业版创建用户**
+私有化企业版采用管理员直接为企业用户创建账号的方式来新建用户，点击“新建”
+按钮后填写用户租户内姓名、账户、密码等即可完成用户创建。
+![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/私有化创建用户.png)
 
-选择列表操作：其他 - 设为系统管理员, 点击确认即可将用户设为系统管理员。设为系统管理员后，该用户即可享用本系统所有权限。
-![setadmin](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/setadmin.png)
-你也可以在同样的位置取消用户的系统管理员权限。
+## 查看及编辑用户信息详情
+点击“用户名称"或者“操作选项”中的“查看”按钮即可查看用户信息详情。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/云端版查看用户信息.png)
+点击“编辑”按钮后即可对用户信息进行修改，修改完成后点击“保存”按钮即可。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/私有化编辑用户信息.png)
+注意：私有化企业版可在该页面中为用户修改密码，云端企业版仅能用户个人在个人中心为自己修改密码。
 
+## 删除用户
+点击“操作选项”中的“移除”按钮即可将当前用户从系统中移除。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/移除用户.png)
 
-<!-- 绑定角色（角色新增详见：[新增角色](../roles/createRoles.md?_v=v2020.4)），以确保用户在激活后可以正常使用控制台。
-点击编辑角色按钮，打开编辑角色弹窗。
- ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser4.png)
-点击角色选择框，你可以在下拉选项中看到角色管理的全部角色。
-![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser4.png)
-你可以通过点击选项，选中下拉列表中的角色
- ![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser6.png)
-若角色过多，你可以通过角色选择框，输入角色名称，敲击回车进行模糊查询。
-![createuser](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/createuser7.png)
-选择完角色后，点击保存，完成用户与角色的绑定。 -->
+## 停用用户
+点击“操作选项”中的“停用”按钮即可将当前用户停用，被停用的用户无法进入系统。
+![user](https://docimages.blob.core.chinacloudapi.cn/images/Console/users/停用用户.png)
