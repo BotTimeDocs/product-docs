@@ -1,0 +1,20 @@
+[
+    {
+        "id": null,
+        "name": "aboutqueue.md",
+        "localizedName": "关于调度队列",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "managequeue.md",
+        "localizedName": "管理调度队列",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "queuejob.md",
+        "localizedName": "查看调度队列任务",
+        "uuid": ""
+    }
+]

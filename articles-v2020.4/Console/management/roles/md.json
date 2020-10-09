@@ -2,31 +2,13 @@
     {
         "id": null,
         "name": "aboutRoles.md",
-        "localizedName": "关于权限管理",
+        "localizedName": "关于角色管理",
         "uuid": "f1adfcdb-3581-49f0-8ca3-e91c70097a1a"
     },
     {
         "id": null,
         "name": "viewRoles.md",
-        "localizedName": "查看角色",
+        "localizedName": "管理角色",
         "uuid": "2247feaa-ee63-4e49-9178-3ee1beab1c3f"
-    },
-    {
-        "id": null,
-        "name": "createRoles.md",
-        "localizedName": "新增角色",
-        "uuid": "eeed834c-f70f-41f5-8229-f45517227a88"
-    },
-    {
-        "id": null,
-        "name": "editRoles.md",
-        "localizedName": "编辑角色",
-        "uuid": "885cf492-6520-4834-b43a-85536030d04d"
-    },
-    {
-        "id": null,
-        "name": "deleteRoles.md",
-        "localizedName": "删除角色",
-        "uuid": "12aea7f0-5286-45a0-9459-9e46a07d18be"
     }
 ]

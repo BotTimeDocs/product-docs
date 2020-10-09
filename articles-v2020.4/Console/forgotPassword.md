@@ -12,4 +12,4 @@
 
 请用登录名及修改后的新密码登录。
 
-![forgotpassword1](https://docimages.blob.core.chinacloudapi.cn/images/Console/forgotpassword1.png)
+![forgotpassword1](https://docimages.blob.core.chinacloudapi.cn/images/Console/登录及注册/图片1.png)

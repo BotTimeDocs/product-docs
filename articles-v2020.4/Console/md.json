@@ -19,9 +19,9 @@
     },
     {
         "id": null,
-        "name": "activeAccount.md",
-        "localizedName": "激活账户",
-        "uuid": "d3ee57d9-b2a1-4b5f-a029-26b628dcbb7d"
+        "name": "HomePage.md",
+        "localizedName": "HomePage",
+        "uuid": "6f73f9e6-c8a1-4bf7-82fb-62c01725697e"
     },
     {
         "id": null,
@@ -31,13 +31,8 @@
     },
     {
         "id": null,
-        "name": "job",
-        "localizedName": "执行队列"
-    },
-    {
-        "id": null,
-        "name": "process",
-        "localizedName": "流程执行"
+        "name": "packages",
+        "localizedName": "流程包管理"
     },
     {
         "id": null,
@@ -46,8 +41,23 @@
     },
     {
         "id": null,
-        "name": "packages",
-        "localizedName": "流程包管理"
+        "name": "queue",
+        "localizedName": "调度队列"
+    },
+    {
+        "id": null,
+        "name": "workflow",
+        "localizedName": "流程部署"
+    },
+    {
+        "id": null,
+        "name": "job",
+        "localizedName": "任务记录"
+    },
+    {
+        "id": null,
+        "name": "asset",
+        "localizedName": "资产管理"
     },
     {
         "id": null,
@@ -56,8 +66,8 @@
     },
     {
         "id": null,
-        "name": "download",
-        "localizedName": "安装包下载"
+        "name": "Apps",
+        "localizedName": "应用管理",
     },
     {
         "id": null,
