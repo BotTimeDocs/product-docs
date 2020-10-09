@@ -1,0 +1,32 @@
+[
+    {
+        "id": null,
+        "name": "aboutworkflow.md",
+        "localizedName": "关于流程部署",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "manageworkflow.md",
+        "localizedName": "管理流程部署",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "trigger.md",
+        "localizedName": "任务计划管理",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "runworkflow.md",
+        "localizedName": "立即执行流程",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "workflowjob.md",
+        "localizedName": "流程部署任务列表",
+        "uuid": ""
+    }
+]

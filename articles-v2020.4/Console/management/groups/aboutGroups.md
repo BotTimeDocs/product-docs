@@ -8,7 +8,6 @@
 
 当你注册控制台时，控制台会自动为你新增一个“**默认资源组**”，你可以在右上角找到你当前所在资源组，你可以通过这里进行当前资源组的全局切换。
 注意：全局管理下的模块属于系统级别数据，在资源组间共享，不会根据资源组的切换而改变。
-![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/group/group1.png)
+![group](https://docimages.blob.core.chinacloudapi.cn/images/Console/group/切换资源组.png)
 
-#### 资源组管理权限说明：
-本模块仅系统权限可见
+

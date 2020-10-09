@@ -1,25 +1,16 @@
 # 仪表盘
 **本功能仅企业版可见**
 
-本页面用于数据统计，以图表的形式展示资源组下队列运行情况。
+本页面用于提供各类RPA数据统计分析功能，展现企业机器人、流程任务运行及状况，便于快速了解企业RPA系统运行现状以及进行各类调度。
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/仪表盘/仪表盘.png)
+**流程包数量**：统计当前资源组累计的流程包数量
+**流程部署数量**：统计当前资源组累计的流程部署数量
+**调度队列数量**：统计当前资源组累计的调度队列数量
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/dashboard-2.png)
+**机器人数量**：统计当前资源组机器人数量以及各状态分布情况
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/仪表盘/机器人shuqin.png)
+**任务记录概况**：统计当前资源组所选时间段范围内所有任务的状态分布情况，以及通过柱状图展示每天任务状态分布。
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/仪表盘/任务记录概况.png)
 
-数据：显示组内现有对应模块数据总数量
-新增：创建时间为今天的总数量
-按钮：快速跳转到对应菜单
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboard1.png)
-
-左侧：根据时间选择，按天统计当天创建的执行队列数量
-右侧：统计选择柱的队列执行结果
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboard2.png)
-
-根据时间选择，统计机器人运行流程的时长（按机器人统计状态为成功/失败/终止的队列）
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboard3.png)
-
-获取上图选择柱的执行详情，按照执行时间排序。
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboard4.png)
-
-左侧：根据时间选择，获取流程包运行次数并排序
-右侧：根据时间选择，获取流程包平均运行时长并排序
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboard5.png)
 
 
