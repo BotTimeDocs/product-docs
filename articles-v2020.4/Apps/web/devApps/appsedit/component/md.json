@@ -10,7 +10,8 @@
         "name": "workflow.md",
         "localizedName": "流程组件",
         "uuid": ""
-    },{
+    },
+    {
         "id": null,
         "name": "leftmenu.md",
         "localizedName": "左侧导航组件",
