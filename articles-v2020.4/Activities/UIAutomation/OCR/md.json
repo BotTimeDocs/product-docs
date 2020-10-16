@@ -1,18 +1,18 @@
 [
     {
-        "id": null,
+        "id": "Encootech.AutomationActivity.OcrActivity.GetOcrText",
         "name": "GetOCRText.md",
         "localizedName": "获取OCR文本",
         "uuid": "6e902991-3f05-4e06-a3f3-f9356db0645a"
     },
     {
-        "id": null,
+        "id": "Encootech.AutomationActivity.OcrActivity.GetOcrElement",
         "name": "GetSpecificTextOCRElement.md",
         "localizedName": "获取含OCR文本的元素",
         "uuid": "1fa00039-bfea-4c6e-b9b6-e4b630289177"
     },
     {
-        "id": null,
+        "id": "Encootech.AutomationActivity.OcrActivity.DetectOcrText",
         "name": "IdentifyOCRTextExist.md",
         "localizedName": "判断OCR文本是否存在",
         "uuid": "a26fc6bd-01fb-4278-a41b-2e4f21adf398"
