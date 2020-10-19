@@ -16,6 +16,12 @@
         "uuid": "0b62b88d-2c45-4626-a40a-186c0f7dee63"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputPasswordDialogActivity",
+        "name": "InputPasswordDialogActivity.md",
+        "localizedName": "输入密码",
+        "uuid": "dba40cce-0e8d-4f42-a871-5e23050e2730"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputDialogActivity",
         "name": "InputDialog.md",
         "localizedName": "输入框",
