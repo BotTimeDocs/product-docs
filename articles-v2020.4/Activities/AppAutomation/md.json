@@ -6,8 +6,8 @@
     },
     {
         "id": null,
-        "name": "Browser",
-        "localizedName": "浏览器"
+        "name": "Mail",
+        "localizedName": "邮件"
     },
     {
         "id": null,
@@ -21,7 +21,7 @@
     },
     {
         "id": null,
-        "name": "Mail",
-        "localizedName": "邮件"
+        "name": "PDF",
+        "localizedName": "PDF"
     }
 ]
