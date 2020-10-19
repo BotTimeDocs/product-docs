@@ -31,6 +31,11 @@
     },
     {
         "id": null,
+        "name": "数组处理",
+        "localizedName": "数组处理"
+    },
+    {
+        "id": null,
         "name": "TextProcessing",
         "localizedName": "文本处理"
     }
