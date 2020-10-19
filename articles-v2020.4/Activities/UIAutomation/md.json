@@ -121,5 +121,10 @@
         "id": null,
         "name": "DesktopOnly",
         "localizedName": "桌面控件专有（企业版）"
+    },
+    {
+        "id": null,
+        "name": "ScreenText",
+        "localizedName": "屏幕文本化（桌面）"
     }
 ]

@@ -28,13 +28,12 @@
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、文件夹 |
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md) |
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件|
 |打开所在文件夹| 	打开所选项目或文件的本地文件夹 |
 |项目设置| 	打开[项目设置](../process/ProjectSettings.md)以设置某一类别组件属性 |
-|项目属性| 	打开项目属性以设置项目的相关属性，如项目名称、作者等|
 |调试文件| 	调试所选中的.xaml文件|
 |运行文件| 	运行所选中的.xaml文件 |
 

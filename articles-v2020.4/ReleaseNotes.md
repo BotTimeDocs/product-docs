@@ -42,8 +42,14 @@
 
 #### 【控制台】
 
-1. 支持查看发布的应用。
-2. 支持应用上下架管理。
+1. 和工作台的通信，对应用的管理：
+    1. 支持查看发布的应用；
+    2. 支持应用上下架。
+2. 整体架构升级，上线云端版和私有化版，支持功能包括：
+    1. 调度队列，通过机器人集群实现对流程任务动态分配；
+    2. 任务记录，展示所有流程任务的执行记录及日志详情；
+    3. 文档理解，用于配置各类模板实现对电子版PDF非结构化信息抽取；
+    4. 资产管理，定义各类参数及账户密码凭证供流程进行调用。
 
 ### 增强功能
 
@@ -56,45 +62,6 @@
 7. 【组件】*获取含OCR文本元素*，*判断OCR文本是否存在*组件的文本属性支持正则表达式
 3. 【组件】优化钉钉程序内元素识别
 1. 【机器人】优化安装/升级体验
-
-
-## 2020.09. 发版说明
-
-2020.09. 发布了云扩 RPA 编辑器和机器人。
-本次发布的编辑器和机器人的版本号分别是：
-
-|         | 版本号      |
-| -----:  | -----:     |
-| 编辑器   | 1.1.2009. |
-| 机器人   | 1.1.2009. |
-
-你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
-
-### 新增功能
-
-#### 【编辑器】
-
-1. 在项目中可创建子文件夹。
-2. 在项目中可设置项目属性，如项目名称、作者等。
-3. 新增控制台流程库，可对控制台的流程进行查看和编辑。
-
-#### 【组件】
-
-1. [文件触发器](Activities/Triggers/FileTrigger.md)
-1. [邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)
-1. [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)
-1. [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)
-1. [JSON - 序列化](Activities/CodeExecuter/JSON/SerializeObject.md)
-1. [JSON - 反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)
-1. [Excel - 刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)
-1. [Excel - 创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)
-1. [HTTP - HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)
-
-### 增强功能
-
-1. 【编辑器】优化安装/升级体验
-2. 【编辑器】优化在线咨询
-3. 【机器人】优化安装/升级体验
 
 ## 2020.08.31 发版说明
 
