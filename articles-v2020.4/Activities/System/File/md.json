@@ -64,5 +64,11 @@
         "name": "FileOrFolderExist.md",
         "localizedName": "文件或文件夹是否存在",
         "uuid": "af8e39ff-ba43-4a3e-97cd-063bf94569f2"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.File.RenameActivity",
+        "name": "RenameFileOrFolder.md",
+        "localizedName": "重命名文件或文件夹",
+        "uuid": "c723ebc1-7a4c-413b-b292-e6fdf1027d9a"
     }
 ]

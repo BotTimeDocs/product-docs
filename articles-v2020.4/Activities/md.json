@@ -52,6 +52,11 @@
     },
     {
         "id": null,
+        "name": "Console",
+        "localizedName": "控制台"
+    },
+    {
+        "id": null,
         "name": "Appendix",
         "localizedName": "附录"
     }
