@@ -16,7 +16,7 @@
     ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/newitem20201019.png)
 
     >注意：
-    >与下载组件不同的是，流程下载后将作为一个独立的项目存在
+    >与下载组件不同的是，流程下载后将作为一个独立的项目存在。
 
 4. 在工作目录面板即可查看以新项目名称命名的流程
 
