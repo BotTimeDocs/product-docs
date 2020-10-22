@@ -4,7 +4,7 @@
 
 ## 下载与使用 
 
-    ![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/flowmarket20201019.png)
+![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/flowmarket20201019.png)
 
 1. 在流程列表选择想要下载的流程
 2. 点击“下载”图标
