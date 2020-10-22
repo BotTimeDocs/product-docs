@@ -1,7 +1,7 @@
 # 参数选择
 
 点击“参数选择”Tab即可切换到参数选择。
-参数选择会罗列你导入的流程包，版本号，及[流传文件的参数列表](../../Studio/process/developProject/Arguments/Arguments.md)。
+参数选择会罗列你导入的流程包，版本号，及[流传文件的参数列表](../../../Studio/process/developProject/Arguments/Arguments.md)。
 你可以通过单击参数前的复选框，调整参数是否需要显示在应用页面上。
 当你取消勾选参数时，参数不会出现在页面上，应用也不会向参数传值。
 当你勾选参数时，参数会出现在页面上，应用被提交后将对参数赋值。
