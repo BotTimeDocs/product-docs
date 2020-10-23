@@ -1,13 +1,13 @@
 ## 许可证列表
 在“全局管理”-“许可证”页面中可以查看当前租户内所有已授权的各类许可证信息。
 点击“查看使用情况”按钮即可查看各类许可证的详细使用信息。
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/许可证列表.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/V3license1.png)
 
 ## 占用编辑器许可说明
 
 当你用控制台账号登录你的编辑器时, 将在许可证页面占用一个相应版本的编辑器许许可证：
 登录成功后，许可证的企业版编辑器将显示已使用数量+1。同时可以在“查看使用情况”列表中查看使用的用户以及机器名称。
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/编辑器许可证列表.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/V3license2.png)
 
 控制台的编辑器名额采用”抢占制“，租户下的所有账户均可登录编辑器占用许可，采用先登录先占用，占满为止的策略。
 
@@ -22,7 +22,7 @@
 
 当你在控制台新增机器人时，新增一个机器人将在许可证页面占用一个相应类型的机器人额度。
 比如，你在控制台了一个企业高级版机器人，新增成功后，许可证的企业高级版机器人将显示已使用数量+1。
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/机器人许可证列表.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/V3license3.png)
 
 当占用的名额到达许可上限时，则无法再新增该类型的机器人，已经新增的机器人可以正常使用。
 

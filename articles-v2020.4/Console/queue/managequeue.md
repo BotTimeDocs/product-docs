@@ -1,7 +1,7 @@
 ## 查看调度队列列表
 进入“**调度队列**”页面，你可以看到当前资源组下所有的调度队列的列表信息。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/调度队列首页.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/V3queue4.png)
 
 ## 新建调度队列
 你可以建立调度队列并绑定机器人集群以用于任务及机器人调度：
@@ -14,7 +14,7 @@
 
 ## 查看调度队列详情
 点击“调度队列”名称后即可查看队列详情信息
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/查看队列详情.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/V3queue5.png)
 
 ## 编辑调度队列详情
 
@@ -24,6 +24,6 @@
 
 # 添加关联机器人
 在配置信息页面中点击“添加”按钮后勾选对应可添加的机器人后点击“确定”按钮
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/添加关联机器人.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/V3queue6.png)
 
 

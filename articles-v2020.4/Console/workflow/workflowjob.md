@@ -33,26 +33,26 @@
 
 ## 查看任务详情 
 点击某一任务后的“查看”按钮即可查看该任务的执行详情，任务详情主要包括执行基本信息、参数信息等内容。
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/查看任务详情2.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow17.png)
 
 ## 查看日志详情
 你可以通过如下方式查看任务在机器人上的执行日志：
 1）在任务列表页面中点击任务下某一具体执行实例的“日志”按钮即可查看任务在该机器人上执行的具体日志。
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/任务列表进入日志1.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow18.png)
 2）也可在“任务详情”页面中点击“查看日志”按钮查看任务在该机器人上执行的具体日志。
 
 日志主要包含日志时间、日志类型、日志内容、日志截图等内容。可以在左上角的“日志切换选”中快速切换该任务在其他机器人上的执行日志。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/日志详情.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow19.png)
 
 ## 终止任务
 在当前任务尚未执行完成时，若想终止某一任务，点击某一任务的"终止"按钮，即可终止当前任务”
 1）若该任务终止时属于未指派给机器人状态，则直接终止。
 2）若该任务终止时已经指派给某一机器人正在执行，则向机器人发送指令进行终止，当前任务会执行失败。
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/终止任务.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow20.png)
 
 ## 调整任务优先级
 调度队列中的任务将会按照任务优先级进行执行（0-5000）,优先级越高则任务将会被优先执行。若您希望某一任务可以插队执行，则点击该任务的“调整优先级”按钮以调整优先级。
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/调整任务列表优先级.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow21.png)
 你可以输入对应的优先级数字，数字越大则任务会被越优先执行。
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/调整优先级-2.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow22.png)

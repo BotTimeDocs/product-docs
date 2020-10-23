@@ -17,21 +17,21 @@
 第二步
 点击“下一步”开始配置机器人执行目标，选择指定队列执行/指定机器人执行
 1）执行队列执行：从该资源组下已创建的队列进行选择；
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/新建流程部署-指定队列.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow3.png)
 2）指定机器人选择: 展示该资源组下所有的机器人，通过勾选选定，支持按照名称及标签进行搜索。
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/新建流程部署-指定机器人.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow4.png)
 
 点击保存即完成流程部署新建，点击【保存并设置触发器】即开始快捷配置定时计划。（详见“定时计划管理”）
 
 
 ## 查看流程部署配置信息
 点击流程部署中的“配置”按钮即可查看流程部署的配置信息
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/流程部署配置信息查看.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow5.png)
 
 ## 基本配置及参数修改
 在流程部署的“配置”页面中点击“编辑”按钮即可对基本配置信息及参数信息进行修改，修改完成后点击“保存”按钮即可。
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/基本配置及参数信息修改.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow6.png)
 
 ## 删除流程部署
 点击所选的流程部署操作选项中的“删除”按钮即可删除相应的流程部署。
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/删除流程部署.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow7.png)
