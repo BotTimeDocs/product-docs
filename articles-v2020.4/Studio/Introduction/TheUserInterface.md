@@ -35,6 +35,9 @@
    * 要更改项目存储位置，只需要在“工作目录”后更换新路径。
    * “运行时最小化”让你可以将编辑器窗口设置为运行时是否最小化。
 
+### 帮助 ###
+**帮助**可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。还可以在**帮助**页面中找到有关产品版本等信息。
+![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20201019.png)
 
 ## 编辑器主页 ##
 
@@ -129,7 +132,7 @@
 
 ![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
 
-### 发布
+### 发布项目
 
 通过工具栏的**发布**按钮可将自动化项目打包进行发布，方便后续的执行及共享。
 
