@@ -3,7 +3,7 @@
 
 ## 安装组件
 
-![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/M-0.png)
+![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/activitymarket20201019.png)
 
 1. 打开项目
 2. 打开组件市场窗口

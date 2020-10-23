@@ -3,7 +3,7 @@
 
 ## 获取与使用
 
-![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-0.png)
+![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/codemarket20201019.png)
 
 1. 打开项目
 2. 打开代码市场窗口
@@ -41,7 +41,7 @@
 
 * **已安装代码包**仅针对当前项目存在，仅显示当前项目已安装的代码包，通过该页面可以管理项目中的依赖项。
 
-    ![已安装代码包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-6.PNG)
+    ![已安装代码包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/codemarketinstall20201019.png)
 
 ## 管理依赖项
 
