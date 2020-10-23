@@ -1,6 +1,46 @@
 # 用户界面
 
-云扩RPA编辑器采用简单直观的布局，可以最大程度地为编辑区域提供空间，同时为浏览项目或项目的整个上下文留出足够的空间。其用户界面分为以下几个区域：
+云扩RPA编辑器采用简单直观的布局，可以最大程度地为编辑区域提供空间，同时为浏览项目或项目的整个上下文留出足够的空间。其用户界面分为以下开始主页和编辑器主页两部分：
+## 开始主页 ##
+![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201019.png)
+
+1. **新建** — 新建流程项目或组件项目。
+2. **最近** — 打开您最近处理过的项目。可以打开项目所在的文件夹或从**最近使用**列表中删除；单击**更多项目**链接，展开更多的最近处理过的项目，且可模糊搜索**最近使用**列表。
+
+### 新建 ###
+![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/new20201019.png)
+1. **新建** — 新建流程项目或组件项目。
+2. **从模板新建** — 从预定义的模板开始一个新项目。
+3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
+
+### 打开 ###
+![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/open20201019.png)
+
+1. **最近使用** — 打开您最近处理过的项目。
+2. **本地项目** — 打开或导入您本地电脑中已有的项目。
+3. **控制台流程** — 查看/编辑控制台流程。
+
+### 工具 ###
+![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
+
+1. **应用** — 支持**元素探测器**应用小工具。
+2. **扩展** — 可以快速安装各种扩展程序，以对不同的应用进行自动化。
+
+### 设置 ###
+
+**设置**用于管理编辑器相关的设置信息，同时还可以找到产品的版本信息。 
+
+* 常规 - 显示编辑器的语言配置。
+* 项目 - 对项目相关信息进行设置。
+   * 要更改项目存储位置，只需要在“工作目录”后更换新路径。
+   * “运行时最小化”让你可以将编辑器窗口设置为运行时是否最小化。
+
+### 帮助 ###
+**帮助**可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。还可以在**帮助**页面中找到有关产品版本等信息。
+![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20201019.png)
+
+## 编辑器主页 ##
+
 
 ![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/userinterface20201019.png)
 
@@ -12,7 +52,7 @@
 6. **属性栏** — 选择任一组件，在编辑器右侧可查看该组件的属性相关信息。
 7. **状态栏** — 展示打开的项目和编辑器通知等相关信息。
 
-## 工作目录
+### 工作目录 ###
 
 **工作目录**以树形结构的方式显示你创建的全部的项目内容，你可以通过双击项目名打开该项目。 
 
@@ -21,7 +61,7 @@
 - **新建项目** - 创建一个新的自动化项目
 - **保存** - 将当前编辑好的流程保存
 - **全部保存** - 将所有编辑好的流程保存
-- **导入项目** - 导入外部的自动化项目到编辑器里，以供使用（导入项目入口为**开始 > 打开 > 本地项目 > 导入**）
+<!--- **导入项目** - 导入外部的自动化项目到编辑器里，以供使用（导入项目入口为**开始 > 打开 > 本地项目 > 导入**）-->
 
 ![工作目录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/workindex20201019.png)
 
@@ -44,13 +84,13 @@
 >
 >2.一个项目下面可以新建任意个子流程文件（文件名任意）
 
-## 大纲面板
+### 大纲面板
 
 **大纲面板**用于显示当前流程文件的层级结构。通过在大纲中选中某一组件来定位到编辑区域的组件，也可以通过在编辑区域选择组件来显示大纲中的组件。
 
 ![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/guideline20201019.png)
 
-## 组件面板
+### 组件面板
 
 **组件面板**主要显示自动化项目中所需要使用的组件，用鼠标拖拽到编辑区域中进行使用。组件面板提供快速查找工具的搜索框，输入组件名称即可搜索。 
 
@@ -58,7 +98,7 @@
 
 ![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activitypanel20201019.png)
 
-## 运行面板
+### 运行面板
 
 **运行面板**主要显示与运行和调试有关的所有信息，顶部显示带有调试和运行命令的相关按钮。
 
@@ -70,7 +110,7 @@
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
-## 市场面板
+### 市场面板
 
 **市场面板**使你可打开组件市场和流程市场。
 
@@ -86,13 +126,13 @@
 
 <!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 
-## 扩展面板
+### 扩展面板
 
 **扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
 
 ![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
 
-## 发布
+### 发布项目
 
 通过工具栏的**发布**按钮可将自动化项目打包进行发布，方便后续的执行及共享。
 
@@ -100,32 +140,15 @@
 
 有关发布自动化项目的详细信息，请查看[发布自动化项目](../process/PublishProject.md?_v=v2020.4)。
 
-## 系统设置
 
-**系统设置**用于管理编辑器相关的设置信息，同时还可以找到产品的版本信息。 
-
-* 常规 - 显示编辑器的语言配置。
-* 项目 - 对项目相关信息进行设置。
-   * 要更改项目存储位置，只需要在“工作目录”后更换新路径。
-   * “运行时最小化”让你可以将编辑器窗口设置为运行时是否最小化。
-* 关于我们 - 显示编辑器的产品版本信息。
- 
-![系统设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/settings.PNG)
-
-<!-- ## 帮助 
-
-通过工具栏或菜单栏的**帮助**按钮使你能够快速打开产品文档、在线课程、社区论坛，以获取帮助。  -->
-
-<!-- ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-help.PNG) -->
-
-## 个人信息
+### 个人信息
 
 通过点击菜单栏右侧的![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG)打开**个人信息**退出登录。 
  
 ![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
 
 
-## 编辑区域 
+### 编辑区域 
 
 **编辑区域**显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。
 
@@ -161,7 +184,7 @@
    |设置为开始节点 |将当前选中组件设为开始节点，流程执行由当前组件开始。 </br> 注意：只在当前容器组件为流程图时显示。|
 
 
-## 属性面板
+### 属性面板
 
 **属性面板**在编辑区域内部呈现，其显示当前组件的相关属性，你可以通过属性面板对当前组件的属性进行相关设置。 
 
@@ -171,7 +194,7 @@
 
 ![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/properties.png)
 
-## 输出面板
+### 输出面板
 
 **输出面板**可以显示当前项目中的所有信息，包括但不限于项目打开或执行时的信息、写入日志组件的输出信息。通过输出面板，你可以快速定位到项目中错误出现的位置，及时更改，保证项目的正确性。
 
