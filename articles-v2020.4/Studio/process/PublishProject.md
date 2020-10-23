@@ -8,7 +8,7 @@
 
 要实现发布流程，从工具栏->发布中选择你想要发布的位置，然后点击它。
 
-<!-- ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/choosePosition.PNG) -->
+![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishinpath20201019.png)
 
 ## 发布流程
 1. 创建一个自动化项目。项目示例参看[创建自动化项目](./CreateProject.md?_v=v2020.4)

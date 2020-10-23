@@ -23,7 +23,7 @@
     >
     >UIA3和UIA不可以同时使用于同一个项目中。
 
-    ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/newProject.PNG)
+    ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/myfirstproject20201019.png)
 
 3. 从组件面板，搜索“打开浏览器”组件，并将其拖入到编辑区域连接至开始节点
 4. 在该组件的属性面板中，输入以下内容：
@@ -82,7 +82,7 @@
 ## 运行流程
 1. 点击“运行”来尝试运行自动化流程
 
-    <!-- ![运行项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/runProject.PNG) -->
+    ![运行项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/runflow20201019.png)
 
 2. 运行过程中，编辑器会自动回放录制的过程，并提示明天是否有雨 
 

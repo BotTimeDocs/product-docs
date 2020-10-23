@@ -2,14 +2,15 @@
 
 云扩RPA编辑器采用简单直观的布局，可以最大程度地为编辑区域提供空间，同时为浏览项目或项目的整个上下文留出足够的空间。其用户界面分为以下几个区域：
 
-![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
+![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/userinterface20201019.png)
 
-1. **菜单栏** - 一种树形结构，为编辑器提供一些功能入口。
+1. **菜单栏** — 一种树形结构，为编辑器提供一些功能入口。
 2. **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
 3. **工具面板** — 使你可以访问诸如项目、组件之类的不同面板视图，在你处理项目时为你提供帮助。
 4. **编辑区域** — 作为编辑器的主要区域，使你可以编辑和修改自动化项目。
 5. **输出面板** — 在编辑器下方可以打开输出面板，以输出不同的日志信息，如错误、调试等。
-6. **状态栏** — 展示打开的项目和编辑器通知等相关信息。
+6. **属性栏** — 选择任一组件，在编辑器右侧可查看该组件的属性相关信息。
+7. **状态栏** — 展示打开的项目和编辑器通知等相关信息。
 
 ## 工作目录
 
@@ -20,15 +21,15 @@
 - **新建项目** - 创建一个新的自动化项目
 - **保存** - 将当前编辑好的流程保存
 - **全部保存** - 将所有编辑好的流程保存
-- **导入项目** - 导入外部的自动化项目到编辑器里，以供使用
+- **导入项目** - 导入外部的自动化项目到编辑器里，以供使用（导入项目入口为**开始 > 打开 > 本地项目 > 导入**）
 
-![工作目录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/workspace.PNG)
+![工作目录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/workindex20201019.png)
 
 右击工作目录的任意文件或文件夹，可以打开包含以下选项的上下文菜单： 
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md) |
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../Activities/WorkflowControl/StateMachine/StateMachine.md)、文件夹|
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件|
@@ -47,7 +48,7 @@
 
 **大纲面板**用于显示当前流程文件的层级结构。通过在大纲中选中某一组件来定位到编辑区域的组件，也可以通过在编辑区域选择组件来显示大纲中的组件。
 
-![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outline.png)
+![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/guideline20201019.png)
 
 ## 组件面板
 
@@ -55,15 +56,15 @@
 
 通过F1快捷键或者组件右键菜单的“帮助”，可快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法。
 
-![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activities.png)
+![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activitypanel20201019.png)
 
 ## 运行面板
 
 **运行面板**主要显示与运行和调试有关的所有信息，顶部显示带有调试和运行命令的相关按钮。
 
-<!-- **运行**自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
+**运行**自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
 
-![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/logs.PNG) -->
+![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/runpanel20201019.png) 
 
 **调试**主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看[调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
@@ -81,7 +82,7 @@
 
 有关市场的详细信息，请查看[云扩市场](../market/Market.md?_v=v2020.4)。
 
-![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-marketplace.PNG)
+![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/marketpanel20201019.png)
 
 <!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 

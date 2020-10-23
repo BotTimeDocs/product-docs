@@ -6,7 +6,7 @@
 
 你可以右键点击工作目录中的项目文件夹，打开菜单，然后点击“项目设置”，将打开“项目设置”窗口。
 
-![项目设置窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectSettings/projectSettings.PNG)
+![项目设置窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/itemsettings20201019.png)
 
 **项目设置**窗口左侧显示了可进行组件属性设置的类别。如自动化，其设置的组件属性值将应用于所有自动化相关的组件。
 
