@@ -51,5 +51,5 @@
 
 在运行面板中点击“运行”，输入Tewin，24，最终结果将显示Tewin的年龄为24岁。 
 
-    ![结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/sequenceresult20201019.png)
+![结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/sequenceresult20201019.png)
 
