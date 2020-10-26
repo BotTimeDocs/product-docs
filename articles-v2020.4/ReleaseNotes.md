@@ -1,4 +1,46 @@
 # 云扩产品发版说明
+
+
+
+
+
+### 新增功能
+
+### 组件
+
+1.  PDF操作：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
+1.  系统：[重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)、[输入密码](Activities/System/InputPasswordDialogActivity.md)
+1.  控制台交互：[文档理解](Activities/Console/DocReader.md)、[获取资产](Activities/Console/GetAssets.md)
+1.  数组操作：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
+1.  HTTP: [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)
+
+### 机器人
+
+1. 新增[定时任务](Robot/CronJob.md)功能
+1. 新增集成[云扩流程市场](Robot/ProcessMarket.md)
+
+
+### 增强功能
+
+1. 【组件】[文件触发器](Activities/Triggers/FileTrigger.md)增加输出监听的文件路径
+1. 【组件】[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的邮件
+1. 【组件】[获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)增加输出字母和数字列号
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2020.10.19 发版说明
 2020.10.19 发布了云扩 RPA 编辑器。
 本次发布的产品版本号为：
