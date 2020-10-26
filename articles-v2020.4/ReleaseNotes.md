@@ -14,6 +14,10 @@
 1.  数组操作：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
 1.  HTTP: [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)
 
+### 机器人
+
+1. 新增[定时任务](Robot/CronJob.md)功能
+1. 新增集成[云扩流程市场](Robot/ProcessMarket.md)
 
 
 ### 增强功能
