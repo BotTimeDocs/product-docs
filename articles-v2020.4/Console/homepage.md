@@ -9,10 +9,10 @@
 实用链接：提供云扩文档、课程、论坛等地址的快速跳转。
 
 安装包下载：选择对应的安装包点击即可快速下载编辑器、机器人客户端。
- ![HomePage](https://docimages.blob.core.chinacloudapi.cn/images/Console/安装包下载.png)
+ ![HomePage](https://docimages.blob.core.chinacloudapi.cn/images/Console/V3installpackage.png)
 
 服务地址：用于编辑器客户端连接控制台时使用。
- ![HomePage](https://docimages.blob.core.chinacloudapi.cn/images/Console/服务地址.png)
+ ![HomePage](https://docimages.blob.core.chinacloudapi.cn/images/Console/V3serveradress.png)
 
 
 
