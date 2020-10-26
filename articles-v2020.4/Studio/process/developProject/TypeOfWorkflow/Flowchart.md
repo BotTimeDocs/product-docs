@@ -6,7 +6,7 @@
 ## 流程图示例 
 创建一个对用户登录进行判断的示例来对流程图进行说明。具体操作如下：
 
-1. 创建一个空白的自动化流程项目。在工作目录中点击“新建项目”以新建一个项目，并输入项目名称，例如 “flowTest”。 
+1. 创建一个空白的自动化流程项目。在“开始页”中点击“新建流程项目”以新建一个项目，并输入项目名称，例如 “flowTest”。 
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/createiteminflow20201019.png)
 

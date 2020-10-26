@@ -11,7 +11,7 @@
 ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishinpath20201019.png)
 
 ## 发布流程
-1. 创建一个自动化项目。项目示例参看[创建自动化项目](./CreateProject.md?_v=v2020.4)
+1. 创建一个自动化项目。项目示例参看[创建流程项目](./CreateProject.md?_v=v2020.4)
 2. 在工具栏->发布选择发布的位置：
     * 发布到控制台
     
