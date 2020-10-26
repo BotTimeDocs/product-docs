@@ -21,26 +21,31 @@
     },
     {
         "name": "Overview.md",
-        "localizedName": "概览",
+        "localizedName": "概览页",
         "uuid": "54705232-76a3-4f08-aebb-bf6174a3b454"
     },
     {
         "name": "localworkflow.md",
-        "localizedName": "流程库",
+        "localizedName": "流程库页",
         "uuid": "d0b56def-0739-43c0-887a-c43d2a71847b"
     },
     {
         "name": "ProcessHistory.md",
-        "localizedName": "流程执行历史",
+        "localizedName": "执行历史页",
         "uuid": "8ac310b6-e403-4327-9ad2-068f4e767652"
     },
     {
         "name": "RunningProcess.md",
-        "localizedName": "正在执行",
+        "localizedName": "正在执行页",
         "uuid": "1ec7462f-9446-4472-bd60-6dffaea9fb5a"
     },
     {
+        "name": "CronJob.md",
+        "localizedName": "定时任务页",
+        "uuid": "872537dd-00fe-4bc3-8226-c23d560ae50e"
+    },
+    {
         "name": "Settings",
-        "localizedName": "设置"
+        "localizedName": "设置页"
     }
 ]
