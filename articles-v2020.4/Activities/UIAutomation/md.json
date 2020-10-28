@@ -6,6 +6,21 @@
         "uuid": "31689d52-c142-4a6e-a969-1d081c2fdbb2"
     },
     {
+        "id": "Encootech.AutomationActivity.ClickActivity",
+        "name": "Coordinate.md",
+        "localizedName": "坐标点击"
+    },
+    {
+        "id": "Encootech.AutomationActivity.ClickActivity",
+        "name": "MoveMouse.md",
+        "localizedName": "移动鼠标"
+    },
+    {
+        "id": "Encootech.AutomationActivity.ClickActivity",
+        "name": "GetMousePosition.md",
+        "localizedName": "获取鼠标位置"
+    },
+    {
         "id": "Encootech.AutomationActivity.HoverActivity",
         "name": "Hover.md",
         "localizedName": "悬停",
