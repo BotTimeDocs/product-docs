@@ -1,5 +1,44 @@
 # 云扩产品发版说明
+
+### 新增功能
+
+### 编辑器
+
+1. 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包
+2. 新增从模板新建自动化项目
+3. 支持查看和编辑控制台的流程
+4. 增加项目编辑操作（创建文件夹/设置项目属性/新增状态机文件）
+5. 调试状态下，支持忽略、重试、重启
+6. 支持快捷键Ctrl+E快速打开表达式编辑器
+7. 新增Homepage视图
+
+
+### 组件
+
+1.  PDF操作：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
+1.  系统：[重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)、[输入密码](Activities/System/InputPasswordDialogActivity.md)
+1.  控制台交互：[文档理解](Activities/Console/DocReader.md)、[获取资产](Activities/Console/GetAssets.md)
+1.  数组操作：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
+1.  HTTP: [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)
+
+### 机器人
+
+1. 新增[定时任务](Robot/CronJob.md)功能
+1. 新增集成[云扩流程市场](Robot/ProcessMarket.md)
+
+
+### 增强功能
+
+1. 【编辑器】优化调整**流程市场**、**组件市场**等应用的入口位置。
+1. 【组件】[文件触发器](Activities/Triggers/FileTrigger.md)增加输出监听的文件路径
+1. 【组件】[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的邮件
+1. 【组件】[获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)增加输出字母和数字列号
+
+
+
+
 ## 2020.10.19 发版说明
+
 2020.10.19 发布了云扩 RPA 编辑器。
 本次发布的产品版本号为：
 |         | 版本号      |
@@ -10,23 +49,18 @@
 ### 新增功能
 
 #### 【编辑器】
-1. 在新建组件项目时将多个可重复使用的流程封装为组件包。
-2. 从模板新建自动化项目。
-3. 支持查看和编辑控制台的流程。
-4. 支持从最近列表打开最近使用的项目。
-5. 支持关闭当前打开的项目。
-6. 在项目中支持创建子文件夹存放文件。
-7. 在项目中支持对项目属性进行设置。
-8. 在项目中支持新增状态机作为子流程。
-9. 调试状态下支持忽略、重试、重启。
-10. 通过快捷键Ctrl+E快速打开表达式编辑器。
 
+1. 新增新建组件项目，将多个可重复使用的流程封装为组件包
+2. 新增从模板新建自动化项目
+3. 支持查看和编辑控制台的流程
+4. 增加项目编辑操作（创建文件夹/设置项目属性/新增状态机文件）
+5. 调试状态下，支持忽略、重试、重启
+6. 支持快捷键Ctrl+E快速打开表达式编辑器
+7. 新增Homepage视图
 
 ### 增强功能
-1. 【编辑器】优化**开始**页面的界面布局。
-2. 【编辑器】优化调整**流程市场**、**组件**等应用的入口位置。
-3. 【编辑器】优化在线咨询及增加在线咨询入口。
 
+1. 【编辑器】优化调整**流程市场**、**组件**等应用的入口位置。
 
 ## 2020.09.27 发版说明
 

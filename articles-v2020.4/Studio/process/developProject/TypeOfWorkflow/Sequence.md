@@ -11,7 +11,7 @@
 ## 序列示例 
 创建一个询问用户的姓名及年龄，然后显示他的答案的示例，来对序列进行说明。具体操作如下：
  
-1. 创建一个空白的自动化项目。在工作目录中点击“新建项目”新建一个项目，并输入项目名称，例如 “sequenceTest”。 
+1. 创建一个空白的流程项目。在“开始页”中点击“新建流程项目”新建一个项目，并输入项目名称，例如 “sequenceTest”。 
 
     ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/sequencetestitem20201019.png)
 

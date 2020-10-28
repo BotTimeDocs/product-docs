@@ -1,13 +1,18 @@
 [
     {
         "name": "WorkingProcess.md",
-        "localizedName": "创建-编辑-调试-发布-运行",
+        "localizedName": "创建-编辑-调试-发布",
         "uuid": "7b8abe50-2e5c-4644-be3f-08623515f9ec"
     },
     {
         "name": "CreateProject.md",
-        "localizedName": "创建自动化项目",
+        "localizedName": "创建流程项目",
         "uuid": "45df4772-e03e-43f8-a8c3-1e113f9cb7ef"
+    },
+    {
+        "name": "CreateLibrary.md",
+        "localizedName": "创建组件项目",
+        "uuid": "4f2d5853-ffb5-45e0-85e2-4decc0dd15d7"
     },
     {
         "name": "ProjectSettings.md",
