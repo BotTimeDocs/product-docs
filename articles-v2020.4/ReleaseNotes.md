@@ -1,8 +1,18 @@
 # 云扩产品发版说明
 
+## 2020.10.19 发版说明
+2020.10.19 发布了云扩 RPA 编辑器。
+本次发布的产品版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2010.17 |
+| 机器人   | 1.1.2010.17 |
+
+
+你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
 ### 新增功能
 
-### 编辑器
+#### 【编辑器】
 
 1. 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包
 2. 新增从模板新建自动化项目
@@ -13,7 +23,7 @@
 7. 新增Homepage视图
 
 
-### 组件
+### 【组件】
 
 1.  PDF操作：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
 1.  系统：[重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)、[输入密码](Activities/System/InputPasswordDialogActivity.md)
@@ -21,7 +31,7 @@
 1.  数组操作：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
 1.  HTTP: [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)
 
-### 机器人
+### 【机器人】
 
 1. 新增[定时任务](Robot/CronJob.md)功能
 1. 新增集成[云扩流程市场](Robot/ProcessMarket.md)
@@ -34,33 +44,6 @@
 1. 【组件】[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的邮件
 1. 【组件】[获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)增加输出字母和数字列号
 
-
-
-
-## 2020.10.19 发版说明
-
-2020.10.19 发布了云扩 RPA 编辑器。
-本次发布的产品版本号为：
-|         | 版本号      |
-| -----:  | -----:     |
-| 编辑器   | 1.1.2010.8 |
-
-你可以通过[*云扩控制台*](https://console.encoo.com/) 下载并体验相关产品。
-### 新增功能
-
-#### 【编辑器】
-
-1. 新增新建组件项目，将多个可重复使用的流程封装为组件包
-2. 新增从模板新建自动化项目
-3. 支持查看和编辑控制台的流程
-4. 增加项目编辑操作（创建文件夹/设置项目属性/新增状态机文件）
-5. 调试状态下，支持忽略、重试、重启
-6. 支持快捷键Ctrl+E快速打开表达式编辑器
-7. 新增Homepage视图
-
-### 增强功能
-
-1. 【编辑器】优化调整**流程市场**、**组件**等应用的入口位置。
 
 ## 2020.09.27 发版说明
 
