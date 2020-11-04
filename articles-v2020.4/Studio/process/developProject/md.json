@@ -19,5 +19,9 @@
     {
         "name": "Recording",
         "localizedName": "智能录制"
+    },
+    {
+        "name": "MobileDevicesManage",
+        "localizedName": "移动设备管理"
     }
 ]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Download.md",
+        "localizedName": "下载安装包",
+        "uuid": ""
+    },
+    {
+        "name": "ConnectMobile.md",
+        "localizedName": "连接手机",
+        "uuid": ""
+    },
+    {
+        "name": "AutomationConfiguration.md",
+        "localizedName": "自动化服务配置",
+        "uuid": ""
+    }
+    {
+        "name": "MobileDevicesManage.md",
+        "localizedName": "云扩RPA移动设备管理",
+        "uuid": ""
+    },
+    {
+        "name": "MobileAutomation.md",
+        "localizedName": "手机自动化",
+        "uuid": ""
+    }
+]
