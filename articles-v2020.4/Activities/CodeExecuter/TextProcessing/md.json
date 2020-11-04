@@ -35,4 +35,11 @@
         "localizedName": "获取文本索引",
         "uuid": "67984545-1c4f-4701-9915-b3db6b9260a4"
     }
+    ,
+    {
+        "id": "",
+        "name": "GenerateGUIDActivity.md",
+        "localizedName": "生成GUID",
+        "uuid": ""
+    }
 ]
