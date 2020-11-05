@@ -6,19 +6,22 @@
         "uuid": "31689d52-c142-4a6e-a969-1d081c2fdbb2"
     },
     {
-        "id": "Encootech.AutomationActivity.ClickActivity",
+        "id": "Encootech.AutomationActivity.ClickScreenPointActivity",
         "name": "Coordinate.md",
-        "localizedName": "坐标点击"
+        "localizedName": "坐标点击",
+        "uuid": "1071c33c-636f-4e49-bb9d-dcaa6437529d"
     },
     {
-        "id": "Encootech.AutomationActivity.ClickActivity",
+        "id": "Encootech.AutomationActivity.MouseMoveActivity",
         "name": "MoveMouse.md",
-        "localizedName": "移动鼠标"
+        "localizedName": "移动鼠标",
+        "uuid": "4a035cc6-9d2e-4056-ab0f-30be0ba8015f"
     },
     {
-        "id": "Encootech.AutomationActivity.ClickActivity",
+        "id": "Encootech.AutomationActivity.GetMousePointActivity",
         "name": "GetMousePosition.md",
-        "localizedName": "获取鼠标位置"
+        "localizedName": "获取鼠标位置",
+        "uuid": "1f332002-9624-49ae-b64a-126ee3476045"
     },
     {
         "id": "Encootech.AutomationActivity.HoverActivity",
