@@ -38,11 +38,5 @@
         "id": null,
         "name": "TextProcessing",
         "localizedName": "文本处理"
-    },
-    {
-        "id": "Encoo.Text.Activity.Activities.GenerateGUIDActivity",
-        "name": "GenerateGUIDActivity.md",
-        "localizedName": "生成GUID",
-        "uuid": "428faa63-a825-42de-a0f1-bff56c2e2173"
     }
 ]
