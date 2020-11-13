@@ -30,10 +30,8 @@
 1.  **软件自动化 > PDF**：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
 2.  **系统 > 文件 > [重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)**
 3. **系统 > [输入密码](Activities/System/InputPasswordDialogActivity.md)**
-4. **控制台**：
-   - [文档理解](Activities/Console/DocReader.md)：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
-
-   - [获取资产](Activities/Console/GetAssets.md)：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
+4. **控制台 > [文档理解](Activities/Console/DocReader.md)**：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
+5. **控制台 > [获取资产](Activities/Console/GetAssets.md)**：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
 5.  **代码工具 > 数组处理**：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
 6.  **代码工具 > HTTP > [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)**
 
@@ -43,7 +41,7 @@
 1. 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
 
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 在**开始菜单页**中优化调整**流程市场**、**组件市场**等应用的入口位置。
@@ -104,7 +102,7 @@
     - **文档理解**：用于配置各类模板实现对电子版PDF非结构化信息抽取。
     - **[资产管理](Console/asset/AboutAsset.md)**：定义各类参数及账户密码凭证供流程进行调用。
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 1. 优化安装/升级体验，更换安装框架。
@@ -151,7 +149,7 @@
 2. 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
 3. 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 项目操作性能优化，如下：
@@ -205,7 +203,7 @@
 1. 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
 1. 新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 1. 发布项目前，对项目的正确性进行校验。
@@ -258,7 +256,7 @@
 6. **软件自动化 > 邮件**：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
 7. **界面自动化 > 桌面控件专有**：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 1. 支持新增序列或流程图作为子流程。
@@ -304,7 +302,7 @@
 #### 【机器人】
 执行本地流程时支持填写流程参数。
 
-### 增强功能
+### 改进与增强
 
 #### 【编辑器】
 1. 输出面板界面优化。
@@ -345,7 +343,7 @@
 #### 【编辑器】
 支持将流程中的组件保存为子流程文件，你可以使用本功能将复杂流程拆解为多个简单的流程。
 
-### 增强功能
+### 改进与增强
 #### 【组件】
 提升 **软件自动化 > Office Excel** 系列组件执行性能。
 #### 【机器人】
@@ -356,7 +354,7 @@
 3. 在创建变量/参数时，支持快速创建 DataTable / IUiObject 类型的变量/参数。
 4. 支持通过组件的右键菜单来访问组件的帮助文档。
 
-### 修复问题
+### 问题修复
 
 #### 【编辑器】
 1. 修复了表达式编辑时，自动补入变量名不齐全的问题。
