@@ -36,7 +36,7 @@
 
 ### **连接服务**
 
-在Mac电脑上进行如下操作：
+在**Mac电脑**上进行如下操作：
 
 1. 解压已下载的移动端服务包”**Encoo.IOS.Automation.zip**“。
 
@@ -49,3 +49,11 @@
 3. 在弹出的”**云扩iOS服务管理器**“窗口中，单击”**连接服务**“。
 
 ![iOS连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/iosconnect20201104.png)
+>**说明：**
+>启动服务后连接手机，可能会遇到的问题，供参考：
+>  - 问题1：xcode-select: error:tool ‘instruments’requires Xcode或者IDE显示连接时会有相关日志状态输出。
+>  解决参考：
+ >     - 查看安装Xcode的路径（找到Xcode，直接拖到终端可查看路径）
+ >    -  执行命令sudo xcode-select --switch终端中显示的Xcode的路径/Contents/Developer/
+ > - 问题2：ide连接不上手机。
+ >  解决参考：需要检查/usr/bin文件夹下是否已经安装了python，若有则需要先卸载掉原先的python版本。
