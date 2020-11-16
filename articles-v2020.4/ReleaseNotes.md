@@ -103,7 +103,7 @@
 1. 更换安装框架，优化安装/升级体验，解决了由杀毒软件导致的安装失败问题。
 2. 非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示。
 3. 选择器编辑器中Java应用的Name属性全部层级支持通配符。
-4. 选择器编辑器界面优化。
+4. 选择器编辑器界面优化，使得用户操作体验更友好。
 5. 界面自动化组件支持即刻优雅终止流程。
 
 #### 【组件】
@@ -147,10 +147,9 @@
 ### 改进与增强
 
 #### 【编辑器】
-项目操作性能优化，如下：
-   - 项目打开速度。
-   - 复制粘贴组件速度。
-   - 运行/调试时增加提示信息。
+1. 优化项目打开速度，较之前更快，提升用户体验。
+2. 优化复制粘贴组件速度，较之前更快，提升用户体验。
+3. 项目运行或调试过程中，输出面板对当前过程进行提示，使用户更加明确当前执行过程。
 
 ## 2020.08.13 发版说明
 
@@ -263,8 +262,7 @@
 #### 【组件】
 1. [发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)组件支持手动选择安全方式。
 2. [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)组件支持仅获取未读邮件。
-#### 【机器人】
-用户界面体验优化。
+
 
 
 ## 2020.06.16 发版说明
@@ -285,7 +283,7 @@
 2. 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：UIA3或UIA。
 3. 在导入列表处，支持删除未使用或报错的[命名空间](Studio\process\developProject\ImportNamespaces.md)。
 4. 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
-5. 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)。
+5. 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)，使用户使用更便捷。
 6. 支持一种360安全浏览器类型。
 #### 【组件】
 1. **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择SAP项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
@@ -341,8 +339,6 @@
 ### 改进与增强
 #### 【组件】
 提升 **软件自动化 > Office Excel** 系列组件执行性能。
-#### 【机器人】
-增强机器人执行稳定性。
 #### 【编辑器】
 1. 增强**表达式编辑器**的**智能感知**功能，支持变量/参数/方法名称联想。
 2. 针对社区版许可证超出配额的情况，增加解决方法的提示。
