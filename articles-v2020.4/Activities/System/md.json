@@ -28,6 +28,12 @@
         "uuid": "f9cd10c0-90af-4f6c-a823-b2faa0daa98a"
     },
     {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.TimePickerDialogActivity",
+        "name": "TimePickerDialogActivity.md",
+        "localizedName": "日期和时间选择框",
+        "uuid": "2a76c35e-5868-4434-a262-ed6aec475f7e"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.PromptBoxActivity",
         "name": "PromptBox.md",
         "localizedName": "提示框",
