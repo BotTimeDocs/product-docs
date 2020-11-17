@@ -91,6 +91,7 @@
 - **界面自动化 > 桌面控件专有**：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 - **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 - **界面自动化 > [截屏](Activities/UIAutomation/Screenshot.md)**。
+ 
  ------ 
 
 
@@ -105,7 +106,9 @@
 - **软件自动化 > Office Excel > [设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md)** ：使用拾色器提升颜色设置体验。
 - **软件自动化 > 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)**。
 -  **软件自动化 > Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)**。
+
 ------
+
 3. **代码工具**
 - **代码工具 > 数组处理**：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
 - **代码工具 > HTTP > [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)**
@@ -115,7 +118,9 @@
 - **代码工具 > 文本处理**: [验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
 - **代码工具 > 集合处理** ：[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 - **代码工具 > 数据处理 > [数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)**：可实现对输入数据按照数值、日期和时间、货币和百分比进行格式化。
+
 ------
+
 4. **系统**
 -  **系统 > 文件 > [重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)**
 - **系统 > [输入密码](Activities/System/InputPasswordDialogActivity.md)**
@@ -125,19 +130,26 @@
 - **系统 > [设置日期和时间](Activities/System/SetDateTime.md)**：实现指定日期和时间并输出DateTime类型结果。
 - **系统**：[选择文件](Activities/System/File/SelectFile.md)、[选择文件夹](Activities/System/File/SelectFolder.md)。
 - **系统 > [设置剪贴板文本](Activities/System/SetContentsToClipboard.md?_v=v2020.4)**：实现设置文本内容到剪贴板。
+
 ------
+
 5. **数据表**
  - **数据表 > [追加到CSV文件](Activities/DataTable/AppendToCSV.md)**：实现将数据表追加到已有 CSV 文件。
+
 ------
+
 6. **流程控制**
 - **流程控制 > [赋值（多个） ](Activities/WorkflowControl/MultipleAssign.md)**
 - **流程控制 > 判断 > [条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)**：实现指定 C# 表达式，并根据每个 Case 判断执行符合条件的流程。
 - **流程控制 > [状态机](Activities/WorkflowControl/StateMachine/StateMachine.md)**：实现基于状态机范例的工作流程。
 - **流程控制**：[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
+
 ------
+
 7. **控制台**
 -  **控制台 > [文档理解](Activities/Console/DocReader.md)**：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
 -  **控制台 > [获取资产](Activities/Console/GetAssets.md)**：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
+
 ------
 
 8. **触发器**
@@ -195,11 +207,14 @@
 - 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
 - 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
 - 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
-***
+
+------
+
 2. **基础配置**
 - 在**设置**页面中新增[关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
 - 基础配置：新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
-***
+
+------
    
 3. **信息管理**
 - 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
@@ -224,4 +239,4 @@
 ### 功能点列表
  
    
-1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 文档理解、[资产管理](Console/asset/AboutAsset.md)。
+1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Activities/Console/DocReader.md)、[资产管理](Console/asset/AboutAsset.md)。
