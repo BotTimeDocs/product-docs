@@ -14,13 +14,14 @@
 #### 【编辑器】
 
 
-1. 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将一段流程封装为组件，供其它项目使用。
-2. 新增[从模板新建自动化项目](./Studio/process/ProjectTemplates.md),支持 RPA 实施人员规范 RPA 流程开发方式，提升企业级的 RPA 流程实施质量。
+
+1. 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包，可发布到组件市场供其它项目使用。
+2. 新增[从模板新建自动化项目](./Studio/process/ProjectTemplates.md)，支持 RPA 实施人员规范 RPA 流程开发方式，提升企业级的 RPA 流程实施质量。
 3. 支持查看和编辑当前登录用户在控制台所属资源组下的流程。
 4. 新增项目右击操作（打开文件夹/项目设置/添加状态机文件）。
 5. 调试状态下，当发生错误时，支持忽略、重试、重启操作。
-6. 当光标置于任意输入框时，支持快捷键**Ctrl+E**快速打开表达式编辑器。
-7. 新增**开始菜单页**Homepage视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
+6. 当光标置于任意输入框时，支持快捷键 **Ctrl+E** 快速打开表达式编辑器。
+7. 新增**开始菜单页** Homepage 视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
 
 
 
@@ -67,7 +68,7 @@
 
 #### 【编辑器】
 
-1. 新增Microsoft Edge浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
+1. 新增 Microsoft Edge 浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
 2. **选择器编辑器**新增获取 XPath 功能，可以使用 XPath 的形式对元素进行展现，参见[选择器](Activities\Appendix\Selector.md)。
 3. 新增 **IE 前端日志收集器**应用程序，使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见[收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
 
@@ -77,8 +78,8 @@
 1. **触发器 > [邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)**：用于监听 Outlook 邮箱接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
 1. **触发器 > [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)**：用于监听 Exchange 服务器接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
 1. **触发器 > [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)**：用于监听支持 IMAP 协议的邮箱接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
-2. **代码工具 > JSON > [序列化](Activities/CodeExecuter/JSON/SerializeObject.md)**：可将.NET对象序列化为 JSON 字符串。
-3. **代码工具 > JSON > [反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)**：可将 JSON 字符串反序列化为.NET对象。
+2. **代码工具 > JSON > [序列化](Activities/CodeExecuter/JSON/SerializeObject.md)**：可将 .NET 对象序列化为 JSON 字符串。
+3. **代码工具 > JSON > [反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)**：可将 JSON 字符串反序列化为 .NET 对象。
 4. **软件自动化 > Office Excel > [刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)**：实现刷新指定透视表的数据。
 5. **软件自动化 > Office Excel > [创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)**：实现在 Excel 中创建透视表。
 6. **代码工具 > HTTP > [HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)**：实现发送 HTTP 请求并返回响应的数据，并支持测试配置的 HTTP 请求是否可用。
@@ -95,20 +96,20 @@
 
 1. 支持与工作台进行通信，在控制台中可查看已发布的应用。 
    
-2. 整体架构升级，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 文档理解、[资产管理](Console/asset/AboutAsset.md)。
+2. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 文档理解、[资产管理](Console/asset/AboutAsset.md)。
 
 ### 改进与增强
 
 #### 【编辑器】
 1. 更换安装框架，优化安装/升级体验，解决了由杀毒软件导致的安装失败问题。
 2. 非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示。
-3. 选择器编辑器中Java应用的Name属性全部层级支持通配符。
+3. 选择器编辑器中 Java 应用的 Name 属性全部层级支持通配符。
 4. 选择器编辑器界面优化，使得用户操作体验更友好。
 5. 界面自动化组件支持即刻优雅终止流程。
 
 #### 【组件】
 1. 界面自动化下的组件全部新增超时属性。
-2. **获取含OCR文本的元素**、**判断OCR文本是否存在**组件的文本属性支持正则表达式。
+2. **获取含 OCR 文本的元素**、**判断 OCR 文本是否存在**组件的文本属性支持正则表达式。
 3. 优化钉钉程序内元素识别，使得录制技术 UIA 可识别大部分元素。
 #### 【机器人】
 优化安装/升级体验。
@@ -130,12 +131,12 @@
 
 1. 支持**大纲**层级显示，用于显示当前流程的结构，可快速定位对应组件。
 2. 当光标置于属性输入框内时，鼠标右键可快速打开**表达式编辑器**菜单，对变量、参数或表达式进行操作。
-3. 新增全局快捷键 **Ctrl+Alt+F5**，使编辑器最小化后在后台运行时,也能够停止执行流程。
+3. 新增全局快捷键 **Ctrl+Alt+F5**，使编辑器最小化后在后台运行时，也能够停止执行流程。
 4. 暂停调试支持在任意时刻快速暂停调试过程。暂停时，正在调试的组件将高亮显示。
 
 #### 【组件】
 
-1. **系统 > [提示框](Activities/System/PromptBox.md)**：用于在Windows桌面右下角展示在流程中必要的提示信息。
+1. **系统 > [提示框](Activities/System/PromptBox.md)**：用于在 Windows 桌面右下角展示在流程中必要的提示信息。
 2. **软件自动化 > Office Excel > [ 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)**：在**打开/新建**组件中使用，对 Excel 文件进行增加、更新或清除密码。
 
 #### 【机器人】
@@ -181,13 +182,13 @@
 1. **界面自动化 > [等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)**：实现等待指定元素的属性值为指定值时，才执行下一个组件，否则会在超时时间范围内一直等待。
 1. **界面自动化 > [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)**：实现获取指定元素的属性值，并将其存储在输出变量属性值中。
 1. **界面自动化 > OCR > [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)（企业版）**：实现对指定元素或图片进行 OCR 并返回结果。
-1. **界面自动化 > OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）**:实现对指定元素或图片进行OCR，并查找包含指定文本的元素，将其存储在输出属性 OCR 元素内。
+1. **界面自动化 > OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）**:实现对指定元素或图片进行 OCR ，并查找包含指定文本的元素，将其存储在输出属性 OCR 元素内。
 1. **界面自动化 > OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）**：实现对指定元素或图片进行 OCR ，并判断指定文本是否存在，将其结果存储在输出属性 OCR 元素内。
 2. **软件自动化 > 邮件**：[获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md) 、 [发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)
 3. **代码工具 > 文本处理**: [验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
 4. **流程控制 > [赋值（多个） ](Activities/WorkflowControl/MultipleAssign.md)**
 5. **软件自动化 > Office Excel > [插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)**：实现指定单元格插入图片。
-6. **流程控制 > 判断 > [条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)**：实现指定C#表达式，并根据每个Case判断执行符合条件的流程。
+6. **流程控制 > 判断 > [条件( Switch )](Activities/WorkflowControl/Determine/Switch.md)**：实现指定 C# 表达式，并根据每个 Case 判断执行符合条件的流程。
 7. **系统 > 文件 > [遍历文件夹](Activities/System/File/ForeachFolder.md)**
 8. **代码工具 > 集合处理** ：[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 
@@ -233,8 +234,8 @@
 
 #### 【编辑器】
 1. 支持在表达式编辑器中，选中变量名，使用 **Ctrl+B** 快捷键快速创建变量。
-2. 针对含有多个xaml文件的复杂流程，支持通过[调试/运行文件](Studio\process\Debugging\partialDebug.md)来进行分布调试。
-3. 支持使用编辑器直接发布自动化项目到本地机器人,实现无缝对接。
+2. 针对含有多个 xaml 文件的复杂流程，支持通过[调试/运行文件](Studio\process\Debugging\partialDebug.md)来进行分布调试。
+3. 支持使用编辑器直接发布自动化项目到本地机器人，实现无缝对接。
 4. 在编辑器右下角支持浮窗通知，针对编辑器更新、部分项目操作反馈进行提醒，降低了弹窗通知带来的干扰率，提升用户体验。
 5. 集成 NuGet 开源项目，可以方便的引用 NuGet 应用。
 6. 支持使用元素探测器选择元素，功能较此前的选择器编辑器更强，此功能仅在企业版中支持，可参见[元素探测器](Activities/Appendix/UiDetector.md)。
@@ -246,7 +247,7 @@
 2. **代码工具 > 数据处理 > [数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)**：可实现对输入数据按照数值、日期和时间、货币和百分比进行格式化。
 3. **流程控制**：[重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
 4. **系统 > [下拉选择框](Activities/System/DropdownListDialog.md)**：方便在流程中弹出下拉选择框形态的用户交互界面。
-5. **数据表 > [追加到CSV文件](Activities/DataTable/AppendToCSV.md)**：实现将数据表追加到已有CSV文件。
+5. **数据表 > [追加到CSV文件](Activities/DataTable/AppendToCSV.md)**：实现将数据表追加到已有 CSV 文件。
 6. **软件自动化 > 邮件**：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
 7. **界面自动化 > 桌面控件专有**：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 
@@ -280,13 +281,13 @@
 
 #### 【编辑器】
 1. 调试过程中，支持在[变量面板](Studio\process\Debugging\ValuePanel.md)查看每一个变量在当前组件的类型和值，以此我们可以来判断流程是否正确执行，且可帮助定位流程错误位置。
-2. 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：UIA3或UIA。
+2. 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：UIA3 或 UIA 。
 3. 在导入列表处，支持删除未使用或报错的[命名空间](Studio\process\developProject\ImportNamespaces.md)。
 4. 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
 5. 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)，使用户使用更便捷。
-6. 支持一种360安全浏览器类型。
+6. 支持360安全浏览器。
 #### 【组件】
-1. **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择SAP项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
+1. **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 2. **界面自动化 > [截屏](Activities/UIAutomation/Screenshot.md)**。
 3. **系统 > [设置日期和时间](Activities/System/SetDateTime.md)**：实现指定日期和时间并输出DateTime类型结果。
 4. **系统**：[选择文件](Activities/System/File/SelectFile.md)、[选择文件夹](Activities/System/File/SelectFolder.md)。
@@ -302,8 +303,8 @@
 2. 支持更详细的项目打开及编译错误描述，更易定位错误位置。
 
 #### 【组件】
-1. 优化**软件自动化 > Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)** 组件,支持指定开始行号。
-2. 优化**软件自动化 > Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)** 组件,使用拾色器提升颜色设置体验。
+1. 优化**软件自动化 > Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)** 组件，支持指定开始行号。
+2. 优化**软件自动化 > Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)** 组件，使用拾色器提升颜色设置体验。
 
 
 #### 【自动化场景】
