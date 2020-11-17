@@ -79,37 +79,37 @@
 
 ### 功能点列表
 1. **界面自动化**
-- **界面自动化 > [匹配图片](Activities/UIAutomation/MatchImage.md)**：实现在指定范围内寻找指定图片，返回符合的结果集。
-- **界面自动化 > [设置焦点](Activities/UIAutomation/SetFocus.md)**：实现为指定元素设置焦点，支持桌面端和浏览器端。
-- **界面自动化 > [选择多个项目](Activities/UIAutomation/SelectMultipleItems.md)**：实现多个项目的同时选择，此组件仅当原页面支持多选时生效。
--  **界面自动化 > [高亮](Activities/UIAutomation/Highlight.md)**：实现指定元素高亮，可选择颜色和时间。
-- **界面自动化 > [等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)**：实现等待指定元素的属性值为指定值时，才执行下一个组件，否则会在超时时间范围内一直等待。
-- **界面自动化 > [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)**：实现获取指定元素的属性值，并将其存储在输出变量属性值中。
--  **界面自动化 > OCR > [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)（企业版）**：实现对指定元素或图片进行 OCR 并返回结果。
-- **界面自动化 > OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）**:实现对指定元素或图片进行 OCR ，并查找包含指定文本的元素，将其存储在输出属性 OCR 元素内。
--  **界面自动化 > OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）**：实现对指定元素或图片进行 OCR ，并判断指定文本是否存在，将其结果存储在输出属性 OCR 元素内。
-- **界面自动化 > 桌面控件专有**：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
-- **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
-- **界面自动化 > [截屏](Activities/UIAutomation/Screenshot.md)**。
+- [匹配图片](Activities/UIAutomation/MatchImage.md)：实现在指定范围内寻找指定图片，返回符合的结果集。
+- [设置焦点](Activities/UIAutomation/SetFocus.md)：实现为指定元素设置焦点，支持桌面端和浏览器端。
+- [选择多个项目](Activities/UIAutomation/SelectMultipleItems.md)：实现多个项目的同时选择，此组件仅当原页面支持多选时生效。
+- [高亮](Activities/UIAutomation/Highlight.md)：实现指定元素高亮，可选择颜色和时间。
+- [等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)：实现等待指定元素的属性值为指定值时，才执行下一个组件，否则会在超时时间范围内一直等待。
+- [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)：实现获取指定元素的属性值，并将其存储在输出变量属性值中。
+- OCR > [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)（企业版）：实现对指定元素或图片进行 OCR 并返回结果。
+- OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）:实现对指定元素或图片进行 OCR ，并查找包含指定文本的元素，将其存储在输出属性 OCR 元素内。
+- OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）：实现对指定元素或图片进行 OCR ，并判断指定文本是否存在，将其结果存储在输出属性 OCR 元素内。
+- 桌面控件专有：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
+- SAP：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
+- [截屏](Activities/UIAutomation/Screenshot.md)
  
  ------ 
 
 
 2. **软件自动化**
-- **软件自动化 > PDF**：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
-- **软件自动化 > Office Excel > [刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)**：实现刷新指定透视表的数据。
-- **软件自动化 > Office Excel > [创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)**：实现在 Excel 中创建透视表。
--  **软件自动化 > 邮件**：[获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md) 、 [发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)
-- **软件自动化 > Office Excel > [ 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)**：在**打开/新建**组件中使用，对 Excel 文件进行增加、更新或清除密码。
--  **软件自动化 > 邮件**：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
--  **软件自动化 > Office Excel > [插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)**：实现指定单元格插入图片。
-- **软件自动化 > Office Excel > [设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md)** ：使用拾色器提升颜色设置体验。
-- **软件自动化 > 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)**。
--  **软件自动化 > Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)**。
+-  PDF：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
+- Office Excel > [刷新透视表](Activities/AppAutomation/OfficeExcel/RefreshPivotTable.md)：实现刷新指定透视表的数据。
+- Office Excel > [创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)：实现在 Excel 中创建透视表。
+-  邮件：[获取邮件(Exchange)](Activities/AppAutomation/Mail/GetExchangeMail.md) 、 [发送邮件(Exchange)](Activities/AppAutomation/Mail/SendExchangeMail.md)
+-  Office Excel > [ 重置密码](Activities/AppAutomation/OfficeExcel/OfficeExcelResetPassword.md)：在**打开/新建**组件中使用，对 Excel 文件进行增加、更新或清除密码。
+-   邮件：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
+-   Office Excel > [插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)：实现指定单元格插入图片。
+- Office Excel > [设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md) ：使用拾色器提升颜色设置体验。
+- 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)。
+-  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)。
 
 ------
 
-3. **代码工具**
+1. **代码工具**
 - **代码工具 > 数组处理**：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
 - **代码工具 > HTTP > [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)**
 - **代码工具 > JSON > [序列化](Activities/CodeExecuter/JSON/SerializeObject.md)**：可将.NET对象序列化为 JSON 字符串。
