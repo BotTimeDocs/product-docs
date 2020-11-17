@@ -285,7 +285,7 @@
 3. 在导入列表处，支持删除未使用或报错的[命名空间](Studio\process\developProject\ImportNamespaces.md)。
 4. 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
 5. 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)，使用户使用更便捷。
-6. 支持360安全浏览器。
+6. 界面自动化 > 支持360安全浏览器。新增浏览器的支持类型，使您可以操作360安全浏览器。
 #### 【组件】
 1. **界面自动化 > SAP** ：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 2. **界面自动化 > [截屏](Activities/UIAutomation/Screenshot.md)**。
