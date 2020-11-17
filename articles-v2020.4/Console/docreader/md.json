@@ -1,0 +1,14 @@
+[
+    {
+        "id": null,
+        "name": "aboutDocreader.md",
+        "localizedName": "关于文档理解",
+        "uuid": "3d1c7c2d-857e-4791-b738-9ff9455d85bd"
+    },
+    {
+        "id": null,
+        "name": "manageDocreader.md",
+        "localizedName": "管理文档理解模板",
+        "uuid": "cdb519a8-e291-44e2-9215-92d794cd4f5b"
+    }
+]
