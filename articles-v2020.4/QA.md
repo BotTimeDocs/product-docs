@@ -20,4 +20,4 @@ A: 社区版和企业版都包含编辑器，控制台和机器人。两者差�
 ## 获取离线产品文档
 Q: 如何获取最新版本的离线产品文档？
 
-A: 下载[产品手册（PDF）](https://dev-academy.bottime.com/pdf/Product_Induction_ZH-CN.pdf)
+A: 下载 [产品手册（PDF）](https://dev-academy.bottime.com/pdf/Product_Induction_ZH-CN.pdf)
