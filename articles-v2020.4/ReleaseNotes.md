@@ -84,8 +84,8 @@
 5. **软件自动化 > Office Excel > [创建透视表](Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)**：实现在 Excel 中创建透视表。
 6. **代码工具 > HTTP > [HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)**：实现发送 HTTP 请求并返回响应的数据，并支持测试配置的 HTTP 请求是否可用。
 
-#### 【工作台】
-关于工作台的详情，请参见 [关于云扩工作台](Apps/aboutApps.md)。
+#### 【小程序】
+关于小程序的详情，请参见 [关于云扩工作台](Apps/aboutApps.md)。
 
 1. 新增顶部导航、左侧导航组件，支持应用内多页面跳转。
 2. 新增流程组件，支持一键启动控制台流程。
@@ -93,10 +93,8 @@
 4. 支持**我的应用**查找并运行。
 
 #### 【控制台】
-
-1. 支持与工作台进行通信，在控制台中可查看已发布的应用。 
    
-2. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 文档理解、[资产管理](Console/asset/AboutAsset.md)。
+1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 文档理解、[资产管理](Console/asset/AboutAsset.md)。
 
 ### 改进与增强
 

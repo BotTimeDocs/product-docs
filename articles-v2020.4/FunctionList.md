@@ -165,8 +165,6 @@
 - [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)：用于监听支持 IMAP 协议的邮箱接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
 
 
-
-
 ### 改进与增强
 
 1. **界面自动化**
@@ -197,7 +195,7 @@
 3. **流程控制**
 - 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击**导入参数**可直接将子流程参数导入。
 
- 4. **触发器**
+4. **触发器**
 - [文件触发器](Activities/Triggers/FileTrigger.md)： 增加输出监听的文件路径。
 - 邮件触发器：[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的新邮件。
    
@@ -223,7 +221,8 @@
 - 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
 - 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
 
-## 工作台
+## 小程序
+![小程序](https://docimages.blob.core.chinacloudapi.cn/images/panel.png)
 ### 功能点列表
 1. **小程序开发**
 - 全局组件：新增顶部导航、左侧导航组件，支持应用内多页面跳转。
