@@ -236,4 +236,4 @@
 
 ### 功能点列表 
    
-1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Activities/Console/DocReader.md)、[资产管理](Console/asset/AboutAsset.md)。
+1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
