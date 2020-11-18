@@ -52,8 +52,7 @@
 - 在主界面菜单栏中新增**在线咨询**按钮，可快速寻求帮助。
 - 在编辑器右下角支持浮窗通知，针对编辑器更新、部分项目操作反馈进行提醒，降低了弹窗通知带来的干扰率，提升用户体验。
 
-**7.【组件库】**
-- 界面自动化：支持360安全浏览器。新增浏览器的支持类型，使您可以操作360安全浏览器。
+
 
 ### 改进与增强
 
@@ -84,10 +83,7 @@
 - 针对社区版许可证超出配额的情况，增加解决方法的提示。
 - 更换安装框架，优化安装/升级体验，解决了由杀毒软件导致的安装失败问题。
 
-**5.【组件库】**
-- 界面自动化：选择器编辑器中 Java 应用的 Name 属性全部层级支持通配符。
-- 界面自动化：选择器编辑器界面优化，使得用户操作体验更友好。
-- 界面自动化：界面自动化组件支持即刻优雅终止流程。
+
 
 
 ### 问题修复
@@ -98,7 +94,7 @@
 4. 修复了修改变量值后，调试项目时，修改不生效的问题。
 5. 修复了编辑器界面偶尔无法点击的问题。
 
-## 组件
+## 组件库
 ![组件库功能](https://docimages.blob.core.chinacloudapi.cn/images/activities.png)
 ### 功能点列表
 
@@ -115,7 +111,7 @@
 - 桌面控件专有：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 - SAP：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 - [截屏](Activities/UIAutomation/Screenshot.md)
- 
+- 支持360安全浏览器。新增浏览器的支持类型，使您可以操作360安全浏览器。
 
 **2.【软件自动化】**
 -  PDF：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
@@ -191,6 +187,9 @@
 - 在图像识别模式下，**等待元素出现**组件返回的控件元素为图象，而非锚点，使用户可以取图像输出执行后续操作。
 - 加强对用友NC,U8系列软件的支持。比如自定义按钮，报表可以识别和抓取。
 - 浏览器支持增强：支持内嵌IE浏览器中元素的识别，例如部分界面使用IE内核渲染的网页（chm文件）；支持360安全浏览器兼容模式下元素的识别。
+- 选择器编辑器中 Java 应用的 Name 属性全部层级支持通配符。
+- 选择器编辑器界面优化，使得用户操作体验更友好。
+- 界面自动化组件支持即刻优雅终止流程。
 
 **2.【软件自动化】**
 - Office Excel > [获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)：增加输出字母和数字列号。
