@@ -152,36 +152,47 @@
 
 **编辑区域**显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。
 
-通过双击某一个组件，可以查看此组件的具体内容，也可以对其进行属性的添加和更改。 
-
 ![设计](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design.png)
 
-通过点击![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png)图标，按住空格键或按鼠标中键来激活平移模式。</br>通过按住Ctrl+鼠标滚动方式更改缩放级别，然后点击![重置为100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%25.png)图标将其重置为100%。</br>通过点击![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png)图标，使整个自动化项目按照编辑区域的大小进行自适应。
+- 通过双击某一个组件，可以查看此组件的具体内容，也可以对其进行属性的添加和更改。 
+
+- 通过点击![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png)图标，按住空格键或按鼠标中键来激活平移模式。
+
+- 通过按住Ctrl+鼠标滚动方式更改缩放级别，然后点击![重置为100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%25.png)图标将其重置为100%。
+
+- 通过点击![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png)图标，使整个自动化项目按照编辑区域的大小进行自适应。
+
+
 
 ### 上下文菜单 
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。 
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design-menu.png)
+![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20201118.png#width-full)
+
+
 
    |选项         |描述|
    |----------------|---------------------------------------|
    |打开         |打开编辑区域中选中的组件，也可以通过双击来实现。|
-   |查看父级     |在编辑区域中显示当前选中组件的父级。 </br> 注意：只在子级组件的上下文菜单中显示。|
    |剪切         |删除选中的组件并将其放在剪贴板上。|
    |复制         |复制选中的组件并将其放在剪贴板上。|
    |粘贴         |将剪贴板上的组件插入到当前位置。|
    |删除         |删除选中的组件。|
    |批注         |对组件进行注释的添加、编辑、删除、显示和隐藏。|
    |断点         |对选定的组件进行断点的插入、删除、禁用和启用。|
-   |复制为图像    |将编辑区域中显示的内容保存为图片，图片名称、类型、存储路径等为默认状态。|
-   |另存为图像    |将编辑区域中显示的内容保存为图片，但图片的名称、类型、存储路径等可以进行自定义。|
    |创建变量      |在变量列表中创建变量。|
    |提取为子流程   |创建一个包含目标组件的新流程。通过将大型流程拆解，以降低查看项目的复杂度。</br>在提取为子流程的组件处会自动生成一个调用流程组件，参数由组件中使用的变量自动生成。|
    |启用组件 |启用先前禁用的组件。|
    |禁用组件 |禁用选定的组件，并将其放置在**注释掉**容器中|
+   |导出到Excel |鼠标右击容器内组件（流程图/序列/状态机组）的空白处，将 xaml 文件内容导出到 Excel 中。|
+   |复制为图像    |将编辑区域中显示的内容保存为图片，图片名称、类型、存储路径等为默认状态。|
+   |另存为图像    |将编辑区域中显示的内容保存为图片，但图片的名称、类型、存储路径等可以进行自定义。|
+   |显示所有条件|在流程编辑区域将流程决策组件的条件（Condition）属性值显示出来。|
+   |隐藏所有条件|在流程编辑区域将流程决策组件的条件（Condition）属性值隐藏起来。 |
    |帮助 |快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法，也可以通过快捷键F1实现。|
    |设置为开始节点 |将当前选中组件设为开始节点，流程执行由当前组件开始。 </br> 注意：只在当前容器组件为流程图时显示。|
+   |查看父级     |在编辑区域中显示当前选中组件的父级。 </br> 注意：只在子级组件的上下文菜单中显示。|
 
 
 ### 属性面板
