@@ -1,9 +1,9 @@
 # 云扩产品功能清单
 
 ## 编辑器
-
-### 功能点列表
 ![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/studio.png)
+### 功能点列表
+
 **1.【项目开发】**
 
 - 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包，可发布到组件市场供其它项目使用。
