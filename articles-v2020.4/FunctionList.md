@@ -17,7 +17,7 @@
 - 支持在表达式编辑器中，选中变量名，使用 **Ctrl+B** 快捷键快速创建变量。
 - 支持使用编辑器直接发布自动化项目到本地机器人，实现无缝对接。
 - 在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性，可参见[项目设置](Studio/process/ProjectSettings.md)。
-- 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：UIA3 或 UIA 。
+- 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：[UIA3/UIA](https://docs.microsoft.com/zh-cn/dotnet/framework/ui-automation/ui-automation-overview) 。
 - 在导入列表处，支持删除未使用或报错的[命名空间](Studio\process\developProject\ImportNamespaces.md)。
 - 支持将流程中的组件保存为子流程文件，你可以使用本功能将复杂流程拆解为多个简单的流程。
 - 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)，使用户使用更便捷。
@@ -34,13 +34,13 @@
   
 **3.【市场】**
 
-- 新增[代码市场](Studio\market\NuGetMarket.md)，集成 NuGet 开源项目，可以方便的引用 NuGet 应用。
+- 新增[代码市场](Studio\market\NuGetMarket.md)，集成 [NuGet](https://docs.microsoft.com/zh-cn/nuget/what-is-nuget) 开源项目，可以方便的引用 NuGet 应用。
 - 在**组件市场**中新增[ Office PowerPoint 组件包](https://marketplace.encoo.com/#/activity/detail?packageId=Encootech.OfficePPT)，实现对 PPT 常用功能的支持。
 - 在**组件市场**中新增[竹间智能语音识别](https://marketplace.encoo.com/#/activity/detail?packageId=Emotibot)，实现语音转文字功能。
 
 **4.【辅助工具】**
 - 新增 Microsoft Edge 浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
-- 选择器编辑器：新增获取 XPath 功能，可以使用 XPath 的形式对元素进行展现，参见[选择器](Activities\Appendix\Selector.md)。
+- 选择器编辑器：新增获取 [XPath](https://www.w3school.com.cn/xpath/xpath_intro.asp) 功能，可以使用 XPath 的形式对元素进行展现，参见[选择器](Activities\Appendix\Selector.md)。
 - 新增 **IE 前端日志收集器**应用程序：使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见[收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
 - 支持使用元素探测器选择元素：功能较此前的选择器编辑器更强，可参见[元素探测器](Activities/Appendix/UiDetector.md)。
 
@@ -83,9 +83,6 @@
 - 针对社区版许可证超出配额的情况，增加解决方法的提示。
 - 更换安装框架，优化安装/升级体验，解决了由杀毒软件导致的安装失败问题。
 
-
-
-
 ### 问题修复
 
 1. 修复了表达式编辑时，自动补入变量名不齐全的问题。
@@ -93,6 +90,34 @@
 3. 修复了搜索组件时，搜索结果展示不全的问题。
 4. 修复了修改变量值后，调试项目时，修改不生效的问题。
 5. 修复了编辑器界面偶尔无法点击的问题。
+
+## 机器人
+![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
+### 功能点列表
+
+**1.【流程管理】**
+- 新增[定时任务](Robot/CronJob.md)功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
+- 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
+- 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
+- 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
+
+
+**2.【基础配置】**
+- 在**设置**页面中新增[关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
+- 基础配置：新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
+
+   
+**3.【信息管理】**
+- 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
+- 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
+- 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
+
+## 控制台
+
+### 功能点列表 
+   
+1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
+
 
 ## 组件库
 ![组件库功能](https://docimages.blob.core.chinacloudapi.cn/images/activities.png)
@@ -208,26 +233,8 @@
 - 邮件触发器：[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的新邮件。
    
 
-## 机器人
-![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
-### 功能点列表
-
-**1.【流程管理】**
-- 新增[定时任务](Robot/CronJob.md)功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
-- 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
-- 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
-- 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
 
 
-**2.【基础配置】**
-- 在**设置**页面中新增[关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
-- 基础配置：新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
-
-   
-**3.【信息管理】**
-- 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
-- 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
-- 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
 
 ## 小程序
 ![小程序](https://docimages.blob.core.chinacloudapi.cn/images/panel.png)
@@ -242,8 +249,4 @@
 **3.【小程序运行】**
 - 支持**我的应用**查找并运行。
 
-## 控制台
 
-### 功能点列表 
-   
-1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
