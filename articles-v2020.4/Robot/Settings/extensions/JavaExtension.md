@@ -25,7 +25,7 @@
 
     >**说明：**
     >
-    > 1.1.2009.X及之后的版本为安装目录下的Extensions\Java文件夹。
+    > Robot在1.1.2010.17及以后的版本为安装目录下的Extensions\Java文件夹。
 
     b) 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下
 
@@ -35,7 +35,7 @@
      
      >**说明：**
      >
-     > 1.1.2009.X及之后的版本:
+     > Robot在1.1.2010.17及以后的版本:
      > 将文件夹中accessibility.properties复制到runtime的\lib目录下，将文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-.dll和BotTimeJAWTBridge-.dll复制到runtime的\bin\目录下。
 
     |BotTime扩展文件|目标路径|
