@@ -12,32 +12,23 @@
 - 在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性，可参见[项目设置](Studio/process/ProjectSettings.md)。
 - 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：[UIA3/UIA](https://docs.microsoft.com/zh-cn/dotnet/framework/ui-automation/ui-automation-overview) 。
 
-
-**2.【项目执行】**
-
-- 调试状态下，当发生错误时，支持忽略、重试、重启操作。
--  新增全局快捷键 **Ctrl+Alt+F5**，使编辑器最小化后在后台运行时，也能够停止执行流程。
-- 暂停调试支持在任意时刻快速暂停调试过程。暂停时，正在调试的组件将高亮显示。
-- 输出面板支持分类筛选输出信息，包括**错误**、**信息**、**调试**这三类，用于分类查看日志信息。
-- 针对含有多个xaml文件的复杂流程，支持通过[调试/运行文件](Studio\process\Debugging\partialDebug.md)来进行分布调试。 
-- 调试过程中，支持在[变量面板](Studio\process\Debugging\ValuePanel.md)查看每一个变量在当前组件的类型和值，以此我们可以来判断流程是否正确执行，且可帮助定位流程错误位置。
   
-**3.【开放市场】**
+**2.【开放市场】**
 
 - 新增[代码市场](Studio\market\NuGetMarket.md)，集成 [NuGet](https://docs.microsoft.com/zh-cn/nuget/what-is-nuget) 开源项目，可以方便的引用 NuGet 应用。
 - 在**组件市场**中新增[ Office PowerPoint 组件包](https://marketplace.encoo.com/#/activity/detail?packageId=Encootech.OfficePPT)，实现对 PPT 常用功能的支持。
 - 在**组件市场**中新增[竹间智能语音识别](https://marketplace.encoo.com/#/activity/detail?packageId=Emotibot)，实现语音转文字功能。
 
-**4.【辅助工具】**
+**3.【辅助工具】**
 - 新增 Microsoft Edge 浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
 - 选择器编辑器：新增获取 [XPath](https://www.w3school.com.cn/xpath/xpath_intro.asp) 功能，可以使用 XPath 的形式对元素进行展现，参见[选择器](Activities\Appendix\Selector.md)。
 - 新增 **IE 前端日志收集器**应用程序：使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见[收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
 - 支持使用元素探测器选择元素：功能较此前的选择器编辑器更强，可参见[元素探测器](Activities/Appendix/UiDetector.md)。
 
-**5.【系统设置】**
+**4.【系统设置】**
 - 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
 
-**6.【可视化编辑器】**
+**5.【可视化编辑器】**
 -  新增**开始菜单页** Homepage 视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
 - 在主界面菜单栏中新增**在线咨询**按钮，可快速寻求帮助。
 - 在编辑器右下角支持浮窗通知，针对编辑器更新、部分项目操作反馈进行提醒，降低了弹窗通知带来的干扰率，提升用户体验。
@@ -51,7 +42,12 @@
 - 在导入列表处，支持删除未使用或报错的[命名空间](Studio\process\developProject\ImportNamespaces.md)。
 - 支持将流程中的组件保存为子流程文件，你可以使用本功能将复杂流程拆解为多个简单的流程。
 - 支持更多的快捷键，参见[键盘快捷键](Studio/quickStart/KeyboardShortcuts.md)，使用户使用更便捷。
-
+- 调试状态下，当发生错误时，支持忽略、重试、重启操作。
+-  新增全局快捷键 **Ctrl+Alt+F5**，使编辑器最小化后在后台运行时，也能够停止执行流程。
+- 暂停调试支持在任意时刻快速暂停调试过程。暂停时，正在调试的组件将高亮显示。
+- 输出面板支持分类筛选输出信息，包括**错误**、**信息**、**调试**这三类，用于分类查看日志信息。
+- 针对含有多个xaml文件的复杂流程，支持通过[调试/运行文件](Studio\process\Debugging\partialDebug.md)来进行分布调试。 
+- 调试过程中，支持在[变量面板](Studio\process\Debugging\ValuePanel.md)查看每一个变量在当前组件的类型和值，以此我们可以来判断流程是否正确执行，且可帮助定位流程错误位置。
 
 ### 改进与增强
 
