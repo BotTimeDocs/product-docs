@@ -23,11 +23,20 @@
 
     ![查找JavaSupport文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-javaSupport.png)
 
+    >**说明：**
+    >
+    > 1.1.2009.X及之后的版本为安装目录下的Extensions\Java文件夹。
+
     b) 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下
 
     将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下
     
     然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
+     
+     >**说明：**
+     >
+     > 1.1.2009.X及之后的版本:
+     > 将文件夹中accessibility.properties复制到runtime的\lib目录下，将文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-.dll和BotTimeJAWTBridge-.dll复制到runtime的\bin\目录下。
 
     |BotTime扩展文件|目标路径|
     |---|---|
