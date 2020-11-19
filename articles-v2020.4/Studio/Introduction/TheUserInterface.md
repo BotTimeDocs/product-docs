@@ -14,10 +14,13 @@
 3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
 
 ### 打开 ###
-![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/open20201019.png)
+![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/indexopen20201118.png)
 
 1. **最近使用** — 打开您最近处理过的项目。
-2. **本地项目** — 打开或导入您本地电脑中已有的项目。
+2. **本地项目** — 本地电脑中已有的项目。
+   - 浏览：打开本地电脑中已有的项目。
+   - 刷新：重新加载当前路径下的项目文件夹。
+   - 导入：导入本地电脑中已有的项目。
 3. **控制台流程** — 查看/编辑控制台流程。
 
 ### 工具 ###
@@ -37,7 +40,7 @@
 
 ### 帮助 ###
 **帮助**可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。还可以在**帮助**页面中找到有关产品版本等信息。
-![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20201019.png)
+![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20201118.png)
 
 ## 编辑器主页 ##
 
@@ -75,6 +78,7 @@
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件|
 |打开所在文件夹| 	打开所选项目或文件的本地文件夹 |
 |项目设置| 	打开[项目设置](../process/ProjectSettings.md)以设置某一类别组件属性 |
+|属性|查看或编辑项目的属性信息，包括项目名称、作者、版本等|
 |调试文件| 	调试所选中的.xaml文件|
 |运行文件| 	运行所选中的.xaml文件 |
 
