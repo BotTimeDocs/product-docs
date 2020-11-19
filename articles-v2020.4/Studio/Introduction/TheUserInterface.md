@@ -8,7 +8,7 @@
 2. **最近** — 打开您最近处理过的项目。可以打开项目所在的文件夹或从**最近使用**列表中删除；单击**更多项目**链接，展开更多的最近处理过的项目，且可模糊搜索**最近使用**列表。
 
 ### 新建 ###
-![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/new20201019.png)
+![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201118.png)
 1. **新建** — 新建流程项目或组件项目。
 2. **从模板新建** — 从预定义的模板开始一个新项目。
 3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
