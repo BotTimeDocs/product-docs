@@ -15,6 +15,7 @@
 1. **关闭所有Java应用，**  找到Studio安装目录下JavaSupport文件夹下的扩展安装程序EncooJavaExtensionInstaller.exe。
  
    > **说明：**
+   >
    >针对不同版本的安装目录，可参考如下：
    > - 1.1.2009.X之前的版本的安装目录：“C:\Users\UserName\AppData\Local\Encoo\Encoo Studio\IDE\JavaSupport”，其中UserName为实际用户名。
    >  - 1.1.2009.X及之后的版本的安装目录：C:\Users\UserName\AppData\Local\Encoo Studio\app-x.x.xxxx.xx\Extensions\Java，其中UserName为实际用户名。
@@ -41,20 +42,21 @@
    > 1.1.2009.X及之后的版本为安装目录下的Extensions\Java文件夹。
 
 
-1. 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下，将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
+2. 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下，将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
    
    >**说明：**
    >
    > 1.1.2009.X及之后的版本:
    > 将文件夹中accessibility.properties复制到runtime的\lib目录下，将文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-.dll和BotTimeJAWTBridge-.dll复制到runtime的\bin\目录下。
 
-    |扩展文件|目标路径|
-    |---|---|
-    |BotTimeJavaBridge-32/64.dll|%JAVAHOME%\bin|
-    |BotTimeJAWTBridge-32/64.dll|%JAVAHOME%\bin|
-    |accessibility.properties|%JAVAHOME%\lib|
-    |BotTimeJavaBridge.jar|%JAVAHOME%\lib\ext|
-    |jaccess.jar|%JAVAHOME%\lib\ext|
+
+   |扩展文件|目标路径|
+   |---|---|
+   |BotTimeJavaBridge-32/64.dll|%JAVAHOME%\bin|
+   |BotTimeJAWTBridge-32/64.dll|%JAVAHOME%\bin|
+   |accessibility.properties|%JAVAHOME%\lib|
+   |BotTimeJavaBridge.jar|%JAVAHOME%\lib\ext|
+   |jaccess.jar|%JAVAHOME%\lib\ext|
 
 ## EncooJavaExtensionInstaller工具
 
