@@ -1,7 +1,7 @@
 # Jave扩展
 适用于Java1.6及以上应用程序的自动化
 
-> 对于使用Java 9+ JRE 打开的应用程序： 在Java 9之前，JRE会包含attach模块，Java扩展依赖其对Java程序进行自动化。对于Java 9+，attach模块仅包含在JDK中，所以对于使用JRE9+打开的程序，需要手动在JRE目录下添加此模块
+  > 对于使用Java 9+ JRE 打开的应用程序： 在Java 9之前，JRE会包含attach模块，Java扩展依赖其对Java程序进行自动化。对于Java 9+，attach模块仅包含在JDK中，所以对于使用JRE9+打开的程序，需要手动在JRE目录下添加此模块
 
 
 
@@ -12,9 +12,18 @@
 4. 安装成功后，会提示Java扩展安装成功的消息
 
 ## 使用命令行安装
-1. **关闭所有Java应用，**  找到Studio安装目录下JavaSupport文件夹下的扩展安装程序EncooJavaExtensionInstaller.exe。（一般情况下目录为：C:\Users\UserName\AppData\Local\Encoo\Encoo Studio\IDE\JavaSupport，其中UserName为实际用户名）
-2. 以管理员权限打开命令行，执行命令：cd C:\Users\UserName\AppData\Local\Encoo\Encoo Studio\IDE\JavaSupport, 切换路径到JavaSupport目录下
-3. 执行命令：EncooJavaExtensionInstaller.exe -install -a
+1. **关闭所有Java应用，**  找到Studio安装目录下JavaSupport文件夹下的扩展安装程序EncooJavaExtensionInstaller.exe。
+ 
+   > **说明：**
+   >针对不同版本的安装目录，可参考如下：
+   > - 1.1.2009.X之前的版本的安装目录：“C:\Users\UserName\AppData\Local\Encoo\Encoo Studio\IDE\JavaSupport”，其中UserName为实际用户名。
+   >  - 1.1.2009.X及之后的版本的安装目录：C:\Users\UserName\AppData\Local\Encoo Studio\app-x.x.xxxx.xx\Extensions\Java，其中UserName为实际用户名。
+
+2. 以管理员权限打开命令行，切换到对应版本的安装目录路径，如，
+   ```cd C:\Users\UserName\AppData\Local\Encoo Studio\app-x.x.xxxx.xx\Extensions\Java```
+
+3. 执行安装命令：
+   ```EncooJavaExtensionInstaller.exe -install -a```
 
 **注：当您尝试录制未安装Java插件且无法自动注入的应用时，编辑器也会引导您安装Java插件。此时Java插件只会安装到当前录制的应用程序的JRE中。**
 
@@ -24,9 +33,20 @@
 
 1. 找到编辑器或机器人安装目录下的JavaSupport文件夹。
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Java/1.png)
+   ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Java/1.png)
 
-2. 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下，将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
+
+   >**说明：**
+   >
+   > 1.1.2009.X及之后的版本为安装目录下的Extensions\Java文件夹。
+
+
+1. 将JavaSupport文件夹中accessibility.properties复制到runtime的\lib目录下，将JavaSupport文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-*.dll和BotTimeJAWTBridge-*.dll复制到runtime的\bin\目录下。（视runtime为32或64位复制相应后缀的dll）
+   
+   >**说明：**
+   >
+   > 1.1.2009.X及之后的版本:
+   > 将文件夹中accessibility.properties复制到runtime的\lib目录下，将文件夹中BotTimeJavaBridge.jar复制到runtime的\lib\ext目录下，然后将BotTimeJavaBridge-.dll和BotTimeJAWTBridge-.dll复制到runtime的\bin\目录下。
 
     |扩展文件|目标路径|
     |---|---|
