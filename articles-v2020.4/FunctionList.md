@@ -8,29 +8,29 @@
 
 - 新增[新建组件项目](./Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包，可发布到组件市场供其它项目使用。
 - 新增[从模板新建自动化项目](./Studio/process/ProjectTemplates.md)，支持 RPA 实施人员规范 RPA 流程开发方式，提升企业级的 RPA 流程实施质量。
-- 支持查看和编辑当前登录用户在控制台所属资源组下的流程。
-- 在项目设置中，支持设置组件的延迟和超时属性，支持配置默认浏览器属性，可参见[项目设置](Studio/process/ProjectSettings.md)。
+- 新增支持查看和编辑当前登录用户在控制台所属资源组下的流程。
+- 在项目设置中，新增支持设置组件的延迟和超时属性，支持配置默认浏览器属性，可参见[项目设置](Studio/process/ProjectSettings.md)。
 - 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：[UIA3/UIA](https://docs.microsoft.com/zh-cn/dotnet/framework/ui-automation/ui-automation-overview) 。
 
   
 **2.【开放市场】**
 
 - 新增[代码市场](Studio\market\NuGetMarket.md)，集成 [NuGet](https://docs.microsoft.com/zh-cn/nuget/what-is-nuget) 开源项目，可以方便的引用 NuGet 应用。
-- 在**组件市场**中新增[ Office PowerPoint 组件包](https://marketplace.encoo.com/#/activity/detail?packageId=Encootech.OfficePPT)，实现对 PPT 常用功能的支持。
-- 在**组件市场**中新增[竹间智能语音识别](https://marketplace.encoo.com/#/activity/detail?packageId=Emotibot)，实现语音转文字功能。
+- 在**组件市场**中，新增[ Office PowerPoint 组件包](https://marketplace.encoo.com/#/activity/detail?packageId=Encootech.OfficePPT)，实现对 PPT 常用功能的支持。
+- 在**组件市场**中，新增[竹间智能语音识别](https://marketplace.encoo.com/#/activity/detail?packageId=Emotibot)，实现语音转文字功能。
 
 **3.【辅助工具】**
 - 新增 Microsoft Edge 浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](Studio\Extensions\EdgeExtension.md)。
 - 选择器编辑器：新增获取 [XPath](https://www.w3school.com.cn/xpath/xpath_intro.asp) 功能，可以使用 XPath 的形式对元素进行展现，参见[选择器](Activities\Appendix\Selector.md)。
 - 新增 **IE 前端日志收集器**应用程序：使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见[收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
-- 支持使用元素探测器选择元素：功能较此前的选择器编辑器更强，可参见[元素探测器](Activities/Appendix/UiDetector.md)。
+- 新增支持使用元素探测器选择元素：功能较此前的选择器编辑器更强，可参见[元素探测器](Activities/Appendix/UiDetector.md)。
 
 **4.【系统设置】**
 - 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
 
 **5.【可视化编辑器】**
 -  新增**开始菜单页** Homepage 视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
-- 在主界面菜单栏中新增**在线咨询**按钮，可快速寻求帮助。
+- 在主界面菜单栏中，新增**在线咨询**按钮，可快速寻求帮助。
 - 在编辑器右下角支持浮窗通知，针对编辑器更新、部分项目操作反馈进行提醒，降低了弹窗通知带来的干扰率，提升用户体验。
 - 新增项目右击操作（打开文件夹/项目设置/添加状态机文件）。
 - 当光标置于任意输入框时，支持快捷键 **Ctrl+E** 快速打开表达式编辑器。
@@ -52,15 +52,15 @@
 ### 改进与增强
 
 **1.【项目管理】**
-- 优化项目打开速度，较之前更快，提升用户体验。
-- 优化复制粘贴组件速度，较之前更快，提升用户体验。  
+- 优化了项目打开速度，较之前更快，提升用户体验。
+- 优化了复制粘贴组件速度，较之前更快，提升用户体验。  
 - 发布项目前，对项目的正确性进行校验。
 - 支持新增序列或流程图作为子流程。
 - 导出项目时，支持导出后选择是否打开所在文件夹。
 - 导入项目时，支持导入后选择是否立即打开该项目。
-- 统一项目名称及流程包名称的命名规则，避免发布流程时名称校验不通过。
+- 统一了项目名称及流程包名称的命名规则，避免发布流程时名称校验不通过。
 - 支持更详细的项目打开及编译错误描述，更易定位错误位置。
-- 增强**表达式编辑器**的**智能感知**功能，支持变量/参数/方法名称联想。
+- 增强了**表达式编辑器**的**智能感知**功能，支持变量/参数/方法名称联想。
 - 在创建变量/参数时，支持快速创建 DataTable / IUiObject 类型的变量/参数。
 - 支持通过编辑区域的组件的右键菜单来访问组件的帮助文档。
 
@@ -68,12 +68,12 @@
 - 支持 Java 扩展。你可以使用 Java 扩展识别一些原本无法识别的桌面 Java 应用中的元素。
 
 **3.【可视化编辑器】**
-- 在**开始菜单页**中优化调整**流程市场**、**组件市场**等应用的入口位置。
+- 在**开始菜单页**中优化调整了**流程市场**、**组件市场**等应用的入口位置。
 - 将部分弹窗更改为浮窗，提升用户体验。
-- 日志输出界面优化，由左侧显示更改为编辑器底部显示，使之更全局化，提升用户体验。
-- 针对社区版许可证超出配额的情况，增加解决方法的提示。
-- 更换安装框架，优化安装/升级体验，解决了由杀毒软件导致的安装失败问题。
-- - 非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示。
+- 优化了日志输出界面，由左侧显示更改为编辑器底部显示，使之更全局化，提升用户体验。
+- 针对社区版许可证超出配额的情况，增加了解决方法的提示。
+- 更换了安装框架，优化了安装/升级体验，解决了由杀毒软件导致的安装失败问题。
+- 支持非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示。
 - 项目运行或调试过程中，输出面板对当前过程进行提示，使用户更加明确当前执行过程。
 
 ### 问题修复
@@ -83,34 +83,6 @@
 3. 修复了搜索组件时，搜索结果展示不全的问题。
 4. 修复了修改变量值后，调试项目时，修改不生效的问题。
 5. 修复了编辑器界面偶尔无法点击的问题。
-
-## 机器人
-![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
-### 功能点列表
-
-**1.【流程管理】**
-- 新增[定时任务](Robot/CronJob.md)功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
-- 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
-- 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
-- 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
-
-
-**2.【基础配置】**
-- 在**设置**页面中新增[关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
-- 基础配置：新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
-
-   
-**3.【信息管理】**
-- 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
-- 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
-- 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
-
-## 控制台
-![控制台](https://docimages.blob.core.chinacloudapi.cn/images/console.png)
-### 功能点列表 
-   
-1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
-
 
 ## 组件库
 ![组件库功能](https://docimages.blob.core.chinacloudapi.cn/images/activities.png)
@@ -155,7 +127,7 @@
 - 数据处理 > [数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)：可实现对输入数据按照数值、日期和时间、货币和百分比进行格式化。
 
 
-**4.【系统】**
+**4.【操作系统功能调用】**
 -  文件 > [重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)
 - [输入密码](Activities/System/InputPasswordDialogActivity.md)
 - [提示框](Activities/System/PromptBox.md)：用于在 Windows 桌面右下角展示在流程中必要的提示信息。
@@ -177,7 +149,7 @@
 - [重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
 
 
-**7.【控制台】**
+**7.【控制台相关】**
 -  [文档理解](Activities/Console/DocReader.md)：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
 -  [获取资产](Activities/Console/GetAssets.md)：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
 
@@ -191,12 +163,12 @@
 ### 改进与增强
 
 **1.【界面自动化】**
-- 界面自动化下的组件全部新增超时属性，实现控制组件的执行时间，在超过指定时间后停止。
+- 界面自动化下的组件全部新增了超时属性，实现控制组件的执行时间，在超过指定时间后停止。
 - **获取含OCR文本的元素**、**判断 OCR 文本是否存在**组件的文本属性支持正则表达式，实现更灵活的文本查找。
-- 优化钉钉程序内元素识别，使得录制技术 UIA 可识别大部分元素。
+- 优化了钉钉程序内元素识别，使得录制技术 UIA 可识别大部分元素。
 - 增强桌面录制技术 UIA3 识别微信，实现获取文本、选择项目时可以自动滚动联系人列表操作。
 - 增强 JAVA 应用在不同分辨率 DPI 下的识别回放。
-- 点击组件新增辅助键属性。如，你可以在点击的同时按下 **Ctrl** 键。
+- 点击组件新增了快捷辅助键属性。如，你可以在点击的同时按下 **Ctrl** 键。
 - 浏览器端支持**图像识别**功能，使复杂场景下元素可以识别到。
 - 对于桌面应用，**输入文本**组件支持**清空文本**操作，使用户可以在输入文本之前清除输入框的原有文本。
 - **获取区域文本**组件更名为**获取区域结构**（企业版）。
@@ -206,27 +178,53 @@
 - 加强对用友NC,U8系列软件的支持。比如自定义按钮，报表可以识别和抓取。
 - 浏览器支持增强：支持内嵌IE浏览器中元素的识别，例如部分界面使用IE内核渲染的网页（chm文件）；支持360安全浏览器兼容模式下元素的识别。
 - 选择器编辑器中 Java 应用的 Name 属性全部层级支持通配符。
-- 选择器编辑器界面优化，使得用户操作体验更友好。
+- 优化了选择器编辑器界面，使得用户操作体验更友好。
 - 界面自动化组件支持即刻优雅终止流程。
 
 **2.【软件自动化】**
-- Office Excel > [获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)：增加输出字母和数字列号。
+- Office Excel > [获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)：增加了输出字母和数字列号。
 - [发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)组件支持手动选择安全方式。
 - [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)组件支持仅获取未读邮件。
 
-- 优化Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)组件，支持指定开始行号。
-- 优化Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)组件，使用拾色器提升颜色设置体验。
+- 优化了Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)组件，支持指定开始行号。
+- 优化了Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)组件，使用拾色器提升颜色设置体验。
 - 提升 Office Excel 系列组件执行性能。
   
 **3.【流程控制】**
 - 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击**导入参数**可直接将子流程参数导入。
 
 **4.【触发器】**
-- [文件触发器](Activities/Triggers/FileTrigger.md)： 增加输出监听的文件路径。
-- 邮件触发器：[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加输出监听到的新邮件。
+- [文件触发器](Activities/Triggers/FileTrigger.md)： 增加了输出监听的文件路径。
+- 邮件触发器：[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加了输出监听到的新邮件。
+## 机器人
+![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
+### 功能点列表
+
+**1.【流程管理】**
+- 新增[定时任务](Robot/CronJob.md)功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
+- 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
+- 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
+- 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
+
+
+**2.【基础配置】**
+- 在**设置**页面中，新增[关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
+- 在基础配置中，新增**设置 > 基本**页面，可[配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
+
+   
+**3.【信息管理】**
+- 新增[正在执行](Robot/RunningProcess.md)页面，可以查看正在执行的流程相关信息。
+- 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
+- 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
+
+## 控制台
+![控制台](https://docimages.blob.core.chinacloudapi.cn/images/console.png)
+### 功能点列表 
+   
+1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
    
 
-## 小程序
+## 云扩小程序
 ![小程序](https://docimages.blob.core.chinacloudapi.cn/images/panel.png)
 ### 功能点列表
 **1.【可视化编辑器】**
