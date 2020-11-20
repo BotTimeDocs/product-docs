@@ -97,7 +97,7 @@
 - [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)：实现获取指定元素的属性值，并将其存储在输出变量属性值中。
 - OCR > [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)（企业版）：实现对指定元素或图片进行 OCR 并返回结果。
 - OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）：实现对指定元素或图片进行 OCR 并查找包含指定文本的元素，结果保存在属性 OCR 元素内。
-- OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）：实现对指定元素或图片进行 OCR 并判断指定文本是否存在，结果保存在输出属性 OCR 元素内。
+- OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）：实现对指定元素或图片进行 OCR 并判断指定文本是否存在，结果保存在属性 OCR 元素内。
 - 桌面控件专有：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 - SAP：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 - [截屏](Activities/UIAutomation/Screenshot.md)
