@@ -96,8 +96,8 @@
 - [等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)：实现等待指定元素的属性值为指定值时，才执行下一个组件，否则会在超时时间范围内一直等待。
 - [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)：实现获取指定元素的属性值，并将其存储在输出变量属性值中。
 - OCR > [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)（企业版）：实现对指定元素或图片进行 OCR 并返回结果。
-- OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）:实现对指定元素或图片进行 OCR ，并查找包含指定文本的元素，将其存储在输出属性 OCR 元素内。
-- OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）：实现对指定元素或图片进行 OCR ，并判断指定文本是否存在，将其结果存储在输出属性 OCR 元素内。
+- OCR > [获取含 OCR 文本的元素](Activities/UIAutomation/OCR/GetSpecificTextOCRElement.md)（企业版）：实现对指定元素或图片进行 OCR 并查找包含指定文本的元素，结果保存在属性 OCR 元素内。
+- OCR > [判断 OCR 文本是否存在](Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）：实现对指定元素或图片进行 OCR 并判断指定文本是否存在，结果保存在输出属性 OCR 元素内。
 - 桌面控件专有：[获取焦点控件](Activities/UIAutomation/DesktopOnly/GetFocus.md)、[切换控件](Activities/UIAutomation/DesktopOnly/SwitchControl.md)，这两个控件仅在企业版中支持。
 - SAP：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 - [截屏](Activities/UIAutomation/Screenshot.md)
@@ -122,7 +122,7 @@
 -  JSON > [序列化](Activities/CodeExecuter/JSON/SerializeObject.md)：可将.NET对象序列化为 JSON 字符串。
 -  JSON > [反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)：可将 JSON 字符串反序列化为.NET对象。
 -  HTTP > [HTTP请求](Activities/CodeExecuter/HTTP/HTTPRequest.md)：实现发送 HTTP 请求并返回响应的数据，并支持测试配置的 HTTP 请求是否可用。
-- 文本处理: [验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
+- 文本处理：[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
 - 集合处理 ：[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 - 数据处理 > [数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)：可实现对输入数据按照数值、日期和时间、货币和百分比进行格式化。
 
