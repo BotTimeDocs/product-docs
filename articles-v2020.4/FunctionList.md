@@ -128,13 +128,14 @@
 
 
 **4.【操作系统功能调用】**
--  文件 > [重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)
-- [输入密码](Activities/System/InputPasswordDialogActivity.md)
+-  文件 > [重命名文件或文件夹](Activities/System/File/RenameFileOrFolder.md)：实现对指定文件或文件夹重命名。
+- [输入密码](Activities/System/InputPasswordDialogActivity.md)：提供人机交互界面，弹框形式接收用户输入的密码值并可以输出输入的密码。
 - [提示框](Activities/System/PromptBox.md)：用于在 Windows 桌面右下角展示在流程中必要的提示信息。
-- 文件 > [遍历文件夹](Activities/System/File/ForeachFolder.md)
+- 文件 > [遍历文件夹](Activities/System/File/ForeachFolder.md)：遍历指定的文件夹并获取文件路径，可在此组件范围内根据实际业务需要拖入其他组件。
 - [下拉选择框](Activities/System/DropdownListDialog.md)：方便在流程中弹出下拉选择框形态的用户交互界面。
 - [设置日期和时间](Activities/System/SetDateTime.md)：实现指定日期和时间并输出DateTime类型结果。
-- [选择文件](Activities/System/File/SelectFile.md)、[选择文件夹](Activities/System/File/SelectFolder.md)。
+- [选择文件](Activities/System/File/SelectFile.md)：指定筛选的文件类型，在运行时弹窗选择文件后输出。
+- [选择文件夹](Activities/System/File/SelectFolder.md)：选择文件夹路径，在运行时弹窗选择文件夹后输出。
 - [设置剪贴板文本](Activities/System/SetContentsToClipboard.md?_v=v2020.4)：实现设置文本内容到剪贴板。
 
 
@@ -143,10 +144,12 @@
 
 
 **6.【流程控制】**
-- [赋值（多个） ](Activities/WorkflowControl/MultipleAssign.md)
+- [赋值（多个）](Activities/WorkflowControl/MultipleAssign.md)：支持对最多10个变量进行赋值。
 - 判断 > [条件(Switch)](Activities/WorkflowControl/Determine/Switch.md)：实现指定 C# 表达式，并根据每个 Case 判断执行符合条件的流程。
 - [状态机](Activities/WorkflowControl/StateMachine/StateMachine.md)：实现基于状态机范例的工作流程。
-- [重试](Activities/WorkflowControl/Retry.md)、[抛出异常](Activities/WorkflowControl/Throw.md)、[重新抛出异常](Activities/WorkflowControl/ReThrow.md)。
+- [重试](Activities/WorkflowControl/Retry.md)：当执行的流程符合条件且遇到错误时尝试再次执行。
+- [抛出异常](Activities/WorkflowControl/Throw.md)：在流程执行时主动抛出异常。
+- [重新抛出异常](Activities/WorkflowControl/ReThrow.md)：在流程执行时重新将异常的原始信息抛出。
 
 
 **7.【控制台相关】**
@@ -185,7 +188,6 @@
 - Office Excel > [获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)：增加了输出字母和数字列号。
 - [发送邮件(SMTP)](Activities/AppAutomation/Mail/SendMailSMTP.md)、[获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)、[获取邮件(POP3)](Activities/AppAutomation/Mail/GetMailPOP3.md)组件支持手动选择安全方式。
 - [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)组件支持仅获取未读邮件。
-
 - 优化了Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)组件，支持指定开始行号。
 - 优化了Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)组件，使用拾色器提升颜色设置体验。
 - 提升 Office Excel 系列组件执行性能。
