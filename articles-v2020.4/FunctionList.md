@@ -1,4 +1,4 @@
-# 云扩产品功能清单
+# 云扩 RPA 功能清单
 
 ## 编辑器
 ![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/studio.png)
