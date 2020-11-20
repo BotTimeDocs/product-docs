@@ -222,8 +222,16 @@
 ## 控制台
 ![控制台](https://docimages.blob.core.chinacloudapi.cn/images/console.png)
 ### 功能点列表 
-   
-1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、[文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
+**1.【RPA管理】**  
+- [调度队列](Console/queue/aboutqueue.md)：主要用于对机器人集群进行管理调度，实现队列中RPA流程任务动态分配，提升机器人及任务运行效率。
+- [任务记录](Console/job/aboutJob.md)：主要用于记录并展示所有流程任务的执行状况，对任务执行日志进行综合管理。你可以通过这个页面查看任务的执行情况和结果，也可以通过这个页面查看任务日志。
+
+**2.【文档理解】** 
+- [文档理解](Console/docreader/aboutDocreader.md)：云扩智能文档理解服务利用 OCR、NLP 等技术辅助您快速对各类文档、表格、文 本、证照等进行信息抽取、审阅、登记、流程判断。您可以自定义上传图片、PDF 等格式模板文件，通过框选方式确定需要拖动的文本区域来快速配置模板。
+
+**3.【数据中心】**   
+- [资产管理](Console/asset/AboutAsset.md)：主要用于定义各类账户密码凭证、参数等,可供各类RPA流程进行调用。
+
    
 
 ## 云扩小程序
