@@ -17,8 +17,8 @@
    | 按表达式 | 按 [Cron](https://baike.baidu.com/item/cron/10952601?fr=aladdin) 表达式配置定时任务。<br>点击[在线生成](https://console.encoo.com/lib/cron/index.html)，可在线生成 Cron 表达式，并手动复制粘贴到 Cron 表达式输入框。 |
   
 - 生效范围：
-  - 开始时间：任务的开始生效时间，不填写则默认按照当前时间生效。
-  - 结束时间：任务的最后到期时间，不填写则默认无到期时间。
+   - 开始时间：任务的开始生效时间，不填写则默认按照当前时间生效。
+   - 结束时间：任务的最后到期时间，不填写则默认无到期时间。
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/CroJob20201118.png)
 
 
