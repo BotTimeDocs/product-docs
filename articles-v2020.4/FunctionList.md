@@ -112,8 +112,8 @@
 -   邮件：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
 -   Office Excel > [插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)：实现指定单元格插入图片。
 - Office Excel > [设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md) ：使用拾色器提升颜色设置体验。
-- 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)。
--  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)。
+- 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)，使用IMAP服务获取邮件，同时可使用代理。
+-  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)，支持从源单元格区域自动填充数据到目标区域。
 
 
 **3.【代码工具】**
