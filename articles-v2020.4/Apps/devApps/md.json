@@ -2,19 +2,19 @@
     {
         "id": null,
         "name": "devApps.md",
-        "localizedName": "应用开发导览",
+        "localizedName": "小程序开发导览",
         "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8"
     },
     {
         "id": null,
         "name": "createApps.md",
-        "localizedName": "创建应用",
+        "localizedName": "创建小程序",
         "uuid": "465a7c5c-5eb4-4288-960a-09397ab0473c"
     },
     {
         "id": null,
         "name": "appsedit",
-        "localizedName": "应用编辑器",
+        "localizedName": "小程序编辑器",
         "uuid": "4f34fa63-ccb7-4b7a-9cfd-936618f20c3d"
     }
 ]
