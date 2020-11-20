@@ -5,7 +5,7 @@
 ![产品架构图](https://docimages.blob.core.chinacloudapi.cn/images/encoo-structure.png)
 
 
-## 云扩RPA产品文档
+# 云扩RPA产品文档
 
 本文作为云扩RPA的帮助指南，所以我们将主要介绍如何使用云扩RPA平台去自动化业务流程。点击以下链接，快速开始我们的RPA之旅吧！
 
