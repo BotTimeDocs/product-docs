@@ -14,5 +14,5 @@
 
 输入
 
-- **ConncetionString** ：用于与数据库建立连接。仅支持字符串变量和字符串。例如：MySQL连接字符串"Server={服务器地址};Database={DB名称};Port={端口号};Uid={uid};Pwd={password};"
+- **ConncetionString** ：用于与数据库建立连接。仅支持字符串变量和字符串。例如：MySQL连接字符串"Server=服务器地址;Database=DB名称;Port=端口号;Uid=uid;Pwd=password;"
 - **ProviderName** ：连接的数据库类型。现支持五种：SQL Server, MySql, Oracle, DB2, Teradata
