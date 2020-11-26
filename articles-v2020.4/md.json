@@ -7,7 +7,8 @@
   },
   {
     "name": "Studio",
-    "localizedName": "云扩RPA编辑器"
+    "localizedName": "云扩RPA编辑器",
+    "tagIds":"1,2,3"
   },
   {
     "id": null,
