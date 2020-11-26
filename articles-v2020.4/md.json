@@ -3,12 +3,12 @@
     "name": "Index.md",
     "localizedName": "概览",
     "uuid": "d00f9c12-6b85-48c1-8793-a158a4d6acae",
-    "tagIds":"1,2,3"
+    "labels":"编辑器,后台,测试"
   },
   {
     "name": "Studio",
     "localizedName": "云扩RPA编辑器",
-    "tagIds":"1,2,3"
+    "tagIds":"test,test,test"
   },
   {
     "id": null,
