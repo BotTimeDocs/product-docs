@@ -10,7 +10,9 @@
 
 你可以通过[云扩控制台](https://console.encoo.com/)下载并体验相关产品。
 
+
 ### 新增功能
+
 
 #### 【编辑器】
 1. 支持流程[导出到 EXCEL](Studio/Introduction/TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML文件内容导出到 Excel 中。
