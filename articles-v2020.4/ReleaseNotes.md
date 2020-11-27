@@ -1,4 +1,4 @@
-# 云扩产品发版说明
+# 云扩 RPA 产品发版说明
 ## 2020.11.26 发版说明
 2020.11.26 发布了云扩 RPA ，本次发布的产品及版本号为：
 |         | 版本号      |
@@ -13,34 +13,34 @@
 ### 新增功能
 
 #### 【编辑器】
-1. 新增了[导出到 EXCEL](articles-v2020.4\Studio\Introduction\TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机组）的空白处，在弹出的上下文菜单中，选择“导出到EXCEL”，实现将 XAML文件内容导出到 Excel 中。
+1. 新增了[导出到 EXCEL](Studio/Introduction/TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到EXCEL”，实现将 XAML文件内容导出到 Excel 中。
 2. 在”开始 > 打开 > 本地项目”列表上方，新增了“刷新”按钮，可手动刷新本地项目列表，实现重新加载当前路径下的项目文件夹。
 3. 在“开始 > 帮助”页面，新增了AI HUB 实用链接，方便用户更好地了解AI HUB 产品。
-4. 在“新建 > 从模板新建”列表中，新增了“企业流程模板”，可使用该模板新建标准流程。
+4. 在“新建 > 从模板新建”列表中，新增了“[企业流程模板](Studio/process/ProjectTemplates.md)”，可使用该模板新建标准流程。
 5. 界面自动化架构调整，增强稳定性。
 
 
 #### 【组件库】
-1. 新增了系统 > [日期和时间选择框组件](articles-v2020.4\Activities\System\TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
-2. 新增了AI Hub系列组件：[证照识别]()、[票据识别]()、[通用文字识别]()。
-3. 新增了代码工具 > 文本处理 > 生成GUID组件，实现生成一个新的GUID。
-4. 新增了流程控制 > 终止流程组件，实现当执行到此组件时立即结束当前流程，不再执行后续流程。
-5. 新增了界面自动化 > 坐标点击组件：根据绝对坐标点击指定的用户界面元素。
-6. 新增了界面自动化 > 移动鼠标组件：移动鼠标光标位置。
-7. 新增了界面自动化 > 获取鼠标位置组件：获取鼠标最终光标位置。
-8. 新增了界面自动化 > 屏幕文本化系列组件：获取屏幕文本、获取屏幕含某文本的元素、判断屏幕文本是否存在、点击屏幕文本。
+1. 新增了系统 > [日期和时间选择框组件](Activities/System/TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
+2. 新增了AI Hub系列组件：[证照识别](Activities/AIHub/IdentificationOfCredentials.md)、[票据识别](Activities/AIHub/BillIdentification.md)、[通用文字识别](Activities/AIHub/GeneralCharacterRecognition.md)。
+3. 新增了代码工具 > 文本处理 > [生成 GUID ](Activities/CodeExecuter/TextProcessing/GenerateGUIDActivity.md)组件，实现生成一个新的GUID。
+4. 新增了流程控制 > [终止流程](Activities/WorkflowControl/Abort.md)组件，实现当执行到此组件时立即结束当前流程，不再执行后续流程。
+5. 新增了界面自动化 > [坐标点击](Activities/UIAutomation/Coordinate.md)组件：根据绝对坐标点击指定的用户界面元素。
+6. 新增了界面自动化 > [移动鼠标](Activities/UIAutomation/MoveMouse.md)组件：移动鼠标光标位置。
+7. 新增了界面自动化 > [获取鼠标位置](Activities/UIAutomation/GetMousePosition.md)组件：获取鼠标最终光标位置。
+8. 新增了界面自动化 > 屏幕文本化系列组件：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 
 #### 【机器人】
-1. 在新建定时任务时新增了支持按 Cron 表达式配置定时任务，以满足用户自定义定时任务场景。  
+1. 在新建定时任务时新增了支持[按 Cron 表达式](Robot/CronJob.md)配置定时任务，以满足用户自定义定时任务场景。  
 
 
 #### 【控制台】
-1. 在数据中心新增了文件服务功能，支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
-2. 新增了文档理解服务功能，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
-3. 许可证页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。  
+1. 在数据中心新增了[文件服务](Console/datacentor/fileservice/Aboutfileservice.md)功能，支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
+2. 新增了[文档理解](Console/docreader/aboutDocreader.md)服务功能，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
+3. [许可证](Console/management/license/aboutLicense.md)页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。  
    
 #### 【小程序】
-1. 新增了任务记录模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+1. 新增了[任务记录](Apps/devApps/appsedit/component/workflowlog.md)模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 
 ### 改进与增强
 
@@ -54,11 +54,11 @@
 
 #### 【组件库】
 
-1. 优化了校验 > 值校验组件：增加“开始于/结束于”校验条件，实现某字符串是否以指定字符串的字符开头和结束校验功能。
-2. 优化了系统 > 文件 >新建文件/文件夹组件，增加“同名替换”可选项属性，实现新建文件/文件夹时，如果存在同名情况，则覆盖替换。
-3. 优化了属性校验组件：在属性校验组件的属性名下拉框中仅显示当前元素支持的属性。
-4. 化化了软件自动化 > 浏览器系列组件：在打开浏览器、当前页跳转、刷新浏览器中增加了“等待加载完成”这个可选项属性，实现当页面全部加载完成后组件才算执行成功。
-5. 优化了界面自动化 > 选择项目组件：项目文本输入框优化为下拉框，与其它同系列组件保持一致。
+1. 优化了校验 > [值校验](Activities/Check/ValueCheck.md)组件：增加“开始于/结束于”校验条件，实现某字符串是否以指定字符串的字符开头和结束校验功能。
+2. 优化了系统 > 文件 >[新建文件/文件夹](Activities/System/File/NewFileOrFolder.md)组件，增加“同名替换”可选项属性，实现新建文件/文件夹时，如果存在同名情况，则覆盖替换。
+3. 优化了[属性校验](Activities/Check/AttributeCheck.md)组件：在属性校验组件的属性名下拉框中仅显示当前元素支持的属性。
+4. 化化了软件自动化 > 浏览器系列组件：在[打开浏览器](Activities/AppAutomation/Browser/OpenBrowser.md)、[当前页跳转](Activities/AppAutomation/Browser/NavigateTo.md)、[刷新浏览器](Activities/AppAutomation/Browser/RefreshBrowser.md)中增加了“等待加载完成”这个可选项属性，实现当页面全部加载完成后组件才算执行成功。
+5. 优化了界面自动化 > [选择项目](Activities/UIAutomation/SelectItem.md)组件：项目文本输入框优化为下拉框，与其它同系列组件保持一致。
 6. 优化了获取元素属性值、等待元素属性值、属性校验组件，使其识别能力增强。
 
 
