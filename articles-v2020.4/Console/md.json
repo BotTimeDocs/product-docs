@@ -56,11 +56,6 @@
     },
     {
         "id": null,
-        "name": "asset",
-        "localizedName": "资产管理"
-    },
-    {
-        "id": null,
         "name": "management",
         "localizedName": "全局管理"
     },
@@ -68,6 +63,11 @@
         "id": null,
         "name": "Apps",
         "localizedName": "应用管理"
+    },
+    {
+        "id": null,
+        "name": "datacentor",
+        "localizedName": "数据中心"
     },
     {
         "id": null,
