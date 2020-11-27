@@ -52,6 +52,11 @@
     },
     {
         "id": null,
+        "name": "AIHub",
+        "localizedName": "AI Hub"
+    },
+    {
+        "id": null,
         "name": "Console",
         "localizedName": "控制台"
     },
