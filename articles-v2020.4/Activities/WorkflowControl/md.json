@@ -78,5 +78,11 @@
         "name": "InvokeWorkflow.md",
         "localizedName": "调用流程",
         "uuid": "979ab9aa-e5ae-4663-a5af-b8b7c5be7579"
+    },
+    {
+        "id": "BotTime.Flow.Activities.Abort",
+        "name": "Abort.md",
+        "localizedName": "终止流程",
+        "uuid": "a6d5ad8f-9317-4be4-9c97-b77b919b6af0"
     }
 ]
