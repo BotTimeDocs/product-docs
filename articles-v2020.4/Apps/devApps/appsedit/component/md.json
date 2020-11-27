@@ -13,6 +13,12 @@
     },
     {
         "id": null,
+        "name": "workflowlog.md",
+        "localizedName": "任务记录组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
         "name": "leftmenu.md",
         "localizedName": "左侧导航组件",
         "uuid": ""
