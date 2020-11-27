@@ -11,6 +11,8 @@
 - 新增支持查看和编辑当前登录用户在控制台所属资源组下的流程。
 - 在项目设置中，新增支持设置组件的延迟和超时属性，支持配置默认浏览器属性，可参见[项目设置](Studio/process/ProjectSettings.md)。
 - 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：[UIA3/UIA](https://docs.microsoft.com/zh-cn/dotnet/framework/ui-automation/ui-automation-overview) 。
+- 在“开始 > 打开 > 本地项目”列表上方，新增“刷新”按钮，可手动刷新本地项目列表，实现重新加载当前路径下的项目文件夹。
+- 在“新建 > 从模板新建”列表中，新增“[企业流程模板](Studio/process/ProjectTemplates.md)”，可使用该模板新建标准流程。
 
   
 **2.【开放市场】**
@@ -27,6 +29,7 @@
 
 **4.【系统设置】**
 - 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
+- 在“开始 > 帮助”页面，新增AI HUB 实用链接，方便用户更好地了解AI HUB 产品。
 
 **5.【可视化编辑器】**
 -  新增**开始菜单页** Homepage 视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
@@ -48,6 +51,7 @@
 - 输出面板支持分类筛选输出信息，包括**错误**、**信息**、**调试**这三类，用于分类查看日志信息。
 - 针对含有多个xaml文件的复杂流程，支持通过[调试/运行文件](Studio\process\Debugging\partialDebug.md)来进行分布调试。 
 - 调试过程中，支持在[变量面板](Studio\process\Debugging\ValuePanel.md)查看每一个变量在当前组件的类型和值，以此我们可以来判断流程是否正确执行，且可帮助定位流程错误位置。
+- 支持流程[导出到 EXCEL](Studio/Introduction/TheUserInterface.md) ：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML文件内容导出到 Excel 中。
 
 ### 改进与增强
 
@@ -75,6 +79,11 @@
 - 更换了安装框架，优化了安装/升级体验，解决了由杀毒软件导致的安装失败问题。
 - 支持非管理员权限运行编辑器时，元素识别时高亮外层窗体，并在点击时提示。
 - 项目运行或调试过程中，输出面板对当前过程进行提示，使用户更加明确当前执行过程。
+- 优化了搜索组件功能：在组件面板中，支持按组件名称拼音的首字母模糊搜索组件名，提升用户使用体验。
+- 优化了发布窗口：在发布窗口中新增项目属性信息，如，项目名称、最新版本号等，方便用户发布流程时更清晰的查看该项目的基本信息。
+- 优化了表达式编辑器输入体验：在组件属性框中写代码时，自动补全后面的括号，如，xx.ToString—>xx.ToString()。
+- 优化了选择器编辑器：在选择器编辑器节点属性列表中新增了URL 属性，实现如果页面Title未设定时，则使用URL来定位页面。
+- 优化了选择器编辑器：在选择器编辑器节点属性列表中，AutomationId/ClassName/Name这些属性的值支持输入通配符。
 
 ### 问题修复
 
@@ -83,6 +92,7 @@
 3. 修复了搜索组件时，搜索结果展示不全的问题。
 4. 修复了修改变量值后，调试项目时，修改不生效的问题。
 5. 修复了编辑器界面偶尔无法点击的问题。
+6. 修复了点击组件：在指定元素时，按下F2延迟操作时，不支持再次点击指定元素，防止出现异常。
 
 ## 组件库
 ![组件库功能](https://docimages.blob.core.chinacloudapi.cn/images/activities.png)
@@ -102,6 +112,11 @@
 - SAP：[登录应用](Activities/UIAutomation/SAP/SAP_Login.md)、[获取状态栏信息](Activities/UIAutomation/SAP/SAP_GetStatus.md)、[选择日期](Activities/UIAutomation/SAP/SAP_SelectCalendar.md)、[选择 SAP 项](Activities/UIAutomation/SAP/SAP_Select.md)、[执行事务](Activities/UIAutomation/SAP/SAP_Transaction.md)，仅在企业版中支持这些组件。
 - [截屏](Activities/UIAutomation/Screenshot.md)，实现截图，并将结果保存在指定位置或变量中。
 - 支持360安全浏览器。新增浏览器的支持类型，使您可以操作360安全浏览器。
+- 界面自动化架构调整，增强稳定性。
+- [坐标点击](Activities/UIAutomation/Coordinate.md)：根据绝对坐标点击指定的用户界面元素。
+- [移动鼠标](Activities/UIAutomation/MoveMouse.md)：移动鼠标光标位置。
+- [获取鼠标位置](Activities/UIAutomation/GetMousePosition.md)组件：获取鼠标最终光标位置。
+- 屏幕文本化：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 
 **2.【软件自动化】**
 -  PDF：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
@@ -125,6 +140,7 @@
 - 文本处理：[验证文本有效性](Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
 - 集合处理 ：[对象是否存在](Activities/CodeExecuter/CollectionProcessing/ExistsInCollectionActivity.md)、[添加对象](Activities/CodeExecuter/CollectionProcessing/AddToCollectionActivity.md)、[清空对象](Activities/CodeExecuter/CollectionProcessing/ClearCollectionActivity.md)、[移除对象](Activities/CodeExecuter/CollectionProcessing/RemoveFromCollectionActivity.md)、[获取集合长度](Activities/CodeExecuter/CollectionProcessing/GetLengthOfCollectionActivity.md)、[初始化集合](Activities/CodeExecuter/CollectionProcessing/InitializeCollectionActivity.md)
 - 数据处理 > [数据格式化](Activities/CodeExecuter/DataProcessing/FormatData.md)：可实现对输入数据按照数值、日期和时间、货币和百分比进行格式化。
+- 文本处理 > [生成 GUID ](Activities/CodeExecuter/TextProcessing/GenerateGUIDActivity.md)：实现生成一个新的GUID。
 
 
 **4.【操作系统功能调用】**
@@ -137,6 +153,7 @@
 - [选择文件](Activities/System/File/SelectFile.md)：指定筛选的文件类型，在运行时弹窗选择文件后输出。
 - [选择文件夹](Activities/System/File/SelectFolder.md)：选择文件夹路径，在运行时弹窗选择文件夹后输出。
 - [设置剪贴板文本](Activities/System/SetContentsToClipboard.md?_v=v2020.4)：实现设置文本内容到剪贴板。
+- [日期和时间选择框组件](Activities/System/TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
 
 
 **5.【数据表】**
@@ -150,6 +167,7 @@
 - [重试](Activities/WorkflowControl/Retry.md)：当执行的流程符合条件且遇到错误时尝试再次执行。
 - [抛出异常](Activities/WorkflowControl/Throw.md)：在流程执行时主动抛出异常。
 - [重新抛出异常](Activities/WorkflowControl/ReThrow.md)：在流程执行时重新将异常的原始信息抛出。
+- [终止流程](Activities/WorkflowControl/Abort.md)：实现当执行到此组件时立即结束当前流程，不再执行后续流程。
 
 
 **7.【控制台相关】**
@@ -162,6 +180,10 @@
 - [邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md)：用于监听 Exchange 服务器接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
 - [邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)：用于监听支持 IMAP 协议的邮箱接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
 
+**9.【AI Hub】**
+- [证照识别](Activities/AIHub/IdentificationOfCredentials.md)：默认使用当前用户登录权限，识别证照信息。
+- [票据识别](Activities/AIHub/BillIdentification.md)：默认使用当前用户登录权限，识别票据信息。
+- [通用文字识别](Activities/AIHub/GeneralCharacterRecognition.md)：默认使用当前用户登录权限，识别通用文字信息。
 
 ### 改进与增强
 
@@ -183,6 +205,8 @@
 - 选择器编辑器中 Java 应用的 Name 属性全部层级支持通配符。
 - 优化了选择器编辑器界面，使得用户操作体验更友好。
 - 界面自动化组件支持即刻优雅终止流程。
+- 优化了界面自动化 > [选择项目](Activities/UIAutomation/SelectItem.md)组件：项目文本输入框优化为下拉框，与其它同系列组件保持一致。
+- 优化了获取元素属性值、等待元素属性值、属性校验组件，使其识别能力增强。
 
 **2.【软件自动化】**
 - Office Excel > [获取末列号](Activities/AppAutomation/OfficeExcel/GetLastColumn.md)：增加了输出字母和数字列号。
@@ -191,6 +215,7 @@
 - 优化了Office Excel > [排序](Activities/AppAutomation/OfficeExcel/Sort.md)组件，支持指定开始行号。
 - 优化了Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md)组件，使用拾色器提升颜色设置体验。
 - 提升 Office Excel 系列组件执行性能。
+- 化化了浏览器系列组件：在[打开浏览器](Activities/AppAutomation/Browser/OpenBrowser.md)、[当前页跳转](Activities/AppAutomation/Browser/NavigateTo.md)、[刷新浏览器](Activities/AppAutomation/Browser/RefreshBrowser.md)中增加了“等待加载完成”这个可选项属性，实现当页面全部加载完成后组件才算执行成功。
   
 **3.【流程控制】**
 - 提升[调用流程](Activities/WorkflowControl/InvokeWorkflow.md)组件体验，点击**导入参数**可直接将子流程参数导入。
@@ -198,6 +223,13 @@
 **4.【触发器】**
 - [文件触发器](Activities/Triggers/FileTrigger.md)： 增加了输出监听的文件路径。
 - 邮件触发器：[邮件触发器(IMAP)](Activities/Triggers/IMAPTrigger.md)、[邮件触发器(Outlook)](Activities/Triggers/OutlookTrigger.md)和[邮件触发器(Exchange)](Activities/Triggers/ExchangeTrigger.md) 增加了输出监听到的新邮件。
+
+**5.【操作系统功能调用】**
+- 优化了系统 > 文件 >[新建文件/文件夹](Activities/System/File/NewFileOrFolder.md)组件，增加“同名替换”可选项属性，实现新建文件/文件夹时，如果存在同名情况，则覆盖替换。
+- 优化了校验 > [属性校验](Activities/Check/AttributeCheck.md)组件：在属性校验组件的属性名下拉框中仅显示当前元素支持的属性。
+- 优化了校验 > [值校验](Activities/Check/ValueCheck.md)组件：增加“开始于/结束于”校验条件，实现某字符串是否以指定字符串的字符开头和结束校验功能。
+
+
 ## 机器人
 ![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
 ### 功能点列表
@@ -207,6 +239,7 @@
 - 支持获取并运行[云扩流程市场](Robot/ProcessMarket.md)中的流程。
 - 在执行流程时，支持权限配置。具体功能请参见[流程库](Robot/localworkflow.md)。
 - 执行本地流程时支持填写流程参数，详见[执行本地流程](Robot/localworkflow.md)。
+- 在新建定时任务时支持[按 Cron 表达式](Robot/CronJob.md)配置定时任务，以满足用户自定义定时任务场景。  
 
 
 **2.【基础配置】**
@@ -219,6 +252,17 @@
 - 新增机器人[概览页](Robot/Overview.md)，可展示当前机器人全局数据。
 - 新增[流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
 
+### 改进与增强
+**1.【流程管理】**
+- 优化了停止正在运行流程的操作：支持按热键 Shift+F5 终止当前正在运行的流程，方便快捷。
+
+**2.【信息管理】**
+- 优化了安装后体验：不用激活就可使用流程市场等功能。
+
+**3.【基础配置】**
+- 优化了机器人的关于页面，当企业版用户使用本地激活方式激活后，在该页可查看许可证有效期。
+
+
 ## 控制台
 ![控制台](https://docimages.blob.core.chinacloudapi.cn/images/console.png)
 ### 功能点列表 
@@ -228,9 +272,14 @@
 
 **2.【文档理解】** 
 - [文档理解](Console/docreader/aboutDocreader.md)：云扩智能文档理解服务利用 OCR、NLP 等技术辅助您快速对各类文档、表格、文 本、证照等进行信息抽取、审阅、登记、流程判断。您可以自定义上传图片、PDF 等格式模板文件，通过框选方式确定需要拖动的文本区域来快速配置模板。
+- [文档理解](Console/docreader/aboutDocreader.md)，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
 
 **3.【数据中心】**   
 - [资产管理](Console/asset/AboutAsset.md)：主要用于定义各类账户密码凭证、参数等,可供各类RPA流程进行调用。
+- [文件服务](Console/datacentor/fileservice/Aboutfileservice.md)：支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
+  
+**4.【全局管理】**  
+- [许可证](Console/management/license/aboutLicense.md)页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。 
 
    
 
@@ -243,8 +292,11 @@
 
 **2.【小程序开发库】**
 - 支持应用版本管理，控制台统一对应用进行上下架及版本管理。
+- [任务记录](Apps/devApps/appsedit/component/workflowlog.md)模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 
 **3.【小程序工作站】**
 - 支持**我的应用**查找并运行。
 
+### 改进与增强
+1. 优化了logo及产品更名：原工作台/应用，更名为小程序 。
 
