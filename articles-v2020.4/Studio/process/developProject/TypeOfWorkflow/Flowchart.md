@@ -17,7 +17,7 @@
 3. 将“流程图”添加至编辑区域中，并连接到“开始”节点。并在该组件的属性面板中，输入以下内容：
      * 显示名称：“用户登录”
 
-    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/createiteminflow20201019.png)
+    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flowchartinitem20201019.png)
 
 4. 双击打开流程图，将“输入框”添加至流程图中，并连接到“开始”结点。
 

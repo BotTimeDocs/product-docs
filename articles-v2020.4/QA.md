@@ -20,4 +20,4 @@ A: 从产品形态上来讲，社区版和企业版都由编辑器，控制台�
 ## 获取最新版本的离线产品文档？
 Q: 如何获取最新版本的离线产品文档？
 
-A: [pdf下载](https://dev-academy.bottime.com/pdf/book.pdf)
+A: [产品手册（PDF）下载](https://dev-academy.bottime.com/pdf/Product_Induction_ZH-CN.pdf)
