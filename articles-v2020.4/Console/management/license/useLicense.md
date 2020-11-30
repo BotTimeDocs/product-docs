@@ -1,7 +1,7 @@
 ## 许可证列表
 在“全局管理”-“许可证”页面中可以查看当前租户内所有已授权的各类许可证信息。
 点击“查看使用情况”按钮即可查看各类许可证的详细使用信息。
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/license/V3license1.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/licensenew2.png)
 
 ## 占用编辑器许可说明
 
@@ -30,3 +30,10 @@
 当你想要释放一些被占用的编辑器许可额度，以供后来人使用时，你可以采取两种方式释放名额：
 1）在“机器人管理”页面中，选择需要被释放的机器人，点击对应的“**移除许可**”按钮即可移除该机器人身上的许可证。
 2）在 “全局管理”-“许可证”页面中，点击“**查看使用情况**”，找到想要释放的名额，点击“**移除许可**”即可移除该机器人身上的许可证。
+
+
+## 文档理解服务许可证说明
+
+文档理解服务许可证主要用于控制文档理解模板的可调用次数,目前按照内置模型种类进行控制。
+
+![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/licensenew1.png)

@@ -1,0 +1,32 @@
+[
+    {
+        "id": null,
+        "name": "aboutComponent.md",
+        "localizedName": "关于组件库",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "workflow.md",
+        "localizedName": "流程组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "workflowlog.md",
+        "localizedName": "任务记录组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "leftmenu.md",
+        "localizedName": "左侧导航组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "topmenu.md",
+        "localizedName": "右侧导航组件",
+        "uuid": ""
+    }
+]

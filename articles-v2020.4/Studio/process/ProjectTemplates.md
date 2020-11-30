@@ -2,6 +2,11 @@
 
 在开始主页的“新建”页中，你可以选择以下几种类型的模板来创建一个自动化项目。
 
+> **说明：**
+>
+>点击“从模板新建”右侧的“更多模板”，可查看全部模板。
+
+
 ## 企业级标准流程
 
 **企业级标准流程**针对业务处理提供了一套标准，帮助完成自动化。该模板包含日志处理、环境处理及相关数据处理。
@@ -25,3 +30,11 @@
 **通用网页流程**针对网页操作进行了标准化处理。该模板主要是打开一个网站并进行处理，该网站处理完成后，跳转至另一个网站继续处理余下操作。
 
 ![通用网页流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectTemplates/%E9%80%9A%E7%94%A8%E7%BD%91%E9%A1%B5%E6%B5%81%E7%A8%8B.jpg)
+
+
+## 企业流程模板
+**企业流程模板**针对企业常见主业务流程进行标准化处理。
+
+![企业流程模板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectTemplates/enterpriseflow20201118.jpg)
+=======
+
