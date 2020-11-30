@@ -13,10 +13,10 @@
 ### 新增功能
 
 #### 【编辑器】
-1. 支持流程[导出到 EXCEL](Studio/Introduction/TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML文件内容导出到 Excel 中。
+1. 支持流程[导出到 EXCEL](Studio/Introduction/TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML文件内容导出到 Excel 中，方便业务人员查看流程结构。
 2. 在“开始 > 打开 > 本地项目”列表上方，新增“刷新”按钮，可手动刷新本地项目列表，实现重新加载当前路径下的项目文件夹。
 3. 在“开始 > 帮助”页面，新增AI HUB 实用链接，方便用户更好地了解AI HUB 产品。
-4. 在“新建 > 从模板新建”列表中，新增“[企业流程模板](Studio/process/ProjectTemplates.md)”，可使用该模板新建标准流程。
+4. 在“新建 > 从模板新建”列表中，新增模块化的“[企业流程模板](Studio/process/ProjectTemplates.md)”，同时支持查看更多模板。
 5. 界面自动化架构调整，增强稳定性。
 
 
@@ -28,7 +28,7 @@
 5. 界面自动化 > [坐标点击](Activities/UIAutomation/Coordinate.md)组件：根据绝对坐标点击指定的用户界面元素。
 6. 界面自动化 > [移动鼠标](Activities/UIAutomation/MoveMouse.md)组件：移动鼠标光标位置。
 7. 界面自动化 > [获取鼠标位置](Activities/UIAutomation/GetMousePosition.md)组件：获取鼠标最终光标位置。
-8. 界面自动化 > 屏幕文本化系列组件：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
+8. 界面自动化 > 屏幕文本化系列组件（企业版）：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 
 #### 【机器人】
 1. 在新建定时任务时支持[按 Cron 表达式](Robot/CronJob.md)配置定时任务，以满足用户自定义定时任务场景。  
@@ -36,7 +36,7 @@
 
 #### 【控制台】
 1. 在数据中心新增[文件服务](Console/datacentor/fileservice/Aboutfileservice.md)功能，支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
-2. 新增[文档理解](Console/docreader/aboutDocreader.md)服务功能，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
+2. 在[文档理解](Console/docreader/aboutDocreader.md)服务中，新增 OCR 抽取模型，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
 3. [许可证](Console/management/license/aboutLicense.md)页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。  
    
 #### 【小程序】
