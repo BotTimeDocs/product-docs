@@ -19,14 +19,20 @@
 3. 选择你想要执行的流程，你可以输入流程名点击搜索进行查询。
 4. 点击执行，将会弹窗确认信息
     
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-ExecuteProcessDialog-0.png)
+    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/flowofexecution20201201.png)
     
-    **注意** ：
-    - 若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）;
-    - 若需要在流程执行过程中录制视频，可勾选“录制视频”选项，并选择保留什么状态的视频；
-    - 支持选择当前流程以什么权限执行；
+- 流程：显示当前需要执行流程的流程名称和版本号。
+- 参数：若当前流程需要传入参数，点击执行后会弹窗提示输入参数。
+- 选项：各选项参数解释如下表所示：
+  |  选项    |说明      |
+  | ---- | ---- |
+  |   录制视频   |是否需要在流程执行过程中录制某种执行状态的视频。|
+  |   执行过程截图   |是否需要在流程执行过程中进行截图。<br><font color="grey" size="3" face="楷体"> 说明：<br>  <ul><li>截图后的图片保存在当前流程日志目录下的 Screenshots 文件夹下。</li><li>图片名称格式：{流程名称}-{截图时间：年月日时分秒}.jpg ,如：小E绘画大师-20201201164102599.jpg </li> </ul> </font>  |
+  |   以管理员权限执行   |是否以管理员身份执行，勾选表示以电脑管理员身份运行，否则以普通用户身份执行。      |
+  |   超时时间   | 是否在超时时间内执行完，如，勾选“超时时间1分钟”，表示需要在1分钟之内执行完成，否则报错。|   
 
-5. 点击确认，流程在快速准备后将自动执行。
+
+1. 点击确认，流程在快速准备后将自动执行。
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-0.png)
 
 
