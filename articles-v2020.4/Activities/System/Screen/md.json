@@ -1,12 +1,12 @@
 [
     {
-        "id": "",
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsLockActivity",
         "name": "WindowsLockActivity.md",
         "localizedName": "锁屏",
         "uuid": "916e1fa7-5b1e-4903-85c0-2912fff7c6c9"
     },
     {
-        "id": "",
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsUnlockActivity",
         "name": "WindowsUnlockActivity.md",
         "localizedName": "解锁",
         "uuid": "33d6edb3-cdd1-4dfb-a766-5a46c8730340"
