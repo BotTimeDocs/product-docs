@@ -1,6 +1,7 @@
 # 锁屏
 锁住系统屏幕，确保后续流程能在锁屏状态下正常运行。
 >**说明：**
+>
 >运行此组件前，需安装 [Windows 屏幕解锁服务](Studio/../../../../Studio/Extensions/WindowsUnlockService.md)扩展。
 
 ## 属性

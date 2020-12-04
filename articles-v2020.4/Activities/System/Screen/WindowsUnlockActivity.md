@@ -1,6 +1,7 @@
 # 解锁
 解锁系统屏幕，进入系统桌面。
 >**说明：**
+>
 >运行此组件前，需安装 [Windows 屏幕解锁服务](Studio/../../../../Studio/Extensions/WindowsUnlockService.md)扩展。
 
 ## 属性
