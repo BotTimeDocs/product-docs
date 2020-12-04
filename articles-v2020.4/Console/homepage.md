@@ -4,7 +4,7 @@
  ![HomePage](https://docimages.blob.core.chinacloudapi.cn/images/Console/HomePage.png)
 常用导航：提供仪表盘、流程部署、机器人管理等常用应用的快速导航。
 
-更多服务：提供文档理解、工作台等其他服务的快速导航。
+更多服务：提供文档理解、小程序等其他服务的快速导航。
 
 实用链接：提供云扩文档、课程、论坛等地址的快速跳转。
 

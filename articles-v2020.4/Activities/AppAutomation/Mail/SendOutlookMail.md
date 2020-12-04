@@ -36,6 +36,7 @@
 - **邮件** ：输入将要转发的邮件；等同于在outlook选中一封邮件点击“转发”; 仅支持System.Net.Mail.MailMessage类型
   
 ## 常见问题
+
 1. 某个程序正试图在 Outlook 中代表你发送电子邮件警告<br>
    ![发送邮件outlook](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendoutlookmail20201204.png)<br>
    解决办法：参见[官方解答](https://docs.microsoft.com/zh-cn/outlook/troubleshoot/security/a-program-is-trying-to-send-an-email-message-on-your-behalf)

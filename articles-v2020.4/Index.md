@@ -15,9 +15,9 @@
 
 本文作为云扩RPA的帮助指南，所以我们将主要介绍如何使用云扩RPA平台去自动化业务流程。点击以下链接，快速开始我们的RPA之旅！
 
-- [云扩RPA编辑器文档](./Studio/Introduction/Introduction.md?_v=v2020.4)
+- [云扩 RPA 编辑器文档](./Studio/Introduction/Introduction.md?_v=v2020.4)
 - [云扩组件库文档](./Activities/ComponentsIntroduction.md?_v=v2020.4)
-- [云扩RPA机器人文档](./Robot/aboutRobot.md?_v=v2020.4)
-- [云扩RPA控制台文档](./Console/register.md?_v=v2020.4)
-- [云扩工作台文档](./Apps/aboutApps.md?_v=v2020.4)
+- [云扩 RPA 机器人文档](./Robot/aboutRobot.md?_v=v2020.4)
+- [云扩 RPA 控制台文档](./Console/register.md?_v=v2020.4)
+- [云扩小程序文档](./Apps/aboutApps.md?_v=v2020.4)
 
