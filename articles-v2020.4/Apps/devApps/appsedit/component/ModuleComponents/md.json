@@ -1,0 +1,46 @@
+[
+   /* {
+        "id": null,
+        "name": "Button.md",
+        "localizedName": "按钮",
+        "uuid": "f28f9a53-6e3a-4389-8188-025d103f4a43"
+    },*/
+    
+    {
+        "id": null,
+        "name": "Form.md",
+        "localizedName": "表单",
+        "uuid": "f4a050fd-f664-4b77-8fb3-0b61f208e41f"
+    },
+    {
+        "id": null,
+        "name": "Table.md",
+        "localizedName": "表格",
+        "uuid": "4380376f-f1d2-4d57-a5a7-2aafaecb8cd2"
+    },
+    {
+        "id": null,
+        "name": "DescriptionList.md",
+        "localizedName": "描述列表",
+        "uuid": "37da2104-499f-4454-8afa-897aa2e2a7f7"
+    },
+    {
+        "id": null,
+        "name": "Flow.md",
+        "localizedName": "流程",
+        "uuid": "ccf0837d-a107-4636-8d11-16f09f4caf2c"
+    },
+    {
+        "id": null,
+        "name": "CompareOCRResult.md",
+        "localizedName": "OCR结果对比",
+        "uuid": "6dbd84fd-9615-4052-a366-118a725639d3"
+    },
+    {
+        "id": null,
+        "name": "TaskLog.md",
+        "localizedName": "任务记录",
+        "uuid": "0a708d5a-2510-4625-9292-3c00f6f6cb78"
+    }
+
+]
