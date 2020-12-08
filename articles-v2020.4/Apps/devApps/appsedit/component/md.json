@@ -1,32 +1,20 @@
 [
     {
         "id": null,
-        "name": "aboutComponent.md",
+        "name": "AboutComponent.md",
         "localizedName": "关于组件库",
-        "uuid": ""
+        "uuid": "907c1d96-5ae8-47df-acf0-54d8ab388c46"
     },
     {
         "id": null,
-        "name": "workflow.md",
-        "localizedName": "流程组件",
-        "uuid": ""
+        "name": "GlobalComponents",
+        "localizedName": "全局组件",
+        "uuid": "ac6c1c55-8a83-4689-b41b-f60c2c7fb433"
     },
     {
         "id": null,
-        "name": "workflowlog.md",
-        "localizedName": "任务记录组件",
-        "uuid": ""
-    },
-    {
-        "id": null,
-        "name": "leftmenu.md",
-        "localizedName": "左侧导航组件",
-        "uuid": ""
-    },
-    {
-        "id": null,
-        "name": "topmenu.md",
-        "localizedName": "右侧导航组件",
-        "uuid": ""
+        "name": "ModuleComponents",
+        "localizedName": "模块组件",
+        "uuid": "b53ff763-9cf8-4c48-aa00-1a0f133bbdfd"
     }
 ]

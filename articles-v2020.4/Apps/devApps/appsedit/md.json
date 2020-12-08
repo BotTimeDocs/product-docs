@@ -3,24 +3,30 @@
         "id": null,
         "name": "component",
         "localizedName": "组件库",
-        "uuid": ""
+        "uuid": "fec70237-3397-40ec-9710-c5fb4cf02173"
     },
     {
         "id": null,
-        "name": "page.md",
+        "name": "PageSetting.md",
         "localizedName": "页面配置",
-        "uuid": ""
+        "uuid": "bc4a3f42-d2ab-4610-ba97-1c22d3bb2a0a"
     },
     {
         "id": null,
-        "name": "addbaseinfo.md",
-        "localizedName": "基本配置",
-        "uuid": ""
+        "name": "BasicSetting.md",
+        "localizedName": "基本设置",
+        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73"
     },
     {
         "id": null,
-        "name": "runapps.md",
+        "name": "TableManagement",
+        "localizedName": "数据表管理",
+        "uuid": "2cfdd57e-29aa-47f1-b574-5840e893509b"
+    },
+    {
+        "id": null,
+        "name": "BasicOperation.md",
         "localizedName": "基本操作",
-        "uuid": ""
+        "uuid": "cdf3e9e9-d2ce-412c-b7bf-f0e9a8e9fc65"
     }
 ]

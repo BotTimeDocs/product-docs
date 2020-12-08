@@ -10,7 +10,7 @@
 
 
 ## 添加组件
-你可以选中页面，打开组件栏，拖拽组件至页面内。或双击组件，组件将自动添加至当前选中页面。
+你可以选中页面，打开组件栏，拖拽组件至页面内，或双击组件，组件将自动添加至当前选中页面。
 ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/addcomponent.png)
 
 ## 删除组件
