@@ -75,23 +75,16 @@
   
    b. 检查设备是否连接
 
-   step1：打开移动端服务包**Encoo.Android.Automation**文件夹。
+在 PC 端的**命令行提示符**界面中，输入 adb 命令，连接成功示例如下:
 
-   step2：在服务安装路径"**:\Encoo.Android.Automation**"下，按住shift+鼠标右键打开命令行终端。
-
-   ![shell窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/shellwindow20201104.png)
-
-   step3：在终端中输入 adb 命令，连接成功示例如下:
-
-   ![连接成功示例](https://docimages.blob.core.chinacloudapi.cn/images/Studio/connectsucess20201104.png)
-
-   
    ```shell
-      >adb.exe devices
+      >adb.exe
 
-      List of devices attached
+      devicesList of devices attached
 
-      0ddc4c2d(手机的设备号) device
+      0ddc4c2d(真机的设备号，若有) device
+
+      127.0.0.1:7555（模拟器的设备号，若有）device
    ```
 
    > **说明：**
