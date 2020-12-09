@@ -140,7 +140,7 @@ step1：输入安装命令：
  /usr/bin/ruby -e "$(curl -fsSL https://hellogithub.cn-bj.ufileos.com/file/brew_install.sh)"
 ```
 
-戓
+或
 
 ```
 /usr/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)" 
