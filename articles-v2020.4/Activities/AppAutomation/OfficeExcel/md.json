@@ -108,6 +108,12 @@
         "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelTextToColumnsActivity",
+        "name": "OfficeExcelTextToColumns.md",
+        "localizedName": "分列",
+        "uuid": "6d004979-4f82-4490-9274-ff48898ee814"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
