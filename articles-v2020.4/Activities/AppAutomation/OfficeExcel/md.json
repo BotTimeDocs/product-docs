@@ -156,6 +156,12 @@
         "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelCopyAndPasteAreaActivity",
+        "name": "OfficeExcelCopyAndPasteArea.md",
+        "localizedName": "复制粘贴区域",
+        "uuid": "4f50b7c5-4d46-4a00-a25a-4930213a8cf9"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
         "name": "ExecuteMacro.md",
         "localizedName": "执行宏",
