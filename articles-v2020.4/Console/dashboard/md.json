@@ -1,17 +1,26 @@
 [
     {
         "id": null,
-        "name": "dashboard",
-        "localizedName": "总体监控"
+        "name": "dashboard.md",
+        "localizedName": "总体监控",
+        "uuid": "e5ebdd09-82f4-4276-a3b9-d7d1cd430f8f"
     },
     {
         "id": null,
-        "name": "dashboard2",
-        "localizedName": "机器人运行统计表"
+        "name": "RobotDashboard.md",
+        "localizedName": "机器人监控",
+        "uuid": "51466fde-8f69-45a0-851a-fce26ff60317"
     },
     {
         "id": null,
-        "name": "dashboard3",
-        "localizedName": "用户流程统计表"
+        "name": "dashboard2.md",
+        "localizedName": "机器人运行统计表",
+        "uuid": "b309c258-025b-4a8e-9803-e64d9266d823"
+    },
+    {
+        "id": null,
+        "name": "dashboard3.md",
+        "localizedName": "用户流程统计表",
+        "uuid": "4f9886cf-2c92-473c-87db-d4c2c2464d35"
     }
 ]
