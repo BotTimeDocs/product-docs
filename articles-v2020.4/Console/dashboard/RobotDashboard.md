@@ -1,6 +1,8 @@
 # 机器人监控
 **本功能仅企业版可见**
+
 机器人监控页可按今日、最近7天、最近30天或自定义时间段，查看机器人运行状况，具体如下图所示。
+
 ![机器人监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/Dashboard/robotdashboard20201203.png)
 
 | 序号 | 参数                      | 说明                                                         |
