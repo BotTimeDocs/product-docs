@@ -6,6 +6,11 @@
     },
     {
         "id": null,
+        "name": "RobotDashboard.md",
+        "localizedName": "机器人监控"
+    },
+    {
+        "id": null,
         "name": "dashboard2",
         "localizedName": "机器人运行统计表"
     },
