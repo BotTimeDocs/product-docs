@@ -23,7 +23,8 @@
 ![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelogin20201204.png) 
 
 
- ## 忘记密码
+
+## 忘记密码
 
 如果您在登录过程中发现忘记密码，可以在登录页面通过绑定的邮箱或手机号找回密码，具体步骤如下：
 
