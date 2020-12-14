@@ -15,7 +15,7 @@
 2. 在工具栏->发布选择发布的位置：
     * 发布到控制台
     
-        ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToConsole.PNG)
+        ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishproject20201214.png)
 
         a. 在**资源组**部分，可以选择需要将项目发布到哪个资源组中。
 
@@ -25,9 +25,11 @@
 
         d. (可选)**备注**部分主要输入与当前自动化项目有关的版本及其他信息的相关介绍。请注意，备注的内容不可超过220个字符。
 
+        f. 在“**包含依赖项**”部分，勾选后，发布项目时项目的依赖项将会包含到流程包的“.reference”文件夹中，不勾选，则表示依赖项不包含在流程包中。
+
     * 发布到机器人
     
-        ![发布到机器人](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToRobot.png)
+        ![发布到机器人](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishrobot20201214.png)
 
         a. 在**机器人**部分，显示的是当前系统中已激活的机器人名称。
 
@@ -37,9 +39,12 @@
 
         d. (可选)**备注**部分主要输入与当前自动化项目有关的版本及其他信息的相关介绍。请注意，备注的内容不可超过200个字符。
 
+        f. 在“**包含依赖项**”部分，勾选后，发布项目时项目的依赖项将会包含到流程包的“.reference”文件夹中，不勾选，则表示依赖项不包含在流程包中。
+
+
     * 发布到流程市场
     
-        ![发布到流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishToFlowmarket.PNG)
+        ![发布到流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishflowmarket20201214.png)
 
         a. 在**流程市场**部分，可以选择需要将项目发布到哪个流程市场中。请注意，首次发布需通过**管理市场**配置你的市场，具体步骤请参考[管理市场](../market/Market.md?_v=v2020.4)。
 
@@ -53,9 +58,11 @@
         
         f. (可选)**标签**用于定义当前流程。
 
+        g. 在“**包含依赖项**”部分，勾选后，发布项目时项目的依赖项将会包含到流程包的“.reference”文件夹中，不勾选，则表示依赖项不包含在流程包中。
+
 3. 点击“发布”，该项目将会发布到指定位置。
-4. 发布成功后，将弹出一个信息提示框，显示：
+4. 发布成功后，在页面右下角提示：
     * 发布成功的项目名称
     * 该项目的版本号
 
-        ![发布成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishSuccess.PNG)
+        ![发布成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishsucess20201214.png)

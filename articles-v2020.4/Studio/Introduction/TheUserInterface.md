@@ -74,6 +74,7 @@
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
 |添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../Activities/WorkflowControl/StateMachine/StateMachine.md)、文件夹|
+|导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
 |导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs(流程项目) 或 .egs（组件项目） 文件|
@@ -116,6 +117,13 @@
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
+### 版本控制面板
+
+**版本控制面板**用于记录项目中文件内容的变化，以便将来查看指定版本的修订情况。单击“启用”，开启版本控制功能。
+
+![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/versioncontrol20201214.png)
+
+
 ### 市场面板
 
 **市场面板**使你可打开组件市场和流程市场。
@@ -132,11 +140,11 @@
 
 <!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 
-### 扩展面板
+<!--### 扩展面板
 
 **扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
 
-![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
+![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)-->
 
 ### 发布项目
 
