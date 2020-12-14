@@ -6,6 +6,10 @@
 
 当当前所选中的流程文件包含参数，点击“调试/运行文件”，将会弹出一个设置流程参数的窗口，你可以选择设置不一样的参数值来进行校验，也可以使用默认值进行校验。
 
+![打开文件/文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/openfile&folder20201214.png)
+
 >注意：
 >
->设置流程参数窗口仅支持更改输入方向的参数的值。
+> - 设置流程参数窗口仅支持更改输入方向的参数的值。
+> - 当参数类型为 Encoo.DataType.FilePath 或 Encoo.DataType.FolderPath 时，可单击如上图所示的图标，打开并输入文件或文件夹的路径。
+
