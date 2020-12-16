@@ -17,7 +17,7 @@
 ## 操作样例
 
 1. 拖入**流程图**组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/flowchart_1.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/flowchart-1.png)
 
 2. 双击打开，并拖入其他组件至**流程图**组件中，例：拖入**确认框**组件,如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/flowchart_2.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/flowchart-2.png)

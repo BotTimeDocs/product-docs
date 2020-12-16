@@ -18,13 +18,13 @@
 
 ## 操作样例
 1. 拖入**等待元素出现**组件，并指定元素、添加输出结果变量isTrue：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision_1.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-1.png)
 
 2. 拖入**流程决策**组件，将上步操作中的输出变量isTrue作为输入条件Condition：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision_3.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-3.png)
 
 3. 拖入两个**写入日志**组件，分别连接到决策组件True与False端，并添加元素是否出现的提示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision_2.png)
 
 4. 步骤1中指定元素的网页保持打开状态，运行流程并查看输出窗口中提示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision_4.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-4.png)
