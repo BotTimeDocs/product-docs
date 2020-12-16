@@ -29,5 +29,3 @@
 4. 步骤1中指定元素的网页保持打开状态，运行流程并查看输出窗口中提示：
 
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-4.png)
-
-![test](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CSharp20201211.png)
