@@ -24,7 +24,28 @@
   >- 一般情况下，列号的类型是字母列号，如，A、B、C等等。
   >- 通过勾选 Excel “选项 > 公式 > 使用公式”中的“R1C1引用样式”，可设置列号类型为数字列号。
 
-## 界面设置
-在分列组件的设计界面中，按需设置分列数据所包含的分隔符号。 
+## 操作样例
+1. 准备一份需要分列的 Excel数据。
+   ![分列数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndata20201217.png)
 
-![分列组件界面设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splitcolumn20201210.png)
+
+2. 拖入一个Office Excel的**打开/新建**组件至流程中。
+3. 配置**打开/新建**组件的属性参数。
+   - 文件路径：输入需要打开进行分列操作的文件的路径，如，"C:\Users\wangxin\Desktop\test.xlsx"
+
+4. 双击该组件，拖入一个**分列**组件至**打开/新建**组件中。
+5. 配置**分列**组件的属性参数，如下图所示。
+   
+   ![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
+
+   - 工作表：输入Excel工作表的名称，如，"Sheet1"
+   - 顺序：下拉选择列号类型，如，字母列号
+   - 列号：根据选择的列中类型，输入对应的列号名称，如"A"
+   - 分隔符号：根据样例中的数据特征设置分隔符号为点和空格
+   - 目标区域：输入将分列完成的数据存放的区域，如，"B1:B100"
+6. 保存并运行流程。
+7. 查看分列后的数据。
+   
+   ![查看分列后的数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndataresult20201217.png)
+
+
