@@ -28,3 +28,15 @@
 输入
 
 - **键值** ：模拟点击此键。支持多键值，例如"A,Z"需同时按下的场景，填写"AZ"即可
+
+## 操作样例
+1. 拖入**设置剪贴板文本**组件，并设置输入文本：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-1.png)
+
+2. 拖入**发送快捷键**组件，指定元素并设置键值CTRL+V：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-2.png)
+
+3. 点击运行流程，并查看流程运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-3.png)
+
+注：该流程在很多场景中可代替“输入文本”组件使用，运行效率高、输入文本不易出错。
