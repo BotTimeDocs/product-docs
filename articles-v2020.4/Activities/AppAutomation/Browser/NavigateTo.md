@@ -18,4 +18,15 @@
 ### 输入
 - **网址** ：将跳转到此网址。仅支持字符串变量和字符串
 
+## 操作样例
+
+1.拖入**绑定浏览器**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser20201221.png)
+
+2.双击打开，指定浏览器，例：云扩科技官网，并拖入**当前页跳转**组件，输入云扩学院网址，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/NavigateTo20201221.png)
+
+3.点击运行，查看运行结果，跳转到云扩学院网页成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/NavigateTo2020122102.png)
+
 

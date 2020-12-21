@@ -23,3 +23,15 @@
 - **等待加载完成** ：勾选时，执行操作之前，等待目标用户界面元素加载完成之后才执行下一个组件操作。
 - **最大化** ：勾选时，可以自动将你指定的浏览器最大化进行后续操作。
 - **结束后关闭** ：勾选时，将在此组件结束后自动关闭浏览器。
+
+## 操作样例
+
+1.拖入**打开浏览器**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-01.png)
+
+2.选择浏览器类型和输入网址：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-02.png)
+
+3.点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-03.png)
+

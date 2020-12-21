@@ -31,3 +31,16 @@
 ## 操作样例
 
 1.拖入**绑定浏览器**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser20201221.png)
+
+2.双击打开，指定浏览器，例：12306官网，并打开选择器窗口，点击“未验证”按钮检查元素是否识别成功,如果识别成功，点击“确认”关闭窗口：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122102.png)
+
+
+3.拖入其他组件至**绑定浏览器**组件中，例：拖入**点击**组件，指定元素为登录，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122103.png)
+
+4.点击运行，查看运行结果，成功打开绑定的12306官网并成功点击登录元素跳转到登录页面：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122104.png)
+
+

@@ -17,3 +17,14 @@
 目标
 - **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：通过提供的选择器表达式来定位目标标签页，亦可通过**指定标签页**自动获取，并可以进行编辑实现自定义。当此项为空时，默认关闭当前活动标签页；当通过“指定标签页”自动生成此值后，关闭指定标签页。仅支持字符串变量和字符串
 - **匹配超时(毫秒)** ：定位 **选择器** 属性指定的标签页的时间，毫秒为单位。若超过此时间还未匹配到指定标签页则会抛出错误。仅支持整型变量和整型
+
+## 操作样例
+
+1.拖入**绑定浏览器**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser20201221.png)
+
+2.双击打开，指定浏览器，例：云扩科技官网和云扩学院，并拖入**关闭标签页**组件，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CloseTab20201221.png)
+
+3.指定关闭标签页元素为云扩学院，点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CloseTab2020122102.png)

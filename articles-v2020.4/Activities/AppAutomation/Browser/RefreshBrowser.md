@@ -13,3 +13,14 @@
 
 ### 可选项
 - **等待加载完成** ：勾选时，执行操作之前，等待目标用户界面元素加载完成之后才执行下一个组件操作。
+
+## 操作样例
+
+1.拖入**绑定浏览器**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser20201221.png)
+
+2.双击打开，指定浏览器，例：云扩科技官网，并拖入**刷新浏览器**组件，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RefreshBrowser20201221.png)
+
+3.点击运行流程，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RefreshBrowser2020122102.png)
