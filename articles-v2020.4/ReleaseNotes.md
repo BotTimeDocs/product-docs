@@ -11,12 +11,12 @@
 ### 新增功能
 
 #### 【编辑器】
-1. 企业版支持[手机自动化](studio/process/developProject/MobileDevicesManage/Download.md)操作，实现在 PC 端可以操作手机上的各元素。
-2. 支持[引用外部项目](studio/process/ReferenceProject.md)作为依赖项，供当前流程使用。
-3. 支持启用[版本控制（预览）](studio/VersionControl.md)功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
+1. 企业版支持[手机自动化](Studio/process/developProject/MobileDevicesManage/Download.md)操作，实现在 PC 端可以操作手机上的各元素。
+2. 支持[引用外部项目](Studio/process/ReferenceProject.md)作为依赖项，供当前流程使用。
+3. 支持启用[版本控制（预览）](Studio/VersionControl.md)功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
 4. 支持导入文件：将其他文件导入到当前所选文件夹下。
 5. 支持单个组件包括在错误捕获中：将选择的单个组件用错误捕获组件包括在Try模块中，方便调试。
-6. 支持切换[激活](studio/quickStart/Activation.md)方式：在关于页面实现社区版/企业版编辑器激活方式的切换以便重新激活。
+6. 支持切换[激活](Studio/quickStart/Activation.md)方式：在关于页面实现社区版/企业版编辑器激活方式的切换以便重新激活。
 
 #### 【组件库】
 1. 代码工具 > 类型转换：[文本转日期和时间](Activities/CodeExecuter/TypeConversion/TextToDateActivity.md)、[数组转集合](Activities/CodeExecuter/TypeConversion/ArrayToCollectionActivity.md)、[集合转数组](Activities/CodeExecuter/TypeConversion/CollectionToArrayActivity.md)。
@@ -38,8 +38,8 @@
 
 1. 新增**打开文件**、**打开目录**、**日期**等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
 2. 优化**导出项目**功能，当导出组件项目时，导出文件的扩展名为 egs，以区别于流程项目的 dgs 文件。
-3. 优化[管理市场](studio/market/Market.md)、[代码市场](studio/market/NuGetMarket.md)、[组件市场](studio/market/activityMarket.md)界面样式：由原来的弹框形式优化为标签页形式。
-4. 优化导出项目和[发布项目](studio/process/PublishProject.md)：支持将依赖项导出到流程包中。
+3. 优化[管理市场](Studio/market/Market.md)、[代码市场](Studio/market/NuGetMarket.md)、[组件市场](Studio/market/activityMarket.md)界面样式：由原来的弹框形式优化为标签页形式。
+4. 优化导出项目和[发布项目](Studio/process/PublishProject.md)：支持将依赖项导出到流程包中。
 5. 优化组件批注：支持组件批注快捷键**Shift+F2**。
 6. 支持显示所有文件、包括在项目中/从项目中排除，方便发布项目时从项目中排除某些文件。
 
@@ -70,9 +70,9 @@
 ### 新增功能
 
 #### 【控制台】
-1. 新增[机器人监控仪表盘](console/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比TOP/状态分布/忙碌TOP等等。
-2. 新增[机器人运行统计表](console/dashboard/dashboard2.md)，支持自定义时间段查询机器人执行任务数、执行成功数、存在总时长、忙碌总时长、平均忙碌比、平均成功率等明细情况及变化走势。
-3. 新增[用户流程统计表](robot/../Console/dashboard/dashboard3.md)，支持自定义时间段查询用户创建流程部署数、创建任务计划数、相应任务运行状态等明细情况及走势。
+1. 新增[机器人监控仪表盘](Console/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比TOP/状态分布/忙碌TOP等等。
+2. 新增[机器人运行统计表](Console/dashboard/dashboard2.md)，支持自定义时间段查询机器人执行任务数、执行成功数、存在总时长、忙碌总时长、平均忙碌比、平均成功率等明细情况及变化走势。
+3. 新增[用户流程统计表](Console/dashboard/dashboard3.md)，支持自定义时间段查询用户创建流程部署数、创建任务计划数、相应任务运行状态等明细情况及走势。
 4. 新增共享机器人，支持各资源组调度队列及流程部署使用共享机器人执行任务，增加机器人利用率。
 5. 流程部署支持下发命令控制机器人录制视频，日志详情页面支持查看视频录制及回放。
 6. 新增控制台埋点开关，便于用户自由选择是否监测系统行为。
