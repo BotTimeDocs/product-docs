@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Download.md",
+        "localizedName": "步骤1：下载安装包",
+        "uuid": "1ba0256c-ad6d-4f13-aff7-8572dd274f18"
+    },
+    {
+        "name": "ConnectMobile.md",
+        "localizedName": "步骤2：连接手机",
+        "uuid": "03ee29ca-d827-4309-8989-b75eccfbdafd"
+    },
+    {
+        "name": "AutomationConfiguration.md",
+        "localizedName": "步骤3：自动化服务配置",
+        "uuid": "7386e882-3174-4a06-b054-ad539619abb0"
+    }
+    {
+        "name": "MobileDevicesManage.md",
+        "localizedName": "步骤4：云扩 RPA 移动设备管理",
+        "uuid": "c1ac3ca5-95f0-4bc8-93ca-ab914dd48812"
+    },
+    {
+        "name": "MobileAutomation.md",
+        "localizedName": "步骤5：手机自动化操作",
+        "uuid": "a020c4b6-e713-4460-89bb-7b8cd75d46a9"
+    }
+]
