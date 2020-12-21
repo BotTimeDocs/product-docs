@@ -14,13 +14,3 @@
 
 输出
 - **当前索引** ：当前次循环的对象索引
-
-## 操作样例
-1. 设置变量list，变量类型为List\<String\>, 并添加默认值 new List\<String\>{"a","b","c"},如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forEach-1.png)
-
-2. 拖入**循环操作（For Each）** 组件，并设置循环体为变量list：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forEach-2.png)
-
-2. 双击展开组件，将**写入日志** 组件拖入循环操作（For Each）组件容器内，并设置日志文本为：“当前值是： ” + item，然后点击运行流程并查看输出日志内容：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forEach-3.png)

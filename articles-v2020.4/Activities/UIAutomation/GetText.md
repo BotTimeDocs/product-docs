@@ -19,16 +19,3 @@
 输出
 
 - **文本** ：将获取到的文本内容存储到此变量。仅支持字符串变量和字符串
-
-## 操作样例
-1. 拖入**获取文本**组件，并指定元素，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getText-1.png)
-
-2. 打开选择器窗口，点击“未验证”按钮检查指定元素是否识别，识别成功后点击“确认”按钮关闭选择器窗口：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getText-2.png)
-
-3. 设置输出文本变量text：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getText-3.png)
-
-4. 拖入**确认框**组件，将变量text作为确认框内容，点击运行流程查看获取的数据：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getText-4.png)
