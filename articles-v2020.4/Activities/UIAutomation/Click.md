@@ -36,3 +36,15 @@
 
 <table><td bgcolor=	#F0F8FF>当指定一个桌面元素时。 <b>点击方式</b>属性选择 <b>设置控件</b>后，仅支持<b>左键单击</b>。不支持<b>光标位置，横(纵)坐标偏移,横(纵)坐标百分比</b>的设置
 <br> 当指定一个浏览器元素时。<b>点击方式</b>属性选择 <b>设置控件</b>后，仅支持所选择元素所支持的JS事件；当有场景无法覆盖时，可更改属性值为<b>模拟鼠标</b></td></table>
+
+## 操作样例
+1. 拖入**点击**组件，并指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/click-1.png)
+
+2. 打开选择器窗口，点击“未验证”按钮验证是否识别指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-2.png)
+
+3. 步骤1中指定元素的网页保持打开状态，点击运行流程：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-3.png)
+
+更多花式点击，请点击[链接](https://academy.encoo.com/learn/unit-detail/33) 查看云扩学院高级课程。

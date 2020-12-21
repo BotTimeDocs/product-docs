@@ -24,3 +24,13 @@
 含有三个值：默认，模拟键盘，设置控件。此属性默认值为**默认**，实现的是根据用户指定元素的类型(即桌面端或浏览器)，自动适用最佳的输入方式。
 当有部分场景使用默认属性值无法成功执行时，可手动修改此属性值为**模拟键盘**或**设置控件**，以适应少数特殊场景使其成功执行
 - **清空原文本** ：输入文本前先清空指定元素的原数据。仅当输入方式为设置控件时生效
+
+## 操作样例
+1. 拖入**输入文本**组件，并指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setText.png)
+
+2. 打开选择器窗口，点击“未验证”按钮检查元素是否识别成功,如果识别成功，点击“确认”关闭窗口：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-1.png)
+
+3. 输入文本并点击运行流程，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-2.png)

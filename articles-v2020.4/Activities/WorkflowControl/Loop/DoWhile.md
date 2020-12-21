@@ -11,3 +11,14 @@
 
 输入
 - **循环条件** ：执行此循环需满足的条件
+
+## 操作样例
+
+1. 拖入**循环操作（Do While）** 组件，创建变量count，设置数据类型为Int32，默认值为1，并添加循环条件 count <= 3，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-1.png)
+
+2. 双击展开组件，将**赋值**组件拖入循环操作（Do While）容器内，设置count递增，即 count = count + 1：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-2.png)
+
+3. 拖入**写入日志**组件，填入打印内容: "循环次数： " + count.ToString()，并点击运行流程查看输出日志：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-3.png)
