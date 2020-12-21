@@ -49,14 +49,15 @@
 >- 首次运行该应用时，可能需要在 Mac 的"设置 > 安全性与隐私"中打开“允许”开关。
 >- 若双击该应用时，显示“文件已损坏”，可参考[解决办法](https://www.macdo.cn/925.html)。
 
-1. 在弹出的**云扩iOS服务管理器**窗口中，单击**连接服务**。
+3. 在弹出的**云扩iOS服务管理器**窗口中，单击**连接服务**。
 
 ![iOS连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/iosconnect20201104.png)
+
 >**说明：**
 >启动服务后连接手机，可能会遇到的问题，供参考：
 >  - 问题1：xcode-select: error:tool ‘instruments’requires Xcode或者IDE显示连接时会有相关日志状态输出。
->  解决参考：
- >     - 查看安装Xcode的路径（找到Xcode，直接拖到终端可查看路径）
- >    -  执行命令sudo xcode-select --switch终端中显示的Xcode的路径/Contents/Developer/
+>  <br>解决参考：
+ >  <br> - 查看安装Xcode的路径（找到Xcode，直接拖到终端可查看路径）
+ >  <br> -  执行命令sudo xcode-select --switch终端中显示的Xcode的路径/Contents/Developer/
  > - 问题2：IDE 连接不上手机。
- >  解决参考：需要检查/usr/bin文件夹下是否已经安装了python，若有则需要先卸载掉原先的python版本。
+ > <br>解决参考：需要检查/usr/bin文件夹下是否已经安装了python，若有则需要先卸载掉原先的python版本。

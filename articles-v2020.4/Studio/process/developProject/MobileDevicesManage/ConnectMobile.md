@@ -30,10 +30,9 @@
 | 6        | 海马玩         | adb connect 127.0.0.1:26744 |
 | 7        | BlueStacks     | adb connect 127.0.0.1:5555  |
 
-1. [将 ADB 添加到环境变量](#a-将-adb-添加到环境变量)
+3. 将 ADB 添加到环境变量。
 
-
-2. 在 PC 端的**命令行提示符**界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
+4. 在 PC 端的**命令行提示符**界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
 
 ![命令行提示符](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20201104.png)
 
@@ -59,8 +58,7 @@
 
 4. 连接测试
 
-<div id='adb'/>
-###### a. 将 ADB 添加到环境变量
+   a. 将 ADB 添加到环境变量
 
    > **说明：**
     > ADB 是 Google 官方提供的 Android 调试工具。

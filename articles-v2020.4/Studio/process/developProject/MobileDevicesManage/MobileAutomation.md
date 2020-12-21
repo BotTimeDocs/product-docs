@@ -28,7 +28,7 @@
 >
 > 智能录制器的操作，请参见[智能录制](Studio/process/../../../Recording/Recording.md)。
 
-1. 录制完成的流程，单击“保存”按钮后，自动形成一个序列至“**连接设备**”组件中。
+5. 录制完成的流程，单击“保存”按钮后，自动形成一个序列至“**连接设备**”组件中。
 
 ![流程录制完成](https://docimages.blob.core.chinacloudapi.cn/images/Studio/flowdone20201104.png)
 
