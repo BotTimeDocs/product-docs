@@ -37,17 +37,20 @@
 **一般推荐用选择器指定目标程序，更加简单直接**
 1. 拖入**打开程序**组件到设计面板，双击进入组件内部
 2. 手动打开一个新的记事本文件
-2. 点击**指定程序**，进入选择程序状态
+3. 点击**指定程序**，进入选择程序状态
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-1.png)
-3. 将鼠标滑动到打开的记事本程序上，当被选中的记事本程序周边出现黄色框的时候，说明选择器已经识别到记事本程序，然后点击
-4. 点击之后，会自动化返回到编辑器程序中，可以看到“打开程序”组件中已经捕捉到记事本程序的截图。
+
+4. 将鼠标滑动到打开的记事本程序上，当被选中的记事本程序周边出现黄色框的时候，说明选择器已经识别到记事本程序，然后点击
+5. 点击之后，会自动化返回到编辑器程序中，可以看到“打开程序”组件中已经捕捉到记事本程序的截图。
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-2.png)
-5. 运行，一个新的记事本文件被打开
+
+6. 运行，一个新的记事本文件被打开
 
 ### 使用目标程序的安装路径打开Excel
 **在没有使用选择器指定的情况下，可以将程序的绝对路径填入程序路径参数**
 1. 每个程序在电脑中都有一个安装路径，默认都是在"C:\Program Files (x86)"或者"C:\Program Files"中
 2. 找到Excel的安装路径："C:\Users\Shirley\AppData\Local\Kingsoft\WPS Office\11.1.0.10228\office6\et.exe" (每台电脑可能因安装路径不同不一样)
 3. 将Excel的路径作为参数填入到 **程序路径**属性中
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-3.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-3.png )
+
 4. 运行，Excel被打开
