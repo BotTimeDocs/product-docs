@@ -58,7 +58,7 @@
 
 4. 连接测试
 
-   a. 将 ADB 添加到环境变量
+a. 将 ADB 添加到环境变量
 
    > **说明：**
     > ADB 是 Google 官方提供的 Android 调试工具。
@@ -121,7 +121,7 @@ Xcode 是运行在操作系统 Mac OS X 上的集成开发工具（IDE）,自带
 
 在 Mac PC 终端中进行如下安装操作：
 
-a. 安装 brew
+a. **安装 brew**
 
 brew 是MacOS上的包管理工具，可以简化 macOS 和 Linux 操作系统上软件的安装。
 
