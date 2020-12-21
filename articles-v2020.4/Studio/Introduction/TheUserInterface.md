@@ -14,16 +14,20 @@
 3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
 
 ### 打开 ###
+
 ![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/indexopen20201118.png)
 
 1. **最近使用** — 打开您最近处理过的项目。
 2. **本地项目** — 本地电脑中已有的项目。
+
    - 浏览：打开本地电脑中已有的项目。
    - 刷新：重新加载当前路径下的项目文件夹。
    - 导入：导入本地电脑中已有的项目。
+
 3. **控制台流程** — 查看/编辑控制台流程。
 
 ### 工具 ###
+
 ![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
 
 1. **应用** — 支持**元素探测器**应用小工具。
