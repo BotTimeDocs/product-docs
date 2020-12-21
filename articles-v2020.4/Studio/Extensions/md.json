@@ -23,5 +23,10 @@
         "name": "EdgeExtension.md",
         "localizedName": "Microsoft Edge扩展",
         "uuid": "de87a6c5-b309-478a-811f-fbbcbe3085cc"
+    },
+    {
+        "name": "WindowsUnlockService.md",
+        "localizedName": "Windows 屏幕解锁服务",
+        "uuid": "ed090e4e-2788-4c56-8494-67fd7e819b43"
     }
 ]

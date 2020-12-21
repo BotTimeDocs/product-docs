@@ -10,5 +10,11 @@
         "name": "GetAssets.md",
         "localizedName": "获取资产",
         "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8"
+    }    ,
+    {
+        "id": "Encoo.Console.Activity.FileDownloadActivity",
+        "name": "FileDownloadActivity.md",
+        "localizedName": "下载文件",
+        "uuid": "846221b4-b781-436a-adb1-9e4f84547c65"
     }
 ]

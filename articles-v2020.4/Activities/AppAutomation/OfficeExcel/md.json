@@ -115,6 +115,12 @@
         "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelTextToColumnsActivity",
+        "name": "OfficeExcelTextToColumns.md",
+        "localizedName": "分列",
+        "uuid": "6d004979-4f82-4490-9274-ff48898ee814"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
@@ -155,6 +161,12 @@
         "name": "MergeCells.md",
         "localizedName": "合并单元格",
         "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelCopyAndPasteAreaActivity",
+        "name": "OfficeExcelCopyAndPasteArea.md",
+        "localizedName": "复制粘贴区域",
+        "uuid": "4f50b7c5-4d46-4a00-a25a-4930213a8cf9"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
