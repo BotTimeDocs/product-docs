@@ -29,11 +29,11 @@
    ![分列数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndata20201217.png)
 
 2. 拖入一个Office Excel的**打开/新建**组件至流程中。
-3. 配置**打开/新建**组件的属性参数。   
+3. 配置**打开/新建**组件的属性参数。
    - 文件路径：输入需要打开进行分列操作的文件的路径，如，"C:\Users\wangxin\Desktop\test.xlsx"
 
 4. 双击该组件，拖入一个**分列**组件至**打开/新建**组件中。
-5. 配置**分列**组件的属性参数，如下图所示。   
+5. 配置**分列**组件的属性参数，如下图所示。
    ![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
 
    - 工作表：输入Excel工作表的名称，如，"Sheet1"
