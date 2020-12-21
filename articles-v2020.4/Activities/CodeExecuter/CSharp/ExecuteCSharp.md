@@ -22,6 +22,6 @@
 
      ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutecsharp20201218.png)
 
-1. 保存并运行流程。
-2. 在输出窗口中查看运行结果。
+3. 保存并运行流程。
+4. 在输出窗口中查看运行结果。
    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/csharpresult20201018.png)
