@@ -27,8 +27,8 @@
 2. 双击**确认框**组件的空白处，配置属性参数。
    ![确认框配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/comfirmsetting20201221.png)  
 
-   - 标题：输入确认框的标题，如，“确认”
-   - 描述：输入确认框的描述内容，如，“请确认，是否弹框？”
+   - 标题：输入确认框的标题，如，"确认"
+   - 描述：输入确认框的描述内容，如，"请确认，是否弹框？"
 3. 保存并运行流程。
 4. 查看运行结果，如下图所示。   
    ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showresult20201221.png)
