@@ -33,8 +33,8 @@
    ![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatemouse20201218.png)
 
 3. 根据鼠标坐标偏移量设置该组件的属性参数。
-   
-   - 纵坐标偏移：本样例将文件 A 拖动至文件夹 Test 中，使用Test 文件夹图标左上角 Y 坐标值减去 A 文件图标左上角的 Y 坐标值，如，-24
+
+     - 纵坐标偏移：本样例将文件 A 拖动至文件夹 Test 中，使用Test 文件夹图标左上角 Y 坐标值减去 A 文件图标左上角的 Y 坐标值，如，-24
   
 4. 保存并运行流程。
 5. 查看并验证运行结果，可以看到A文件被成功移至 Test 文件夹中了。
