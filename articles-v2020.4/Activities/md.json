@@ -57,6 +57,11 @@
     },
     {
         "id": null,
+        "name": "PhoneAutomation",
+        "localizedName": "手机自动化"
+    },
+    {
+        "id": null,
         "name": "Console",
         "localizedName": "控制台"
     },
