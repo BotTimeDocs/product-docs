@@ -13,7 +13,7 @@
 >
 >若当前项目中存在文件更改，则分别以不同状态的图标显示添加、修改、删除操作。
 
-## 提交
+## 提交更改文件列表
 
 通过对当前项目中的文件进行操作，可以完成暂存和放弃更改。
 ![提交](https://docimages.blob.core.chinacloudapi.cn/images/Studio/commit20201214.png)
