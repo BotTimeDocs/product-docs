@@ -1,7 +1,7 @@
 # 云扩 RPA 功能清单
 
 ## 编辑器
-![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/studio.png)
+![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/Studio.png)
 ### 功能点列表
 
 **1.【项目管理】**
@@ -13,8 +13,8 @@
 - 新建项目时，支持根据当前录制的桌面应用选择对应录制技术：[UIA3/UIA](https://docs.microsoft.com/zh-cn/dotnet/framework/ui-automation/ui-automation-overview) 。
 - 在“开始 > 打开 > 本地项目”列表上方，新增“刷新”按钮，可手动刷新本地项目列表，实现重新加载当前路径下的项目文件夹。
 - 在“新建 > 从模板新建”列表中，新增“[企业流程模板](Studio/process/ProjectTemplates.md)”，可使用该模板新建标准流程。
-- 支持[引用外部项目](studio/process/ReferenceProject.md)作为依赖项，供当前流程使用。
-- 支持启用[版本控制（预览）](studio/VersionControl.md)功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
+- 支持[引用外部项目](Studio/process/ReferenceProject.md)作为依赖项，供当前流程使用。
+- 支持启用[版本控制（预览）](Studio/VersionControl.md)功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
 - 支持导入文件：将其他文件导入到当前所选文件夹下。
 
   
@@ -33,7 +33,7 @@
 **4.【系统设置】**
 - 项目运行时，支持最小化编辑器主界面，降低对界面自动化项目运行的干扰率。
 - 在“开始 > 帮助”页面，新增AI HUB 实用链接，方便用户更好地了解AI HUB 产品。
-- 支持切换[激活](studio/quickStart/Activation.md)方式：在关于页面实现社区版/企业版编辑器激活方式的切换以便重新激活。
+- 支持切换[激活](Studio/quickStart/Activation.md)方式：在关于页面实现社区版/企业版编辑器激活方式的切换以便重新激活。
 
 **5.【可视化编辑器】**
 -  新增**开始菜单页** Homepage 视图，拆分项目编辑和非编辑操作页面，降低项目编辑过程中的干扰率，提升流程编辑效率。
@@ -60,7 +60,7 @@
 
 
 **6.【手机自动化】**
-- 企业版支持[手机自动化](studio/process/developProject/MobileDevicesManage/Download.md)操作，实现在 PC 端可以操作手机上的各元素。
+- 企业版支持[手机自动化](Studio/process/developProject/MobileDevicesManage/Download.md)操作，实现在 PC 端可以操作手机上的各元素。
 
 ### 改进与增强
 
@@ -77,7 +77,7 @@
 - 在创建变量/参数时，支持快速创建 DataTable / IUiObject 类型的变量/参数。
 - 支持通过编辑区域的组件的右键菜单来访问组件的帮助文档。
 - 优化**导出项目**功能，当导出组件项目时，导出文件的扩展名为 egs，以区别于流程项目的 dgs 文件。
-- 优化导出项目和[发布项目](studio/process/PublishProject.md)：支持将依赖项导出到流程包中。
+- 优化导出项目和[发布项目](Studio/process/PublishProject.md)：支持将依赖项导出到流程包中。
 - 支持显示所有文件、包括在项目中/从项目中排除，方便发布项目时从项目中排除某些文件。
 
 **2.【辅助工具】**
@@ -100,7 +100,7 @@
 - 优化组件批注：支持组件批注快捷键**Shift+F2**。
 
 **4.【开放市场】**
-- 优化[管理市场](studio/market/Market.md)、[代码市场](studio/market/NuGetMarket.md)、[组件市场](studio/market/activityMarket.md)界面样式：由原来的弹框形式优化为标签页形式。
+- 优化[管理市场](Studio/market/Market.md)、[代码市场](Studio/market/NuGetMarket.md)、[组件市场](Studio/market/activityMarket.md)界面样式：由原来的弹框形式优化为标签页形式。
 
 
 
