@@ -20,11 +20,11 @@
 
 ## 操作样例
 
-1.拖入**绑定浏览器**组件至项目流程中：
+1. 拖入**绑定浏览器**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser20201221.png)
 
-2.双击打开，指定浏览器，例：云扩科技官网和云扩学院，并拖入**关闭标签页**组件，如下图所示：
+2. 双击打开，指定浏览器，例：云扩科技官网和云扩学院，并拖入**关闭标签页**组件，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CloseTab20201221.png)
 
-3.指定关闭标签页元素为云扩学院，点击运行，查看运行结果：
+3. 指定关闭标签页元素为云扩学院，点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CloseTab2020122102.png)

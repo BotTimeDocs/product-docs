@@ -35,3 +35,14 @@
 可选项
 
 - **安全连接** ：指定检测加密方法，默认为自动；选项包括：无、自动、SSL、STARTTLS、如果支持STARTTLS则使用
+
+## 操作样例
+
+1. 拖入**发送邮件(SMTP)**组件至项目流程中：
+ ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP20201222.png)
+
+2. 输入发件人账号和密码字符串，例如：“××@encootech.com”和“×××”，输入邮箱服务器字符串和端口，例如：“smtp.×××.outlook.cn”和587 ，输入收件人字符串，例如：“××2@encootech.com”，输入邮件内容字符串，例如：“云扩科技：发送邮件（SMTP）”，输入邮件主题字符串，例如："发送邮件（SMTP）"，如下图所示：
+ ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP2020122202.png)
+
+3. 点击运行，查看运行结果，登录发件箱查看邮件是否发送成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP2020122203.png)

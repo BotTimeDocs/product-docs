@@ -26,12 +26,12 @@
 
 ## 操作样例
 
-1.拖入**打开浏览器**组件至项目流程中：
+1. 拖入**打开浏览器**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-01.png)
 
-2.选择浏览器类型和输入网址：
+2. 选择浏览器类型和输入网址：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-02.png)
 
-3.点击运行，查看运行结果：
+3. 点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-03.png)
 
