@@ -18,7 +18,7 @@
 
 - **选择的文件** ：输出选择的文件绝对路径；仅支持字符串变量和字符串
 
-## 示例
+## 操作样例
 1. 拖入**选择文件**组件，添加输出结果变量filePath：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-1.png)
 2. 拖入**写入日志**组件，可以输出选择的文件路径信息
