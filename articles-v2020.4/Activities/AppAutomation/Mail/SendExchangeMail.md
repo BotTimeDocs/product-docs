@@ -45,7 +45,7 @@
 1. 拖入**发送邮件(Exchange)**组件至项目流程中：
  ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendExchangeMail20201222.png)
 
-2. 输入Exchange账号和密码字符串，例如：“××@encootech.com”和“×××”，输入邮箱服务地址字符串，例如：“https://×××service.outlook.cn/” ，输入收件人字符串，例如：“××2@encootech.com”，输入邮件内容字符串，例如：“云扩科技：发送邮件（Exchange）”，输入邮件主题字符串，例如："发送邮件（Exchange）"，如下图所示：
+2. 输入Exchange账号和密码字符串，例：“××@encootech.com”和“×××”，输入邮箱服务地址字符串，例：“https://×××service.outlook.cn/” ，输入收件人字符串，例：“××2@encootech.com”，输入邮件内容字符串，例：“云扩科技：发送邮件（Exchange）”，输入邮件主题字符串，例："发送邮件（Exchange）"，如下图所示：
  ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendExchangeMail2020122202.png)
 
 3. 点击运行，查看运行结果，登录发件箱查看邮件是否发送成功：
