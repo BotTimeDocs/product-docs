@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Debugging.md",
+        "localizedName": "调试",
+        "uuid": "8381dd9a-db27-4d8a-99b4-63209ea835f1"
+    },
+    {
+        "name": "partialDebug.md",
+        "localizedName": "分步调试",
+        "uuid": "a7743895-3b55-4d82-b592-867f1e4426bb"
+    },
+    {
+        "name": "ValuePanel.md",
+        "localizedName": "变量面板",
+        "uuid": "df8e5d9b-eecf-4976-832c-359ed4fffef5"
+    }
+]

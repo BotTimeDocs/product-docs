@@ -1,0 +1,27 @@
+[
+    {
+        "id": null,
+        "name": "users",
+        "localizedName": "用户信息"
+    },
+    {
+        "id": null,
+        "name": "roles",
+        "localizedName": "角色管理"
+    },
+    {
+        "id": null,
+        "name": "groups",
+        "localizedName": "资源组管理"
+    },
+    {
+        "id": null,
+        "name": "log",
+        "localizedName": "审计日志"
+    },
+    {
+        "id": null,
+        "name": "license",
+        "localizedName": "许可证"
+    }
+]

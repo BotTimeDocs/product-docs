@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Encoo.Console.Activity.PdfExtractActivity",
+        "name": "DocReader.md",
+        "localizedName": "文档理解",
+        "uuid": "e1681ddc-b289-4ad8-b215-0a2486e69f57"
+    },
+    {
+        "id": "Encoo.Console.Activity.AcquireAssetsActivity",
+        "name": "GetAssets.md",
+        "localizedName": "获取资产",
+        "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8"
+    }
+]

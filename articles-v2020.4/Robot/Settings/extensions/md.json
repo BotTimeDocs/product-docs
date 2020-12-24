@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ChromeExtension.md",
+        "localizedName": "Chrome扩展",
+        "uuid": "f63640f7-3a81-46b9-ae53-2ff15e2bc1b8"
+    },
+    {
+        "name": "FirefoxExtension.md",
+        "localizedName": "Firefox扩展",
+        "uuid": "f530405b-5827-4d50-903b-90710d08eb48"
+    },
+    {
+        "name": "JavaExtension.md",
+        "localizedName": "Java扩展",
+        "uuid": "576624f6-e22b-46ca-8f0f-d65fa215ec06"
+    },
+    {
+        "name": "360SE.md",
+        "localizedName": "360安全浏览器扩展",
+        "uuid": "bb284b19-580e-4907-900f-199449ca16c0"
+    },
+    {
+        "name": "EdgeExtension.md",
+        "localizedName": "Microsoft Edge扩展",
+        "uuid": "c1bb0fb0-91c2-4729-9028-79cbc7db4456"
+    }
+]

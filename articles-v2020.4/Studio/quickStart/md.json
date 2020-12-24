@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Installation.md",
+        "localizedName": "安装与更新",
+        "uuid": "b99286da-9595-4c22-9355-f59b1d179c82"
+    },
+    {
+        "name": "HarewareAndSoftwareRequirements.md",
+        "localizedName": "硬件和软件要求",
+        "uuid": "1bb922bd-c25d-4921-9241-f13ee45d295f"
+    },
+    {
+        "name": "Activation.md",
+        "localizedName": "激活",
+        "uuid": "c6e3549e-3b28-48c6-950f-77aeaa432b85"
+    },
+    {
+        "name": "KeyboardShortcuts.md",
+        "localizedName": "键盘快捷键",
+        "uuid": "46de7d41-033a-44eb-b516-d529fff09a3a"
+    }
+]

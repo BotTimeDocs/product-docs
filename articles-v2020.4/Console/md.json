@@ -1,0 +1,71 @@
+[
+    {
+        "id": null,
+        "name": "userlogin.md",
+        "localizedName": "用户登录",
+        "uuid": "ab4eceb7-74c9-42a8-b7fa-1c0c64da5d68"
+    },
+    {
+        "id": null,
+        "name": "homepage.md",
+        "localizedName": "首页",
+        "uuid": "6f73f9e6-c8a1-4bf7-82fb-62c01725697e"
+    },
+    {
+        "id": null,
+        "name": "dashboard",
+        "localizedName": "仪表盘",
+        "uuid": "8a3220d8-e219-40b3-9890-21537ddf9aa6"
+    },
+    {
+        "id": null,
+        "name": "packages",
+        "localizedName": "流程包管理"
+    },
+    {
+        "id": null,
+        "name": "robot",
+        "localizedName": "机器人管理"
+    },
+    {
+        "id": null,
+        "name": "queue",
+        "localizedName": "调度队列"
+    },
+    {
+        "id": null,
+        "name": "workflow",
+        "localizedName": "流程部署"
+    },
+    {
+        "id": null,
+        "name": "job",
+        "localizedName": "任务记录"
+    },
+    {
+        "id": null,
+        "name": "management",
+        "localizedName": "全局管理"
+    },
+    {
+        "id": null,
+        "name": "Apps",
+        "localizedName": "应用管理"
+    },
+    {
+        "id": null,
+        "name": "datacentor",
+        "localizedName": "数据中心"
+    },
+    {
+        "id": null,
+        "name": "docreader",
+        "localizedName": "文档理解"
+    },
+    {
+        "id": null,
+        "name": "cancelaccount.md",
+        "localizedName": "注销账户",
+        "uuid": "0f233a42-14ac-4654-ac64-8a1e742b577a"
+    }
+]

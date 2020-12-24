@@ -1,0 +1,56 @@
+[
+    {
+        "name": "aboutRobot.md",
+        "localizedName": "产品介绍",
+        "uuid": "2d7394e2-3be3-4661-8c12-1af740746e34"
+    },
+    {
+        "name": "installRobot.md",
+        "localizedName": "安装机器人",
+        "uuid": "ff9f6b33-32b1-4be9-ba41-368ed8d1dfc9"
+    },
+    {
+        "name": "updateRobot.md",
+        "localizedName": "更新机器人",
+        "uuid": "d18f5372-97a8-4626-b101-2b35f5db9716"
+    },
+    {
+        "name": "license.md",
+        "localizedName": "激活机器人",
+        "uuid": "d807b28a-f1a8-4a6b-a99d-5e6417b0e518"
+    },
+    {
+        "name": "Overview.md",
+        "localizedName": "概览页",
+        "uuid": "54705232-76a3-4f08-aebb-bf6174a3b454"
+    },
+    {
+        "name": "localworkflow.md",
+        "localizedName": "流程库页",
+        "uuid": "d0b56def-0739-43c0-887a-c43d2a71847b"
+    },
+    {
+        "name": "ProcessHistory.md",
+        "localizedName": "执行历史页",
+        "uuid": "8ac310b6-e403-4327-9ad2-068f4e767652"
+    },
+    {
+        "name": "RunningProcess.md",
+        "localizedName": "正在执行页",
+        "uuid": "1ec7462f-9446-4472-bd60-6dffaea9fb5a"
+    },
+    {
+        "name": "CronJob.md",
+        "localizedName": "定时任务页",
+        "uuid": "872537dd-00fe-4bc3-8226-c23d560ae50e"
+    },
+    {
+        "name": "ProcessMarket.md",
+        "localizedName": "流程市场页",
+        "uuid": "29e388fa-cbea-4652-9133-a3044dd293ff"
+    },
+    {
+        "name": "Settings",
+        "localizedName": "设置页"
+    }
+]

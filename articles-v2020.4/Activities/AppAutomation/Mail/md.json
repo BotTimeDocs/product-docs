@@ -1,0 +1,50 @@
+[
+    {
+        "id": "BotTime.Mail.Activity.Activities.SendOutlookMailActivity",
+        "name": "SendOutlookMail.md",
+        "localizedName": "发送邮件(Outlook)",
+        "uuid": "e9578822-8a59-4f6d-bf84-c62718f5b6b3"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetOutlookMailActivity",
+        "name": "GetOutlookMail.md",
+        "localizedName": "获取邮件(Outlook)",
+        "uuid": "f678a928-bc21-41a1-8ea5-822f799cabd8"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.SendExchangeMailActivity",
+        "name": "SendExchangeMail.md",
+        "localizedName": "发送邮件(Exchange)",
+        "uuid": "52329d2c-aa9e-4ef9-83e9-91063051377f"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetExchangeMailActivity",
+        "name": "GetExchangeMail.md",
+        "localizedName": "获取邮件(Exchange)",
+        "uuid": "4bd5441b-0cd5-48b2-9bca-a90b233472da"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.SendSmtpMailActivity",
+        "name": "SendMailSMTP.md",
+        "localizedName": "发送邮件(SMTP)",
+        "uuid": "e1aa7ef2-ec9a-4eda-ac77-4a45a70119f6"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetPOP3MailMessagesActivity",
+        "name": "GetMailPOP3.md",
+        "localizedName": "获取邮件(POP3)",
+        "uuid": "31d6e188-260a-4371-869f-d78f8a3f4417"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.GetIMAPMailMessagesActivity",
+        "name": "GetMailIMAP.md",
+        "localizedName": "获取邮件(IMAP)",
+        "uuid": "8cd8aec6-4967-46f8-a4da-90ed9350afbf"
+    },
+    {
+        "id": "BotTime.Mail.Activity.Activities.SaveMailAttachmentsActivity",
+        "name": "SaveAttachment.md",
+        "localizedName": "保存附件",
+        "uuid": "11412203-d81d-4ddf-9af7-043d58fe4082"
+    }
+]

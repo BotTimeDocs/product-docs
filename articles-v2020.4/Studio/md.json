@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction",
+        "localizedName": "产品介绍"
+    },
+    {
+        "name": "quickStart",
+        "localizedName": "快速开始"
+    },
+    {
+        "name": "process",
+        "localizedName": "项目流程"
+    },
+    {
+        "name": "Extensions",
+        "localizedName": "扩展"
+    },
+    {
+        "name": "market",
+        "localizedName": "云扩市场"
+    },
+    {
+        "name": "FAQ.md",
+        "localizedName": "常见问题",
+        "uuid": "edf49939-4f26-4c60-9fcc-c45da6eba123"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": null,
+        "name": "aboutPackages.md",
+        "localizedName": "关于流程包管理",
+        "uuid": "ff0effb0-13ad-4fdd-b573-5433e38f3f0c"
+    },
+    {
+        "id": null,
+        "name": "deletePackage.md",
+        "localizedName": "删除流程包",
+        "uuid": "5f060957-1560-4187-acff-85210a6f5a36"
+    },
+    {
+        "id": null,
+        "name": "uploadPackage.md",
+        "localizedName": "上传流程包",
+        "uuid": "85faaca2-fb76-4521-8564-22286a2961fc"
+    }
+]

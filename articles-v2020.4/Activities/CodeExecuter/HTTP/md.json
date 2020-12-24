@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.HttpRequestActivity",
+        "name": "HTTPRequest.md",
+        "localizedName": "HTTP请求",
+        "uuid": "ab1eddcb-8e7e-4936-9bcf-8cd09f3e20ce"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.HttpDownloadActivity",
+        "name": "HTTPDownload.md",
+        "localizedName": "下载文件",
+        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+    }
+]
