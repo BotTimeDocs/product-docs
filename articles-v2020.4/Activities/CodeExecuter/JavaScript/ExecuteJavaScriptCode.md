@@ -30,5 +30,5 @@
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-method-verify.png)
 
-2. 运行流程并查看结果：
+3. 运行流程并查看结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-success.png)

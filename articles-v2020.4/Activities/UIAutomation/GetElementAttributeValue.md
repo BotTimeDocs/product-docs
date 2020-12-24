@@ -23,5 +23,12 @@
 输出
 - **属性值** ：将获取到的属性值存储在此变量。仅支持字符串变量和字符串
 
+## 操作样例
+1. 拖入**获取元素属性值**组件并指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr1.png)
 
+2. 验证元素并输入属性名：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr2.png)
 
+3. 打印出获取到的元素的属性值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr3.png)
