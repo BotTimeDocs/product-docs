@@ -15,8 +15,10 @@
 - **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
 
 ## 操作样例
+
 1. 拖入**打开浏览器** 组件，输入网址“https://www.aliyun.com”；设置变量list，变量类型为`List<String>`,默认值为`new List<String>{"最新活动","产品","解决方案"}`，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-1.png)
+
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-1.png)
 
 2. 拖入**循环操作（For Each）** 组件并设置循环体为变量list；拖入**错误捕获（Try Catch）** 组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-2.png)
