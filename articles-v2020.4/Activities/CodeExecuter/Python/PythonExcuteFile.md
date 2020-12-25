@@ -20,22 +20,13 @@
 4. 配置**执行Python代码**组件的属性参数。
      - 文件路径：单击“…”按钮，选择 Python 文件的路径并打开，如，D:\workspace\Encoo\组件流程\.code\Python
      -  编辑代码：单击“编辑代码”按钮，在 Python 代码编辑器中输入需要执行的 Python 代码段，如下图所示。
-  
       ![Python代码编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/codeedit20201217.png) 
-
-
      - （可选）设置参数：单击“设置参数”按钮，在设置参数对话框中创建参数，用于 Python 代码中传递参数。
-   
      ![Python设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pythonargument20201211.png)   
-
-
      >**说明：**
      >
      > - 根据代码情况，需要传参时，才需要设置参数，本案例代码无需传参。
      > - 由于编辑器的底层为 C# 语言编写与 Python 语言之间需要进行转换，所以在 Python 中设置参数时，需要将编辑器中创建的参数赋值给 Python 中创建的参数的值（如上图所示）。
-
-
 5. 保存并运行流程。
 6. 在输出窗口中查看最终的输出值。
-
    ![输出结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/outputpython20201217.png)     
