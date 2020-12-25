@@ -18,16 +18,16 @@
 - **选择的文件夹** ：输出选择的文件夹路径；仅支持字符串变量和字符串
 
 ## 操作样例
-1. 拖入**选择文件夹**组件，添加输出结果变量folderPath。
+1. 拖入**选择文件夹**组件，添加输出结果变量folderPath：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFolder.png)
 
-2. 拖入**写入日志**组件，可以输出选择的文件夹路径信息。
+2. 拖入**写入日志**组件，可以输出选择的文件夹路径信息：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFolder-2.png)
 
-3. 运行流程，**选择文件夹**组件开始，弹出选择文件的框。
+3. 运行流程，**选择文件夹**组件开始，弹出选择文件的框：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFolder-3.png)
 
-4. 手动选择一个文件，查看输出的文件路径信息。
+4. 手动选择一个文件，查看输出的文件路径信息：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFolder-4.png)
 
 

@@ -15,16 +15,16 @@
 - **文件同名替换** ：当目标路径中含有同名文件时的解决方案。勾选后，实现删除同名文件，放入复制/移动的文件；不勾选时，当有同名文件则运行失败
 
 ## 操作样例
-1. 拖入**复制/移动文件**组件。
+1. 拖入**复制/移动文件**组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-1.png)
 
 2. 双击进入组件内部，"源路径"支持相对和绝对路径，可在组件面板点击"..."弹出对话框，选择目标文件，也可以手动输入路径。
 
 3. "目标路径"是目标文件放置的目标位置，需手动输入路径。
 
-4. "复制/移动"：可以选择复制或者移动文件。
+4. "复制/移动"：可以选择复制或者移动文件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-2.png)
 
-5. 运行流程，**复制/移动文件**组件开始运行，根据用户要求，成功把E盘的文档复制到D盘的移动文件的目录下面。
+5. 运行流程，**复制/移动文件**组件开始运行，根据用户要求，成功把E盘的文档复制到D盘的移动文件的目录下面：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-3.png)
 

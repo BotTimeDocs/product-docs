@@ -20,5 +20,5 @@
 
 2. 输入新建文件/文件夹的全路径，支持相对和绝对路径。
 
-3. 运行流程，可以看到指定的路径下根据用户要求创建了文件或文件夹。
+3. 运行流程，可以看到指定的路径下根据用户要求创建了文件或文件夹：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile.png)
