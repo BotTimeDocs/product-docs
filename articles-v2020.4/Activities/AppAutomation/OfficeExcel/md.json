@@ -3,43 +3,50 @@
         "id": "BotTime.Office.Activity.OfficeExcelOpenOrCreateActivity",
         "name": "OpenExcel.md",
         "localizedName": "打开新建",
-        "uuid": "c4138eee-05ad-4a13-ad96-297c2bc68aa5"
+        "uuid": "c4138eee-05ad-4a13-ad96-297c2bc68aa5",
+        "labels": "Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadCellActivity",
         "name": "ReadCell.md",
         "localizedName": "读取单元格",
-        "uuid": "ceb807c2-691f-47be-aa74-026c789b1fbf"
+        "uuid": "ceb807c2-691f-47be-aa74-026c789b1fbf",
+        "labels": "Excel,读取"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRangeActivity",
         "name": "ReadRange.md",
         "localizedName": "读取区域",
-        "uuid": "85e879df-c737-4f72-bf45-b56d338046c0"
+        "uuid": "85e879df-c737-4f72-bf45-b56d338046c0",
+        "labels": "Excel,读取"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRowColumnActivity",
         "name": "ReadRowOrColumn.md",
         "localizedName": "读取行/列数据",
-        "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470"
+        "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470",
+        "labels": "Excel,读取"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetCellActivity",
         "name": "WriteCell.md",
         "localizedName": "写入单元格",
-        "uuid": "dadb9ee9-042b-4455-8ceb-c691af8699eb"
+        "uuid": "dadb9ee9-042b-4455-8ceb-c691af8699eb",
+        "labels": "Excel,写入"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRangeActivity",
         "name": "WriteRange.md",
         "localizedName": "写入区域",
-        "uuid": "967a43d8-af97-482b-ac04-610fe81511f2"
+        "uuid": "967a43d8-af97-482b-ac04-610fe81511f2",
+        "labels": "Excel,写入"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
         "name": "WriteRowOrColumn.md",
         "localizedName": "写入行或列数据",
-        "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3"
+        "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3",
+        "labels": "Excel,写入"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelAutoFillRangeActivity",
@@ -108,6 +115,12 @@
         "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelTextToColumnsActivity",
+        "name": "OfficeExcelTextToColumns.md",
+        "localizedName": "分列",
+        "uuid": "6d004979-4f82-4490-9274-ff48898ee814"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
@@ -148,6 +161,12 @@
         "name": "MergeCells.md",
         "localizedName": "合并单元格",
         "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelCopyAndPasteAreaActivity",
+        "name": "OfficeExcelCopyAndPasteArea.md",
+        "localizedName": "复制粘贴区域",
+        "uuid": "4f50b7c5-4d46-4a00-a25a-4930213a8cf9"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",

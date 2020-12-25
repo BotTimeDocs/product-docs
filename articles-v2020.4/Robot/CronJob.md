@@ -6,6 +6,10 @@
 点击**新建定时任务**打开定时任务创建窗口，见下图示例：
 - 任务名称: 输入定时任务名称。
 - 流程: 选择本地/控制台流程库并指定欲在定时任务中执行的流程及版本。
+  >**说明：**
+  >
+  >单击“执行配置”链接，可弹出执行配置对话框，对执行过程中的一些参数进行配置，参见[执行本地流程](Robot/../localworkflow.md)。
+
 - 模式：选择执行模式，支持按照：一次、按天、按周、按月设置和按表达式。
   
    | 参数     | 参数说明                                                     |
@@ -19,7 +23,8 @@
 - 生效范围：
    - 开始时间：任务的开始生效时间，不填写则默认按照当前时间生效。
    - 结束时间：任务的最后到期时间，不填写则默认无到期时间。
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/CroJob20201118.png)
+
+![定时任务设置](https://docimages.blob.core.chinacloudapi.cn/images/Robot/cronjob20201201.png)
 
 
 ### 定时任务列表
@@ -30,5 +35,5 @@
 - 模式：当前任务的执行模式
 - 操作：点击**编辑**对当前定时任务修改；点击**删除**则删除当前任务
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-CronJob-1.png)
+![定时任务列表](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-CronJob-1.png)
 

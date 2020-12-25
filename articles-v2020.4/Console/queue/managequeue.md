@@ -9,7 +9,7 @@
 ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/%E6%96%B0%E5%BB%BA%E8%B0%83%E5%BA%A6%E9%98%9F%E5%88%97-1.png)
 
 
-2）填写基本信息后，勾选对应的机器人后，点击“保存”按钮即未队列绑定机器人
+2）填写基本信息后，勾选对应的机器人后，点击“保存”按钮，即该队列绑定机器人
 ![jpb](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/%E6%96%B0%E5%BB%BA%E8%B0%83%E5%BA%A6%E9%98%9F%E5%88%97-2.png)
 
 ## 查看调度队列详情

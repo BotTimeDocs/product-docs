@@ -12,6 +12,11 @@
         "localizedName": "项目流程"
     },
     {
+        "name": "VersionControl.md",
+        "localizedName": "版本控制",
+        "uuid":"3b7e4427-2af2-48bf-9c06-3f5d4c412eb3"
+    },
+    {
         "name": "Extensions",
         "localizedName": "扩展"
     },

@@ -1,6 +1,6 @@
 # 安装机器人
 
-进入控制台 - [下载管理](..\Console\download\aboutdownload.md?_v=v2020.4)。
+进入控制台 - [下载安装包](https://academy.encoo.com/zh-cn/wiki/Console/homepage.md?uuid=6f73f9e6-c8a1-4bf7-82fb-62c01725697e)。
 
 下载机器人最新版本安装包到本地。
 

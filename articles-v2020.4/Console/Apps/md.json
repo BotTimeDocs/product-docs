@@ -2,13 +2,13 @@
     {
         "id": null,
         "name": "aboutApps.md",
-        "localizedName": "关于应用管理",
+        "localizedName": "关于小程序管理",
         "uuid": "3d1c7c2d-857e-4791-b738-9ff9455d85bd"
     },
     {
         "id": null,
         "name": "manageApps.md",
-        "localizedName": "管理应用",
+        "localizedName": "管理小程序",
         "uuid": "cdb519a8-e291-44e2-9215-92d794cd4f5b"
     }
 ]

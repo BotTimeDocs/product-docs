@@ -14,16 +14,20 @@
 3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
 
 ### 打开 ###
+
 ![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/indexopen20201118.png)
 
 1. **最近使用** — 打开您最近处理过的项目。
 2. **本地项目** — 本地电脑中已有的项目。
+
    - 浏览：打开本地电脑中已有的项目。
    - 刷新：重新加载当前路径下的项目文件夹。
    - 导入：导入本地电脑中已有的项目。
+
 3. **控制台流程** — 查看/编辑控制台流程。
 
 ### 工具 ###
+
 ![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
 
 1. **应用** — 支持**元素探测器**应用小工具。
@@ -37,6 +41,7 @@
 * 项目 - 对项目相关信息进行设置。
    <!-- * 要更改项目存储位置，只需要在“工作目录”后更换新路径。 -->
    * “运行时最小化”让你可以将编辑器窗口设置为运行时是否最小化。
+* 管理市场 - 对组件市场、代码市场、流程市场进行管理操作，包括新增、删除、启用/禁用、上移/下移等。
 
 ### 帮助 ###
 **帮助**可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。还可以在**帮助**页面中找到有关产品版本等信息。
@@ -73,14 +78,18 @@
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
 |添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../Activities/WorkflowControl/StateMachine/StateMachine.md)、文件夹|
+|导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
-|导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs 文件|
+|导出项目 |	将所选中的项目导出，导出后会自动生成一个 .dgs(流程项目) 或 .egs（组件项目） 文件|
+|引用项目|引用其他项目（支持文件夹和文件）作为依赖项|
 |打开所在文件夹| 	打开所选项目或文件的本地文件夹 |
 |项目设置| 	打开[项目设置](../process/ProjectSettings.md)以设置某一类别组件属性 |
 |属性|查看或编辑项目的属性信息，包括项目名称、作者、版本等|
 |调试文件| 	调试所选中的.xaml文件|
 |运行文件| 	运行所选中的.xaml文件 |
+|从项目中排除|将文件夹或文件从项目中排除，点击右上角的“显示所有”可显示排除的文件夹或文件,其中项目文件夹、依赖项、Main.xaml、project.json不支持排除|
+|包括在项目中|将被排除的文件夹或文件包括到项目中,其中项目文件夹、依赖项、Main.xaml、project.json不支持排除|
 
 >注意： 
 >
@@ -114,6 +123,13 @@
 
 ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
 
+### 版本控制面板
+
+**版本控制面板**用于记录项目中文件内容的变化，以便将来查看指定版本的修订情况。单击“启用”，开启版本控制功能。
+
+![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/versioncontrol20201214.png)
+
+
 ### 市场面板
 
 **市场面板**使你可打开组件市场和流程市场。
@@ -130,11 +146,11 @@
 
 <!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
 
-### 扩展面板
+<!--### 扩展面板
 
 **扩展面板**使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
 
-![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
+![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)-->
 
 ### 发布项目
 
@@ -172,7 +188,7 @@
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。 
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20201118.png#width-full)
+![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20201215.png)
 
 
 
@@ -185,6 +201,7 @@
    |删除         |删除选中的组件。|
    |批注         |对组件进行注释的添加、编辑、删除、显示和隐藏。|
    |断点         |对选定的组件进行断点的插入、删除、禁用和启用。|
+   |包括在错误捕获中|将选择的单个组件用错误捕获组件包括起来，包括在Try模块中。|
    |创建变量      |在变量列表中创建变量。|
    |提取为子流程   |创建一个包含目标组件的新流程。通过将大型流程拆解，以降低查看项目的复杂度。</br>在提取为子流程的组件处会自动生成一个调用流程组件，参数由组件中使用的变量自动生成。|
    |启用组件 |启用先前禁用的组件。|

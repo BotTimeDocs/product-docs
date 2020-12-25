@@ -1,19 +1,15 @@
 [
     {
         "id": null,
-        "name": "CSharp",
-        "localizedName": "C#"
+        "name": "JavaScript",
+        "localizedName": "JavaScript"
     },
     {
         "id": null,
         "name": "DataProcessing",
         "localizedName": "数据处理"
     },
-    {
-        "id": null,
-        "name": "JavaScript",
-        "localizedName": "JavaScript"
-    },
+
     {
         "id": null,
         "name": "CollectionProcessing",
@@ -33,6 +29,21 @@
         "id": null,
         "name": "数组处理",
         "localizedName": "数组处理"
+    },
+    {
+        "id": null,
+        "name": "TypeConversion",
+        "localizedName": "类型转换"
+    },
+    {
+        "id": null,
+        "name": "Python",
+        "localizedName": "Python"
+    },
+    {
+        "id": null,
+        "name": "CSharp",
+        "localizedName": "C#"
     },
     {
         "id": null,

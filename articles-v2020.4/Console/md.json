@@ -1,26 +1,14 @@
 [
     {
         "id": null,
-        "name": "login.md",
-        "localizedName": "登录",
+        "name": "userlogin.md",
+        "localizedName": "用户登录",
         "uuid": "ab4eceb7-74c9-42a8-b7fa-1c0c64da5d68"
     },
     {
         "id": null,
-        "name": "register.md",
-        "localizedName": "注册",
-        "uuid": "bc6060ff-59b5-490b-89fd-d48c4b770a4a"
-    },
-    {
-        "id": null,
-        "name": "forgotPassword.md",
-        "localizedName": "忘记密码",
-        "uuid": "7384cdee-5bb6-4038-9b1e-fd2d938a1632"
-    },
-    {
-        "id": null,
         "name": "homepage.md",
-        "localizedName": "HomePage",
+        "localizedName": "首页",
         "uuid": "6f73f9e6-c8a1-4bf7-82fb-62c01725697e"
     },
     {

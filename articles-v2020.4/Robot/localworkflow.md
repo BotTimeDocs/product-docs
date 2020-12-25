@@ -2,9 +2,10 @@
 
 机器人可以通过桌面点击的方式执行流程，也可以通过控制台集中管理执行流程。
 
-控制台集中管理执行流程详见：[如何下发一个流程](../Console/process/runProcess.md?_v=v2020.4)
+控制台集中管理执行流程详见：[如何下发一个流程](https://academy.encoo.com/zh-cn/wiki/Console/workflow/manageworkflow.md)
 
 本地执行的流程来源分为两种：
+
 1. 本地流程文件文件：通过编辑器导出的流程包（后缀为.dgs的流程压缩包）
 2. 控制台流程库:获取机器人所在资源组的[流程包](..\Console\packages\aboutPackages.md?_v=v2020.4)
 
@@ -17,14 +18,25 @@
 1. 打开本地流程库
 2. 点击导入流程，将编辑器导出的项目文件（*.dgs）导入本地流程库。
 3. 选择你想要执行的流程，你可以输入流程名点击搜索进行查询。
-4. 点击执行，将会弹窗确认信息
+4. 点击“执行”时，将会弹窗确认信息。
     
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-ExecuteProcessDialog-0.png)
+    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/flowofexecution20201201.png)
     
-    **注意** ：
-    - 若当前流程需要传入参数，点击执行后会弹窗提示输入参数，例如下图中的流程需要3个参数（参数sheetName和cell为String类型；count为Int类型）;
-    - 若需要在流程执行过程中录制视频，可勾选“录制视频”选项，并选择保留什么状态的视频；
-    - 支持选择当前流程以什么权限执行；
+ - 流程：显示当前需要执行流程的流程名称和版本号。
+ - 参数：若当前流程需要传入参数，点击执行后会弹窗提示输入参数。
+   >**说明：**
+   >
+   >若参数类型为 Encoo.DataType.FilePath、Encoo.DataType.FolderPath 时，可根据参数类型选择文件或文件夹路径，无需手动填写。
+ - 选项：各选项参数解释如下表所示：
+
+  
+   |  选项    |说明      |
+   | :---- | :---- |
+   |   录制视频   |是否需要在流程执行过程中录制某种执行状态的视频。|
+   |   执行过程截图   |是否需要在流程执行过程中进行截图。<br><font color="grey" size="3" face="楷体"> **说明：**<br>  <ul><li>截图后的图片保存在当前流程日志目录下的 Screenshots 文件夹下。</li><li>图片名称格式：{流程名称}-{截图时间：年月日时分秒}.jpg ,如：小E绘画大师-20201201164102599.jpg </li> </ul> </font>  |
+   |   以管理员权限执行   |是否以管理员身份执行，勾选表示以电脑管理员身份运行，否则以普通用户身份执行。      |
+   |   超时时间   | 运行时间超过设定的时间时终止流程。如，勾选“超时时间1分钟”，表示需要在1分钟之内执行完成，否则终止流程。|   
+
 
 5. 点击确认，流程在快速准备后将自动执行。
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-0.png)
