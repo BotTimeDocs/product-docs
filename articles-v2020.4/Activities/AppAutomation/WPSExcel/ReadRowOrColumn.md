@@ -18,6 +18,25 @@
 输出
 - **数据** ： 输出数组类型的数据
 
+## 操作样例
+1. 新建一个Excel文件，在A1:B7处填入需要被读取的值:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**读取行/列数据**组件至**打开/新建**组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取行，在输出数据中写入变量来接收读取的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps13.png)
+
+4. 拖入另外一个**读取行/列数据**组件至**打开/新建**组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取列，在输出数据中写入变量来接收读取的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps14.png)
+
+5. 拖入**写入日志**组件，来显示需要获取的行和列的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps15.png)
+
+6. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps16.png)
+
 
 
 

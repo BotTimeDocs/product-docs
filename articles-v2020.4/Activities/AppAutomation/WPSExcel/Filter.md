@@ -14,3 +14,19 @@
 
 - **工作表** ：执行筛选的目标工作表。仅支持字符串变量和字符串
 - **列号** ：执行筛选的目标列。仅支持整型变量和整型
+
+## 操作样例
+1. 新建一个Excel文件，在A1:B8处填入需要被读取的值:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps29.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**筛选**组件至**打开/新建**组件中:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps30.png)
+
+4. 双击"筛选向导"按钮，并配置筛选条件:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps31.png)
+
+5. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps32.png)
