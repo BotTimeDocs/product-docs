@@ -25,4 +25,5 @@
    ![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingopenapp20201222.png)
 
 5. 保存并运行流程,运行效果如下图所示。
+
    ![运行效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showopenapp20201222.png)
