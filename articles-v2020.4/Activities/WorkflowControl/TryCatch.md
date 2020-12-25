@@ -17,6 +17,7 @@
 ## 操作样例
 
 1. 拖入**打开浏览器** 组件，输入网址“https://www.aliyun.com”。
+
 2. 设置变量list，变量类型为`List<String>`，默认值为`new List<String>{"最新活动","产品","解决方案"}`，如下图所示：
 
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-1.png)
