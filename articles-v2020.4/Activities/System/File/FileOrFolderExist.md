@@ -22,7 +22,7 @@
 3. 新建变量"exists"，用于判断路径是否存在：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/isExist-3.png)
 
-4. 拖入**写入日志**组件：
+4. 搜索**写入日志**组件，并拖入组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/isExist-4.png)
 
 5. 运行流程，判断文件"E:\shirley\hello.txt"存在，输出"True"：
