@@ -33,7 +33,7 @@
    ![配置等待元素出现](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingwaitelementvanish20201224.png)
 
 5. 在**等待元素消失**组件的下方，拖入一个**写入日志**组件，并配置属性参数，将**等待元素消失**组件返回的结果输出至日志中。
-   - 日志级别：下拉选择日志级别，如，Info
-   - 日志内容：输入日志内容，如，W.ToString()
+    - 日志级别：下拉选择日志级别，如，Info
+    - 日志内容：输入日志内容，如，W.ToString()
 6. 保存并运行流程，可看到将**等待元素消失**组件返回的结果输出至日志中的运行效果，如下图所示。
    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showwaitelementvanish20201224.png)

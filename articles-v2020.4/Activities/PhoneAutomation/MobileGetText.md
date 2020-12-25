@@ -24,8 +24,9 @@
 4. 配置**获取文本**组件的属性参数。
    ![配置获取文本属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextproperty20201223.png)
 5. 在**获取文本**组件的下方，拖入一个**确认框**组件，并配置属性参数，将获取到的属性文本值输出至确认框中。
-   - 标题：输入确认框的标题，如，"确认获取文本的值"
-   - 描述：输入确认框中的正文内容，如，"GetText:"+GetText
+    - 标题：输入确认框的标题，如，"确认获取文本的值"
+    - 描述：输入确认框中的正文内容，如，"GetText:"+GetText
+
 6. 保存并运行流程，可看到将获取到的文本内容输出至确认框中的运行效果，如下图所示。
    ![运行效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showgettext20201223.png)
 

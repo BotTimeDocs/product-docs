@@ -18,9 +18,12 @@
 
 ![CSharpUI](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CSharp20201211.png)
 
-   - 文件路径：单击“…”按钮，选择 C# 文件的路径并打开，如，D:\workspace\Encoo\组件流程\.code\CSharp\执行CSharp代码.cs
-   - 编辑代码：单击“编辑代码”按钮，在 C# 代码编辑器中输入需要执行的 C# 代码段，如下图所示。
+    - 文件路径：单击“…”按钮，选择 C# 文件的路径并打开，如，D:\workspace\Encoo\组件流程\.code\CSharp\执行CSharp代码.cs
+
+    - 编辑代码：单击“编辑代码”按钮，在 C# 代码编辑器中输入需要执行的 C# 代码段，如下图所示。
+  
      ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutecsharp20201218.png)
+
 3. 保存并运行流程。
 4. 在输出窗口中查看运行结果。
 
