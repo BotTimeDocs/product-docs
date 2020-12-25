@@ -19,3 +19,13 @@
 
 - **工作表** ：写入数据的目标工作表。若指定工作表不存在则自动新建。仅支持字符串变量和字符串
 - **起始单元格** ：写入数据的开始单元格地址。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**打开/新建**组件，勾选是否新建文件，再填入需要打开或者新建的Excel文件，并配置所需选项内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)
+
+2. 双击**打开/新建**组件，拖入2个**写入行/列数据**组件，分别配置工作表名称、起始单元格位置、数据内容以及分别设置写入方式为横向写入数据和纵向写入数据:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps51.png)
+
+3. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps52.png)

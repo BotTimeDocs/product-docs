@@ -23,3 +23,20 @@
 
 - **添加列头** ：勾选时，将工作表第一行作为新生成数据表的列头；不勾选时，新生成数据表的列头默认为&quot;1，2，3…&quot;
 - **使用筛选** ：勾选时，将不读取指定区域内超出过滤范围的数据；不勾选时，将同时读取指定区域内所有数据，包括超出过滤范围的数据
+
+
+## 操作样例
+1. 新建一个Excel文件，在A1:B7处填入需要被读取的值:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**读取区域**组件至**打开/新建**组件中，填写工作表和区域范围，在输出数据中写入变量来接收读取的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps10.png)
+
+4. 拖入**预览数据表**组件，来预览读取区域的数据表内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps11.png)
+
+5. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps12.png)
