@@ -2,7 +2,7 @@
 
 机器人可以通过桌面点击的方式执行流程，也可以通过控制台集中管理执行流程。
 
-控制台集中管理执行流程详见：[如何下发一个流程](/articles-v2020.4/Console/workflow/manageworkflow.md)
+控制台集中管理执行流程详见：[如何下发一个流程](https://academy.encoo.com/zh-cn/wiki/Console/workflow/manageworkflow.md)
 
 本地执行的流程来源分为两种：
 
