@@ -16,3 +16,21 @@
 输出
 - **数据表** ：将联结两表后的结果保存到此变量
 
+## 操作样例
+
+1. 拖入**搭建数据表**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)
+
+2. 双击打开搭建数据表搭建器，编辑列信息和行值，创建一个类型为DataTable类型的变量用于存放输出数据表，例：table，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122402.png)
+
+3. 再拖入一次**搭建数据表**组件按步骤2创建数据表table2，搭建的时候可以列名设置一列与表1一样的方便下面的联结操作，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/JoinDataTable20201225.png)
+
+4. 拖入**联结数据表**组件和**预览数据表**组件，双击打开联结数据表，设置联结配置，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/JoinDataTable2020122502.png)
+
+5. 点击运行，查看运行结果，检查预览出的数据表是否是两个表左连接的正确结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/JoinDataTable2020122503.png)
+
+
