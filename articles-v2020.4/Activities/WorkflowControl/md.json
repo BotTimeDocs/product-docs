@@ -76,8 +76,14 @@
     {
         "id": "BotTime.Flow.Activities.InvokeWorkflow",
         "name": "InvokeWorkflow.md",
-        "localizedName": "调用流程",
+        "localizedName": "调用子流程",
         "uuid": "979ab9aa-e5ae-4663-a5af-b8b7c5be7579"
+    },
+    {
+        "id": "BotTime.Flow.Activities.InvokeReferencedWorkflowActivity",
+        "name": "InvokeReferencedWorkflow.md",
+        "localizedName": "调用流程（引用项目）",
+        "uuid": "15783178-2ce7-440d-b4ad-49b3827cbfab"
     },
     {
         "id": "BotTime.Flow.Activities.Abort",

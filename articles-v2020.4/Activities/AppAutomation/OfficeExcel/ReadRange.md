@@ -24,3 +24,20 @@
 - **保留格式** ：勾选时，将同时读取目标单元格区域的数据内容和数据格式（例如：货币，日期等），并在作为&quot;写入区域&quot;的输入时，同时保持此数据格式；不勾选时，在&quot;写入区域&quot;时使用默认&quot;常规&quot;数据格式
 - **使用筛选** ：勾选时，将不读取指定区域内超出过滤范围的数据；不勾选时，将同时读取指定区域内所有数据，包括超出过滤范围的数据
 - **添加列头** ：勾选时，将工作表第一行作为新生成数据表的列头；不勾选时，新生成数据表的列头默认为&quot;1，2，3…&quot;
+
+## 操作样例
+
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**读取区域**组件至项目流程中，填写sheet名称“sheet1”，填写读取区域范围“A1：D3”，新建变量"datatable"类型为datatable，用来存放区域内所有单元格的内容
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange1.png)
+
+4. 拖入**写入区域**组件至项目流程中，填写sheet名称“sheet2”，填写写入区域范围“A1：D3”，填写要写入的变量，这里使用"datatable"。也就是使用“sheet1”的“A1：D3”的内容写入“sheet2”的“A1：D3”
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange2.png)
+
+5. 点击运行，运行成功后。打开Excel查看sheet1区域范围“A1：D3”的内容已经写入sheet2的“A1：D3” 内
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange3.png)

@@ -1,4 +1,101 @@
 # 云扩 RPA 产品发版说明
+## 2020.12.24 发版说明
+2020.12.24 发布了云扩 RPA ,本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 3.0.33343 |
+
+你可以通过[云扩控制台](https://console.encoo.com/)下载并体验相关产品。
+
+### 新增功能
+
+#### 【控制台】
+1\. 新增队列监控功能，多维度对队列中机器人、流程任务运行调度情况进行统计监测：
+
+   * 统计队列数量、队列任务时长、流程部署数量、机器人数量、机器人忙碌比；
+   * 统计分析队列成功占比 TOP 10、队列故障占比 TOP 10；
+   * 统计调度队列任务状态分布情况；
+   * 展示调度队列忙碌情况及执行流程情况；
+   * 统计调度队列任务平均等待时长 TOP 10。
+  
+2\. 支持用户在触发流程任务时对指定机器人进行修改，便于用户实时修改执行目标。
+3\. 控制台所有模块中新增顶部区域及功能提示，辅助用户了解功能，同时美化系统样式。
+4\. 流程部署、调度队列及任务记录中支持对任务优先级进行调整，便于调整任务执行顺序。
+5\. 流程部署时支持使用资产管理定义的账户密码凭证及参数进行赋值以执行流程。
+6\. 新增获取加密资产 API 开放给组件端进行调用。
+
+### 改进与增强
+
+#### 【控制台】
+
+1\. 统一系统内用户姓名、个人姓名，优化部分姓名数据同步机制。
+2\. 优化控制台菜单栏整体交互、样式、图标，提升视觉效果。
+3\. 优化控制台全局列表样式、抽屉浮窗样式，提升用户体验。
+4\. 优化仪表盘数据统计方式，提升系统性能。
+5\. 统一英文环境下界面的样式。
+6\. 改进前端界面对 IE 11的支持及适配效果，提升用户体验。
+7\. 优化审计日志、仪表盘中时间查询问题。
+
+## 2020.12.21 发版说明
+2020.12.21 发布了云扩 RPA ,本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2012.10 |
+|机器人 |1.1.2012.10|
+
+你可以通过[云扩控制台](https://console.encoo.com/)下载并体验相关产品。
+
+### 新增功能
+
+#### 【编辑器】
+1. 企业版支持[手机自动化](Studio/process/developProject/MobileDevicesManage/Download.md)操作，实现在 PC 端可以操作手机上的各元素。
+2. 支持[引用外部项目](Studio/process/ReferenceProject.md)作为依赖项，供当前流程使用。
+3. 支持启用[版本控制（预览）](Studio/VersionControl.md)功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
+4. 支持导入文件：将其他文件导入到当前所选文件夹下。
+5. 支持单个组件包括在错误捕获中：将选择的单个组件用错误捕获组件包括在Try模块中，方便调试。
+6. 支持切换[激活](Studio/quickStart/Activation.md)方式：在关于页面实现社区版/企业版编辑器激活方式的切换以便重新激活。
+
+#### 【组件库】
+1. 代码工具 > 类型转换：[文本转日期和时间](Activities/CodeExecuter/TypeConversion/TextToDateActivity.md)、[数组转集合](Activities/CodeExecuter/TypeConversion/ArrayToCollectionActivity.md)、[集合转数组](Activities/CodeExecuter/TypeConversion/CollectionToArrayActivity.md)。
+2. 系统 > 屏幕：[锁屏](Activities/System/Screen/WindowsLockActivity.md)/[解锁](Activities/System/Screen/WindowsUnlockActivity.md)，实现电脑锁屏时，支持在web自动化操作及自动解锁屏幕。
+3. 控制台 > [下载文件](Activities/Console/FileDownloadActivity.md)：下载云扩 RPA 控制台“数据中心 > 文件服务”中已上传的文件。
+4. 界面自动化 > [鼠标拖动](Activities/UIAutomation/DragDrop.md)：实现模拟鼠标按下拖动的操作，如，按下鼠标左键将文件拖动至另一文件夹内。
+5. 软件自动化 > Office Excel ：[分列](Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)、[复制粘贴区域](Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)。
+6. 流程控制 > [调用流程（引用项目）](Activities/WorkflowControl/InvokeReferencedWorkflow.md)：实现调用已引用的项目的流程文件，供当前项目流程使用。
+7. 代码工具 > Python：[安装Python](Activities/CodeExecuter/Python/PythonInstall.md)、[Python环境](Activities/CodeExecuter/Python/PythonScope.md)、[执行Python代码](Activities/CodeExecuter/Python/PythonExcuteFile.md)。
+
+#### 【机器人】
+
+1. 支持流程[执行过程截图](Robot/localworkflow.md)，方便运维人员排查及追踪异常。
+2. 支持防止流程执行[超时](Robot/localworkflow.md)：若运行时间超过设定的时间时则终止流程。如，勾选“超时时间1小时”，表示超过1小时未执行完流程，则终止流程。
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 新增**打开文件**、**打开目录**、**日期**等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
+2. 优化**导出项目**功能，当导出组件项目时，导出文件的扩展名为 egs，以区别于流程项目的 dgs 文件。
+3. 优化[管理市场](Studio/market/Market.md)、[代码市场](Studio/market/NuGetMarket.md)、[组件市场](Studio/market/activityMarket.md)界面样式：由原来的弹框形式优化为标签页形式。
+4. 优化导出项目和[发布项目](Studio/process/PublishProject.md)：支持将依赖项导出到流程包中。
+5. 优化组件批注：支持组件批注快捷键**Shift+F2**。
+6. 支持显示所有文件、包括在项目中/从项目中排除，方便发布项目时从项目中排除某些文件。
+
+#### 【组件库】
+
+1. 优化重试组件：支持该组件**重试间隔**属性的默认值为时间格式（00:00:00），避免用户输入错误，提升用户输入体验。
+2. 针对[获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)、[等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)、[属性校验](Activities/Check/AttributeCheck.md)这些组件，支持获取自定义属性。
+3. [选择器编辑器](Activities/Appendix/Selector.md)支持验证属性值为变量（变量需有默认值）的情况、支持验证多个相同元素，提升用户体验。
+4. [选择器编辑器](Activities/Appendix/Selector.md)/[元素探测器](Activities/Appendix/UiDetector.md)的属性值支持常量变量混合输入、支持识别用户界面元素所需的所有元素并按已应用和未应用状态进行分类展示，提升用户体验。
+5. 代码工具 > C# > [执行C#代码](Activities/codeexcuter/../CodeExecuter/CSharp/ExecuteCSharp.md)：支持类、函数的编写，增强组件功能。
+6. 数据库系列组件（[执行语句](Activities/Database/ExecuteNonQuery.md)、[查询](Activities/Database/Select.md)）：支持根据实际情况设置超时，以适用不同的应用场景。
+7. 软件自动化 > Office Excel > [查找](Activities/appautomation/officeexcel/Search.md)：支持模糊查找和精确查找，给用户带来更灵活、更方便的操作体验。
+
+#### 【机器人】
+
+1. 优化执行流程时[参数的设置方式](Robot/localworkflow.md)：新增**打开文件**、**打开目录**、**日期**等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
+2. 优化[流程市场界面](Robot/ProcessMarket.md)，鼠标悬浮于任意流程时，即可显示“运行”按钮，提升用户使用体验。
+3. 优化[概览界面](Robot/Overview.md)：对于无定时任务和无最近执行流程时，支持关联对应的页面，引导用户使用，提升操作体验。
+
 ## 2020.12.10 发版说明
 2020.12.10 发布了云扩 RPA ,本次发布的产品及版本号为：
 |         | 版本号      |
@@ -10,9 +107,14 @@
 ### 新增功能
 
 #### 【控制台】
-1. 新增[机器人监控仪表盘](robot/../Console/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比TOP/状态分布/忙碌TOP等等。
-2. 新增控制台埋点开关，便于用户自由选择是否监测系统行为。
-3. 上线新的手机验证 API 、用户列表 API ，便于打通云扩系统间数据。
+1. 新增[机器人监控仪表盘](Console/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比TOP/状态分布/忙碌TOP等等。
+2. 新增[机器人运行统计表](Console/dashboard/dashboard2.md)，支持自定义时间段查询机器人执行任务数、执行成功数、存在总时长、忙碌总时长、平均忙碌比、平均成功率等明细情况及变化走势。
+3. 新增[用户流程统计表](Console/dashboard/dashboard3.md)，支持自定义时间段查询用户创建流程部署数、创建任务计划数、相应任务运行状态等明细情况及走势。
+4. 新增共享机器人，支持各资源组调度队列及流程部署使用共享机器人执行任务，增加机器人利用率。
+5. 流程部署支持下发命令控制机器人录制视频，日志详情页面支持查看视频录制及回放。
+6. 新增控制台埋点开关，便于用户自由选择是否监测系统行为。
+7. 上线新的手机验证 API 、用户列表 API ，便于打通云扩系统间数据。
+
 ### 改进与增强
 
 #### 【控制台】
@@ -21,7 +123,6 @@
 3. 对系统部分页面空数据或无访问权限显示方式进行优化。
 4. 修复安全问题，提升系统安全性，例如，账户密码校验规则限制、失败锁定等。
 5. 优化英文版下的系统部分样式及文言。
-
 
 ## 2020.11.26 发版说明
 2020.11.26 发布了云扩 RPA ，本次发布的产品及版本号为：
@@ -197,7 +298,7 @@
 
 #### 【控制台】
    
-1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 [文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/asset/AboutAsset.md)。
+1. 对控制台整体架构进行升级，同时丰富RPA调度功能，上线云端版和私有化版，支持功能包括 [调度队列](Console/queue/aboutqueue.md)、[任务记录](Console/job/aboutJob.md)、 [文档理解](Console/docreader/aboutDocreader.md)、[资产管理](Console/datacentor/asset/AboutAsset.md)。
 
 ### 改进与增强
 

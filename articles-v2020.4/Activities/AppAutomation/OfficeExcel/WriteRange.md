@@ -22,3 +22,19 @@
 可选项
 
 - **添加列头** ：勾选时，数据表列头也将写进工作表
+## 操作样例
+
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**读取区域**组件至项目流程中，填写sheet名称“sheet1”，填写读取区域范围“A1：D3”，新建变量"datatable"类型为datatable，用来存放区域内所有单元格的内容
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange1.png)
+
+4. 拖入**写入区域**组件至项目流程中，填写sheet名称“sheet2”，填写写入区域范围“A1：D3”，填写要写入的变量，这里使用"datatable"。也就是使用“sheet1”的“A1：D3”的内容写入“sheet2”的“A1：D3”
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange2.png)
+
+5. 点击运行，运行成功后。打开Excel查看A1的内容已经写入A2。
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange3.png)
