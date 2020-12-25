@@ -25,3 +25,17 @@
 
 - **移动单元格** ：勾选时，删除数据同时将移动单元格，移动模式以&quot;用户选择为准；不勾选时，仅删除文本且不清空格式
 - **移动模式** ：当勾选&quot;移动单元格&quot;时，下拉此项选择单元格的移动模式。具体效果实现同Office Excel
+
+
+## 操作样例
+1. 新建一个Excel文件，在A1:B7处填入需要被读取的值:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**删除数据**组件至**打开/新建**组件中，填写工作表和列号:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps27.png)
+
+4. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps28.png)
