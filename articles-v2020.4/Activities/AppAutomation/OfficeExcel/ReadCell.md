@@ -22,3 +22,19 @@
 可选项
 
 - **保留格式** ：勾选时，将同时读取目标单元格的数据内容和数据格式（例如：货币，日期等），并在作为&quot;写入单元格&quot;的输入时，同时保持此数据格式；不勾选时，在&quot;写入单元格&quot;时使用默认&quot;常规&quot;数据格式
+## 操作样例
+
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**读取单元格**组件至项目流程中，填写sheet名称，填写单元格名称，新建变量"cellContent"类型为String，用来存放单元格内容
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
+
+4. 拖入**写入单元格**组件至项目流程中，填写sheet名称，填写单元格名称，填写要写入的变量，这里使用"cellContent"。也就是使用A1的内容写入A2
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
+
+5. 点击运行，运行成功后。打开Excel查看A1的内容已经写入A2。
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell3.png)
