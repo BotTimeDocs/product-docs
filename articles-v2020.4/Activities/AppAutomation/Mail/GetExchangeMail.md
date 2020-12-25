@@ -37,11 +37,11 @@
 1. 拖入**获取邮件(Exchange)**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailExchange20201223.png)
 
-2. 输入服务器字符串和端口号，例：“×××.outlook.cn”和993，输入List<MailMessage>类型的变量到邮件，例：mail，输入邮箱地址，邮箱文件夹和密码，例：“××@encootech.com”，“inbox”和“×××password”，如下图所示：
-![]()
+2. 输入服务器字符串，例：“https://×××.outlook.cn”，输入List<MailMessage>类型的变量到邮件，例：mail，输入邮箱地址，邮箱文件夹和密码，例：“××@encootech.com”，“收件箱”和“×××password”，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailExchange2020122302.png)
 
-3. 拖入**写入日志**组件，输入**写入日志**的日志内容，打印出获取的第一个邮件的内容，例：mail[0].Body.ToString()，如下图所示：
-![]()
+3. 拖入**写入日志**组件，输入**写入日志**的日志内容，打印出获取的第一个邮件的主题，例：mail[0].Subject.ToString()，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailExchange2020122303.png)
 
-4. 点击运行，查看运行结果，检查写入日志的邮件内容是否正确：
-![]()
+4. 点击运行，查看运行结果，检查写入日志的邮件主题是否正确：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailExchange2020122304.png)
