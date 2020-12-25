@@ -16,3 +16,12 @@
 ### 目标
 
 - **[选择器](../Appendix/Selector.md?_v=v2020.4)**：用于指示要点击的目标位置。可通过点击**指定元素**自动生成。仅支持字符串变量和字符串。
+
+## 操作样例
+
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+2. 在连接设备组件内拖入一个**滑动屏幕**组件。
+3. 单击**滑动屏幕**组件中的**指定元素**链接，在移动设备管理器界面按下鼠标左键从左往右或从右往左滑动，如下图所示。
+   ![滑动屏幕](https://docimages.blob.core.chinacloudapi.cn/images/Activities/swipescreen20201223.png)
+
+4. 保存并运行流程，可看到屏幕出现左滑或右滑的效果。
