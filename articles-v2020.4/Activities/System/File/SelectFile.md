@@ -23,7 +23,7 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-1.png)
 2. 拖入**写入日志**组件，可以输出选择的文件路径信息
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-2.png)
-3. 运行流程，**选择文件**组件开始，弹出选择文件的框
+3. 运行流程，**选择文件**组件开始运行，弹出选择文件的框
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-3.png)
 4. 手动选择一个文件，查看输出的文件路径信息
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-4.png)
