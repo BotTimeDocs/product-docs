@@ -11,7 +11,7 @@
 
 ## 操作样例
 
-1. 创建变量list，变量类型为List\<String\>, 默认值为 new List\<String\>{"a","b","1","c"}:
+1. 创建变量list，变量类型为`List<String>`, 默认值为 `new List<String>{"a","b","1","c"}`:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-1.png)
 
 2. 拖入**循环操作（For Each）** 组件，将变量list作为循环体：

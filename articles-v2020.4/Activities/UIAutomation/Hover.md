@@ -15,3 +15,14 @@
 - **控件元素** ：接收变量作为鼠标悬停的目标元素。此项和&quot;选取器&quot;二选一填入
 - **选取器** ：用于指示鼠标悬停的目标位置。可通过点击&quot;指定元素&quot;自动生成。仅支持字符串变量和字符串
 - **匹配超时(毫秒)** ：限定查找目标元素时间，超出指定时间后将不再等待。若超过此时间还未匹配到指定元素则会抛出错误。单位为毫秒（ms）,1000ms = 1s。仅支持整型变量和整型
+
+## 操作样例
+1. 拖入**打开浏览器**组件，输入网址，如：https://www.encoo.com：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-1.png)
+
+2. 拖入**悬停**组件，并指定网页上需要悬停才可以展示的元素，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-2.png)
+
+3. 点击运行流程，查看悬停效果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-3.png)
+

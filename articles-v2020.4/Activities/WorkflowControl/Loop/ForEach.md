@@ -16,7 +16,7 @@
 - **当前索引** ：当前次循环的对象索引
 
 ## 操作样例
-1. 设置变量list，变量类型为List\<String\>, 并添加默认值 new List\<String\>{"a","b","c"},如下图所示：
+1. 设置变量list，变量类型为`List<String>`, 并添加默认值 `new List<String>{"a","b","c"}`,如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forEach-1.png)
 
 2. 拖入**循环操作（For Each）** 组件，并设置循环体为变量list：
