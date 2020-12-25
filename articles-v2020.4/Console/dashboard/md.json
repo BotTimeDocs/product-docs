@@ -2,7 +2,24 @@
     {
         "id": null,
         "name": "dashboard.md",
+<<<<<<< Updated upstream
         "localizedName": "总体监控"
+=======
+        "localizedName": "总体监控",
+        "uuid": "e5ebdd09-82f4-4276-a3b9-d7d1cd430f8f"
+    },
+    {
+        "id": null,
+        "name": "RobotDashboard.md",
+        "localizedName": "机器人监控",
+        "uuid": "51466fde-8f69-45a0-851a-fce26ff60317"
+    },
+    {
+        "id": null,
+        "name": "QueueDashboard",
+        "localizedName": "队列监控",
+        "uuid": " "
+>>>>>>> Stashed changes
     },
     {
         "id": null,
