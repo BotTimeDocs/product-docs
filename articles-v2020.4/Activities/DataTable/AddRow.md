@@ -23,3 +23,4 @@
 
 2. 双击打开搭建数据表搭建器，编辑列信息和行值，创建一个类型为DataTable类型的变量用于存放输出数据表，例：table，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122402.png)
+3. 
