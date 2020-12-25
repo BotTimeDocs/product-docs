@@ -22,3 +22,13 @@
 输出
 
 - **返回值** ：将执行JavaScript文件后返回的值存储在此变量
+
+## 操作样例
+1. 拖入**执行JavaScript文件**组件并指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file.png)
+
+2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-verify.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-end.png)
