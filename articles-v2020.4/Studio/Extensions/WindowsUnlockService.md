@@ -5,7 +5,7 @@
 所以针对这种情况，现提供可使 RPA 机器人进行防锁屏运行的功能。
 
 ## 案例实现
-编辑器或机器人在运行[锁屏](System/Screen/WindowsLockActivity.md)或[解锁](System/Screen/WindowsUnlockActivity.md)组件之前，需以**管理员身份**安装 **Windows 屏幕解锁服务**，以实现在 Windows 中自动化软件界面的操作。
+编辑器或机器人在运行[锁屏](../../Activities/System/Screen/WindowsLockActivity.md)或[解锁](../../Activities/System/Screen/WindowsUnlockActivity.md)组件之前，需以**管理员身份**安装 **Windows 屏幕解锁服务**，以实现在 Windows 中自动化软件界面的操作。
 1. **安装 Windows 屏幕解锁服务** <br>
   
    a. 以管理员身份运行**编辑器**或**机器人**应用。<br>
