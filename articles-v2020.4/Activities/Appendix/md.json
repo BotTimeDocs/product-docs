@@ -13,6 +13,12 @@
     },
     {
         "id": null,
+        "name": "SupportedVariableName.md",
+        "localizedName": "支持变量的属性",
+        "uuid": "8e2cce80-aa48-4cc9-90ea-7ef8233beaed"
+    },
+    {
+        "id": null,
         "name": "Selector.md",
         "localizedName": "选择器",
         "uuid": "3b7fa33e-041d-49dd-bd80-5876b7971019"
@@ -27,6 +33,6 @@
         "id": null,
         "name": "IELog.md",
         "localizedName": "收集 IE 前端日志工具",
-        "uuid": ""
+        "uuid": "f4287a7d-f776-4dcc-b12d-9aef96307b7b"
     }
 ]

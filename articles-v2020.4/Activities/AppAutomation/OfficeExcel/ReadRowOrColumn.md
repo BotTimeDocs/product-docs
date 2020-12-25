@@ -21,7 +21,28 @@
 
 - **保留格式** ： 勾选时，将同时读取目标单元格的数据内容和数据格式（例如：货币，日期等），并在作为"写入单元格"等写入组件的输入时，同时保持此数据格式；不勾选时，在写入时使用默认"常规"数据格式
 
+## 操作样例
 
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**读取行/列数据**组件至项目流程中，填写sheet名称“sheet1”，填写起始单元格“A1”，新建变量"row"类型为Object[]用来存放本**行**所有单元格的内容，读取行/列默认选择行：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRowOrColumn1.png)
+
+4. 拖入**读取行/列数据**组件至项目流程中，填写sheet名称“sheet1”，填写起始单元格“A1”，新建变量"col"类型为Object[]用来存放本**列**所有单元格的内容，读取行/列选择列：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRowOrColumn2.png)
+
+5. 拖入**写入行/列数据**组件至项目流程中，填写sheet名称“sheet2”，填写起始单元格“A1”，填写类型为Object[]变量"row"用来填充本**行**内容，读取行/列默认选择行：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn1.png)
+
+6. 拖入**写入行/列数据**组件至项目流程中，填写sheet名称“sheet2”，填写起始单元格“A1”，填写类型为Object[]变量"col"用来填充本**列**内容，读取行/列默认选择列：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn2.png)
+
+7. 点击运行，运行成功后打开Excel，查看Sheet1第一行的内容从A1开始已经写入sheet2的第一行，Sheet1第一列的内容从A1开始已经写入sheet2的第一列：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn3.png)
 
 
 

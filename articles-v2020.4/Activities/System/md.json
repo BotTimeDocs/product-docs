@@ -10,6 +10,11 @@
         "localizedName": "文件"
     },
     {
+        "id": null,
+        "name": "Screen",
+        "localizedName": "屏幕"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.ConfirmMessageBox",
         "name": "ConfirmDialog.md",
         "localizedName": "确认框",
