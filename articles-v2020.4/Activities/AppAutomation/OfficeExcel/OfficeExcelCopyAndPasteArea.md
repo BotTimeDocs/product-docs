@@ -21,7 +21,6 @@
 ## 操作样例
 
 1. 准备一份 Excel 工作表数据，计划将Sheet1中的B列数据复制粘贴至Sheet2中的A列。   
-
    ![数据准备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sheet1andsheet220201217.png)
 
 2. 拖入一个Office Excel的**打开/新建**组件至流程中。
@@ -31,7 +30,6 @@
 
 4. 双击该组件，拖入一个**复制粘贴区域**组件至**打开/新建**组件中。
 5. 配置**复制粘贴区域**组件的属性参数，如下图所示。
-
    ![属性配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
 
    - 源工作表：输入需要复制数据的工作表名称，如，"Sheet1"
@@ -41,5 +39,4 @@
 
 6. 保存并运行流程。
 7. 在目标工作表Sheet2中查看粘贴后的数据。
-
    ![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)

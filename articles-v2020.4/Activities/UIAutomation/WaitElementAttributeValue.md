@@ -19,8 +19,18 @@
 
 输入
 - **属性名** ：要获取的目标元素的属性名。仅支持字符串变量和字符串
-  
   >**说明：**
   >
   >支持在组件中属性名的下拉列表框中输入已存在但未显示的自定义属性。
 - **属性值** ：等待指定元素的属性值为此项时，才执行下一个组件。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**等待元素属性值**组件，设置对应的属性值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAttr1.png)
+
+2. 指定元素，并验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAttr2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAttr3.png)
+
