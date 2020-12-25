@@ -24,14 +24,14 @@
 2. 双击打开，并点击**...**选择本地Excel文档：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
 
-3. 拖入**设置单元格背景色**组件至项目流程中，填写sheet名称“sheet1”，填写单元格名称“A1”或者是区域“A1：D3”，点击组件右下角颜色选择器，选择一个颜色。
+3. 拖入**设置单元格背景色**组件至项目流程中，填写sheet名称“sheet1”，填写单元格名称“A1”或者是区域“A1：D3”，点击组件右下角颜色选择器，选择一个颜色：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SetCellBackColor1.png)
 
-4. 组件颜色选择器点击高级tab，拖动或者填写颜色编码。
+4. 组件颜色选择器点击高级tab，拖动或者填写颜色编码：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SetCellBackColor2.png)
 
-5. 组件属性面板点击颜色，直接输入颜色编码。
+5. 组件属性面板点击颜色，直接输入颜色编码：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SetCellBackColor3.png)
 
-6. 点击运行，运行成功后，打开excel，对应的单元格或者区域颜色设置成功
+6. 点击运行，运行成功后，打开excel，对应的单元格或者区域颜色设置成功：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SetCellBackColor4.png)
