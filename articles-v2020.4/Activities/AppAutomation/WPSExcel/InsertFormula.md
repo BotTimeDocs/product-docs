@@ -19,3 +19,17 @@
 输出
 
 - **执行结果** ：将公式执行结果存储在此变量
+
+
+## 操作样例
+1. 新建一个Excel文件，并在Sheet1的A1-E1单元格中分别填写数字10，11，12，13，14:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps55.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**插入公式**组件，分别填写工作表和单元格位置，以及公式内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps56.png)
+
+4. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps57.png)

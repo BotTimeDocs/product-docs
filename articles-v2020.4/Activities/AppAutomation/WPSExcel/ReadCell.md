@@ -18,3 +18,20 @@
 输出
 
 - **数据** ：输出读取的目标单元格内数据
+
+
+## 操作样例
+1. 新建一个Excel文件，在A1处填入需要被读取的值:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps4.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**读取单元格**组件至**打开/新建**组件中，填写工作表和单元格位置，在输出数据中写入变量来接收读取的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps6.png)
+
+4. 拖入**写入日志**组件，来显示读取单元格的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps7.png)
+
+5. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps8.png)

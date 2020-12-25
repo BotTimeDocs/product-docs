@@ -10,3 +10,20 @@
 - **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
 - **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
 
+
+## 操作样例
+1. 拖入**连接数据库**组件，选择当前所需访问数据库类型，再配置连接数据库字符串:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db1.png)
+
+2. 双击**连接数据库**组件，点击"配置向导"按钮，如果已配置数据库字符串信息以及选择了目标数据库类型，则点击"测试连接"按钮，测试成功会提示绿色对勾，反之则失败，需要更新连接数据库字符串内容，确保无误之后重新测试连接，点击"确认"退出配置界面:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db2.png)
+
+3. 拖入**执行事务**组件:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db10.png)
+
+4. 拖入**执行语句**组件，配置sql语句:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db11.png)
+
+5. 点击流程运行，并观察结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db12.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db9.png)

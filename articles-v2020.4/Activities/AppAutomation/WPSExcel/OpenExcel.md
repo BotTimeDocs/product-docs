@@ -22,3 +22,12 @@
 
 - **自动保存** ：勾选时，在组件运行内的每次更改都会自动保存工作簿；不勾选时，在该组件运行结束后将不保存更改
 - **只读** ：以只读模式打开指定工作簿
+
+
+## 操作样例
+1. 拖入**打开/新建**组件，勾选是否新建文件，再填入需要打开或者新建的Excel文件，并配置所需选项内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)
+
+2. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps2.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps3.png)

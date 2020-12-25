@@ -18,3 +18,20 @@
 输出
 
 - **颜色** ：将指定单元格背景色存储在此变量。仅支持字符串变量和字符串
+
+
+## 操作样例
+1. 新建一个Excel文件，并在Sheet1的单元格C7和D7中分别设置背景色为黄色和黑色:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps33.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入2个**获取单元格背景色**组件，分别填写工作表和单元格位置，以及输出的颜色的变量:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps34.png)
+
+4. 拖入**写入日志**组件，来显示读取单元格颜色的内容:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps35.png)
+
+5. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps36.png)
