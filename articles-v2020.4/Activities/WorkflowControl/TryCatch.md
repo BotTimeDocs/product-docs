@@ -16,11 +16,12 @@
 
 ## 操作样例
 
-1. 拖入**打开浏览器** 组件，输入网址“https://www.aliyun.com”；设置变量list，变量类型为`List<String>`,默认值为`new List<String>{"最新活动","产品","解决方案"}`，如下图所示：
+1. 拖入**打开浏览器** 组件，输入网址“https://www.aliyun.com”。
+2. 设置变量list，变量类型为`List<String>`，默认值为`new List<String>{"最新活动","产品","解决方案"}`，如下图所示：
 
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-1.png)
 
-2. 拖入**循环操作（For Each）** 组件并设置循环体为变量list；拖入**错误捕获（Try Catch）** 组件：
+3. 拖入**循环操作（For Each）** 组件并设置循环体为变量list；拖入**错误捕获（Try Catch）** 组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tryCatch-2.png)
 
 3. 双击展开错误捕获组件，拖入**点击**组件至tryCatch容器内，点击指定网页最上端的“最新活动”元素，并打开选择器将Sinfo值“最新活动”用变量代替“{item}”:
