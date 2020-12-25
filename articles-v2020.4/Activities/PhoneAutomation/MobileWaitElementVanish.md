@@ -22,3 +22,18 @@
 
 ### 输出
 - **结果**：将此组件执行的成功与否的结果存储在此变量。当指定目标出现时，存储的值为True，仅支持布尔型变量和布尔。
+  
+## 操作样例
+
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+2. 在连接设备组件内拖入一个**等待元素消失**组件。
+3. 单击**等待元素消失**组件中的**指定元素**链接，选择需要指定等待消失的元素，这里以等待某一图片轮播消失为例，如下图所示。
+   ![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/stepshow20201224.png)
+4. 配置**等待元素消失**组件的属性参数。
+   ![配置等待元素出现](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingwaitelementvanish20201224.png)
+
+5. 在**等待元素消失**组件的下方，拖入一个**写入日志**组件，并配置属性参数，将**等待元素消失**组件返回的结果输出至日志中。
+   - 日志级别：下拉选择日志级别，如，Info
+   - 日志内容：输入日志内容，如，W.ToString()
+6. 保存并运行流程，可看到将**等待元素消失**组件返回的结果输出至日志中的运行效果，如下图所示。
+   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showwaitelementvanish20201224.png)
