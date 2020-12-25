@@ -25,6 +25,12 @@
     },
     {
         "id": null,
+        "name": "QueueDashboard",
+        "localizedName": "队列监控",
+        "uuid": "51466fde-8f69-45a0-851a-fce26ff60317"
+    },
+    {
+        "id": null,
         "name": "dashboard2.md",
         "localizedName": "机器人运行统计表"
         "uuid": ""

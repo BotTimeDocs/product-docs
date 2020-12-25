@@ -319,7 +319,7 @@
 - [文档理解](Console/docreader/aboutDocreader.md)，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
 
 **3.【数据中心】**   
-- [资产管理](Console/asset/AboutAsset.md)：主要用于定义各类账户密码凭证、参数等,可供各类RPA流程进行调用。
+- [资产管理](Console/datacentor/asset/AboutAsset.md)：主要用于定义各类账户密码凭证、参数等,可供各类RPA流程进行调用。
 - [文件服务](Console/datacentor/fileservice/Aboutfileservice.md)：支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
   
 **4.【全局管理】**  

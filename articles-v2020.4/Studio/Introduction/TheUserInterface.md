@@ -77,7 +77,7 @@
 |选项 |	描述 |
 |-----------|---------------------------------------|
 |打开 	|打开项目或文件| 
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../Activities/WorkflowControl/StateMachine/StateMachine.md)、文件夹|
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、文件夹|
 |导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 	|使你可以重命名当前所选文件或文件夹 |
 |删除 	|删除所选中的文件或文件夹 |
