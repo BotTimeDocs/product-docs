@@ -31,7 +31,7 @@
 5. 配置**获取元素属性值**组件的属性参数。
    ![配置获取元素属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dimvarial20201223.png)
 6. 在**获取元素属性值**组件的下方，拖入一个**写入日志**组件，并配置属性参数，将获取到的元素属性值输出至日志中。
-   - 日志级别：下拉选择日志级别，如，Info
-   - 日志内容：输入日志内容，如，"获取到的元素属性值为："+GetElementAttribute
+    - 日志级别：下拉选择日志级别，如，Info
+    - 日志内容：输入日志内容，如，"获取到的元素属性值为："+GetElementAttribute
 7. 保存并运行流程，可看到将获取到的元素属性值输出至日志中的运行效果，如下图所示。
    ![运行效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showgetattribute20201223.png)
