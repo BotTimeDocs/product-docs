@@ -14,9 +14,7 @@
     {
         "id": null,
         "name": "dashboard",
-        "localizedName": "仪表盘",
-        "uuid": "8a3220d8-e219-40b3-9890-21537ddf9aa6"
-    },
+        "localizedName": "仪表盘"    },
     {
         "id": null,
         "name": "packages",

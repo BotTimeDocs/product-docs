@@ -1,0 +1,87 @@
+[
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileConnectActivity",
+        "name": "MobileConnect.md",
+        "localizedName": "连接设备",
+        "uuid": "788fb5aa-7457-4158-a090-426134bae5d2"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileStartAppActivity",
+        "name": "MobileStartApp.md",
+        "localizedName": "打开应用软件",
+        "uuid": "286eb7c6-4f33-4bea-8746-63bcff6b71b4"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileStopAppActivity",
+        "name": "MobileStopApp.md",
+        "localizedName": "关闭应用软件",
+        "uuid": "77557ace-2811-4a9f-bd89-60f321cc6eb4"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileTapActivity",
+        "name": "MobileTap.md",
+        "localizedName": "点击",
+        "uuid": "d9cff8d1-5d8a-4c6f-8048-2e572705f976"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileLongPressActivity",
+        "name": "MobileLongPress.md",
+        "localizedName": "长按屏幕",
+        "uuid": "dcf48e64-76b5-4b3b-b26d-c1e1e55dea9a"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSwipeActivity",
+        "name": "MobileSwipe.md",
+        "localizedName": "滑动屏幕",
+        "uuid": "f22151c2-662f-4dd0-8613-421c2c65ea73"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSendTextActivity",
+        "name": "MobileSendText.md",
+        "localizedName": "发送文本",
+        "uuid": "c32dfabf-65e1-49f6-a447-897da1a96134"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetTextActivity",
+        "name": "MobileGetText.md",
+        "localizedName": "获取文本",
+        "uuid": "008ff794-d307-43d7-80c1-5d9ba6375398"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetAttributeActivity",
+        "name": "MobileGetAttribute.md",
+        "localizedName": "获取元素属性值",
+        "uuid": "d354acde-3f48-4101-8c0c-f3cad616f9c5"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetSmsCodeActivity",
+        "name": "MobileGetSmsCode.md",
+        "localizedName": "获取短信验证码",
+        "uuid": "80e84ae7-d820-4493-bbfb-1bdb21efe7b8"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileClearElementInputActivity",
+        "name": "MobileClearElementInput.md",
+        "localizedName": "清空文本",
+        "uuid": "22567fe7-f39f-4cf4-aed9-34c56204d0e7"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileHomeActivity",
+        "name": "MobileHome.md",
+        "localizedName": "返回主页",
+        "uuid": "1aa0c400-6c49-4655-8ae8-8d77b9869a0a"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileWaitElementAppearActivity",
+        "name": "MobileWaitElementAppear.md",
+        "localizedName": "等待元素出现",
+        "uuid": "10049341-62d2-4715-9c9e-298caf00c67b"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileWaitElementVanishActivity",
+        "name": "MobileWaitElementVanish.md",
+        "localizedName": "等待元素消失",
+        "uuid": "022305d1-6c31-4350-ac45-3e6e3ca4dc07"
+    }         
+
+]

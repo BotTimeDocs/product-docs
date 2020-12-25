@@ -40,3 +40,14 @@
 1. 某个程序正试图在 Outlook 中代表你发送电子邮件警告<br>
    ![发送邮件outlook](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendoutlookmail20201204.png)<br>
    解决办法：参见[官方解答](https://docs.microsoft.com/zh-cn/outlook/troubleshoot/security/a-program-is-trying-to-send-an-email-message-on-your-behalf)
+
+## 操作样例
+
+1. 拖入**发送邮件(Outlook)**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendOutlookMail2020122201.png)
+
+2. 输入发件邮箱地址字符串，例：“××@encootech.com”，输入收件人字符串，例：“××2@encootech.com”，点击选择附件按钮选择作为附件的文件，例：new List<string>{"C:\\Desktop\\发票.png"}，输入邮件内容字符串，例：“云扩科技：发送邮件（Outlook）”，输入邮件主题字符串，例："发送邮件（Outlook）"，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendOutlookMail2020122202.png)
+
+3. 点击运行，查看运行结果，并打开outlook发件箱查看邮件是否发送成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendOutlookMail2020122203.png)

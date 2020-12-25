@@ -19,12 +19,3 @@
 输入
 
 - **勾选** ：选择单选框或复选框的状态为Check选中，Uncheck取消选中，Toggle切换
-## 操作样例
-1. 拖入**勾选**组件并指定元素，从勾选下拉菜单中选择“勾选”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-1.png)
-
-2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-2.png)
-
-2. 步骤1中指定元素的网页保持打开状态，运行流程并查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-3.png)
