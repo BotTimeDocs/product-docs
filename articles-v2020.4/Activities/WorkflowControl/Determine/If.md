@@ -12,3 +12,17 @@
 输入
 
 - **判断条件** ：Boolean类型的表达式
+
+## 操作样例
+
+1. 拖入**获取结构化数据**组件，并指定网页端（例：[某股票网站](http://stockpage.10jqka.com.cn/1A0001/#refCountId=stockpage_5c3e9aef_93)）table元素，设置输出变量：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-1.png)
+
+2. 拖入**条件（if）**组件，设置判断条件 dt.Rows.Count == 10 (判断数据表是否有10行数据)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-2.png)
+
+3. 双击**条件（if）** 组件，并拖入两个**写入日志**组件放置条件容器内，根据判断条件True与False分别写入不同的日志文本：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-3.png)
+
+4. 点击运行流程并查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-4.png)

@@ -24,12 +24,3 @@
 ## 注意点
 - **”超时“** 属性设置需要根据需要去设置，不然就会默认是项目的超时时间（30秒）。举个例子加入我们匹配超时设置成5000（毫秒），超时设置成 20000（毫秒），执行的时候，我们会每5000（毫秒）循环等待目标元素，直到达到“超时”时间（20000毫秒）才会继续往下执行
 
-## 操作样例
-1. 拖入**等待元素出现**组件，设置对应的属性值：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAppear1.png)
-
-2. 指定元素，并验证元素存在性：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAppear2.png)
-
-3. 运行流程并查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAppear3.png)
