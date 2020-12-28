@@ -7,7 +7,9 @@
 状态机是微软 .NET 框架中的一种编程范式，通过状态的改变实现程序逻辑的推进。关于状态机的详细信息，参看[状态机工作流](https://docs.microsoft.com/zh-cn/dotnet/framework/windows-workflow-foundation/state-machine-workflows)。
 
 ## 属性
-基本
+
+###　基本
+
 - **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
 
 ## 操作样例
