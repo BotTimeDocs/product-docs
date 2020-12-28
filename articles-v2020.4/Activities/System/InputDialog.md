@@ -32,3 +32,8 @@
 3. 保存并运行流程。
 4. 查看运行结果，如下图所示。   
    ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showinput20201221.png)
+
+   >**说明：**
+   >
+   >- 选中弹框中显示的内容，鼠标右键，可复制其内容。
+   >- 在输入框中进行鼠标右键，可剪切/复制/粘贴操作。
