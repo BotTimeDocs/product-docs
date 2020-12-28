@@ -1,7 +1,7 @@
 # 云扩 RPA 功能清单
 
 ## 编辑器
-![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/Studio.png)
+![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/studio.png)
 ### 功能点列表
 
 **1.【项目管理】**
@@ -353,14 +353,30 @@
 **1.【可视化编辑器】**
 - 全局组件：新增顶部导航、左侧导航组件，支持应用内多页面跳转。
 - 模板组件：新增流程组件，支持一键启动控制台流程。
+- 新增全新的[数据表管理](Apps/devApps/appsedit/TableManagement/TableManage.md)功能：
+    - 支持用户通过导入或新建的方式在小程序里创建数据表。
+    - 丝滑易用的数据处理：支持即时修改响应，区域复制粘贴，拖拽覆盖等方法帮助用户快速修改数据。
+    - 强大的公式系统：支持单元格公式计算及数据引用，构造表数据的多样性。
+    - 构建数据可视化操作：支持多种列格式，定义适合用户的编辑形式。
+    - 快捷查找：提供多样筛选排序功能，快速分析整理数据。
+    - 强大的协作功能：支持多用户共同对表的修改，保证数据正确响应
+-  构建更强大的交互页面
+    - 新增模块组件：[表格](Apps/devApps/appsedit/component/ModuleComponents/Table.md)、[表单](Apps/devApps/appsedit/component/ModuleComponents/Form.md)、[描述列表](Apps/devApps/appsedit/component/ModuleComponents/DescriptionList.md)、[OCR结果对比](Apps/devApps/appsedit/component/ModuleComponents/CompareOCRResult.md)。
+    - 通过组件自定义页面与数据表交互，让终端用户可以轻松地通过界面操作数据表。
+
 
 **2.【小程序开发库】**
 - 支持应用版本管理，控制台统一对应用进行上下架及版本管理。
 - [任务记录](Apps/devApps/appsedit/component/workflowlog.md)模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+- 支持在**关于我们**页面查看小程序系统的版本号，便于系统版本管理。
+- 新增进入云扩论坛、云扩学院的快捷入口。
 
 **3.【小程序工作站】**
 - 支持**我的应用**查找并运行。
 
 ### 改进与增强
-1. 优化了logo及产品更名：原工作台/应用，更名为小程序 。
+**1.【可视化编辑器】**
+- 优化了logo及产品更名：原工作台/应用，更名为小程序 。
+- 全面优化小程序编辑器交互样式，使界面更清爽、交互更简洁。
+- 优化小程序界面的错误提示内容，使用户更明确。
 
