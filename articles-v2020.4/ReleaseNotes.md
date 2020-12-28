@@ -5,6 +5,35 @@
 >
 >关于社区版与企业版的差异说明及离线文档下载 ，请参见[Q&A页面](QA.md)。
 
+## 2020.12.28 发版说明
+2020.12.28 发布了云扩 RPA ,本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 小程序   | 1.1.1125 |
+
+你可以通过[云扩控制台](https://console.encoo.com/)下载并体验相关产品。
+
+### 新增功能
+
+#### 【小程序】
+1. 新增全新的[数据表管理](Apps/devApps/appsedit/TableManagement/TableManage.md)功能：
+    - 支持用户通过导入或新建的方式在小程序里创建数据表。
+    - 丝滑易用的数据处理：支持即时修改响应，区域复制粘贴，拖拽覆盖等方法帮助用户快速修改数据。
+    - 强大的公式系统：支持单元格公式计算及数据引用，构造表数据的多样性。
+    - 构建数据可视化操作：支持多种列格式，定义适合用户的编辑形式。
+    - 快捷查找：提供多样筛选排序功能，快速分析整理数据。
+    - 强大的协作功能：支持多用户共同对表的修改，保证数据正确响应与加载。
+2. 构建更强大的交互页面
+    - 新增模块组件：[表格](Apps/devApps/appsedit/component/ModuleComponents/Table.md)、[表单](Apps/devApps/appsedit/component/ModuleComponents/Form.md)、[描述列表](Apps/devApps/appsedit/component/ModuleComponents/DescriptionList.md)、[OCR结果对比](Apps/devApps/appsedit/component/ModuleComponents/CompareOCRResult.md)。
+    - 通过组件自定义页面与数据表交互，让终端用户可以轻松地通过界面操作数据表。
+3. 支持在**关于我们**页面查看小程序系统的版本号，便于系统版本管理。
+4. 新增进入云扩论坛、云扩学院的快捷入口。
+   
+### 改进与增强
+
+#### 【小程序】
+1. 全面优化小程序编辑器交互样式，使界面更清爽、交互更简洁。
+2. 优化小程序界面的错误提示内容，使用户更明确。  
 
 ## 2020.12.24 发版说明
 2020.12.24 发布了云扩 RPA ,本次发布的产品及版本号为：
