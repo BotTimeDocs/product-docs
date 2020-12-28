@@ -25,6 +25,6 @@
 4. "复制/移动"：可以选择复制或者移动文件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-2.png)
 
-5. 运行流程，**复制/移动文件**组件开始运行，根据用户要求，成功把E盘的文档复制到D盘的移动文件的目录下面：
+5. 运行流程，**复制/移动文件**组件开始运行，根据用户要求，成功把E盘的文档复制到D盘的“移动文件”的目录下面：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-3.png)
 
