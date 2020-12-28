@@ -32,4 +32,4 @@
 6. 如果在第5步操作中等待元素，那么最终状态为已登录，流程设置如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/stateMachine-7.png)
 
-你还可以参考 [*GuessNumber*](https://docimages.blob.core.chinacloudapi.cn/images/dgsSample/GuessNumber.dgs) 流程，了解状态机相关组件的具体用法。
+你还可以参考 [*GuessNumber*](https://docimages.blob.core.chinacloudapi.cn/images/dgsSample/GuessNumber.dgs) 流程，了解状态机相关组件的其他用法。
