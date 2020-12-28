@@ -18,3 +18,17 @@
 输出
 
 - **末行号** ：将取到的末行号存储在此整型变量内。
+
+## 操作样例
+
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**获取末行号**组件至项目流程中，填写sheet名称，填写要获取的列号，新建变量"rowNum"类型为Int32，用来存放行号：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLastRow1.png)
+
+4. 点击运行，运行成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLastRow2.png)

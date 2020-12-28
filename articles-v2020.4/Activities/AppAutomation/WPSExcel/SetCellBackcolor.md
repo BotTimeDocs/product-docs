@@ -15,3 +15,19 @@
 - **工作表** ：目标单元格所属工作表。仅支持字符串变量和字符串
 - **单元格** ：填充颜色的目标单元格，可填入单元格地址或单元格区域。此处不可为空，否则运行失败
 - **颜色** ：取此值作为填充色。可手动输入或使用拾色器辅助
+
+
+## 操作样例
+1. 新建一个Excel文件:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps20.png)
+
+2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击**打开/新建**组件，拖入**设置单元格背景色**组件，填写工作表和单元格位置以及需要设置的颜色代码:
+- 举例：红色为#FF0000
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps21.png)
+
+4. 点击流程运行，观察运行结果:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps22.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps23.png)

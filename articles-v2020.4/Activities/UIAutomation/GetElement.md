@@ -22,7 +22,20 @@
 输出
 
 - **控件元素** ：将取到的元素存储在此变量，可用于其他组件的输入。此输出所支持的获取属性值请点击[此处](../Appendix/SupportedAttribute.md?_v=v2020.4)查看
-
+ 
   >**说明：**
   >
   >仅当其他组件（如，点击、输入文本等）的输入方式设置为非**设置控件**时，才支持使用图像识别控件元素作为输入。
+
+## 操作样例
+1. 拖入**获取元素**组件并指定元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement1.png)
+
+2. 点击组件调用获取到的元素对象：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement2.png)
+
+3. 打印出获取到的元素对象的某个方法：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement3.png)
+
+ 
+

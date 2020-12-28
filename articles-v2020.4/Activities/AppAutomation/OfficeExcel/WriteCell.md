@@ -19,3 +19,19 @@
 
 - **单元格** ：写入数据的目标单元格地址。可输入单元格或区域.仅支持字符串变量和字符串。当输入区域时，则在指定区域每一个单元格内输入相同数据。
 - **工作表** ：写入数据的目标工作表。仅支持字符串变量和字符串。若指定工作表不存在，则在 Excel 文件中新建该工作表。
+
+## 操作样例
+1. 拖入**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖入**读取单元格**组件至项目流程中，填写sheet名称，填写单元格名称，新建变量"cellContent"类型为String，用来存放单元格内容：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
+
+4. 拖入**写入单元格**组件至项目流程中，填写sheet名称，填写单元格名称，填写要写入的变量，这里使用"cellContent"。也就是使用A1的内容写入A2：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
+
+5. 点击运行，运行成功后。打开Excel查看A1的内容已经写入A2：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell3.png)
