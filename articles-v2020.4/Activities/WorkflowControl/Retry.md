@@ -15,3 +15,10 @@
 ### 可选项
 - **重试次数** ：设置重试的次数，可接变量。
 - **重试间隔** ：设置重试的间隔，默认为时分秒的格式：00:00:00。
+
+## 操作样例
+1. 拖入**重试**组件，根据需要设置重试次数（3）与重试间隔（00:00:05）；双击展开，拖入**等待元素出现**组件，指定需要操作的元素，并设置输出结果变量：isTrue
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Retry-1.png)
+
+2. 设置重试条件 `isTrue == false`，保存并点击运行流程，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Retry-2.png)

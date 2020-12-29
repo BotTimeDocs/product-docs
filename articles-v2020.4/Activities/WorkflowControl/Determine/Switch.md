@@ -12,3 +12,17 @@
 ###　输入
 
 - **表达式** ：输入C#表达式
+
+## 操作样例
+
+1. 拖入**输入框**组件，设置输出变量inputContent，并添加“标题”与“输入描述”，例：请输入任意数字。如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-1.png)
+
+2. 拖入**条件（Swtich）** 组件，设置表达式 `Convert.ToInt32(inputContent) + 3 >= 10`:
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-2.png)
+
+3. 双击展开条件Switch组件，并点击 “Case True”模块，拖入**写入日志**组件至容器内，填入当表达式为真的描述：您输入的数字大于或等于7。用相同的操作设置“Case False”模块：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-3.png)
+
+4. 保存并点击运行流程，查看日志显示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-4.png)
