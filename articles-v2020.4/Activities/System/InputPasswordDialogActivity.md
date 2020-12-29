@@ -18,3 +18,17 @@
 输出
 
 - **输入的密码** ：将输入的密码存储在此变量。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**输入密码**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-1.png)
+
+2. 双击**输入密码**组件的空白处，配置属性参数：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-2.png)
+
+3. 拖入**写入日志**组件到设计面板中，可以打印出用户输入的密码值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-3.png)
+
+4. 保存并运行流程，输入密码“123456”，可以看到控制台打印出密码值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-4.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-5.png)
