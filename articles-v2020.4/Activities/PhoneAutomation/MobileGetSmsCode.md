@@ -34,12 +34,12 @@
    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/workflowsmscode20201230.jpg)
 
 3. 配置流程中各组件，说明如下：
-   - **打开应用软件**：单击指定元素，选择需要打开的手机应用，如，爱康约体检查报告
-   - **赋值**：定义一个 DateTime 类型的变量，并获取当前时间，如，Starttime = System.DateTime.Now
-   - **点击**：指定元素为手机上应用中的发送验证码按钮。
-   - **获取短信验证码**：配置获取短信验证码的输入和输出属性，如下图所示。
+    - **打开应用软件**：单击指定元素，选择需要打开的手机应用，如，爱康约体检查报告
+    - **赋值**：定义一个 DateTime 类型的变量，并获取当前时间，如，Starttime = System.DateTime.Now
+    - **点击**：指定元素为手机上应用中的发送验证码按钮。
+    - **获取短信验证码**：配置获取短信验证码的输入和输出属性，如下图所示。
      ![配置获取短信验证码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smscodevarials20201230.png)
-   - **写入日志**：输出验证码信息。
+    - **写入日志**：输出验证码信息。
 4. 保存并运行流程。
 5. 运行过程中，在手机端可看到效果如下：
    ![手机端效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runprocesssmscode20201230.png)
