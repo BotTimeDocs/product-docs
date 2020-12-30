@@ -16,13 +16,13 @@
 1. 拖入**执行C#代码**组件至流程中。
 2. 双击该组件空白处，可出现已默认填充的文件路径和编辑代码按钮。
 
-![CSharpUI](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CSharp20201211.png)
+    ![CSharpUI](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CSharp20201211.png)
 
     - 文件路径：单击“…”按钮，选择 C# 文件的路径并打开，如，D:\workspace\Encoo\组件流程\.code\CSharp\执行CSharp代码.cs
 
     - 编辑代码：单击“编辑代码”按钮，在 C# 代码编辑器中输入需要执行的 C# 代码段，如下图所示。
   
-     ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutecsharp20201218.png)
+      ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutecsharp20201218.png)
 
 3. 保存并运行流程。
 4. 在输出窗口中查看运行结果。
