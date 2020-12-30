@@ -69,9 +69,13 @@
 <!-- - **新建项目** - 创建一个新的自动化项目 -->
 - **保存** - 将当前编辑好的流程保存
 - **全部保存** - 将所有编辑好的流程保存
-<!--- **导入项目** - 导入外部的自动化项目到编辑器里，以供使用（导入项目入口为**开始 > 打开 > 本地项目 > 导入**）-->
+- **显示所有文件** - 显示所有从项目中排除的文件
+- **删除未使用的屏幕截图** - 删除项目中未使用到的屏幕截图
+  >**说明：**
+  >
+  >如果项目文件下的 Backup 文件夹中有相关流程的备份文件，则无法删除流程文件中的屏幕截图。
 
-![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/workindex20201019.png)
+![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/projectpanel20201230.png)
 
 右击项目面板的任意文件或文件夹，可以打开包含以下选项的上下文菜单： 
 |选项 |	描述 |
