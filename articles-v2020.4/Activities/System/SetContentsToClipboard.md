@@ -16,9 +16,14 @@
 
 - **文本** ：将要填写到剪贴板的文本内容，可接变量
 ## 操作样例
-**设置剪贴板文本**组件可以和**获取剪贴板文本**组件一起搭配使用
 1. 拖入**设置剪贴板文本**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-1.png)
 
-2. 双击进入组件内部，设置变量“result”。文本支持字符串或者变量：
+2. 双击进入组件内部，输入文本框填入变量“result”，输入文本框支持字符串或者变量：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-2.png)
 
-3. 拖入**获取剪贴板文本**组件到设计面板，输出的文本为变量“result”：
+3. 拖入**写入日志**组件到设计面板，可以输出剪贴板上的文本：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-3.png)
+
+4. 运行流程，控制台输出用户设置的剪贴板文本：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-4.png)

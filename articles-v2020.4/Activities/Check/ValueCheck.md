@@ -27,3 +27,15 @@
 输出
 
 - **结果** ：输出两个值对比后的Boolean类型结果
+## 操作样例
+1. 拖入**值校验**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-1.png)
+
+2. 以校验模式为“开始于”举个例子，设置期望值为“a”，实际值为"abc"，设置变量“flag”输出两个值对比后的Boolean类型结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-2.png)
+
+3. 拖入**写入日志**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-3.png)
+
+4. 运行流程，控制台输出两个值对比后的Boolean类型结果，如，“True”：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-4.png)
