@@ -39,7 +39,7 @@
 
 
 5. 点击确认，流程在快速准备后将自动执行。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-0.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/running20201230.png)
 
 
 ### 执行控制台流程
