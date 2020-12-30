@@ -1,7 +1,7 @@
 # 获取短信验证码
 获取手机的短信验证码信息。
 >**说明：**
-> 目前仅支持Andriod手机。
+> 目前仅支持 Andriod 手机。
 
 ## 属性
 
@@ -19,12 +19,35 @@
 
 ### 可选项
 - **来源号码**：验证码短信的来源号码。
-- **正则匹配**：用来进行短信内容匹配，支持正则表达式。
+- **正则匹配**：用来进行短信验证码内容匹配，支持正则表达式。
+    >**说明：**
+    >
+    >此处填写的正则表达式，仅对获取到的验证码（如，548721）再进行正则过滤匹配。
 
 ### 输出
 - **验证码**：获取到的验证码内容。
 
+## 操作样例
 
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+2. 在连接设备组件内按照顺序搭建流程，如下图所示。
+   ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/workflowsmscode20201230.jpg)
 
+3. 配置流程中各组件，说明如下：
+   - **打开应用软件**：单击指定元素，选择需要打开的手机应用，如，爱康约体检查报告
+   - **赋值**：定义一个 DateTime 类型的变量，并获取当前时间，如，Starttime = System.DateTime.Now
+   - **点击**：指定元素为手机上应用中的发送验证码按钮。
+   - **获取短信验证码**：配置获取短信验证码的输入和输出属性，如下图所示。
+     ![配置获取短信验证码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smscodevarials20201230.png)
+   - **写入日志**：输出验证码信息。
+4. 保存并运行流程。
+5. 运行过程中，在手机端可看到效果如下：
+   ![手机端效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runprocesssmscode20201230.png)
 
+6. 在输出框中也可查看运行结果。
+   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/resultsmscode20201230.png)
 
+## 常见问题
+1. Q：为何获取不到短信验证码？
+   <br>A：检查手机短信验证码安全保护是否禁止，若开关打开，则无法获取到验证码。
+   ![短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smssetting20201230.png)   
