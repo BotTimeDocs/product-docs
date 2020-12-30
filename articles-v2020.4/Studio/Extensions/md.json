@@ -28,5 +28,10 @@
         "name": "WindowsUnlockService.md",
         "localizedName": "Windows 屏幕解锁服务",
         "uuid": "ed090e4e-2788-4c56-8494-67fd7e819b43"
+    },
+    {
+        "name": "Citrix.md",
+        "localizedName": "Citrix 扩展",
+        "uuid": "92479eaf-bb75-494f-a62c-779ebb0d74f7"
     }
 ]

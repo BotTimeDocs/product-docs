@@ -31,8 +31,14 @@
     },
     {
         "id": null,
+        "name": "SelectorManager.md",
+        "localizedName": "选择器管理器",
+        "uuid": "5411559b-c398-4b63-b39a-b14c18f3f0a7"
+    },    
+    {
+        "id": null,
         "name": "IELog.md",
         "localizedName": "收集 IE 前端日志工具",
-        "uuid": "f4287a7d-f776-4dcc-b12d-9aef96307b7b"
+        "uuid": "029e146f-993e-4199-923a-7881d4c1ffbf"
     }
 ]
