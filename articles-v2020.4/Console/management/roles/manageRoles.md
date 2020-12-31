@@ -1,4 +1,4 @@
-## 查看角色列表
+# 查看角色列表
 进入“全局设置”-“角色管理”页面中即可查看所有角色的列表信息。在列表页面中可进行新建角色、查看及编辑角色、删除角色等操作。
 ![createroles](https://docimages.blob.core.chinacloudapi.cn/images/Console/roles/rolelist1.png)
 ## 新建角色
