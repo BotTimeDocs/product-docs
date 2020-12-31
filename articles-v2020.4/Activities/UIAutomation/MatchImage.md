@@ -26,3 +26,19 @@
 
 ### 输出
 - **结果集** ：将符合匹配图片的结果集存储在此变量。可使用此子集作为其他组件的控件元素输入
+
+### 注意点
+- 范围限制在静止页面，对于有滚动条的长页面并不会滚动查找
+
+## 操作样例
+1. 拖入**截屏**组件，输出变量设置为Image对象`imgEle`：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage1.png)
+
+2. 拖入**匹配图片**组件，输入的图片为上一步返回的图片对象imgEle, 输出为可遍历的元素结果集`images`
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage2.png)
+
+3. 拖入**点击**组件，输入的元素为上一步返回的结果集中的第一个元素`images.ToList()[0]`：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage3.png)
+
+4. 运行流程，成功点击了匹配到的第一个元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage4.png)

@@ -45,5 +45,19 @@
 
 
 
+## 操作样例
+1. 拖入**属性校验**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-1.png)
+
+2. 以校验模式为“=”举个例子，设置属性名为“url”，值为"https://www.baidu.com/ ”，设置变量“flag”来输出两个值对比后的Boolean类型结果，选择器通过“指定元素”自动生成：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-2.png)
+
+3. 拖入**写入日志**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-3.png)
+
+4. 运行流程，控制台输出两个值对比后的Boolean类型结果，如，“True”：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-4.png)
+
+
 
 

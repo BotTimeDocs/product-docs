@@ -16,14 +16,14 @@
 - **文件路径** ：读取此路径文件的内容。支持相对和绝对路径。可在组件面板点击弹出对话框，选择目标文件；亦支持手动输入路径，若路径不存在，则运行失败。仅支持字符串变量和字符串
 
 ## 操作样例
-1. 拖入**读取文件**组件到设计面板，双击进入组件内部，在组件面板点击弹出对话框，选择目标文件；或者手动输入路径。
+1. 拖入**读取文件**组件到设计面板，双击进入组件内部，在组件面板点击弹出对话框，选择目标文件；或者手动输入路径：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-1.png)
 
-2. 添加输出结果变量fileContent。
+2. 添加输出结果变量fileContent：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-2.png)
 
 3. 拖入**写入日志**组件，可以输出选择的文件内容信息。
 
-4. 运行流程，查看输出的文件内容信息。
+4. 运行流程，查看输出的文件内容信息：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-3.png)
 

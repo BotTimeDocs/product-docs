@@ -31,5 +31,5 @@
 3. 拖入**获取单元格背景色**组件至项目流程中，填写sheet名称“sheet1”，填写单元格名称“A1”，新建变量"color"类型为String，属性面板颜色配置变量"color"：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetCellBackColor1.png)
 
-4. 点击运行，运行成功后打开excel，对应的单元格或者区域颜色设置成功：
+4. 点击运行，运行成功后，打开excel，对应的单元格或者区域颜色设置成功：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetCellBackColor2.png)

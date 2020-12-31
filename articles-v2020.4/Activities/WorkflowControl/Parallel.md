@@ -9,5 +9,18 @@
 - **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
 - **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
 
-### 输入
+
+###　输入
 - **结束条件** ：设置结束执行的条件
+
+## 操作样例
+1. 拖入**并列**组件并双击展开，拖入两个**序列**组件，并重命名为“序列-左侧”与“序列-右侧”，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pallel-1.png)
+
+2. 双击展开左右两次序列，并拖入一些相关组件，做好备注，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pallel-2.png)
+
+3. 保存并点击运行流程，查看输出日志，了解并行组件功能：左侧流程延迟时间段内会运行右侧流程，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pallel-3.png)
+
+

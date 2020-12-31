@@ -21,3 +21,15 @@
 ### 可选项
 
 - **文件同名替换** ：指定是否替换新文件所在目录下的同名文件
+
+
+## 操作样例
+
+1. 拖入**提取为新文档**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractToNewFile_1.png)
+
+2. 双击打开提取为新文档，选取pdf，例："D:\\滴滴电子发票 (1).pdf"，选择需要的页数范围，输入生成路径，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractToNewFile_2.png)
+
+3. 生成新文件为"D:\\滴滴电子发票（3）.pdf"，点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractToNewFile_3.png)

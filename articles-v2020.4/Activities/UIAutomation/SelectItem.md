@@ -23,3 +23,12 @@
 
 - **项目文本** ：下拉框中要选择的项目。最终该组件将点击此项，并显示在下拉框中。仅支持字符串变量和字符串
 
+## 操作样例
+1. 拖入**选择项目**组件，设置对应的属性值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectItem1.png)
+
+2. 指定元素，并验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectItem2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectItem3.png)

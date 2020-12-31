@@ -22,3 +22,20 @@
 ### 输出
 
 - **单元格地址** ：将查找到的第一个单元格地址存储在此变量。仅支持字符串变量和字符串
+
+## 操作样例
+
+1. 新建一个Excel文件，如下：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Search1.png)
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**排序**和**写入日志**到**打开/新建**组件中，填写sheet名称"sheet2"，填写搜索区域，填写搜索的关键字“100”：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Search2.png)
+
+5. 运行成功后，输出面板打印关键字所在的位置：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Search3.png)

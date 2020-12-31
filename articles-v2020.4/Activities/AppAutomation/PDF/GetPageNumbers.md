@@ -18,3 +18,14 @@
 ### 可选项
 
 - **总页数** ：输出PDF文件的总页数
+
+## 操作样例
+
+1. 拖入**获取页数**组件至项目流程中，并设置变量page_num(int32)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetPageNumbers_1.png)
+
+2. 双击打开获取页数，选取pdf，例："D:\\滴滴电子发票 (1).pdf"，选择需要的页数范围，输入生成路径，在输出中添加page_num,如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetPageNumbers_2.png)
+
+3. 点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetPageNumbers_3.png)

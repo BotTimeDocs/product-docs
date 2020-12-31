@@ -47,12 +47,12 @@
 
 2. 手动打开一个新的记事本文件。
 
-3. 点击**指定程序**，进入选择程序状态。
+3. 点击**指定程序**，进入选择程序状态：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-1.png)
 
 4. 将鼠标滑动到打开的记事本程序上，当被选中的记事本程序周边出现黄色框的时候，说明选择器已经识别到记事本程序，然后点击。
 
-5. 点击之后，会自动化返回到编辑器程序中，可以看到“打开程序”组件中已经捕捉到记事本程序的截图。
+5. 点击之后，会自动化返回到编辑器程序中，可以看到“打开程序”组件中已经捕捉到记事本程序的截图：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-2.png)
 
 6. 运行，一个新的记事本文件被打开。
@@ -66,7 +66,7 @@
 
 2. 找到Excel的安装路径："C:\Users\Shirley\AppData\Local\Kingsoft\WPS Office\11.1.0.10228\office6\et.exe" (每台电脑可能因安装路径不同不一样)。
 
-3. 将Excel的路径作为参数填入到 **程序路径**属性中。
+3. 将Excel的路径作为参数填入到 **程序路径**属性中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-3.png )
 
 4. 运行，Excel被打开。

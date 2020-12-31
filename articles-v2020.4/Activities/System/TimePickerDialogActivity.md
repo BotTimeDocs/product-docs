@@ -23,3 +23,21 @@
 
 - **标题**：（非必填）自定义**日期和时间选择框**组件运行时的标题，可接变量。
 - **描述**：（非必填）自定义**日期和时间选择框**组件运行时的描述信息，可接变量。
+
+## 操作样例
+1. 拖入**日期和时间选择框**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-1.png)
+
+2. 双击进入组件内部，配置属性参数。
+- 标题：自定义日期和时间选择框组件运行时的标题，如，“时间”；
+- 描述：自定义日期和时间选择框组件运行时的描述信息，如，“当前时间为：”；
+- 输出：输出用户在弹窗中指定的日期和时间，如，这里我们指定当前时间：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-2.png)
+
+
+3. 拖入**写入日志**组件：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-3.png)
+
+4. 运行流程，弹窗让用户选择日期和时间并输出：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-4.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-5.png)

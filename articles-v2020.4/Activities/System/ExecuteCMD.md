@@ -23,3 +23,16 @@
 ### 输出
 
 - **输出** ：将命令行执行后的结果存储到此变量
+
+## 操作样例
+1. 拖入**执行命令行**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-1.png)
+
+2. 双击进入组件内部，设置参数：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-2.png)
+
+3. 拖入**写入日志**组件，可以输出执行命令行的结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-3.png)
+
+4. 运行流程，查看控制台的输出：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-4.png)
