@@ -12,6 +12,7 @@
 输出
 
 - **路径是否存在** ：将判断结果存储在此变量
+
 ## 操作样例
 1. 拖入**文件/文件夹是否存在**组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/isExist-1.png)

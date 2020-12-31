@@ -23,5 +23,5 @@
 
 3. 保存并运行流程。
 
-4. 查看运行结果，如下图所示，提示框展示2秒后消失：
+4. 查看运行结果，如下图所示，提示框信息展示2秒后消失：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/promptBox-2.png)

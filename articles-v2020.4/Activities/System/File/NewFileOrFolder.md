@@ -15,6 +15,7 @@
 
    - 勾选时：若有同名文件/文件夹则替换。
    - 不勾选时（默认不勾选）：有同名文件/文件夹则报错：“新建失败，有相同名称文件/文件夹”。
+   
 ## 操作样例
 1. 拖入**新建文件/文件夹**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-1.png)

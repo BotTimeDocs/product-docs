@@ -14,18 +14,22 @@
 输出
 
 - **列表** ：将结果列表存储在此变量。返回类型为全路径
+
 ## 操作样例
 1. 拖入**获取文件/文件夹列表**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-1.png)
 
-2. 双击进入组件内部，配置属性参数。路径：可点击“...”选择要获取列表的路径,也支持手动输入。列表模式 ：下拉框选择文件或文件夹，这里我们选择文件。列表：将结果列表存储在此变量，如下图变量“files”：
+2. 双击进入组件内部，配置属性参数。
+- 路径：可点击“...”选择要获取列表的路径,也支持手动输入；
+- 列表模式 ：下拉框选择文件或文件夹，这里我们选择文件；
+- 列表：将结果列表存储在此变量，如下图变量“files”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-2.png)
 
-3. 拖入**循环操作（For Each）**组件到设计面板,循环处理文件列表中的每个文件
+3. 拖入**循环操作（For Each）**组件到设计面板,循环处理文件列表中的每个文件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-3.png)
 
 4. 在**循环操作（For Each）**组件中拖入**写入日志**组件：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-4.png)
 
-5. 运行流程，打印出指定目录下的文件列表
+5. 运行流程，打印出指定目录下的文件列表：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-5.png)
