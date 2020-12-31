@@ -16,3 +16,14 @@
 
 - **提示时长(秒)** ：提示框显示的时间（秒）。仅支持Int类型变量和数值
 - **提示信息** ：提示框所展示的提示信息。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入一个**提示框**组件至流程中。
+
+2. 双击**提示框**组件的空白处，配置属性参数。如，提示信息："下雨请带好雨伞！"，提示时长为2秒：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/promptBox-1.png)
+
+3. 保存并运行流程。
+
+4. 查看运行结果，如下图所示，提示框信息展示2秒后消失：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/promptBox-2.png)

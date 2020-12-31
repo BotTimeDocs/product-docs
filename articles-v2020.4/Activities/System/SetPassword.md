@@ -19,3 +19,16 @@
 ### 输出
 
 - **赋值到变量** ：将敏感信息存储到此变量。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**设置密码**组件到设计面板：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-1.png)
+
+2. 双击进入组件内部，配置属性参数：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-2.png)
+
+3. 拖入**写入日志**组件，可以输出用户设置的密码：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-3.png)
+
+4. 运行流程，查看控制台的输出：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-4.png)
