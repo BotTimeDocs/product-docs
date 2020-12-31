@@ -37,3 +37,19 @@
 
 ### 输出
 - **OCR元素** ：将匹配的元素存储在此变量。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**获取含OCR文本的元素**组件，指定元素，设置厂家，厂家AppKey和AppSecret（以腾讯OCR为例）等属性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement1.png)
+
+**OCR 区域**：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
+
+2. 验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement2.png)
+
+3. 拖入**点击**组件，接收的输入控件元素为前一步返回的对象：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement3.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement4.png)

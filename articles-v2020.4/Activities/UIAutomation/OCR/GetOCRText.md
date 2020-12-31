@@ -36,3 +36,15 @@
 - **纯文本** ：将OCR的结果以纯文本的形式存储在此变量。仅支持字符串变量和字符串
 - **Json文本** ：将OCR的结果以Json文本的形式存储在此变量。仅支持字符串变量和字符串
 
+## 操作样例
+1. 拖入**获取OCR文本**组件，指定元素，设置厂家，厂家AppKey和AppSecret（以腾讯OCR为例）：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOCRText1.png)
+
+**OCR 区域**：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
+
+2. 验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOCRText2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOCRText3.png)

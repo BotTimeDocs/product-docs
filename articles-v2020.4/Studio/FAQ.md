@@ -1,3 +1,4 @@
+# FAQ
 1. **Q：** 安装时弹出程序崩溃提示，如图：
 
    ![安装崩溃](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installCollapse.png)
