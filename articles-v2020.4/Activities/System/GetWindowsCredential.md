@@ -18,8 +18,9 @@
 
 - **用户名** ：将获取到的用户名保存到此变量。仅支持字符串变量和字符串
 - **密码** ：将获取到的密码保存到此变量。仅支持字符串变量和字符串
+
 ## 操作样例
-1. 拖入**获取Windows凭据**组件到设计面板，设置凭据名"test01"，输出变量“pwd”，“userName”：
+1. 拖入**获取Windows凭据**组件到设计面板，设置凭据名"test01"，设置变量“pwd”，“userName”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-1.png)
 
 2. 在电脑凭据管理器里新建一个普通凭据，凭据名：“test01”，用户名：“shirley”，密码：“123456”：

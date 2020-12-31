@@ -17,6 +17,7 @@
 输出
 
 - **赋值到变量** ：将敏感信息存储到此变量。仅支持字符串变量和字符串
+
 ## 操作样例
 1. 拖入**设置密码**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-1.png)
