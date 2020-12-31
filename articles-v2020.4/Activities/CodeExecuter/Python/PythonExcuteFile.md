@@ -31,4 +31,5 @@
 
 5. 保存并运行流程。
 6. 在输出窗口中查看最终的输出值。
+   
    ![输出结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/outputpython20201217.png)     
