@@ -21,3 +21,17 @@
 
 - **分隔符** ：指定CSV文件的分隔符。此属性可不填写，默认使用逗号。仅支持字符变量和字符
 - **编码方式** ：文件的编码方式。可以在 [此处](../Appendix/Encoding.md) 找到每个字符编码的完整代码列表。要指定要使用的编码类型，请使用&quot; 名称&quot;字段中的值。如果未指定编码类型，则默认为UTF-8。仅支持字符串变量和字符串
+
+## 操作样例
+
+1. 拖入**搭建数据表**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)
+
+2. 双击打开搭建数据表搭建器，编辑列信息和行值，创建一个类型为DataTable类型的变量用于存放输出数据表，例：table，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateRow20201228.png)
+
+3. 拖入**保存为CSV文件**组件，输入数据表变量，例：table，创建类型为String的路径变量并给出默认值，例：filepath:"C:\云扩科技\savetable.csv"，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SaveToCSV20201229.png)
+
+4. 点击运行，查看运行结果，检查路径是否保存CSV文件成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SaveToCSV2020122902.png)
