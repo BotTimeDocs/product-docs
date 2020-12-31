@@ -36,8 +36,8 @@
 3. 拖入**读取区域**组件至项目流程中，填写sheet名称“sheet1”，填写读取区域范围“A1：D3”，新建变量"datatable"类型为datatable，用来存放区域内所有单元格的内容：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange1.png)
 
-4. 拖入**写入区域**组件至项目流程中，填写sheet名称“sheet2”，填写写入区域范围“A1：D3”，填写要写入的变量，这里使用"datatable"，也就是使用“sheet1”的“A1：D3”的内容写入“sheet2”的“A1：D3”中：
+4. 拖入**写入区域**组件至项目流程中，填写sheet名称“sheet2”，填写写入区域范围“A1：D3”，填写要写入的变量，这里使用"datatable"。也就是使用“sheet1”的“A1：D3”的内容写入“sheet2”的“A1：D3”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange2.png)
 
-5. 点击运行，运行成功后打开Excel查看，sheet1区域范围“A1：D3”的内容已经写入sheet2的“A1：D3” 内：
+5. 点击运行，运行成功后。打开Excel查看sheet1区域范围“A1：D3”的内容已经写入sheet2的“A1：D3” 内：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange3.png)

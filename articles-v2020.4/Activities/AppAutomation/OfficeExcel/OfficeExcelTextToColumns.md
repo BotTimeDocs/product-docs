@@ -27,6 +27,7 @@
 ## 操作样例
 
 1. 准备一份需要分列的 Excel数据。
+
    ![分列数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndata20201217.png)
 
 2. 拖入一个Office Excel的**打开/新建**组件至流程中。
@@ -36,6 +37,7 @@
 
 4. 双击该组件，拖入一个**分列**组件至**打开/新建**组件中。
 5. 配置**分列**组件的属性参数，如下图所示。
+
    ![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
 
    - 工作表：输入Excel工作表的名称，如，"Sheet1"
@@ -46,4 +48,5 @@
 
 6. 保存并运行流程。
 7. 查看分列后的数据。
+  
    ![查看分列后的数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndataresult20201217.png)

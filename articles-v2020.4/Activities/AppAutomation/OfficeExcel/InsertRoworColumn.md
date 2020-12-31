@@ -17,3 +17,18 @@
 - **插入行/列数** ：欲插入行/列的数量。值为整型
 - **起始位置** ：欲在工作表中插入行/列的起始位置
 
+## 操作样例
+1. 新建一个Excel文件，如下：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertRowOrColumn1.png)
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击 **...** 选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**插入行/列**组件到**打开/新建**组件中，输入插入行/列数，插入模式选择“插入行”，填写工作表名称和起始位置；插入列操作同插入行：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertRowOrColumn2.png)
+
+5. 运行成功后，打开excel查看，在sheet1第3行插入空行2行：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertRowOrColumn3.png)

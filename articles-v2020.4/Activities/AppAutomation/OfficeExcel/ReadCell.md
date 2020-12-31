@@ -36,5 +36,5 @@
 4. 拖入**写入单元格**组件至项目流程中，填写sheet名称，填写单元格名称，填写要写入的变量，这里使用"cellContent"。也就是使用A1的内容写入A2：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
 
-5. 点击运行，运行成功后打开Excel查看A1的内容已经写入A2：
+5. 点击运行，运行成功后。打开Excel查看A1的内容已经写入A2：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell3.png)

@@ -21,3 +21,17 @@
 - **高度(像素)** ：输入被插入图片的高度，单位为像素，为空则使用图片原高度。仅支持Float变量和字符串
 - **宽度(像素)** ：输入被插入图片的宽度，单位为像素，为空则使用图片原高度。仅支持Float变量和字符串
 
+## 操作样例
+1. 新建一个Excel文件，存放在本地。
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击 **...** 选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**插入图片**到**打开/新建**组件中，填写工作表名称，单元格名称和图片路径：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic1.png)
+
+5. 运行成功后，sheet1的B2中插入图片：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic2.png)

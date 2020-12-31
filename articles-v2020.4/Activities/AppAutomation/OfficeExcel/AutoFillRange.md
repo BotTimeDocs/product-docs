@@ -16,3 +16,16 @@
 - **填充区域** ：欲将源数据自动填充的目标区域
 - **源区域** ：进行填充操作的源单元格区域
 
+## 操作样例
+
+1. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+2. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+3. 拖拽**自动填充**到**打开/新建**组件中，填写sheet名称，填写源区域"A1:C3"。填充区域，请注意支持横向填充"A1:I3"，或者是纵向填充"A1:C9",必须包含源区域，不支持同时横向和纵向填充：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AutoFillRange1.png)
+
+4. 点击运行，运行成功。打开Excel，横向填充成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AutoFillRange2.png)

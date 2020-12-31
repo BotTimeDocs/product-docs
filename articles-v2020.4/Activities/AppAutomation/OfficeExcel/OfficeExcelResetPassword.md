@@ -13,3 +13,19 @@
 输入
 
 - **密码** ：若为空则去除当前Excel文件密码；若不为空则对Excel文件增加或更新密码。仅支持字符串变量和字符串
+
+## 操作样例
+
+1. 新建一个Excel文件，不设置密码。
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**重置密码**到**打开/新建**组件中，填写密码“123456”：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ResetPassword1.png)
+
+5. 运行成功后，打开excel，需要输入密码。输入123456后，正常打开：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ResetPassword2.png)
