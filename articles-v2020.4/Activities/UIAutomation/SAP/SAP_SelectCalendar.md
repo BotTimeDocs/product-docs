@@ -26,10 +26,10 @@
 
 ## 操作样例
 1. 登录SAP应用，点击SAP菜单->会计核算->财务会计->总账->单据录入->FB50 - 输入总账科目凭证进入“输入总账科目凭证”：公司代码 xxxx”页面。
-1. 拖入**点击**组件，指定“凭证日期”输入框边的日历图标：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectCalendar-1.png)
-
-2. 拖入**选择日期**组件，指定日历窗口，并从datepicker中选择所需日期：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectCalendar-2.png)
-
-3.点击运行流程查看运行效果。
+   
+2. 拖入**点击**组件，指定“凭证日期”输入框边的日历图标：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectCalendar-1.png)
+   
+3. 拖入**选择日期**组件，指定日历窗口，并从datepicker中选择所需日期：  
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectCalendar-2.png)
+4. 点击运行流程查看运行效果。
