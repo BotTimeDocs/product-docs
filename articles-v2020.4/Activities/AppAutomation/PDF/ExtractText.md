@@ -24,3 +24,14 @@
 ### 输出
 
 - **结果** ：输出读取的文本数据。仅支持字符串变量
+
+## 操作样例
+
+1. 拖入**读取文本**组件至项目流程中，并设置变量result(String)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractText_1.png)
+
+2. 双击打开读取文本，选取pdf，例："D:\\滴滴电子发票 (1).pdf"，选择需要的页数范围，输入生成路径，在输出中添加变量result,如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractText_2.png)
+
+3. 点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractText_3.png)

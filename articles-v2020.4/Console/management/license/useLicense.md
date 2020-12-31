@@ -1,4 +1,4 @@
-## 许可证列表
+# 许可证列表
 在“全局管理”-“许可证”页面中可以查看当前租户内所有已授权的各类许可证信息。
 点击“查看使用情况”按钮即可查看各类许可证的详细使用信息。
 ![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/licensenew2.png)

@@ -20,3 +20,14 @@
 ### 可选项
 
 - **文件同名替换** ：指定是否替换新文件所在目录下的同名文件
+
+## 操作样例
+
+1. 拖入**合并文件**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergePDF_1.png)
+
+2. 双击打开选定pdf文件（在弹框中一次选多个），例："D:\\滴滴电子发票 (1).pdf","D:\\滴滴电子发票.pdf"，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergePDF_2.png)
+
+3. 生成新文件为"D:\\滴滴电子发票（2）.pdf"，点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergePDF_3.png)
