@@ -20,3 +20,26 @@
 ### 输出
 
 - **返回值** ：将宏执行后返回的值存储在此变量，前提为执行宏后有返回值
+
+## 操作样例
+
+1. 新建一个Excel文件，如下：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**执行宏**组件到**打开/新建**组件中，选择宏文件路径，填写方法名"GetFirstNSheetNames"，定义Object类型的变量"names"，传入实参“new List<Object> {6}”，填写返回值names：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExecuteMacro1.png)
+
+5. 拖拽**循环操作（For Each）**到**打开/新建**组件中，拖拽**写入日志**到**循环操作（For Each）**组件中，填入转换后的变量“(string[])names”：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExecuteMacro2.png)
+
+6. 运行成功后，日志打印所有sheet名称。
+
+附宏文件供参考：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExecuteMacro3.png)
+

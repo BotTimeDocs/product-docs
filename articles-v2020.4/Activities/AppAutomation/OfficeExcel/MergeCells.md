@@ -21,3 +21,23 @@
 
 - **合并值** ：合并后单元格的值。若合并单元格区域中只有一个值，则默认输出此唯一值；
 若合并单元格区域中有多个值，则输出第一个非空单元格中的值
+
+## 操作样例
+
+1. 新建一个Excel文件，如下：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells1.png)
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**合并单元格**和**写入日志**到**打开/新建**组件中，填写sheet名称"sheet2"，填写合并的区域"A1:A3"，新建String类型的变量merge，配置在合并值中；把合并值配置到写入日志的内容中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells2.png)
+
+5. 点击运行，运行后打开Excel查看单元格合并的结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells3.png)
+
+6. 输出中打印合并后的标题：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells4.png)

@@ -44,7 +44,7 @@
 6. 拖入**写入行/列数据**组件至项目流程中，填写sheet名称“sheet2”，填写起始单元格“A1”，填写类型为Object[]变量"col"用来填充本**列**内容，读取行/列默认选择列：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn2.png)
 
-7. 点击运行，运行成功后打开Excel，查看Sheet1第一行的内容从A1开始已经写入sheet2的第一行，Sheet1第一列的内容从A1开始已经写入sheet2的第一列：
+7. 点击运行，运行成功后。打开Excel 查看Sheet1第一行的内容从A1开始已经写入sheet2的第一行，Sheet1第一列的内容从A1开始已经写入sheet2的第一列：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn3.png)
 
 

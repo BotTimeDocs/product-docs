@@ -21,3 +21,20 @@
 ### 可选项
 
 - **开始行号** ：执行开始排序的行号。若为空则默认从第一行开始执行排序。仅支持整型变量和整型
+
+## 操作样例
+
+1. 新建一个Excel文件，如下：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort1.png)
+
+2. 拖拽**打开/新建**组件至项目流程中：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+
+3. 双击打开，并点击**...**选择本地Excel文档：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+
+4. 拖拽**排序**到**打开/新建**组件中，填写sheet名称"sheet2"，填写需要排序的列1，填写开始的行1：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort2.png)
+
+5. 运行成功后打开Excel查看第1列从第1行开始已经按照升序排列：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort3.png)
