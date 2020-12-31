@@ -23,3 +23,13 @@
 ### 可选项
 
 - **清空已选** ：勾选后，将先清空已选项目后执行勾选；不勾选时，将不清空已选项目直接执行勾选
+
+## 操作样例
+1. 拖入**选择多个项目**组件，设置对应的属性值：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectMultipleItems1.png)
+
+2. 指定元素，并验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectMultipleItems2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectMultipleItems3.png)
