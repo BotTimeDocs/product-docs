@@ -17,9 +17,15 @@
 ### 输入
 
 - **SAP Logon路径** ：SAP Logon的安装路径。仅支持字符串变量和字符串
-- **连接名** ：指定要登陆的连接名 （Connection Name）。仅支持字符串变量和字符串
+- **连接名** ：指定要登录的连接名 （Connection Name）。仅支持字符串变量和字符串
 - **客户端** ：登录连接界面时要输入的客户端 （Client)。仅支持字符串变量和字符串
 - **用户** ：登录连接界面时要输入的用户 （User)。仅支持字符串变量和字符串
 - **口令** ：登录连接界面时要输入的口令 （Password)。仅支持字符串变量和字符串
 - **多登录时** ：含三个值：继续此登录，保持同用户的其他连接；继续此登录，停止同用户的其他连接；停止此次登录
 
+## 操作样例
+1. 拖入**登录应用**组件，输入应用路径、客户端、口令、连接名及用户，选择多登录时的目标状态选项，例：停止此次登录
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-1.png)
+
+2. 点击运行流程，查看效果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)

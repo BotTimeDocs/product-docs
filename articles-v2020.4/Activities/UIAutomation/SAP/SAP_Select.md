@@ -20,3 +20,13 @@
 
 ### 输入
 - **项** ：要点击的项目。此项和下拉框中所选择的项目一致。仅支持字符串变量和字符串
+
+## 操作样例
+1. 拖入**登录应用**组件并输入相应属性值；拖入**点击**组件，指定“取消”按钮元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-1.png)
+
+2. 拖入**等待元素出现**组件，指定“SAP 轻松访问”文本元素；拖入**选择SAP项**组件，指定“SAP 菜单”元素，然后从返回的详细菜单条目下拉框中选择所需要打开的页面选项，如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-2.png)
+
+3. 点击运行流程，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-3.png)
