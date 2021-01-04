@@ -30,3 +30,13 @@
 
 - **文本**：需要查找的文本。
 - **出现次数**：在查找范围内，找到的第 *出现次数* 个元素会被捕获。
+
+## 操作样例
+1. 拖入**获取屏幕含某文本的元素**组件并指定Adobe Acrobat右侧工具栏：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetTextElement1.png)
+
+2. 验证元素有效性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetTextElement2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetTextElement3.png)

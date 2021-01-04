@@ -23,3 +23,19 @@
 ### 输出
 
 - **焦点控件** ：将指定窗体的焦点控件存储在此变量
+
+## 操作样例
+1. 拖入[切换控件](activity/../SwitchControl.md)组件，指定企业微信窗口，打开一个新的聊天窗口：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus1.png)
+
+2. 展示企业微信聊天窗口，可以看到焦点定位于搜索框内：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus2.png)
+
+3. 拖入**获取焦点控件**，指定输出为焦点元素变量：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus3.png)
+
+4. 拖入输入文本组件，指定输入为焦点元素变量：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus4.png)
+
+5. 运行流程并查看结果，对获取焦点输出的元素操作成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus5.png)

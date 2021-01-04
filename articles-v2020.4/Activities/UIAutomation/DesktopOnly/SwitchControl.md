@@ -34,3 +34,16 @@
 ### 可选项
 
 - **等待焦点改变** ：勾选时，判断焦点是否改变且仅当焦点改变时才运行成功。不勾选时，不会判断焦点是否改变。
+
+## 操作样例
+1. 拖入**切换控件**组件，指定元素，设置对应的属性值，**等待焦点改变**这个选择如果不勾选的话，效果就跟普通的发送快捷键是一样的：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl1.png)
+
+2. 验证元素存在性：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl2.png)
+
+3. 指定区域是企业微信窗口：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl_selectedZone.png)
+
+4. 运行流程并查看结果，企业微信发送Ctrl + N 快捷键会打开一个新的聊天窗口，也就意味着焦点发生了变化，所以组件执行成功：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl1.png)
