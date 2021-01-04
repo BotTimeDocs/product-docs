@@ -28,5 +28,5 @@
 - 新名称：支持输入字符串变量和字符串：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-2.png)
 
-4. 运行流程，E盘的文件“新建 DOC 文档.doc”已经被重命名为“新的文件名.doc”：
+3. 运行流程，E盘的文件“新建 DOC 文档.doc”已经被重命名为“新的文件名.doc”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-4.png)
