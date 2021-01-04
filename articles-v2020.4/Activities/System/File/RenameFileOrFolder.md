@@ -23,9 +23,9 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-1.png)
 
 2. 双击进入组件内部，配置属性参数。
-- 重命名类型：可以选择文件或者文件夹；
-- 原路径：点击“...”弹出对话框，选择目标文件/文件夹，或者手动输入路径；
-- 新名称：支持输入字符串变量和字符串：
+<br/> 重命名类型：可以选择文件或者文件夹；
+<br/> 原路径：点击“...”弹出对话框，选择目标文件/文件夹，或者手动输入路径；
+<br/> 新名称：支持输入字符串变量和字符串：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-2.png)
 
 3. 运行流程，E盘的文件“新建 DOC 文档.doc”已经被重命名为“新的文件名.doc”：

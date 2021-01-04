@@ -19,7 +19,7 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setDate-1.png)
 
 2. 双击进入组件内部，配置属性参数。
-- 日期和时间：将指定的日期和时间输出，如，定义变量“datetime”，勾选上“选择当前时间”，输出当前日期：
+<br/> 日期和时间：将指定的日期和时间输出，如，定义变量“datetime”，勾选上“选择当前时间”，输出当前日期：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setDate-2.png)
 
 
