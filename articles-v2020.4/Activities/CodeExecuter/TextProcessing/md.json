@@ -34,11 +34,17 @@
         "name": "GetIndexOfTextActivity.md",
         "localizedName": "获取文本索引",
         "uuid": "67984545-1c4f-4701-9915-b3db6b9260a4"
-    }    ,
+    },
     {
         "id": "Encoo.Text.Activity.Activities.GenerateGUIDActivity",
         "name": "GenerateGUIDActivity.md",
         "localizedName": "生成GUID",
         "uuid": "428faa63-a825-42de-a0f1-bff56c2e2173"
+    },
+    {
+        "id": "Encoo.Text.Activity.Activities.SplitTextActivity",
+        "name": "SplitTextActivity.md",
+        "localizedName": "分割文本",
+        "uuid": "7c000016-3b91-4626-bbaa-e3f4786c3e2a"
     }
 ]

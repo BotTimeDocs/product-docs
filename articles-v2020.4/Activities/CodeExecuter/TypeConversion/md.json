@@ -6,6 +6,12 @@
         "uuid": "7ee8a0b3-108c-44b5-8083-e030bd203b21"
     },
     {
+        "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.TextToNumbericActivity",
+        "name": "TextToNumbericActivity.md",
+        "localizedName": "文本转数值",
+        "uuid": "7ede9827-ccf5-46e8-9025-ee4a73a72763"
+    },
+    {
         "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.ArrayToCollectionActivity",
         "name": "ArrayToCollectionActivity.md",
         "localizedName": "数组转集合",
