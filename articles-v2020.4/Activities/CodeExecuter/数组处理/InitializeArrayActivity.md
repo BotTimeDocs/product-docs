@@ -19,3 +19,7 @@
 ### 输入输出
 
 - **数组** ：输出完成初始化后的数组
+
+## 操作样例
+1. 拖入**初始化数组**组件，设置变量`数组`，变量类型为`String[]`，设置int变量`数组length`，假定长度为10，输入默认值10，**输入/输出**变量`数组`，**输入**长度变量`数组length`，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InitializeArrayActivity1.png)

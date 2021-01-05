@@ -24,3 +24,10 @@
 ### 输出
 
 - **文件路径** ：输出下载的文件本机路径；仅支持变量
+## 操作样例
+1. 拖入**HTTP下载**组件，设置文件路径变量`path`，变量类型为`String`，**输入**URL`"https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v5.1.41.19.exe"`，**输入**保存至目录`"D:\下载"`，**输入**超时（秒）`300`，**输出**文件路径`path`，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPDownload1.png)
+2. 下载文件成功
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPDownload2.png)
+3. 拖入**写入日志**组件，打印文件绝对路径，输入**日志内容**`path`，打印结果为`D:\下载\DingTalk_v5.1.41.19.exe`：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPDownload3.png)

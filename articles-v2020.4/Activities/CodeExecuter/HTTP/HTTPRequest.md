@@ -23,3 +23,18 @@
 ### 输出
 
 - **响应正文** ：输出此HTTP请求返回的数据；仅支持变量
+
+## 操作样例
+1. 示例中使用阿里云**汇率转换**接口，链接如下：
+https://market.aliyun.com/products/57000002/cmapi011221.html?spm=5176.12901015.0.i12901015.17e2525cz4KoQ4&innerSource=search_%E6%B1%87%E7%8E%87%E6%9F%A5%E8%AF%A2%E8%BD%AC%E6%8D%A2#sku=yuncode522100006
+2. 接口文档，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest1.png)
+3. 拖入**HTTP请求**组件，如下图所示：
+- 设置`方法`： GET
+- 设置`URL`：
+`https://jisuhuilv.market.alicloudapi.com/exchange/convert?amount=10&from=CNY&to=USD`
+- 设置`内容类型`：`none`
+- 设置`头部`：`Authorization(key)`,`APPCODE APPcode值(value)`：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest2.png)
+4. 点击`测试`，查看测试结果，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest3.png)
