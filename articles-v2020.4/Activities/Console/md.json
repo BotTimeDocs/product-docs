@@ -10,11 +10,24 @@
         "name": "GetAssets.md",
         "localizedName": "获取资产",
         "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8"
-    }    ,
+    },
+    {
+        "id": "Encoo.Console.Activity.FileUploadActivity",
+        "name": "FileUploadActivity.md",
+        "localizedName": "上传文件",
+        "uuid": "9729842b-6c29-4631-9da8-f7f10ac671e9"
+    },
     {
         "id": "Encoo.Console.Activity.FileDownloadActivity",
         "name": "FileDownloadActivity.md",
         "localizedName": "下载文件",
         "uuid": "846221b4-b781-436a-adb1-9e4f84547c65"
+    },
+    {
+        "id": "Encoo.Console.Activity.FileDeleteActivity",
+        "name": "FileDeleteActivity.md",
+        "localizedName": "删除文件/文件夹",
+        "uuid": "cc07bde9-2bda-46a7-9b66-edc7e40a0cf4"
     }
+
 ]
