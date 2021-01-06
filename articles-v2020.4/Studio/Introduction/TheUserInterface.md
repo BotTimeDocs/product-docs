@@ -73,7 +73,8 @@
 - **删除未使用的屏幕截图** - 删除项目中未使用到的屏幕截图
   >**说明：**
   >
-  >如果项目文件下的 Backup 文件夹中有相关流程的备份文件，则无法删除流程文件中的屏幕截图。
+  >- 如果项目文件下的 Backup 文件夹中有相关流程的备份文件，则无法删除流程文件中的屏幕截图。
+  >- 如果是自定义文件名的截图，则无法删除。
 
 ![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/projectpanel20201230.png)
 
