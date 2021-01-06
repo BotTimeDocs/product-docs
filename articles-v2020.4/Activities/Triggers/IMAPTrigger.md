@@ -38,3 +38,9 @@
 ### 输出
 
 - **新邮件** ：输出监听到的新邮件。仅支持System.Net.Mail.MailMessage变量
+
+## 操作样例
+1. 以Outlook邮箱举例，拖入**邮件触发器(IMAP)**，新建变量`newmail`，变量类型为`MailMessage`，**输入**服务器`"imap-mail.outlook.com"`，端口号`993`，**输入**邮件地址和密码，**输出**新邮件`newmail`，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IMAPTrigger1.png)
+2. 拖入**写入日志**组件，打印邮件内容，输入**日志内容**`newmail.Body`，运行程序，在运行的过程中，往此邮箱中发送一封邮件，Outlook服务器收到邮件后，触发器(IMAP)检测到新邮件，观察打印结果，打印此新增邮件的内容，如下图所示：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IMAPTrigger2.png)
