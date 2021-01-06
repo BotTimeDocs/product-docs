@@ -16,7 +16,9 @@
     - sapgui/user\_scripting\_per\_user
     - sapgui/user\_scripting\_set\_readonly
 
-    注意：事务RZ11中对参数的所有更改均立即生效，并且在系统重新启动时丢失。要使更改永久生效，请联系您的SAP系统管理员。
+    >**说明：**
+    >
+    >事务RZ11中对参数的所有更改均立即生效，并且在系统重新启动时丢失。要使更改永久生效，请联系您的SAP系统管理员。
 
 6. 注销后重新登录 
 
@@ -27,5 +29,9 @@
 4. 不勾选下述选项：
     - 在脚本附加到 SAP GUI 时发出通知
     - 在脚本打开连接时发出通知
+
+     >**说明：**
+    >
+    >当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图提示，请按照上述勾选启用脚本的步骤进行设置。
     
-<table><td bgcolor=	#F0F8FF>注：当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图。<br><img src='https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png'><br>当出现上图时，请按照上述勾选启用脚本的步骤进行设置</td></table> 
+    ![注意](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png)
