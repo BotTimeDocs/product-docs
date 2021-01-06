@@ -29,5 +29,8 @@
 1. 拖入**获取屏幕文本**组件并指定Adobe Acrobat右侧工具栏：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getScreenTxt1.png)
 
-2. 运行流程并查看结果：
+2. 验证元素有效性：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getScreenTxt2.png)
+
+3. 运行流程并查看结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getScreenTxt3.png)
