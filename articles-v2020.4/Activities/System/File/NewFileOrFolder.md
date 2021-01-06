@@ -20,7 +20,8 @@
 1. 拖入**新建文件/文件夹**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-1.png)
 
-2. 双击进入组件内部，输入新建文件/文件夹的全路径，支持相对和绝对路径。
+2. 双击进入组件内部，输入新建文件/文件夹的全路径，支持相对和绝对路径：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-2.png)
 
 3. 运行流程，可以看到指定的路径下根据用户要求创建了文件或文件夹：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-2.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-3.png)
