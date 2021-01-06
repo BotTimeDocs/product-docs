@@ -21,3 +21,14 @@
 ### 输入
 - **事务代码** ：要在SAP窗口中执行的事务代码。仅支持字符串变量和字符串
 
+
+## 操作样例
+1. 登录SAP应用，点击SAP菜单->会计核算->财务会计->总账->单据录入->FB50 - 输入总账科目凭证进入“输入总账科目凭证”：公司代码 xxxx”页面。
+
+2. 拖入**执行事务**组件，指定窗口元素：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPTransaction-1.png)
+
+
+4. 点击运行流程，查看运行效果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPTransaction-2.png)
+
