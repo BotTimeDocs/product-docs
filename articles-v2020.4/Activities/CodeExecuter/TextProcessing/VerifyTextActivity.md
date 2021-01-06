@@ -21,3 +21,19 @@
 ### 输出
 
 - **验证结果** ：验证的结果。仅支持Boolean变量
+## 操作样例
+1.拖入**验证文本有效性**组件至项目流程中
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010401.png)
+
+2.选中组件，点击展开提取规则。以邮箱地址为例，点击邮箱地址点击确定。创建变量，String类型变量及Boolean类型变量，并输入至源文本及验证结果中。如下图所示：
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010402.png)
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010403.png)
+
+3.拖入写入日志组件将验证结果以字符串格式输出。点击运行，查看运行结果，验证文本结果为成功。如下图所示：
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010404.png)
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010405.png)
