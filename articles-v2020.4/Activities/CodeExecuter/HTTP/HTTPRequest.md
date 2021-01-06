@@ -36,5 +36,6 @@ https://market.aliyun.com/products/57000002/cmapi011221.html?spm=5176.12901015.0
 - 设置`内容类型`：`none`
 - 设置`头部`：`Authorization(key)`,`APPCODE APPcode值(value)`：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest2.png)
+
 4. 点击`测试`，查看测试结果，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest3.png)

@@ -29,8 +29,3 @@
     - 在脚本打开连接时发出通知
     
 <table><td bgcolor=	#F0F8FF>注：当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图。<br><img src='https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png'><br>当出现上图时，请按照上述勾选启用脚本的步骤进行设置</td></table> 
-
-
-
-
-

@@ -21,7 +21,7 @@
 - **获取下一页数据延迟**：限定翻页后获取新页面数据的时间，超出指定时间后将执行获取数据的操作。单位为毫秒（ms）,1000ms = 1s。仅支持整型变量和整型
 
 ## 操作样例
-1. 打开含有结构化数据的网页（例：http://news.baidu.com），拖入**获取结构化数据**组件，点击指定数据源并指定第一个元素，此时，会弹出“向导”对话框提示指定数据源第二个元素，如下图所示：
+1. 打开含有结构化数据的网页（例：http://news.baidu.com ）,拖入**获取结构化数据**组件，点击指定数据源并指定第一个元素，此时，会弹出“向导”对话框提示指定数据源第二个元素，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-1.png)
 2. 指定第二个元素，“向导”对话框中会显示默认文本列名称，再点击“下一步”按钮，“向导”对话框展示获取的所有数据及默认最大提取条数：50：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-2.png)

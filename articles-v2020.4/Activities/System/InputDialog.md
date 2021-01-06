@@ -29,6 +29,8 @@
 
    - 标题：输入输入框的标题，如，"输入"
    - 描述：输入输入框的描述内容，如，"请在输入框中输入"
+
 3. 保存并运行流程。
-4. 查看运行结果，如下图所示。   
+4. 查看运行结果，如下图所示。
+
    ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showinput20201221.png)

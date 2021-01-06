@@ -39,5 +39,3 @@
 2. 验证元素并输入属性名：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr2.png)
 
-3. 打印出获取到的元素的属性值：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr3.png)

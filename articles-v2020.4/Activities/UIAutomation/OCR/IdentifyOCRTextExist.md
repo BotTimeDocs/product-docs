@@ -45,8 +45,8 @@
 1. 拖入**判断OCR文本是否存在**组件，指定元素，设置厂家，厂家AppKey和AppSecret（以腾讯OCR为例）等属性：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentifyOCRTextExist1.png)
 
-**OCR 区域**：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
+   **OCR 区域**：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
 
 3. 拖入**点击**组件，接收的输入控件元素为前一步返回的对象：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentifyOCRTextExist2.png)

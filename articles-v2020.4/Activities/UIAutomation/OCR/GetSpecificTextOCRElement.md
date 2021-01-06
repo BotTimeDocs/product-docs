@@ -42,8 +42,8 @@
 1. 拖入**获取含OCR文本的元素**组件，指定元素，设置厂家，厂家AppKey和AppSecret（以腾讯OCR为例）等属性：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement1.png)
 
-**OCR 区域**：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
+   **OCR 区域**：
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OCR-sample.png)
 
 2. 验证元素存在性：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSpecificTextOCRElement2.png)

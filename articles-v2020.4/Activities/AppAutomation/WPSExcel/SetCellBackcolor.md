@@ -27,8 +27,9 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
 
 3. 双击**打开/新建**组件，拖入**设置单元格背景色**组件，填写工作表和单元格位置以及需要设置的颜色代码:
-- 举例：红色为#FF0000
+    - 举例：红色为#FF0000
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps21.png)
+
 
 4. 点击流程运行，观察运行结果:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps22.png)

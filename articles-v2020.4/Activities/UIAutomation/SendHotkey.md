@@ -41,4 +41,6 @@
 3. 点击运行流程，并查看流程运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-3.png)
 
-注：该流程在很多场景中可代替“输入文本”组件使用，运行效率高、输入文本不易出错。
+   >**说明：**
+   >
+   >该流程在很多场景中可代替“输入文本”组件使用，运行效率高、输入文本不易出错。
