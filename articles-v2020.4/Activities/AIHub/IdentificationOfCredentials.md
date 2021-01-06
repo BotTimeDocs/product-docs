@@ -19,3 +19,14 @@
   - 图片文件：指定欲识别的图片路径，可接变量，建议使用常用的 jpg、jpeg 和 png 图片格式。
 ### 输出
 - **识别结果**：输出识别后的原始数据（JSON），仅支持变量。
+
+## 操作样例
+
+1. 拖入**证照识别**组件至项目流程中，并设置变量result(String)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_1.png)
+
+2. 双击打开证照识别，选取图片，例："D:\\测试图片.jpg"，输入图片路径，选择需要的类型和对应平台，在输出中添加变量result,如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_2.png)
+
+3. 点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_3.png)
