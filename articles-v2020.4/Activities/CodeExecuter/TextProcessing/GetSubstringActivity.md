@@ -22,3 +22,15 @@
 ### 输出
 
 - **截取结果** ：截取的文本数据。仅支持字符串变量
+## 操作样例
+1.拖动**截取文本**组件至项目流程中，创建组件所需变量，如下图：
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSubstringActivity2021010501.png)
+
+2.拖入其它组件，例：拖入**写入日志**组件，填入输出日志内容，如下图：
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSubstringActivity2021010502.png)
+
+3.点击运行，流程运行成功，成功将文本截取出来，如下图：
+
+![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSubstringActivity2021010503.png)
