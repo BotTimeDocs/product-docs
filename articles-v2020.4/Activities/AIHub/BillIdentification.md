@@ -11,6 +11,7 @@
 - **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误。
 - **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件。
 - **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件。
+
 ### 输入
 - **参数**：点击组件【设置参数】按钮，可配置如下参数：
   - 服务：可识别的票据的种类，目前支持增值税发票、卷票、定额发票、银行回单。
@@ -31,5 +32,8 @@
 3. 点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BillIdentification_3.png)
 
-注：组件需要使用社区账号登录，若想长期使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BillIdentification_4.png)
+   >**说明：**
+   >
+   >组件需要使用社区账号登录，若想长期使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
+
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BillIdentification_4.png)

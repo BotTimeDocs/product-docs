@@ -27,6 +27,7 @@
 
 - **识别结果** ：输出识别的结果（JSON）。仅支持字符串变量
 
+## 操作样例
 
 1. 拖入**文档理解**组件至项目流程中，并设置变量result(String)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_1.png)
@@ -37,8 +38,11 @@
 3. 点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_3.png)
 
-注：组件需要私有化部署，控制端设置如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_4.png)
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_5.png)
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
+   >**说明：**
+   >
+   >组件需要私有化部署，控制端设置如下图所示：
+
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_4.png)
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_5.png)
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
 
