@@ -28,4 +28,17 @@
 - **识别结果** ：输出识别的结果（JSON）。仅支持字符串变量
 
 
+1. 拖入**文档理解**组件至项目流程中，并设置变量result(String)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_1.png)
+
+2. 双击打开文档理解，选取PDF，例："D:\\测试.PDF"，输入PDF路径，选择资源组和模板名称，在输出中添加变量result,如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_2.png)
+
+3. 点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_3.png)
+
+注：组件需要私有化部署，控制端设置如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_4.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_5.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
 
