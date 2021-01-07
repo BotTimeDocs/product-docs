@@ -31,5 +31,5 @@
 3. 点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GeneralCharacterRecognition_3.png)
 
-注：组件需要使用社区账号登录，若想继续使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
+注：组件需要使用社区账号登录，若想长期使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GeneralCharacterRecognition_4.png)
