@@ -25,3 +25,16 @@
 
 
 
+1. 拖入**获取资产**组件至项目流程中，并设置变量result(String)：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_1.png)
+
+2. 双击打开获取资产，选择资源组和资源名称，在输出中添加变量result,如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_2.png)
+
+3. 点击运行，查看运行结果：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_3.png)
+
+注：组件需要私有化部署，控制端设置如下图所示：
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_4.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_5.png)
+![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_6.png)
