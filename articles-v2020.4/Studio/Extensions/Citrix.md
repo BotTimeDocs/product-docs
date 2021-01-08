@@ -30,7 +30,7 @@ Citrix 扩展安装在本地计算机上，以使 Encoo Studio/Robot 以原生�
 Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 远程桌面或远程应用程序与 Citrix 本地扩展进行通信，从而可以在本地产生选择器并执行自动化操作。
 
 1. 在控制台中的“**首页 > 安装包下载**”中，获取远程服务端 Encoo Remote Runtime 安装包。
-2. 在需要自动化的 Citrix 应用程序服务器上安装Encoo Remote Runtime 安装包。
+2. 在需要自动化的 Citrix 应用程序服务器上安装 Encoo Remote Runtime 安装包。
 3. （可选）当您需要在远程机器上自动化浏览器或者 Java 应用程序时，需要在服务器上安装对应的扩展，以取得更好的自动化支持。
 
     - **Web 扩展安装**
@@ -49,7 +49,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
             `Encoo.Web.ExtensionInstall.exe -install -t Edge -l zh-CN`
 
     - **Java 扩展安装**
-      a. 找到RemoteRuntime安装目录下的Java扩展安装程序(EncooJavaExtensionInstaller.exe)，路径为："C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\EncooJavaExtensionInstaller.exe"
+      a. 找到 RemoteRuntime 安装目录下的 Java 扩展安装程序(EncooJavaExtensionInstaller.exe)，路径为："C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\EncooJavaExtensionInstaller.exe"
       b. 以**管理员权限**打开命令行，执行命令 `cd C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\`，切换到安装程序所在目录
       c. 执行以下命令执行安装：
         `EncooJavaExtensionInstaller.exe -install -a`
@@ -57,7 +57,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 
 ### 重新启动组件的 Citrix 会话
 
-安装 Encoo Remote Runtime 和 Encoo Citrix 扩展程序后，需重新启动 Citrix 组件传话，更改才会生效。
+安装 Encoo Remote Runtime 和 Encoo Citrix 扩展程序后，需重新启动 Citrix 组件会话，更改才会生效。
 
 1. 右键单击 Citrix Receiver 托盘图标，然后单击“连接中心”。
 
@@ -67,7 +67,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 
    >**说明：**
    >
-   >需为所有组件传话执行此操作。
+   >需为所有组件会话执行此操作。
 
 3. 单击“关闭”按钮，确认所有更改并关闭窗口。
 
@@ -81,11 +81,15 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 
 ##  Citrix 操作示例
 
-为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于打开计算器与用户界面元素交互以执行简单操作，提取结果，然后将其显示在消息框中。
+为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于从浏览器中抓取网页数据后，保存到记事本中并修改字体。
 
-1. 
+1. 在本地客户端的编辑器中搭建一个获取远程服务端网页中的结构化数据的流程保存至远程服务端的记事本中并修改字体样式。
+![Citrix Demo](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixdemo20210108.png)
 
-
-
+2. 保存并运行流程，查看运行结果。
+![Citrix 演示结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixdemoresult20210108.png)
 
 ## 常见问题
+
+1. Q：安装 Encoo Remote Runtime 程序后为何无法进行 Citrix 自动化操作？
+   A：Encoo Remote Runtime 程序需与本地客户端使用的自动化组件版本相对应，否则无法正常工作。
