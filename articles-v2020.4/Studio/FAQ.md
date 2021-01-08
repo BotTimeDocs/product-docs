@@ -25,8 +25,8 @@
 1. **Q：卸载失败**
 
    **A：**
-   (1) 安装目录(Program files x86)，25版本以后的安装目录在用户目录AppData\Local\，下面 encootech文件夹删掉
-   (2) C:\ProgramData\Package Cache\ 里面搜一下 Digi4th开头的 都删掉
+   (1) 安装目录(Program files x86)，25版本以后的安装目录在用户目录AppData\Local\，下面 encootech文件夹删掉<br>
+   (2) C:\ProgramData\Package Cache\ 里面搜一下 Digi4th开头的 都删掉<br>
    (3) 删除windows服务 DataBusService(cmd 命令行 sc delete DataBusService)
 
 ## 系统日志相关
@@ -51,13 +51,13 @@
 1. **Q: Chrome录制失败，自动化失败有哪些原因？**
 
    **A：**
-    ① 检查chrome浏览器扩展，是否安装了chrome插件并且启用，如图：
+  (1) 检查chrome浏览器扩展，是否安装了chrome插件并且启用，如图：
 
-   ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)
+   ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)<br>
 
-   ② 当打开chrome后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是RPA与chrome浏览器的通信进程，如果不存在，则检查①。
+  (2) 当打开chrome后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是RPA与chrome浏览器的通信进程，如果不存在，则检查(1)。
 
-   ![检查进程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/taskManager.png)
+   ![检查进程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/taskManager.png)<br>
 
 
 2. **Q: 怎么安装chrome插件？**
