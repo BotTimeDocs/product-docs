@@ -16,7 +16,7 @@
 
 ![ManagementMarket](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/managemarket20201214.png)
 
-###　切换市场
+### 切换市场
 下拉选择页面左上角的选择框，可在组件市场、代码市场、流程市场间进行切换选择。
 
 >**说明:**
@@ -38,7 +38,7 @@
      >
      >部署基于特定网络的私有市场的详细步骤您可以拨打 400-639-2198 联系您的专属顾问，我们将竭诚为您提供帮助！也可以访问[此页面](https://www.encoo.com/apply)页面并留下您的联系方式，我们的工作人员会在1-2个工作日联系您。
 
-###　删除市场
+### 删除市场
 在市场列表中选中需要删除的市场，单击![删除市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/minus20201214.png)，可删除当前市场。
 
 ### 上移/下移市场
