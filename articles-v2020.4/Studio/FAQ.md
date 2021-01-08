@@ -24,7 +24,7 @@
 
 1. **Q：卸载失败**
 
-   **A：**
+   **A：**<br>
    (1) 安装目录(Program files x86)，25版本以后的安装目录在用户目录AppData\Local\，下面 encootech文件夹删掉<br>
    (2) C:\ProgramData\Package Cache\ 里面搜一下 Digi4th开头的 都删掉<br>
    (3) 删除windows服务 DataBusService(cmd 命令行 sc delete DataBusService)
@@ -50,7 +50,7 @@
 
 1. **Q: Chrome录制失败，自动化失败有哪些原因？**
 
-   **A：**
+   **A：**<br>
   (1) 检查chrome浏览器扩展，是否安装了chrome插件并且启用，如图：
 
    ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)<br>
