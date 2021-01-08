@@ -71,18 +71,21 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 
 3. 单击“关闭”按钮，确认所有更改并关闭窗口。
 
+## 卸载 Citrix
 
+- 卸载本地客户端 Encoo Citrix 扩展
+  将本地计算机上，该路径`C:\Program Files (x86)\Citrix\ICA Client\`下的`EncooRemotePluginCitrix.dll`文件手动删除即可。
 
-
-
-
-
-
-
-   
-
+- 卸载远程服务端 Encoo Remote Runtime 程序
+  在控制面板中与正常卸载程序一样，卸载`Encoo Remote Runtime 程序`即可。
 
 ##  Citrix 操作示例
+
+为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于打开计算器与用户界面元素交互以执行简单操作，提取结果，然后将其显示在消息框中。
+
+1. 
+
+
 
 
 ## 常见问题
