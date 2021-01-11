@@ -24,6 +24,12 @@
         "uuid": "89e3a127-3e4c-4573-8dff-4d7d46d9dc60"
     },
     {
+        "id": "Encoo.Text.Activity.Activities.AppendTextActivity",
+        "name": "AppendTextActivity.md",
+        "localizedName": "追加文本",
+        "uuid": "c21a3cb8-e056-4129-b06a-d3a811409681"
+    },
+    {
         "id": "Encoo.Text.Activity.Activities.GetLengthOfTextActivity",
         "name": "GetLengthOfTextActivity.md",
         "localizedName": "获取文本长度",
