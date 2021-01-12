@@ -43,5 +43,3 @@
 
 4. 点击运行，查看运行结果，成功打开绑定的12306官网并成功点击登录元素跳转到登录页面：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122104.png)
-
-
