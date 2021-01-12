@@ -22,7 +22,7 @@
       >**说明：**
       >
       >- 当属性值为变量时，格式为：{VariableName}或{{VariableName}}，即将变量写在花括号里面。
-      >- 当属性值为常量、变量混合时，常量的格式为:{VariableName}，变量的格式为：{{VariableName}}且变量需要在编辑器中定义，否则为常量。
+      >- 当属性值为常量、变量混合时，常量的格式为:{VariableName}，变量的格式为：{{VariableName}}且变量需要在编辑器中定义，否则为常量。如，/html/body/div[4]/div/div/div[2]/table/tbody//td[@data-value="**{{dateddd}}**"]，这一串常量变量混合的情况，加粗字体为变量的写法。
   
 - 删除节点或属性：将节点或属性前的复选框状态改为不选即可
 
@@ -43,4 +43,6 @@
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Xpath%E5%88%97%E8%A1%A8.png)
 
-注意：XPath 选项只支持 Web 元素。
+>**说明：**
+>
+>XPath 选项只支持 Web 元素。
