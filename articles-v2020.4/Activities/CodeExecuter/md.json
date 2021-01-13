@@ -32,6 +32,11 @@
     },
     {
         "id": null,
+        "name": "Dictionary",
+        "localizedName": "字典"
+    },
+    {
+        "id": null,
         "name": "TypeConversion",
         "localizedName": "类型转换"
     },
