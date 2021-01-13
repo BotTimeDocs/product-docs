@@ -13,7 +13,7 @@
 
 
 ## 选择器管理器工具
-在编辑器菜单栏中，选择“**工具 > 选择器管理器**”,可打开选择器管理器窗口。
+在编辑器菜单栏中，选择“**工具 > 选择器管理器**”或“**开始 > 工具**”,可打开选择器管理器窗口。
 ![选择器管理器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectmanager20201229.png)
 
 **1. 指定元素类别**

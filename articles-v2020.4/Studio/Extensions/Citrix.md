@@ -4,7 +4,7 @@
 
 Citrix 广义上指 Citrix Desktop 和 Citrix App 两种虚拟化资源交付方式。
 
-云扩 RPA 为提高自动化能力，已支持 Citrix 。用户只需在本地客户端安装 Encoo Citrix 扩展及远程服务端（Citrix Desktop 或 Citrix Apps）安装 Encoo Remote Runtime 后，像使用本地客户端一样，可以操作 Citrix 远程服务端的界面元素（如，“单击”、“输入文本”、“获取文本”等等界面自动化操作），使您在 Citrix Desktop 或 Citrix App上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。。
+云扩 RPA 为提高自动化能力，已支持 Citrix 。用户只需在本地客户端安装 Encoo Citrix 扩展及远程服务端（Citrix Desktop 或 Citrix Apps）安装 Encoo Remote Runtime 后，像使用本地客户端一样，可以操作 Citrix 远程服务端的界面元素（如，“单击”、“输入文本”、“获取文本”等等界面自动化操作），使您在 Citrix Desktop 或 Citrix App上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
 
 **支持的功能**如下：
 安装Encoo Citrix 扩展程序和 Encoo Remote Runtime 后，可执行以下操作：
