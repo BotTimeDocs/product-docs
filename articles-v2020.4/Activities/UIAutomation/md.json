@@ -3,133 +3,155 @@
         "id": "Encootech.AutomationActivity.ClickActivity",
         "name": "Click.md",
         "localizedName": "点击",
-        "uuid": "31689d52-c142-4a6e-a969-1d081c2fdbb2"
+        "uuid": "31689d52-c142-4a6e-a969-1d081c2fdbb2",
+        "labels": "点击"
     },
     {
         "id": "Encootech.AutomationActivity.ClickScreenPointActivity",
         "name": "Coordinate.md",
         "localizedName": "坐标点击",
-        "uuid": "1071c33c-636f-4e49-bb9d-dcaa6437529d"
+        "uuid": "1071c33c-636f-4e49-bb9d-dcaa6437529d",
+        "labels": "坐标, 点击"
     },
     {
         "id": "Encootech.AutomationActivity.MouseMoveActivity",
         "name": "MoveMouse.md",
         "localizedName": "移动鼠标",
-        "uuid": "4a035cc6-9d2e-4056-ab0f-30be0ba8015f"
+        "uuid": "4a035cc6-9d2e-4056-ab0f-30be0ba8015f",
+        "labels": "鼠标, 移动"
     },
     {
         "id": "Encootech.AutomationActivity.GetMousePointActivity",
         "name": "GetMousePosition.md",
         "localizedName": "获取鼠标位置",
-        "uuid": "1f332002-9624-49ae-b64a-126ee3476045"
+        "uuid": "1f332002-9624-49ae-b64a-126ee3476045",
+        "labels": "获取, 鼠标, 位置"
     },
     {
         "id": "Encootech.AutomationActivity.DragDropActivity",
         "name": "DragDrop.md",
         "localizedName": "鼠标拖动",
-        "uuid": "40264f26-9432-44c9-83cc-0bfcdaad9d19"
+        "uuid": "40264f26-9432-44c9-83cc-0bfcdaad9d19",
+        "labels": "拖动, 鼠标"
     },
     {
         "id": "Encootech.AutomationActivity.HoverActivity",
         "name": "Hover.md",
         "localizedName": "悬停",
-        "uuid": "f8de87aa-2206-4e6f-95d8-11b299bccf3c"
+        "uuid": "f8de87aa-2206-4e6f-95d8-11b299bccf3c",
+        "labels": "悬停"
     },
     {
         "id": "Encootech.AutomationActivity.CheckActivity",
         "name": "Check.md",
         "localizedName": "勾选",
-        "uuid": "8954a07f-7bf3-47f6-8e83-c7f7c31c363a"
+        "uuid": "8954a07f-7bf3-47f6-8e83-c7f7c31c363a",
+        "labels": "勾选"
     },
     {
         "id": "Encootech.AutomationActivity.SetTextActivity",
         "name": "TypeInto.md",
         "localizedName": "输入文本",
-        "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7"
+        "uuid": "6f8ef618-c9ba-4c03-afc9-1f397282c4e7",
+        "labels": "输入, 文本"
     },
     {
         "id": "Encootech.AutomationActivity.SendHotKeyActivity",
         "name": "SendHotkey.md",
         "localizedName": "发送快捷键",
-        "uuid": "c0f37191-286f-4517-98f2-f5b820ce85eb"
+        "uuid": "c0f37191-286f-4517-98f2-f5b820ce85eb",
+        "labels": "快捷键, 发送"
     },
     {
         "id": "Encootech.AutomationActivity.GetTextActivity",
         "name": "GetText.md",
         "localizedName": "获取文本",
-        "uuid": "5214f089-3dd9-4222-991f-9abf9c4887c5"
+        "uuid": "5214f089-3dd9-4222-991f-9abf9c4887c5",
+        "labels": "获取, 文本"
     },
     {
         "id": "Encootech.AutomationActivity.GetStructuredDataActivity",
         "name": "ExtractStructuredData.md",
         "localizedName": "获取结构化数据",
-        "uuid": "4585a5ec-7386-4438-a083-dc345e6e94f7"
+        "uuid": "4585a5ec-7386-4438-a083-dc345e6e94f7",
+        "labels": "获取, 结构化, 数据"
     },
     {
         "id": "Encootech.AutomationActivity.GetElementActivity",
         "name": "GetElement.md",
         "localizedName": "获取元素",
-        "uuid": "580eca70-9c1b-4abe-8ba3-1f03a0955ae5"
+        "uuid": "580eca70-9c1b-4abe-8ba3-1f03a0955ae5",
+        "labels": "获取, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.GetElementPropertyValueActivity",
         "name": "GetElementAttributeValue.md",
         "localizedName": "获取元素属性值",
-        "uuid": "172E0D63-B057-4EC2-9F75-8D7B96C953B9"
+        "uuid": "172E0D63-B057-4EC2-9F75-8D7B96C953B9",
+        "labels": "属性, 获取, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
         "name": "WaitElementVanish.md",
         "localizedName": "等待元素消失",
-        "uuid": "098c1949-83cf-4d07-a8f5-fb64b10558ae"
+        "uuid": "098c1949-83cf-4d07-a8f5-fb64b10558ae",
+        "labels": "等待, 消失, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementAppearActivity",
         "name": "WaitElementAppear.md",
         "localizedName": "等待元素出现",
-        "uuid": "303626bc-bab2-42c0-b3ea-1ddddc10ac61"
+        "uuid": "303626bc-bab2-42c0-b3ea-1ddddc10ac61",
+        "labels": "等待, 出现, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementPropertyActivity",
         "name": "WaitElementAttributeValue.md",
         "localizedName": "等待元素属性值",
-        "uuid": "F55DF204-9AE5-4002-9230-9439C0B3D773"
+        "uuid": "F55DF204-9AE5-4002-9230-9439C0B3D773",
+        "labels": "等待, 属性, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.SelectItemActivity",
         "name": "SelectItem.md",
         "localizedName": "选择项目",
-        "uuid": "089bcf7f-b628-4421-980d-b52b3b9bf17f"
+        "uuid": "089bcf7f-b628-4421-980d-b52b3b9bf17f",
+        "labels": "选择, 项目"
     },
     {
         "id": "Encootech.AutomationActivity.SelectMultipleItemActivity",
         "name": "SelectMultipleItems.md",
         "localizedName": "选择多个项目",
-        "uuid": "06e49c23-671a-418c-b468-9f469961e3e3"
+        "uuid": "06e49c23-671a-418c-b468-9f469961e3e3",
+        "labels": "选择, 项目, 多个"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
         "name": "Screenshot.md",
         "localizedName": "截屏",
-        "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412"
+        "uuid": "c7a700ee-ac6d-11ea-87d8-02fcdc4e7412",
+        "labels": "截屏"
     },
     {
         "id": "Encootech.AutomationActivity.HighlightActivity",
         "name": "Highlight.md",
         "localizedName": "高亮",
-        "uuid": "BF7C5379-A332-46E3-BD66-11EB6913E0D4"
+        "uuid": "BF7C5379-A332-46E3-BD66-11EB6913E0D4",
+        "labels": "高亮"
     },
     {
         "id": "Encootech.AutomationActivity.SetFocusActivity",
         "name": "SetFocus.md",
         "localizedName": "设置焦点",
-        "uuid": "3FC7C597-50B6-4605-951D-A85C9D8226D6"
+        "uuid": "3FC7C597-50B6-4605-951D-A85C9D8226D6",
+        "labels": "设置, 焦点"
     },
     {
         "id": "Encootech.AutomationActivity.MatchImageActivity",
         "name": "MatchImage.md",
         "localizedName": "匹配图片",
-        "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613"
+        "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613",
+        "labels": "图片, 匹配"
     },
     {
         "id": null,

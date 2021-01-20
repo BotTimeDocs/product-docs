@@ -3,6 +3,7 @@
         "id": null,
         "name": "userApps.md",
         "localizedName": "关于我的小程序",
-        "uuid": "4440ec97-9890-4728-8ddb-5879bc10fee7"
+        "uuid": "4440ec97-9890-4728-8ddb-5879bc10fee7",
+        "labels": "小程序, 我的"
     }
 ]

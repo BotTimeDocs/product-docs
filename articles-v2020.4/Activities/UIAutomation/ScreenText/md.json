@@ -3,24 +3,28 @@
         "id": "Encootech.AutomationActivity.ScreenTextualizationActivity.GetScreenTextActivity",
         "name": "GetScreenText.md",
         "localizedName": "获取屏幕文本",
-        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c0"
+        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c0",
+        "labels": "获取, 文本, 屏幕"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenTextualizationActivity.GetElementContainsTextOnScreenActivity",
         "name": "GetTextElement.md",
         "localizedName": "获取屏幕含某文本的元素",
-        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c1"
+        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c1",
+        "labels": "获取, 文本, 屏幕, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenTextualizationActivity.CheckTextExistOnScreenActivity",
         "name": "IdentifyScreenTextExist.md",
         "localizedName": "判断屏幕文本是否存在",
-        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c2"
+        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c2",
+        "labels": "文本, 存在, 判断, 屏幕"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenTextualizationActivity.ClickScreenTextActivity",
         "name": "ClickScreenText.md",
         "localizedName": "点击屏幕文本",
-        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c3"
+        "uuid": "f99e44c7-cab2-4faf-9785-57008e0ff2c3",
+        "labels": "文本, 屏幕, 点击"
     }
 ]

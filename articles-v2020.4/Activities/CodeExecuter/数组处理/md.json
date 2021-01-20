@@ -3,19 +3,21 @@
         "id": "Encoo.CodeTool.Activity.Activities.Array.InitializeArrayActivity",
         "name": "InitializeArrayActivity.md",
         "localizedName": "初始化数组",
-        "uuid": "48bb087d-b573-494b-9c8b-d654b09d1c1b"
+        "uuid": "48bb087d-b573-494b-9c8b-d654b09d1c1b",
+        "labels": "初始化, 数组"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Array.ExistsInArrayActivity",
         "name": "ExistsInArrayActivity.md",
         "localizedName": "元素是否存在",
-        "uuid": "9f08e6bc-ff94-4a2c-98a1-141fee33b120"
+        "uuid": "9f08e6bc-ff94-4a2c-98a1-141fee33b120",
+        "labels": "存在, 元素, 数组"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Array.GetLengthOfArrayActivity",
         "name": "GetLengthOfArrayActivity.md",
         "localizedName": "获取数组长度",
-        "uuid": "3ab86d2a-cb46-449c-b005-f9fb0d7765d3"
+        "uuid": "3ab86d2a-cb46-449c-b005-f9fb0d7765d3",
+        "labels": "获取, 长度, 数组"
     }
-
 ]

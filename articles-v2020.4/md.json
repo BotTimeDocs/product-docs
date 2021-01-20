@@ -2,12 +2,14 @@
     {
         "name": "Index.md",
         "localizedName": "概览",
-        "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f"
+        "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
+        "labels": "RPA, 平台, 云扩"
     },
     {
         "name": "ReleaseNotes.md",
         "localizedName": "发版说明",
-        "uuid": "20c471b3-c9e4-4e1f-8f1b-69494d6b1fad"
+        "uuid": "20c471b3-c9e4-4e1f-8f1b-69494d6b1fad",
+        "labels": "发版, 版本"
     },
     {
         "name": "FunctionList.md",
@@ -17,7 +19,8 @@
     {
         "name": "QA.md",
         "localizedName": "常见问题",
-        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa"
+        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
+        "labels": ""
     },
     {
         "name": "Studio",

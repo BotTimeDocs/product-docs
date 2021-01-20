@@ -3,18 +3,21 @@
         "id": null,
         "name": "userlogin.md",
         "localizedName": "用户登录",
-        "uuid": "ab4eceb7-74c9-42a8-b7fa-1c0c64da5d68"
+        "uuid": "ab4eceb7-74c9-42a8-b7fa-1c0c64da5d68",
+        "labels": "用户, 登录"
     },
     {
         "id": null,
         "name": "homepage.md",
         "localizedName": "首页",
-        "uuid": "6f73f9e6-c8a1-4bf7-82fb-62c01725697e"
+        "uuid": "6f73f9e6-c8a1-4bf7-82fb-62c01725697e",
+        "labels": "首页"
     },
     {
         "id": null,
         "name": "dashboard",
-        "localizedName": "仪表盘"    },
+        "localizedName": "仪表盘"
+    },
     {
         "id": null,
         "name": "packages",
@@ -64,6 +67,7 @@
         "id": null,
         "name": "cancelaccount.md",
         "localizedName": "注销账户",
-        "uuid": "0f233a42-14ac-4654-ac64-8a1e742b577a"
+        "uuid": "0f233a42-14ac-4654-ac64-8a1e742b577a",
+        "labels": "账户, 注销"
     }
 ]

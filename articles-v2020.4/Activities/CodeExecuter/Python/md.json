@@ -3,18 +3,21 @@
         "id": "Encoo.CodeTool.Activity.Activities.Python.PythonInstallActivity",
         "name": "PythonInstall.md",
         "localizedName": "安装Python",
-        "uuid": "78030805-3727-4f62-b477-70c8501d8edd"
+        "uuid": "78030805-3727-4f62-b477-70c8501d8edd",
+        "labels": "Python, 安装"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Python.PythonScopeActivity",
         "name": "PythonScope.md",
         "localizedName": "Python环境",
-        "uuid": "463bb7cb-1adf-4dd3-a242-3158dfd7af58"
+        "uuid": "463bb7cb-1adf-4dd3-a242-3158dfd7af58",
+        "labels": "环境, Python"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Python.PythonExecuteFileActivity",
         "name": "PythonExcuteFile.md",
         "localizedName": "执行Python代码",
-        "uuid": "568dc641-15e0-41fc-a8ed-b2ac92f1e45b"
+        "uuid": "568dc641-15e0-41fc-a8ed-b2ac92f1e45b",
+        "labels": "执行, Python, 代码"
     }
 ]

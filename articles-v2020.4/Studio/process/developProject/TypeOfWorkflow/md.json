@@ -2,11 +2,13 @@
     {
         "name": "Sequence.md",
         "localizedName": "序列",
-        "uuid": "55bede38-f49b-4d01-9035-107e3a35a453"
+        "uuid": "55bede38-f49b-4d01-9035-107e3a35a453",
+        "labels": "序列"
     },
     {
         "name": "Flowchart.md",
         "localizedName": "流程图",
-        "uuid": "64aaf6c5-5b86-4b22-bfc2-e988529dbe83"
+        "uuid": "64aaf6c5-5b86-4b22-bfc2-e988529dbe83",
+        "labels": "流程图"
     }
 ]

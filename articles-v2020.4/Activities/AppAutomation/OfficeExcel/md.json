@@ -4,186 +4,209 @@
         "name": "OpenExcel.md",
         "localizedName": "打开新建",
         "uuid": "c4138eee-05ad-4a13-ad96-297c2bc68aa5",
-        "labels": "Excel"
+        "labels": "新建, 打开, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadCellActivity",
         "name": "ReadCell.md",
         "localizedName": "读取单元格",
         "uuid": "ceb807c2-691f-47be-aa74-026c789b1fbf",
-        "labels": "Excel,读取"
+        "labels": "读取, 单元格, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRangeActivity",
         "name": "ReadRange.md",
         "localizedName": "读取区域",
         "uuid": "85e879df-c737-4f72-bf45-b56d338046c0",
-        "labels": "Excel,读取"
+        "labels": "读取, 区域, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRowColumnActivity",
         "name": "ReadRowOrColumn.md",
         "localizedName": "读取行/列数据",
         "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470",
-        "labels": "Excel,读取"
+        "labels": "读取, 数据, Excel, 行, 列"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetCellActivity",
         "name": "WriteCell.md",
         "localizedName": "写入单元格",
         "uuid": "dadb9ee9-042b-4455-8ceb-c691af8699eb",
-        "labels": "Excel,写入"
+        "labels": "单元格, 写入, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRangeActivity",
         "name": "WriteRange.md",
         "localizedName": "写入区域",
         "uuid": "967a43d8-af97-482b-ac04-610fe81511f2",
-        "labels": "Excel,写入"
+        "labels": "写入, 区域, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
         "name": "WriteRowOrColumn.md",
         "localizedName": "写入行或列数据",
         "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3",
-        "labels": "Excel,写入"
+        "labels": "写入, 数据, Excel, 行, 列"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelAutoFillRangeActivity",
         "name": "AutoFillRange.md",
         "localizedName": "自动填充",
-        "uuid": "3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2"
+        "uuid": "3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2",
+        "labels": "填充, 自动, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteDataActivity",
         "name": "Delete.md",
         "localizedName": "删除数据",
-        "uuid": "01e15b84-e5ae-443f-b8b1-ff81b32ced8a"
+        "uuid": "01e15b84-e5ae-443f-b8b1-ff81b32ced8a",
+        "labels": "数据, 删除, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetLastRowIndexActivity",
         "name": "GetLastRow.md",
         "localizedName": "获取末行号",
-        "uuid": "4a3839bc-c15f-4b00-8953-1e1f803e9a71"
+        "uuid": "4a3839bc-c15f-4b00-8953-1e1f803e9a71",
+        "labels": "行号, 获取, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetLastColIndexActivity",
         "name": "GetLastColumn.md",
         "localizedName": "获取末列号",
-        "uuid": "69e88aec-430b-4434-be21-a42b102adacd"
+        "uuid": "69e88aec-430b-4434-be21-a42b102adacd",
+        "labels": "获取, 末列, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetAllSheetsActivity",
         "name": "GetWorksheetsName.md",
         "localizedName": "获取所有工作表名",
-        "uuid": "5c30fc71-cb52-4721-908a-660ef1f99b0b"
+        "uuid": "5c30fc71-cb52-4721-908a-660ef1f99b0b",
+        "labels": "工作表名, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelAddFormulaActivity",
         "name": "InsertFormula.md",
         "localizedName": "插入公式",
-        "uuid": "124a7b04-9abf-4ae2-a220-4285be345d57"
+        "uuid": "124a7b04-9abf-4ae2-a220-4285be345d57",
+        "labels": "插入公式, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertPictureActivity",
         "name": "InsertPicture.md",
         "localizedName": "插入图片",
-        "uuid": "5078c96e-56a7-4b12-b41e-d2e17e39c51f"
+        "uuid": "5078c96e-56a7-4b12-b41e-d2e17e39c51f",
+        "labels": "图片, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSortActivity",
         "name": "Sort.md",
         "localizedName": "排序",
-        "uuid": "590b8a1b-1875-4f22-80a4-a94ada1c3055"
+        "uuid": "590b8a1b-1875-4f22-80a4-a94ada1c3055",
+        "labels": "排序, 数据, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelFilterActivity",
         "name": "Filter.md",
         "localizedName": "筛选",
-        "uuid": "39dd1504-31fd-452c-8379-6108d3ec35d4"
+        "uuid": "39dd1504-31fd-452c-8379-6108d3ec35d4",
+        "labels": "筛选, 数据, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelFindCellAddressActivity",
         "name": "Search.md",
         "localizedName": "查找",
-        "uuid": "74f9677b-3bcc-4a23-8cfb-2bedd2753c9c"
+        "uuid": "74f9677b-3bcc-4a23-8cfb-2bedd2753c9c",
+        "labels": "查找, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRemoveDuplicateActivity",
         "name": "RemoveDuplicateCells.md",
         "localizedName": "去重",
-        "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4"
+        "uuid": "dea1c4d5-5a56-43ae-bd40-f9754a2d54d4",
+        "labels": "去重, 数据, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
-        "uuid": "dcbd3b98-747d-4efe-9253-ccc32ca82855"
+        "uuid": "dcbd3b98-747d-4efe-9253-ccc32ca82855",
+        "labels": "背景色, 单元格, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetCellBackgroundColorActivity",
         "name": "SetCellBackcolor.md",
         "localizedName": "设置单元格背景色",
-        "uuid": "494dddca-023c-4863-8e4c-6efd79bc9ce4"
+        "uuid": "494dddca-023c-4863-8e4c-6efd79bc9ce4",
+        "labels": "背景色, 单元格, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSetFontColorActivity",
         "name": "SetTextColor.md",
         "localizedName": "设置文字颜色",
-        "uuid": "b72d8f8e-7f36-4c39-b558-dd5c1eea137b"
+        "uuid": "b72d8f8e-7f36-4c39-b558-dd5c1eea137b",
+        "labels": "文字颜色, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelHideSheetActivity",
         "name": "HideWorksheets.md",
         "localizedName": "隐藏工作表",
-        "uuid": "a20a23b6-3062-4b7b-a79b-e720082a9e35"
+        "uuid": "a20a23b6-3062-4b7b-a79b-e720082a9e35",
+        "labels": "工作表, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertSheetActivity",
         "name": "InsertWorksheets.md",
         "localizedName": "插入工作表",
-        "uuid": "04908cff-82bf-41a4-b3a2-b819be9bba7d"
+        "uuid": "04908cff-82bf-41a4-b3a2-b819be9bba7d",
+        "labels": "工作表, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertRowColumnActivity",
         "name": "InsertRoworColumn.md",
         "localizedName": "插入行或列",
-        "uuid": "dc145410-f5aa-4a06-b21d-6c1d4d7240e1"
+        "uuid": "dc145410-f5aa-4a06-b21d-6c1d4d7240e1",
+        "labels": "插入, Excel, 行, 列"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelMergeCellsActivity",
         "name": "MergeCells.md",
         "localizedName": "合并单元格",
-        "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b"
+        "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b",
+        "labels": "单元格, 合并, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
         "name": "ExecuteMacro.md",
         "localizedName": "执行宏",
-        "uuid": "0c9398c4-a260-4df8-9d2c-a96bbf7d1e56"
+        "uuid": "0c9398c4-a260-4df8-9d2c-a96bbf7d1e56",
+        "labels": "宏, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelCreatePivotTableActivity",
         "name": "CreatePivotTable.md",
         "localizedName": "创建透视表",
-        "uuid": "063d7a46-9e3b-4605-adba-04ace824155c"
+        "uuid": "063d7a46-9e3b-4605-adba-04ace824155c",
+        "labels": "透视表, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRefreshPivotTableActivity",
         "name": "RefreshPivotTable.md",
         "localizedName": "刷新透视表",
-        "uuid": "707384d8-0212-4398-a0ca-1ec0b2f5dfd5"
+        "uuid": "707384d8-0212-4398-a0ca-1ec0b2f5dfd5",
+        "labels": "透视表, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelResetPasswordActivity",
         "name": "OfficeExcelResetPassword.md",
         "localizedName": "重置密码",
-        "uuid": "6bec567e-3ce5-473f-958d-8021bc0788a4"
+        "uuid": "6bec567e-3ce5-473f-958d-8021bc0788a4",
+        "labels": "密码, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelSaveActivity",
         "name": "Save.md",
         "localizedName": "保存",
-        "uuid": "7a3027c5-6676-4720-945c-4a2f58909ae5"
+        "uuid": "7a3027c5-6676-4720-945c-4a2f58909ae5",
+        "labels": "保存, Excel"
     }
 ]

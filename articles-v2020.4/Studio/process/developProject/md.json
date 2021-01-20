@@ -17,7 +17,8 @@
     {
         "name": "ImportNamespaces.md",
         "localizedName": "导入命名空间",
-        "uuid": "eaf50d20-260d-4b50-9472-202cf68ff1bb"
+        "uuid": "eaf50d20-260d-4b50-9472-202cf68ff1bb",
+        "labels": "命名空间, 导入"
     },
     {
         "name": "Recording",
