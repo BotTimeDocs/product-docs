@@ -1,4 +1,5 @@
 # 读取行/列数据
+
 读取指定工作表中的某一列或某一行，将读取到的内容保存在数组中并可输出
 
 ## 属性
@@ -6,10 +7,9 @@
 ### 基本
 
 - **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-
+- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择 "是" 时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择 "否" 时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
+- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
+- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件。
 
 ### 输入
 
@@ -18,23 +18,31 @@
 - **起始单元格** ：  读取行或列时的起始单元格。将从此单元格开始，结合“读取行/列”属性所选择的行或列，来横向或者竖向读取数据。仅支持字符串变量和字符串
 
 ### 输出
+
 - **数据** ： 输出数组类型的数据
 
 ## 操作样例
-1. 新建一个Excel文件，在A1:B7处填入需要被读取的值:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
 
-2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
 
-3. 双击**打开/新建**组件，拖入**读取行/列数据**组件至**打开/新建**组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取行，在输出数据中写入变量来接收读取的内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps13.png)
+    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
 
-4. 拖入另外一个**读取行/列数据**组件至**打开/新建**组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取列，在输出数据中写入变量来接收读取的内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps14.png)
+2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
 
-5. 拖入**写入日志**组件，来显示需要获取的行和列的内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps15.png)
+    ![2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击 **打开/新建** 组件，拖入 **读取行/列数据** 组件至 **打开/新建** 组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取行，在输出数据中写入变量来接收读取的内容:
+
+    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps13.png)
+
+4. 拖入另外一个 **读取行/列数据** 组件至 **打开/新建** 组件中，填写工作表和起始单元格位置，在右侧配置输入中选择读取列，在输出数据中写入变量来接收读取的内容:
+
+    ![4](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps14.png)
+
+5. 拖入 **写入日志** 组件，来显示需要获取的行和列的内容:
+
+    ![5](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps15.png)
 
 6. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps16.png)
+
+    ![6](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps16.png)

@@ -7,10 +7,9 @@
 ### 基本
 
 - **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-
+- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择 "是" 时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择 "否" 时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
+- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
+- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
 
 ### 输入
 
@@ -23,17 +22,23 @@
 - **单元格地址** ：将查找到的第一个单元格地址存储在此变量。仅支持字符串变量和字符串
 
 ## 操作样例
-1. 新建一个Excel文件，在A1:B7处填入需要被读取的值:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
 
-2. 拖入**打开/新建**组件，不勾选新建文件，再填入需要打开的Excel文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
 
-3. 双击**打开/新建**组件，拖入**查找**组件至**打开/新建**组件中，填写工作表和起始单元格位置以及需要查找的内容，将输出的单元格地址赋值给变量:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps17.png)
+    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
 
-5. 拖入**写入日志**组件，来显示需要获取单元格地址的内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps18.png)
+2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
 
-6. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps19.png)
+    ![2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+
+3. 双击 **打开/新建** 组件，拖入 **查找** 组件至 **打开/新建** 组件中，填写工作表和起始单元格位置以及需要查找的内容，将输出的单元格地址赋值给变量:
+
+    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps17.png)
+
+4. 拖入 **写入日志** 组件，来显示需要获取单元格地址的内容:
+
+    ![4](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps18.png)
+
+5. 点击流程运行，观察运行结果:
+
+    ![5](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps19.png)
