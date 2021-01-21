@@ -1,10 +1,12 @@
-# FireFox扩展
+# FireFox 扩展
+
 ## 安装
-1. 在编辑器的**工具 > 扩展**下你可以看到你需要安装的 FireFox 扩展。
 
-   ![FireFox扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+1. 在编辑器的 **工具 > 扩展** 下你可以看到你需要安装的 FireFox 扩展。
 
-2. 点击“FireFox扩展”按钮。显示安装对话框，点击“确定“。
+   ![FireFox 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+
+2. 点击“FireFox 扩展”按钮。显示安装对话框，点击“确定“。
 
    ![确定安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-installation.PNG)
 
@@ -16,7 +18,7 @@
 
    ![确认](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-confirm.PNG)
 
-5. 点击侧边导航栏->附加组件，打开“附加组件管理器”，可看到现已成功安装扩展。
+5. 点击侧边导航栏-> 附加组件，打开“附加组件管理器”，可看到现已成功安装扩展。
 
    ![打开附加组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-attachExtension.PNG)
    ![成功安装](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-installationSuccess.PNG)
