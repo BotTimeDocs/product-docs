@@ -10,7 +10,7 @@
 - **显示名称**：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
 
 ### 目标
-- **[选择器](../Appendix/Selector.md?_v=v2020.4)**：要获取的特定UI元素。可通过点击指定元素自动生成，仅支持字符串变量和字符串。
+- **[选择器](/articles-v2020.4/Activities/Appendix/Selector.md)**：要获取的特定UI元素。可通过点击指定元素自动生成，仅支持字符串变量和字符串。
 
 ## 操作样例
 1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。

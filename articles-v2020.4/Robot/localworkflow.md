@@ -2,12 +2,12 @@
 
 机器人可以通过桌面点击的方式执行流程，也可以通过控制台集中管理执行流程。
 
-控制台集中管理执行流程详见：[如何下发一个流程](https://academy.encoo.com/zh-cn/wiki/Console/workflow/manageworkflow.md)
+控制台集中管理执行流程详见：[如何下发一个流程](Console/../../Console/workflow/manageworkflow.md)
 
 本地执行的流程来源分为两种：
 
 1. 本地流程文件文件：通过编辑器导出的流程包（后缀为.dgs的流程压缩包）
-2. 控制台流程库:获取机器人所在资源组的[流程包](..\Console\packages\aboutPackages.md?_v=v2020.4)
+2. 控制台流程库:获取机器人所在资源组的[流程包](..\Console\packages\aboutPackages.md)
 
 **控制台流程库**仅供通过控制台激活的机器人使用。
 
