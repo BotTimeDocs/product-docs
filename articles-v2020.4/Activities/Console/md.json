@@ -3,18 +3,21 @@
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
         "localizedName": "文档理解",
-        "uuid": "e1681ddc-b289-4ad8-b215-0a2486e69f57"
+        "uuid": "e1681ddc-b289-4ad8-b215-0a2486e69f57",
+        "labels": "文档, 理解, 控制台"
     },
     {
         "id": "Encoo.Console.Activity.AcquireAssetsActivity",
         "name": "GetAssets.md",
         "localizedName": "获取资产",
-        "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8"
-    }    ,
+        "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8",
+        "labels": "获取, 资产, 数据, 控制台"
+    },
     {
         "id": "Encoo.Console.Activity.FileDownloadActivity",
         "name": "FileDownloadActivity.md",
         "localizedName": "下载文件",
-        "uuid": "846221b4-b781-436a-adb1-9e4f84547c65"
+        "uuid": "846221b4-b781-436a-adb1-9e4f84547c65",
+        "labels": "文件, 下载, 控制台, 文件服务"
     }
 ]

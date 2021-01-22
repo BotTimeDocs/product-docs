@@ -3,30 +3,35 @@
         "id": "BotTime.Flow.Activities.While",
         "name": "While.md",
         "localizedName": "循环操作(While)",
-        "uuid": "ddea6f1c-589f-4758-a980-560cb0904b9d"
+        "uuid": "ddea6f1c-589f-4758-a980-560cb0904b9d",
+        "labels": "循环, While, 操作"
     },
     {
         "id": "BotTime.Flow.Activities.DoWhile",
         "name": "DoWhile.md",
         "localizedName": "循环操作(Do While)",
-        "uuid": "09887bbb-d353-4f6f-96fe-ccee9382daf1"
+        "uuid": "09887bbb-d353-4f6f-96fe-ccee9382daf1",
+        "labels": "循环, While, 操作, Do"
     },
     {
         "id": "BotTime.Flow.Activities.ForEach",
         "name": "ForEach.md",
         "localizedName": "循环操作(For Each)",
-        "uuid": "fa55282c-def5-4639-a36e-157189b60df7"
+        "uuid": "fa55282c-def5-4639-a36e-157189b60df7",
+        "labels": "循环, Each, For, 遍历"
     },
     {
         "id": "BotTime.Flow.Activities.Continue",
         "name": "Continue.md",
         "localizedName": "继续循环",
-        "uuid": "8e8df4a6-e3d4-463b-bbc7-d5761975f836"
+        "uuid": "8e8df4a6-e3d4-463b-bbc7-d5761975f836",
+        "labels": "继续, 循环, Continue"
     },
     {
         "id": "BotTime.Flow.Activities.Break",
         "name": "Break.md",
         "localizedName": "终止循环",
-        "uuid": "348a8aec-e52a-4df0-888b-f3bf62cf1448"
+        "uuid": "348a8aec-e52a-4df0-888b-f3bf62cf1448",
+        "labels": "终止, 循环, Break"
     }
 ]

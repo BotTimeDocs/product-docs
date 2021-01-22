@@ -3,30 +3,35 @@
         "id": "Encoo.Pdf.Activity.Activities.CombinePdfsActivity",
         "name": "MergePDF.md",
         "localizedName": "合并文件",
-        "uuid": "c0c0cb23-01cd-47cc-9562-e7d3032496fb"
+        "uuid": "c0c0cb23-01cd-47cc-9562-e7d3032496fb",
+        "labels": "PDF, 合并"
     },
     {
         "id": "Encoo.Pdf.Activity.Activities.ExtractPdfToNewActivity",
         "name": "ExtractToNewFile.md",
         "localizedName": "提取为新文档",
-        "uuid": "1062380e-8acd-4e02-b159-79fe52cd2924"
+        "uuid": "1062380e-8acd-4e02-b159-79fe52cd2924",
+        "labels": "PDF, 提取"
     },
     {
         "id": "Encoo.Pdf.Activity.Activities.GetPageCountOfPdfActivity",
         "name": "GetPageNumbers.md",
         "localizedName": "获取页数",
-        "uuid": "e13b4830-0f65-4344-bb48-e89cbdd27d64"
+        "uuid": "e13b4830-0f65-4344-bb48-e89cbdd27d64",
+        "labels": "PDF, 页数"
     },
     {
         "id": "Encoo.Pdf.Activity.Activities.GetImagesOfPdfActivity",
         "name": "ExtractImages.md",
         "localizedName": "读取图片",
-        "uuid": "8a0f0660-5f8d-408b-bf16-1cc541050db0"
+        "uuid": "8a0f0660-5f8d-408b-bf16-1cc541050db0",
+        "labels": "读取, PDF, 图片"
     },
     {
         "id": "Encoo.Pdf.Activity.Activities.GetTextOfPdfActivity",
         "name": "ExtractText.md",
         "localizedName": "读取文本",
-        "uuid": "3482ba7b-15a0-4d84-9817-11070905d9ce"
+        "uuid": "3482ba7b-15a0-4d84-9817-11070905d9ce",
+        "labels": "PDF, 读取, 文本"
     }
 ]

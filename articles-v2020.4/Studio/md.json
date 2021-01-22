@@ -14,7 +14,8 @@
     {
         "name": "VersionControl.md",
         "localizedName": "版本控制",
-        "uuid":"3b7e4427-2af2-48bf-9c06-3f5d4c412eb3"
+        "uuid": "3b7e4427-2af2-48bf-9c06-3f5d4c412eb3",
+        "labels": "版本控制"
     },
     {
         "name": "Extensions",
@@ -27,6 +28,7 @@
     {
         "name": "FAQ.md",
         "localizedName": "常见问题",
-        "uuid": "edf49939-4f26-4c60-9fcc-c45da6eba123"
+        "uuid": "edf49939-4f26-4c60-9fcc-c45da6eba123",
+        "labels": "FAQ, 常见问题"
     }
 ]

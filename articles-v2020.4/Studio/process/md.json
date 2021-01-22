@@ -2,37 +2,44 @@
     {
         "name": "WorkingProcess.md",
         "localizedName": "创建-编辑-调试-发布",
-        "uuid": "7b8abe50-2e5c-4644-be3f-08623515f9ec"
+        "uuid": "7b8abe50-2e5c-4644-be3f-08623515f9ec",
+        "labels": "创建, 编辑, 发布, 调试"
     },
     {
         "name": "CreateProject.md",
         "localizedName": "创建流程项目",
-        "uuid": "45df4772-e03e-43f8-a8c3-1e113f9cb7ef"
+        "uuid": "45df4772-e03e-43f8-a8c3-1e113f9cb7ef",
+        "labels": "创建, 流程项目"
     },
     {
         "name": "CreateLibrary.md",
         "localizedName": "创建组件项目",
-        "uuid": "4f2d5853-ffb5-45e0-85e2-4decc0dd15d7"
+        "uuid": "4f2d5853-ffb5-45e0-85e2-4decc0dd15d7",
+        "labels": "创建, 组件项目"
     },
     {
         "name": "ProjectTemplates.md",
         "localizedName": "从模板新建",
-        "uuid": "676af9fd-9723-4423-a833-0bb7aeaa26a7"
+        "uuid": "676af9fd-9723-4423-a833-0bb7aeaa26a7",
+        "labels": "模板, 项目, 新建"
     },
     {
         "name": "ConsolePackage.md",
         "localizedName": "控制台流程",
-        "uuid": "b7eb002f-5535-41b4-9ac4-0e4c5e1c456f"
+        "uuid": "b7eb002f-5535-41b4-9ac4-0e4c5e1c456f",
+        "labels": "流程, 控制台"
     },
     {
         "name": "ReferenceProject.md",
         "localizedName": "引用项目",
-        "uuid": "69ed2c4f-09c5-41c1-9901-165866965d70"
+        "uuid": "69ed2c4f-09c5-41c1-9901-165866965d70",
+        "labels": "引用, 项目"
     },
     {
         "name": "ProjectSettings.md",
         "localizedName": "项目设置",
-        "uuid": "e98f8b0d-c3fd-4ef1-949a-9524cce22e4e"
+        "uuid": "e98f8b0d-c3fd-4ef1-949a-9524cce22e4e",
+        "labels": "设置, 项目"
     },
     {
         "name": "developProject",
@@ -46,6 +53,7 @@
     {
         "name": "PublishProject.md",
         "localizedName": "发布自动化项目",
-        "uuid": "6c8d9220-3c6b-4597-ae3a-4f0b1d47fa16"
+        "uuid": "6c8d9220-3c6b-4597-ae3a-4f0b1d47fa16",
+        "labels": "发布, 项目"
     }
 ]

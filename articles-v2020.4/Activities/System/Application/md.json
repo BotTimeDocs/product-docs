@@ -3,12 +3,14 @@
         "id": "Encootech.AutomationActivity.StartApplicationActivity",
         "name": "OpenApplication.md",
         "localizedName": "打开程序",
-        "uuid": "0747e2f9-edeb-4040-963c-a67a48d40068"
+        "uuid": "0747e2f9-edeb-4040-963c-a67a48d40068",
+        "labels": "打开, 程序"
     },
     {
         "id": "Encootech.AutomationActivity.CloseApplicationActivity",
         "name": "CloseApplication.md",
         "localizedName": "关闭程序",
-        "uuid": "4246754b-a7e5-4351-9f91-36e9378a8cc1"
+        "uuid": "4246754b-a7e5-4351-9f91-36e9378a8cc1",
+        "labels": "关闭程序"
     }
 ]

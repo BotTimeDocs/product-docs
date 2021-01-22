@@ -3,18 +3,21 @@
         "id": "Encoo.AIHub.Activity.AIHubIdentificationOfCredentialsActivity",
         "name": "IdentificationOfCredentials.md",
         "localizedName": "证照识别",
-        "uuid": "a544158c-ab9c-4fd5-8151-cb4379f90dd8"
+        "uuid": "a544158c-ab9c-4fd5-8151-cb4379f90dd8",
+        "labels": "证照, 识别, AI Hub"
     },
     {
         "id": "Encoo.AIHub.Activity.AIHubBillIdentificationActivity",
         "name": "BillIdentification.md",
         "localizedName": "票据识别",
-        "uuid": "a48976ff-3fff-42c6-827f-746ca4500aa0"
+        "uuid": "a48976ff-3fff-42c6-827f-746ca4500aa0",
+        "labels": "识别, 票据, AI Hub"
     },
     {
         "id": "Encoo.AIHub.Activity.AIHubGeneralCharacterRecognitionActivity",
         "name": "GeneralCharacterRecognition.md",
         "localizedName": "通用文字识别",
-        "uuid": "0051d972-680c-429f-844c-467cb046939e"
+        "uuid": "0051d972-680c-429f-844c-467cb046939e",
+        "labels": "识别, 文字, AI Hub, 手写文字, 通用文字"
     }
 ]

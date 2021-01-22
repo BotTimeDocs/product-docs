@@ -3,18 +3,21 @@
         "id": null,
         "name": "aboutqueue.md",
         "localizedName": "关于调度队列",
-        "uuid": ""
+        "uuid": "",
+        "labels": "调度, 队列"
     },
     {
         "id": null,
         "name": "managequeue.md",
         "localizedName": "管理调度队列",
-        "uuid": ""
+        "uuid": "",
+        "labels": "调度队列, 查看, 队列"
     },
     {
         "id": null,
         "name": "queuejob.md",
         "localizedName": "查看调度队列任务",
-        "uuid": ""
+        "uuid": "",
+        "labels": "调度队列, 查看, 队列, 任务"
     }
 ]

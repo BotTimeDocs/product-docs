@@ -249,7 +249,7 @@
 
 #### 【小程序】
 
-1. [任务记录](Apps/devApps/appsedit/component/workflowlog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+1. [任务记录](Apps/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 
 ### 改进与增强
 
@@ -622,9 +622,9 @@
 
 #### 【组件】
 
-1. **软件自动化 > 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)**。
-2. **软件自动化 > Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)**。
-3. **系统 > [设置剪贴板文本](Activities/System/SetContentsToClipboard.md?_v=v2020.4)**：实现设置文本内容到剪贴板。
+1. **软件自动化 > 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)**。
+2. **软件自动化 > Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md)**。
+3. **系统 > [设置剪贴板文本](Activities/System/SetContentsToClipboard.md)**：实现设置文本内容到剪贴板。
 
 #### 【组件市场】
 

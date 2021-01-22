@@ -3,36 +3,42 @@
         "id": null,
         "name": "Encoding.md",
         "localizedName": "支持的字符编码",
-        "uuid": "e01a2675-1934-417b-83aa-3a4be6268157"
+        "uuid": "e01a2675-1934-417b-83aa-3a4be6268157",
+        "labels": "编码, 字符"
     },
     {
         "id": null,
         "name": "SupportedAttribute.md",
         "localizedName": "支持的属性列表",
-        "uuid": "b1d2d88d-5322-469b-9df0-939db05d256a"
+        "uuid": "b1d2d88d-5322-469b-9df0-939db05d256a",
+        "labels": "属性, 元素"
     },
     {
         "id": null,
         "name": "SupportedVariableName.md",
         "localizedName": "支持变量的属性",
-        "uuid": "8e2cce80-aa48-4cc9-90ea-7ef8233beaed"
+        "uuid": "8e2cce80-aa48-4cc9-90ea-7ef8233beaed",
+        "labels": "属性, 变量, 选择器编辑器"
     },
     {
         "id": null,
         "name": "Selector.md",
         "localizedName": "选择器",
-        "uuid": "3b7fa33e-041d-49dd-bd80-5876b7971019"
+        "uuid": "3b7fa33e-041d-49dd-bd80-5876b7971019",
+        "labels": "选择器, 元素, XPath"
     },
     {
         "id": null,
         "name": "UiDetector.md",
         "localizedName": "元素探测器",
-        "uuid": "5411559b-c398-4b63-b39a-b14c18f3f0a7"
+        "uuid": "5411559b-c398-4b63-b39a-b14c18f3f0a7",
+        "labels": "元素探测器, 进程"
     },
     {
         "id": null,
         "name": "IELog.md",
         "localizedName": "收集 IE 前端日志工具",
-        "uuid": "f4287a7d-f776-4dcc-b12d-9aef96307b7b"
+        "uuid": "f4287a7d-f776-4dcc-b12d-9aef96307b7b",
+        "labels": "工具, 日志, IE"
     }
 ]

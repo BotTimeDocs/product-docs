@@ -2,16 +2,19 @@
     {
         "name": "Debugging.md",
         "localizedName": "调试",
-        "uuid": "8381dd9a-db27-4d8a-99b4-63209ea835f1"
+        "uuid": "8381dd9a-db27-4d8a-99b4-63209ea835f1",
+        "labels": "调试"
     },
     {
         "name": "partialDebug.md",
         "localizedName": "分步调试",
-        "uuid": "a7743895-3b55-4d82-b592-867f1e4426bb"
+        "uuid": "a7743895-3b55-4d82-b592-867f1e4426bb",
+        "labels": "分步, 调试"
     },
     {
         "name": "ValuePanel.md",
         "localizedName": "变量面板",
-        "uuid": "df8e5d9b-eecf-4976-832c-359ed4fffef5"
+        "uuid": "df8e5d9b-eecf-4976-832c-359ed4fffef5",
+        "labels": "变量, 面板"
     }
 ]

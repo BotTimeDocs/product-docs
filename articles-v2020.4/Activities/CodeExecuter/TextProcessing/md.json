@@ -3,42 +3,49 @@
         "id": "Encoo.Text.Activity.Activities.VerifyTextActivity",
         "name": "VerifyTextActivity.md",
         "localizedName": "验证文本有效性",
-        "uuid": "58681e3a-2076-4c26-8733-f3fdc09eea9f"
+        "uuid": "58681e3a-2076-4c26-8733-f3fdc09eea9f",
+        "labels": "验证, 文本, 有效性, 字符串"
     },
     {
         "id": "Encoo.Text.Activity.Activities.ExtractTextActivity",
         "name": "ExtractTextActivity.md",
         "localizedName": "提取文本",
-        "uuid": "d2fdf3a9-8406-42db-9e22-a85ca4f0f4ec"
+        "uuid": "d2fdf3a9-8406-42db-9e22-a85ca4f0f4ec",
+        "labels": "提取, 文本, 字符串"
     },
     {
         "id": "Encoo.Text.Activity.Activities.ReplaceTextActivity",
         "name": "ReplaceTextActivity.md",
         "localizedName": "替换文本",
-        "uuid": "aa7466a1-6dea-4297-baaa-ecc939b196b4"
+        "uuid": "aa7466a1-6dea-4297-baaa-ecc939b196b4",
+        "labels": "替换, 文本, 字符串"
     },
     {
         "id": "Encoo.Text.Activity.Activities.GetSubstringActivity",
         "name": "GetSubstringActivity.md",
         "localizedName": "截取文本",
-        "uuid": "89e3a127-3e4c-4573-8dff-4d7d46d9dc60"
+        "uuid": "89e3a127-3e4c-4573-8dff-4d7d46d9dc60",
+        "labels": "截取, 文本, 字符串"
     },
     {
         "id": "Encoo.Text.Activity.Activities.GetLengthOfTextActivity",
         "name": "GetLengthOfTextActivity.md",
         "localizedName": "获取文本长度",
-        "uuid": "58bcb62e-fa99-402f-bae9-6323bcc27436"
+        "uuid": "58bcb62e-fa99-402f-bae9-6323bcc27436",
+        "labels": "获取, 文本, 长度, 字符串"
     },
     {
         "id": "Encoo.Text.Activity.Activities.GetIndexOfTextActivity",
         "name": "GetIndexOfTextActivity.md",
         "localizedName": "获取文本索引",
-        "uuid": "67984545-1c4f-4701-9915-b3db6b9260a4"
-    }    ,
+        "uuid": "67984545-1c4f-4701-9915-b3db6b9260a4",
+        "labels": "获取, 文本, 索引, 字符串"
+    },
     {
         "id": "Encoo.Text.Activity.Activities.GenerateGUIDActivity",
         "name": "GenerateGUIDActivity.md",
         "localizedName": "生成GUID",
-        "uuid": "428faa63-a825-42de-a0f1-bff56c2e2173"
+        "uuid": "428faa63-a825-42de-a0f1-bff56c2e2173",
+        "labels": "生成, GUID, 字符串"
     }
 ]
