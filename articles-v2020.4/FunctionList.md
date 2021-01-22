@@ -157,8 +157,8 @@
 -   邮件：[获取邮件(Outlook)](Activities/AppAutomation/Mail/GetOutlookMail.md)、[发送邮件(Outlook)](Activities/AppAutomation/Mail/SendOutlookMail.md)。
 -   Office Excel > [插入图片](Activities/AppAutomation/OfficeExcel/InsertPicture.md)：实现指定单元格插入图片。
 - Office Excel > [设置文字颜色](Activities/AppAutomation/OfficeExcel/SetTextColor.md) ：使用拾色器提升颜色设置体验。
-- 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md?_v=v2020.4)，使用 IMAP 服务获取邮件，同时可使用代理。
--  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md?_v=v2020.4)，支持从源单元格区域自动填充数据到目标区域。
+- 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)，使用 IMAP 服务获取邮件，同时可使用代理。
+-  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md)，支持从源单元格区域自动填充数据到目标区域。
 - Office Excel ：[分列](Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)、[复制粘贴区域](Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)。
 
 **3.【代码工具】**
@@ -185,7 +185,7 @@
 - [设置日期和时间](Activities/System/SetDateTime.md)：实现指定日期和时间并输出 DateTime 类型结果。
 - [选择文件](Activities/System/File/SelectFile.md)：指定筛选的文件类型，在运行时弹窗选择文件后输出。
 - [选择文件夹](Activities/System/File/SelectFolder.md)：选择文件夹路径，在运行时弹窗选择文件夹后输出。
-- [设置剪贴板文本](Activities/System/SetContentsToClipboard.md?_v=v2020.4)：实现设置文本内容到剪贴板。
+- [设置剪贴板文本](Activities/System/SetContentsToClipboard.md)：实现设置文本内容到剪贴板。
 - [日期和时间选择框组件](Activities/System/TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
 - 屏幕：[锁屏](Activities/System/Screen/WindowsLockActivity.md)/[解锁](Activities/System/Screen/WindowsUnlockActivity.md)，实现电脑锁屏时，支持在 web 自动化操作及自动解锁屏幕。
 
@@ -424,7 +424,7 @@
 **2.【小程序开发库】**
 
 - 支持应用版本管理，控制台统一对应用进行上下架及版本管理。
-- [任务记录](Apps/devApps/appsedit/component/workflowlog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+- [任务记录](Apps/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 - 支持在 **关于我们** 页面查看小程序系统的版本号，便于系统版本管理。
 - 新增进入云扩论坛、云扩学院的快捷入口。
 
