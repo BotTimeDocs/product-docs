@@ -346,7 +346,7 @@
 3. **系统 > [输入密码](Activities/System/InputPasswordDialogActivity.md)**
 4. **控制台 > [文档理解](Activities/Console/DocReader.md)**：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
 5. **控制台 > [获取资产](Activities/Console/GetAssets.md)**：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
-6. **代码工具 > 数组处理**：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
+6. **代码工具 > 数组处理**：[初始化数组](Activities/CodeExecuter/ArrayProcessing/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/ArrayProcessing/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/ArrayProcessing/GetLengthOfArrayActivity.md)
 7. **代码工具 > HTTP > [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)**
 
 #### 【机器人】
