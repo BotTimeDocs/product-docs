@@ -25,11 +25,12 @@
     >此处填写的正则表达式，仅对获取到的验证码（如，548721）再进行正则过滤匹配。
 
 ### 输出
+
 - **验证码**：获取到的验证码内容。
 
 ## 操作样例
 
-1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内按照顺序搭建流程，如下图所示。
    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/workflowsmscode20201230.jpg)
 

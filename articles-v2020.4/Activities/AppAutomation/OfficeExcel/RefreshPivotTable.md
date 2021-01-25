@@ -19,7 +19,7 @@
 
 ## 操作样例
 
-1. 新建一个透视表 "销售统计", 详情见 [新建透视表](/articles-v2020.4/Activities/AppAutomation/OfficeExcel/CreatePivotTable.md)
+1. 新建一个透视表 "销售统计", 详情见 [新建透视表](./CreatePivotTable.md)
 
 2. 拖拽 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

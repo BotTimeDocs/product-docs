@@ -22,7 +22,7 @@
 
 ## 操作样例
 
-1. 手机与电脑已建立连接，可参见[移动设备管理](/articles-v2020.4/Studio/process/developProject/MobileDevicesManage/Download.md)
+1. 手机与电脑已建立连接，可参见[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
 
 2. 拖入一个**连接设备**组件至流程中。
 3. 在**移动设备管理器**窗口中复制已添加的设备信息。

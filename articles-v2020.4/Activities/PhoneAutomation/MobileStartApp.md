@@ -17,7 +17,7 @@
 
 ## 操作样例
 
-1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内拖入一个**打开应用软件**组件。
 3. 单击**打开应用软件**组件中的**选择软件**链接，选择需要打开的软件名称并单击“运行”按钮，这里以打开“Metro大都会”软件为例，如下图所示。
    ![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openapp20201222.png)
