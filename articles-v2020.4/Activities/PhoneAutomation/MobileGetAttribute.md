@@ -17,11 +17,11 @@
 - **属性值**：获取到的属性值内容，仅支持字符串变量和字符串。
   
 ### 目标
-- **[选择器](/articles-v2020.4/Activities/Appendix/Selector.md)**：要获取的特定UI元素。可通过点击指定元素自动生成，仅支持字符串变量和字符串。
+- **[选择器](../Appendix/Selector.md)**：要获取的特定UI元素。可通过点击指定元素自动生成，仅支持字符串变量和字符串。
   
 
 ## 操作样例
-1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](/articles-v2020.4/Activities/PhoneAutomation/MobileConnect.md)。
+1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内拖入一个**获取元素属性值**组件。
 3. 单击**获取元素属性值**组件中的“指定元素”链接，指定需要获取的元素。
    ![指定获取元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settinggettext20201223.png)
