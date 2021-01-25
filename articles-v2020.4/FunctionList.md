@@ -163,7 +163,7 @@
 
 **3.【代码工具】**
 
--  数组处理：[初始化数组](Activities/CodeExecuter/数组处理/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/数组处理/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/数组处理/GetLengthOfArrayActivity.md)
+-  数组处理：[初始化数组](Activities/CodeExecuter/ArrayProcessing/InitializeArrayActivity.md)、[元素是否存在](Activities/CodeExecuter/ArrayProcessing/ExistsInArrayActivity.md)、[获取数组长度](Activities/CodeExecuter/ArrayProcessing/GetLengthOfArrayActivity.md)
 -  HTTP > [下载文件](Activities/CodeExecuter/HTTP/HTTPDownload.md)
 -  JSON > [序列化](Activities/CodeExecuter/JSON/SerializeObject.md)：可将.NET 对象序列化为 JSON 字符串。
 -  JSON > [反序列化](Activities/CodeExecuter/JSON/DeserializeObject.md)：可将 JSON 字符串反序列化为.NET 对象。
