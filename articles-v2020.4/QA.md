@@ -38,4 +38,4 @@ A：控制台的企业版本，主要分为云端 SaaS 企业版和私有化企�
 
 Q: 如何获取最新版本的离线产品文档？
 
-A: 下载 [产品手册（PDF）](https://dev-academy.bottime.com/pdf/Product_Induction_ZH-CN.pdf)
+A: 下载 [产品手册（PDF）](https://academy.encoo.com/pdf/Product_Induction_ZH-CN.pdf)
