@@ -69,6 +69,7 @@
 <!-- - **新建项目** - 创建一个新的自动化项目 -->
 - **保存** - 将当前编辑好的流程保存
 - **全部保存** - 将所有编辑好的流程保存
+- **刷新** - 刷新当前项目下的文件状态
 - **显示所有文件** - 显示所有从项目中排除的文件
 - **删除未使用的屏幕截图** - 删除项目中未使用到的屏幕截图
   > **说明：**
@@ -76,7 +77,7 @@
   >- 如果项目文件下的 Backup 文件夹中有相关流程的备份文件，则无法删除流程文件中的屏幕截图。
   >- 如果是自定义文件名的截图，则无法删除。
 
-![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/projectpanel20201230.png)
+![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/projectpanel20210126.png)
 
 右击项目面板的任意文件或文件夹，可以打开包含以下选项的上下文菜单： 
 |选项 |	描述 |
