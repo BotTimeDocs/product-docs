@@ -1,0 +1,23 @@
+[
+    {
+        "id": null,
+        "name": "Selector.md",
+        "localizedName": "选择器",
+        "uuid": "03a572b8-2250-4734-89d6-7bba5fe32e65",
+        "labels": "选择器, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Fileupload.md",
+        "localizedName": "文件上传",
+        "uuid": "fd9096d1-3bea-4b93-bf01-3cf8d22f88ac",
+        "labels": "文件上传, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Switch.md",
+        "localizedName": "开关",
+        "uuid": "7e345393-8164-45b6-80a2-90f34f802361",
+        "labels": "开关, 输入组件"
+    }
+]

@@ -14,8 +14,20 @@
     },
     {
         "id": null,
+        "name": "LayoutComponents",
+        "localizedName": "布局组件",
+        "uuid": "499dc861-a854-4543-835f-fd713d17c85b"
+    },
+    {
+        "id": null,
         "name": "ModuleComponents",
         "localizedName": "模块组件",
         "uuid": "b53ff763-9cf8-4c48-aa00-1a0f133bbdfd"
+    },
+    {
+        "id": null,
+        "name": "InputComponents",
+        "localizedName": "输入组件",
+        "uuid": "0b868dc0-a608-41a1-a41a-3f562bc78008"
     }
 ]
