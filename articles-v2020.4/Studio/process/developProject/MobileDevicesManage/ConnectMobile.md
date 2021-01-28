@@ -62,7 +62,7 @@ a. 将 ADB 添加到环境变量
    > **说明：**
     > ADB 是 Google 官方提供的 Android 调试工具。
 
-​	 <br>创建环境变量并添加至 Path 中，如，"D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows"这个路径是我自己存放 SDK 的文件夹，可以根据自己的实际情况替换。
+​	 <br>创建adb系统环境变量（adb系统环境变量地址根据移动端服务包Encoo.Android.Automation.zip的解压文件路径进行配置）并添加至Path中，格式：“(**PC文件路径**)\Encoo.Android.Automation\airtest\core\android\static\adb\windows”，其中括号内内容根据实际情况改变，其余部分不变。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`
 
    ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
 
