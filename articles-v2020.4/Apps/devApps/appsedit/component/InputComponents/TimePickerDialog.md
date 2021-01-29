@@ -1,12 +1,12 @@
-# 文件上传
+# 时间选择框
 
-**文件上传** 组件用于上传文件并展示。支持上传扩展名为 rar、zip、doc、docx、pdf、jpg 等类型的文件。
+用户可单击或点击以指定时间点的控件。
 
 ## 属性
 
-### 配置
-
+- **格式**：组件显示时间和用户指定时间所使用的文本格式。
 - **占位符**：输入文本输入框为空时其中显示的浅灰色文本。
+- **默认值**：用户更改组件前的初始值。
 
 ### 样式
 
@@ -33,10 +33,11 @@
 
 1. 登录到 [小程序](https://apps.encoo.com/)。
 2. 进入 **小程序开发** 的编辑模式。
-3. 从左侧组件面板中选择 **输入组件** 下的 **文件上传** 组件，拖拽至画布中。
+3. 从左侧组件面板中选择 **输入组件** 下的 **时间选择框** 组件，拖拽至画布中。
 
-    ![文件上传组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileupload20210127.png)
+    ![时间选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/timepicker20210128.png)
 
-4. 单击 **预览** 并上传文件查看应用效果。
+4. 为该组件设置如下属性。
+   - 格式：下拉选择时间格式，如，`HH:MM:SS`。
 
-   ![文件上传效果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileuploadresult20210127.png)
+5. 单击 **预览** 并选择指定时间点，查看应用效果。

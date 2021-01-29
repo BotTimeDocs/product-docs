@@ -1,12 +1,11 @@
-# 文件上传
+# 文本输入框
 
-**文件上传** 组件用于上传文件并展示。支持上传扩展名为 rar、zip、doc、docx、pdf、jpg 等类型的文件。
+用户可其中键入文本、数字和其他数据的框。
 
 ## 属性
 
-### 配置
-
 - **占位符**：输入文本输入框为空时其中显示的浅灰色文本。
+- **默认值**：用户更改组件前的初始值。
 
 ### 样式
 
@@ -33,10 +32,12 @@
 
 1. 登录到 [小程序](https://apps.encoo.com/)。
 2. 进入 **小程序开发** 的编辑模式。
-3. 从左侧组件面板中选择 **输入组件** 下的 **文件上传** 组件，拖拽至画布中。
+3. 从左侧组件面板中选择 **输入组件** 下的 **文本输入框** 组件，拖拽至画布中。
 
-    ![文件上传组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileupload20210127.png)
+    ![文本输入框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/textbox20210128.png)
 
-4. 单击 **预览** 并上传文件查看应用效果。
+4. 为该组件设置如下属性。
 
-   ![文件上传效果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileuploadresult20210127.png)
+   - 占位符：输入显示文本“请输入文本内容！”。
+
+5. 单击 **预览** 并输入文本内容，查看应用效果。
