@@ -74,17 +74,9 @@
   
    b. 检查设备是否连接
 
-   在 PC 端的 **命令行提示符** 界面中，输入 adb 命令，连接成功示例如下:
+   在 PC 端的**命令行提示符**界面中，输入 `adb devices` 命令，连接成功示例如下:
 
-   ```shell
-      >adb.exe
-
-      devicesList of devices attached
-
-      0ddc4c2d(真机的设备号，若有) device
-
-      127.0.0.1:7555（模拟器的设备号，若有）device
-   ```
+   ![连接成功示例](https://docimages.blob.core.chinacloudapi.cn/images/Studio/deviceconnect20210129.png)
 
    > **说明：**
    >
