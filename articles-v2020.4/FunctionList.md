@@ -18,6 +18,8 @@
 - 支持 [引用外部项目](Studio/process/ReferenceProject.md) 作为依赖项，供当前流程使用。
 - 支持启用 [版本控制（预览）](Studio/VersionControl.md) 功能：用于记录本地项目中文件内容的变化，以便将来查看指定版本的修订情况。
 - 支持导入文件：将其他文件导入到当前所选文件夹下。
+- 新增[清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
+- 新增项目刷新操作，支持刷新当前项目下文件的状态。
 
 **2.【开放市场】**
 
@@ -31,6 +33,8 @@
 - 选择器编辑器：新增获取 [XPath](https://www.w3school.com.cn/xpath/xpath_intro.asp) 功能，可以使用 XPath 的形式对元素进行展现，参见 [选择器](Activities\Appendix\Selector.md)。
 - 新增 **IE 前端日志收集器** 应用程序：使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见 [收集 IE 前端日志工具](Activities\Appendix\IELog.md)。
 - 新增支持使用元素探测器选择元素：功能较此前的选择器编辑器更强，可参见 [元素探测器](Activities/Appendix/UiDetector.md)。
+- 企业版支持[Citrix](./Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
+- 新增[选择器管理器](./Activities/Appendix/SelectorManager.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
 
 **4.【系统设置】**
 
@@ -61,6 +65,8 @@
 - 调试过程中，支持在 [变量面板](Studio\process\Debugging\ValuePanel.md) 查看每一个变量在当前组件的类型和值，以此我们可以来判断流程是否正确执行，且可帮助定位流程错误位置。
 - 支持流程 [导出到 EXCEL](Studio/Introduction/TheUserInterface.md) ：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML 文件内容导出到 Excel 中。
 - 支持单个组件包括在错误捕获中：将选择的单个组件用错误捕获组件包括在 Try 模块中，方便调试。
+- 支持[搜索](./Studio/quickStart/KeyboardShortcuts.md)当前流程文件中的组件，以快速定位到该组件。
+- 新增[快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
 
 **6.【手机自动化】**
 
@@ -88,6 +94,7 @@
 **2.【辅助工具】**
 
 - 支持 Java 扩展。你可以使用 Java 扩展识别一些原本无法识别的桌面 Java 应用中的元素。
+- 优化 UIA3 录制技术，提升稳定性。
 
 **3.【可视化编辑器】**
 
@@ -105,6 +112,9 @@
 - 优化了选择器编辑器：在选择器编辑器节点属性列表中，AutomationId/ClassName/Name 这些属性的值支持输入通配符。
 - 新增 **打开文件**、**打开目录**、**日期** 等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
 - 优化组件批注：支持组件批注快捷键 **Shift+F2**。
+- 优化属性面板界面样式，更改背景色，提升视觉效果。
+- 优化项目面板、组件面板样式，更换图标、间距，提升视觉效果。
+- 优化软件许可协议界面的勾选区域，点击勾选框旁边的文字也可勾选中，提升用户体验。
 
 **4.【开放市场】**
 
@@ -147,6 +157,7 @@
 - 屏幕文本化：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 - [鼠标拖动](Activities/UIAutomation/DragDrop.md)：实现模拟鼠标按下拖动的操作，如，按下鼠标左键将文件拖动至另一文件夹内。
 
+
 **2.【软件自动化】**
 
 -  PDF：[合并文件](Activities/AppAutomation/PDF/MergePDF.md)、[提取为新文档](Activities/AppAutomation/PDF/ExtractToNewFile.md)、[获取页数](Activities/AppAutomation/PDF/GetPageNumbers.md)、[读取图片](Activities/AppAutomation/PDF/ExtractImages.md)、[读取文本](Activities/AppAutomation/PDF/ExtractText.md)
@@ -160,6 +171,8 @@
 - 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)，使用 IMAP 服务获取邮件，同时可使用代理。
 -  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md)，支持从源单元格区域自动填充数据到目标区域。
 - Office Excel ：[分列](Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)、[复制粘贴区域](Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)。
+- 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)，支持关闭所有类型的已打开的浏览器。
+- Office Excel > [取消单元格合并](./Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
 
 **3.【代码工具】**
 
@@ -174,6 +187,9 @@
 - 文本处理 > [生成 GUID ](Activities/CodeExecuter/TextProcessing/GenerateGUIDActivity.md)：实现生成一个新的 GUID。
 - 类型转换：[文本转日期和时间](Activities/CodeExecuter/TypeConversion/TextToDateActivity.md)、[数组转集合](Activities/CodeExecuter/TypeConversion/ArrayToCollectionActivity.md)、[集合转数组](Activities/CodeExecuter/TypeConversion/CollectionToArrayActivity.md)。
 - Python：[安装 Python](Activities/CodeExecuter/Python/PythonInstall.md)、[Python 环境](Activities/CodeExecuter/Python/PythonScope.md)、[执行 Python 代码](Activities/CodeExecuter/Python/PythonExcuteFile.md)。
+- 字典：[初始化字典](./Activities/CodeExecuter/Dictionary/InitializeDictionaryActivity.md)、[添加键值对](./Activities/CodeExecuter/Dictionary/AddDictionaryActivity.md)、[获取键值对数量](./Activities/CodeExecuter/Dictionary/GetQuantityOfDictionaryActivity.md)、[是否包含键/值](./Activities/CodeExecuter/Dictionary/ContainsKeyValueActivity.md)、[移除键值对](./Activities/CodeExecuter/Dictionary/RemoveKeyValueActivity.md)、[清空字典](./Activities/CodeExecuter/Dictionary/EmptyDictionaryActivity.md)。
+- 类型转换 > [文本转数值](./Activities/CodeExecuter/TypeConversion/TextToNumbericActivity.md)，实现将文本转换为数值。
+- 文本 ：[分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)、[追加文本](./Activities/CodeExecuter/TextProcessing/AppendTextActivity.md)。
 
 **4.【操作系统功能调用】**
 
@@ -188,6 +204,7 @@
 - [设置剪贴板文本](Activities/System/SetContentsToClipboard.md)：实现设置文本内容到剪贴板。
 - [日期和时间选择框组件](Activities/System/TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
 - 屏幕：[锁屏](Activities/System/Screen/WindowsLockActivity.md)/[解锁](Activities/System/Screen/WindowsUnlockActivity.md)，实现电脑锁屏时，支持在 web 自动化操作及自动解锁屏幕。
+- [多项选择框](./Activities/System/MultiSelectListBoxActivity.md)：实现以弹框的形式，选择一个或多个选项。
 
 
 **5.【数据表】**
@@ -206,12 +223,12 @@
 - [终止流程](Activities/WorkflowControl/Abort.md)：实现当执行到此组件时立即结束当前流程，不再执行后续流程。
 - [调用流程（引用项目）](Activities/WorkflowControl/InvokeReferencedWorkflow.md)：实现调用已引用的项目的流程文件，供当前项目流程使用。
 
-
 **7.【控制台相关】**
 
--  [文档理解](Activities/Console/DocReader.md)：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
--  [获取资产](Activities/Console/GetAssets.md)：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
--  [下载文件](Activities/Console/FileDownloadActivity.md)：下载云扩 RPA 控制台“数据中心 > 文件服务”中已上传的文件。
+- [文档理解](Activities/Console/DocReader.md)：内置文档理解组件，只要控制台部署了文档理解服务，就可以使用文档理解的功能。
+- [获取资产](Activities/Console/GetAssets.md)：可以直接在流程中，使用 获取资产组件，获取在控制台保存的数据资产。
+- [下载文件](Activities/Console/FileDownloadActivity.md)：下载云扩 RPA 控制台“数据中心 > 文件服务”中已上传的文件。
+- [上传文件](./Activities/Console/FileUploadActivity.md)、[删除文件/文件夹](./Activities/Console/FileDeleteActivity.md)。
 
 **8.【触发器】**
 
@@ -252,6 +269,7 @@
 - 针对 [获取元素属性值](Activities/UIAutomation/GetElementAttributeValue.md)、[等待元素属性值](Activities/UIAutomation/WaitElementAttributeValue.md)、[属性校验](Activities/Check/AttributeCheck.md) 这些组件，支持获取自定义属性。
 - [选择器编辑器](Activities/Appendix/Selector.md) 支持验证属性值为变量（变量需有默认值）的情况、支持验证多个相同元素，提升用户体验。
 - [选择器编辑器](Activities/Appendix/Selector.md)/[元素探测器](Activities/Appendix/UiDetector.md) 的属性值支持常量变量混合输入、支持识别用户界面元素所需的所有元素并按已应用和未应用状态进行分类展示，提升用户体验。
+- [发送快捷键](./Activities/UIAutomation/SendHotkey.md)：新增发送前行为属性，支持点击和设置焦点两种行为。
 
 
 **2.【软件自动化】**
@@ -263,12 +281,14 @@
 - 优化了 Office Excel > [设置单元格背景色](Activities/AppAutomation/OfficeExcel/SetCellBackcolor.md) 组件，使用拾色器提升颜色设置体验。
 - 提升 Office Excel 系列组件执行性能。
 - 化化了浏览器系列组件：在 [打开浏览器](Activities/AppAutomation/Browser/OpenBrowser.md)、[当前页跳转](Activities/AppAutomation/Browser/NavigateTo.md)、[刷新浏览器](Activities/AppAutomation/Browser/RefreshBrowser.md) 中增加了“等待加载完成”这个可选项属性，实现当页面全部加载完成后组件才算执行成功。
-- 软件自动化 > Office Excel > [查找](Activities/appautomation/officeexcel/Search.md)：支持模糊查找和精确查找，给用户带来更灵活、更方便的操作体验。
+- Office Excel > [查找](Activities/appautomation/officeexcel/Search.md)：支持模糊查找和精确查找，给用户带来更灵活、更方便的操作体验。
+- Office Excel > [排序](./Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
   
 **3.【流程控制】**
 
 - 提升 [调用流程](Activities/WorkflowControl/InvokeWorkflow.md) 组件体验，点击 **导入参数** 可直接将子流程参数导入。
 - 优化重试组件：支持该组件 **重试间隔** 属性的默认值为时间格式（00: 00: 00），避免用户输入错误，提升用户输入体验。
+- [重试](./Activities/WorkflowControl/Retry.md)，将条件属性归类至可选项类别中。
 
 **4.【触发器】**
 
@@ -280,14 +300,21 @@
 - 优化了系统 > 文件 > [新建文件/文件夹](Activities/System/File/NewFileOrFolder.md) 组件，增加“同名替换”可选项属性，实现新建文件/文件夹时，如果存在同名情况，则覆盖替换。
 - 优化了校验 > [属性校验](Activities/Check/AttributeCheck.md) 组件：在属性校验组件的属性名下拉框中仅显示当前元素支持的属性。
 - 优化了校验 > [值校验](Activities/Check/ValueCheck.md) 组件：增加“开始于/结束于”校验条件，实现某字符串是否以指定字符串的字符开头和结束校验功能。
+- 优化[确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
 
 **6.【代码工具】**
 
-- 代码工具 > C# > [执行 C#代码](Activities/codeexcuter/../CodeExecuter/CSharp/ExecuteCSharp.md)：支持类、函数的编写，增强组件功能。
+- C# > [执行 C#代码](Activities/codeexcuter/../CodeExecuter/CSharp/ExecuteCSharp.md)：支持类、函数的编写，增强组件功能。
+- C# > 执行C#代码，支持输出出错的具体代码位置（行号）及错误信息。
 
 **7.【数据库】**
 
 - 数据库系列组件（[执行语句](Activities/Database/ExecuteNonQuery.md)、[查询](Activities/Database/Select.md)）：支持根据实际情况设置超时，以适用不同的应用场景。
+- [连接数据库](./Activities/Database/ConnectDatabase.md)：优化连接 DB2 数据库界面提示信息。
+
+**8.【控制台相关】**
+
+- [文档理解](./Activities/Console/DocReader.md)：支持识别图片类型文件。
 
 ## 机器人
 
@@ -306,11 +333,15 @@
 - 支持防止流程执行 [超时](Robot/localworkflow.md)：若运行时间超过设定的时间时则终止流程。如，勾选“超时时间 1 小时”，表示超过 1 小时未执行完流程，则终止流程。
 - 优化执行流程时 [参数的设置方式](Robot/localworkflow.md)：新增 **打开文件**、**打开目录**、**日期** 等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
 - 优化 [流程市场界面](Robot/ProcessMarket.md)，鼠标悬浮于任意流程时，即可显示“运行”按钮，提升用户使用体验。
+- 优化定时任务，在定时任务开始前30秒弹窗提示，避免影响用户手头工作。
+- 优化执行流程时桌面右下角机器人图标，使得机器人图标闪动效果更明显。
 
 **2.【基础配置】**
 
 - 在 **设置** 页面中，新增 [关于页](Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
 - 在基础配置中，新增 **设置 > 基本** 页面，可 [配置日志与视频文件保留时间](Robot/Settings/Basic.md)。
+- 新增 [IBM DB2 扩展](./Robot/Settings/extensions/DB2Extension.md)来进行IBM DB2 数据库的自动化。
+- 企业版支持配置[是否接收控制台调度](./Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
 
 **3.【信息管理】**
 
@@ -318,6 +349,7 @@
 - 新增机器人 [概览页](Robot/Overview.md)，可展示当前机器人全局数据。
 - 新增 [流程执行历史页](Robot/ProcessHistory.md)，可展示流程执行的历史记录。
 - 优化 [概览界面](Robot/Overview.md)：对于无定时任务和无最近执行流程时，支持关联对应的页面，引导用户使用，提升操作体验。
+- 优化[正在执行](./Robot/RunningProcess.md)界面，将标题改为“执行日志”并增加“再次执行”按钮。
 
 ### 改进与增强
 

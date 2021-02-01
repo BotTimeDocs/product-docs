@@ -57,7 +57,7 @@
 4. 系统：优化[确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
 5. 代码工具 > C# > 执行C#代码，支持输出出错的具体代码位置（行号）及错误信息。
 6. 软件自动化 > Office Excel > [排序](./Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
-7. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)，优化连接 DB2 数据库界面提示信息。
+7. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)：优化连接 DB2 数据库界面提示信息。
 
 #### 【机器人】
 
