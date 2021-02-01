@@ -41,5 +41,11 @@
         "localizedName": "Citrix 扩展（企业版）",
         "uuid": "92479eaf-bb75-494f-a62c-779ebb0d74f7",
         "labels": "扩展, Citrix"
+    },
+    {
+        "name": "DB2Extension.md",
+        "localizedName": "IBM DB2扩展",
+        "uuid": "0f351027-4d55-4019-a110-a1b2de0cef01",
+        "labels": "IBM, DB2, 扩展"
     }
 ]

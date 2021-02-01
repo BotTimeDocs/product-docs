@@ -28,5 +28,11 @@
         "localizedName": "Windows 屏幕解锁服务",
         "uuid": "5317e71d-da30-49f0-b84f-18f018b974db",
         "labels": "Windows, 解锁, 屏幕"
+    },
+    {
+        "name": "DB2Extension.md",
+        "localizedName": "IBM DB2扩展",
+        "uuid": "c9d43f8d-9e74-43c8-9fc8-247fdc4c146a",
+        "labels": "IBM, DB2, 扩展"
     }
 ]
