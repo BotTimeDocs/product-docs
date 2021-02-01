@@ -15,7 +15,7 @@
         "name": "JavaExtension.md",
         "localizedName": "Java扩展",
         "uuid": "8129317e-68e6-4525-b86c-18b1e3fa54f3",
-        "labels": "扩展, Jave"
+        "labels": "扩展, Java"
     },
     {
         "name": "360SE.md",
@@ -34,5 +34,12 @@
         "localizedName": "Windows 屏幕解锁服务",
         "uuid": "ed090e4e-2788-4c56-8494-67fd7e819b43",
         "labels": "Windows, 解锁, 屏幕"
+
+    },
+    {
+        "name": "Citrix.md",
+        "localizedName": "Citrix 扩展（企业版）",
+        "uuid": "92479eaf-bb75-494f-a62c-779ebb0d74f7",
+        "labels": "扩展, Citrix"
     }
 ]
