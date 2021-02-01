@@ -15,6 +15,7 @@ Citrix 广义上指 Citrix Desktop 和 Citrix App 两种虚拟化资源交付方
 ## 安装配置步骤
 
 ### 前提条件
+
 在本地计算机上安装 Citrix 客户端（即，[Citrix Receiver](https://www.citrix.com/downloads/citrix-receiver/) 或 [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/)）。
 
 ### 配置本地客户端
@@ -61,7 +62,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 
 1. 右键单击 Citrix Receiver 托盘图标，然后单击“连接中心”。
 
-   ![重启生效](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixreceiver20210107.png)
+    ![重启生效](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixreceiver20210107.png)
 
 2. 在弹出的“Citrix 连接中心”窗口中，选择组件会话，然后单击“注销”按钮。
 

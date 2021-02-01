@@ -25,16 +25,19 @@
 1. 拖入一个**分割文本**组件至流程中。
 2. 配置**分割文本**组件的属性。
 
-   ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)
+    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)
 
-   - 原文本：输入需要被分隔的文本字符串，如，`"123.56"`
-   - 分隔符：输入需要分隔原文本的分隔符号，如，`"."`
-   - 分割结果：输入存放分割结果的变量，如，`S`
+    - 原文本：输入需要被分隔的文本字符串，如，`"123.56"`
+    - 分隔符：输入需要分隔原文本的分隔符号，如，`"."`
+    - 分割结果：输入存放分割结果的变量，如，`S`
 
 3. 在**分割文本**组件的下方，拖入一个**写入日志**组件，用于将分割的文本的值进行输出查看。。
 4. 双击**写入日志**组件的空白处，配置属性。
-   - 日志级别：下拉选择日志级别，如，`Info`
-   - 日志内容：输入需要输出的日志内容，如，`"分割后的值为："+S[0]`,表示获取分割后的文本的第一个文本值。
+
+    - 日志级别：下拉选择日志级别，如，`Info`
+    - 日志内容：输入需要输出的日志内容，如，`"分割后的值为："+S[0]`,表示获取分割后的文本的第一个文本值。
+
 5. 保存并运行流程。
 6. 在编辑器的输出面板中查看运行结果。
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittextresult20210104.png)
+
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittextresult20210104.png)
