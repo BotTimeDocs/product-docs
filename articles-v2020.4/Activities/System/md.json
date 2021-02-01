@@ -57,6 +57,12 @@
         "labels": "下拉选择"
     },
     {
+        "id": "BotTime.ActivityLibrary.ActivityDesigners.Controls.MultiSelectListBoxWindow",
+        "name": "MultiSelectListBoxActivity.md",
+        "localizedName": "多项选择框",
+        "uuid": "3992bcc5-0f57-4d41-939e-dbe818470d93"
+    },
+    {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.LogActivity",
         "name": "WriteLog.md",
         "localizedName": "写入日志",
