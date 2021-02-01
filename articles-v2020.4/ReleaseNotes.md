@@ -4,6 +4,67 @@
 >
 > 关于社区版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](QA.md)。
 
+## 2021.01.31 发版说明
+
+2021.01.31 发布了云扩 RPA , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2101.8 |
+|机器人 |1.1.2101.8|
+
+你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 企业版支持[Citrix](./Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
+2. 新增[选择器管理器](./Activities/Appendix/SelectorManager.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
+3. 新增[清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
+4. 支持[搜索](./Studio/quickStart/KeyboardShortcuts.md)当前流程文件中的组件，以快速定位到该组件。
+5. 新增[快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
+6. 新增项目刷新操作，支持刷新当前项目下文件的状态。
+
+#### 【组件库】
+
+1. 软件自动化 > 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)，支持关闭所有类型的已打开的浏览器。
+2. 代码工具 > 类型转换 > [文本转数值](./Activities/CodeExecuter/TypeConversion/TextToNumbericActivity.md)，实现将文本转换为数值。
+3. 代码工具 > 文本 ：[分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)、[追加文本](./Activities/CodeExecuter/TextProcessing/AppendTextActivity.md)。
+4. 系统 > [多项选择框](./Activities/System/MultiSelectListBoxActivity.md)：实现以弹框的形式，选择一个或多个选项。
+5. 软件自动化 > Office Excel > [取消单元格合并](./Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
+6. 代码工具 > 字典：[初始化字典](./Activities/CodeExecuter/Dictionary/InitializeDictionaryActivity.md)、[添加键值对](./Activities/CodeExecuter/Dictionary/AddDictionaryActivity.md)、[获取键值对数量](./Activities/CodeExecuter/Dictionary/GetQuantityOfDictionaryActivity.md)、[是否包含键/值](./Activities/CodeExecuter/Dictionary/ContainsKeyValueActivity.md)、[移除键值对](./Activities/CodeExecuter/Dictionary/RemoveKeyValueActivity.md)、[清空字典](./Activities/CodeExecuter/Dictionary/EmptyDictionaryActivity.md)。
+7. 控制台：[上传文件](./Activities/Console/FileUploadActivity.md)、[删除文件/文件夹](./Activities/Console/FileDeleteActivity.md)。
+
+#### 【机器人】
+
+1. 新增 [IBM DB2 扩展](./Robot/Settings/extensions/DB2Extension.md)来进行IBM DB2 数据库的自动化。
+2. 企业版支持配置[是否接收控制台调度](./Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化 UIA3 录制技术，提升稳定性。
+2. 优化属性面板界面样式，更改背景色，提升视觉效果。
+3. 优化项目面板、组件面板样式，更换图标、间距，提升视觉效果。
+4. 优化软件许可协议界面的勾选区域，点击勾选框旁边的文字也可勾选中，提升用户体验。
+
+#### 【组件库】
+
+1. 界面自动化 > [发送快捷键](./Activities/UIAutomation/SendHotkey.md)，新增发送前行为属性，支持点击和设置焦点两种行为。
+2. 控制台 > [文档理解](./Activities/Console/DocReader.md)，支持识别图片类型文件。
+3. 流程控制 > [重试](./Activities/WorkflowControl/Retry.md)，将条件属性归类至可选项类别中。
+4. 系统：优化[确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
+5. 代码工具 > C# > 执行C#代码，支持输出出错的具体代码位置（行号）及错误信息。
+6. 软件自动化 > Office Excel > [排序](./Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
+7. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)，优化连接 DB2 数据库界面提示信息。
+
+#### 【机器人】
+
+1. 优化[正在执行](./Robot/RunningProcess.md)界面，将标题改为“执行日志”并增加“再次执行”按钮。
+2. 优化执行流程时桌面右下角机器人图标，使得机器人图标闪动效果更明显。
+3. 优化定时任务，在定时任务开始前30秒弹窗提示，避免影响用户手头工作。
+
 ## 2021.01.21 发版说明
 
 2021.01.21 发布了云扩 RPA , 本次发布的产品及版本号为：

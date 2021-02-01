@@ -7,13 +7,13 @@
     {
         "id": null,
         "name": "DataProcessing",
-        "localizedName": "数据处理"
+        "localizedName": "格式"
     },
 
     {
         "id": null,
         "name": "CollectionProcessing",
-        "localizedName": "集合处理"
+        "localizedName": "集合"
     },
     {
         "id": null,
@@ -29,6 +29,11 @@
         "id": null,
         "name": "ArrayProcessing",
         "localizedName": "数组处理"
+    },
+    {
+        "id": null,
+        "name": "Dictionary",
+        "localizedName": "字典"
     },
     {
         "id": null,
@@ -48,6 +53,6 @@
     {
         "id": null,
         "name": "TextProcessing",
-        "localizedName": "文本处理"
+        "localizedName": "文本"
     }
 ]
