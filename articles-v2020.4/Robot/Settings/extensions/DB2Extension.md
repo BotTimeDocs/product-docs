@@ -20,8 +20,9 @@
 
 1. 找到编辑器或机器人的安装路径。
    >**说明：**
+   >
    >- 编辑器的默认安装路径为`%UserProfile%\AppData\Local\Encoo Studio`。
    >- 机器人的默认安装路径为`%UserProfile%\AppData\Local\Encoo Studio`。
 
 2. 在该安装路径下的类似`app-x.x.20xx.xx`文件夹中找到如下文件夹和文件进行手动删除。
-   ![卸载DB2](https://docimages.blob.core.chinacloudapi.cn/images/Robot/uninstallDB220210114.png)
+    ![卸载DB2](https://docimages.blob.core.chinacloudapi.cn/images/Robot/uninstallDB220210114.png)
