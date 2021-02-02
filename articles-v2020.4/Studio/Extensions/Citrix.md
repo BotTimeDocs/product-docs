@@ -8,6 +8,7 @@ Citrix 广义上指 Citrix Desktop 和 Citrix App 两种虚拟化资源交付方
 
 **支持的功能**如下：
 安装Encoo Citrix 扩展程序和 Encoo Remote Runtime 后，可执行以下操作：
+
 - 为 Citrix Apps 和 Desktops 中的用户界面元素生成选择器。
 - 可以使用界面自动化组件。
 - 对使用 Citrix Apps 打开的浏览器执行自动化。
@@ -55,7 +56,6 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
       c. 执行以下命令执行安装：
         `EncooJavaExtensionInstaller.exe -install -a`
 
-
 ### 重新启动组件的 Citrix 会话
 
 安装 Encoo Remote Runtime 和 Encoo Citrix 扩展程序后，需重新启动 Citrix 组件会话，更改才会生效。
@@ -80,7 +80,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 - 卸载远程服务端 Encoo Remote Runtime 程序
   在控制面板中与正常卸载程序一样，卸载`Encoo Remote Runtime 程序`即可。
 
-##  Citrix 操作示例
+## Citrix 操作示例
 
 为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于从浏览器中抓取网页数据后，保存到记事本中并修改字体。
 
@@ -93,9 +93,10 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 ## 常见问题
 
 1. **Q：安装 Encoo Remote Runtime 程序后为何无法进行 Citrix 自动化操作？**
-   **A：** 
+   **A：**
    - Encoo Remote Runtime 程序需与本地客户端使用的自动化组件版本相对应，否则无法正常工作。
      >**说明：**
+     >
      >- 本地客户端使用的**自动化组件版本**在项目面板中的依赖项查看。
      >- 远程服务端使用的 **Encoo Remote Runtime 程序版本**在下载安装包时可查看。
 
