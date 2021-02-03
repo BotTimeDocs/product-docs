@@ -1,21 +1,22 @@
-# Firefox扩展
+# Firefox 扩展
 
 在编辑器或机器人中，你可以通过安装 **Firefox 扩展** 来进行浏览器的自动化。
 > **注意：**
 >
-> 在安装该扩展前，可能会要求你关闭 Firefox，因此请务必将处理中的相关任务进行保存。
+>- Firefox 版本最低为 56。
+>- 在安装该扩展前，可能会要求你关闭 Firefox，因此请务必将处理中的相关任务进行保存。
 
 ## 安装
 
-1. 在编辑器的**工具 > 扩展**下你可以看到你需要安装的 Firefox 扩展。
+1. 在编辑器的 **工具 > 扩展** 下你可以看到你需要安装的 Firefox 扩展。
 
-   ![FireFox扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+   ![FireFox 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
 
     > **说明：**
     >
     > 在机器人中，Chrome 扩展的路径为 **设置 > 扩展** 下。
 
-2. 单击“Firefox扩展”,在弹出的对话框中，单击“确定”。
+2. 单击“Firefox 扩展”, 在弹出的对话框中，单击“确定”。
 
     ![确定安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-installation.PNG)
 

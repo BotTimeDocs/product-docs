@@ -60,6 +60,6 @@
 
 1. **Q: 怎么安装 chrome 插件？**
 
-    **A：** 打开编辑器，在窗口的工具栏点击“扩展”，然后点击 Chrome 扩展，根据提示操作即可。（在安装后，请手动打开浏览器，并打开扩展：chrome://extensions/，启用扩展。）
+    **A：** 打开编辑器，在**开始 > 工具 > 扩展** 中，选择并点击“Chrome扩展”，根据提示操作即可。（在安装后，请手动打开浏览器并输入：<chrome://extensions/>，启用扩展。）
 
-    ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)
+    ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
