@@ -43,7 +43,7 @@
 1. 拖入 **发送邮件(SMTP)** 组件至项目流程中：
  ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP20201222.png)
 
-2. 输入发件人账号和密码字符串，例：“××@encootech.com”和“×××”，输入邮箱服务器字符串和端口，例：“smtp.×××.outlook.cn”和 587 ，输入收件人字符串，例：“×× 2@encootech.com”，输入邮件内容字符串，例：“云扩科技：发送邮件（SMTP）”，输入邮件主题字符串，例："发送邮件（SMTP）"，如下图所示：
+2. 输入发件人账号和密码字符串，例：“××@encootech.com”和“×××”，输入邮箱服务器字符串和端口，例：“smtp.×××.outlook.cn”和 587 ，输入收件人字符串，例：“××2@encootech.com”，输入邮件内容字符串，例：“云扩科技：发送邮件（SMTP）”，输入邮件主题字符串，例："发送邮件（SMTP）"，如下图所示：
  ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP2020122202.png)
 
 3. 点击运行，查看运行结果，登录发件箱查看邮件是否发送成功：

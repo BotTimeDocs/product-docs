@@ -35,7 +35,7 @@
 2. 输入 List <MailMessage> 类型的变量到邮件，例：mail，输入邮件文件夹字符串，例如：“收件箱”，输入邮件地址字符串，例：“××@encootech.com”，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOutlookMail2020122202.png)
 
-1. 拖入 **保存附件** 和 **写入日志** 组件，输入 **保存附件** 的邮件，因为 **获取邮件(Outlook)** 的输出邮件是一个 List，所以这边输入的变量类型是 MailMessage，可以取 maillist 的第一个元素，例：mail [0]，输入文件夹路径，例：“C:\\云扩科技”，输入 **写入日志** 的日志内容，打印出获取的第一个邮件的内容，例：mail[0].Body.ToString()，如下图所示：
+1. 拖入 **保存附件** 和 **写入日志** 组件，输入 **保存附件** 的邮件，因为 **获取邮件(Outlook)** 的输出邮件是一个 List，所以这边输入的变量类型是 MailMessage，可以取 maillist 的第一个元素，例：mail[0]，输入文件夹路径，例：“C:\\云扩科技”，输入 **写入日志** 的日志内容，打印出获取的第一个邮件的内容，例：mail[0].Body.ToString()，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOutlookMail2020122203.png)
 
 4. 点击运行，查看运行结果，检查获取附件和写入日志的邮件内容是否正确：
