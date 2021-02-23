@@ -39,7 +39,7 @@
 2. 输入服务器字符串和端口号，例：“×××.outlook.cn”和 995，输入 List <MailMessage> 类型的变量到邮件，例：mail，输入邮箱地址和密码，例：“××@encootech.com”和“××× password”，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailPOP32020122302.png)
 
-3. 拖入 **写入日志** 组件，输入 **写入日志** 的日志内容，打印出获取的第一个邮件的主题，例：mail [0].Subject.ToString()，如下图所示：
+3. 拖入 **写入日志** 组件，输入 **写入日志** 的日志内容，打印出获取的第一个邮件的主题，例：mail[0].Subject.ToString()，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailPOP32020122303.png)
 
 4. 点击运行，查看运行结果，检查写入日志的邮件主题是否正确：

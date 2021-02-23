@@ -29,11 +29,6 @@
 
     ![已安装组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installactivitydone20201214.png)
 
-<!-- 
-* **本地组件** 最为重要的是，当你处于无网络或其他无法连接到组件市场的情况时，你依然可以使用曾经下载过的组件包，将他们应用于你的自动化项目中。
-
-    ![本地组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/localActivities.PNG) -->
-
 ## 管理依赖项
 
 在 "市场 > 组件市场" 中，可查看依赖项的版本，同时可对依赖项进行安装、更新和卸载。
