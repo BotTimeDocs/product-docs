@@ -9,19 +9,29 @@
 2021.02.23 发布了云扩 RPA , 本次发布的产品及版本号为：
 |         | 版本号      |
 | -----:  | -----:     |
-| 小 程序   | 1.1.1133 |
+| 控制台|3.0.37424|
+| 小程序   | 1.1.1133 |
 
 你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
 
 ### 新增功能
 
+#### 【控制台】
+
+新上线 Console 管理后台，用于对控制台租户、账户等进行管理，主要包括：
+
+1. 新增通过后台查看并管理租户信息。
+2. 新增通过后台删除租户。
+3. 新增通过后台创建企业版租户及管理员账号。
+4. 新增通过后台对控制台用户邮箱后缀进行管理。
+
 #### 【小程序】
 
 1. 新增输入、展示、布局系列组件。
 2. 新增组件的通用配置、通用样式、事件与行为。
-3. 新增[变量管理](./Apps/devApps/appsedit/BasicOperation.md)功能，使得每个小程序独享一套全局变量。
+3. 新增 [变量管理](./Apps/devApps/appsedit/BasicOperation.md) 功能，使得每个小程序独享一套全局变量。
 4. 支持在小程序开发页面，复制小程序功能。
-5. 支持在我的小程序页面，复制小程序URL功能，方便用户分享我的小程序。
+5. 支持在我的小程序页面，复制小程序 URL 功能，方便用户分享我的小程序。
 6. 在小程序编辑页面中，支持复制已创建的页面、组件。
 7. 在小程序模拟界面中，支持拖拽改变组件的层级，使组件置于不同的视图下。
 
@@ -46,11 +56,11 @@
 
 #### 【编辑器】
 
-1. 企业版支持[Citrix](./Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
-2. 新增[选择器管理器](./Activities/Appendix/SelectorManager.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
-3. 新增[清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
-4. 支持[搜索](./Studio/quickStart/KeyboardShortcuts.md)当前流程文件中的组件，以快速定位到该组件。
-5. 新增[快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
+1. 企业版支持 [Citrix](./Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App 上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
+2. 新增 [选择器管理器](./Activities/Appendix/SelectorManager.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
+3. 新增 [清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
+4. 支持 [搜索](./Studio/quickStart/KeyboardShortcuts.md) 当前流程文件中的组件，以快速定位到该组件。
+5. 新增 [快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
 6. 新增项目刷新操作，支持刷新当前项目下文件的状态。
 
 #### 【组件库】
@@ -65,8 +75,8 @@
 
 #### 【机器人】
 
-1. 新增 [IBM DB2 扩展](./Robot/Settings/extensions/DB2Extension.md)来进行IBM DB2 数据库的自动化。
-2. 企业版支持配置[是否接收控制台调度](./Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
+1. 新增 [IBM DB2 扩展](./Robot/Settings/extensions/DB2Extension.md) 来进行 IBM DB2 数据库的自动化。
+2. 企业版支持配置 [是否接收控制台调度](./Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
 
 ### 改进与增强
 
@@ -82,16 +92,16 @@
 1. 界面自动化 > [发送快捷键](./Activities/UIAutomation/SendHotkey.md)，新增发送前行为属性，支持点击和设置焦点两种行为。
 2. 控制台 > [文档理解](./Activities/Console/DocReader.md)，支持识别图片类型文件。
 3. 流程控制 > [重试](./Activities/WorkflowControl/Retry.md)，将条件属性归类至可选项类别中。
-4. 系统：优化[确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
-5. 代码工具 > C# > 执行C#代码，支持输出出错的具体代码位置（行号）及错误信息。
+4. 系统：优化 [确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
+5. 代码工具 > C# > 执行 C#代码，支持输出出错的具体代码位置（行号）及错误信息。
 6. 软件自动化 > Office Excel > [排序](./Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
 7. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)：优化连接 DB2 数据库界面提示信息。
 
 #### 【机器人】
 
-1. 优化[正在执行](./Robot/RunningProcess.md)界面，将标题改为“执行日志”并增加“再次执行”按钮。
+1. 优化 [正在执行](./Robot/RunningProcess.md) 界面，将标题改为“执行日志”并增加“再次执行”按钮。
 2. 优化执行流程时桌面右下角机器人图标，使得机器人图标闪动效果更明显。
-3. 优化定时任务，在定时任务开始前30秒弹窗提示，避免影响用户手头工作。
+3. 优化定时任务，在定时任务开始前 30 秒弹窗提示，避免影响用户手头工作。
 
 ## 2021.01.21 发版说明
 
