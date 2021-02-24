@@ -7,7 +7,7 @@
 ![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201019.png)
 
 1. **新建** — 新建流程项目或组件项目。
-2. **最近** — 打开您最近处理过的项目。可以打开项目所在的文件夹或从 **最近使用** 列表中删除；单击 **更多项目** 链接，展开更多的最近处理过的项目，且可模糊搜索 **最近使用** 列表。
+2. **最近** — 打开您最近处理过的项目。可以进行**打开项目所在的文件夹**、**导出项目**、**删除项目**和**从最近使用列表中删除**操作；单击 **更多项目** 链接，展开更多的最近处理过的项目，且可模糊搜索 **最近使用** 列表。
 
 ### 新建
 
@@ -193,7 +193,7 @@
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20201215.png)
+![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20210224.png)
 
    |选项         |描述|
    |----------------|---------------------------------------|
