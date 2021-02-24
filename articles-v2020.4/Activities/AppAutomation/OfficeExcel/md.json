@@ -119,6 +119,13 @@
         "labels": "查找, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelReplaceActivity",
+        "name": "OfficeExcelReplace.md",
+        "localizedName": "替换",
+        "uuid": "eb2218e7-55b7-4524-87a4-66d292383629",
+        "labels": "替换, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelRemoveDuplicateActivity",
         "name": "RemoveDuplicateCells.md",
         "localizedName": "去重",
