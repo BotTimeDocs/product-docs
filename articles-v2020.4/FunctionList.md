@@ -456,17 +456,24 @@
 -  构建更强大的交互页面
     - 新增模块组件：[表格](Apps/devApps/appsedit/component/ModuleComponents/Table.md)、[表单](Apps/devApps/appsedit/component/ModuleComponents/Form.md)、[描述列表](Apps/devApps/appsedit/component/ModuleComponents/DescriptionList.md)、[OCR 结果对比](Apps/devApps/appsedit/component/ModuleComponents/CompareOCRResult.md)。
     - 通过组件自定义页面与数据表交互，让终端用户可以轻松地通过界面操作数据表。
+- [任务记录](Apps/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+- 新增输入、展示、布局系列组件。
+- 新增组件的通用配置、通用样式、事件与行为。
+- 新增[变量管理](./Apps/devApps/appsedit/BasicOperation.md)功能，使得每个小程序独享一套全局变量。
+- 在小程序编辑页面中，支持复制已创建的页面、组件。
+- 在小程序模拟界面中，支持拖拽改变组件的层级，使组件置于不同的视图下。
 
 **2.【小程序开发库】**
 
 - 支持应用版本管理，控制台统一对应用进行上下架及版本管理。
-- [任务记录](Apps/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 - 支持在 **关于我们** 页面查看小程序系统的版本号，便于系统版本管理。
 - 新增进入云扩论坛、云扩学院的快捷入口。
+- 支持在小程序开发页面，复制小程序功能。
 
 **3.【小程序工作站】**
 
 - 支持 **我的应用** 查找并运行。
+- 支持在我的小程序页面，复制小程序URL功能，方便用户分享我的小程序。
 
 ### 改进与增强
 
@@ -475,3 +482,4 @@
 - 优化了 logo 及产品更名：原工作台/应用，更名为小程序 。
 - 全面优化小程序编辑器交互样式，使界面更清爽、交互更简洁。
 - 优化小程序界面的错误提示内容，使用户更明确。
+- 优化小程序编辑界面、错误页面样式，提升用户体验。
