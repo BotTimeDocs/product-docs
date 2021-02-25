@@ -49,4 +49,5 @@
 
 5. 保存并运行流程。
 6. 待流程执行结束后，手动打开 Excel 文件查看运行结果。
-![流程执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplaceresultdata20210224.png)
+
+    ![流程执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplaceresultdata20210224.png)

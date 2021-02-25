@@ -4,6 +4,48 @@
 >
 > 关于社区版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](QA.md)。
 
+## 2021.02.26 发版说明
+
+2021.02.26 发布了云扩 RPA , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | x.x.xxxx.x |
+|机器人 |x.x.xxxx.x|
+
+你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 支持流程运行时的[浏览器静默运行](./Activities/AppAutomation/Browser/OpenBrowser.md)，实现机器人后台工作，不干扰前端业务人员。
+2. 支持从选定组件开始调试流程，方便实施人员排查异常。
+3. 支持快速搜索当前流程文件中的变量并定位，提升实施人员开发效率。
+4. 支持在开始主页中导出项目和删除项目，以便更好地管理与分享项目。
+
+#### 【组件库】
+
+1. 系统 > 文件 > [压缩文件/文件夹](./Activities/System/File/CompresseFile.md)、[解压缩文件](./Activities/System/File/DeCompresseFile.md)，提升实施人员开发效率。
+2. 代码工具 > PowerShell > [执行PowerShell代码](./Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
+3. 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
+4. 软件自动化 > Office Excel > [替换](./Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
+
+#### 【机器人】
+
+1. 支持在[流程执行页面](./Robot/RunningProcess.md)打开日志文件，提升用户使用体验。
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化版本控制中的版本比对功能的呈现样式，提升用户使用体验。
+2. 优化F4快捷键切换录制技术的交互，提升用户使用体验。
+
+#### 【组件库】
+
+1. 软件自动化 > Office Excel > [筛选](./Activities/AppAutomation/OfficeExcel/Filter.md)，支持筛选条件中的值为变量。
+2. 代码工具 > [HTTP请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，支持文本输入模式。
+
 ## 2021.01.31 发版说明
 
 2021.01.31 发布了云扩 RPA , 本次发布的产品及版本号为：
