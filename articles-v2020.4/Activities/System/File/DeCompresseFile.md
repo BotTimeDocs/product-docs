@@ -1,6 +1,6 @@
 # 解压缩文件
 
-对指定的ZIP 或 RAR 压缩文件进行解压缩。
+对指定的 ZIP 或 RAR 压缩文件进行解压缩。
 
 ## 属性
 
@@ -23,4 +23,15 @@
 
 ## 操作样例
 
-1. 拖入一个
+1. 拖入一个 **解压缩文件** 组件至流程中。
+2. 双击打开该组件，配置该组件的属性，如下图所示。
+
+    - 压缩文件路径：选择压缩文件所在的路径，如，"C:\Users\wangxin\Desktop\test.rar"。
+    - 解压至文件夹：选择或输入需要解压到的文件路径，如，"C:\Users\wangxin\Desktop"。
+
+    ![解压缩文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefile20210225.png)
+
+3. 保存并运行流程。
+4. 在目标路径下，查看运行结果。
+
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefileresult20210225.png)
