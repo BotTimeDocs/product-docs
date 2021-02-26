@@ -23,7 +23,7 @@
 
 1. 准备一份 Excel 工作表数据，计划将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。   
 
-   ![数据准备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sheet1andsheet220201217.png)
+   ![数据准备]()
 
 2. 拖入一个 Office Excel 的 **打开/新建** 组件至流程中。
 3. 配置 **打开/新建** 组件的属性参数。
@@ -33,7 +33,7 @@
 4. 双击该组件，拖入一个 **复制粘贴区域** 组件至 **打开/新建** 组件中。
 5. 配置 **复制粘贴区域** 组件的属性参数，如下图所示。
 
-   ![属性配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
+   ![属性配置]()  
 
     - 源工作表：输入需要复制数据的工作表名称，如，"Sheet1"
     - 源区域：输入需要复制数据的工作表中的数据区域，如，"B2: B11"
@@ -43,4 +43,4 @@
 6. 保存并运行流程。
 7. 在目标工作表 Sheet2 中查看粘贴后的数据。
 
-   ![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)
+   ![结果数据]()

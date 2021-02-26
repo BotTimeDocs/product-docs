@@ -31,13 +31,13 @@
 
 ## 操作样例
 1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+![]()
 
 2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+![]()
 
 3. 双击 **打开/新建** 组件，拖入 **删除数据** 组件至 **打开/新建** 组件中，填写工作表和列号:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps27.png)
+![]()
 
 4. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps28.png)
+![]()

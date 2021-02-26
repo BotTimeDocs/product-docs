@@ -22,10 +22,10 @@
 
 ## 操作样例
 1. 拖入 **打开/新建** 组件，勾选是否新建文件，再填入需要打开或者新建的 Excel 文件，并配置所需选项内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)
+![]()
 
 2. 双击 **打开/新建** 组件，拖入 **插入工作表** 组件，并设置插入位置和新工作表名称:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps53.png)
+![]()
 
 3. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps54.png)
+![]()

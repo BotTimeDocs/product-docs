@@ -22,10 +22,10 @@
 
 ## 操作样例
 1. 拖入**遍历文件夹**组件到设计面板，双击进入组件内部，在组件面板点击“...”弹出对话框，选择目标文件；或者手动输入路径：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-1.png)
+![]()
 
 2. 在**遍历文件夹**组件里拖入**写入日志**组件，可以输出遍历的文件夹里文件路径信息：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-2.png)
+![]()
 
 3. 运行流程，查看输出的文件夹里文件路径信息：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-3.png)
+![]()

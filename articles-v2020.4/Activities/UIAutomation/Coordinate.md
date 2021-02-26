@@ -20,10 +20,10 @@
 
 ## 操作样例
 1. 拖入**获取鼠标位置**组件，设置x、y坐标变量并同步至变量区：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Coordinate-1.png)
+![]()
 
 2. 拖入**坐标点击**组件，输入x、y变量至横坐标与纵坐标处：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Coordinate-2.png)
+![]()
 
 3. 点击运行流程，将鼠标至于可点击的按钮等位置查看运行效果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Coordinate-3.png)
+![]()

@@ -18,7 +18,7 @@
 
 1. 在“编辑区域”中，点击“参数”。将显示参数列表。
 
-    ![创建参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/argumentPanel-createArgument.png)
+    ![创建参数]()
 
 2. 点击“创建参数”行。将显示具有默认字段值的新参数。
 
@@ -30,7 +30,7 @@
 
 1. 在参数列表中，选中一个参数并右击，在上下文菜单中点击“删除”选项。
 
-    ![删除参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/deleteArgument.png)
+    ![删除参数]()
 
 2. 在参数列表中，选择一个参数并按 Delete 。
 

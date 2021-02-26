@@ -16,22 +16,22 @@
 
 其次，云扩 RPA 编辑器还包含可以帮助你更快开展工作及编辑高质量自动化项目的工具。有关可用工具和功能的详细信息，请查看 [云扩市场](../market/Market.md?_v=v2020.4) 和 [智能录制](developProject/Recording/Recording.md?_v=v2020.4)。
 
-<!-- ![编辑器自动化项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/writeProject.png) -->
+<!-- ![编辑器自动化项目]() -->
 
 ## 3. 调试
 
 在这个迭代阶段，你可以继续编辑流程，但更着重于识别并清除流程中的错误以提高正确性。有关调试的详细信息，请查看 [调试](Debugging/Debugging.md?_v=v2020.4)。
 
-<!-- ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/debugProject.png) -->
+<!-- ![调试]() -->
 
 ## 4. 查看日志
 
 通过编辑器的“日志”功能，你可以查看整个自动化项目的运行信息，掌握自动化项目的详细运行状况。 你可以看到整个业务流程的单节状态是否正常，还可以通过日志定位报错组件。
 
-<!-- ![查看日志](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/viewLog.png) -->
+<!-- ![查看日志]() -->
 
 ## 5. 发布
 
 经过多次运行测试并通过交付标准的自动化项目，你可以利用编辑器的“发布”功能将项目发布到控制台和流程市场中。有关发布的详细信息，请查看 [发布自动化项目](PublishProject.md?_v=v2020.4).
 
-<!-- ![发布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/publishProject.png) -->
+<!-- ![发布]() -->

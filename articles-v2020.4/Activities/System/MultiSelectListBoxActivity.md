@@ -30,7 +30,7 @@
 1. 拖入一个**多项选择框**组件至流程中。
 2. 双击**多项选择框**组件的空白处，配置属性。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselect20210111.png)
+    ![配置属性]()
 
     - 标题：输入弹出框的标题名称，如，`"请选择"`。
     - 描述：输入对该多项选择框的描述信息，如，`"如下选项，可多选"`。
@@ -46,8 +46,8 @@
 
 5. 保存并运行流程。
 
-   ![运行时的流程弹框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectskip20210111.png)
+   ![运行时的流程弹框]()
 
 6. 在输出面板中查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectresult20210111.png)
+   ![运行结果]()

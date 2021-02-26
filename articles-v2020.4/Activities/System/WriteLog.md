@@ -20,11 +20,11 @@
 
 1. 拖入一个**写入日志**组件至流程中。
 2. 双击**写入日志**组件的空白处，配置属性参数。
-   ![写入日志配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writelogsetting20201221.png)  
+   ![写入日志配置]()  
 
     - 日志级别：下拉选择日志级别，如，Info
     - 日志内容：输入日志内容，如，"这里是写入的日志内容"
   
 3. 保存并运行流程。
 4. 在输出面板查看运行结果，如下图所示。
-   ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writelogoutput20201221.png)
+   ![查看运行结果]()

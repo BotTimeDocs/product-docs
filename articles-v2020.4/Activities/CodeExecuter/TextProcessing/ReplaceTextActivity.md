@@ -26,16 +26,16 @@
 
 1. 拖入**替换文本**组件至项目流程中
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReplaceTextActivity2021010501.png)
+![Image text]()
 
 2. 创建变量，并将其填入对应输入框中，如下图所示：
 
-![Image Text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReplaceTextActivity2021010502.png)
+![Image Text]()
 
 3. 拖入其它组件至流程中，例：拖入写入日志组件，如下图所示：
 
-![Image Text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReplaceTextActivity2021010503.png)
+![Image Text]()
 
 4. 点击运行，流程运行成功，如下图：
 
-![Image Text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReplaceTextActivity2021010504.png)
+![Image Text]()

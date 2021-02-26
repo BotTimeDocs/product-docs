@@ -13,17 +13,17 @@
 ## 操作样例
 
 1. 创建变量list，变量类型为`List<String>`, 默认值为 `new List<String>{"a","b","1","c"}`:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-1.png)
+![]()
 
 2. 拖入**循环操作（For Each）** 组件，将变量list作为循环体：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-2.png)
+![]()
 
 3. 拖入流程图组件至循环操作（For Each）容器内，拖入**流程决策**组件并输入判断条件 item == 1:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-3.png)
+![]()
 
 4. 判断条件为真时跳出当次循环并开始执行下一次循环；判断条件为假时将当前值作为日志文本输出。拖入**继续循环**组件与**写入日志**组件，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-4.png)
+![]()
 
 5. 点击运行流程并查看运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-5.png)
+![]()
 

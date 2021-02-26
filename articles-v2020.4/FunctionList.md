@@ -2,7 +2,7 @@
 
 ## 编辑器
 
-![编辑器功能](https://docimages.blob.core.chinacloudapi.cn/images/studio.png)
+![编辑器功能]()
 
 ### 功能点列表
 
@@ -131,7 +131,7 @@
 
 ## 组件库
 
-![组件库功能](https://docimages.blob.core.chinacloudapi.cn/images/activities.png)
+![组件库功能]()
 
 ### 功能点列表
 
@@ -318,7 +318,7 @@
 
 ## 机器人
 
-![机器人功能](https://docimages.blob.core.chinacloudapi.cn/images/robot.png)
+![机器人功能]()
 
 ### 功能点列表
 
@@ -367,7 +367,7 @@
 
 ## 控制台
 
-![控制台](https://docimages.blob.core.chinacloudapi.cn/images/console.png)
+![控制台]()
 
 ### 功能点列表 
 
@@ -445,7 +445,7 @@
 
 ## 云扩小程序
 
-![小程序](https://docimages.blob.core.chinacloudapi.cn/images/panel.png)
+![小程序]()
 
 ### 功能点列表
 

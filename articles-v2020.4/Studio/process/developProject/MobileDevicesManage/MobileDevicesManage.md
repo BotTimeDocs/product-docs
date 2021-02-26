@@ -12,17 +12,17 @@
 
 1. **创建或打开一个项目**，选择并单击菜单栏中的“**工具 > 移动设备管理器**”。
 
-    ![移动设备管理器入口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiledevicesmanage20201104.png)
+    ![移动设备管理器入口]()
 
 2. **添加设备**，在弹出的 **移动设备管理器** 中按平台类型进行查找并添加设备。
 
     - **Android**  
 
-    ![添加 Android 设备](https://docimages.blob.core.chinacloudapi.cn/images/Studio/adddevices20201104.png)
+    ![添加 Android 设备]()
 
      - **IOS**  
   
-    ![添加 IOS 设备](https://docimages.blob.core.chinacloudapi.cn/images/Studio/addiosmobile20201209.png)  
+    ![添加 IOS 设备]()  
 
     > **说明：**
     >
@@ -33,8 +33,8 @@
 
     - **真机界面**：
 
-    ![真机界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobileUI20201104.png)
+    ![真机界面]()
 
     - **模拟器界面**：
 
-    ![模拟器界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/monitorUI20201104.png)
+    ![模拟器界面]()

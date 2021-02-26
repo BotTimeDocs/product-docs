@@ -19,7 +19,7 @@
 1. 右击项目，添加一个流程图，命名为“流程A”，作为子流程被调用。
 2. 编写流程A：在流程A中拖入一个确认框组件，并设置属性参数，如下图所示。
 
-   ![子流程配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/invokesubflow20201217.png)
+   ![子流程配置]()
 
 3. 在该项目的主流程（Main.xaml）中拖入一个**调用子流程**组件。
 4. 双击**调用子流程**组件，选择需调用的子流程“**流程A”**。
@@ -27,5 +27,5 @@
 6. 保存并运行流程。
 7. 查看主流程调用子流程运行的结果。
    
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/invokesubflowresult20201217.png)
+   ![运行结果]()
 

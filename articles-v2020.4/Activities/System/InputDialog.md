@@ -25,7 +25,7 @@
 
 1. 拖入一个**输入框**组件至流程中。
 2. 双击**输入框**组件的空白处，配置属性参数。
-   ![输入框配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputdialoge20201221.png)  
+   ![输入框配置]()  
 
    - 标题：输入输入框的标题，如，"输入"
    - 描述：输入输入框的描述内容，如，"请在输入框中输入"
@@ -33,7 +33,7 @@
 3. 保存并运行流程。
 
 4. 查看运行结果，如下图所示。
-   ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showinput20201221.png)
+   ![查看运行结果]()
 
    >**说明：**
    >

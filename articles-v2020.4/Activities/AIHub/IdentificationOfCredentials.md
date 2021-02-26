@@ -23,18 +23,18 @@
 ## 操作样例
 
 1. 拖入 **证照识别** 组件至项目流程中，并设置变量 result(String)：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_1.png)
+![]()
 
 2. 双击打开证照识别，选取图片，例："D:\\测试图片.jpg"，输入图片路径，选择需要的类型和对应平台，在输出中添加变量 result, 如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_2.png)
+![]()
 
 3. 点击运行，查看运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_3.png)
+![]()
 
 
    > **说明：**
    >
    > 需使用控制台账号登录编辑器（暂不支持私有化企业版），若超过试用次数，请前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
 
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentificationOfCredentials_4.png)
+   ![]()
 

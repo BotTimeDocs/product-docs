@@ -11,10 +11,10 @@
 
 ## 操作样例
 1. 拖入**赋值（多个）** 组件，创建变量 a 与 b，变量类型为Int32，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/multipleAssign-1.png)
+![]()
 
 2. 填入变量名至赋值组件并填入对应的值，拖入**确认框**组件，填入标题及描述`(a+b).ToString()`:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/multipleAssign-2.png)
+![]()
 
 3. 运行流程查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/multipleAssign-3.png)
+![]()

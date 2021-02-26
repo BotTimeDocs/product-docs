@@ -31,6 +31,6 @@ OCR 结果对比组件用于通过数据表查看 OCR 识别结果并比对。
 1. 登录到 [小程序](https://apps.encoo.com/)。
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **模块组件** 下的 **OCR 结果对比** 组件，拖拽至画布中。
-    ![添加 OCR 结果对比组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/OCRresultcomp20201208.png)
+    ![添加 OCR 结果对比组件]()
 
 4. 单击 **预览** ，查看应用效果。

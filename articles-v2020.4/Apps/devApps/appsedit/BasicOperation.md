@@ -9,7 +9,7 @@
 
 在 **小程序开发** 模块的编辑模式中，单击“**变量**”，可对全局变量进行增删改查等操作。
 
-![变量](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/globalvarible20210127.png)
+![变量]()
 
 ### 示例
 
@@ -19,18 +19,18 @@
 
 2. 在画布中拖入任一可绑定变量的组件，并配置其文本属性为已定义的变量。
 
-    ![变量应用](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/checkbox20210127.png)
+    ![变量应用]()
 
 3. 单击 **预览**，查看效果。
 
 ## 试运行小程序
 当你编辑好小程序的全部信息，想要尝试运行一下你创建的小程序。
 点击预览，即可打开小程序模拟运行界面。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/runApps1.png)
+![devmode]()
 
 这个界面将展示用户实际打开小程序时面对的内部交互页面，你可以在该页面验证你的配置是否生效。
 同时，当你点击提交后，我们将会带着你填写的参数，向机器人发送流程运行命令。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/runApps2.png)
+![devmode]()
 
 
 
@@ -43,5 +43,5 @@
 版本号可以向上叠加，但不允许小于当前版本号。
 填写完全部数据后，点击发布，系统将会自动保存当前版本并将小程序发布至控制台。
 发布成功后，将会提示成功信息。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/publicapps.png)
+![devmode]()
 

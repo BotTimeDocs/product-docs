@@ -25,16 +25,16 @@
 ## 操作样例
 
 1. 新建一个 Excel 文件，如下：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula1.png)
+![]()
 
 2. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+![]()
 
 3. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![]()
 
 4. 拖拽 **插入公式组件** 到 **打开/新建** 组件中，填写工作表名称，单元格名称和公式：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula2.png)
+![]()
 
 5. 运行成功后，sheet1 的 A2 中插入公式“SUM(A1: D1)”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula3.png)
+![]()

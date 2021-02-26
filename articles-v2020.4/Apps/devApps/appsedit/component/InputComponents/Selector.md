@@ -39,10 +39,10 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **选择器** 组件，拖拽至画布中。
 
-    ![选择器组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/selector20210127.png)
+    ![选择器组件]()
 
 4. 设置以下属性来查看显示效果。
 
-    ![增加选项](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/addselectoritem20210127.png)
+    ![增加选项]()
 
 5. 单击 **预览** 查看应用如何根据屏幕变化进行调整。

@@ -4,7 +4,7 @@
 
 你可以使用运行面板下的多个调试操作来执行调试，还可以通过其他相关面板来查看调试的具体过程。
 
-![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugging.PNG)
+![调试]()
 
 ## 调试操作
 
@@ -61,11 +61,11 @@
 
 插入断点后，该组件的左上角会出现一个红色的圆点。
 
-![插入断点](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/breakpoints.PNG)
+![插入断点]()
 
 调试时，执行将在断点处暂停，设置断点的组件将高亮显示。
 
-![高亮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/highlight.PNG)
+![高亮]()
 
 - **禁用和启用断点**
 
@@ -76,4 +76,4 @@
 
 禁用断点后，该组件右上角的红色圆点变为空心圆。
 
-![禁用断点](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/disabledBreakpoint.PNG)
+![禁用断点]()

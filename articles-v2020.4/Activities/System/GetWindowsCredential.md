@@ -23,13 +23,13 @@
 
 ## 操作样例
 1. 拖入**获取Windows凭据**组件到设计面板，设置凭据名"test01"，设置变量“pwd”，“userName”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-1.png)
+![]()
 
 2. 在电脑凭据管理器里新建一个普通凭据，凭据名：“test01”，用户名：“shirley”，密码：“123456”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-2.png)
+![]()
 
 3. 拖入**写入日志**组件到设计面板：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-3.png)
+![]()
 
 4. 运行流程，控制台输出根据凭据名查找的用户名和密码：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-4.png)
+![]()

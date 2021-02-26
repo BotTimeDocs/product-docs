@@ -25,11 +25,11 @@
 ## 操作样例
 1. 拖入一个**上传文件**组件至流程中。
 2. 双击**上传文件**组件的空白处，在组件界面配置其属性。
-   ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/uploadfile20210105.png)
+   ![配置属性]()
    
    - 目标位置：选择控制台文件服务中的文件夹路径作为待上传文件的路径，如，"Test_demo"
    - 本地文件路径：选择本地待上传的文件路径，如，"执行CSharp代码.xaml"
 3. 保存并运行流程。
 4. 在控制台中查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/consolefile20210105.png)
+   ![运行结果]()

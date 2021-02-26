@@ -23,7 +23,7 @@
 
 **队列故障占比TOP 10:** 统计当前资源组下所有调度队列在所选时间段范围内所有执行失败的流程任务在队列中的分布情况。
 
-![队列监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/queuedashboard1.png)
+![队列监控]()
 
 
 **调度队列任务分布：** 统计当前资源组下所有调度队列中的任务在所选时间段范围内的分布情况。
@@ -33,4 +33,4 @@
 **调度队列任务平均等待时长TOP10：** 统计当前资源组下所有调度队列在所选时间段范围内平均等待时间TOP10。
 
 
-![队列监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/queuedashboard2.png)
+![队列监控]()

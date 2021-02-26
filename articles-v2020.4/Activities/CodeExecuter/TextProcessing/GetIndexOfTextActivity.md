@@ -24,12 +24,12 @@
 
 1. 拖入**获取文本索引组件**，创建变量并填入变量，所下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010501.png)
+![Image text]()
 
 2. 拖入其它组件，例：拖入**写入日志**组件，将获取到的文本索引输出到日志，如下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010502.png)
+![Image text]()
 
 3. 点击运行，成功获取到文本索引，如下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010503.png)
+![Image text]()

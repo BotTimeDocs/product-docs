@@ -28,7 +28,7 @@
 1. 拖入一个**文本转数值**组件至流程中。
 2. 配置**文本转数值**组件的属性。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/texttonum20210104.png)
+    ![配置属性]()
 
     - 文本：输入需要转换为数值的字符串，如，`"123.56"`
     - 数值：输入被转换为数值的变量，如，`S`
@@ -42,4 +42,4 @@
 5. 保存并运行流程。
 6. 在编辑器的输出面板中查看运行结果。
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/texttonumresult20210104.png)
+    ![运行结果]()

@@ -25,13 +25,13 @@
 
 ## 操作样例
 1. 新建一个 Excel 文件，并在 Sheet1 的 A1-E1 单元格中分别填写数字 10，11，12，13，14:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps55.png)
+![]()
 
 2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+![]()
 
 3. 双击 **打开/新建** 组件，拖入 **插入公式** 组件，分别填写工作表和单元格位置，以及公式内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps56.png)
+![]()
 
 4. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps57.png)
+![]()

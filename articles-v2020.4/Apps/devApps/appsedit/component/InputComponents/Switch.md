@@ -29,10 +29,10 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **开关** 组件，拖拽至画布中。
 
-    ![开关组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/switch20210127.png)
+    ![开关组件]()
 
 4. 设置以下属性来查看显示效果。
 
-    ![开关配置项](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/settingswitch20210127.png)
+    ![开关配置项]()
 
 5. 单击 **预览** 查看应用如何根据屏幕变化进行调整。

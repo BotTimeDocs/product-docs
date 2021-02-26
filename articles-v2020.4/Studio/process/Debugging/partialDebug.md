@@ -6,7 +6,7 @@
 
 当当前所选中的流程文件包含参数，点击“调试/运行文件”，将会弹出一个设置流程参数的窗口，你可以选择设置不一样的参数值来进行校验，也可以使用默认值进行校验。
 
-![打开文件/文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/openfile&folder20201214.png)
+![打开文件/文件夹]()
 
 > **注意：**
 >

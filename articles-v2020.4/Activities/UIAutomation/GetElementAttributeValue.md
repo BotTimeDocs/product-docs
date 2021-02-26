@@ -34,8 +34,8 @@
 
 ## 操作样例
 1. 拖入**获取元素属性值**组件并指定元素：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr1.png)
+![]()
 
 2. 验证元素并输入属性名：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr2.png)
+![]()
 

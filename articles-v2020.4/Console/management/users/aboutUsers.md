@@ -10,7 +10,7 @@
 
 查看用户列表 
 进入全局设置-用户信息页面，即可查看当前租户下的所有用户信息
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E5%85%A8%E5%B1%80%E7%AE%A1%E7%90%86/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF.png)
+![process]()
 
 
 新建用户
@@ -19,7 +19,7 @@
 
 用户信息查看
 点击名称或者操作选中的“查看”即可查看用户
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E5%85%A8%E5%B1%80%E7%AE%A1%E7%90%86/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/%E6%9F%A5%E7%9C%8B%E7%94%A8%E6%88%B7%E8%AF%A6%E6%83%85.png)
+![process]()
 
 
 

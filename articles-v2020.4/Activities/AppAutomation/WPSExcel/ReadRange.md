@@ -29,16 +29,16 @@
 
 ## 操作样例
 1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+![]()
 
 2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+![]()
 
 3. 双击 **打开/新建** 组件，拖入 **读取区域** 组件至 **打开/新建** 组件中，填写工作表和区域范围，在输出数据中写入变量来接收读取的内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps10.png)
+![]()
 
 4. 拖入 **预览数据表** 组件，来预览读取区域的数据表内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps11.png)
+![]()
 
 5. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps12.png)
+![]()

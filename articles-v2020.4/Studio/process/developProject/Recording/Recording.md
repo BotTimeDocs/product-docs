@@ -8,7 +8,7 @@
 
 当界面出现黄色矩形框，代表着你已经开始录制。此时，你才可以点击目标元素，因为矩形代表了识别出的元素，也意味着你可以点击它来获取数据或者以其他方式进行交互。如下图所示，这样就能确保你选择了正确的按钮、文本或菜单。
 
-![录制中](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/recording.png)
+![录制中]()
 
 录制过程中与 UI 元素的交互会产生信息性屏幕截图。无论所选录制的类型如何，有些操作是可记录的，而有些则是不可记录的。
 
@@ -51,7 +51,7 @@
 
 - **录制器界面**
 
-![录制器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/recorder.PNG)
+![录制器]()
 
 |选项| 描述|
 |-----|-----|
@@ -66,4 +66,4 @@
 
 当录制器录制到一些自动化操作后，会生成一个预览界面。在此界面中你可以对录制好的操作进行更改，删除，以完善你的自动化流程。
 
-![预览界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/preview.PNG)
+![预览界面]()

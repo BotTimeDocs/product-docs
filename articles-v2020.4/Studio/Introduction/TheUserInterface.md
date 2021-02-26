@@ -4,14 +4,14 @@
 
 ## 开始主页
 
-![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201019.png)
+![开始主界面]()
 
 1. **新建** — 新建流程项目或组件项目。
 2. **最近** — 打开您最近处理过的项目。可以打开项目所在的文件夹或从 **最近使用** 列表中删除；单击 **更多项目** 链接，展开更多的最近处理过的项目，且可模糊搜索 **最近使用** 列表。
 
 ### 新建
 
-![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201118.png)
+![新建]()
 
 1. **新建** — 新建流程项目或组件项目。
 2. **从模板新建** — 从预定义的模板开始一个新项目。
@@ -19,7 +19,7 @@
 
 ### 打开
 
-![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/indexopen20201118.png)
+![打开]()
 
 1. **最近使用** — 打开您最近处理过的项目。
 2. **本地项目** — 本地电脑中已有的项目。
@@ -32,7 +32,7 @@
 
 ### 工具
 
-![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
+![工具]()
 
 1. **应用** — 支持 **元素探测器** 应用小工具。
 2. **扩展** — 可以快速安装各种扩展程序，以对不同的应用进行自动化。
@@ -50,11 +50,11 @@
 ### 帮助
 
 **帮助** 可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。还可以在 **帮助** 页面中找到有关产品版本等信息。
-![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20201118.png)
+![帮助信息]()
 
 ## 编辑器主页
 
-![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/userinterface20201019.png)
+![编辑器主界面]()
 
 1. **菜单栏** — 一种树形结构，为编辑器提供一些功能入口。
 2. **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
@@ -81,7 +81,7 @@
   >- 如果项目文件下的 Backup 文件夹中有相关流程的备份文件，则无法删除流程文件中的屏幕截图。
   >- 如果是自定义文件名的截图，则无法删除。
 
-![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/projectpanel20210126.png)
+![项目面板]()
 
 右击项目面板的任意文件或文件夹，可以打开包含以下选项的上下文菜单：
 |选项 |描述 |
@@ -111,7 +111,7 @@
 
 **大纲面板** 用于显示当前流程文件的层级结构。通过在大纲中选中某一组件来定位到编辑区域的组件，也可以通过在编辑区域选择组件来显示大纲中的组件。
 
-![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/guideline20201019.png)
+![大纲面板]()
 
 ### 组件面板
 
@@ -119,7 +119,7 @@
 
 通过 F1 快捷键或者组件右键菜单的“帮助”，可快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法。
 
-![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activitypanel20201019.png)
+![组件]()
 
 ### 运行面板
 
@@ -127,17 +127,17 @@
 
 **运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
 
-![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/runpanel20201019.png)
+![运行时]()
 
 **调试** 主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看 [调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
-![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
+![调试]()
 
 ### 版本控制面板
 
 **版本控制面板** 用于记录项目中文件内容的变化，以便将来查看指定版本的修订情况。单击“启用”，开启版本控制功能。
 
-![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/versioncontrol20201214.png)
+![版本控制]()
 
 ### 市场面板
 
@@ -151,15 +151,15 @@
 
 有关市场的详细信息，请查看 [云扩市场](../market/Market.md?_v=v2020.4)。
 
-![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/marketpanel20201019.png)
+![市场]()
 
-<!-- ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG)![流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar.PNG) -->
+<!-- ![组件市场]()![流程市场]() -->
 
 <!--### 扩展面板
 
 **扩展面板** 使你可以快速安装各种扩展程序，以对不同的应用进行自动化。
 
-![扩展面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-extension.PNG)-->
+![扩展面板]()-->
 
 ### 发布项目
 
@@ -171,29 +171,29 @@
 
 ### 个人信息
 
-通过点击菜单栏右侧的 ![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG) 打开 **个人信息** 退出登录。
+通过点击菜单栏右侧的 ![个人信息]() 打开 **个人信息** 退出登录。
 
-![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
+![个人信息]()
 
 ### 编辑区域
 
 **编辑区域** 显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。
 
-![设计](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design.png)
+![设计]()
 
 - 通过双击某一个组件，可以查看此组件的具体内容，也可以对其进行属性的添加和更改。
 
-- 通过点击 ![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png) 图标，按住空格键或按鼠标中键来激活平移模式。
+- 通过点击 ![移动画布]() 图标，按住空格键或按鼠标中键来激活平移模式。
 
-- 通过按住 Ctrl+鼠标滚动方式更改缩放级别，然后点击 ![重置为 100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%25.png) 图标将其重置为 100%。
+- 通过按住 Ctrl+鼠标滚动方式更改缩放级别，然后点击 ![重置为 100%]() 图标将其重置为 100%。
 
-- 通过点击 ![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png) 图标，使整个自动化项目按照编辑区域的大小进行自适应。
+- 通过点击 ![自适应]() 图标，使整个自动化项目按照编辑区域的大小进行自适应。
 
 ### 上下文菜单
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20201215.png)
+![编辑区域菜单]()
 
    |选项         |描述|
    |----------------|---------------------------------------|
@@ -226,7 +226,7 @@
 >
 > 输入属性值时，若属性值为字符串，需要将字符串放在英文双引号中。
 
-![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/properties.png)
+![属性]()
 
 ### 输出面板
 
@@ -238,7 +238,7 @@
 
 请注意，每次运行或调试项目时，将会自动清除此面板中存储的日志信息。
 
-![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outputPanel.png)
+![属性]()
 
 ## 快速访问页
 
@@ -248,7 +248,7 @@
 >
 > 若不希望在打开项目时打开此页面，可在“开始 > 设置 > 项目”中设置为不勾选“打开项目时显示快速访问页”选项。
 
-![快速访问页](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/quickstart20210126.png)
+![快速访问页]()
 
 - **快速打开**：从项目面板中拖拽需要快速打开的流程文件(xaml 类型)至“添加文件”区域。单击该文件，即可快速打开。
 
@@ -268,6 +268,6 @@
 
 ## 意见反馈
 
-**意见反馈** 可以使你快速地寻求帮助。通过点击 ![在线咨询](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help.png) 图标，打开反馈窗口。
+**意见反馈** 可以使你快速地寻求帮助。通过点击 ![在线咨询]() 图标，打开反馈窗口。
 
 当我们的客服人员在线时，你可以将你的问题反馈给客服人员，客服人员将会及时帮助你解决问题；当客服人员不在线时，你也可以通过留言来反馈你的问题。

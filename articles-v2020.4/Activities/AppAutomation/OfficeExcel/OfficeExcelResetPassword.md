@@ -20,13 +20,13 @@
 1. 新建一个 Excel 文件，不设置密码。
 
 2. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+![]()
 
 3. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![]()
 
 4. 拖拽 **重置密码** 到 **打开/新建** 组件中，填写密码“123456”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ResetPassword1.png)
+![]()
 
 5. 运行成功后，打开 excel，需要输入密码。输入 123456 后，正常打开：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ResetPassword2.png)
+![]()

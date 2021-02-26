@@ -36,7 +36,7 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **日期选择框** 组件，拖拽至画布中。
 
-    ![日期选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/datepickbox20210128.png)
+    ![日期选择框组件]()
 
 4. 为该组件设置如下属性。
    - 格式：下拉选择日期格式，如，`YYYY/MM/DD`

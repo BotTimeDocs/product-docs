@@ -14,7 +14,7 @@
 ### 配置
 
 - **流程部署**：选择已在控制台中配置的“流程部署”。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/workflow3.png)
+![devmode]()
 
 ### 样式
 
@@ -33,7 +33,7 @@
 
 单击模拟界面的组件，选中组件后，即可在右侧配置控件信息。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/workflow4.png)
+![devmode]()
 
 当前支持对控件的设置如下：
 
@@ -43,7 +43,7 @@
   - 是否可更改：不可更改的参数，系统将作为标签展示参数默认值，若没有设置默认值，则仅展示标签
   - 是否必填: 打开此选项意味着我们会在前端校验当前参数必填
 - **参数类型**：展示流程中当前参数的数据类型。
-  ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/setcomponent1.png)
+  ![devmode]()
 - **控件**
   - 类型：下拉选择参数类型，允许用户调整交互控件类型。
 
@@ -54,13 +54,13 @@
 3. 从左侧组件面板中选择 **模块组件** 下的 **流程** 组件，拖拽至画布中。
 4. 在弹出的对话框中，选择相应的流程。
 
-    ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/workflow1.png)
+    ![devmode]()
 
 5. 添加时，系统将根据你选择的流程，在模拟界面加载出该流程包含的所有参数及其对应的默认控件。
 
 6. 单击“创建”按钮，根据配置将该组件加载进当前页面并选中该组件。
 
-   ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/workflow2.png)
+   ![devmode]()
 
    > **说明：**
    >

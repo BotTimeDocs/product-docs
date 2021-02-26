@@ -4,7 +4,7 @@
 
 **导入** 允许你为将在表达式中使用的类型输入命名空间。 与 Visual Basic 和 C#中的导入或使用关键字非常类似，在导入中指定命名空间可让你只需在表达式中输入类型名称，而不是完全限定的版本类型名称。要打开导入，请在编辑区域中点击“导入”。
 
-![导入](https://docimages.blob.core.chinacloudapi.cn/images/Studio/importNamespaces/import.PNG)
+![导入]()
 
 导入既响应 UI 中的更改，也响应保存流程时进行的更改。 保存流程后，会向导入中自动添加命名空间。 这些存储包括以下各项：
 
@@ -21,7 +21,7 @@
 3. 输入命名空间并从下拉框中选择一个命名空间。
 当键入时，会显示与键入的字符匹配的有效命名空间列表。
 
-    ![搜索命名空间](https://docimages.blob.core.chinacloudapi.cn/images/Studio/importNamespaces/importNamespaces.png)
+    ![搜索命名空间]()
 
 4. 按 Enter 键将命名空间添加到列表。
 

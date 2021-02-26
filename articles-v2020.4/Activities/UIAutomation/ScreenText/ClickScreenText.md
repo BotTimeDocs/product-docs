@@ -42,10 +42,10 @@
 
 ## 操作样例
 1. 拖入**点击屏幕文本**组件并指定Adobe Acrobat右侧工具栏：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clickScreenText1.png)
+![]()
 
 2. 验证元素有效性：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clickScreenText2.png)
+![]()
 
 3. 运行流程并查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clickScreenText3.png)
+![]()

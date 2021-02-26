@@ -35,8 +35,8 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **文件上传** 组件，拖拽至画布中。
 
-    ![文件上传组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileupload20210127.png)
+    ![文件上传组件]()
 
 4. 单击 **预览** 并上传文件查看应用效果。
 
-   ![文件上传效果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/fileuploadresult20210127.png)
+   ![文件上传效果]()

@@ -37,13 +37,13 @@
 1. 拖入**下载文件**组件至流程中。
 2. 双击打开组件，选择需要下载的文件。
    
-   ![选择控制台文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/downloadfile20201216.png)
+   ![选择控制台文件]()
 
 3. 配置属性参数。
 
-   ![保存至目录](https://docimages.blob.core.chinacloudapi.cn/images/Activities/savepath20201216.png)   
+   ![保存至目录]()   
 
 4. 保存并运行流程。
 5. 在资源管理器中按照已设定的下载路径，查看已下载的文件。
    
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readfile20201216.png)
+   ![]()

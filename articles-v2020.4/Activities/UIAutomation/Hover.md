@@ -20,11 +20,11 @@
 
 ## 操作样例
 1. 拖入**打开浏览器**组件，输入网址，如：https://www.encoo.com：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-1.png)
+![]()
 
 2. 拖入**悬停**组件，并指定网页上需要悬停才可以展示的元素，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-2.png)
+![]()
 
 3. 点击运行流程，查看悬停效果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-3.png)
+![]()
 

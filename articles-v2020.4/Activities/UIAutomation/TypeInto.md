@@ -29,10 +29,10 @@
 
 ## 操作样例
 1. 拖入**输入文本**组件，并指定元素：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setText.png)
+![]()
 
 2. 打开选择器窗口，点击“未验证”按钮检查元素是否识别成功,如果识别成功，点击“确认”关闭窗口：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-1.png)
+![]()
 
 3. 输入文本并点击运行流程，查看运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-2.png)
+![]()

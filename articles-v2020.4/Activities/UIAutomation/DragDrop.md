@@ -30,7 +30,7 @@
 1. 拖入一个**鼠标拖动**组件至流程中。
 2. 单击**鼠标拖动**组件的“指定元素”，指定需要拖动的文件。
    
-   ![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatemouse20201218.png)
+   ![指定元素]()
 
 3. 根据鼠标坐标偏移量设置该组件的属性参数。
 

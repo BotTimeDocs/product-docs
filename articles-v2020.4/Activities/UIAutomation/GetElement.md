@@ -31,13 +31,13 @@
 
 ## 操作样例
 1. 拖入**获取元素**组件并指定元素：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement1.png)
+![]()
 
 2. 点击组件调用获取到的元素对象：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement2.png)
+![]()
 
 3. 打印出获取到的元素对象的某个方法：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement3.png)
+![]()
 
  
 

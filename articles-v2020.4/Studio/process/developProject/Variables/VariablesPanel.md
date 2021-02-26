@@ -2,7 +2,7 @@
 
 使用变量列表可以创建和修改变量。
 
-![变量列表](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/createdVariable.png)
+![变量列表]()
 
 |字段| 描述|
 |---|---|
@@ -19,7 +19,7 @@
 
 ## 变量上下文菜单
 
-![菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variablePanelMenu.png)
+![菜单]()
 
 |字段| 描述|
 |---|---|

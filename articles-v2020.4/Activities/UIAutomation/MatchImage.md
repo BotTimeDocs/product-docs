@@ -32,13 +32,13 @@
 
 ## 操作样例
 1. 拖入**截屏**组件，输出变量设置为Image对象`imgEle`：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage1.png)
+![]()
 
 2. 拖入**匹配图片**组件，输入的图片为上一步返回的图片对象imgEle, 输出为可遍历的元素结果集`images`
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage2.png)
+![]()
 
 3. 拖入**点击**组件，输入的元素为上一步返回的结果集中的第一个元素`images.ToList()[0]`：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage3.png)
+![]()
 
 4. 运行流程，成功点击了匹配到的第一个元素：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage4.png)
+![]()

@@ -32,7 +32,7 @@
    >
    > 选择表：默认为空，下拉选择该小程序应用中的任一数据表进行关联。
 
-   ![添加表单组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/addform20201208.png)
+   ![添加表单组件]()
 
 4. 单击“创建”，根据配置将表单模块组件加载进当前页面并选中该组件。
 

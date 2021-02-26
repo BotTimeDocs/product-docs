@@ -22,16 +22,16 @@
 ## 操作样例
 
 1. 新建一个 Excel 文件，如下：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)
+![]()
 
 2. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+![]()
 
 3. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![]()
 
 4. 拖拽 **插入工作表** 组件到 **打开/新建** 组件中，插入模式选择复制工作表，插入位置 2，新工作表名称“sheetNew”，填写源工作表名称“sheet1”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertWorksheets1.png)
+![]()
 
 5. 运行成功后，打开 excel 查看，工作表“sheetNew”插入到第一个位置并且复制“sheet1”的内容：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertWorksheets2.png)
+![]()

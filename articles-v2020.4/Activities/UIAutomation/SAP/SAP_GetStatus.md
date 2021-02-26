@@ -29,13 +29,13 @@
 ## 操作样例
 1. 登录SAP应用，点击SAP菜单->会计核算->财务会计->总账->单据录入->FB50 - 输入总账科目凭证进入“输入总账科目凭证”：公司代码 xxxx”页面。
 1. 拖入**点击**组件，指定“明细”，并打开选择器通过验证：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPGetStatus-1.png)
+![]()
 
 2. 拖入**获取状态栏信息**组件，指定状态栏元素，并设置输出变量：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPGetStatus-2.png)
+![]()
 
 3. 拖入**写入日志**组件，以一定的方式输入第2步操作中获取的变量：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPGetStatus-3.png)
+![]()
 
 4. 点击运行流程，查看变量值：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPGetStatus-4.png)
+![]()

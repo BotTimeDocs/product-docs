@@ -14,13 +14,13 @@
 
 6. 输入一段自定义的文本，然后点击“确定”，该段文本将会显示在记事本中 </br> 例如：你好！欢迎使用云扩 RPA 编辑器！
 
-    ![输入文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/inputText.PNG)
+    ![输入文本]()
 
 7. 在“编辑”菜单上，选择“时间/日期”，在该段文本内容后添加当前时间
 
 8. 按下 ESC，结束录制，点击录制器的“保存&退出”，将录制的流程保存到编辑区域中
 9. 录制好的流程将会自动包含在序列中，具体流程如下所示：
 
-    ![录制桌面的流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recording/recordDesktop.PNG)
+    ![录制桌面的流程]()
 
 在运行面板中，点击“运行”，将会自动回放录制的步骤。

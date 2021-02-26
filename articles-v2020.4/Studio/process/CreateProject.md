@@ -27,56 +27,56 @@
         >
         > UIA3 和 UIA 不可以同时使用于同一个项目中。
 
-    ![创建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/myfirstproject20201019.png)
+    ![创建项目]()
 
 3. 从组件面板，搜索“打开浏览器”组件，并将其拖入到编辑区域连接至开始节点
 4. 在该组件的属性面板中，输入以下内容：
     - 浏览器类型：IE
     - 网址："https://www.baidu.com"
 
-    ![打开浏览器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoOpenBrowser.PNG)
+    ![打开浏览器]()
 
 5. 双击“打开浏览器”组件，并点击菜单栏-工具下的“智能录制”，打开录制器
 6. 打开 IE 浏览器的百度网站的首页，然后点击录制器的“智能录制”进行网站操作的录制
 
-    ![录制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/baidu.PNG)
+    ![录制]()
 
 7. 点击百度首页的搜索文本框，在出现的弹框中输入要搜索的词条（以天气为例）
 
-    ![输入文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/inputTianqi.PNG)
+    ![输入文本]()
 
 8. 点击百度一下，或者按 Enter 键
 
-    ![百度一下](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/clickBaidu.png)
+    ![百度一下]()
 
 9. 打开录制器界面，选择“文本”->“获取文本”，当出现黄色矩形框时，点击明天的天气信息以获取天气文本
 
-    ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/getText.png)
+    ![获取文本]()
 
 10. 按下键盘的“Esc”快捷键结束网站操作的录制
 11. 点击录制器的“保存&退出”将录制好的自动化流程保存至编辑器中
 
-    ![保存流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/saveExit.PNG)
+    ![保存流程]()
 
 12. 打开变量列表，创建一个字符串型（String）变量-weather，用于存储获取到的天气文本
 
-    ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/createVariable.PNG)
+    ![创建变量]()
 
 13. 选中“获取文本”组件，在属性面板中，输入以下内容：
     - 文本：weather
 
-    ![输入变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/inputWeather.PNG)
+    ![输入变量]()
 
 14. 从组件面板拖入一个“条件（If）”组件连接到“获取文本”组件，在该组件的属性面板中，输入以下内容：
     - 判断条件：weather.Contains(“雨”)
 
-    ![拖入条件组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoIf.PNG)
+    ![拖入条件组件]()
 
 15. 拖入一个确认框组件到条件的 Then 部分，并在该组件的属性面板中，输入以下内容：
     - 标题："明日天气提醒"
     - 描述："明天有雨，记得带伞哦"
 
-    ![拖入确认框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/intoInput.PNG)
+    ![拖入确认框]()
 
 16. 拖入另一个确认框到条件的 Else 部分，并在该组件的属性面板中，输入以下内容：
     - 标题："明日天气提醒"
@@ -86,8 +86,8 @@
 
 1. 点击“运行”来尝试运行自动化流程
 
-    ![运行项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/runflow20201019.png)
+    ![运行项目]()
 
 2. 运行过程中，编辑器会自动回放录制的过程，并提示明天是否有雨
 
-    <!-- ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/createProject/result.png) -->
+    <!-- ![运行结果]() -->

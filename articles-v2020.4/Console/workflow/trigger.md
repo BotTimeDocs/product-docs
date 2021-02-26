@@ -4,13 +4,13 @@
 ## 任务计划列表查看
 点击某一流程部署的“任务计划”按钮，即可切换查看该流程部署名下所有的任务计划。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow10.png)
+![trigger]()
 ## 新建任务计划
 
 **第一步，填写任务计划详情配置**
 
 1）基本信息：定时计划名称、流程部署名称、流程包名称 & 版本号。
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow11.png)
+![trigger]()
 
 2）计划时间(任务的定时执行时间)：
 - 按分钟
@@ -20,7 +20,7 @@
 - 按月
 - 按cron表达式
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow12.png)
+![trigger]()
 
 对于按照cron表达式执行定时计划任务，若了解cron表达式可自行根据规则编写，或通过云扩提供的cron表达式生成网站进行生成。
 
@@ -33,7 +33,7 @@
 
 2）参数信息：展示当前流程包中的参数值，若流程部署已对某参数值进行修改则此处将展示最新值。可在当前环节通过手动填写或导入资产进行重新赋值。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow13.png)
+![trigger]()
 完成定时计划填写后，点击“保存”即可，定时计划将在设置的开始/停用时间自动启用或停用。
 
 **备注：**
@@ -43,14 +43,14 @@
 ## 查看及编辑任务计划详情
 点击某一任务计划的“查看”按钮即可查看对应的任务计划详情。点击“编辑”按钮后即可开始对任务计划进行编辑，完成后点击“保存”按钮即可。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow14.png)
+![trigger]()
 
 ## 查看任务计划日志
 点击某一任务计划的操作选项中的“查看日志”按钮即可查看该任务计划的启用、停用、创建任务情况，便于对任务计划进行跟踪。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow15.png)
+![trigger]()
 
 ## 启用/停用任务计划
 你可以在任务计划列表中点击“操作”选项中的启用/停用按钮，对当前任务计划进行启用/停用操作。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow16.png)
+![trigger]()

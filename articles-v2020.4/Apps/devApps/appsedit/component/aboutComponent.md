@@ -2,7 +2,7 @@
 
 在页面设置的下方可以找到组件栏。
 组件是页面的组成部分，每个页面功能由一个或多个组件拼凑而成。你可以通过拖拽或双击组件的方式将组件添加到当前页面。组件在页面内可以叠加多次使用，新添加的组件将自动添加在页面已有组件下方。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/component.png)
+![devmode]()
 
 组件库中的组件分为如下几种类型：
 
@@ -15,7 +15,7 @@
 ## 添加组件
 
 你可以选中页面，打开组件栏，拖拽组件至页面内，或双击组件，组件将自动添加至当前选中页面。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/addcomponent.png)
+![devmode]()
 
 ## 删除组件
 

@@ -20,15 +20,15 @@
 ## 操作样例
 
 1. 新建一个 Excel 文件:
-    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps20.png)
+    ![1]()
 
 2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
-    ![2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+    ![2]()
 
 3. 双击 **打开/新建** 组件，拖入 **设置单元格背景色** 组件，填写工作表和单元格位置以及需要设置的颜色代码:
     - 举例：红色为#FF0000
-    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps21.png)
+    ![3]()
 
 4. 点击流程运行，观察运行结果:
-    ![4-1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps22.png)
-    ![4-2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps23.png)
+    ![4-1]()
+    ![4-2]()

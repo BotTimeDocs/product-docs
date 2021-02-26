@@ -33,7 +33,7 @@
 1. 在页面区域单击选中需要添加任务记录组件的页面。
 2. 在组件区域双击或拖拽模块组件中的任务记录组件至当前选中页面。
 
-   ![添加任务记录组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/addtasklog20201208.png)
+   ![添加任务记录组件]()
 
 3. 该组件自动加载进当前页面并选中该组件。
 

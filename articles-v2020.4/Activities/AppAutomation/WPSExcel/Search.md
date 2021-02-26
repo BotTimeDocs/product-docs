@@ -25,20 +25,20 @@
 
 1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
 
-    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)
+    ![1]()
 
 2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
 
-    ![2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+    ![2]()
 
 3. 双击 **打开/新建** 组件，拖入 **查找** 组件至 **打开/新建** 组件中，填写工作表和起始单元格位置以及需要查找的内容，将输出的单元格地址赋值给变量:
 
-    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps17.png)
+    ![3]()
 
 4. 拖入 **写入日志** 组件，来显示需要获取单元格地址的内容:
 
-    ![4](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps18.png)
+    ![4]()
 
 5. 点击流程运行，观察运行结果:
 
-    ![5](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps19.png)
+    ![5]()

@@ -2,7 +2,7 @@
 
 点击**选择器**属性右侧的按钮，弹出下述界面。用户可在此窗口查看所指定元素的详细信息，同时提供编辑功能，用户可以自定义指定元素信息
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/%E9%80%89%E6%8B%A9%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8.png)
+![img]()
 
 ## 图像预览页
 此区域仅在使用图像识别方式指定元素时会显示，显示的是指定元素的截图。
@@ -41,7 +41,7 @@
 
 指定完成后，你可以获得对应元素的 XPath 表达式。编辑器提供了多种表达式的写法，包含在 XPath 列表中：
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Xpath%E5%88%97%E8%A1%A8.png)
+![img]()
 
 >**说明：**
 >

@@ -10,7 +10,7 @@
 
 1. 在编辑器的 **工具 > 扩展** 下你可以看到你需要安装的 Firefox 扩展。
 
-   ![FireFox 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+   ![FireFox 扩展]()
 
     > **说明：**
     >
@@ -18,20 +18,20 @@
 
 2. 单击“Firefox 扩展”, 在弹出的对话框中，单击“确定”。
 
-    ![确定安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-installation.PNG)
+    ![确定安装扩展]()
 
 3. 打开 Firefox 浏览器，点击添加扩展弹窗的“添加”。
 
-    ![添加扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-addextension.PNG)
+    ![添加扩展]()
 
 4. 在弹窗中点击“好的，明白了”。
 
-    ![确认](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-confirm.PNG)
+    ![确认]()
 
 5. 点击侧边导航栏中的“附加组件”。
 
-    ![打开附加组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-attachExtension.PNG)
+    ![打开附加组件]()
 
 6. 打开“附加组件管理器”，可看到扩展已安装。
 
-    ![成功安装](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/firefox-installationSuccess.PNG)
+    ![成功安装]()

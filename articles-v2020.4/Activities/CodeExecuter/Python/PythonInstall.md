@@ -33,8 +33,8 @@
 3. 双击打开该组件，选择已下载的 Python 安装包。
 4. 配置需要对应安装路径的属性参数。
    
-   ![配置安装路径](https://docimages.blob.core.chinacloudapi.cn/images/Activities/installpython20201216.png)
+   ![配置安装路径]()
 
 5. 保存并运行流程。
 6. 在命令行提示符中输入`python` ,出现版本号信息，即安装成功。
-   ![验证Python是否安装成功](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pythonsucess20201216.png)
+   ![验证Python是否安装成功]()

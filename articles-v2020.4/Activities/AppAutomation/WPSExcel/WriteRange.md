@@ -26,19 +26,19 @@
 
 1. 拖入 **打开/新建** 组件，勾选是否新建文件，再填入需要打开或者新建的 Excel 文件，并配置所需选项内容:
 
-    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)
+    ![1]()
 
 2. 双击 **打开/新建** 组件，拖入 **搭建数据表** 组件，并点击 "点击打开'数据表搭建器'" 设置数据表内容，将数据表输出到变量:
-    ![2-1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps46.png)
+    ![2-1]()
 
-    ![2-2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps47.png)
+    ![2-2]()
 
-    ![2-3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps48.png)
+    ![2-3]()
 
 3. 拖入 **写入区域** 组件，配置工作表名称、起始单元格位置以及输入的数据表(类型为 datatable)，右边配置选项中可以勾选是否添加列头，如果勾选则会将 datatable 的列名称也写入到 excel 中，反之则不会写入:
 
-    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps49.png)
+    ![3]()
 
 4. 点击流程运行，观察运行结果:
 
-    ![4](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps50.png)
+    ![4]()

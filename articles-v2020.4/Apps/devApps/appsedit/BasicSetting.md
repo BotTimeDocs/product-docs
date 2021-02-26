@@ -1,6 +1,6 @@
 # 小程序基本设置
 点击左侧基本设置菜单栏，即可切换到应用基本设置面板。
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/basesetting.png)
+![devmode]()
 
 你可以在这里对小程序的名称，图标，布局，说明进行编辑和调整。
 

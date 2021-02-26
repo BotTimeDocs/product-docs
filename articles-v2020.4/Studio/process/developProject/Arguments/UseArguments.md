@@ -17,7 +17,7 @@
     * 值："请问，你的名字是什么？"
 
 5. 此时，子流程文件如下所示：
-    ![子流程文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/argument1.xaml.png)
+    ![子流程文件]()
 
 6. 打开 Main.xaml 文件，打开变量列表，创建一个字符串型（String）变量（result）
 
@@ -38,6 +38,6 @@
 
 12. 此时，主流程文件如下所示：
 
-    ![主流程文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Argument/main.xaml.png)
+    ![主流程文件]()
 
 最终运行该流程，输出面板将会显示相关信息。

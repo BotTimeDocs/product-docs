@@ -14,17 +14,17 @@
 
 3. 在弹出的 **云扩 Android 服务管理器** 窗口中，单击 **连接服务**。
 
-    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Andriodconnect20201104.png)
+    ![Android 连接服务]()
 
 4. 服务连接成功，如下图所示。
 
-    ![服务连接成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/serverconnectsucess20201104.png)
+    ![服务连接成功]()
 
 ### 安装 APP 应用（首次）
 
 在解压完成的文件夹下的 **apk** 文件夹中，有以下三个手机应用安装包。
 
-![APP 应用](https://docimages.blob.core.chinacloudapi.cn/images/Studio/app20201104.png)
+![APP 应用]()
 
 > **说明：**
 >
@@ -56,7 +56,7 @@
 
 3. 在弹出的 **云扩 iOS 服务管理器** 窗口中，单击 **连接服务**。
 
-    ![iOS 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/iosconnect20201104.png)
+    ![iOS 连接服务]()
 
 > **说明：**
 > 启动服务后连接手机，可能会遇到的问题，供参考：

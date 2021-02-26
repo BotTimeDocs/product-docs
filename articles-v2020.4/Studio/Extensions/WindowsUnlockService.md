@@ -33,7 +33,7 @@
 2. **如何卸载 Windows 屏幕解锁服务？** </br>
    步骤 1：卸载程序入口：[卸载程序](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/EncooCredentialProviderUnInstall.bat) </br>
    步骤 2：右击以管理员身份运行，卸载成功如下图所示。</br>
-   ![Windows 屏幕解锁服务卸载完成](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/uninstall20201202.png) </br>
+   ![Windows 屏幕解锁服务卸载完成]() </br>
 
 3. **在 Windows 10 系统中通过电子邮件在线帐号登录时，解锁组件中填写的用户名属性无效** </br>
    在解锁组件的“用户名”属性中填写在 "C:\Users" 目录下生成的以电子邮件在线帐号为名的文件夹名称。

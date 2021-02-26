@@ -9,12 +9,12 @@
 >1. 选择组件右侧的选择器图标。
 >2. 在弹出的下拉框中选择在选择器管理器中已添加的选择器。
 
-![组件选择器效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/activitiesselector20201229.png)
+![组件选择器效果]()
 
 
 ## 选择器管理器工具
 在编辑器菜单栏中，选择“**工具 > 选择器管理器**”或“**开始 > 工具**”，可打开选择器管理器窗口。
-![选择器管理器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectmanager20201229.png)
+![选择器管理器]()
 
 **1. 指定元素类别**
 在**指定元素**时，需选择指定元素时使用的录制技术：
@@ -23,7 +23,7 @@
 
 **2. 生成 XPath**
 如果你希望使用 XPath 的形式对元素进行描述，而非使用默认的节点和属性的方式，你可以勾选**生成 XPath（仅支持WEB）** 选项，然后使用**指定元素**按钮，重新指定元素，指定完成后，你可以获得对应元素的 XPath 表达式。
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Activities/xpath20201229.png)
+![img]()
 
 >**说明：**
 >
@@ -41,7 +41,7 @@
 **6. 打开选择器管理器**
 单击“打开”链接，在弹出的“打开选择器管理器”弹框中，选择本地已存在（已新建）的选择器文件并打开。
 
-![打开选择器管理器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openselector20201229.png)
+![打开选择器管理器]()
 
 >**说明：**
 >
@@ -50,14 +50,14 @@
 **7. 导入文件**
 单击“导入”链接，在弹出的“导入”弹框中，选择本地已存在（已导出）的选择器文件。
 
-![导入文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/import20201229.png)
+![导入文件]()
 
 将另一个文件中的内容添加到本文件
 
 **8. 导出文件**
 单击“导出”链接，在弹出的“导出”弹框中，选择需要导出的文件及导出路径，可将已选择的文件导出至本地以.esz为扩展名的一个文件。
 
-![导出文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/export20201229.png)
+![导出文件]()
 
 **9. 操作目录树**
 选择目录树中的文件夹或选择器文件，鼠标右击，可进行如下操作：

@@ -13,7 +13,7 @@
   - 宽度：可以通过调整数字大小来调整组件宽度。
 
 - **栏目**：可为导航添加/删除/排序菜单，添加后的菜单将会渲染在模拟界面内。
-    ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/leftmenu3.png)
+    ![devmode]()
 
 ### 样式
 
@@ -33,7 +33,7 @@
 1. 登录到 [小程序](https://apps.encoo.com/)。
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **全局组件** 下的 **左侧导航** 组件，拖拽至画布中。
-    ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/leftmenu1.png)
+    ![devmode]()
 
 4. 选中该组件，在右侧属性栏为该组件配置如下属性。
 
@@ -41,7 +41,7 @@
 
 5. 在模拟界面中选中单个菜单，在右侧属性栏为菜单添加显示图标，并为菜单绑定对应跳转的页面。
 
-   ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/leftmenu5.png)
+   ![devmode]()
 
     > **说明：**
     >

@@ -29,7 +29,7 @@
 1. 拖入一个**追加文本**组件至流程中。
 2. 双击**追加文本**组件的空白处，配置其属性。
 
-   ![追加文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/appendtext20210111.jpg)
+   ![追加文本]()
 
     - 源文本：输入原始文本内容，如，`"Hello"`
     - 追加文本：输入需要追加的文本内容，如，`" World!"`
@@ -44,4 +44,4 @@
 5. 保存并运行流程。
 6. 在输出面板中查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/appendtextresult20210111.png)
+   ![运行结果]()

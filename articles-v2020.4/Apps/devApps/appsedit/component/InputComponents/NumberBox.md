@@ -34,7 +34,7 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **数字输入框** 组件，拖拽至画布中。
 
-    ![数字输入框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/numbox20210128.png)
+    ![数字输入框组件]()
 
 4. 为该组件设置如下属性。
 

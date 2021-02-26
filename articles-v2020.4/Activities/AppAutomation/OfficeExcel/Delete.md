@@ -32,16 +32,16 @@
 ## 操作样例
 
 1. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+![]()
 
 2. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![]()
 
 3. 拖拽 **删除数据** 到 **打开/新建** 组件中，填写 sheet 名称，填写单元格名称，如果不勾选可选项直接删除单元格；如果勾选可选项，勾选移动单元格，选择移动模式整行，运行成功后会删除 "A1" 所在的行。区域的操作同单元格。输入项除“工作表”外其余五项只能选一个，且正确填写：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Delete1.png)
+![]()
 
 4. 填写 sheet 名称，填写行号，如果不勾选可选项直接删除行；如果勾选可选项，勾选移动单元格，运行成功删除行后下面的行整体上移；列的操作同行：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Delete2.png)
+![]()
 
 5. 填写 sheet 名称，勾选删除整表，运行成功后删除整个 sheet：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Delete3.png)
+![]()

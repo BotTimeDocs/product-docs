@@ -19,8 +19,8 @@
 1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内拖入一个**长按屏幕**组件。
 3. 单击**长按屏幕**组件中的**指定元素**链接，进入**移动设备管理器**界面指定元素，如下图所示。
-   ![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatelongpress20201223.png)
+   ![指定元素]()
 
 4. 保存并运行流程，可看到长按“京东金融”应用的效果，如下图所示。
 
-   ![长按效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/longpress20201223.png)
+   ![长按效果]()

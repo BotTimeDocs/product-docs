@@ -31,7 +31,7 @@
 4. 拖入一个 **获取键值对数量** 组件至 **添加键值对** 组件的下方。
 5. 配置 **获取键值对数量** 组件的属性。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getkeyvalue20210111.png)
+    ![配置属性]()
 
     - 字典：输入获取键值对所在的字典，如，`D`
     - 数量：输入获取到的结果的值所在的变量，如，`Count`
@@ -45,4 +45,4 @@
 8. 保存并运行流程。
 9. 在输出面板中查看运行结果。
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getkeyvalueresult20210111.png)
+    ![运行结果]()

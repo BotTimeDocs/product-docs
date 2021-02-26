@@ -7,21 +7,21 @@
 1. 打开项目。
 2. 打开代码市场窗口。
 
-   ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/codemarket20201214.png)  
+   ![代码市场]()  
 
 3. 搜索找到需要安装的代码包。
 
 4. 鼠标悬浮于代码包上并点击“安装”，安装代码包。
 
-    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installcode20201214.png)
+    ![代码市场]()
 
 5. 安装时，可能需要接受许可证。
 
-    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-3.png)
+    ![代码市场]()
 
 6. 在项目的“依赖项”中可查看下载的代码包信息
 
-    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-4.PNG)
+    ![代码市场]()
 
     > **注意：**
     >
@@ -31,7 +31,7 @@
 
 7. 编辑区域的 *导入* 中可以搜索到下载的代码包，搜索后点击即可引用到项目中。
 
-    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/CM-5.PNG)
+    ![代码市场]()
 
 ## 已安装代码包
 
@@ -39,7 +39,7 @@
 
 * **已安装代码包** 仅针对当前项目存在，仅显示当前项目已安装的代码包，通过该页面可以管理项目中的依赖项。
 
-    ![已安装代码包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installdonecode20201214.png)
+    ![已安装代码包]()
 
 ## 管理依赖项
 

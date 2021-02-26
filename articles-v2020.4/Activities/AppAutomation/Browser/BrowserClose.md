@@ -22,7 +22,7 @@
 
 当**关闭浏览器**组件指定关闭 **Microsoft Edge 浏览器**时，因为该浏览器的标题自动加工过，需要手动修改浏览器标题名称，修改为标题名称+通配符的形式，否则该组件执行失败，修改步骤如下图所示。
 
-![修改步骤](https://docimages.blob.core.chinacloudapi.cn/images/Activities/closebrowser20210112.png)
+![修改步骤]()
 
 ## 操作样例
 

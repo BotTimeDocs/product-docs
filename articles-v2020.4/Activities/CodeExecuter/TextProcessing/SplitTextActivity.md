@@ -25,7 +25,7 @@
 1. 拖入一个**分割文本**组件至流程中。
 2. 配置**分割文本**组件的属性。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)
+    ![配置属性]()
 
     - 原文本：输入需要被分隔的文本字符串，如，`"123.56"`
     - 分隔符：输入需要分隔原文本的分隔符号，如，`"."`
@@ -40,4 +40,4 @@
 5. 保存并运行流程。
 6. 在编辑器的输出面板中查看运行结果。
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittextresult20210104.png)
+    ![运行结果]()

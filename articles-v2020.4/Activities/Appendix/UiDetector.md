@@ -1,7 +1,7 @@
 # 元素探测器
 获取Windows桌面上所有进程的UI树元素信息，在树形节点展开的同时智能根据对应的自动化框架获取下一级的元素信息，并且可以生成对应的选择器，同时支持对选择器的编辑，验证及保存回传操作。 
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/uidetector20201208.png)
+![img]()
 
 ## 组成
 ### 1. 指定元素
@@ -13,7 +13,7 @@
 >
 >支持验证多个相同的元素，并提示“找到X个。此时高亮的为第Y个”,且支持上下箭头切换，并自动更新 index 和选中当前高亮的元素。
 
-![验证多个相同元素](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/check20201208.png)
+![验证多个相同元素]()
 
 ### 3. 进程树
 显示桌面进程的UI树元素信息。单击某层可展开查看下级，当某行没有三角符号时表明已没有下级。双击某行可实现刷新选择器编辑器。右键单击弹出菜单，含两项：刷新，生成选择器。
@@ -29,7 +29,7 @@
 ## 使用元素探测器获取元素 XPath 信息
 如果你希望使用 XPath 的形式对元素进行描述，而非使用默认的节点和属性的方式，你可以勾选“生成 XPath ” 选项，然后使用指定元素按钮，重新指定元素。
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/%E5%85%83%E7%B4%A0%E6%8E%A2%E6%B5%8B%E5%99%A8XPath.jpg)
+![img]()
 
 指定完成后，你可以获得对应元素的 XPath 表达式。
 

@@ -11,13 +11,13 @@
 
 ## 操作样例
 1. 拖入**循环操作（While）** 组件，创建int32类型变量count，设置默认值为1，并添加循环条件 count <= 100:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/While-1.png)
+![]()
 
 2. 双击展开组件，拖入流程图组件至容器内并双击展开，拖入**流程决策** 组件，设置String类型变量t1，输入时间默认值，如："2020-12-18 11:35:00":
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/While-2.png)
+![]()
 
 3. 输入判断条件 System.DateTime.Now.CompareTo(Convert.ToDateTime(t1)) < 0 （获取当前时间并与指定时间t1做比较），如果值为真（即当前时间早于指定时间），则用**终止循环**组件来结束循环，如果值为假，用**赋值**组件递增循环变量count：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/While-3.png)
+![]()
 
 4. 点击运行流程，查看流程运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/While-4.png)
+![]()

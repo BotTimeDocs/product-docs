@@ -34,7 +34,7 @@
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **输入组件** 下的 **文本输入框** 组件，拖拽至画布中。
 
-    ![文本输入框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/textbox20210128.png)
+    ![文本输入框组件]()
 
 4. 为该组件设置如下属性。
 

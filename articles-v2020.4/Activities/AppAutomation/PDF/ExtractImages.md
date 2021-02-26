@@ -29,10 +29,10 @@
 ## 操作样例
 
 1. 拖入 **读取图片** 组件至项目流程中，并设置变量 result(list <string>)：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractImages_1.png)
+![]()
 
 2. 双击打开读取图片，选取 pdf，例："D:\\滴滴电子发票 (1).pdf"，选择需要的页数范围，输入保存文件夹，在输出中添加 list <string>, 如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractImages_2.png)
+![]()
 
 3. 点击运行，查看运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractImages_3.png)
+![]()

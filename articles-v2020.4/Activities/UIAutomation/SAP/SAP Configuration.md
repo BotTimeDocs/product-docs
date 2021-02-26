@@ -34,4 +34,4 @@
     >
     >当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图提示，请按照上述勾选启用脚本的步骤进行设置。
     
-    ![注意](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png)
+    ![注意]()

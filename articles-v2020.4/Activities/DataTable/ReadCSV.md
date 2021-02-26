@@ -25,11 +25,11 @@
 ## 操作样例
 
 1. 拖入**读取CSV文件**组件，创建一个类型为DataTable类型的变量用于存放输出数据表，例：table，创建类型为String的路径变量并给出默认值，例：filepath:"C:\云扩科技\savetable.csv"，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCSV20201229.png)
+![]()
 
 3. 拖入**预览数据表**组件，输入数据表变量，例：table，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCSV2020122902.png)
+![]()
 
 
 4. 点击运行，查看运行结果，检查预览出的数据表是否与CSV文件中一致：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCSV2020122903.png)
+![]()

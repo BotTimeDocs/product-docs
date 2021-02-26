@@ -26,10 +26,10 @@
 
 2. 拖入一个**连接设备**组件至流程中。
 3. 在**移动设备管理器**窗口中复制已添加的设备信息。
-   ![复制设备信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copydeviceinformation20201222.png)
+   ![复制设备信息]()
 
 4. 双击**连接设备**组件的空白处，进入配置界面。
 5. 选择**平台类型**并单击“**一键填充**”按钮，完成**连接设备**组件的配置。  
-   ![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)
+   ![配置连接设备]()
 
 6. 保存并运行流程。

@@ -8,7 +8,7 @@
 
 你可以右键点击项目面板中的项目文件夹，打开菜单，然后点击“项目设置”，将打开“项目设置”窗口。
 
-![项目设置窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/itemsettings20201019.png)
+![项目设置窗口]()
 
 **项目设置** 窗口左侧显示了可进行组件属性设置的类别。如自动化，其设置的组件属性值将应用于所有自动化相关的组件。
 
@@ -21,7 +21,7 @@
 例如，对 **打开浏览器** 的 **浏览器类型** 属性进行设置：</br>
 在项目设置中，设置 **浏览器类型** 属性的值为 Chrome；在属性面板中，设置该属性值为 FireFox，则执行项目时，将会以 Firefox 打开某网址。
 
-![设置组件属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectSettings/settingValue.png)
+![设置组件属性]()
 
 > **注意：**
 >

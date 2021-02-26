@@ -1,6 +1,6 @@
 # 基本
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotsettingpage20210113.png)
+![robot1]()
 
 ## 基本设置
 

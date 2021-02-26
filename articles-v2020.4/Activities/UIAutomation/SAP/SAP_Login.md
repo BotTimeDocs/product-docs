@@ -25,7 +25,7 @@
 
 ## 操作样例
 1. 拖入**登录应用**组件，输入应用路径、客户端、口令、连接名及用户，选择多登录时的目标状态选项，例：停止此次登录
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-1.png)
+![]()
 
 2. 点击运行流程，查看效果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)
+![]()

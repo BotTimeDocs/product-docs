@@ -8,7 +8,7 @@
 
 这三个组件相互配合，帮助企业快速实现业务流程的自动化。
 
-![产品架构图](https://docimages.blob.core.chinacloudapi.cn/images/encoo-structure.png)
+![产品架构图]()
 
 ## 云扩 RPA 产品文档
 

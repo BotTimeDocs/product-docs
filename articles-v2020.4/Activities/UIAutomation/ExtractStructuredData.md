@@ -22,18 +22,18 @@
 
 ## 操作样例
 1. 打开含有结构化数据的网页（例：http://news.baidu.com ）,拖入**获取结构化数据**组件，点击指定数据源并指定第一个元素，此时，会弹出“向导”对话框提示指定数据源第二个元素，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-1.png)
+![]()
 2. 指定第二个元素，“向导”对话框中会显示默认文本列名称，再点击“下一步”按钮，“向导”对话框展示获取的所有数据及默认最大提取条数：50：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-2.png)
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-3.png)
+![]()
+![]()
 3. 添加数据表变量，点击“完成”按钮：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-4.png)
+![]()
 
 4. 根据需要点击“是”或“否”，如果选择“是”继续选择应用页面上的元素，如果选择“否”，指定元素结束
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-5.png)
+![]()
 
 5. 拖入**预览数据表**组件，并输入上述操作中定义的数据表变量dt:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-6.png)
+![]()
 
 6. 点击运行流程，查看获取的数据，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-7.png)
+![]()

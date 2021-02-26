@@ -11,7 +11,7 @@
 
 ## 操作样例
 1. 拖入**序列**组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sequence-1.png)
+![]()
 
 2. 双击展开组件，拖入其他任何组件至序列容器内，如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sequence-2.png)
+![]()

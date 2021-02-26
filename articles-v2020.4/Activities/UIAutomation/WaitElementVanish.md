@@ -28,10 +28,10 @@
 
 ## 操作样例
 1. 拖入**等待元素消失**组件，设置对应的属性值：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementVanish1.png)
+![]()
 
 2. 指定元素，并验证元素存在性：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementVanish2.png)
+![]()
 
 3. 运行流程并查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementVanish3.png)
+![]()

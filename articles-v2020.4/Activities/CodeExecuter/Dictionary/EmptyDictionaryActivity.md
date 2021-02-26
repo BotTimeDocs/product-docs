@@ -31,6 +31,6 @@
 
 6. 完整的流程图如下。
 
-    ![完整流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/emptydictionary20210112.png)
+    ![完整流程]()
 
 7. 保存并运行流程。

@@ -23,12 +23,12 @@
 
 1. 拖入**获取文本长度**组件，创建相应变量并填入，如下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010501.png)
+![Image text]()
 
 2. 拖入其它组件，例：拖入**写入日志**组件，将获取到的文本长度以文本格式输出到日志中，如下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010502.png)
+![Image text]()
 
 3. 点击运行，流程运行成功，成功获取到文本的长度，如下图：
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010503.png)
+![Image text]()

@@ -6,5 +6,5 @@
 
 - 若机器人（企业版）**本地激活**后，可在此页查看许可证有效期。
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/about20201118.png)
+![robot1]()
 

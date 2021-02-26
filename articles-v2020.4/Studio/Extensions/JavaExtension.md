@@ -43,7 +43,7 @@
 
 1. 找到编辑器或机器人安装目录下的JavaSupport文件夹。
 
-   ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Java/1.png)
+   ![img]()
 
    >**说明：**
    >
@@ -88,17 +88,17 @@
 
     a）点击 Accept License Argument
 
-   ![接受许可协议](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-acceptLicenseArguments.png)
+   ![接受许可协议]()
 
     b) 按Encoo提示点击下载32位或64位的Java（x86为32位，x64为64位）
 
-   ![下载java](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-downloadJava.png)
+   ![下载java]()
 
 2. **对于Java Applet应用或无法attach的应用，需要手动安装Java扩展到runtime目录**
 
     a) 找到Studio或Robot安装目录下的JavaSupport文件夹
 
-    ![查找JavaSupport文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/java-javaSupport.png)
+    ![查找JavaSupport文件夹]()
 
     >**说明：**
     >

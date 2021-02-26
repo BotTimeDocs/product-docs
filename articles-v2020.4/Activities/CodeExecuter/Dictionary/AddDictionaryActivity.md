@@ -33,9 +33,9 @@
 
 6. 最终的流程如下图所示。
 
-    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/addkeyvalue20210111.png)
+    ![流程图]()
 
 7. 保存并运行流程。
 8. 在输出面板中查看运行结果。
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/addkeyvalueresult20210111.png)
+    ![运行结果]()

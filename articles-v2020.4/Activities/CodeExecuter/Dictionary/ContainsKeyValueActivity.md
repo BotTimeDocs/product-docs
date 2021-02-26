@@ -27,7 +27,7 @@
 2. 拖入一个 **是否包含键/值** 组件至流程中。
 3. 双击 **是否包含键/值** 组件的空白处，配置属性。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/containtskeyvalue20210111.png)
+    ![配置属性]()
 
 4. 在 **是否包含键/值** 组件的下方，拖入一个 **写入日志** 组件。
 5. 双击 **写入日志** 组件的空白处，配置属性。
@@ -38,4 +38,4 @@
 6. 保存并运行流程。
 7. 在输出面板中查看运行结果。
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/containtskeyvalueresult20210111.png)
+    ![运行结果]()
