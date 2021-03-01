@@ -20,6 +20,7 @@
 - 支持导入文件：将其他文件导入到当前所选文件夹下。
 - 新增[清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
 - 新增项目刷新操作，支持刷新当前项目下文件的状态。
+- 支持在开始主页中导出项目和删除项目，以便更好地管理与分享项目。
 
 **2.【开放市场】**
 
@@ -67,6 +68,9 @@
 - 支持单个组件包括在错误捕获中：将选择的单个组件用错误捕获组件包括在 Try 模块中，方便调试。
 - 支持[搜索](./Studio/quickStart/KeyboardShortcuts.md)当前流程文件中的组件，以快速定位到该组件。
 - 新增[快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
+- 支持从选定组件开始调试流程，方便实施人员快速排查定位异常问题，提升实施人员开发效率。
+- 支持快速搜索当前流程文件中的变量并定位，提升实施人员开发效率。
+- 支持在开始主页中导出项目和删除项目，以便更好地管理与分享项目。
 
 **6.【手机自动化】**
 
@@ -115,6 +119,8 @@
 - 优化属性面板界面样式，更改背景色，提升视觉效果。
 - 优化项目面板、组件面板样式，更换图标、间距，提升视觉效果。
 - 优化软件许可协议界面的勾选区域，点击勾选框旁边的文字也可勾选中，提升用户体验。
+- 优化版本控制中的版本比对功能的呈现样式为可折叠的树形结构，提升用户使用体验。
+- 优化F4快捷键录制技术后台切换逻辑，可以更智能地自动判断并选择最合适的录制技术，提升用户使用体验。
 
 **4.【开放市场】**
 
@@ -156,6 +162,7 @@
 - [获取鼠标位置](Activities/UIAutomation/GetMousePosition.md) 组件：获取鼠标最终光标位置。
 - 屏幕文本化：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 - [鼠标拖动](Activities/UIAutomation/DragDrop.md)：实现模拟鼠标按下拖动的操作，如，按下鼠标左键将文件拖动至另一文件夹内。
+- 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
 
 
 **2.【软件自动化】**
@@ -171,8 +178,11 @@
 - 邮件 > [获取邮件(IMAP)](Activities/AppAutomation/Mail/GetMailIMAP.md)，使用 IMAP 服务获取邮件，同时可使用代理。
 -  Office Excel > [自动填充](Activities/AppAutomation/OfficeExcel/AutoFillRange.md)，支持从源单元格区域自动填充数据到目标区域。
 - Office Excel ：[分列](Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)、[复制粘贴区域](Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)。
-- 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)，支持关闭所有类型的已打开的浏览器。
+- 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)：支持关闭所有类型的已打开的浏览器。
 - Office Excel > [取消单元格合并](./Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
+- 浏览器 > [打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md)：支持流程运行时的浏览器静默运行]，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
+- 软件自动化 > Office Excel > [替换](./Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
+- 软件自动化 > Office Excel > [筛选](./Activities/AppAutomation/OfficeExcel/Filter.md)，允许筛选条件中的值为变量类型，扩展了筛选功能的适用范围。
 
 **3.【代码工具】**
 
@@ -190,6 +200,8 @@
 - 字典：[初始化字典](./Activities/CodeExecuter/Dictionary/InitializeDictionaryActivity.md)、[添加键值对](./Activities/CodeExecuter/Dictionary/AddDictionaryActivity.md)、[获取键值对数量](./Activities/CodeExecuter/Dictionary/GetQuantityOfDictionaryActivity.md)、[是否包含键/值](./Activities/CodeExecuter/Dictionary/ContainsKeyValueActivity.md)、[移除键值对](./Activities/CodeExecuter/Dictionary/RemoveKeyValueActivity.md)、[清空字典](./Activities/CodeExecuter/Dictionary/EmptyDictionaryActivity.md)。
 - 类型转换 > [文本转数值](./Activities/CodeExecuter/TypeConversion/TextToNumbericActivity.md)，实现将文本转换为数值。
 - 文本 ：[分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)、[追加文本](./Activities/CodeExecuter/TextProcessing/AppendTextActivity.md)。
+- 代码工具 > PowerShell > [执行PowerShell代码](./Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
+- 代码工具 > [HTTP请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，在原有C#代码模式基础之上，新增支持纯文本输入模式。
 
 **4.【操作系统功能调用】**
 
@@ -205,6 +217,7 @@
 - [日期和时间选择框组件](Activities/System/TimePickerDialogActivity.md)：实现流程运行时弹窗让用户选择日期和时间并输出。
 - 屏幕：[锁屏](Activities/System/Screen/WindowsLockActivity.md)/[解锁](Activities/System/Screen/WindowsUnlockActivity.md)，实现电脑锁屏时，支持在 web 自动化操作及自动解锁屏幕。
 - [多项选择框](./Activities/System/MultiSelectListBoxActivity.md)：实现以弹框的形式，选择一个或多个选项。
+- 系统 > 文件 > [压缩文件/文件夹](./Activities/System/File/CompresseFile.md)、[解压缩文件](./Activities/System/File/DeCompresseFile.md)，提升实施人员开发效率。
 
 
 **5.【数据表】**
@@ -335,6 +348,7 @@
 - 优化 [流程市场界面](Robot/ProcessMarket.md)，鼠标悬浮于任意流程时，即可显示“运行”按钮，提升用户使用体验。
 - 优化定时任务，在定时任务开始前30秒弹窗提示，避免影响用户手头工作。
 - 优化执行流程时桌面右下角机器人图标，使得机器人图标闪动效果更明显。
+- 支持在[流程执行页面](./Robot/RunningProcess.md)打开日志文件，提升用户使用体验。
 
 **2.【基础配置】**
 
