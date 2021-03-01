@@ -77,3 +77,7 @@
 禁用断点后，该组件右上角的红色圆点变为空心圆。
 
 ![禁用断点](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/disabledBreakpoint.PNG)
+
+## 从选定组件开始调试
+
+在编辑器里，如果流程中有多个组件，需要指定从某一个组件开始调试，则可以在编辑区域中选中需要开始调试的组件，在右键快捷菜单中选择 **从此组件调试** 选项, 将从选定的该组件开始进行调试流程。
