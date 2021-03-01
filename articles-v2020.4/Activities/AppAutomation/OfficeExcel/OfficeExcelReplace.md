@@ -33,7 +33,8 @@
 ## 操作样例
 
 将一个名叫 test 的 Excel 中的“语”字替换为“文”字。
-![样例数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplacedata20210224.png)
+
+  ![样例数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplacedata20210224.png)
 
 1. 拖入一个 Office Excel 中的 **打开/新建** 组件至流程中。
 2. 双击 **打开/新建** 组件的空白处，选择本地电脑上已准备的需要替换内容的 Excel 文件。

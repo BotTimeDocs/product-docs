@@ -35,4 +35,5 @@
 
 3. 保存并运行流程。
 4. 在目标路径下，查看最终的运行结果。
+
    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/compressfileresult20210224.png)

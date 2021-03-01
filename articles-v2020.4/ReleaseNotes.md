@@ -12,6 +12,8 @@
 | 编辑器   | 1.1.2102.8 |
 |机器人 |1.1.2102.8|
 
+你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
+
 #### 【编辑器】
 
 1. 支持流程运行时的[浏览器静默运行](./Activities/AppAutomation/Browser/OpenBrowser.md)，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
