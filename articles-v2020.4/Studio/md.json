@@ -1,5 +1,11 @@
 [
     {
+        "name": "README.md",
+        "localizedName": "编辑器概述",
+        "uuid": "0b02872d-2507-43a1-a719-180a031fc334",
+        "labels": "编辑器，概述"
+    },
+    {
         "name": "Introduction",
         "localizedName": "产品介绍"
     },
