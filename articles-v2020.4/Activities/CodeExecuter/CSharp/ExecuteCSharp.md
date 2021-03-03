@@ -21,10 +21,13 @@
     - 文件路径：单击“…”按钮，选择 C# 文件的路径并打开，如，D:\workspace\Encoo\组件流程\.code\CSharp\执行CSharp代码.cs
 
     - 编辑代码：单击“编辑代码”按钮，在 C# 代码编辑器中输入需要执行的 C# 代码段，如下图所示。
+        >**说明：**
+        >
+        >这里支持变量的引用，事先在编辑器中定义了String类型的变量`m`和`n`。
   
-      ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutecsharp20201218.png)
+      ![执行C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executecsharpcode20210303.png)
 
 3. 保存并运行流程。
 4. 在输出窗口中查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/csharpresult20201018.png)
+   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executecsharpresult20210303.png)
