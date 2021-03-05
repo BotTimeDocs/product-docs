@@ -28,6 +28,13 @@
         "labels": "截取, 文本, 字符串"
     },
     {
+        "id": "Encoo.Text.Activity.Activities.AppendTextActivity",
+        "name": "AppendTextActivity.md",
+        "localizedName": "追加文本",
+        "uuid": "52d303d6-7a96-453c-b877-ec2c9870a9e2",
+        "labels": "追加, 文本, 字符串"
+    },
+    {
         "id": "Encoo.Text.Activity.Activities.GetLengthOfTextActivity",
         "name": "GetLengthOfTextActivity.md",
         "localizedName": "获取文本长度",
