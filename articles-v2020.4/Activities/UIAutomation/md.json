@@ -90,13 +90,13 @@
         "uuid": "172E0D63-B057-4EC2-9F75-8D7B96C953B9",
         "labels": "属性, 获取, 元素"
     },
-    {
+   /**{
         "id": "Encootech.AutomationActivity.WebAction.SetWebElementPropertyValue",
         "name": "SetWebElementAttributeValue.md",
         "localizedName": "设置Web元素属性值",
         "uuid": "eac355c5-2468-443e-9906-f93aeb44c910",
         "labels": "属性, 设置, Web, 元素"
-    },
+    },*/
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
         "name": "WaitElementVanish.md",

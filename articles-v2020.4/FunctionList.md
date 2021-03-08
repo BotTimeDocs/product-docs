@@ -162,8 +162,7 @@
 - [获取鼠标位置](Activities/UIAutomation/GetMousePosition.md) 组件：获取鼠标最终光标位置。
 - 屏幕文本化：[获取屏幕文本](Activities/UIAutomation/ScreenText/GetScreenText.md)、[获取屏幕含某文本的元素](Activities/UIAutomation/ScreenText/GetTextElement.md)、[判断屏幕文本是否存在](Activities/UIAutomation/ScreenText/IdentifyScreenTextExist.md)、[点击屏幕文本](Activities/UIAutomation/ScreenText/ClickScreenText.md)。
 - [鼠标拖动](Activities/UIAutomation/DragDrop.md)：实现模拟鼠标按下拖动的操作，如，按下鼠标左键将文件拖动至另一文件夹内。
-- 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
-
+<!--- 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。-->
 
 **2.【软件自动化】**
 
@@ -180,7 +179,7 @@
 - Office Excel ：[分列](Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)、[复制粘贴区域](Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)。
 - 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)：支持关闭所有类型的已打开的浏览器。
 - Office Excel > [取消单元格合并](./Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
-- 浏览器 > [打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md)：支持流程运行时的浏览器静默运行]，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
+<!--- 浏览器 > [打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md)：支持流程运行时的浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。-->
 - 软件自动化 > Office Excel > [替换](./Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
 - 软件自动化 > Office Excel > [筛选](./Activities/AppAutomation/OfficeExcel/Filter.md)，允许筛选条件中的值为变量类型，扩展了筛选功能的适用范围。
 
