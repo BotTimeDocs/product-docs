@@ -38,6 +38,7 @@
     ![时间选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/timepicker20210128.png)
 
 4. 为该组件设置如下属性。
-   - 格式：下拉选择时间格式，如，`HH:MM:SS`。
+
+    - 格式：下拉选择时间格式，如，`HH:MM:SS`。
 
 5. 单击 **预览** 并选择指定时间点，查看应用效果。

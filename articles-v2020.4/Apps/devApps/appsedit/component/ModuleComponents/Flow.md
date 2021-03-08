@@ -43,7 +43,9 @@
   - 是否可更改：不可更改的参数，系统将作为标签展示参数默认值，若没有设置默认值，则仅展示标签
   - 是否必填: 打开此选项意味着我们会在前端校验当前参数必填
 - **参数类型**：展示流程中当前参数的数据类型。
-  ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/setcomponent1.png)
+  
+    ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/setcomponent1.png)
+
 - **控件**
   - 类型：下拉选择参数类型，允许用户调整交互控件类型。
 

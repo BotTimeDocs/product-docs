@@ -30,9 +30,11 @@
 1. 登录到 [小程序](https://apps.encoo.com/)。
 2. 进入 **小程序开发** 的编辑模式。
 3. 从左侧组件面板中选择 **布局组件** 下的 **视图** 组件，拖拽至画布中。
+
     ![视图组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/view20210126.png)
 
 4. 设置以下属性来查看边框样式。
+
    - 边框色：#d0021c
    - 边框样式：双实线、线型大小选择 5
 
