@@ -6,8 +6,14 @@
         "labels": "RPA, 平台, 云扩"
     },
     {
+        "name": "ReleaseNotes.md",
+        "localizedName": "发版说明",
+        "uuid": "4d3fd93f-a9a1-41e5-abad-63aad543c919",
+        "labels": "发版"
+    },
+    {
         "name": "ReleaseNotes",
-        "localizedName": "发版说明"
+        "localizedName": "历史发版说明"
     },
     {
         "name": "FunctionList.md",
