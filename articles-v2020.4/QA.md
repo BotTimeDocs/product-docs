@@ -23,7 +23,7 @@ A: 社区版和企业版都包含编辑器，控制台和机器人。两者差�
     - 桌面控件专有相关组件。详情请参看 [获取区域结构](Activities/UIAutomation/DesktopOnly/GetJsonStructure.md)
     - 元素探测器。详情请参看 [元素探测器](Activities/Appendix/UiDetector.md)
 4. 【机器人】企业版机器人可以在控制台的调度下运行，社区版机器人不支持相关功能。
-5. 【云扩小程序】云扩小程序仅在企业版中支持。详情请参看 [关于云扩小程序](Apps/aboutApps.md)
+5. 【云扩小程序】云扩小程序仅在企业版中支持。详情请参看 [关于云扩小程序](Apps/README.md)
 
 ## 控制台企业版说明
 

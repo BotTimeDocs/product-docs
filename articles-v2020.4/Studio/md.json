@@ -1,5 +1,11 @@
 [
     {
+        "name": "README.md",
+        "localizedName": "关于云扩RPA编辑器",
+        "uuid": "bbb7017f-4558-4729-aee4-a7e8aa78764a",
+        "labels": "介绍"
+    },
+    {
         "name": "Introduction",
         "localizedName": "产品介绍"
     },
