@@ -23,7 +23,7 @@
     {
         "id": "BotTime.WPS.Activity.WPSExcelReadRowColumnActivity",
         "name": "ReadRowOrColumn.md",
-        "localizedName": "读取行/列数据",
+        "localizedName": "读取行或列数据",
         "uuid": "cb3b7311-7276-4182-836e-20f278d146de",
         "labels": "行, 列, 数据, Excel, WPS"
     },

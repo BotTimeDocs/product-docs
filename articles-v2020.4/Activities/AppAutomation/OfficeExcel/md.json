@@ -23,7 +23,7 @@
     {
         "id": "BotTime.Office.Activity.OfficeExcelReadRowColumnActivity",
         "name": "ReadRowOrColumn.md",
-        "localizedName": "读取行/列数据",
+        "localizedName": "读取行或列数据",
         "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470",
         "labels": "读取, 数据, Excel, 行, 列"
     },

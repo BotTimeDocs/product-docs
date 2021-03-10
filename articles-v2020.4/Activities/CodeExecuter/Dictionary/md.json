@@ -20,7 +20,7 @@
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.ContainsKeyValueActivity",
         "name": "ContainsKeyValueActivity.md",
-        "localizedName": "是否包含键/值",
+        "localizedName": "是否包含键或值",
         "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
     },
     {
