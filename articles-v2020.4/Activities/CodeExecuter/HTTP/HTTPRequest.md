@@ -25,15 +25,53 @@
 - **响应正文** ：输出此HTTP请求返回的数据；仅支持变量
 
 ## 操作样例
-1. 示例中使用阿里云**汇率转换**接口，接口说明：[阿里云汇率](https://market.aliyun.com/products/57000002/cmapi011221.html?spm=5176.12901015.0.i12901015.17e2525cz4KoQ4&innerSource=search_%E6%B1%87%E7%8E%87%E6%9F%A5%E8%AF%A2%E8%BD%AC%E6%8D%A2#sku=yuncode522100006)
-2. 接口文档，如下图所示：
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest1.png)
+1. 示例中使用阿里云**身份证识别**接口，接口说明：[身份证识别](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.12901015.0.i12901015.6416525cpTr5NW&innerSource=search#sku=yuncode440100000)
+2. 接口文档如：
+
+- **请求方式**：POST
+- **返回类型**：JSON
+- **请求参数（Hearders）**：
+```
+"Content-Type":"application/json; charset=UTF-8"
+"Authorization":"APPCODE 你的appcode"
+```
+- **请求参数（Body）**：
+```
+{
+	"image":  "图片二进制数据的base64编码/图片url",
+	"configure": {"side":"face"}  #身份证正反面类型:face/back
+}
+```
 3. 拖入**HTTP请求**组件，如下图所示：
-- 设置`方法`： GET
-- 设置`URL`：
-`https://jisuhuilv.market.alicloudapi.com/exchange/convert?amount=10&from=CNY&to=USD`
-- 设置`内容类型`：`none`
-- 设置`头部`：`Authorization(key)`,`APPCODE APPcode值(value)`：
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest2.png)
+- 设置`方法`： POST
+- 设置`URL`：`"http://dm-51.data.aliyun.com/rest/160601/ocr/ocr_idcard.json"`
+- 设置`内容类型`：`application/json`
+- 设置`Hearders`：
+```
+"Content-Type":"application/json; charset=UTF-8"
+"Authorization(key)","APPCODE APPcode值(value)"
+```
+- 设置Boby输入框：支持文本模式和C#代码模式，点击icon切换2种输入方式
+
+文本模式：支持文本在文本框中输入，例如
+```
+{"configure": {"side": "face"}, "image": "/9j/4AAQSkZJRgABAQAAAQABAAD(内容太多只放入部分)"}
+```
+或者
+```
+{'configure': {'side': 'face'}, 'image': '/9j/4AAQSkZJRgABAQAAAQABAAD(内容太多只放入部分)'}
+```
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid.jpg)
+
+代码模式C#：支持C#代码语法在文本框中输入，例如side是以变量传入进去
+```
+"{""configure"": {""side"": """ + side + """}, ""image"": ""/9j/4AAQSkZJRgABA(内容太多只放入部分)""}"
+```
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid_csharp.jpg)
+
+
 4. 点击`测试`，查看测试结果，如下图所示：
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPRequest3.png)
+   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httpresponse.jpg)
+
+**更多HTTP操作链接**：
+[HTTP抓包](https://mp.weixin.qq.com/s/Vo7QVfucAyHhEbHJZWeZXw)
