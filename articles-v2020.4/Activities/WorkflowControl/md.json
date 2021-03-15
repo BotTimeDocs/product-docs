@@ -19,13 +19,13 @@
         "name": "Loop",
         "localizedName": "循环操作"
     },
-    {
+ /*{
         "id": "System.Activities.Statements.Sequence",
         "name": "Sequence.md",
         "localizedName": "序列",
         "uuid": "bb60c573-1c45-4304-adfe-fa700fc92210",
         "labels": "序列"
-    },
+    },*/
     {
         "id": "BotTime.Flow.Activities.Parallel",
         "name": "Parallel.md",
