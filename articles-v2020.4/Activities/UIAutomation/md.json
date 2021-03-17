@@ -162,6 +162,11 @@
     },
     {
         "id": null,
+        "name": "Window",
+        "localizedName": "窗口"
+    },
+    {
+        "id": null,
         "name": "OCR",
         "localizedName": "OCR（企业版）"
     },
