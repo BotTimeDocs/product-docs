@@ -41,7 +41,7 @@
 
 指定完成后，你可以获得对应元素的 XPath 表达式。编辑器提供了多种表达式的写法，包含在 XPath 列表中：
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Xpath%E5%88%97%E8%A1%A8.png)
+![img](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xpathlist20210316.png)
 
 >**说明：**
 >

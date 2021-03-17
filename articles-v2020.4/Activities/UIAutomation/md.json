@@ -91,6 +91,13 @@
         "labels": "属性, 获取, 元素"
     },
     {
+        "id": "Encootech.AutomationActivity.WebAction.SetWebElementPropertyValue",
+        "name": "SetWebElementAttributeValue.md",
+        "localizedName": "设置Web元素属性值",
+        "uuid": "67a6c50f-b047-4ae8-b2ef-3e262afc07e2",
+        "labels": "属性值, 设置, 元素"
+    },
+    {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
         "name": "WaitElementVanish.md",
         "localizedName": "等待元素消失",

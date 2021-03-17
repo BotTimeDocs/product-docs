@@ -13,24 +13,33 @@
 - **超时(毫秒)** ：指定此组件的执行时间。单位为毫秒（ms）,1000ms = 1s。默认值为30000，即30秒，包含匹配超时（毫秒）。仅支持整型变量和整型
 
 ### 目标
+
 - **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：用于指示特定的UI元素，并在此元素上执行JavaScript。可通过点击指定元素自动生成。仅支持字符串变量和字符串
 - **匹配超时(毫秒)** ：限定查找目标元素时间，超出指定时间后将不再等待。若超过此时间还未匹配到指定元素则会抛出错误。单位为毫秒（ms）,1000ms = 1s。仅支持整型变量和整型
 
 ### 输入
 
-- **文件路径** ：将执行此路径下的JavaScript文件。支持相对和绝对路径。可在组件面板点击弹出对话框，选择目标文件；亦支持手动输入路径，若路径不存在，则运行失败。仅支持字符串变量和字符串
-- **方法名称** ：要执行的JavaScript文件中的方法名。仅支持字符串变量和字符串
+- **文件路径** ：将执行此路径下的JavaScript文件。支持相对和绝对路径。可在组件面板点击弹出对话框，选择目标文件；亦支持手动输入路径，若路径不存在，则运行失败。仅支持字符串变量和字符串.
+- **方法名称** ：要执行的JavaScript文件中的方法名。支持传递参数。仅支持字符串变量和字符串。
+
+  >**说明：**
+  >
+  >传入参数如果是String类型常量进行传值，需要自行在变量外拼接`'`或`"`,否则JS运行时会默认为变量进行处理。
 
 ### 输出
 
 - **返回值** ：将执行JavaScript文件后返回的值存储在此变量
 
 ## 操作样例
+
 1. 拖入**执行JavaScript文件**组件并指定元素：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file.png)
+
+    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file.png)
 
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-verify.png)
+
+    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-verify.png)
 
 3. 运行流程并查看结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-end.png)
+
+    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-end.png)

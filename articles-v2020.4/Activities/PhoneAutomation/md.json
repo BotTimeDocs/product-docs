@@ -35,6 +35,13 @@
         "labels": "屏幕, 移动端, 长按"
     },
     {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileCropActivity",
+        "name": "MobileCrop.md",
+        "localizedName": "截屏",
+        "uuid": "6edd8f91-e7e1-4b46-bead-71a857e93930",
+        "labels": "截屏, 截图, 移动端"
+    },
+    {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileSwipeActivity",
         "name": "MobileSwipe.md",
         "localizedName": "滑动屏幕",
