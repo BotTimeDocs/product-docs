@@ -34,4 +34,6 @@
    - 日志内容：填写期望输出的日志内容，如，`O`。
 
 8. 保存并运行流程。
-9. 在输出窗口中查看流程运行结果，设置到剪贴板中的内容被输出。
+9. 在输出窗口中查看流程运行结果。
+
+    ![运行效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getclipboardtextresult20210319.png)
