@@ -1,0 +1,36 @@
+# 查询
+
+查询数据表中指定自定义条件的数据。相当于`selece * from table where xxx'`。
+
+## 属性
+
+### 基本
+
+- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
+- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误。
+- **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件。
+- **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件。
+
+### 输入
+
+- **表名**：欲筛选的目标表名，可接变量。
+
+### 输出
+
+- **结果**：已筛选的数据表结果存在此变量，仅可接DataTable变量。
+
+## 操作样例
+
+1. 使用**创建表**组件已创建数据表，参见[数据表](../Resource/createtable.md)。
+2. 拖入一个**查询**组件至流程中。
+
+   ![查询](https://docimages.blob.core.chinacloudapi.cn/images/Activities/querydatatable20210323.png)
+
+3. 配置**查询**组件的属性。
+
+    ![配置组件属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingquerydatatable20210323.png)
+
+4. 保存并运行流程。
+5. 查看运行结果。
+
+   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/querydatatableresult20210323.png)
