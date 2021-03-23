@@ -20,8 +20,22 @@
 
 在自动化项目实施过程中，经常会遇到已定位到某个组件有报错异常，但无法更准确地定位到该组件的具体某一步骤错误，此时可在流程中选择该组件，在右键菜单中选择“组件调试”，进行调试选中的单个组件。
 
+>**说明：**
+>
+>当使用上下文菜单中的“组件调试”功能时，支持设置变量或参数的值。
+
 ![调试单个组件入口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugactivity20210317.png)
 
 当当前所选组件包含变量或参数时，将弹框显示该组件的作用域的变量和参数，（可选）设置弹框中的变量或参数后，单击“确定”按钮后，将开始调试该组件。
 
 ![调试单个组件设置框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Debugging/debugactivityarguments20210317.png)
+
+## 从选定组件开始调试
+
+在编辑器里，如果流程中有多个组件，需要指定从某一个组件开始调试，则可以在编辑区域中选中需要开始调试的组件，在右键快捷菜单中选择 **从此组件调试** 选项, 将从选定的该组件开始进行调试流程。
+
+>**说明：**
+>
+>当使用上下文菜单中的“从此组件调试”功能时，支持设置变量或参数的值。
+
+![从选定组件调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/debugformactivity20210323.png)
