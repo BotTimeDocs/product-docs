@@ -1,6 +1,6 @@
-# 执行语句
+# 文本赋值
 
-在编辑器内部资源文件中创建的数据表中执行SQL语句。
+该组件可对多个项目资源文本赋值。
 
 ## 属性
 
@@ -11,29 +11,20 @@
 - **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件。
 - **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件。
 
-### 可选项
-
-- **超时**：执行SQL语句超出的时长，默认为 00:00:30 , 格式为 时：分：秒。
-
-### 输出
-
-- **作用行数**：SQL语句执行后作用的行数。
-
-### 输入
-
-- **Sql语句**：欲执行的SQL语句，可接变量。
-
 ## 操作样例
 
-1. 使用**创建表**组件已创建数据表，参见[数据表](../Resource/createtable.md)。
-2. 拖入一个**执行语句**组件至流程中。
-3. 配置**执行语句**组件的属性。
+1. 拖入一个**文本赋值**组件至流程中。
 
-   - Sql语句：填写欲执行的SQL语句，如，`"drop table students"`
+   ![文本赋值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/textassign20210324.png)
 
-    ![执行语句](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executesql20210323.png)
+2. 配置**文本赋值**组件。
 
-4. 保存并运行流程。
-5. 查看运行结果。
+   - 文本名称：指定在项目的资源文本文件中定义的文本名称。
+   - 值：文本的值，可接变量。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executesqlresult20210323.png)
+   ![配置组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextassign20210324.png)
+
+3. 保存并运行流程。
+4. 查看流程运行结果。
+
+   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/textassignresult20210324.png)

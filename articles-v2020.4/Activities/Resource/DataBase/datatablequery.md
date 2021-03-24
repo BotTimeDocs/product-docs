@@ -1,6 +1,6 @@
 # 查询
 
-查询数据表中指定自定义条件的数据。相当于`selece * from table where xxx'`。
+查询编辑器内部资源文件中的数据表中指定自定义条件的数据。相当于`selece * from table where xxx'`。
 
 ## 属性
 

@@ -14,6 +14,13 @@
         "labels": "获取, Outlook, 邮件"
     },
     {
+        "id": "BotTime.Mail.Activity.Activities.MoveOutlookMailActivity",
+        "name": "moveoutlookmail.md",
+        "localizedName": "移动邮件(Outlook)",
+        "uuid": "9818b620-2095-47fe-be58-03c9388b11f0",
+        "labels": "移动, Outlook, 邮件"
+    },
+    {
         "id": "BotTime.Mail.Activity.Activities.SendExchangeMailActivity",
         "name": "SendExchangeMail.md",
         "localizedName": "发送邮件(Exchange)",

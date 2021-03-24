@@ -1,0 +1,16 @@
+[
+    {
+        "id": "Encoo.Resource.Activity.Activities.AssignGlobalTextActivity",
+        "name": "assignglobaltext.md",
+        "localizedName": "文本赋值",
+        "uuid": "0dcf79d9-0ea8-4416-a294-c2aecd4d32eb",
+        "labels": "文本, 赋值，资源"
+    },
+    {
+        "id": "Encoo.Resource.Activity.Activities.ReadGlobalTextActivity",
+        "name": "readglobaltext.md",
+        "localizedName": "读取文本",
+        "uuid": "c839e2f1-dc83-44e6-95ab-c9eb6b7d7c3c",
+        "labels": "读取, 文本，资源"
+    }
+]
