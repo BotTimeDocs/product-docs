@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "leftmenu.md",
+        "localizedName": "左侧导航",
+        "uuid": "289d6a6d-0d7e-4f34-b8a8-e7a4fd8d1744",
+        "labels": "左侧, 导航"
+    },
+    {
+        "id": null,
+        "name": "topmenu.md",
+        "localizedName": "顶部导航",
+        "uuid": "6af985bf-3122-49df-bcc3-220a66734e51",
+        "labels": "导航, 顶部"
+    }
+]
