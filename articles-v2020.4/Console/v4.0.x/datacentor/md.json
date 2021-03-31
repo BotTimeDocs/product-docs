@@ -8,5 +8,10 @@
         "id": null,
         "name": "fileservice",
         "localizedName": "文件服务"
+    },
+    {
+        "id": null,
+        "name": "Connector.md",
+        "localizedName": "连接管理"
     }
 ]

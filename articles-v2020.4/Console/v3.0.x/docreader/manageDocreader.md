@@ -67,7 +67,7 @@
 
 ## 发布文档理解模板
 
-若当前模板测试通过之后，可以在模板配置页或操作选项中点击”操作”按钮即可对当前模板进行发布操作。发布完成之后即可通过[组件调用](activities/../../../Activities/Console/DocReader.md)当前模板服务，从而实现RPA流程大量抽取非结构化文本信息。
+若当前模板测试通过之后，可以在模板配置页或操作选项中点击”操作”按钮即可对当前模板进行发布操作。发布完成之后即可通过[组件调用](../../../Activities/Console/DocReader.md)当前模板服务，从而实现RPA流程大量抽取非结构化文本信息。
 
 ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader6.png)
 

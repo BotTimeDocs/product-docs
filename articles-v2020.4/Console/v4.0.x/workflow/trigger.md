@@ -1,10 +1,13 @@
 # 任务计划管理
+
 任务计划主要用于用户可自由配置各时间维度任务执行计划，调度机器人执行各类流程，从而实现对流程执行统一规划及调度。
 
 ## 任务计划列表查看
+
 点击某一流程部署的“任务计划”按钮，即可切换查看该流程部署名下所有的任务计划。
 
 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow10.png)
+
 ## 新建任务计划
 
 **第一步，填写任务计划详情配置**
@@ -36,21 +39,25 @@
 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow13.png)
 完成定时计划填写后，点击“保存”即可，定时计划将在设置的开始/停用时间自动启用或停用。
 
-**备注：**
-- 流程部署的执行目标为指定机器人时：每次任务计划触发时每个机器人均会执行一次该流程。即关联了N个机器人，每次任务计划触发时将会生成N个流程任务。
-- 流程部署的执行目标为指定队列时：每次任务计划触发时该流程仅会执行一次，即生成一个流程任务在队列中动态分配。
+>**说明：**
+>
+>- 流程部署的执行目标为指定机器人时：每次任务计划触发时每个机器人均会执行一次该流程。即关联了N个机器人，每次任务计划触发时将会生成N个流程任务。
+>- 流程部署的执行目标为指定队列时：每次任务计划触发时该流程仅会执行一次，即生成一个流程任务在队列中动态分配。
 
 ## 查看及编辑任务计划详情
+
 点击某一任务计划的“查看”按钮即可查看对应的任务计划详情。点击“编辑”按钮后即可开始对任务计划进行编辑，完成后点击“保存”按钮即可。
 
 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow14.png)
 
 ## 查看任务计划日志
+
 点击某一任务计划的操作选项中的“查看日志”按钮即可查看该任务计划的启用、停用、创建任务情况，便于对任务计划进行跟踪。
 
 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow15.png)
 
 ## 启用/停用任务计划
+
 你可以在任务计划列表中点击“操作”选项中的启用/停用按钮，对当前任务计划进行启用/停用操作。
 
 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow16.png)
