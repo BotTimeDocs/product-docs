@@ -6,7 +6,7 @@ This Acceptable Use Policy (“Policy”) outlines unacceptable use of ENCOO Sof
 
 ENCOO may make reasonable modifications to this Policy from time to time by posting a new version of this document on the ENCOO website at the current URL. Revisions are effective immediately upon posting. Accordingly, we recommend that you visit the ENCOO website regularly to ensure that your activities conform to the most recent version.
 
-Questions about this Policy (e.g., whether any contemplated use is permitted) and reports of violations of this Policy should be directed to support@encoo.com
+Questions about this Policy (e.g., whether any contemplated use is permitted) and reports of violations of this Policy should be directed to support@encootech.com
 
 The examples listed in this Policy are not exhaustive. Prohibited uses and activities include, without limitation, any use of the Services in a manner that, in ENCOO’s reasonable judgment, involves, facilitates, or attempts any of the following:
 - violating any law of, or committing conduct that is tortuous or unlawful in, any applicable jurisdiction.
