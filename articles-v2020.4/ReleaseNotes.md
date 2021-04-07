@@ -11,6 +11,7 @@
 | -----:  | -----:     |
 | 编辑器   | 1.1.2103.13|
 | 机器人   | 1.1.2103.13|
+| AI Hub   |-|
 
 #### 【编辑器】
 
@@ -32,6 +33,13 @@
 6. 资源 > 数据表 > [创建表](./Activities/Resource/DataBase/createtable.md)、[删除表](./Activities/Resource/DataBase/deletetable.md)、[执行语句](./Activities/Resource/DataBase/executesql.md)、[更新表](./Activities/Resource/DataBase/datatableupdated.md)、[查询](./Activities/Resource/DataBase/datatablequery.md)、[清空全部数据表](./Activities/Resource/DataBase/emptydatabase.md)，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
 7. 资源 > 文本 > [文本赋值](./Activities/Resource/Text/assignglobaltext.md)、[读取文本](./Activities/Resource/Text/readglobaltext.md)，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
 8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
+
+#### 【AI Hub】
+
+1. 支持机器人调用 [AI Hub 组件](https://aihub.encoo.com/aiService)，提高实施人员开发效率。
+2. 新增云扩自研 AI 通用识别组件，增强识别通用文字能力。
+3. 使用计数基于租户，所有次数对应于每个平台每个服务每个租户上，使得用户可管可控。
+4. 账户的服务配置基于租户，同意租户下用户共享配置(key/secret/使用次数限制等），方便用户基于租户进行服务配置。
 
 ### 改进与增强
 

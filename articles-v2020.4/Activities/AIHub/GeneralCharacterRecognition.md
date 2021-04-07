@@ -5,7 +5,6 @@
 >
 > 若用户未配置相应服务账号，用户只可使用当日免费服务次数。若想继续使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置使用配额。
 
-
 ## 属性
 
 ### 基本
@@ -18,9 +17,9 @@
 ### 输入
 
 - **参数**：点击组件【设置参数】按钮，可配置如下参数：
-  - 服务：可识别的通用文字的种类，目前支持手写数字、手写文本、通用文字(即，普通电子文本。如，网页文本)。
-  - 平台：第三方 AI 平台，目前支持百度 AI 、讯飞 AI 、华为云。
-  - 图片文件：指定欲识别的图片路径，可接变量，建议使用常用的 jpg、jpeg 和 png 图片格式。
+    - 服务：可识别的通用文字的种类，目前支持手写数字、手写文本、通用文字(即，普通电子文本。如，网页文本)。
+    - 平台：自研及第三方 AI 平台，目前支持云扩 AI、百度 AI 、讯飞 AI 、华为云。
+    - 图片文件：指定欲识别的图片路径，可接变量，建议使用常用的 jpg、jpeg 和 png 图片格式。
 
 ### 输出
 
@@ -37,10 +36,8 @@
 3. 点击运行，查看运行结果：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GeneralCharacterRecognition_3.png)
 
-
    > **说明：**
    >
    > 需使用控制台账号登录编辑器（暂不支持私有化企业版），若超过试用次数，请前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置，如下图所示：
 
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GeneralCharacterRecognition_4.png)
-
