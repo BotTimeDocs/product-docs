@@ -1,0 +1,17 @@
+[
+    {
+        "id": null,
+        "name": "asset",
+        "localizedName": "资产管理"
+    },
+    {
+        "id": null,
+        "name": "fileservice",
+        "localizedName": "文件服务"
+    },
+    {
+        "id": null,
+        "name": "Connector.md",
+        "localizedName": "连接管理"
+    }
+]

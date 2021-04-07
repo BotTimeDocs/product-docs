@@ -1,0 +1,37 @@
+[
+    {
+        "id": null,
+        "name": "dashboard.md",
+        "localizedName": "总体监控",
+        "uuid": "",
+        "labels": "监控"
+    },
+    {
+        "id": null,
+        "name": "RobotDashboard.md",
+        "localizedName": "机器人监控",
+        "uuid": "",
+        "labels": "监控, 机器人"
+    },
+    {
+        "id": null,
+        "name": "QueueDashboard.md",
+        "localizedName": "队列监控",
+        "uuid": "",
+        "labels": "监控, 队列"
+    },
+    {
+        "id": null,
+        "name": "dashboard2.md",
+        "localizedName": "机器人运行统计表",
+        "uuid": "",
+        "labels": "统计表, 运行, 机器人"
+    },
+    {
+        "id": null,
+        "name": "dashboard3.md",
+        "localizedName": "用户流程统计表",
+        "uuid": "",
+        "labels": "统计表, 流程"
+    }
+]
