@@ -56,7 +56,7 @@
 |         | 版本号      |
 | -----:  | -----:     |
 | 控制台   | 3.0.42086|
-| 小程序 |1.1.1317|
+| 小程序 |-|
 
 你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
 
@@ -67,15 +67,14 @@
 1. 新增 [数据源管理](./Apps/v4.0.x/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
 2. 新增 [代码管理](./Apps/v4.0.x/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
 3. 新增 [连接器映射关系管理](./Apps/v4.0.x/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
-4. 与企业微信集成，支持在企业微信中查看并使用小程序，方便用户一键登录并管理“我的小程序”。
-5. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
-6. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
-7. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
-8. 布局组件 > [列表](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
-9. 模块组件 > [表格](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
-10. 模块组件 > [分页](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
-11. 展示组件 > [IFrame](./Apps/v4.0.x/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
-12. 输入组件 > [密码输入框](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
+4. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
+5. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
+6. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
+7. 布局组件 > [列表](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
+8. 模块组件 > [表格](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
+9.  模块组件 > [分页](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
+10. 展示组件 > [IFrame](./Apps/v4.0.x/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
+11. 输入组件 > [密码输入框](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
 
 #### 【控制台】
 
