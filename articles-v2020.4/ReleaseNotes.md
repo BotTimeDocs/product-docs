@@ -14,41 +14,41 @@
 
 #### 【编辑器】
 
-1. 支持在整个流程中，仅[调试单个组件](./Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
-2. 支持拖拽流程文件至编辑区域中，自动生成[调用子流程](./Activities/WorkflowControl/InvokeWorkflow.md)组件，提升实施人员开发效率。
-3. 企业版支持[远程RDP](./Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
-4. 新增[数据抓取](./Studio/process/ProjectTemplates.md)流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
-5. 支持在设置页面中，查看[快捷键](./Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
-6. 支持在[快速访问](./Studio/Introduction/TheUserInterface.md)页中，快速访问云扩官网等实用链接，提升用户体验。
-7. 支持在[帮助 > 关于](./Studio/Introduction/TheUserInterface.md)页面中，查看当前版本的“更新说明”，提升用户体验。
+1. 支持在整个流程中，仅 [调试单个组件](./Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
+2. 支持拖拽流程文件至编辑区域中，自动生成 [调用子流程](./Activities/WorkflowControl/InvokeWorkflow.md) 组件，提升实施人员开发效率。
+3. 企业版支持 [远程 RDP](./Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
+4. 新增 [数据抓取](./Studio/process/ProjectTemplates.md) 流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
+5. 支持在设置页面中，查看 [快捷键](./Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
+6. 支持在 [快速访问](./Studio/Introduction/TheUserInterface.md) 页中，快速访问云扩官网等实用链接，提升用户体验。
+7. 支持在 [帮助 > 关于](./Studio/Introduction/TheUserInterface.md) 页面中，查看当前版本的“更新说明”，提升用户体验。
 
 #### 【组件库】
 
 1. 手机自动化 > [截屏](./Activities/PhoneAutomation/MobileCrop.md)，方便获取当前手机屏幕的截图。
 2. 手机自动化 > [获取结构化数据](./Activities/PhoneAutomation/MobileStructureData.md)，方便获取移动端的结构化数据。
 3. 手机自动化 > [设置剪贴板文本](./Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
-4. 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
+4. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
 5. 界面自动化 > [设置窗口](./Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
 6. 资源 > 数据表 > [创建表](./Activities/Resource/DataBase/createtable.md)、[删除表](./Activities/Resource/DataBase/deletetable.md)、[执行语句](./Activities/Resource/DataBase/executesql.md)、[更新表](./Activities/Resource/DataBase/datatableupdated.md)、[查询](./Activities/Resource/DataBase/datatablequery.md)、[清空全部数据表](./Activities/Resource/DataBase/emptydatabase.md)，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
 7. 资源 > 文本 > [文本赋值](./Activities/Resource/Text/assignglobaltext.md)、[读取文本](./Activities/Resource/Text/readglobaltext.md)，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
-8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md),实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
+8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
 
 ### 改进与增强
 
 #### 【编辑器】
 
-1. 优化[打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md)组件，支持浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
+1. 优化 [打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md) 组件，支持浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
 2. 优化浏览器录制技术类型，支持根据浏览器类型适配对应的录制技术，提升用户体验。
 3. 优化手机自动化组件中的选择器编辑器，支持在属性值中填写变量，提升实施人员开发效率。
-4. 优化XPath列表，支持相近节点提示且取消XPath控件类型限制，提升用户体验。
-5. 优化[搜索变量](./Studio/process/developProject/Variables/Variables.md)功能，支持在菜单栏中搜索所有流程文件中的变量并定位，方便用户快速查找并定位变量位置。
-6. 优化[本地版本控制](./Studio/VersionControl.md)，支持流程文件的树结构与文本两种比较方式切换，提升用户体验。
-7. 优化[调试部分组件](./Studio/process/Debugging/partialDebug.md)时的窗口样式并支持设置流程变量或参数，提升用户体验。
+4. 优化 XPath 列表，支持相近节点提示且取消 XPath 控件类型限制，提升用户体验。
+5. 优化 [搜索变量](./Studio/process/developProject/Variables/Variables.md) 功能，支持在菜单栏中搜索所有流程文件中的变量并定位，方便用户快速查找并定位变量位置。
+6. 优化 [本地版本控制](./Studio/VersionControl.md)，支持流程文件的树结构与文本两种比较方式切换，提升用户体验。
+7. 优化 [调试部分组件](./Studio/process/Debugging/partialDebug.md) 时的窗口样式并支持设置流程变量或参数，提升用户体验。
 
 #### 【组件库】
 
 1. 界面自动化 > [获取结构化数据](./Activities/UIAutomation/ExtractStructuredData.md)，优化界面样式和支持获取自定义属性信息，提升用户使用体验。
-2. 代码组件 > [JavaScript](./Activities/CodeExecuter/JavaScript/ExecuteJavaScriptCode.md)，支持指定变量进行传参，替代原本使用所有变量进行执行JS代码，提升实施人员开发效率。
+2. 代码组件 > [JavaScript](./Activities/CodeExecuter/JavaScript/ExecuteJavaScriptCode.md)，支持指定变量进行传参，替代原本使用所有变量进行执行 JS 代码，提升实施人员开发效率。
 
 ## 2021.04.01 发版说明
 
@@ -64,9 +64,9 @@
 
 #### 【小程序】
 
-1. 新增[数据源管理](./Apps/v4.0.x/devApps/appsedit/datasource.md)，支持管理小程序应用内的SQL和Restful API数据源，提升开发人员工作效率。
-2. 新增[代码管理](./Apps/v4.0.x/devApps/appsedit/executecode.md)，支持执行JavaScript代码，提升开发人员工作效率。
-3. 新增[连接器映射关系管理](./Apps/v4.0.x/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
+1. 新增 [数据源管理](./Apps/v4.0.x/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
+2. 新增 [代码管理](./Apps/v4.0.x/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
+3. 新增 [连接器映射关系管理](./Apps/v4.0.x/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
 4. 与企业微信集成，支持在企业微信中查看并使用小程序，方便用户一键登录并管理“我的小程序”。
 5. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
 6. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
@@ -79,10 +79,10 @@
 
 #### 【控制台】
 
-1. 上线全新的[组织架构及权限系统](../../product-docs/articles-v2020.4/Console/v4.0.x/management/organizationalstructure.md)功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
+1. 上线全新的 [组织架构及权限系统](../../product-docs/articles-v2020.4/Console/v4.0.x/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
 2. 公司架构管理支持多级部署，方便管理员更好地维护企业上级公司与子公司之间的关系。
-3. 支持[多重身份验证](../../product-docs/articles-v2020.4/Console/v4.0.x/management/syssetting.md)配置，保证系统安全性。
-4. 支持创建并管理各类[数据连接器](../../product-docs/articles-v2020.4/Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+3. 支持 [多重身份验证](../../product-docs/articles-v2020.4/Console/v4.0.x/management/syssetting.md) 配置，保证系统安全性。
+4. 支持创建并管理各类 [数据连接器](../../product-docs/articles-v2020.4/Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
 
 ### 改进与增强
 
@@ -120,25 +120,25 @@
 #### 【组件库】
 
 1. 系统 > 文件 > [压缩文件/文件夹](./Activities/System/File/CompresseFile.md)、[解压缩文件](./Activities/System/File/DeCompresseFile.md)，提升实施人员开发效率。
-2. 代码工具 > PowerShell > [执行PowerShell代码](./Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
+2. 代码工具 > PowerShell > [执行 PowerShell 代码](./Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
 3. 软件自动化 > Office Excel > [替换](./Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
-<!--3. 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。-->
+<!--3. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。-->
 
 #### 【机器人】
 
-1. 支持在[流程执行页面](./Robot/RunningProcess.md)打开日志文件，提升用户使用体验。
+1. 支持在 [流程执行页面](./Robot/RunningProcess.md) 打开日志文件，提升用户使用体验。
 
 ### 改进与增强
 
 #### 【编辑器】
 
 1. 优化版本控制中的版本比对功能的呈现样式为可折叠的树形结构，提升用户使用体验。
-2. 优化F4快捷键录制技术后台切换逻辑，可以更智能地自动判断并选择最合适的录制技术，提升用户使用体验。
+2. 优化 F4 快捷键录制技术后台切换逻辑，可以更智能地自动判断并选择最合适的录制技术，提升用户使用体验。
 
 #### 【组件库】
 
 1. 软件自动化 > Office Excel > [筛选](./Activities/AppAutomation/OfficeExcel/Filter.md)，允许筛选条件中的值为变量类型，扩展了筛选功能的适用范围。
-2. 代码工具 > [HTTP请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，在原有C#代码模式基础之上，新增支持纯文本输入模式。
+2. 代码工具 > [HTTP 请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，在原有 C#代码模式基础之上，新增支持纯文本输入模式。
 
 ## 2021.02.23 发版说明
 
@@ -154,7 +154,7 @@
 
 #### 【控制台】
 
-新上线 Console 管理后台，用于对控制台租户、账户等进行管理，提升RPA系统管理员的日常管理工作的效率。主要包括：
+新上线 Console 管理后台，用于对控制台租户、账户等进行管理，提升 RPA 系统管理员的日常管理工作的效率。主要包括：
 
 1. 新增通过后台查看并管理租户信息。
 2. 新增通过后台删除租户。
@@ -163,7 +163,7 @@
 
 #### 【小程序】
 
-1. 新增输入（9个）、展示（2个）、布局（1个）系列组件，开发人员可以更灵活地对小程序页面界面元素进行排版。
+1. 新增输入（9 个）、展示（2 个）、布局（1 个）系列组件，开发人员可以更灵活地对小程序页面界面元素进行排版。
 2. 新增组件的通用配置、通用样式、事件与行为，开发人员可以更有效地对组件属性及行为进行配置。
 3. 新增 [变量管理](./Apps/v3.0.x/devApps/appsedit/BasicOperation.md) 功能，使得每个小程序独享一套全局变量，开发人员可以集中管理应用的变量，避免混淆。
 4. 支持在小程序开发页面，复制小程序功能，开发人员可以快速克隆并创建新的小程序。
