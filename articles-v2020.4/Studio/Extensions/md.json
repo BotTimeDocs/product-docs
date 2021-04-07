@@ -47,5 +47,11 @@
         "localizedName": "IBM DB2扩展",
         "uuid": "0f351027-4d55-4019-a110-a1b2de0cef01",
         "labels": "IBM, DB2, 扩展"
+    },
+    {
+        "name": "windowsrdpextension.md",
+        "localizedName": "Windows远程桌面扩展（企业版）",
+        "uuid": "f156bc0e-fe3e-4af6-a1b7-0d88f0d609af",
+        "labels": "Windows, RDP, 远程桌面，扩展"
     }
 ]

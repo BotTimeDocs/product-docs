@@ -91,6 +91,13 @@
         "labels": "属性, 获取, 元素"
     },
     {
+        "id": "Encootech.AutomationActivity.WebAction.SetWebElementPropertyValue",
+        "name": "SetWebElementAttributeValue.md",
+        "localizedName": "设置Web元素属性值",
+        "uuid": "67a6c50f-b047-4ae8-b2ef-3e262afc07e2",
+        "labels": "属性值, 设置, 元素"
+    },
+    {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
         "name": "WaitElementVanish.md",
         "localizedName": "等待元素消失",
@@ -152,6 +159,11 @@
         "localizedName": "匹配图片",
         "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613",
         "labels": "图片, 匹配"
+    },
+    {
+        "id": null,
+        "name": "Window",
+        "localizedName": "窗口"
     },
     {
         "id": null,

@@ -39,7 +39,9 @@
 1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内拖入一个**点击**组件。
 3. 单击**点击**组件中的“指定元素”链接，进入**移动设备管理器**界面指定元素，如下图所示。
-   ![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tap20201222.png)
+
+    ![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tap20201222.png)
 
 4. 保存并运行流程，可看到点击“学习强国”应用并打开的效果，如下图所示。
-   ![打开应用](https://docimages.blob.core.chinacloudapi.cn/images/Activities/click20201222.png)
+
+    ![打开应用](https://docimages.blob.core.chinacloudapi.cn/images/Activities/click20201222.png)

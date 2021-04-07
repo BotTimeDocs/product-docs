@@ -35,3 +35,9 @@
 **企业流程模板** 针对企业常见主业务流程进行标准化处理。
 
 ![企业流程模板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/projectTemplates/enterpriseflow20201118.jpg)
+
+## 数据抓取模板
+
+**数据抓取模板**一般用于获取浏览器结构化数据。
+
+![数据抓取模板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/getdata20210325.jpg)

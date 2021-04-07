@@ -4,13 +4,59 @@
 >
 > 关于社区版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](./QA.md)。
 
+## 2021.04.02 发版说明
+
+2021.04.02 发布了云扩 RPA , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2103.13|
+| 机器人   | 1.1.2103.13|
+
+#### 【编辑器】
+
+1. 支持在整个流程中，仅[调试单个组件](./Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
+2. 支持拖拽流程文件至编辑区域中，自动生成[调用子流程](./Activities/WorkflowControl/InvokeWorkflow.md)组件，提升实施人员开发效率。
+3. 企业版支持[远程RDP](./Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
+4. 新增[数据抓取](./Studio/process/ProjectTemplates.md)流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
+5. 支持在设置页面中，查看[快捷键](./Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
+6. 支持在[快速访问](./Studio/Introduction/TheUserInterface.md)页中，快速访问云扩官网等实用链接，提升用户体验。
+7. 支持在[帮助 > 关于](./Studio/Introduction/TheUserInterface.md)页面中，查看当前版本的“更新说明”，提升用户体验。
+
+#### 【组件库】
+
+1. 手机自动化 > [截屏](./Activities/PhoneAutomation/MobileCrop.md)，方便获取当前手机屏幕的截图。
+2. 手机自动化 > [获取结构化数据](./Activities/PhoneAutomation/MobileStructureData.md)，方便获取移动端的结构化数据。
+3. 手机自动化 > [设置剪贴板文本](./Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
+4. 界面自动化 > [设置Web元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
+5. 界面自动化 > [设置窗口](./Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
+6. 资源 > 数据表 > [创建表](./Activities/Resource/DataBase/createtable.md)、[删除表](./Activities/Resource/DataBase/deletetable.md)、[执行语句](./Activities/Resource/DataBase/executesql.md)、[更新表](./Activities/Resource/DataBase/datatableupdated.md)、[查询](./Activities/Resource/DataBase/datatablequery.md)、[清空全部数据表](./Activities/Resource/DataBase/emptydatabase.md)，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
+7. 资源 > 文本 > [文本赋值](./Activities/Resource/Text/assignglobaltext.md)、[读取文本](./Activities/Resource/Text/readglobaltext.md)，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
+8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md),实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化[打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md)组件，支持浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
+2. 优化浏览器录制技术类型，支持根据浏览器类型适配对应的录制技术，提升用户体验。
+3. 优化手机自动化组件中的选择器编辑器，支持在属性值中填写变量，提升实施人员开发效率。
+4. 优化XPath列表，支持相近节点提示且取消XPath控件类型限制，提升用户体验。
+5. 优化[搜索变量](./Studio/process/developProject/Variables/Variables.md)功能，支持在菜单栏中搜索所有流程文件中的变量并定位，方便用户快速查找并定位变量位置。
+6. 优化[本地版本控制](./Studio/VersionControl.md)，支持流程文件的树结构与文本两种比较方式切换，提升用户体验。
+7. 优化[调试部分组件](./Studio/process/Debugging/partialDebug.md)时的窗口样式并支持设置流程变量或参数，提升用户体验。
+
+#### 【组件库】
+
+1. 界面自动化 > [获取结构化数据](./Activities/UIAutomation/ExtractStructuredData.md)，优化界面样式和支持获取自定义属性信息，提升用户使用体验。
+2. 代码组件 > [JavaScript](./Activities/CodeExecuter/JavaScript/ExecuteJavaScriptCode.md)，支持指定变量进行传参，替代原本使用所有变量进行执行JS代码，提升实施人员开发效率。
+
 ## 2021.04.01 发版说明
 
 2021.04.01 发布了云扩 RPA , 本次发布的产品及版本号为：
 |         | 版本号      |
 | -----:  | -----:     |
-| 控制台   | xxxxx|
-| 小程序 |xxxx|
+| 控制台   | 3.0.42086|
+| 小程序 |1.1.1317|
 
 你可以通过 [云扩控制台](https://console.encoo.com/) 下载并体验相关产品。
 

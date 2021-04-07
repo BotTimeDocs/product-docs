@@ -36,7 +36,7 @@
 
 - **与未修改的版本比较**：将当前修改的文件与修改前的文件进行比对。
   
-  ![与未修改的版本比较](https://docimages.blob.core.chinacloudapi.cn/images/Studio/compare20201214.png)
+  ![与未修改的版本比较](https://docimages.blob.core.chinacloudapi.cn/images/Studio/compare20210323.png)
 
 - **显示历史**：显示当前所选文件的历史记录。
   

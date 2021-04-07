@@ -1,0 +1,16 @@
+[
+    {
+        "id": "",
+        "name": "DataBase",
+        "localizedName": "数据表",
+        "uuid": "74e0b964-be76-478f-ba2c-87af307272f3",
+        "labels": "数据表，资源"
+    },
+    {
+        "id": "",
+        "name": "Text",
+        "localizedName": "文本",
+        "uuid": "dec32fb2-2041-46ac-8079-e6db5380e4a2",
+        "labels": "文本，资源"
+    }
+]
