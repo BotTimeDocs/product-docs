@@ -25,12 +25,12 @@
 2. 在**搭建数据表**组件下方，拖入一个**创建表**组件至流程中。
 3. 配置**创建表**组件的属性。
 
-   - 表名：自定义需要创建的数据表的表名，如，`"students"`。
-   - 数据表：填写已搭建的数据表，如，`datatable_test`。
+    - 表名：自定义需要创建的数据表的表名，如，`"students"`。
+    - 数据表：填写已搭建的数据表，如，`datatable_test`。
   
     ![创建数据表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/createdatatable20210323.png)
 
 4. 保存并运行流程。
 5. 查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/datatableresult20210323.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/datatableresult20210323.png)

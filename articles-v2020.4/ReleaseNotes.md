@@ -78,10 +78,10 @@
 
 #### 【控制台】
 
-1. 上线全新的 [组织架构及权限系统](../../product-docs/articles-v2020.4/Console/v4.0.x/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
+1. 上线全新的 [组织架构及权限系统](./Console/v4.0.x/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
 2. 公司架构管理支持多级部署，方便管理员更好地维护企业上级公司与子公司之间的关系。
-3. 支持 [多重身份验证](../../product-docs/articles-v2020.4/Console/v4.0.x/management/syssetting.md) 配置，保证系统安全性。
-4. 支持创建并管理各类 [数据连接器](../../product-docs/articles-v2020.4/Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+3. 支持 [多重身份验证](./Console/v4.0.x/management/syssetting.md) 配置，保证系统安全性。
+4. 支持创建并管理各类 [数据连接器](./Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
 
 ### 改进与增强
 

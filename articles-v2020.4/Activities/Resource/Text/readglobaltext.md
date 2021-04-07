@@ -25,18 +25,18 @@
 2. 拖入一个**读取文本**组件至流程中。
 3. 配置**读取文本**组件属性。
 
-   - 文本名称：已使用文本赋值组件赋值的文本名称，如，`"ABC"`。
-   - 值：在编辑器中定义的用于输出文本值的String类型变量，如，`S`。
+    - 文本名称：已使用文本赋值组件赋值的文本名称，如，`"ABC"`。
+    - 值：在编辑器中定义的用于输出文本值的String类型变量，如，`S`。
 
 4. 在**读取文本**组件下方，拖入一个**写入日志**组件。
 5. 配置**写入日志**组件属性。
 
-   - 日志级别：选择日志级别，如，`Info`。
-   - 日志内容：填写输出的变量值，如，`S`。
+    - 日志级别：选择日志级别，如，`Info`。
+    - 日志内容：填写输出的变量值，如，`S`。
 
-   ![读取文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readtext20210324.png)
+    ![读取文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readtext20210324.png)
 
 6. 保存并运行流程。
 7. 查看流程运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readingtextresult20210324.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readingtextresult20210324.png)

@@ -50,14 +50,14 @@
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileGetClipboardTextActivity",
-        "name": "MobileCrop.md",
+        "name": "MobileGetClipboardText.md",
         "localizedName": "获取剪贴板文本",
         "uuid": "37d3e974-f4c5-4031-9486-fd83f912d694",
         "labels": "获取, 剪贴板文本, 移动端"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileSetClipboardTextActivity",
-        "name": "MobileCrop.md",
+        "name": "MobileSetClipboardText.md",
         "localizedName": "设置剪贴板文本",
         "uuid": "cbb0b4e5-ff68-4186-98ae-e04fc319be2c",
         "labels": "设置, 剪贴板文本, 移动端"

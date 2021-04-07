@@ -34,10 +34,10 @@
 2. 在连接设备组件内拖入一个 **截屏** 组件。
 3. 单击 **截屏** 组件中的“拖拽截屏区域”链接，在手机屏幕上拖拽需截图的区域。
 
-   ![拖拽截屏区域](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mobilescreen20210316.png)
+    ![拖拽截屏区域](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mobilescreen20210316.png)
 
 4. 配置 **截屏** 组件的属性参数。
 
-   - 路径：保存截屏图片的路径。如，"D:\workspace\document images\shortscreen.png"
+    - 路径：保存截屏图片的路径。如，"D:\workspace\document images\shortscreen.png"
   
 5. 保存并运行流程，可看到已将截图保存至预先设定的文件路径中。

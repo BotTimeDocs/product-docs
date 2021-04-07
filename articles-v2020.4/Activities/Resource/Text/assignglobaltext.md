@@ -19,12 +19,12 @@
 
 2. 配置**文本赋值**组件。
 
-   - 文本名称：指定在项目的资源文本文件中定义的文本名称。
-   - 值：文本的值，可接变量。
+    - 文本名称：指定在项目的资源文本文件中定义的文本名称。
+    - 值：文本的值，可接变量。
 
-   ![配置组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextassign20210324.png)
+    ![配置组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextassign20210324.png)
 
 3. 保存并运行流程。
 4. 查看流程运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/textassignresult20210324.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/textassignresult20210324.png)

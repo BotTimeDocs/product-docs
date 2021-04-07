@@ -29,11 +29,11 @@
 2. 拖入一个**执行语句**组件至流程中。
 3. 配置**执行语句**组件的属性。
 
-   - Sql语句：填写欲执行的SQL语句，如，`"drop table students"`
+    - Sql语句：填写欲执行的SQL语句，如，`"drop table students"`
 
     ![执行语句](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executesql20210323.png)
 
 4. 保存并运行流程。
 5. 查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executesqlresult20210323.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executesqlresult20210323.png)

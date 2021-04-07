@@ -27,15 +27,15 @@
 1. 双击 **SQL** 组件或拖动 **SQL** 组件至编辑区域中。
 2. 在页面右侧弹框中，输入各参数。
 
-   - **资源**：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的数据连接。也可在下拉框中单击“**+新建连接**”，根据向导进行新建数据库连接。
-   - **SQL**：输入需要对已选择的资源进行执行的 SQL 语句。
-   - **参数**：（可选）根据需要，填写对 SQL 语句中需要用到的参数进行自定义。
+    - **资源**：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的数据连接。也可在下拉框中单击“**+新建连接**”，根据向导进行新建数据库连接。
+    - **SQL**：输入需要对已选择的资源进行执行的 SQL 语句。
+    - **参数**：（可选）根据需要，填写对 SQL 语句中需要用到的参数进行自定义。
 
-   ![SQL 组件参数](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/sqlcenter20210325.png)
+    ![SQL 组件参数](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/sqlcenter20210325.png)
 
 3. 编写完成的 SQL 语句，单击“运行”按钮，可测试查看运行结果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/sql20210325.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/sql20210325.png)
 
 4. 单击“保存”按钮，编写完成的代码将保存至数据源管理页面。
 

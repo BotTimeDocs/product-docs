@@ -50,10 +50,11 @@ Encoo Remote Runtime 为运行在 RDP 远程端上的组件，可以使 RDP 远�
 
 ## 卸载 RDP
 
-- 卸载本地 Windows 远程桌面扩展
+卸载本地 Windows 远程桌面扩展
   在本地计算机的注册表中，找到 `HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default\AddIns\EncooRemotePluginRdp` 注册表值，删除后重启连接。
 
 ## 常见问题
 
 1. **Q：是否支持远程桌面中再开远程的场景？**
+
    **A：** 暂不支持
