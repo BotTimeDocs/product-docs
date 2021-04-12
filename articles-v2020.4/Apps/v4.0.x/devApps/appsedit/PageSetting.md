@@ -15,6 +15,10 @@
 
 ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/AppsV2/addpages.png)
 
+>**说明：**
+>
+>新增完成的页面，可在右侧“事件”栏中，为其新增事件，如，页面进入或页面离开时，触发某一操作行为。
+
 ## 修改页面名称
 
 若你想要修改页面名称，将鼠标移到页面上方，点击鼠标右键，选择重命名，即可重命名页面。
