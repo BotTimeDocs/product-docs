@@ -15,6 +15,13 @@
     },
     {
         "id": null,
+        "name": "radiogroup.md",
+        "localizedName": "单选框",
+        "uuid": "de16e238-fd5a-43ef-bfcf-539db81a97ec",
+        "labels": "单选框, 输入组件"
+    },
+    {
+        "id": null,
         "name": "Selector.md",
         "localizedName": "选择器",
         "uuid": "2ffc6dc5-88b5-4773-875e-7709b8c38eb6",
@@ -26,6 +33,13 @@
         "localizedName": "数字输入框",
         "uuid": "40b58b6c-b65e-4b0f-9a45-07df77084c08",
         "labels": "数字输入框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "textarea.md",
+        "localizedName": "多行文本框",
+        "uuid": "7322e175-7c18-4c2e-9d97-19651a956ffb",
+        "labels": "多行文本框, 输入组件"
     },
     {
         "id": null,

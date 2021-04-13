@@ -60,7 +60,7 @@
 
 1. 单击页面右上角的“编辑”按钮，可配置部门数据权限。
 
-    ![配置部门数据权限](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingdatagrant20210329.png)
+    ![配置部门数据权限](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingdatagrant20210413.png)
 
     - **部门配置信息**
        - 拥有者：默认为当前部门的创建者，可更改。
