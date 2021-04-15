@@ -178,7 +178,8 @@
         "id": "BotTime.Office.Activity.OfficeExcelUnMergeCellsActivity",
         "name": "UnMergeCells.md",
         "localizedName": "取消单元格合并",
-        "uuid": "d467c8fe-0d80-4cb9-9c6d-4bf4870cd066"
+        "uuid": "d467c8fe-0d80-4cb9-9c6d-4bf4870cd066",
+        "labels": "单元格, 取消合并, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelMergeCellsActivity",
