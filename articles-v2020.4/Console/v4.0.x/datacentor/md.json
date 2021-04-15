@@ -12,6 +12,8 @@
     {
         "id": null,
         "name": "Connector.md",
-        "localizedName": "连接管理"
+        "localizedName": "连接管理",
+        "uuid": "6c961357-fa70-45bb-a288-8b247f956ad0",
+        "labels": "连接器, 连接，数据连接"
     }
 ]
