@@ -3,14 +3,14 @@
         "id": null,
         "name": "AboutAsset.md",
         "localizedName": "关于资产管理",
-        "uuid": "3d1c7c2d-857e-4791-b738-9ff9455d85bd",
+        "uuid": "67349d1d-3d87-44bb-a35c-83d4f4012e88",
         "labels": "管理, 资产"
     },
     {
         "id": null,
         "name": "manageAsset.md",
         "localizedName": "管理资产",
-        "uuid": "cdb519a8-e291-44e2-9215-92d794cd4f5b",
+        "uuid": "2a9b42d3-0e7c-4789-9b8a-e29a2b5688a3",
         "labels": "管理, 资产"
     }
 ]

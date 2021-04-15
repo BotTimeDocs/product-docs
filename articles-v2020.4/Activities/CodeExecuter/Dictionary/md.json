@@ -3,36 +3,36 @@
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.AddDictionaryActivity",
         "name": "AddDictionaryActivity.md",
         "localizedName": "添加键值对",
-        "uuid": "ab1eddcb-8e7e-4936-9bcf-8cd09f3e20ce"
+        "uuid": "33c19bda-06e8-4dbd-89af-0b38753d88fc"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.InitializeDictionaryActivity",
         "name": "InitializeDictionaryActivity.md",
         "localizedName": "初始化字典",
-        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+        "uuid": "64fd7a1a-187b-44db-8056-32829d39ee6a"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.RemoveKeyValueActivity",
         "name": "RemoveKeyValueActivity.md",
         "localizedName": "移除键值对",
-        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+        "uuid": "3a6e129e-d7a6-4131-93d3-fea716fffe6f"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.ContainsKeyValueActivity",
         "name": "ContainsKeyValueActivity.md",
         "localizedName": "是否包含键或值",
-        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+        "uuid": "432a3035-7931-4d6f-8e2d-154da4d87683"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.GetQuantityOfDictionaryActivity",
         "name": "GetQuantityOfDictionaryActivity.md",
         "localizedName": "获取键值对数量",
-        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+        "uuid": "f5a76350-ab70-4156-beba-9681bdb7299f"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.EmptyDictionaryActivity",
         "name": "EmptyDictionaryActivity.md",
         "localizedName": "清空字典",
-        "uuid": "96d8c3ef-f69d-489f-afa6-a48bb7caf62d"
+        "uuid": "5005763c-e0c6-4e33-8d65-1a54c1287e9b"
     }
 ]
