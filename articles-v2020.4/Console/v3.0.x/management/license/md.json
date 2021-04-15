@@ -2,13 +2,13 @@
     {
         "name": "aboutLicense.md",
         "localizedName": "关于许可证",
-        "uuid": "2f8ccf9c-61a0-4d5e-990f-b9705740314c",
+        "uuid": "ca36b37d-06a7-40da-820f-77d7b8b75dd5",
         "labels": "许可证"
     },
     {
         "name": "useLicense.md",
         "localizedName": "管理许可证",
-        "uuid": "fd3394ed-aaaa-4d80-a9fe-c48b76886c51",
+        "uuid": "fe6ee166-4cac-4af4-b913-f1125a49183c",
         "labels": "列表, 许可证"
     }
 ]

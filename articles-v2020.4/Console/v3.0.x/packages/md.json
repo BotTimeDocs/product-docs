@@ -3,21 +3,21 @@
         "id": null,
         "name": "aboutPackages.md",
         "localizedName": "关于流程包管理",
-        "uuid": "ff0effb0-13ad-4fdd-b573-5433e38f3f0c",
+        "uuid": "1eb7f0e9-4f29-4156-9dc1-aea1c146bfa3",
         "labels": "管理, 流程包"
     },
     {
         "id": null,
         "name": "deletePackage.md",
         "localizedName": "删除流程包",
-        "uuid": "5f060957-1560-4187-acff-85210a6f5a36",
+        "uuid": "17bd8683-d9d0-4098-8148-27250dc52585",
         "labels": "流程包, 删除"
     },
     {
         "id": null,
         "name": "uploadPackage.md",
         "localizedName": "上传流程包",
-        "uuid": "85faaca2-fb76-4521-8564-22286a2961fc",
+        "uuid": "ca881889-87fa-4693-9553-801aaae52329",
         "labels": "上传, 流程包"
     }
 ]

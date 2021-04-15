@@ -3,20 +3,20 @@
         "id": null,
         "name": "devApps.md",
         "localizedName": "小程序开发导览",
-        "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8",
+        "uuid": "d7c507f9-d746-4cad-ad9c-b2135fad813f",
         "labels": "小程序开发"
     },
     {
         "id": null,
         "name": "createApps.md",
         "localizedName": "创建小程序",
-        "uuid": "465a7c5c-5eb4-4288-960a-09397ab0473c",
+        "uuid": "f49d5571-6633-48e9-8887-81deee51c93c",
         "labels": "创建, 小程序"
     },
     {
         "id": null,
         "name": "appsedit",
         "localizedName": "小程序编辑器",
-        "uuid": "4f34fa63-ccb7-4b7a-9cfd-936618f20c3d"
+        "uuid": "ce492b54-22ae-4ce3-afa8-ca0f6e3c8882"
     }
 ]

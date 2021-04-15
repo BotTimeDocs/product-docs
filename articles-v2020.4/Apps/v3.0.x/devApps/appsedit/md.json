@@ -3,33 +3,33 @@
         "id": null,
         "name": "component",
         "localizedName": "组件库",
-        "uuid": "fec70237-3397-40ec-9710-c5fb4cf02173"
+        "uuid": "b68de3be-17b1-4787-aff8-e815324caa48"
     },
     {
         "id": null,
         "name": "PageSetting.md",
         "localizedName": "页面配置",
-        "uuid": "bc4a3f42-d2ab-4610-ba97-1c22d3bb2a0a",
+        "uuid": "728fbc3a-b607-465a-87c3-505a1639ccca",
         "labels": "配置, 页面"
     },
     {
         "id": null,
         "name": "BasicSetting.md",
         "localizedName": "基本设置",
-        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73",
+        "uuid": "c8b8d04b-531f-4317-98dc-41a1ac677218",
         "labels": "设置, 基本, 小程序"
     },
     {
         "id": null,
         "name": "TableManagement",
         "localizedName": "数据表管理",
-        "uuid": "2cfdd57e-29aa-47f1-b574-5840e893509b"
+        "uuid": "cb9dfe56-f8a5-42e4-aeda-1c9dfb53a26a"
     },
     {
         "id": null,
         "name": "BasicOperation.md",
         "localizedName": "基本操作",
-        "uuid": "cdf3e9e9-d2ce-412c-b7bf-f0e9a8e9fc65",
+        "uuid": "b6dab030-d907-4c10-b425-39eb851d2d71",
         "labels": "基本操作"
     }
 ]

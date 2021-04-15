@@ -4,37 +4,37 @@
         "id": null,
         "name": "Form.md",
         "localizedName": "表单",
-        "uuid": "f4a050fd-f664-4b77-8fb3-0b61f208e41f"
+        "uuid": "190b949e-4a98-4d68-a06d-4a667850df1f"
     },
     {
         "id": null,
         "name": "Table.md",
         "localizedName": "表格",
-        "uuid": "4380376f-f1d2-4d57-a5a7-2aafaecb8cd2"
+        "uuid": "4aabad74-8d51-47c8-843a-b4117901dab4"
     },
     {
         "id": null,
         "name": "DescriptionList.md",
         "localizedName": "描述列表",
-        "uuid": "37da2104-499f-4454-8afa-897aa2e2a7f7"
+        "uuid": "7fa79a5b-bae5-411a-addd-3b84c7e0dc46"
     },
     {
         "id": null,
         "name": "Flow.md",
         "localizedName": "流程",
-        "uuid": "ccf0837d-a107-4636-8d11-16f09f4caf2c"
+        "uuid": "e7e68a5e-6e0e-4aa7-9b64-c4341ebde54d"
     },
     {
         "id": null,
         "name": "CompareOCRResult.md",
         "localizedName": "OCR结果对比",
-        "uuid": "6dbd84fd-9615-4052-a366-118a725639d3"
+        "uuid": "e534e5f3-b95f-4509-b456-006387a0e066"
     },
     {
         "id": null,
         "name": "TaskLog.md",
         "localizedName": "任务记录",
-        "uuid": "0a708d5a-2510-4625-9292-3c00f6f6cb78"
+        "uuid": "c1e7d9fe-cd94-43b8-8de4-0eb53c8bcd41"
     }
 
 ]

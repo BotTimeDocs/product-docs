@@ -3,14 +3,14 @@
         "id": null,
         "name": "Text.md",
         "localizedName": "文本",
-        "uuid": "0a95f7b9-d00b-4f42-b406-74f51eda6d25",
+        "uuid": "5232c8e6-f1f1-4e8e-95e6-182fac84b7de",
         "labels": "文本, 显示组件"
     },
     {
         "id": null,
         "name": "Image.md",
         "localizedName": "图片",
-        "uuid": "022c4ad1-45a8-4636-852d-0307ad5eb5fa",
+        "uuid": "3c040298-3150-4aeb-ac9b-1cbe37f52a96",
         "labels": "图片, 显示组件"
     }
 ]

@@ -3,35 +3,35 @@
         "id": null,
         "name": "aboutworkflow.md",
         "localizedName": "关于流程部署",
-        "uuid": "",
+        "uuid": "49ec2078-1450-4138-94c8-b324ad89f59d",
         "labels": "部署, 流程"
     },
     {
         "id": null,
         "name": "manageworkflow.md",
         "localizedName": "管理流程部署",
-        "uuid": "",
+        "uuid": "dae7a30a-9a09-4772-a03c-2448a90b80d9",
         "labels": "部署, 流程"
     },
     {
         "id": null,
         "name": "trigger.md",
         "localizedName": "任务计划管理",
-        "uuid": "",
+        "uuid": "f6827094-3e25-4904-b90a-be1a42673f35",
         "labels": "计划, 管理, 任务"
     },
     {
         "id": null,
         "name": "runworkflow.md",
         "localizedName": "立即执行流程",
-        "uuid": "",
+        "uuid": "2167dfc3-6c45-43c8-bcba-a60b480cc007",
         "labels": "执行, 立即, 流程"
     },
     {
         "id": null,
         "name": "workflowjob.md",
         "localizedName": "流程部署任务列表",
-        "uuid": "",
+        "uuid": "7c537e3a-f5ed-4561-b69d-ab8fce904ef4",
         "labels": "任务, 查看, 部署, 流程"
     }
 ]
