@@ -4,6 +4,44 @@
 >
 > 关于社区版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](./QA.md)。
 
+## 2021.04.15 发版说明
+
+2021.04.15 发布了云扩 RPA , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 3.0.42086|
+| ViCode   | -|
+
+### 新增功能
+
+#### 【ViCode】
+
+1. 支持为页面配置事件属性，当页面进入或页面离开时，可以触发指定的事件行为，提升开发人员工作效率。
+2. 支持在画布中按下 Space 空格键时，可以拖拽画布，提升开发人员使用体验。
+
+#### 【ViCode 的组件库】
+
+1. 展示组件 > [图标](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
+2. 展示组件 > [视频](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
+3. 输入组件 > [多行文本框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
+4. 输入组件 > [单选框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
+
+#### 【控制台】
+
+1. 新增[文件类数据连接器](./Console/v4.0.x/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
+2. [多重身份验证配置](./Console/v4.0.x/management/syssetting.md)中，新增支持虚拟 MFA 验证，提升系统的安全性。
+
+### 改进与增强
+
+#### 【ViCode】
+
+1. 优化[连接器映射关系](./Apps/v4.0.x/devApps/appsedit/connector.md)配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
+2. 优化组件的默认填充样式，使得所有组件拖拽至画布中默认横向自动扩展占满画布，提升开发人员使用体验。
+
+#### 【控制台】
+
+1. 优化文件服务，支持[新建根目录文件夹](./Console/v4.0.x/datacentor/fileservice/managefileservice.md)时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
+
 ## 2021.04.02 发版说明
 
 2021.04.02 发布了云扩 RPA , 本次发布的产品及版本号为：
@@ -12,6 +50,8 @@
 | 编辑器   | 1.1.2103.13|
 | 机器人   | 1.1.2103.13|
 | AI Hub   |-|
+
+### 新增功能
 
 #### 【编辑器】
 

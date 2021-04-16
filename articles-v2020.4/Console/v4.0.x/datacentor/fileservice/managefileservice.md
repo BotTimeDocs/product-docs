@@ -6,11 +6,15 @@
 
 ![fileservice](https://docimages.blob.core.chinacloudapi.cn/images/Console/Datacentor/fileervice1.png)
 
-### 新建文件夹
+### 新建根目录文件夹
 
-点击左侧列表的“新建”按钮即可新建文件夹，新建出文件夹"命名框“自动处于可编辑状态，输入名称回车保存即可。
+点击左侧列表的“新建”按钮，在弹出的“新建根目录文件夹”对话框中，填写“文件夹名称”及选择“绑定文件连接器”，单击“确定”按钮后，即可新建文件夹。
 
-![fileservice](https://docimages.blob.core.chinacloudapi.cn/images/Console/Datacentor/fileservice2.png)
+>**说明：**
+>
+>“绑定文件连接器”，若无已创建的数据连接，可选择“+新建连接”进行新建文件类型的连接器，具体请参见[连接管理](./datacentor/../../Connector.md)。
+
+![fileservice](https://docimages.blob.core.chinacloudapi.cn/images/Console/createrootfloder20210413.png)
 
 ### 新建子文件夹
 

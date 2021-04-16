@@ -4,7 +4,7 @@
 
 在“应用开发”的编辑页面中，单击“连接器”图标，即可进入连接器映射关系管理页面，如下图所示。
 
-![连接器入口](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/connectorpath20210326.png)
+![连接器入口](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/connectorpath20210412.png)
 
 ## 示例
 
@@ -13,8 +13,8 @@
 
    >**说明：**
    >
-   >下拉选择框中的连接器，是事先在“云扩RPA控制台 > 数据中心 > 连接管理”中创建的。
+   >下拉选择框中的连接器，是事先在“云扩RPA控制台 > 数据中心 > 连接管理”中创建且在“应用开发 > 数据”中创建对应的数据源。
 
-   ![连接器匹配](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/connectormatch20210326.png)
+   ![连接器匹配](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/connectormatch20210412.png)
 
 3. 单击“保存”按钮，即可保存已配置的连接器映射关系。

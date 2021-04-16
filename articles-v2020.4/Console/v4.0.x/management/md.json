@@ -8,13 +8,6 @@
     },
     {
         "id": null,
-        "name": "syssetting.md",
-        "localizedName": "系统设置",
-        "uuid": "f28cfe5b-9f50-49fd-b0d8-4505d19b1bd6",
-        "labels": "系统设置, 控制台"
-    },
-    {
-        "id": null,
         "name": "log",
         "localizedName": "审计日志"
     },
@@ -22,6 +15,13 @@
         "id": null,
         "name": "license",
         "localizedName": "许可证"
+    },
+    {
+        "id": null,
+        "name": "syssetting.md",
+        "localizedName": "系统设置",
+        "uuid": "f28cfe5b-9f50-49fd-b0d8-4505d19b1bd6",
+        "labels": "系统设置, 控制台"
     }
 
 ]
