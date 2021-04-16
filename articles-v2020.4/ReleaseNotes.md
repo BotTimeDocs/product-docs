@@ -28,19 +28,19 @@
 
 #### 【控制台】
 
-1. 新增[文件类数据连接器](./Console/v4.0.x/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
-2. [多重身份验证配置](./Console/v4.0.x/management/syssetting.md)中，新增支持虚拟 MFA 验证，提升系统的安全性。
+1. 新增 [文件类数据连接器](./Console/v4.0.x/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
+2. [多重身份验证配置](./Console/v4.0.x/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化[连接器映射关系](./Apps/v4.0.x/devApps/appsedit/connector.md)配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
+1. 优化 [连接器映射关系](./Apps/v4.0.x/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
 2. 优化组件的默认填充样式，使得所有组件拖拽至画布中默认横向自动扩展占满画布，提升开发人员使用体验。
 
 #### 【控制台】
 
-1. 优化文件服务，支持[新建根目录文件夹](./Console/v4.0.x/datacentor/fileservice/managefileservice.md)时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
+1. 优化文件服务，支持 [新建根目录文件夹](./Console/v4.0.x/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
 
 ## 2021.04.02 发版说明
 
