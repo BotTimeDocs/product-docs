@@ -39,7 +39,8 @@
 1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 
 2. 在连接设备组件内按照顺序搭建流程，如下图所示。
-   ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/workflowsmscode20201230.jpg)
+
+    ![流程图](https://docimages.blob.core.chinacloudapi.cn/images/Activities/workflowsmscode20201230.jpg)
 
 3. 配置流程中各组件，说明如下：
 
@@ -55,10 +56,12 @@
 4. 保存并运行流程。
 
 5. 运行过程中，在手机端可看到效果如下：
-   ![手机端效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runprocesssmscode20201230.png)
+
+    ![手机端效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runprocesssmscode20201230.png)
 
 6. 在输出框中也可查看运行结果。
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/resultsmscode20201230.png)
+
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/resultsmscode20201230.png)
 
 ## 常见问题
 
