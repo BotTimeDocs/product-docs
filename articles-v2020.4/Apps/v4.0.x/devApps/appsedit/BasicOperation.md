@@ -10,6 +10,12 @@
 
 ![应用主题](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/them20210422.png)
 
+## 布局展示
+
+ViCode 应用支持 Web 端和移动端的页面布局的自适应展示。
+
+![布局展现形式](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/showways20210425.png)
+
 ## 试运行应用
 
 当你编辑好应用的全部信息，想要尝试运行一下你创建的应用。
