@@ -25,7 +25,7 @@
     a. 通过配置连接
 
     ![通过配置连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionbysetting20210329.png)
-    
+
     b. 通过 Connection String 连接
 
     ![配置 mysql 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingmysqlconnect20210329.png)
@@ -33,6 +33,21 @@
 4. （可选）单击“测试”按钮，可测试数据连接是否成功。
 5. 单击“新建”按钮，完成 Mysql 的数据连接。
 
+### 新建托管数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“托管数据库”，单击“下一步”按钮。
+
+   ![新建托管数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/trustdataconnect20210425.png)
+
+3. 在进入的“配置连接”弹框中，配置托管数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/settingtrustconnect20210425.png)
+
+4. 单击“新建”按钮，完成托管数据库连接。
 
 ## 新建 API 类连接
 
