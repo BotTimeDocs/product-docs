@@ -2,16 +2,16 @@
     {
         "id": null,
         "name": "devApps.md",
-        "localizedName": "应用开发导览",
+        "localizedName": "应用开发模式",
         "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8",
         "labels": "应用开发"
     },
     {
         "id": null,
-        "name": "createApps.md",
-        "localizedName": "创建应用",
+        "name": "manageapps.md",
+        "localizedName": "应用管理",
         "uuid": "465a7c5c-5eb4-4288-960a-09397ab0473c",
-        "labels": "创建, 应用"
+        "labels": "应用管理"
     },
     {
         "id": null,
