@@ -1,5 +1,11 @@
 [
     {
+        "name": "README.md",
+        "localizedName": "关于云扩 ViCode 云码",
+        "uuid": "971190ee-f375-44ba-8f88-8a9c80d13318",
+        "labels": "ViCode"
+    },
+    {
         "name": "v3.0.x",
         "localizedName": "v4.0.x",
         "uuid": "",
