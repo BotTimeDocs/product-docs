@@ -49,6 +49,13 @@
         "labels": "获取, 文本, 索引, 字符串"
     },
     {
+        "id": "Encoo.Text.Activity.Activities.ConvertCaseActivity",
+        "name": "convertcase.md",
+        "localizedName": "转换大小写",
+        "uuid": "b60811ca-91e1-405f-8d30-401b6db58c57",
+        "labels": "转换大小写"
+    },
+    {
         "id": "Encoo.Text.Activity.Activities.GenerateGUIDActivity",
         "name": "GenerateGUIDActivity.md",
         "localizedName": "生成GUID",
