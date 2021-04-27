@@ -19,14 +19,14 @@
 
     - **连接名称**：自定义新建的 mysql 连接名称。
     - **环境类型**：下拉选择生产环境或测试环境。
-    - **连接方式**：可选择“通过配置连接”或“通过 Connection String 连接”。
+    - **连接方式**：可选择“通过配置连接”或“通过 连接字符串连接”。
     - **使用 SSL 连接**：是否启用 SSL 连接。
 
     a. 通过配置连接
 
     ![通过配置连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionbysetting20210329.png)
 
-    b. 通过 Connection String 连接
+    b. 通过连接字符串连接
 
     ![配置 mysql 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingmysqlconnect20210329.png)
 
