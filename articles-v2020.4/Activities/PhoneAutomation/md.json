@@ -67,7 +67,7 @@
         "name": "MobileGetSmsCode.md",
         "localizedName": "获取短信验证码",
         "uuid": "80e84ae7-d820-4493-bbfb-1bdb21efe7b8",
-        "labels": "获取, 验证码, 短信, 移动端"
+        "labels": "获取手机验证码"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileClearElementInputActivity",
