@@ -28,10 +28,6 @@
 3. 图表组件 > [柱状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
 4. 图表组件 > [饼状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
-#### 【控制台】
-
-1. 配置组织架构的数据权限时，支持自定义权限，方便管理员根据需要自定义适合的用户权限。
-
 ### 改进与增强
 
 #### 【ViCode】
