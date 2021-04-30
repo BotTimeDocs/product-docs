@@ -38,6 +38,12 @@
     },
     {
         "id": null,
+        "name": "ChartComponents",
+        "localizedName": "图表组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
         "name": "commonevent.md",
         "localizedName": "公用事件与行为",
         "uuid": "eddd651d-a11c-4b91-91ce-faf562c6466b",

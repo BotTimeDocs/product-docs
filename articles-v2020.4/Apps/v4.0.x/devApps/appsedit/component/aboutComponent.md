@@ -20,8 +20,30 @@
 
 ## 删除组件
 
-若你想要删除组件，请在模拟界面选中组件，点击 "delete" 按钮，组件即会被删除。
+在应用的编辑界面，有如下几种方式可删除组件。
 
 >**说明：**
 >
 >被删除的组件无法复原，只能重新生成，请谨慎操作。
+
+- 方式一：选中组件，单击组件导航中的“删除”图标。
+
+    ![删除组件方式一](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/compentdelete20210425.png)
+
+- 方式二：在大纲页面中，选中组件名称，右击选择“删除”选项。
+
+    ![删除组件方式二](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/delete220210425.png)
+
+- 方式三：选中组件，单击键盘上的“Delete”键。
+
+## 复制组件
+
+在应用的编辑界面，有如下几种方式可复制组件。
+
+- 方式一：选中组件，单击组件导航中的“复制”图标。
+  
+    ![复制组件方式一](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/copycompent120210425.png)
+
+- 方式二：在大纲页面中，选中组件名称，右击选择“复制”选项。
+
+    ![复制组件方式二](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/copycompent220210425.png)

@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "histogram.md",
+        "localizedName": "柱状图",
+        "uuid": "814dbe38-74ea-46fe-b087-a0a899770155",
+        "labels": "柱状图,图表"
+    },
+    {
+        "id": null,
+        "name": "pie.md",
+        "localizedName": "饼状图",
+        "uuid": "4a9b51e3-e245-4a6b-afa5-b1f03f94a0ec",
+        "labels": "饼状图,图表"
+    }
+]

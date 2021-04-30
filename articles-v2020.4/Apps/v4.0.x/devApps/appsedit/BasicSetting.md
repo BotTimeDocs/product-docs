@@ -4,4 +4,4 @@
 
 ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/basesetting20210326.png)
 
-你可以在这里对应用的名称，图标，布局，说明进行编辑和调整。
+你可以在这里对应用的名称、图标、布局、简介等进行编辑和调整。
