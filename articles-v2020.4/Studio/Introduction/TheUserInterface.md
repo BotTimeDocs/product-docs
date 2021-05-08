@@ -124,19 +124,27 @@
 
 通过 F1 快捷键或者组件右键菜单的“帮助”，可快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法。
 
-![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/activitypanel20201019.png)
+>**说明：**
+>
+>对于最近常用的组件，将在组件面板上的“最近使用”列表中展示，方便快速查找和使用。
+
+![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recentlyused20210508.png)
 
 ### 运行面板
 
-**运行面板** 主要显示与运行和调试有关的所有信息，顶部显示带有调试和运行命令的相关按钮。
+- **运行面板** 主要显示与运行和调试有关的所有信息，顶部显示带有调试和运行命令的相关按钮。
 
-**运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
+    - **运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
 
-![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/runpanel20201019.png)
+      ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/runpanel20201019.png)
 
-**调试** 主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看 [调试](../process/Debugging/Debugging.md?_v=v2020.4)。
+    - **调试** 主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看 [调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
-![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
+      ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
+
+- **断点管理面板**主要用于集中对流程中的断点进行管理，包括启用断点、禁用断点、删除断点操作。
+
+![断点管理](https://docimages.blob.core.chinacloudapi.cn/images/Studio/breakpointmanagement20210508.png)
 
 ### 版本控制面板
 

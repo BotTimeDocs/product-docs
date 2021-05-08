@@ -33,5 +33,12 @@
         "localizedName": "删除文件或文件夹",
         "uuid": "cc07bde9-2bda-46a7-9b66-edc7e40a0cf4",
         "labels": "文件, 文件夹, 删除, 控制台, 文件服务"
+    },
+    {
+        "id": "Encoo.Console.Activity.GetAccountActivity",
+        "name": "getaccount.md",
+        "localizedName": "获取执行帐号",
+        "uuid": "6f10a568-c564-49d8-b9e8-e19b7508ffff",
+        "labels": "获取执行帐号，控制台"
     }
 ]
