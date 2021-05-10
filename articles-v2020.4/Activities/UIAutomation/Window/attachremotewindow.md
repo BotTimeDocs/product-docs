@@ -26,3 +26,13 @@
 1. 拖入一个“绑定远程窗口”组件至流程中。
 2. 双击进入“绑定远程窗口”组件内。
 3. 点击“指定窗口”链接，指定远程窗口。
+
+   ![指定远程窗口](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindow20210510.png)
+
+4. 在“绑定远程窗口”组件内，拖入一个“序列”组件，并命名为`下载云扩文档`。
+5. 在“下载云扩文档”序列组件内，拖入一个“打开浏览器”组件，并设置其网址为`"https://academy.encoo.com/zh-cn/wiki/"`。
+6. 在“打开浏览器”组件内，拖入一个“点击”组件，并为其指定云扩文档页面左下角的“下载PDF”元素。
+7. 保存并运行流程。
+8. 查看运行结果。
+
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindowresult20210510.png)
