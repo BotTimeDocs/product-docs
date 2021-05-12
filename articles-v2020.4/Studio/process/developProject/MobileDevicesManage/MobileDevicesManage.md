@@ -36,5 +36,9 @@
     ![真机界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobileUI20201104.png)
 
     - **模拟器界面**：
+  
+    >**说明：**
+    >
+    >支持同时连接多个模拟器设备。
 
     ![模拟器界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/monitorUI20201104.png)
