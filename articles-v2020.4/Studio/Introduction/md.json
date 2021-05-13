@@ -1,11 +1,5 @@
 [
     {
-        "name": "Introduction.md",
-        "localizedName": "产品简介",
-        "uuid": "169ccae4-2874-48b5-9989-3d5b7b37d5c4",
-        "labels": "产品简介"
-    },
-    {
         "name": "TheUserInterface.md",
         "localizedName": "用户界面",
         "uuid": "b7963e12-b4c9-41dc-bca5-ebc6d69b4cf7",

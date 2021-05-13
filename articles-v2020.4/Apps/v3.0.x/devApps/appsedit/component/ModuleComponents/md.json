@@ -1,0 +1,40 @@
+[
+   
+    {
+        "id": null,
+        "name": "Form.md",
+        "localizedName": "表单",
+        "uuid": "190b949e-4a98-4d68-a06d-4a667850df1f"
+    },
+    {
+        "id": null,
+        "name": "Table.md",
+        "localizedName": "表格",
+        "uuid": "4aabad74-8d51-47c8-843a-b4117901dab4"
+    },
+    {
+        "id": null,
+        "name": "DescriptionList.md",
+        "localizedName": "描述列表",
+        "uuid": "7fa79a5b-bae5-411a-addd-3b84c7e0dc46"
+    },
+    {
+        "id": null,
+        "name": "Flow.md",
+        "localizedName": "流程",
+        "uuid": "e7e68a5e-6e0e-4aa7-9b64-c4341ebde54d"
+    },
+    {
+        "id": null,
+        "name": "CompareOCRResult.md",
+        "localizedName": "OCR结果对比",
+        "uuid": "e534e5f3-b95f-4509-b456-006387a0e066"
+    },
+    {
+        "id": null,
+        "name": "TaskLog.md",
+        "localizedName": "任务记录",
+        "uuid": "c1e7d9fe-cd94-43b8-8de4-0eb53c8bcd41"
+    }
+
+]

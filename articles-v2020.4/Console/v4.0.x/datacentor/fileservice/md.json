@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "Aboutfileservice.md",
+        "localizedName": "关于文件服务",
+        "uuid": "98329e07-8860-4e05-abcb-d360ec9b84fe",
+        "labels": "文件服务, 关于"
+    },
+    {
+        "id": null,
+        "name": "managefileservice.md",
+        "localizedName": "管理文件服务",
+        "uuid": "5ba1bcfb-6096-4915-9a81-ee9478ed1f84",
+        "labels": "管理文件, 服务"
+    }
+]

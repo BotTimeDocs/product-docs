@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "TableManage.md",
+        "localizedName": "数据表管理",
+        "uuid": "0996707c-d614-4634-8458-8a97c8402ae2",
+        "labels": "数据表, 管理, 小程序"
+    },
+    {
+        "id": null,
+        "name": "TableDetail.md",
+        "localizedName": "数据表编辑模式",
+        "uuid": "1bf3171a-03d8-4b3a-8b3a-df0c2e329520",
+        "labels": "数据表, 编辑, 模式, 小程序"
+    }
+]

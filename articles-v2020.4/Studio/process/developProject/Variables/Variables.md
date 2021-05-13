@@ -79,6 +79,20 @@
 >
 >如果要撤消此操作，请按 Ctrl + Z 。
 
+## 搜索变量
+
+当多个流程文件的多处使用到变量且需要查找并定位变量的位置时，可以从菜单栏中快捷搜索框或**视图 > 搜索**菜单中进行搜索操作。
+
+![搜索并定位变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/searchvariables20210323.png)
+
+在搜索框中输入需要搜索的变量，可查找并定位出所有流程文件中带有的指定变量。
+
+>**说明：**
+>
+>在搜索结果右上角，支持下拉选择在“所有文件”和“当前文件”中进行查找。
+
+![搜索结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/searchvariablesresult20210323.png)
+
 ## 浏览 .Net 变量类型
 
 要搜索“变量类型”下拉框中默认未显示的变量类型，请执行以下操作：

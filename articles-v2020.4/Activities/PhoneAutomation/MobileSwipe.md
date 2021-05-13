@@ -1,5 +1,7 @@
 # 滑动屏幕
+
 模拟人工进行尝手机屏幕效果。
+
 >**说明：**
 >
 > 该组件仅能放置于**连接设备**组件内，且操作自动绑定至外层设备。
@@ -22,6 +24,7 @@
 1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
 2. 在连接设备组件内拖入一个**滑动屏幕**组件。
 3. 单击**滑动屏幕**组件中的**指定元素**链接，在移动设备管理器界面按下鼠标左键从左往右或从右往左滑动，如下图所示。
-   ![滑动屏幕](https://docimages.blob.core.chinacloudapi.cn/images/Activities/swipescreen20201223.png)
+
+    ![滑动屏幕](https://docimages.blob.core.chinacloudapi.cn/images/Activities/swipescreen20201223.png)
 
 4. 保存并运行流程，可看到屏幕出现左滑或右滑的效果。

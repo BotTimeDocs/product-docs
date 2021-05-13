@@ -1,26 +1,20 @@
 [
     {
-        "id": null,
         "name": "README.md",
-        "localizedName": "小程序概述",
-        "uuid": "b5696b36-4ef4-4b20-9d88-2353c447657a",
-        "labels": "小程序，概述"
+        "localizedName": "关于云扩 ViCode 云码",
+        "uuid": "971190ee-f375-44ba-8f88-8a9c80d13318",
+        "labels": "ViCode"
     },
     {
-        "id": null,
-        "name": "aboutApps.md",
-        "localizedName": "关于云扩小程序",
-        "uuid": "b0209e2f-1e0a-46cb-8903-60719654430e",
-        "labels": "关于, 小程序"
+        "name": "v3.0.x",
+        "localizedName": "v3.0.x",
+        "uuid": "",
+        "labels": ""
     },
     {
-        "id": null,
-        "name": "devApps",
-        "localizedName": "小程序开发"
-    },
-    {
-        "id": null,
-        "name": "userApps",
-        "localizedName": "我的小程序"
+        "name": "v4.0.x",
+        "localizedName": "v4.0.x",
+        "uuid": "",
+        "labels": ""
     }
 ]

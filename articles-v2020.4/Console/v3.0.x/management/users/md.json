@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "aboutUsers.md",
+        "localizedName": "关于用户信息",
+        "uuid": "ceb83d90-a8c4-43ba-895e-50cf41938bb8",
+        "labels": "用户, 信息"
+    },
+    {
+        "id": null,
+        "name": "createUser.md",
+        "localizedName": "管理用户",
+        "uuid": "95169948-9ed8-494c-aeb5-9691f3a77da0",
+        "labels": "用户, 管理"
+    }
+]

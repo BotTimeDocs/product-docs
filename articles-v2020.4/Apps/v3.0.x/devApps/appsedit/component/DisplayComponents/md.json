@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "Text.md",
+        "localizedName": "文本",
+        "uuid": "5232c8e6-f1f1-4e8e-95e6-182fac84b7de",
+        "labels": "文本, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Image.md",
+        "localizedName": "图片",
+        "uuid": "3c040298-3150-4aeb-ac9b-1cbe37f52a96",
+        "labels": "图片, 显示组件"
+    }
+]

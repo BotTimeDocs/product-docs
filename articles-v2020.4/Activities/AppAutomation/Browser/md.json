@@ -33,5 +33,12 @@
         "localizedName": "关闭标签页",
         "uuid": "b46f6c66-9172-4bba-9cde-e7c2af78b24c",
         "labels": "关闭, 标签"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WebAction.BrowserClose",
+        "name": "BrowserClose.md",
+        "localizedName": "关闭浏览器",
+        "uuid": "797884b5-5513-4d1d-ae31-c636909c8efc",
+        "labels": "关闭, 浏览器"
     }
 ]

@@ -2,7 +2,27 @@
 
 在开发手机客户端软件的时候，通常会使用模拟器和真机两种方式来对 APP 进行调试，在这里两种方法都会介绍，实际操作过程中，可以根据自己需求来进行选择。
 
+> **注意：**
+>
+> 如 PC 端已打开“360 安全助手”等安全软件，请在服务前关闭此类软件。
+  
 ## Android
+
+### 前提条件
+
+添加 ADB 环境变量。
+
+   > **说明：**
+   > ADB 是 Google 官方提供的 Android 调试工具。
+
+   <br> 创建 adb 系统环境变量（adb 系统环境变量地址根据移动端服务包 Encoo.Android.Automation.zip 的解压文件路径进行配置）并添加至 Path 中，格式：“(**PC 文件路径**)\Encoo.Android.Automation\airtest\core\android\static\adb\windows”，其中括号内内容根据实际情况改变，其余部分不变。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`
+
+   ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
+
+   > **说明：**
+   >
+   > - 若系统环境变量中已存在其它 ADB 环境变量的配置（如，模拟器），需删除对应 ADB 环境变量的配置。
+   > - 若每次更新安卓服务包时，服务路径会发生改变，需重新配置 ADB 环境变量。
 
 ### 方式一：Android 模拟器
 
@@ -30,9 +50,7 @@
     | 6        | 海马玩         | adb connect 127.0.0.1: 26744 |
     | 7        | BlueStacks     | adb connect 127.0.0.1: 5555  |
 
-3. 将 ADB 添加到环境变量。
-
-4. 在 PC 端的 **命令行提示符** 界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
+3. 在 PC 端的 **命令行提示符** 界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
 
     ![命令行提示符](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20201104.png)
 
@@ -58,23 +76,7 @@
 
 4. 连接测试
 
-   a. 将 ADB 添加到环境变量
-
-   > **说明：**
-   > ADB 是 Google 官方提供的 Android 调试工具。
-
-   <br>创建adb系统环境变量（adb系统环境变量地址根据移动端服务包Encoo.Android.Automation.zip的解压文件路径进行配置）并添加至Path中，格式：“(**PC文件路径**)\Encoo.Android.Automation\airtest\core\android\static\adb\windows”，其中括号内内容根据实际情况改变，其余部分不变。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`
-
-   ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
-
-   > **说明：**
-   >
-   > - 若系统环境变量中已存在其它 ADB 环境变量的配置（如，模拟器），需删除对应 ADB 环境变量的配置。
-   > - 若每次更新安卓服务包时，服务路径会发生改变，需重新配置 ADB 环境变量。
-  
-   b. 检查设备是否连接
-
-   在 PC 端的**命令行提示符**界面中，输入 `adb devices` 命令，连接成功示例如下:
+   在 PC 端的 **命令行提示符** 界面中，输入 `adb devices` 命令，连接成功示例如下:
 
    ![连接成功示例](https://docimages.blob.core.chinacloudapi.cn/images/Studio/deviceconnect20210129.png)
 

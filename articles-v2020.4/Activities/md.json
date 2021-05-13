@@ -2,21 +2,9 @@
     {
         "id": "",
         "name": "README.md",
-        "localizedName": "组件库概述",
-        "uuid": "563fc712-aaaf-4ce2-b549-be733f97255e",
-        "labels": "组件库，概述"
-    },
-    {
-        "id": "",
-        "name": "ComponentsIntroduction.md",
-        "localizedName": "介绍",
+        "localizedName": "关于云扩组件库",
         "uuid": "9f790d12-315d-4aa2-b69f-7ed0d02997a5",
         "labels": "介绍"
-    },
-    {
-        "id": null,
-        "name": "WorkflowControl",
-        "localizedName": "流程控制"
     },
     {
         "id": null,
@@ -30,6 +18,11 @@
     },
     {
         "id": null,
+        "name": "CodeExecuter",
+        "localizedName": "代码工具"
+    },
+    {
+        "id": null,
         "name": "System",
         "localizedName": "系统"
     },
@@ -40,23 +33,18 @@
     },
     {
         "id": null,
-        "name": "DataTable",
-        "localizedName": "数据表"
-    },
-    {
-        "id": null,
         "name": "Database",
         "localizedName": "数据库"
     },
     {
         "id": null,
-        "name": "CodeExecuter",
-        "localizedName": "代码工具"
+        "name": "DataTable",
+        "localizedName": "数据表"
     },
     {
         "id": null,
-        "name": "Triggers",
-        "localizedName": "触发器"
+        "name": "WorkflowControl",
+        "localizedName": "流程控制"
     },
     {
         "id": null,
@@ -72,6 +60,16 @@
         "id": null,
         "name": "Console",
         "localizedName": "控制台"
+    },
+    {
+        "id": null,
+        "name": "Resource",
+        "localizedName": "资源"
+    },
+    {
+        "id": null,
+        "name": "Triggers",
+        "localizedName": "触发器"
     },
     {
         "id": null,

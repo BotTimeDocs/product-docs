@@ -74,7 +74,7 @@
         "name": "ExtractStructuredData.md",
         "localizedName": "获取结构化数据",
         "uuid": "4585a5ec-7386-4438-a083-dc345e6e94f7",
-        "labels": "获取, 结构化, 数据"
+        "labels": "获取结构化数据"
     },
     {
         "id": "Encootech.AutomationActivity.GetElementActivity",
@@ -94,8 +94,8 @@
         "id": "Encootech.AutomationActivity.WebAction.SetWebElementPropertyValue",
         "name": "SetWebElementAttributeValue.md",
         "localizedName": "设置Web元素属性值",
-        "uuid": "eac355c5-2468-443e-9906-f93aeb44c910",
-        "labels": "属性, 设置, Web, 元素"
+        "uuid": "67a6c50f-b047-4ae8-b2ef-3e262afc07e2",
+        "labels": "属性值, 设置, 元素"
     },
     {
         "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
@@ -159,6 +159,11 @@
         "localizedName": "匹配图片",
         "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613",
         "labels": "图片, 匹配"
+    },
+    {
+        "id": null,
+        "name": "Window",
+        "localizedName": "窗口"
     },
     {
         "id": null,

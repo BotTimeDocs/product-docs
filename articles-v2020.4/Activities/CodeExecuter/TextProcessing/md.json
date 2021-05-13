@@ -28,6 +28,13 @@
         "labels": "截取, 文本, 字符串"
     },
     {
+        "id": "Encoo.Text.Activity.Activities.AppendTextActivity",
+        "name": "AppendTextActivity.md",
+        "localizedName": "追加文本",
+        "uuid": "52d303d6-7a96-453c-b877-ec2c9870a9e2",
+        "labels": "追加, 文本, 字符串"
+    },
+    {
         "id": "Encoo.Text.Activity.Activities.GetLengthOfTextActivity",
         "name": "GetLengthOfTextActivity.md",
         "localizedName": "获取文本长度",
@@ -40,6 +47,13 @@
         "localizedName": "获取文本索引",
         "uuid": "67984545-1c4f-4701-9915-b3db6b9260a4",
         "labels": "获取, 文本, 索引, 字符串"
+    },
+    {
+        "id": "Encoo.Text.Activity.Activities.ConvertCaseActivity",
+        "name": "convertcase.md",
+        "localizedName": "转换大小写",
+        "uuid": "b60811ca-91e1-405f-8d30-401b6db58c57",
+        "labels": "转换大小写"
     },
     {
         "id": "Encoo.Text.Activity.Activities.GenerateGUIDActivity",

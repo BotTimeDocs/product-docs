@@ -37,7 +37,7 @@
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebyconsole2-N-1.png)
 
-机器人如何创建：详见[控制台创建机器人](..\Console\robot\manageRobot.md?_v=v2020.4)
+机器人如何创建：详见[控制台创建机器人](../Console/v4.0.x/robot/manageRobot.md)
 
 ## 本地激活
 

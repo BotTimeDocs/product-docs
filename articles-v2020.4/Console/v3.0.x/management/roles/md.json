@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "aboutRoles.md",
+        "localizedName": "关于角色管理",
+        "uuid": "ab402feb-92d4-490d-a016-262a06538e43",
+        "labels": "角色管理于"
+    },
+    {
+        "id": null,
+        "name": "manageRoles.md",
+        "localizedName": "管理角色",
+        "uuid": "138a1095-dc75-4a5b-b18a-8f2028adc2fe",
+        "labels": "列表, 角色"
+    }
+]

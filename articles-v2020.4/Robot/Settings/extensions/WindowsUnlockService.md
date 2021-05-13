@@ -8,7 +8,7 @@
 
 ## 案例实现
 
-编辑器或机器人在运行[锁屏](../../Activities/System/Screen/WindowsLockActivity.md)或[解锁](../../Activities/System/Screen/WindowsUnlockActivity.md)组件之前，需以**管理员身份**安装 **Windows 屏幕解锁服务**，以实现在 Windows 中自动化软件界面的操作。
+编辑器或机器人在运行[锁屏](../../../Activities/System/Screen/WindowsLockActivity.md)或[解锁](../../../Activities/System/Screen/WindowsUnlockActivity.md)组件之前，需以**管理员身份**安装 **Windows 屏幕解锁服务**，以实现在 Windows 中自动化软件界面的操作。
 
 1. **安装 Windows 屏幕解锁服务** </br>
   

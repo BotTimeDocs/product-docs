@@ -13,20 +13,19 @@
     },
     {
         "name": "ReleaseNotes.md",
-        "localizedName": "发版说明",
-        "uuid": "20c471b3-c9e4-4e1f-8f1b-69494d6b1fad",
-        "labels": "发版, 版本"
+        "localizedName": "最新发版说明",
+        "uuid": "4d3fd93f-a9a1-41e5-abad-63aad543c919",
+        "labels": "发版"
+    },
+    {
+        "name": "ReleaseNotes",
+        "localizedName": "历史发版说明"
     },
     {
         "name": "FunctionList.md",
         "localizedName": "功能清单",
-        "uuid": "b05beace-0826-4877-96b7-583979c4f853"
-    },
-    {
-        "name": "QA.md",
-        "localizedName": "常见问题",
-        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
-        "labels": ""
+        "uuid": "b05beace-0826-4877-96b7-583979c4f853",
+        "labels": "功能清单"
     },
     {
         "name": "Studio",
@@ -50,6 +49,17 @@
     {
         "id": null,
         "name": "Apps",
-        "localizedName": "云扩小程序"
+        "localizedName": "云扩ViCode云码"
+    },
+    {
+        "name": "QA.md",
+        "localizedName": "常见问题",
+        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
+        "labels": "常见问题，FAQ"
+    },
+    {
+        "id": null,
+        "name": "Legal",
+        "localizedName": "法律申明"
     }
 ]

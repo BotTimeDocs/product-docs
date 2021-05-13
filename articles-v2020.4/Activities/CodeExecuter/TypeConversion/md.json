@@ -10,7 +10,8 @@
         "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.TextToNumbericActivity",
         "name": "TextToNumbericActivity.md",
         "localizedName": "文本转数值",
-        "uuid": "7ede9827-ccf5-46e8-9025-ee4a73a72763"
+        "uuid": "7ede9827-ccf5-46e8-9025-ee4a73a72763",
+        "labels": "文本，数值，转换"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.ArrayToCollectionActivity",

@@ -1,0 +1,64 @@
+[
+    {
+        "id": null,
+        "name": "devApps.md",
+        "localizedName": "应用开发模式",
+        "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8",
+        "labels": "应用开发"
+    },
+    {
+        "id": null,
+        "name": "BasicOperation.md",
+        "localizedName": "基本操作",
+        "uuid": "cdf3e9e9-d2ce-412c-b7bf-f0e9a8e9fc65",
+        "labels": "基本操作"
+    },
+    {
+        "id": null,
+        "name": "PageSetting.md",
+        "localizedName": "大纲页面",
+        "uuid": "bc4a3f42-d2ab-4610-ba97-1c22d3bb2a0a",
+        "labels": "配置, 资源，页面"
+    },
+    {
+        "id": null,
+        "name": "BasicSetting.md",
+        "localizedName": "设置页面",
+        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73",
+        "labels": "设置, 基本, 应用"
+    },
+    {
+        "id": null,
+        "name": "variable.md",
+        "localizedName": "变量管理",
+        "uuid": "1106d4e9-8436-424c-b93c-e74530ff8ef7",
+        "labels": "变量，全局变量"
+    },
+    {
+        "id": null,
+        "name": "datasource.md",
+        "localizedName": "数据页面",
+        "uuid": "6339568b-8a29-4406-9a7c-369c9477facb",
+        "labels": "数据源, 组件, 应用"
+    },
+    {
+        "id": null,
+        "name": "executecode.md",
+        "localizedName": "代码页面",
+        "uuid": "a94171e6-c2e6-4748-8c7f-b59ccb35775a",
+        "labels": "代码, 组件, 应用"
+    },
+    {
+        "id": null,
+        "name": "connector.md",
+        "localizedName": "连接页面",
+        "uuid": "790b0346-277c-4366-91cb-886f35190e05",
+        "labels": "连接器, 映射关系, 应用"
+    },
+    {
+        "id": null,
+        "name": "component",
+        "localizedName": "组件库",
+        "uuid": ""
+    }
+]

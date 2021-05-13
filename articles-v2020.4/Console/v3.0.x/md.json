@@ -1,0 +1,80 @@
+[
+    {
+        "id": null,
+        "name": "README.md",
+        "localizedName": "关于云扩RPA控制台",
+        "uuid": "6010df12-dbb8-4692-b99f-d48bd7fe7f98",
+        "labels": "云扩, 控制台"
+    },
+    {
+        "id": null,
+        "name": "userlogin.md",
+        "localizedName": "用户登录",
+        "uuid": "5bdbc7d4-b3de-4b5d-92e0-e2280068a1d4",
+        "labels": "用户, 登录"
+    },
+    {
+        "id": null,
+        "name": "homepage.md",
+        "localizedName": "首页",
+        "uuid": "8f7fc6f7-3c76-4a6b-96cb-39de9571fd2c",
+        "labels": "首页"
+    },
+    {
+        "id": null,
+        "name": "dashboard",
+        "localizedName": "仪表盘"
+    },
+    {
+        "id": null,
+        "name": "packages",
+        "localizedName": "流程包管理"
+    },
+    {
+        "id": null,
+        "name": "robot",
+        "localizedName": "机器人管理"
+    },
+    {
+        "id": null,
+        "name": "queue",
+        "localizedName": "调度队列"
+    },
+    {
+        "id": null,
+        "name": "workflow",
+        "localizedName": "流程部署"
+    },
+    {
+        "id": null,
+        "name": "job",
+        "localizedName": "任务记录"
+    },
+    {
+        "id": null,
+        "name": "management",
+        "localizedName": "全局管理"
+    },
+    {
+        "id": null,
+        "name": "Apps",
+        "localizedName": "应用管理"
+    },
+    {
+        "id": null,
+        "name": "datacentor",
+        "localizedName": "数据中心"
+    },
+    {
+        "id": null,
+        "name": "docreader",
+        "localizedName": "文档理解"
+    },
+    {
+        "id": null,
+        "name": "cancelaccount.md",
+        "localizedName": "注销账户",
+        "uuid": "dc6af5dd-49b9-4276-bc56-876e057a30e7",
+        "labels": "账户, 注销"
+    }
+]

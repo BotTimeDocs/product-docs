@@ -42,6 +42,27 @@
         "labels": "滑动, 屏幕, 移动端"
     },
     {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileCropActivity",
+        "name": "MobileCrop.md",
+        "localizedName": "截屏",
+        "uuid": "6edd8f91-e7e1-4b46-bead-71a857e93930",
+        "labels": "截屏, 截图, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetClipboardTextActivity",
+        "name": "MobileGetClipboardText.md",
+        "localizedName": "获取剪贴板文本",
+        "uuid": "37d3e974-f4c5-4031-9486-fd83f912d694",
+        "labels": "获取, 剪贴板文本, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSetClipboardTextActivity",
+        "name": "MobileSetClipboardText.md",
+        "localizedName": "设置剪贴板文本",
+        "uuid": "cbb0b4e5-ff68-4186-98ae-e04fc319be2c",
+        "labels": "设置, 剪贴板文本, 移动端"
+    },
+    {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileSendTextActivity",
         "name": "MobileSendText.md",
         "localizedName": "发送文本",
@@ -56,6 +77,13 @@
         "labels": "获取, 文本, 移动端"
     },
     {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileStructureDataActivity",
+        "name": "MobileStructureData.md",
+        "localizedName": "获取结构化数据",
+        "uuid": "64b3d6c1-867d-4294-a9a7-e3e7ea51f3ae",
+        "labels": "获取, 结构化, 数据， 移动端"
+    },
+    {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileGetAttributeActivity",
         "name": "MobileGetAttribute.md",
         "localizedName": "获取元素属性值",
@@ -67,7 +95,7 @@
         "name": "MobileGetSmsCode.md",
         "localizedName": "获取短信验证码",
         "uuid": "80e84ae7-d820-4493-bbfb-1bdb21efe7b8",
-        "labels": "获取手机验证码"
+        "labels": "获取短信验证码"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileClearElementInputActivity",

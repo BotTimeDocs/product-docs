@@ -1,0 +1,19 @@
+[
+    {
+        "id": null,
+        "name": "README.md",
+        "localizedName": "关于云扩小程序",
+        "uuid": "d09786fd-e146-45d3-815a-5450dacba957",
+        "labels": "关于, 小程序"
+    },
+    {
+        "id": null,
+        "name": "devApps",
+        "localizedName": "小程序开发"
+    },
+    {
+        "id": null,
+        "name": "userApps",
+        "localizedName": "我的小程序"
+    }
+]
