@@ -1,12 +1,6 @@
 [
     {
         "name": "README.md",
-        "localizedName": "云扩产品文档概述",
-        "uuid": "fe11155e-50d6-40cd-a47c-a763f06fd4c9",
-        "labels": "云扩，产品文档，概述"
-    },
-    {
-        "name": "Index.md",
         "localizedName": "概览",
         "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
         "labels": "RPA, 平台, 云扩"
