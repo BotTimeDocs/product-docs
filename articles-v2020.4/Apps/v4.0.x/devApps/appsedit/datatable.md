@@ -29,9 +29,9 @@
 
 2. 在弹出的“打开”文件对话框中，选择需要导入的数据表。
 
-   > **说明：**
-   >
-   > 需要导入的数据表可以是已导出的数据表，也可以是自定义的 excel 或 csv 格式的表格文件。
+    > **说明：**
+    >
+    > 需要导入的数据表可以是已导出的数据表，也可以是自定义的 excel 或 csv 格式的表格文件。
 
     ![选择需要导入的数据表](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/selectimportdatatable20210511.png)
 
