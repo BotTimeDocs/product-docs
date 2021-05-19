@@ -1,17 +1,20 @@
 [
     {
+        "id": null,
         "name": "README.md",
         "localizedName": "关于云扩 RPA 控制台",
         "uuid": "8deb15cc-0123-46d9-89bc-69d0ec986eb3",
         "labels": "控制台"
     },
     {
+        "id": null,
         "name": "v3.0.x",
         "localizedName": "v3.0.x",
         "uuid": "",
         "labels": ""
     },
     {
+        "id": null,
         "name": "v4.0.x",
         "localizedName": "v4.0.x",
         "uuid": "",
