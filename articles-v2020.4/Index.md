@@ -24,4 +24,4 @@
 - [云扩组件库文档](./Activities/README.md)
 - [云扩 RPA 机器人文档](./Robot/aboutRobot.md)
 - [云扩 RPA 控制台文档](./Console/v4.0.x/README.md)
-- [云扩 ViCode 文档](./Apps/v4.0.x/README.md)
+- [云扩 ViCode 云码文档](./Apps/v4.0.x/README.md)
