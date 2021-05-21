@@ -52,6 +52,12 @@
         "labels": "常见问题，FAQ"
     },
     {
+        "name": "Glossary.md",
+        "localizedName": "术语解释",
+        "uuid": "713e94b4-4a6e-4364-a38e-f028790123bd",
+        "labels": "术语，名词"
+    },
+    {
         "id": null,
         "name": "Legal",
         "localizedName": "法律申明"
