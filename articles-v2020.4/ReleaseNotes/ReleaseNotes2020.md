@@ -318,7 +318,7 @@
 
 1. 新增 Microsoft Edge 浏览器扩展插件，在进行自动化 Edge 操作之前，请先安装 [Microsoft Edge 扩展](../Studio/Extensions/EdgeExtension.md)。
 2. **选择器编辑器** 新增获取 XPath 功能，可以使用 XPath 的形式对元素进行展现，参见 [选择器](../Activities/Appendix/Selector.md)。
-3. 新增 **IE 前端日志收集器** 应用程序，使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志，参见 [收集 IE 前端日志工具](../Activities/Appendix/IELog.md)。
+3. 新增 **IE 前端日志收集器** 应用程序，使用该应用程序调试用 IE 完成的 RPA 流程并获取调试日志。
 
 #### 【组件】
 

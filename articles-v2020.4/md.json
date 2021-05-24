@@ -16,12 +16,6 @@
         "localizedName": "历史发版说明"
     },
     {
-        "name": "FunctionList.md",
-        "localizedName": "功能清单",
-        "uuid": "b05beace-0826-4877-96b7-583979c4f853",
-        "labels": "功能清单"
-    },
-    {
         "name": "Studio",
         "localizedName": "云扩RPA编辑器"
     },

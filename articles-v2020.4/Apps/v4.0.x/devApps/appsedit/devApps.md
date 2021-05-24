@@ -17,14 +17,14 @@
 
 1. 菜单导航栏：ViCode编辑模式由以下几个区域组成。
 
-    - [大纲页面](../devApps/appsedit/PageSetting.md)：管理应用内的页面、数据源和代码。
-    - [设置页面](../devApps/appsedit/BasicSetting.md)：管理应用的全局设置。
-    - [全局变量页面](../devApps/appsedit/variable.md)：展示和管理应用的变量。
-    - [数据页面](../devApps/appsedit/datasource.md)：管理应用中的数据源，包括 SQL 和 Restful API。
-    - [代码页面](../devApps/appsedit/executecode.md)：管理应用中的代码，包括 JavaScript 代码。
-    - [连接器映射关系页面](../devApps/appsedit/connector.md)：配置测试连接器与生产连接器的映射关系。
+    - [大纲页面](./PageSetting.md)：管理应用内的页面、数据源和代码。
+    - [设置页面](./BasicSetting.md)：管理应用的全局设置。
+    - [全局变量页面](./variable.md)：展示和管理应用的变量。
+    - [数据页面](./datasource.md)：管理应用中的数据源，包括 SQL 和 Restful API。
+    - [代码页面](./executecode.md)：管理应用中的代码，包括 JavaScript 代码。
+    - [连接器映射关系页面](./connector.md)：配置测试连接器与生产连接器的映射关系。
 2. 目录树区域：在开发应用过程中用到的页面、数据源、代码等大纲目录。
-3. [组件库区域](../devApps/appsedit/component/aboutComponent.md)：通过选择不同的组件，创建页面元素，开发应用。
+3. [组件库区域](./component/aboutComponent.md)：通过选择不同的组件，创建页面元素，开发应用。
 4. 模拟界面（即，画布区域）：用于向用户展示编辑的界面样式，用户可以在模拟界面选中/拖拽移动/删除组件。
 
    >**小技巧：**

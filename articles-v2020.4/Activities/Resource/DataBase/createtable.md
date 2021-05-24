@@ -18,7 +18,7 @@
 
 ## 操作样例
 
-1. 拖入一个**搭建数据表**组件至流程中，详情请参见[搭建数据表](../DataTable/BuildDataTable.md)，此处搭建如下图所示。
+1. 拖入一个**搭建数据表**组件至流程中，详情请参见[搭建数据表](../../DataTable/BuildDataTable.md)，此处搭建如下图所示。
 
     ![搭建数据表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/builddatatable20210323.png)
 

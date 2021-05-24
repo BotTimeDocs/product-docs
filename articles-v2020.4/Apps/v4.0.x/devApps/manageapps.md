@@ -69,7 +69,7 @@
 
 ## 编辑应用
 
-进入已创建应用的编辑模式，详情请参见 [应用开发模式](../devApps.md)。
+进入已创建应用的编辑模式，详情请参见 [应用开发模式](../../v4.0.x/devApps/appsedit/devApps.md)。
 
 ![编辑应用](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/devapps20210426.png)
 
