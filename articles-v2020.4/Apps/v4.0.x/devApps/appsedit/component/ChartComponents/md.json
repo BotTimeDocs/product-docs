@@ -8,6 +8,13 @@
     },
     {
         "id": null,
+        "name": "ChartLine.md",
+        "localizedName": "折线图",
+        "uuid": "65d36cd3-b6f7-41e5-aaa6-586299580550",
+        "labels": "折线图,图表"
+    },
+    {
+        "id": null,
         "name": "pie.md",
         "localizedName": "饼状图",
         "uuid": "4a9b51e3-e245-4a6b-afa5-b1f03f94a0ec",

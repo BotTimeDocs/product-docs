@@ -21,7 +21,7 @@
 
 ## 操作样例
 
-1. 使用**创建表**组件已创建数据表，参见[数据表](../Resource/createtable.md)。
+1. 使用**创建表**组件已创建数据表，参见[数据表](./createtable.md)。
 2. 拖入一个**更新表**组件至流程中。
 
    ![更新表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/updatedatatable20210323.png)

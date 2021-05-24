@@ -16,12 +16,6 @@
         "localizedName": "历史发版说明"
     },
     {
-        "name": "FunctionList.md",
-        "localizedName": "功能清单",
-        "uuid": "b05beace-0826-4877-96b7-583979c4f853",
-        "labels": "功能清单"
-    },
-    {
         "name": "Studio",
         "localizedName": "云扩RPA编辑器"
     },
@@ -50,6 +44,12 @@
         "localizedName": "常见问题",
         "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
         "labels": "常见问题，FAQ"
+    },
+    {
+        "name": "Glossary.md",
+        "localizedName": "术语解释",
+        "uuid": "713e94b4-4a6e-4364-a38e-f028790123bd",
+        "labels": "术语，名词"
     },
     {
         "id": null,

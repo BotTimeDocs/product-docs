@@ -60,5 +60,11 @@
         "name": "component",
         "localizedName": "组件库",
         "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "datatable.md",
+        "localizedName": "数据表",
+        "uuid": "数据表，表格"
     }
 ]
