@@ -133,6 +133,13 @@
         "labels": "去重, 数据, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelTextToColumnsActivity",
+        "name": "OfficeExcelTextToColumns.md",
+        "localizedName": "分列",
+        "uuid": "3b7fc6fa-3881-4420-81c6-62d541a2487e",
+        "labels": "分列, 数据, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
@@ -187,6 +194,13 @@
         "localizedName": "合并单元格",
         "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b",
         "labels": "单元格, 合并, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelCopyAndPasteAreaActivity",
+        "name": "OfficeExcelCopyAndPasteArea.md",
+        "localizedName": "复制粘贴区域",
+        "uuid": "8d321071-2381-420a-9894-da2c456b5a02",
+        "labels": "粘贴区域, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelRunMacroActivity",
