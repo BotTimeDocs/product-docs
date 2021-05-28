@@ -4,11 +4,5 @@
         "localizedName": "用户界面",
         "uuid": "b7963e12-b4c9-41dc-bca5-ebc6d69b4cf7",
         "labels": "用户界面"
-    },
-    {
-        "name": "terms.md",
-        "localizedName": "产品术语",
-        "uuid": "733620c8-89a0-4d31-80b7-ec2c3c41a4b4",
-        "labels": "术语"
     }
 ]
