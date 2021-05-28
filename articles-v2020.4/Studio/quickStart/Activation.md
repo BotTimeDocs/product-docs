@@ -8,7 +8,7 @@
 
 ![激活方式](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Activateway20210528.png)
 
-### 激活社区版编辑器
+### 社区版编辑器激活
 
 **社区版**：只能通过 **登录控制台** 激活，此激活方式仅限拥有控制台时使用。
 
@@ -26,7 +26,7 @@
 
     ![选择租户](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selectthetenant20210528.png)
 
-### 激活企业版编辑器
+### 企业版编辑器激活
 
 **企业版**：可通过 **登录控制台** 或 **使用许可证**激活。
 
