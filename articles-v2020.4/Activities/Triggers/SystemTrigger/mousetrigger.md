@@ -32,18 +32,18 @@
 2. 双击该组件进入“鼠标触发器”组件中。
 3. 设置“鼠标触发器”组件的属性。
 
-   ![鼠标触发器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mousetrigger20210508.png)
+    ![鼠标触发器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mousetrigger20210508.png)
 
-   - 鼠标键：选择“左键”。
-   - 点击类型：选择“按下”。
+    - 鼠标键：选择“左键”。
+    - 点击类型：选择“按下”。
 
 4. 在该组件的“触发后操作”区域中，拖入一个“提示框”组件。
 5. 设置“提示框”组件的属性信息。
 
-   ![提示框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mouseinfo20210508.png)
+    ![提示框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mouseinfo20210508.png)
 
-   - 提示信息：输入提示的文字内容，如，`"鼠标触发成功"`。
-   - 提示时长（秒）：输入提示框展示时长，如，`500`。
+    - 提示信息：输入提示的文字内容，如，`"鼠标触发成功"`。
+    - 提示时长（秒）：输入提示框展示时长，如，`500`。
 
 6. 保存并运行流程。
 7. 按下鼠标左键。

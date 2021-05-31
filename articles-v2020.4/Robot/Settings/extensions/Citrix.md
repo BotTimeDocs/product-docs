@@ -93,15 +93,18 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 ## 常见问题
 
 1. **Q：安装 Encoo Remote Runtime 程序后为何无法进行 Citrix 自动化操作？**
-   **A：**
-   - Encoo Remote Runtime 程序需与本地客户端使用的自动化组件版本相对应，否则无法正常工作。
-     >**说明：**
-     >
-     >- 本地客户端使用的**自动化组件版本**在项目面板中的依赖项查看。
-     >- 远程服务端使用的 **Encoo Remote Runtime 程序版本**在下载安装包时可查看。
+
+    **A：**
+
+    - Encoo Remote Runtime 程序需与本地客户端使用的自动化组件版本相对应，否则无法正常工作。
+    >**说明：**
+    >
+    >- 本地客户端使用的**自动化组件版本**在项目面板中的依赖项查看。
+    >- 远程服务端使用的 **Encoo Remote Runtime 程序版本**在下载安装包时可查看。
 
     - 若编辑器或机器人升级后，Encoo Remote Runtime 程序也需升级至对应的版本，否则无法正常工作。
 
 2. **Q：为何设置了 Citrix 的“首选项 > 显示”后，Web 元素指定元素时的定位发生偏移，桌面元素在窗口滚动后验证仍会高亮显示在原位置？**
+
    **A：** 当前 Encoo Remote Runtime 仅支持工作在“最佳分辨率”之上，遇到此现象时，需在 Citrix 的“首选项 > 显示”中设置"最佳分辨率"。
    ![最佳分辨率](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixproblem20210108.png)
