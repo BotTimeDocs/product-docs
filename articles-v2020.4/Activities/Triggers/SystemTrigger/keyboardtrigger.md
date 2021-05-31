@@ -28,19 +28,19 @@
 
     ![键盘触发器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/keyboardtrigger20210508.png)
 
-   - 触发等待时间：等待触发的时间，如，`00:00:10`。
-   - 键值：键盘按下的键值，如，`"4"`。
+    - 触发等待时间：等待触发的时间，如，`00:00:10`。
+    - 键值：键盘按下的键值，如，`"4"`。
 
 4. 在该组件的“触发后操作”区域中，拖入一个“提示框”组件。
 5. 设置“提示框”组件的属性。
 
     ![提示信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/info20210508.png)
 
-   - 提示信息：输入提示的文字内容，如，`"键盘触发成功"`。
-   - 提示时长（秒）：输入提示框展示时长，如，`500`。
+    - 提示信息：输入提示的文字内容，如，`"键盘触发成功"`。
+    - 提示时长（秒）：输入提示框展示时长，如，`500`。
 
 6. 保存并运行流程。
 7. 按下键盘数字键“4”。
 8. 在桌面右下角，查看运行效果。
 
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/keyboardresult20210508.png)
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/keyboardresult20210508.png)
