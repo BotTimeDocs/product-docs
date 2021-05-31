@@ -2,6 +2,10 @@
 
 在 **Python 环境** 组件内，拖入 **执行 Python 代码**组件，用于执行自定义的 Python 代码。
 
+> **小技巧：**
+>
+> 将项目面板中的 Python 代码文件（扩展名为.py）拖拽至编辑区域，将自动生成“执行 Python 代码”组件。
+
 ## 属性
 
 ### 基本
@@ -42,4 +46,4 @@
 
 7. 在输出窗口中查看最终的输出值。
 
-    ![输出结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/outputpython20210429.png)     
+    ![输出结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/outputpython20210429.png)

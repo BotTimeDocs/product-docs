@@ -12,9 +12,13 @@
 
 2. 在解压完成的文件夹中，双击 **Encoo.Android.Automation.exe** 应用程序。
 
-3. 在弹出的 **云扩 Android 服务管理器** 窗口中，单击 **连接服务**。
+3. 在弹出的 **云扩 Android 服务管理器** 窗口中输入自定义端口号，单击 **连接服务**。
 
-    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Andriodconnect20201104.png)
+    >**说明：**
+    >
+    >自定义的端口号，建议输入8080~65535之间的任意数值，但如果连接的模拟器有默认端口，请与之区分。
+
+    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/connectservice20210512.png)
 
 4. 服务连接成功，如下图所示。
 

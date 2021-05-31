@@ -34,5 +34,17 @@
         "localizedName": "IBM DB2扩展",
         "uuid": "c9d43f8d-9e74-43c8-9fc8-247fdc4c146a",
         "labels": "IBM, DB2, 扩展"
+    },
+    {
+        "name": "Citrix.md",
+        "localizedName": "Citrix 扩展（企业版）",
+        "uuid": "fa9c2588-0188-417f-8bbe-0c16c772d1c5",
+        "labels": "扩展, Citrix"
+    },
+    {
+        "name": "windowsrdpextension.md",
+        "localizedName": "Windows远程桌面扩展（企业版）",
+        "uuid": "b9a0f88a-5b81-44b0-bcab-b4853e20e185",
+        "labels": "Windows, RDP, 远程桌面，扩展"
     }
 ]

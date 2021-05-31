@@ -5,5 +5,12 @@
         "localizedName": "设置窗口",
         "uuid": "3722877d-886a-45ee-8f38-c0711405f8bd",
         "labels": "最大化, 最小化, 还原, 窗口"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WindowActivity.AttachRemoteWindow",
+        "name": "attachremotewindow.md",
+        "localizedName": "绑定远程窗口",
+        "uuid": "47aa43ac-2e1f-4f5b-8304-40b661699788",
+        "labels": "绑定远程窗口, 窗口"
     }
 ]
