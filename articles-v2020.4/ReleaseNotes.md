@@ -35,7 +35,7 @@
 
 #### 【机器人】
 
-1. 在企业版的”设置 > 扩展“页面，新增 [Ctrix 扩展](./Robot/Settings/extensions/Citrix.md) 和 [Windows 远程桌面扩展](./Robot/Settings/extensions/windowsrdpextension.md)，与编辑器企业版中的扩展保持一致，提升用户使用体验。
+1. 在企业版的”设置 > 扩展“页面，新增 [Citrix 扩展](./Robot/Settings/extensions/Citrix.md) 和 [Windows 远程桌面扩展](./Robot/Settings/extensions/windowsrdpextension.md)，与编辑器企业版中的扩展保持一致，提升用户使用体验。
 
 ### 改进与增强
 
