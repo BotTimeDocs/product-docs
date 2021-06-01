@@ -21,9 +21,10 @@
    ![image-20201207161253694](https://docimages.blob.core.chinacloudapi.cn/images/Activities/image-20201207161253694.png)
 
 4. 双击 **调用流程（引用项目）** 组件进行配置：选择需调用的流程及流程主文件，如下图所示。
-   > **说明：**
-   >
-   > （可选）单击“设置参数”按钮，可对当前调用的流程进行设置参数。
+
+    > **说明：**
+    >
+    > （可选）单击“设置参数”按钮，可对当前调用的流程进行设置参数。
 
     ![image-20201207161408189](https://docimages.blob.core.chinacloudapi.cn/images/Activities/image-20201207161408189.png)
 
