@@ -18,9 +18,9 @@
 
 ### 收件人
 
-- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
-- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
-- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
 
 ### 邮件
 

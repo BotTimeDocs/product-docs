@@ -25,9 +25,9 @@
 
 ### 邮件
 
-- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
-- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
-- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分开分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
+- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。仅支持字符串变量和字符串
 - **邮件主题** ：发送邮件的主题。仅支持字符串变量和字符串
 - **邮件内容** ：发送邮件的正文内容。仅支持字符串变量和字符串
 - **附件** ：发送邮件的附件。支持相对和绝对路径。可写多个附件地址，具体写法参考：new List <string>(){"文件 1 路径", "文件 2 路径"}，也可以点击 "..." 在弹窗中选择文件后自动生成
