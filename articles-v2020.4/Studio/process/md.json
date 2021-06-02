@@ -12,10 +12,10 @@
         "labels": ""
     },
     {
-        "name": "OpenProject",
+        "name": "OpenProject.md",
         "localizedName": "打开项目",
-        "uuid": "",
-        "labels": ""
+        "uuid": "2f77cd85-145b-44f6-9a47-892c0b0d9231",
+        "labels": "打开项目"
     },    
     {
         "name": "ReferenceProject.md",
