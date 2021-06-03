@@ -80,7 +80,7 @@ Encoo Remote Runtime为运行在 Citrix 服务器上的组件，可以使Citrix 
 - 卸载远程服务端 Encoo Remote Runtime 程序
   在控制面板中与正常卸载程序一样，卸载`Encoo Remote Runtime 程序`即可。
 
-## Citrix 操作示例
+## Citrix 操作样例
 
 为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于从浏览器中抓取网页数据后，保存到记事本中并修改字体。
 

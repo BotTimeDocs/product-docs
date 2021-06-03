@@ -1,20 +1,26 @@
 # 发布自动化项目
 
+## 概述
+
 **发布自动化项目** 允许你将编辑成功的自动化项目进行发布及存储，以便后续机器人执行或共享流程。
 
-自动化项目发布到控制台后，将存储在流程包管理页面，以便分配给指定机器人执行。而发布到流程市场后，将存储在指定的流程市场中，以便实现共享。
+- 自动化项目发布到**控制台**后，将存储在流程包管理页面，以便分配给指定机器人执行。
+- 自动化项目发布到**机器人**后，将自动化项目直接交付给对应机器人进行执行。
+- 自动化项目发布到**流程市场**后，将存储在指定的流程市场中，以便实现共享。
 
-如果想要将自动化项目直接交付给机器人进行执行，可以通过发布到机器人，将自动化项目发送到对应机器人。
+>**说明：**
+>
+>只有组件项目才可以发布至**组件市场**，组件项目发布至组件市场后，将存储在指定的组件市场中，以便实现共享。
 
-要实现发布流程，从工具栏-> 发布中选择你想要发布的位置，然后点击它。
+要实现发布流程，从菜单栏中的“**发布**”中选择你想要发布的位置，然后点击它。
 
 ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishinpath20201019.png)
 
-## 发布流程
+## 操作样例
 
-1. 创建一个自动化项目。项目示例参看 [创建流程项目](./CreateProject.md?_v=v2020.4)
-2. 在工具栏-> 发布选择发布的位置：
-    - 发布到控制台
+1. 创建一个自动化项目。项目示例参见 [创建流程项目](./CreateProject.md?_v=v2020.4)
+2. 在菜单栏中的“**发布**”中选择发布的位置：
+    - **发布到控制台**
 
         ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishproject20201214.png)
 
@@ -28,7 +34,7 @@
 
         f. 在“**包含依赖项**”部分，勾选后，发布项目时项目的依赖项将会包含到流程包中，不勾选，则表示依赖项不包含在流程包中。
 
-    - 发布到机器人
+    - **发布到机器人**
 
         ![发布到机器人](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishrobot20201214.png)
 
@@ -42,7 +48,7 @@
 
         f. 在“**包含依赖项**”部分，勾选后，发布项目时项目的依赖项将会包含到流程包中，不勾选，则表示依赖项不包含在流程包中。
 
-    - 发布到流程市场
+    - **发布到流程市场**
 
         ![发布到流程市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishflowmarket20201214.png)
 

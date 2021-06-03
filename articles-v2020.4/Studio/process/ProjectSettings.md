@@ -2,8 +2,6 @@
 
 **项目设置** 用于设置某一类别组件运行和调试的相关属性值，并将其应用到项目中该类别的所有组件。
 
-## 设置组件属性
-
 你可以右键点击“项目面板”中的项目文件夹，打开菜单，然后点击“项目设置”，将打开“项目设置”窗口。单击项目设置窗口左侧的选项卡，可在窗口右侧设置对应的属性值。
 
 ![项目设置窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/itemsettings20201019.png)
