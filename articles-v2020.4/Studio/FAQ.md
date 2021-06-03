@@ -16,10 +16,6 @@
 
    **A：** `%UserProfile%\AppData\Local\Encoo Studio`
 
-4. **Q：机器人的默认安装目录是什么？**
-
-   **A：** `%programfiles(x86)%\Encoo Robot`
-
 ## 卸载相关
 
 1. **Q：卸载失败**
@@ -31,11 +27,11 @@
 
 ## 系统日志相关
 
-1. **Q：编辑器 / 机器人的系统日志的默认路径是什么？**
+1. **Q：编辑器的系统日志的默认路径是什么？**
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Log`。
 
-2. **Q: 编辑器 / 机器人的安装日志的默认路径是什么？**
+2. **Q：编辑器的安装日志的默认路径是什么？**
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
