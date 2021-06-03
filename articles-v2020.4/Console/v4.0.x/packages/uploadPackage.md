@@ -12,4 +12,4 @@
 
 ![packages](https://docimages.blob.core.chinacloudapi.cn/images/Console/packages/V3package4.png)
 
-你还可以通过编辑器上传流程至控制台：[通过编辑器上传](../../../Studio/process/CreateProject.md)
+你还可以通过编辑器上传流程至控制台：[通过编辑器上传](../../../Studio/process/CreateProject/CreateProject.md)

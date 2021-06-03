@@ -187,7 +187,7 @@
 1. 支持流程 [导出到 EXCEL](../Studio/Introduction/TheUserInterface.md) 功能：鼠标右击在流程编辑区域中容器内组件（流程图/序列/状态机）的空白处，在弹出的上下文菜单中，选择“导出到 EXCEL”，实现将 XAML 文件内容导出到 Excel 中，方便业务人员查看流程结构。
 2. 在“开始 > 打开 > 本地项目”列表上方，新增“刷新”按钮，可手动刷新本地项目列表，实现重新加载当前路径下的项目文件夹。
 3. 在“开始 > 帮助”页面，新增 AI HUB 实用链接，方便用户更好地了解 AI HUB 产品。
-4. 在“新建 > 从模板新建”列表中，新增模块化的“[企业流程模板](../Studio/process/ProjectTemplates.md)”，同时支持查看更多模板。
+4. 在“新建 > 从模板新建”列表中，新增模块化的“[企业流程模板](../Studio/process/CreateProject/ProjectTemplates.md)”，同时支持查看更多模板。
 5. 界面自动化架构调整，增强稳定性。
 
 #### 【组件库】
@@ -265,8 +265,8 @@
 
 #### 【编辑器】
 
-1. 新增 [新建组件项目](../Studio/process/CreateLibrary.md)，将多个可重复使用的流程封装为组件包，可发布到组件市场供其它项目使用。
-2. 新增 [从模板新建自动化项目](../Studio/process/ProjectTemplates.md)，支持 RPA 实施人员规范 RPA 流程开发方式，提升企业级的 RPA 流程实施质量。
+1. 新增 [新建组件项目](../Studio/process/CreateProject/CreateLibrary.md)，将多个可重复使用的流程封装为组件包，可发布到组件市场供其它项目使用。
+2. 新增 [从模板新建自动化项目](../Studio/process/CreateProject/ProjectTemplates.md)，支持 RPA 实施人员规范 RPA 流程开发方式，提升企业级的 RPA 流程实施质量。
 3. 支持查看和编辑当前登录用户在控制台所属资源组下的流程。
 4. 新增项目右击操作（打开文件夹/项目设置/添加状态机文件）。
 5. 调试状态下，当发生错误时，支持忽略、重试、重启操作。

@@ -171,7 +171,7 @@
 1. 支持在整个流程中，仅 [调试单个组件](./Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
 2. 支持拖拽流程文件至编辑区域中，自动生成 [调用子流程](./Activities/WorkflowControl/InvokeWorkflow.md) 组件，提升实施人员开发效率。
 3. 企业版支持 [远程 RDP](./Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
-4. 新增 [数据抓取](./Studio/process/ProjectTemplates.md) 流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
+4. 新增 [数据抓取](./Studio/process/CreateProject/ProjectTemplates.md) 流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
 5. 支持在设置页面中，查看 [快捷键](./Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
 6. 支持在 [快速访问](./Studio/Introduction/TheUserInterface.md) 页中，快速访问云扩官网等实用链接，提升用户体验。
 7. 支持在 [帮助 > 关于](./Studio/Introduction/TheUserInterface.md) 页面中，查看当前版本的“更新说明”，提升用户体验。
