@@ -62,5 +62,11 @@
     {
         "name": "Settings",
         "localizedName": "设置页"
+    },
+    {
+        "name": "FAQ.md",
+        "localizedName": "常见问题",
+        "uuid": "38745a0a-91c6-4b99-9bee-8d6652489ea5",
+        "labels": "常见问题, FAQ，机器人"
     }
 ]
