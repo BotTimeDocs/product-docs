@@ -26,6 +26,12 @@
     },
     {
         "id": null,
+        "name": "ModalView",
+        "localizedName": "模态视图",
+        "uuid": ""
+    },
+    {
+        "id": null,
         "name": "InputComponents",
         "localizedName": "输入组件",
         "uuid": ""
