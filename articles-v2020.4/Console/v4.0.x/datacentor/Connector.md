@@ -1,6 +1,6 @@
 # 连接管理
 
-连接管理主要用户创建并管理各类数据连接器，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+连接管理主要用户创建并管理各类数据连接器，建立与各类外部数据之间的连接，便于后续在 ViCode 中进行各类数据操作。
 
 ## 前提条件
 
@@ -48,6 +48,74 @@
     ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/settingtrustconnect20210425.png)
 
 4. 单击“新建”按钮，完成托管数据库连接。
+
+### 新建 DB2 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“DB2”，单击“下一步”按钮。
+
+   ![新建 DB2 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/db2connect20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 DB2 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingdb2connection20210604.png)
+
+4. 单击“新建”按钮，完成 DB2 数据库连接。
+
+### 新建 PostgreSQL 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“PostgreSQL”，单击“下一步”按钮。
+
+   ![新建 Postgre SQL 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/selectpostgresql20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 PostgreSQL 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/postgresqlconnection20210604.png)
+
+4. 单击“新建”按钮，完成 PostgreSQL 数据库连接。
+
+### 新建 SQL Server 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“SQL Server”，单击“下一步”按钮。
+
+   ![新建 SQL Server 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/sqlserverconnection20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 SQL Server 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingsqlserver20210604.png)
+
+4. 单击“新建”按钮，完成 SQL Server 数据库连接。
+
+### 新建 Oracle 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“Oracle”，单击“下一步”按钮。
+
+   ![新建 Oracle 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/oracleconnection20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 Oracle 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingoracle20210604.png)
+
+4. 单击“新建”按钮，完成 Oracle 数据库连接。
 
 ## 新建 API 类连接
 
