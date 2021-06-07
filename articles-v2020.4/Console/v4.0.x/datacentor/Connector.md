@@ -195,6 +195,48 @@
 
 4. 单击“新建”按钮，完成 EncooStorage 文件连接。
 
+## 新建RESTfulTemplate
+
+### 配置API类连接模板
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“API类连接模板配置”链接。
+2. 在弹出的“新建API类连接模板”弹框中，选择“+”图标。
+
+   ![选择新建图标](https://docimages.blob.core.chinacloudapi.cn/images/Console/newapi20210607.png)
+
+3. 在弹出的“新建API类连接模板”弹框中，根据向导进行配置模板。
+
+    ![创建模板](https://docimages.blob.core.chinacloudapi.cn/images/Console/createtemplate20210607.png)
+
+4. 单击“下一步”按钮，进入“连接参数”步骤，根据情况配置参数信息。
+
+    ![连接参数](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionargument20210607.png)
+
+5. 单击“下一步”按钮，进入“方法确认”步骤，根据情况确认相关信息。
+
+    ![方法确认](https://docimages.blob.core.chinacloudapi.cn/images/Console/confirm20210607.png)
+
+6. 单击“确定”按钮，完成模板的创建。
+
+    ![模板创建完成](https://docimages.blob.core.chinacloudapi.cn/images/Console/templatedone20210607.png)
+
+### 使用模板新建RESTful连接
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择已创建的RESTfulTemplate“test_demo”，单击“下一步”按钮。
+
+    ![新建RESTfulTemplate连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/test_demo20210607.png)
+
+3. 在进入的“配置连接”弹框中，配置 自定义的RESTfulTemplate"test_demo" 连接。
+
+    - **连接名称**：自定义新建的RESTful连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **参数名称**：填写自定义的参数名称。
+
+    ![配置RESTful连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingconnect20210607.png)
+
+4. 单击“新建”按钮，完成RESTful连接。
+
 ## 后续操作
 
 - **查看**：在“连接管理”页面，单击“操作”栏中的“查看”选项，可查看并修改所选择的数据连接的配置信息和数据权限。
