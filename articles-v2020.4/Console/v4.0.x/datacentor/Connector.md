@@ -208,11 +208,11 @@
 
 3. 根据向导进行创建模板。
 
-   - 模板名称：自定义模板名称。
-   - 备注：对自定义模板名称的描述。
-   - 模板文件：从本地选择已通过 Postman 工具生成的模板 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/GitHub_Demo.json)。
-   - 模板图标：从本地选择一个图标作为模板图标。
-   - 环境变量文件：从本地选择已通过 Postman 工具生成的环境变量 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/postman_environment.json)。
+    - 模板名称：自定义模板名称。
+    - 备注：对自定义模板名称的描述。
+    - 模板文件：从本地选择已通过 Postman 工具生成的模板 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/GitHub_Demo.json)。
+    - 模板图标：从本地选择一个图标作为模板图标。
+    - 环境变量文件：从本地选择已通过 Postman 工具生成的环境变量 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/postman_environment.json)。
 
     ![创建模板](https://docimages.blob.core.chinacloudapi.cn/images/Console/createtemplate20210607.png)
 
