@@ -195,20 +195,32 @@
 
 4. 单击“新建”按钮，完成 EncooStorage 文件连接。
 
-## 新建RESTfulTemplate
+## 新建 RESTfulTemplate
 
-### 配置API类连接模板
+### 1. 配置 API 类连接模板
 
-1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“API类连接模板配置”链接。
-2. 在弹出的“新建API类连接模板”弹框中，选择“+”图标。
+通过导入 Postman Collection 模板文件自定义 API 类连接模板。
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“API 类连接模板配置”链接。
+2. 在弹出的“新建 API 类连接模板”弹框中，选择“+”图标。
 
    ![选择新建图标](https://docimages.blob.core.chinacloudapi.cn/images/Console/newapi20210607.png)
 
-3. 在弹出的“新建API类连接模板”弹框中，根据向导进行配置模板。
+3. 根据向导进行创建模板。
+
+   - 模板名称：自定义模板名称。
+   - 备注：对自定义模板名称的描述。
+   - 模板文件：从本地选择已通过 Postman 工具生成的模板 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/GitHub_Demo.json)。
+   - 模板图标：从本地选择一个图标作为模板图标。
+   - 环境变量文件：从本地选择已通过 Postman 工具生成的环境变量 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/postman_environment.json)。
 
     ![创建模板](https://docimages.blob.core.chinacloudapi.cn/images/Console/createtemplate20210607.png)
 
 4. 单击“下一步”按钮，进入“连接参数”步骤，根据情况配置参数信息。
+
+    > **说明：**
+    >
+    > 此参数为在环境变量 json 文件中预先配置的。
 
     ![连接参数](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionargument20210607.png)
 
@@ -220,22 +232,22 @@
 
     ![模板创建完成](https://docimages.blob.core.chinacloudapi.cn/images/Console/templatedone20210607.png)
 
-### 使用模板新建RESTful连接
+### 2. 使用模板新建 RESTful 连接
 
 1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
-2. 在弹出的“新建连接”对话框中，选择已创建的RESTfulTemplate“test_demo”，单击“下一步”按钮。
+2. 在弹出的“新建连接”对话框中，选择已创建的 RESTfulTemplate“test_demo”，单击“下一步”按钮。
 
-    ![新建RESTfulTemplate连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/test_demo20210607.png)
+    ![新建 RESTfulTemplate 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/test_demo20210607.png)
 
-3. 在进入的“配置连接”弹框中，配置 自定义的RESTfulTemplate"test_demo" 连接。
+3. 在进入的“配置连接”弹框中，配置 自定义的 RESTfulTemplate "test_demo" 连接。
 
-    - **连接名称**：自定义新建的RESTful连接名称。
+    - **连接名称**：自定义新建的 RESTful 连接名称。
     - **环境类型**：下拉选择生产环境或测试环境。
-    - **参数名称**：填写自定义的参数名称。
+    - **参数名称**：填写自定义的参数名称对应的值。
 
-    ![配置RESTful连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingconnect20210607.png)
+    ![配置 RESTful 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingconnect20210607.png)
 
-4. 单击“新建”按钮，完成RESTful连接。
+4. 单击“新建”按钮，完成 RESTful 连接。
 
 ## 后续操作
 
