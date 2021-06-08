@@ -1,6 +1,6 @@
 # 数据源管理
 
-数据源管理页面用于管理并配置应用内的数据源的使用权限。目前支持 SQL、RESTfulAPI、RESTfulAPI模板、数据表四种类型的数据源。
+数据源管理页面用于管理并配置应用内的数据源的使用权限。目前支持 SQL、RESTfulAPI、RESTfulAPI 模板、数据表四种类型的数据源。
 
 ## 添加数据源入口
 
@@ -14,7 +14,7 @@
 
 ## 添加数据源
 
-单击左侧页面右上角的“+”图标，可新建一个 SQL、RESTfulAPI、RESTfulAPI模板、数据表数据源。
+单击左侧页面右上角的“+”图标，可新建一个 SQL、RESTfulAPI、RESTfulAPI 模板、数据表数据源。
 
 ### 添加 SQL 数据源
 
@@ -24,7 +24,7 @@
 >
 > 支持 Mysql、Oracle 数据库。
 
-1. 在数据源页面，单击“新增”图标，选择“SQL”，可自定义SQL数据源名称。
+1. 在数据源页面，单击“新增”图标，选择“SQL”，可自定义 SQL 数据源名称。
 2. 在页面右侧弹框中，输入各参数。
 
     - **资源**：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的数据连接。也可在下拉框中单击“**+新建连接**”，根据向导进行新建数据库连接。
@@ -43,7 +43,7 @@
 
 添加 RESTfulAPI 数据源，即，调用 RestfulAPI 接口对资源进行 CRUD 操作。
 
-1. 在数据源页面，单击“新增”图标，选择“RestfulAPI”，可自定义RestfulApI数据源名称。
+1. 在数据源页面，单击“新增”图标，选择“RestfulAPI”，可自定义 RestfulApI 数据源名称。
 2. 在页面右侧弹框中，输入各参数。
 
     - **资源**：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的 RestfulApi 连接。也可在下拉框中单击“**+新建连接**”，根据向导进行新建 RestfulApi 连接。
@@ -70,16 +70,16 @@
 3. 单击“测试”按钮，测试接口返回情况。
 4. 单击“保存”按钮，编写完成的信息将保存至数据源管理页面。
 
-### 添加RESTfulAPI模板数据源
+### 添加 RESTfulAPI 模板数据源
 
-1. 在数据源页面，单击“新增”图标，选择“RestfulAPI模板”，可自定义RestfulApI模板数据源名称。
+1. 在数据源页面，单击“新增”图标，选择“RestfulAPI 模板”，可自定义 RestfulApI 模板数据源名称。
 2. 在页面右侧弹框中，操作各参数。
 
-    - 资源：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的自定义RESTfulAPI模板数据连接。
+    - 资源：下拉选择在 **云扩 RPA 控制台 > 数据中心 > 连接管理** 中已创建的自定义 RESTfulAPI 模板数据连接。
     - 操作：下拉选择需要执行的方法。
-    - 参数：输入在RESTfulAPI模板中定义的参数对应的值。
+    - 参数：输入在 RESTfulAPI 模板中定义的参数对应的值。
 
-    ![新建RESTfulAPI模板数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/createrestfulapitemplate20210608.png)
+    ![新建 RESTfulAPI 模板数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/createrestfulapitemplate20210608.png)
 
 3. 单击“测试”按钮，测试接口返回情况。
 
