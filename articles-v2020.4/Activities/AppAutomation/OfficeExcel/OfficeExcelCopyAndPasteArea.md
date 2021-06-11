@@ -20,7 +20,6 @@
 
 ## 操作样例
 
-
 1. 准备一份 Excel 工作表数据，计划将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。   
 
    ![数据准备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sheet1andsheet220201217.png)
