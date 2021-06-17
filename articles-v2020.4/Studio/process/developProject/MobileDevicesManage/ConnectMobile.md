@@ -10,19 +10,26 @@
 
 ### 前提条件
 
-添加 ADB 环境变量。
+PC端在连接Android设备之前需配置ADB环境。**ADB** 是 Google 官方提供的 Android 调试工具，需配置该服务后PC和Android端才能正常连接。
 
-   > **说明：**
-   > ADB 是 Google 官方提供的 Android 调试工具。
+1. 解压已下载的移动端服务包 Encoo.Android.Automation.zip，复制其adb.exe所在的路径。路径格式为：“(**PC 文件路径**)\Encoo.Android.Automation\airtest\core\android\static\adb\windows”，其中括号内内容根据实际情况改变，其余部分不变。
 
-   <br> 创建 adb 系统环境变量（adb 系统环境变量地址根据移动端服务包 Encoo.Android.Automation.zip 的解压文件路径进行配置）并添加至 Path 中，格式：“(**PC 文件路径**)\Encoo.Android.Automation\airtest\core\android\static\adb\windows”，其中括号内内容根据实际情况改变，其余部分不变。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`
+    > **说明：**
+    >
+    > 需要确保解压路径中不可包含中文字符。
 
-   ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
+2. 创建 adb 系统环境变量。在PC端操作系统的“高级系统设置 > 高级 > 环境变量”中，为“Path”变量追加赋值。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`。
 
-   > **说明：**
-   >
-   > - 若系统环境变量中已存在其它 ADB 环境变量的配置（如，模拟器），需删除对应 ADB 环境变量的配置。
-   > - 若每次更新安卓服务包时，服务路径会发生改变，需重新配置 ADB 环境变量。
+    ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
+
+    > **注意：**
+    >
+    > - 若系统环境变量中已存在其它 ADB 环境变量的配置（如，模拟器），需删除对应 ADB 环境变量的配置。
+    > - 若每次更新安卓服务包时，服务路径会发生改变，需重新配置 ADB 环境变量。
+
+3. 验证ADB环境变量是否已配置成功。打开“命令提示符”窗口，输入`adb`命令后回车，显示如下信息，则表示配置成功。
+
+    ![验证ADB环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/confirmadb20210617.png)
 
 ### 方式一：Android 模拟器
 
