@@ -68,4 +68,14 @@
 1. Q：为何获取不到短信验证码？
    <br>A：检查手机短信验证码安全保护是否禁止，若开关打开，则无法获取到验证码。
 
-    ![短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smssetting20201230.png)
+   >**说明：**
+   >
+   >不同品牌不同型号的手机，设置路径有所不同。
+
+   - 华为手机，在“信息”的右上角的“设置”中设置“验证码安全保护”为“不勾选”状态。
+
+    ![华为手机短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smssetting20201230.png)
+
+   - OPPO手机，在“设置 > 信息”中设置“验证码安全保护”为“不勾选”状态。
+
+    ![OPPO手机短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/opposetting20210618.png)

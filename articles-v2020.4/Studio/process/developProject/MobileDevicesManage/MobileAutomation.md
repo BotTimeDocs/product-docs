@@ -1,15 +1,15 @@
 # 步骤 5：手机自动化操作
 
-与 PC 端界面自动化一样，云扩 RPA 针对手机自动化也提供了一些手机自动化 组件，这些组件可以获取到手机上的元素。
+与 PC 端界面自动化一样，云扩 RPA 针对手机自动化也提供了一些手机自动化组件，这些组件可以获取到手机上的元素。
 > **说明：**
 >
-> 如下操作，不论 Android 还是 IOS 手机设备，均在 Windows 操作系统的 PC 端进行。
+> 如下操作，不论 Android 还是 IOS 手机设备，均在 PC 端的 Windows 操作系统中进行。
 
 ## 操作样例
 
 以关闭手机移动数据开关为例，进行介绍。
 
-1. 拖动一个 **连接设备** 组件至流程中。
+1. 拖动一个 [连接设备](../../../../Activities/PhoneAutomation/MobileConnect.md) 组件至流程中。
 
     ![连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Studio/connectdevices20201104.png)
 
