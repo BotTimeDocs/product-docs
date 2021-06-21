@@ -190,11 +190,11 @@ Xcode 是运行在操作系统 Mac OS X 上的集成开发工具（IDE）, 自�
 
 4. 将配置完的证书下载至 Xcode 工具中
 
-​    a. 打开 Xcode 工具
+    a. 打开 Xcode 工具
 
     ![xcode 图标](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xcodeicon20201104.png)
 
-​    b. 打开 **Xcode 首选项 > Accounts**，点击界面左下角的“+”，输入 Apple ID 中的账号（开发者）和密码后保存。
+    b. 打开 **Xcode 首选项 > Accounts**，点击界面左下角的“+”，输入 Apple ID 中的账号（开发者）和密码后保存。
 
     ![Xcode 账号配置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xcodeaccount20201104.png)
 
