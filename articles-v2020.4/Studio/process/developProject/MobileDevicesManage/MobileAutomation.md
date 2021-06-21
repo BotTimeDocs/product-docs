@@ -37,6 +37,7 @@
 
     ![运行](https://docimages.blob.core.chinacloudapi.cn/images/Studio/run20201104.png)
 
- </br> 运行中的流程会单独弹出一个手机界面, 进行模拟人工操作手机效果。
+ </br>
+    运行中的流程会单独弹出一个手机界面, 进行模拟人工操作手机效果。
 
-![运行过程界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/runprocessUI20201104.png)
+   ![运行过程界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/runprocessUI20201104.png)

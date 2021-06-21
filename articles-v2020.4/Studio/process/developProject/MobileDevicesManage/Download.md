@@ -13,6 +13,6 @@
 
 2. **云扩 RPA 编辑器**：云扩 RPA 编辑器（Encoo Studio）是基于 Windows Workflow 开发的图形化的流程编辑器，可以用来创作各种不同的业务流程，创作好的流程可以上传到控制台或交给机器人执行。
 
-    ![编辑器安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studiopackage20210617.png)
-
     - 云扩 RPA 编辑器（企业版）下载地址：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本编辑器。
+
+    ![编辑器安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studiopackage20210617.png)
