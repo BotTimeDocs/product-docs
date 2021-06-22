@@ -2,7 +2,7 @@
     {
         "id": "Encoo.CodeTool.Activity.Activities.Http.HttpRequestActivity",
         "name": "HTTPRequest.md",
-        "localizedName": "HTTP请求",
+        "localizedName": "HTTP(S)请求",
         "uuid": "ab1eddcb-8e7e-4936-9bcf-8cd09f3e20ce",
         "labels": "请求, HTTP"
     },
