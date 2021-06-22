@@ -63,11 +63,6 @@
     },
     {
         "id": null,
-        "name": "Resource",
-        "localizedName": "资源"
-    },
-    {
-        "id": null,
         "name": "Triggers",
         "localizedName": "触发器"
     },
