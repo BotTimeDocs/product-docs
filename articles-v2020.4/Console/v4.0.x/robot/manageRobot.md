@@ -1,6 +1,6 @@
 # 查看机器人列表
 
-进入**机器人管理**，你可以看到当前资源组下的所有机器人。你可以选择切换**资源组**，查看不同资源组下的机器人。
+进入 **机器人管理**，你可以看到当前部门（资源组）下的所有机器人。你可以选择切换 **资源组**，查看不同资源组下的机器人。
 
  ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/robot/robot/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BB%E9%A1%B5.png)
 
@@ -8,9 +8,17 @@
 
 点击新建按钮，打开新增弹窗，填写机器人名称、标签、备注，并且选择机器人类型后，点击确定即可新建机器人。
 
- ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/robot/addrobot.png)
+> **说明：**
+>
+> 支持创建不同许可证类型的机器人，不同许可证类型的机器人，请参见 [许可证列表](../management/license/useLicense.md)。
 
- 新增成功后，系统将自动复制你的机器人连接字符串。你可以直接粘贴机器人连接字符串至客户端机器人，完成激活。详情见：[激活机器人](../../../Robot/license.md)
+ ![新建机器人](https://docimages.blob.core.chinacloudapi.cn/images/Console/createrobot20210628.png)
+
+ 新增成功后，系统将自动复制你的机器人连接字符串。你可以直接粘贴机器人连接字符串至客户端机器人，完成激活。详情见：[激活机器人](../../../Robot/license.md)。
+
+> **说明：**
+>
+> 已创建的机器人，默认为“部门功能管理员”角色，可在“组织架构管理 > 数据权限配置 > 机器人权限”中查看点击“查看当前部门机器人权限”链接进行查看。
 
 ## 查看机器人信息
 
