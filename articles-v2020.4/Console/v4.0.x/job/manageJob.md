@@ -1,8 +1,8 @@
-# 任务记录
+# 管理任务记录
 
 ## 查看任务记录列表
 
-进入“任务记录 " 页面则可以查看所有流程部署通过任何方式所触发的流程任务的执行状况。
+进入“任务记录 " 页面，可以查看所有流程部署通过任何方式所触发的流程任务的执行状况。
 
 ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3joblist1.png)
 
@@ -29,9 +29,9 @@
 
 ### 查看任务下的执行实例
 
-单击某一任务下的“展开”按钮，即可展开对应的执行实例列表，默认展示 3 条，如果超过 3 条点击“展开更多”按钮可以展开全部。主要包括具体的执行机器人、开始时间、结束时间、状态等。
+单击某一任务下的“展开”图标，可展开对应的执行实例列表，默认展示 3 条，如果超过 3 条，点击“展开更多”按钮可以展开全部。主要包括具体的执行机器人、开始时间、结束时间、状态等。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3joblist2.png)
+![查看任务下的执行实例](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3joblist2.png)
 
 ### 查看实例的日志详情
 
@@ -79,3 +79,8 @@
 任务记录页面中的任务支持批量操作功能，勾选页面任务列表左侧的筛选框后，单击页面右上方的“批量操作”按钮，可进行批量调整优先级、批量执行、批量取消执行操作。
 
   ![批量操作](https://docimages.blob.core.chinacloudapi.cn/images/Console/batchoperate20210317.png)
+
+## 搜索任务记录
+
+在页面左上角搜索框中输入流程部署名称，可模糊搜索任务记录。也可根据指定时间或状态进行过滤任务记录列表信息。
+

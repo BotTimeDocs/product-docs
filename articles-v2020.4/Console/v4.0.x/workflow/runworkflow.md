@@ -1,4 +1,4 @@
-# 立即执行流程
+# 手动执行流程
 
 除了通过任务计划定时创建流程任务之外，你也可以手动立即执行流程:
 
@@ -6,7 +6,7 @@
 
     ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow8.png)
 
-2. 在“流程执行”弹窗中，您可以对失败最大尝试次数、参数值进行重新赋值，确认无误后点击“执行”按钮即可生成对应的任务执行。你可以再在“流程部署”-“任务列表”中查看对应任务的执行情况。
+2. 在“流程执行”弹窗中，可以对失败最大尝试次数、参数值进行重新赋值，确认无误后点击“执行”按钮，可生成对应的任务执行。可在“流程部署 > 任务列表”中查看对应任务的执行情况。
 
     ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow9.png)
 
