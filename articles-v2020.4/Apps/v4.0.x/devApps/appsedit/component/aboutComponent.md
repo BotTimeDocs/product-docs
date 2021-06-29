@@ -1,7 +1,8 @@
 # 关于组件
 
 在页面设置的下方可以找到组件栏。组件是页面的组成部分，每个页面功能由一个或多个组件拼凑而成。你可以通过拖拽或双击组件的方式将组件添加到当前页面。组件在页面内可以叠加多次使用，新添加的组件将自动添加在页面已有组件下方。
-![组件库](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/comptents20210608.png)
+
+![组件库](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/comptents20210629.png)
 
 组件由**组件库**和**模板库**组成。
 
@@ -14,7 +15,7 @@
         - **输入组件**：输入组件包括选择器、文件上传、开关等，实现人机交互。
         - **展示组件**：显示组件包括图片、文本，主要实现页面显示。
         - **图表组件**：用于显示各种图表类组件，用作可视化图表展示。
-    - **社区组件**为引用的外部第三方的社区组件库，目前支持 Material-UI、React Bootstrap、Ant Design、Ant Design Charts 社区组件库的大部分组件。
+    - **社区组件**为引用的外部第三方的社区组件库，目前支持Echarts for React、React、Material-UI、React Bootstrap、Ant Design、Ant Design Charts 社区组件库的大部分组件。
 - **模板库**：将已开发完成的组件发布为模板，即可在模板库中展示，以便进行再次使用。
 ## 添加组件
 
@@ -57,3 +58,7 @@
 若需要将自定义的组件发布为模板，以便在下次使用。可以右击当前自定义的组件，选择”发布为模板“选项，进行发布。发布完成的模板在”模板库”中展示。
 
 ![发布模板](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/publishtemplate20210608.png)
+
+>**说明：**
+>
+>已发布为模板的组件，在“模板库”中，右击组件可编辑组件信息、查看历史版本、删除模板库中的组件。
