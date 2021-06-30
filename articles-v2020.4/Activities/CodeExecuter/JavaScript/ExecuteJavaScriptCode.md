@@ -34,7 +34,7 @@
 
 1. 拖入**执行JavaScript代码**组件并指定元素：
 
-    ![执行JavaScript代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-JavaScript-code.png)
+    ![执行JavaScript代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutejavascriptcode20210630.png)
 
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
 
