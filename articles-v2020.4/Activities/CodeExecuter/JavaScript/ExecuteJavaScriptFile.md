@@ -1,6 +1,6 @@
 # 执行JavaScript文件
 
-执行JavaScript文件，并支持参数传递
+执行JavaScript文件，并支持参数传递。
 
 ## 属性
 
@@ -34,12 +34,12 @@
 
 1. 拖入**执行JavaScript文件**组件并指定元素：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file.png)
+    ![执行JavaScript文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executejavascriptfile20210630.png)
 
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-verify.png)
+    ![验证网页元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/verifyjsfile20210630.png)
 
 3. 运行流程并查看结果：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-file-end.png)
+    ![运行流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/jsfileresult20210630.png)

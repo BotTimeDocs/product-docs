@@ -34,12 +34,12 @@
 
 1. 拖入**执行JavaScript代码**组件并指定元素：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-JavaScript-code.png)
+    ![执行JavaScript代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-JavaScript-code.png)
 
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-method-verify.png)
+    ![验证网页元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/verifyelement20210630.png)
 
 3. 运行流程并查看结果：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-success.png)
+    ![运行流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/javascriptcoderesult20210630.png)
