@@ -16,16 +16,16 @@
     {
         "id": null,
         "name": "trigger.md",
-        "localizedName": "任务计划管理",
+        "localizedName": "管理任务计划",
         "uuid": "58257e0f-2bb3-4355-8920-9793b1cec1a4",
         "labels": "计划, 管理, 任务"
     },
     {
         "id": null,
         "name": "runworkflow.md",
-        "localizedName": "立即执行流程",
+        "localizedName": "手动执行流程",
         "uuid": "889d0a8c-cd5e-423e-a52c-47668cfd3eb4",
-        "labels": "执行, 立即, 流程"
+        "labels": "执行, 手动, 流程"
     },
     {
         "id": null,
