@@ -130,7 +130,7 @@
 >
 > - 对于最近常用、已收藏的组件，将在组件面板上的“最近使用”或“我的收藏”列表中展示，方便快速查找和使用。
 
-![组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/recentlyused20210508.png)
+![组件面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/activitypanel20210701.png)
 
 ### 运行面板
 
@@ -152,7 +152,7 @@
 
 **版本控制面板** 用于记录项目中文件内容的变化，以便将来查看指定版本的修订情况。单击“启用”，开启版本控制功能。
 
-![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/versioncontrol20201214.png)
+![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/versioncontrol20210701.png)
 
 ### 市场面板
 
@@ -218,11 +218,12 @@
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/rightmenu20210317.png)
+![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/rightmenu20210701.png)
 
    |选项         |描述|
    |----------------|---------------------------------------|
    |打开         |打开编辑区域中选中的组件，也可以通过双击来实现。|
+   |自动排版     |自动整理排列流程图中的组件及连接线。|
    |剪切         |删除选中的组件并将其放在剪贴板上。|
    |复制         |复制选中的组件并将其放在剪贴板上。|
    |粘贴         |将剪贴板上的组件插入到当前位置。|
