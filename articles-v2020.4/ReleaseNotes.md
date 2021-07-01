@@ -20,7 +20,7 @@
 1. 在编辑器登录激活页面，支持选择浮动许可，提高系统灵活性。
 2. 支持自动排版流程图容器内的组件，以帮助整理流程图的排序，减少手动整理组件及连接线的时间成本。
 3. 支持在“开始主页 > 设置 > 项目”中，自定义是否需弹窗填写属性，满足不同用户使用偏好。
-4. 支持在项目中新建不同类型的”代码文件“，如，C#、Python、PowerShell 文件，方便用户管理项目文件。
+4. 支持在项目中新建不同类型的 [代码文件](./Studio/process/developProject/TypeOfWorkflow/CodeFile.md)，如，C#、Python、PowerShell 文件，方便用户管理项目文件。
 5. 支持搜索本地项目列表，以便快速查找到需要的本地项目并对其进行操作。
 6. 支持在组件面板中收藏组件，方便用户在组件面板中快速查找已收藏的组件以便再次使用。
 7. 在变量类型中新增了一些默认类型，如，DateTime、List、Dictionary、Double，方便用户快速查找和使用。
@@ -28,9 +28,9 @@
 9. 社区版支持新建项目时系统随机选择”流程图“和”序列“项目类型，以便后续适配用户使用偏好。
 #### 【组件库】
 
-1. 软件自动化 > Office Excel > 设置单元格格式，支持设置单元格默认格式，以代替手动设置单元格格式，减少用户手动重复工作。
-2. 流程控制 > 循环操作 > 循环操作，支持根据指定的循环次数进行循环操作，方便新手用户使用。
-3. 界面自动化 > 桌面控件专有 > 获取进程窗口信息，支持获取指定进程下指定的属性，满足用户需求。
+1. 软件自动化 > Office Excel > [设置单元格格式](./Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)，支持设置单元格默认格式，以代替手动设置单元格格式，减少用户手动重复工作。
+2. 流程控制 > 循环操作 > [循环操作](./Activities/WorkflowControl/Loop/For.md)，支持根据指定的循环次数进行循环操作，方便新手用户使用。
+3. 界面自动化 > 桌面控件专有 > [获取进程窗口信息](./Activities/UIAutomation/DesktopOnly/GetProcessWinInfo.md)，支持获取指定进程下指定的属性，满足用户需求。
 
 #### 【机器人】
 
@@ -50,13 +50,13 @@
 
 #### 【组件库】
 
-1. 软件自动化 > 邮件 > 获取邮件（IMAP），支持将获取到的未读邮件标记为“已读”，提升用户使用体验。
+1. 软件自动化 > 邮件 > [获取邮件（IMAP）](./Activities/AppAutomation/Mail/GetMailIMAP.md)，支持将获取到的未读邮件标记为“已读”，提升用户使用体验。
 2. 软件自动化 > WPS 表格，增强 WPS 表格系列组件的稳定性，提升用户使用体验。
-3. 代码工具 > 文本 > 分割文本，支持移除空字符，解决数组越界的问题，满足用户需求。
-4. 软件自动化 > Office Excel > 读取区域，支持列名重复，满足用户需求。
-5. 数据表 > 读取 CSV 文件，支持列名重复，满足用户需求。
-6. 代码工具 > HTTP > HTTP 请求，新增“application/x-www-form-urlencoded”和“multipart/form-data”的内容类型，并改名为“HTTP(S)请求”组件，以支持简单的 HTTPS 请求，满足用户需求。
-7. 代码工具 > Python > 执行 Python 代码，支持代码中使用基本类型的流程参数，提升用户使用体验。
+3. 代码工具 > 文本 > [分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)，支持移除空字符，解决数组越界的问题，满足用户需求。
+4. 软件自动化 > Office Excel > [读取区域](./Activities/AppAutomation/OfficeExcel/ReadRange.md)，支持列名重复，满足用户需求。
+5. 数据表 > [读取 CSV 文件](./Activities/DataTable/ReadCSV.md)，支持列名重复，满足用户需求。
+6. 代码工具 > HTTP > [HTTP 请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，新增“application/x-www-form-urlencoded”和“multipart/form-data”的内容类型，并改名为“HTTP(S)请求”组件，以支持简单的 HTTPS 请求，满足用户需求。
+7. 代码工具 > Python > [执行 Python 代码](./Activities/CodeExecuter/Python/PythonExcuteFile.md)，支持代码中使用基本类型的流程参数，提升用户使用体验。
 8. 界面自动化系列组件，支持设置窗口是否置顶，解决因窗口置顶导致无法获取窗口内容的问题，提升用户使用体验。
 
 ## 2021.06.30 发版说明
@@ -72,13 +72,13 @@
 
 1. 上线控制台 V4 版本，提供全新的组织架构及权限系统，方便管理员管理公司组织架构权限等信息，主要包括如下：
 
-    - 组织架构管理：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
+    - [组织架构管理](./Console/v4.0.x/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
     - 部门权限配置：支持自定义当前部门的用户、机器人、API KEY 访问等不同模式的数据权限。
     - 单个资源权限配置：支持在“角色管理”中设置“权限管理”权限，在对应资源列表详情页中可配置该资源的数据权限。
     - [用户管理](./Console/v4.0.x/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
     - [角色管理](./Console/v4.0.x/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
 
-2. 通过是否激活许可证来控制左侧菜单显示与隐藏，提高系统安全性。
+2. 通过是否激活 [许可证](./Console/v4.0.x/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
 3. 控制台 V4 版本支持社区版，方便用户试用。
 4. 机器人创建之后，默认内置“部门功能管理员” 角色，可在”组织架构管理 > 数据权限配置 > 机器人权限 > 查看当前部门机器人权限“中查看，便于管理部门机器人权限。
 
