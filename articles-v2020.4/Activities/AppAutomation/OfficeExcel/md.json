@@ -140,6 +140,13 @@
         "labels": "分列, 数据, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelFormatCellsActivity",
+        "name": "OfficeExcelFormatCells.md",
+        "localizedName": "设置单元格格式",
+        "uuid": "dead9817-c8e5-4286-8892-98d8759da683",
+        "labels": "单元格格式, 数据, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
