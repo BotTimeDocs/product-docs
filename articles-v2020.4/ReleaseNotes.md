@@ -25,7 +25,7 @@
 6. 支持在组件面板中收藏组件，方便用户在组件面板中快速查找已收藏的组件以便再次使用。
 7. 在变量类型中新增了一些默认类型，如，DateTime、List、Dictionary、Double，方便用户快速查找和使用。
 8. 在命名空间中新增默认命名空间，如，System.Data，方便用户快速查找和使用。
-9. 社区版支持新建项目时系统随机选择”流程图“和”序列“项目类型，以便后续适配用户使用偏好。
+
 #### 【组件库】
 
 1. 软件自动化 > Office Excel > [设置单元格格式](./Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)，支持设置单元格默认格式，以代替手动设置单元格格式，减少用户手动重复工作。
