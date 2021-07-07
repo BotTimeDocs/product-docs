@@ -1,4 +1,5 @@
 # 安装 Python
+
 选择已下载至本地的 Python 安装文件，安装到指定目录。
 
 ## 属性
@@ -17,7 +18,6 @@
   >**说明：**
   >
   > 若不输入，则使用默认安装路径：C:\Users\{user}\AppData\Local\Programs。
-
 
 ### 输入
 
