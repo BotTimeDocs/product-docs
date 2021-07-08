@@ -220,7 +220,7 @@
 
     > **说明：**
     >
-    > 此参数为在环境变量 json 文件中预先配置的。
+    > 此参数为在环境变量 json 文件中预先配置的，此处为个人 github 的 token, 如，`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`。
 
     ![连接参数](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionargument20210607.png)
 
