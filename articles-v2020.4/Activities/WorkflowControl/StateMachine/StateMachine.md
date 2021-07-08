@@ -13,6 +13,7 @@
 - **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
 
 ## 操作样例
+
 以登录钉钉为例。
 1. 拖入**状态机**组件，并双击展开状态机：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/stateMachine-1.png)
