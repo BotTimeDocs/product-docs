@@ -1,42 +1,35 @@
 # 读取单元格
 
+## 视频示例
+
+## 概述
+
 获取工作簿单元格内数据并可存储在变量中
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择 "是" 时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择 "否" 时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-
-### 可选项
-
-- **保留格式** ：勾选时，将同时读取目标单元格的数据内容和数据格式（例如：货币，日期等），并在作为&quot; 写入单元格&quot; 的输入时，同时保持此数据格式；不勾选时，在&quot; 写入单元格&quot; 时使用默认&quot; 常规&quot; 数据格式
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **工作表** ：目标单元格所在工作表。仅支持字符串变量和字符串
-- **单元格** ：读取数据的目标单元格。仅支持字符串变量和字符串
+- **工作表** ：目标单元格所在工作表。
+- **单元格** ：读取数据的目标单元格。
 
 ### 输出
 
-- **数据** ：将读取到的目标单元格内数据存储在此变量内
+- **数据** ：将读取到的目标单元格内数据存储在此变量内。
 
-## 操作样例
+### 可选项
 
-1. 拖入 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+- **保留格式** ：勾选时，将同时读取目标单元格的数据内容和数据格式（例如：货币，日期等），并在作为“写入单元格”的输入时，同时保持此数据格式；不勾选时，在“写入单元格”时使用默认“常规”数据格式。
 
-2. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+## 使用示例
 
-3. 拖入 **读取单元格** 组件至项目流程中，填写 sheet 名称，填写单元格名称，新建变量 "cellContent" 类型为 String，用来存放单元格内容：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：读取EXCEL“sheet1”中的“A1”单元格中的内容至“sheet1”中的“A2”单元格中。
 
-4. 拖入 **写入单元格** 组件至项目流程中，填写 sheet 名称，填写单元格名称，填写要写入的变量，这里使用 "cellContent"。也就是使用 A1 的内容写入 A2：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
+![配置读取单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
 
-5. 点击运行，运行成功后。打开 Excel 查看 A1 的内容已经写入 A2：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell3.png)
+**后置必要组件**：[写入单元格](../OfficeExcel/WriteCell.md)
