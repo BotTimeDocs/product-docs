@@ -29,7 +29,7 @@
 >
 >上述&quot; 输入&quot; 六项，除&quot; 工作表&quot; 外，剩余五项必须五选一且互斥
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)

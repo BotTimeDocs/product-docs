@@ -43,7 +43,7 @@
 
 - **图片** ：将截屏保存到此变量。此项可为空
 
-## 操作样例
+## 使用示例
 
 1. 拖入**截屏**组件，设置对应的属性值：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/screenShot1.png)

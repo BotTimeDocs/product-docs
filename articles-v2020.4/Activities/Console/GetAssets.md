@@ -21,7 +21,7 @@
 
 - **值** ：输出资产的值。仅支持变量。注意：变量类型依赖于所获取资产在控制台设置的值类型，例如获取凭证类资产，变量类型应为 Encoo.DataType.Credential；可使用Credential.UserName和Credential.Password获取用户名和密码
 
-## 操作样例
+## 使用示例
 
 1. 拖入**获取资产**组件至项目流程中，并设置变量result(String)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_1.png)

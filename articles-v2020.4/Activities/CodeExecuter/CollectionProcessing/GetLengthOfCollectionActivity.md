@@ -19,7 +19,7 @@
 
 - **长度** ：输出目标集合的长度；仅可接Int变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**初始化集合**组件，设置变量`集合List`，变量类型为`List<String>`，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InitializeCollectionActivity1.png)

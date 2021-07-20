@@ -45,7 +45,7 @@
   >
   >HTML返回 tagName属性的值为大写。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**属性校验**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-1.png)

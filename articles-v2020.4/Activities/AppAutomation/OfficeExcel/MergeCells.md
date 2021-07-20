@@ -21,7 +21,7 @@
 - **合并值** ：合并后单元格的值。若合并单元格区域中只有一个值，则默认输出此唯一值；
 若合并单元格区域中有多个值，则输出第一个非空单元格中的值
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells1.png)

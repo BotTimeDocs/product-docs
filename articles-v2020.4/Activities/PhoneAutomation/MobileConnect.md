@@ -27,7 +27,7 @@
 - **平台类型**：连接设备的类型，分为 Andriod 和 iOS 。
 - **终端地址**：服务端地址，例如："<sh.encootech.com:28888>"
 
-## 操作样例
+## 使用示例
 
 1. 手机与电脑已建立连接，可参见[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
 

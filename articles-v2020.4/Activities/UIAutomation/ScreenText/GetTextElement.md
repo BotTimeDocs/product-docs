@@ -35,7 +35,7 @@
 
 **文本元素** ：将取到的文本元素存储在此变量，可用于其他组件的输入。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**获取屏幕含某文本的元素**组件并指定Adobe Acrobat右侧工具栏：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetTextElement1.png)

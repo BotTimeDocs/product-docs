@@ -17,7 +17,7 @@
 ### 输出
 
 - **GUID** ：输出生成的GUID的值存储于该变量中，仅支持字符串变量。
-## 操作样例
+## 使用示例
 
 1. 拖入**生成GUID**组件至项目流程中
 ![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GenerateGUIDActivity2021010501.png)

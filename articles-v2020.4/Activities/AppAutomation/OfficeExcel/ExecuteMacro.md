@@ -21,7 +21,7 @@
 
 - **返回值** ：将宏执行后返回的值存储在此变量，前提为执行宏后有返回值
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)

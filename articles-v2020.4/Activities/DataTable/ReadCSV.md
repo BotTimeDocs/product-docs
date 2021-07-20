@@ -25,7 +25,7 @@
 
 - **数据表** ：将输入的CSV文件存储到此变量，并可取此变量进行数据表相关组件进行操作
 
-## 操作样例
+## 使用示例
 
 1. 拖入**读取CSV文件**组件，创建一个类型为DataTable类型的变量用于存放输出数据表，例：table，创建类型为String的路径变量并给出默认值，例：filepath:"C:\云扩科技\savetable.csv"，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCSV20201229.png)

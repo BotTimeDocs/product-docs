@@ -27,7 +27,7 @@
 
 - **项目文本** ：指要选择的多个项目文本。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**选择多个项目**组件，设置对应的属性值：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectMultipleItems1.png)

@@ -15,7 +15,7 @@
 
 - **工作表名称** ：工作簿内所有工作表名存储到此变量。可结合循环组件输出或使用工作表名
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件，勾选是否新建文件，再填入需要打开或者新建的 Excel 文件，并配置所需选项内容:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)

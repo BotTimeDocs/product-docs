@@ -14,7 +14,7 @@
 
 - **工作表** ：指定隐藏的工作表名称。
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)

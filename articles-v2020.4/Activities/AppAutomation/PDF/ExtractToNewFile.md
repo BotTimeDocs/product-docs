@@ -22,7 +22,7 @@
 - **开始页码** ：输入被读取数据的 PDF 文件开始页码。可接整型类型变量和整型
 - **结束页码** ：输入被读取数据的 PDF 文件结束页码。可接整型类型变量和整型
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **提取为新文档** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractToNewFile_1.png)

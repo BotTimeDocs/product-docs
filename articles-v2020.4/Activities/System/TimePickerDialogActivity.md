@@ -23,7 +23,7 @@
 
 - **选择的时间** ：输出用户在弹窗中指定的日期和时间，仅可接变量。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**日期和时间选择框**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-1.png)

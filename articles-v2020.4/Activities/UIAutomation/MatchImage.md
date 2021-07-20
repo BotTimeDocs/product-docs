@@ -36,7 +36,7 @@
 
 - **结果集** ：将符合匹配图片的结果集存储在此变量。可使用此子集作为其他组件的控件元素输入
 
-## 操作样例
+## 使用示例
 
 1. 拖入**截屏**组件，输出变量设置为Image对象`imgEle`：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage1.png)

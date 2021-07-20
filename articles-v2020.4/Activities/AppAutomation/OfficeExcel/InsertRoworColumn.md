@@ -18,7 +18,7 @@
 - **工作表** ：指定将要插入行或列的工作表名称
 - **起始位置** ：欲在工作表中插入行/列的起始位置
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertRowOrColumn1.png)

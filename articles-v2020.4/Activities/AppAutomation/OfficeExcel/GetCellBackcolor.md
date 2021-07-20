@@ -20,7 +20,7 @@
 
 - **颜色** ：输出指定单元格背景色，例如 "#FFFFFF"。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

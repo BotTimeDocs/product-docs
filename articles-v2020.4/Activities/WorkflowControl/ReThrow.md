@@ -7,7 +7,7 @@
 
 - **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
 
-## 操作样例
+## 使用示例
 
 1. 拖入**循环操作（While）** 组件，设置变量，输入循环条件，并拖入**错误捕获（Try Catch）** 组件至容器内，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Rethrow-1.png)

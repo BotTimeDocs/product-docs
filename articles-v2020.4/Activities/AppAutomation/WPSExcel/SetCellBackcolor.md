@@ -17,7 +17,7 @@
 - **工作表** ：目标单元格所属工作表。仅支持字符串变量和字符串
 - **颜色** ：取此值作为填充色。可手动输入或使用拾色器辅助
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件:
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps20.png)

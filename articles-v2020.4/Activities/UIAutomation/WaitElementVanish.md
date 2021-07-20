@@ -29,7 +29,7 @@
 
 - **结果** ：将此组件执行的成功与否的结果存储在此变量。当指定目标消失时，存储的值为True。仅支持布尔型变量和布尔
 
-## 操作样例
+## 使用示例
 
 1. 拖入**等待元素消失**组件，设置对应的属性值：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementVanish1.png)

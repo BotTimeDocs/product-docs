@@ -26,7 +26,7 @@
 
 - **数据表**：将读取到的目标区域内数据存储在此变量内。仅支持数据表变量
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，在 A1: B7 处填入需要被读取的值:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps9.png)

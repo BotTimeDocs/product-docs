@@ -34,7 +34,7 @@
 
 - **响应正文** ：输出此 HTTP 请求返回的数据；仅支持变量
 
-## 操作样例
+## 使用示例
 
 1. 示例中使用阿里云 **身份证识别** 接口，接口说明：[身份证识别](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.12901015.0.i12901015.6416525cpTr5NW&innerSource=search#sku=yuncode440100000)
 2. 接口文档如：

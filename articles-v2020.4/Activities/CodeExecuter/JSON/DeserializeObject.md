@@ -19,7 +19,7 @@
 
 - **结果** ：输入被反序列化后的对象；仅支持变量
 
-## 操作样例
+## 使用示例
 
 1. 在左侧**组件**区域找到**反序列化**和**写入日志**，并将其拖入**编辑区域**，按图示顺序连接，导入**Newtonsoft.Json.Linq**命名空间：![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DeserializeObject1.png)
 

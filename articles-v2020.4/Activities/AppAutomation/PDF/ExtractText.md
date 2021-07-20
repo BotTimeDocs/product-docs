@@ -25,7 +25,7 @@
 
 - **结果** ：输出读取的文本数据。仅支持字符串变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **读取文本** 组件至项目流程中，并设置变量 result(String)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractText_1.png)

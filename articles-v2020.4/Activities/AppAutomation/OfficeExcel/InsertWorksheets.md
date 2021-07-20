@@ -18,7 +18,7 @@
 - **新工作表名称** ：欲插入的新工作表名
 - **源工作表名** ：欲复制的工作表名
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)

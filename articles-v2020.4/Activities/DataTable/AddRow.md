@@ -17,7 +17,7 @@
 - **数组** ：添加到数据表的数组。数组内的数据类型应和数据表中对应列的类型一致。和&quot;数据表行&quot;属性两者互斥，只能且必需填入一项
 - **数据表行** ：添加到数据表的数据表行对象。和&quot;数组&quot;属性两者互斥，只能且必需填入一项
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

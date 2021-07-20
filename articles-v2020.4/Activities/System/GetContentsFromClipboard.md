@@ -15,7 +15,7 @@
 
 - **文本** ：输出String类型的剪贴板文本内容
 
-## 操作样例
+## 使用示例
 
 1. 拖入**获取剪贴板文本**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getClipboard-1.png)

@@ -16,7 +16,7 @@
 
 ![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishinpath20201019.png)
 
-## 操作样例
+## 使用示例
 
 1. 创建一个自动化项目。项目示例参见 [创建流程项目](../process/CreateProject/CreateProject.md)
 2. 在菜单栏中的“**发布**”中选择发布的位置：

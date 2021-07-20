@@ -27,7 +27,7 @@
     >
     > 意思为先计算表达式的值，再逐个和 case 后的常量表达式比较，若不等则继续往下比较，若一直不等，则执行 default 后的语句；若等于某一个常量表达式，则从这个表达式后的语句开始执行，并执行后面所有 case 后的语句。
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **输入框** 组件，设置输出变量 inputContent，并添加“标题”与“输入描述”，例：请输入任意数字。如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-1.png)

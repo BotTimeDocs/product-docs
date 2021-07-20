@@ -17,7 +17,7 @@
 - **工作表** ：指定目标单元格所属工作表名称。仅支持字符串变量和字符串
 - **颜色** ：指定颜色(16 进制颜色码)；支持手动输入和从拾色器选择；仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SetTextColor1.png)

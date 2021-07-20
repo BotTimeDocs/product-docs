@@ -16,7 +16,7 @@
 - **工作表** ：执行筛选的目标工作表。仅支持字符串变量和字符串
 - **列号** ：执行筛选的目标列。仅支持整型变量和整型
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Filter1.png)

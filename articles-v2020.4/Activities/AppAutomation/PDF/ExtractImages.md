@@ -26,7 +26,7 @@
 
 - **图片路径列表** ：输出提取的图片路径列表
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **读取图片** 组件至项目流程中，并设置变量 result(list <string>)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractImages_1.png)

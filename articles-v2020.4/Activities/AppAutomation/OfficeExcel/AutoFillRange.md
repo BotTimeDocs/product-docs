@@ -17,7 +17,7 @@
 - **填充区域** ：欲将源数据自动填充的目标区域
 - **源区域** ：进行填充操作的源单元格区域
 
-## 操作样例
+## 使用示例
 
 1. 拖拽 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

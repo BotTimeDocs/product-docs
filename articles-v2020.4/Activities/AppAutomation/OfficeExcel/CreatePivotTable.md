@@ -27,7 +27,7 @@
 - **源工作表** ：输入数据源所属工作表。仅支持字符串变量和字符串
 - **源区域** ：输入数据源中的区域（和“源表名”属性互斥，二选一）。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable1.png)

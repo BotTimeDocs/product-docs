@@ -20,7 +20,7 @@
 
 - **颜色** ：将指定单元格背景色存储在此变量。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，并在 Sheet1 的单元格 C7 和 D7 中分别设置背景色为黄色和黑色:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps33.png)

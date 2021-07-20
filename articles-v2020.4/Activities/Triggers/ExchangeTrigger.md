@@ -40,7 +40,7 @@
 
 - **新邮件** ：输出监听到的新邮件。仅支持System.Net.Mail.MailMessage变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**邮件触发器(Exchange)**，新建变量`newmail`，变量类型为`MailMessage`，**输入**服务器地址例如`https://partner.outlook.cn/`，**输入**邮箱地址和密码，**输出**新邮件`newmail`，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExchangeTrigger1.png)

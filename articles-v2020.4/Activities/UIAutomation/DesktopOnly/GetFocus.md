@@ -28,7 +28,7 @@
 
 - **焦点控件** ：将指定窗体的焦点控件存储在此变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入[切换控件](activity/../SwitchControl.md)组件，指定企业微信窗口，打开一个新的聊天窗口：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus1.png)

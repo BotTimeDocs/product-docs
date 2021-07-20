@@ -27,7 +27,7 @@
   >   
   > 文件类型支持 ".exe" 和 ".msi"。
 
-## 操作样例
+## 使用示例
 1. 从 [Python 官网](https://www.python.org/downloads/)下载 python 安装包，保存至本地电脑。
 2. 拖入**安装 Python** 组件至流程中。
 3. 双击打开该组件，选择已下载的 Python 安装包。

@@ -23,7 +23,7 @@
 
 - **作用行数** ：将语句执行后受影响的作用行数存储到此变量。仅支持整型变量和整型
 
-## 操作样例
+## 使用示例
 
 1. 拖入**连接数据库**组件，选择当前所需访问数据库类型，再配置连接数据库字符串:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db1.png)

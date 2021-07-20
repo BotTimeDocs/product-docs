@@ -20,7 +20,7 @@
 
 - **文件夹** ：输入欲遍历的文件夹路径，支持绝对和相对路径。可接变量。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**遍历文件夹**组件到设计面板，双击进入组件内部，在组件面板点击“...”弹出对话框，选择目标文件；或者手动输入路径：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-1.png)

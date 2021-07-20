@@ -20,7 +20,7 @@
 
 - **合并值** ：将合并后单元格内显示的值存储在此变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件，勾选是否新建文件，再填入需要打开或者新建的 Excel 文件，并配置所需选项内容:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps1.png)

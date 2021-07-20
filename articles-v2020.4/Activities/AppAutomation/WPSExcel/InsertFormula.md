@@ -21,7 +21,7 @@
 
 - **执行结果** ：将公式执行结果存储在此变量
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，并在 Sheet1 的 A1-E1 单元格中分别填写数字 10，11，12，13，14:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps55.png)

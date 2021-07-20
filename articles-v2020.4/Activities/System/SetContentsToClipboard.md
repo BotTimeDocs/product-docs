@@ -17,7 +17,7 @@
 
 - **文本** ：将要填写到剪贴板的文本内容，可接变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**设置剪贴板文本**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-1.png)
