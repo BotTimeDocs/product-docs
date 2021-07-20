@@ -46,7 +46,7 @@
 
 - **结果** ：将判断存储在此变量。仅支持布尔变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**判断OCR文本是否存在**组件，指定元素，设置厂家，厂家AppKey和AppSecret（以腾讯OCR为例）等属性：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentifyOCRTextExist1.png)

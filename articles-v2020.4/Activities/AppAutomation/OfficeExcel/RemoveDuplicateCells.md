@@ -16,7 +16,7 @@
 - **工作表** ：执行去重操作的目标工作表。仅支持字符串变量和字符串
 - **区域** ：欲去重的单元格区域。
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateCells1.png)

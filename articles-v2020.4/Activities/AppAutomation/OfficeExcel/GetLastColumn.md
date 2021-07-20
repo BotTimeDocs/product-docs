@@ -21,7 +21,7 @@
 - **末列号(数字)** ：输出获取的数字末列号。仅支持整型变量
 - **末列号(字母)** ：输出获取的字母末列号。仅支持字符串变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

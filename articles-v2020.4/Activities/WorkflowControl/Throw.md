@@ -12,7 +12,7 @@
 
 - **异常** ：设置需要抛出的异常类型及信息
 
-## 操作样例
+## 使用示例
 
 1. 拖入**等待元素出现**组件并指定元素，设置失败后继续为“是”，添加输出结果变量isTrue :
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Throw-1.png)

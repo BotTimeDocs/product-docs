@@ -23,7 +23,7 @@
 
 - **输出** ：将命令行执行后的结果存储到此变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**执行命令行**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-1.png)

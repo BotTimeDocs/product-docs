@@ -27,7 +27,7 @@
 
 - **项** ：要点击的项目。此项和下拉框中所选择的项目一致。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**登录应用**组件并输入相应属性值；拖入**点击**组件，指定“取消”按钮元素：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-1.png)

@@ -32,7 +32,7 @@
 
 - **结果** ：将判断存储在此变量。仅支持布尔变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**判断屏幕文本是否存在**组件并指定Adobe Acrobat右侧工具栏：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentifyScreenTextExist1.png)

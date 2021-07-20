@@ -24,7 +24,7 @@
 - **列号** ：对此列进行排序操作。填入列索引（例：1，即对第一列进行排序）。仅支持整型变量和整型
 - **顺序** ：下拉框选择排序模式为升序或降序
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort1.png)

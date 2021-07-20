@@ -25,7 +25,7 @@
 
 - **新路径** ：输出重命名后的文件或文件夹路径。仅支持字符串变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**重命名文件/文件夹**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-1.png)

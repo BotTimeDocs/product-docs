@@ -32,7 +32,7 @@
 
 - **新邮件** ：输出监听到的新邮件。仅支持System.Net.Mail.MailMessage变量
 
-## 操作样例
+## 使用示例
 
 1. 安装配置完成Outlook软件后，拖入**邮件触发器(Outlook)**，新建变量`newmail`，变量类型为`MailMessage`，**输入**邮箱地址，**输出**新邮件`newmail`，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OutlookTrigger1.png)

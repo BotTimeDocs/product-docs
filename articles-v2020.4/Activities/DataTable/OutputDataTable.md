@@ -23,7 +23,7 @@
 
 - **输出** ：将输出后的数据表存储到此变量。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

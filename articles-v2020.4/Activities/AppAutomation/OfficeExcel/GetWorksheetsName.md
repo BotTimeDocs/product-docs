@@ -15,7 +15,7 @@
 
 - **工作表名称** ：工作簿内所有工作表名存储到此变量。可结合循环组件输出或使用工作表名
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，如下：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName1.png)

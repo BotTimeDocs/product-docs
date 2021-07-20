@@ -19,7 +19,7 @@
 
 - **长度** ：输出数组的长度；仅可接Int变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**获取数组长度**组件，设置变量`数组`，变量类型为`String[]`，默认值`new string[]{"A","B","C"}`，设置int变量`数组length`，**输入**数组变量`数组`，**输出**长度变量`数组length`，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfArrayActivity1.png)

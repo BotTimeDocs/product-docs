@@ -21,7 +21,7 @@
 
 - **值** ：将获取到数据表内的单元格值存储到此变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

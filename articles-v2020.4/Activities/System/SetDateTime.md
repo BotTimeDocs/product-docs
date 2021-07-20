@@ -15,7 +15,7 @@
 
 - **日期和时间** ：将指定的日期和时间输出；需手动输入时间；勾选"选择当前日期和时间"则在流程执行时输出当前系统的日期和时间。可接变量。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**设置日期和时间**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setDate-1.png)

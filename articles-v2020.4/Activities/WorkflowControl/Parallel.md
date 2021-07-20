@@ -15,7 +15,7 @@
 
 - **结束条件** ：设置结束执行的条件
 
-## 操作样例
+## 使用示例
 
 1. 拖入**并列**组件并双击展开，拖入两个**序列**组件，并重命名为“序列-左侧”与“序列-右侧”，如下图所示：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pallel-1.png)

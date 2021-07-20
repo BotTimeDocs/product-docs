@@ -21,7 +21,7 @@
 - **数据表** ：将此数据表保存为CSV文件
 - **文件路径** ：保存的CSV文件路径。支持相对和绝对路径。需提供文件名且带后缀。例如：“E:\DT.csv”。无后缀则视为文件夹，即没有提供文件名，报错。如果有文件夹不存在，则新建。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

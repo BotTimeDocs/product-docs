@@ -20,7 +20,7 @@
 
 - **末行号** ：将取到的末行号存储在此整型变量内。
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件，在 A1: B8 处填入需要被读取的值:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps29.png)

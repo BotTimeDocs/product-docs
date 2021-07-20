@@ -19,7 +19,7 @@
 
 - **选择的文件夹** ：输出选择的文件夹路径；仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**选择文件夹**组件，添加输出结果变量folderPath：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFolder.png)

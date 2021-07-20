@@ -29,7 +29,7 @@
 
 - **结果** ：输出两个值对比后的 Boolean 类型结果
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **值校验** 组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-1.png)

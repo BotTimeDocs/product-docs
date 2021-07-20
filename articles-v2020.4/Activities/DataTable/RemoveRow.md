@@ -17,7 +17,7 @@
 - **数据表行** ：移除数据表中的数据表行对象。和&quot;行索引&quot;属性两者互斥，只能且必需填入一项
 - **行索引** ：移除数据表中行的行索引。和&quot;数据表行&quot;属性两者互斥，只能且必需填入一项。仅支持整型变量和整型
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

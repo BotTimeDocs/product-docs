@@ -19,7 +19,7 @@
 
 - **总页数** ：输出 PDF 文件的总页数
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **获取页数** 组件至项目流程中，并设置变量 page_num(int32)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetPageNumbers_1.png)

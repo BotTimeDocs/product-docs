@@ -21,7 +21,7 @@
 
 - **颜色** ：指定填充色(16 进制颜色码)；支持手动输入和从拾色器选择；仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

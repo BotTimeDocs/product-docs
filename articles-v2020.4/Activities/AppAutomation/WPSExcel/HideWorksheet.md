@@ -15,7 +15,7 @@
 
 - **工作表** ： 需要隐藏的目标工作表名称。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 新建一个 Excel 文件:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps4.png)

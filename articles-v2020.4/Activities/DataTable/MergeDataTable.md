@@ -17,7 +17,7 @@
 - **源数据表** ：取此表数据合并到目标数据表，此表数据不会被更改
 - **结构不同时** ：执行合并操作的两表结构不同时，取此项来执行合并操作实现数据的取舍
 
-## 操作样例
+## 使用示例
 
 1. 拖入**搭建数据表**组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable20201224.png)

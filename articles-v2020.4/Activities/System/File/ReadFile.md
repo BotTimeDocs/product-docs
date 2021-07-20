@@ -23,7 +23,7 @@
 
 - **文件内容** ：将目标文件内容存储到此变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**读取文件**组件到设计面板，双击进入组件内部，在组件面板点击“...”弹出对话框，选择目标文件；或者手动输入路径：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-1.png)

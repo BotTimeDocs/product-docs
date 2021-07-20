@@ -18,7 +18,7 @@
 - **数据** ：写入工作表内的数据，例如：new object []{"value1", "value2", "value3"} 向指定的行/列插入 3 个值 value1, value2, value3
 - **写入方式** ：写入数据的模式选择（横向写入数据或纵向写入数据）。选择&quot; 横向写入数据&quot; 后，则取用户指定的起始单元格地址，开始横向写入数据；选择&quot; 纵向写入数据&quot; 后，则取用户指定的起始单元格地址，开始纵向写入数据
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

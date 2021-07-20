@@ -36,7 +36,7 @@
 
 - **键值** ：模拟点击此键。支持多键值，例如"A,Z"需同时按下的场景，填写"AZ"即可
 
-## 操作样例
+## 使用示例
 
 1. 拖入**切换控件**组件，指定元素，设置对应的属性值，**等待焦点改变**这个选择如果不勾选的话，效果就跟普通的发送快捷键是一样的：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl1.png)

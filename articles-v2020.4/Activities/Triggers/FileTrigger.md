@@ -26,7 +26,7 @@
 
 - **文件路径** ：输出监听到的文件路径。仅支持字符串变量
 
-## 操作样例
+## 使用示例
 
 1. 拖入**文件触发器**组件，新建文件路径变量`path`，变量类型为`String`，**输入**监听事件`"创建"`，**输入**文件夹路径`"D:\图片"`，**输入**文件夹筛选`"*.png"`，**输出**文件路径`path`，如下图所示：
    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FileTrigger1.png)

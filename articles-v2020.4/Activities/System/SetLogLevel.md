@@ -15,7 +15,7 @@
 
 - **日志级别** ：共有三个选项：Debug,  Info, Error。选择Debug后，可查看最详细的日志信息；选择Info后，可查看Info和Error等级的日志信息；选择Error后，将只输出Error日志
 
-## 操作样例
+## 使用示例
 
 1. 拖入**设置日志级别**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setLoglevel-1.png)

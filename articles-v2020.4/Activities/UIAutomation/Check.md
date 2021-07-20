@@ -26,7 +26,7 @@
 
 - **勾选** ：选择单选框或复选框的状态为Check选中，Uncheck取消选中，Toggle切换
 
-## 操作样例
+## 使用示例
 
 1. 拖入**勾选**组件并指定元素，从勾选下拉菜单中选择“勾选”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-1.png)

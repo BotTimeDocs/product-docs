@@ -24,7 +24,7 @@
 
 - **识别结果** ：输出识别的结果（JSON），仅支持字符串变量。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**文档理解**组件至项目流程中，并设置变量result(String)：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_1.png)

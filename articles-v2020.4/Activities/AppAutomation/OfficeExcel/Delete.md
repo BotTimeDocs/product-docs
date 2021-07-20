@@ -30,7 +30,7 @@
 
 - **行** ：删除整行数据。若需删除整行数据，则填充此项（例：1，即删除第一行）。仅支持整型变量和整型
 
-## 操作样例
+## 使用示例
 
 1. 拖拽 **打开/新建** 组件至项目流程中：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)

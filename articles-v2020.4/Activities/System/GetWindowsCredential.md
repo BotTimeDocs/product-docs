@@ -20,7 +20,7 @@
 - **用户名** ：将获取到的用户名保存到此变量。仅支持字符串变量和字符串
 - **密码** ：将获取到的密码保存到此变量。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入 **获取 Windows 凭据** 组件到设计面板，设置凭据名 "test01"，设置变量“pwd”，“userName”：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-1.png)

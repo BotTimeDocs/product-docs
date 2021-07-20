@@ -47,7 +47,7 @@
 - **纯文本** ：将获取到的文本内容存储到此变量。仅支持字符串变量和字符串
 - **文本元素** ：将取到的文本元素存储在此变量，可用于其他组件的输入。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**点击屏幕文本**组件并指定Adobe Acrobat右侧工具栏：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clickScreenText1.png)

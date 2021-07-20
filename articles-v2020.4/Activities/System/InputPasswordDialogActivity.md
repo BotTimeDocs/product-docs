@@ -20,7 +20,7 @@
 
 - **输入的密码** ：将输入的密码存储在此变量。仅支持字符串变量和字符串
 
-## 操作样例
+## 使用示例
 
 1. 拖入**输入密码**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-1.png)

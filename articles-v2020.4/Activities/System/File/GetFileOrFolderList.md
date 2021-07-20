@@ -22,7 +22,7 @@
 
 - **列表** ：将结果列表存储在此变量。返回类型为全路径
 
-## 操作样例
+## 使用示例
 
 1. 拖入**获取文件/文件夹列表**组件到设计面板：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-1.png)

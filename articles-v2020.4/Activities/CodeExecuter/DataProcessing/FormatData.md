@@ -19,7 +19,7 @@
 
 - **格式化数据** ：将格式化后返回的值存储在此变量；支持String数据类型
 
-## 操作样例
+## 使用示例
 
 1. 拖入**数据格式化**组件，并创建1个**String**类型的变量，在右侧**输入**栏写入1个带有小数点的多位小数：
 	![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FormatData1.png)
