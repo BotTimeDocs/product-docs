@@ -4,7 +4,7 @@
 
 ## 概述
 
-此组件可实现在 Excel 中创建透视表
+实现在 Excel 中创建透视表。
 
 ## 属性
 
@@ -14,9 +14,9 @@
 
 ### 目标位置
 
-- **目标工作表** ：输入创建的透视表所在目标工作表。仅支持字符串变量和字符串
-- **目标区域** ：输入创建的透视表所在目标区域。仅支持字符串变量和字符串
-- **透视表名称** ：输入创建的透视表名称。仅支持字符串变量和字符串
+- **目标工作表** ：输入创建的透视表所在目标工作表。
+- **目标区域** ：输入创建的透视表所在目标区域。
+- **透视表名称** ：输入创建的透视表名称。
 
   > **说明：**
   >
@@ -24,26 +24,17 @@
 
 ### 数据源
 
-- **源表名** ：输入数据源中的表名（和“源区域”属性互斥，二选一）。仅支持字符串变量和字符串
-- **源工作表** ：输入数据源所属工作表。仅支持字符串变量和字符串
-- **源区域** ：输入数据源中的区域（和“源表名”属性互斥，二选一）。仅支持字符串变量和字符串
+- **源表名** ：输入数据源中的表名（和“源区域”属性互斥，二选一）。
+- **源工作表** ：输入数据源所属工作表。
+- **源区域** ：输入数据源中的区域（和“源表名”属性互斥，二选一）。
 
 ## 使用示例
 
-1. 新建一个 Excel 文件，如下：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable1.png)
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：创建一个销售统计表，将“Sheet1”工作表的“A1：D11”区域的数据筛选后展示于“F1: H11”区域中。
 
-2. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+![配置创建透视表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable3.png)
 
-3. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+**执行结果**：
 
-4. 拖拽 **创建透视表** 组件到 **打开/新建** 组件中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable2.png)
-
-5. 点击创建透视表向导，填写源工作表“sheet1”，区域 "A1: D11"；填写目标工作表“sheet1”，目标区域 "F1: H11"，透视表名称 "销售统计"；填写透视表字段如下：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable3.png)
-
-6. 运行成功后，在目标区域生成如下透视表：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable4.png)
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable4.png)
