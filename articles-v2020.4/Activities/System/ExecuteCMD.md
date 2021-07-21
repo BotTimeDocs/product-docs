@@ -4,10 +4,11 @@
 
 ## 概述
 
-执行CMD命令行，并提供返回值。例如使用命令行实现60秒后定时关机： &quot;shutdown -s -t 60&quot;
->**说明：**
+执行 CMD 命令行，并提供返回值。如，使用命令行实现 60 秒后定时关机： “shutdown -s -t 60”。
+
+> **说明：**
 >
->此组件也支持对Python文件的操作，例如：在“命令行”属性中填写“Python Test.py arg1 arg2”, 其中“arg1”和“arg2”为参数。
+> 此组件也支持对 Python 文件的操作，例如：在“命令行”属性中填写“Python Test.py arg1 arg2”, 其中“arg1”和“arg2”为参数。
 
 ## 属性
 
@@ -22,18 +23,10 @@
 
 ### 输出
 
-- **输出** ：将命令行执行后的结果存储到此变量
+- **输出**：将命令行执行后的结果存储到此变量
 
 ## 使用示例
 
-1. 拖入**执行命令行**组件到设计面板：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-1.png)
+**此流程执行逻辑**：执行 cmd 命令，并将执行结果保存至“result”变量中。
 
-2. 双击进入组件内部，设置参数：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-2.png)
-
-3. 拖入**写入日志**组件，可以输出执行命令行的结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-3.png)
-
-4. 运行流程，查看控制台的输出：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-4.png)
+![配置执行命令行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-2.png)
