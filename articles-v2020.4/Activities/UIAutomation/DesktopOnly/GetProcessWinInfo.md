@@ -27,30 +27,10 @@
 
 ## 使用示例
 
-打开仅网页语言不同的两个网页，使用“获取进程窗口信息”组件，获取其中任一浏览器进程的网页标题`Name`属性，以推断另一网页标题。
+**此流程执行逻辑**：打开仅网页语言不同的两个网页，使用“获取进程窗口信息”组件，获取其中任一浏览器进程的网页标题`Name`属性，以推断另一网页标题。
 
 >**说明：**
 >
 > 由于页面多语言且每次打开时语言可能和上次不同，所以用来定位窗口的标题会失效。但是，该浏览器进程下只有两个浏览器窗口同时打开，且其中一个标题固定，故可通过此组件来实现反向推断另一个窗口标题的目的，以此来完成后续的操作。
 
-1. 拖入一个“获取进程窗口信息”组件至流程中。
-2. 配置“获取进程窗口信息”组件的属性。
-
-    - 进程名：使用“工具 > 元素探测器”工具进行“指定元素”以指定一个已打开的浏览器，找到ProcessName属性的值，如，`chrome.exe`。
-
-    ![获取进程名](https://docimages.blob.core.chinacloudapi.cn/images/Activities/processname20210622.png)
-
-    - 属性名：下拉选择需要获取的属性名称，如，`Name`。
-    - 属性值：创建一个字符串数组类型的变量，如，`S`。
-
-3. 拖入一个“写入日志”组件至“获取进程窗口信息”组件的下方。
-4. 配置“写入日志”组件的属性。
-
-    - 日志内容：填写日志内容，如，`"获取进程的Name属性为："+S[0]`。
-
-    ![日志内容](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writelog20210622.png)
-
-5. 保存并运行流程。
-6. 在输出窗口中查看流程运行结果。
-
-    ![流程运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runresult20210622.png)
+![获取进程名](https://docimages.blob.core.chinacloudapi.cn/images/Activities/processname20210622.png)

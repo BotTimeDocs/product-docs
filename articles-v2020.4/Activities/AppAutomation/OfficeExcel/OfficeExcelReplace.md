@@ -4,7 +4,7 @@
 
 ## 概述
 
-该组件实现在指定 Office Excel 工作表的指定单元格范围内，输入查找的内容并替换为新内容。
+实现在指定 Office Excel 工作表的指定单元格范围内，输入查找的内容并替换为新内容。
 
 > **说明：**
 >
@@ -16,6 +16,13 @@
 
 参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
+### 输入
+
+- **查找内容**：需要查找的内容。
+- **工作表**：执行查找操作所在的工作表。
+- **区域**：执行替换操作的单元格区域。当此项为空时，默认查找全表。可填单个单元格。
+- **替换为**：需要替换的新内容。
+
 ### 可选项
 
 - **单元格匹配**：默认不勾选；勾选后需完整匹配单元格内容，相当于精确完整匹配单元格的内容。
@@ -24,32 +31,13 @@
   - **全部替换（默认）**：替换查找的所有内容。
   - **替换第一个**：仅替换查找的第一个。
 
-### 输入
-
-- **查找内容**：需要查找的内容；可接变量。
-- **工作表**：执行查找操作所在的工作表；可接变量。
-- **区域**：执行替换操作的单元格区域。当此项为空时，默认查找全表。可填单个单元格；可接变量。
-- **替换为**：需要替换的新内容；可接变量。
-
 ## 使用示例
 
-将一个名叫 test 的 Excel 中的“语”字替换为“文”字。
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：将一个名叫 test 的 Excel 中的“语”字替换为“文”字。
 
-  ![样例数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplacedata20210224.png)
+![查找替换](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplace20210224.png)
 
-1. 拖入一个 Office Excel 中的 **打开/新建** 组件至流程中。
-2. 双击 **打开/新建** 组件的空白处，选择本地电脑上已准备的需要替换内容的 Excel 文件。
-3. 在 **打开/新建** 组件内，拖入一个 **替换** 组件。
-4. 配置 **替换** 组件的属性，如下图所示。
+**执行结果**：
 
-    - 工作表：输入需要查找替换的工作表名称，如，"Sheet1"
-    - 区域：输入需要查找的内容所在的区域，如，"A1: A4"
-    - 查找内容：输入指定的查找区域中需要查找的内容，如，"语"
-    - 替换为：输入指定的查找区域中需要查找的内容，如，"文"
-
-    ![查找替换](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplace20210224.png)
-
-5. 保存并运行流程。
-6. 待流程执行结束后，手动打开 Excel 文件查看运行结果。
-
-    ![流程执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplaceresultdata20210224.png)
+![流程执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplaceresultdata20210224.png)

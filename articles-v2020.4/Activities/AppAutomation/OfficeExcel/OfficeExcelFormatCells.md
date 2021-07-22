@@ -4,7 +4,7 @@
 
 ## 概述
 
-在 Excel 中，设置对指定单元格或单元格区域中的格式。支持的单元格式与 Excel 中支持的格式相同，如，常规、数值、货币、日期，等等。
+在 Excel 中，设置对指定单元格或单元格区域中数据的格式。支持的单元格式与 Excel 中支持的格式相同，如，常规、数值、货币、日期，等等。
 
 > **说明：**
 >
@@ -23,21 +23,11 @@
 
 ## 使用示例
 
-1. 准备一份 EXCEL 工作表数据，计划将 Sheet1 中的 A1 至 C7 单元格区域中的数据，设置为保留 2 位小数的数值类型。
-2. 拖入一个 Office Excel 的 **打开/新建** 组件至流程中。
-3. 配置 **打开/新建** 组件的属性参数。
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：将 Sheet1 中的 A1 至 C7 单元格区域中的数据，设置为保留 2 位小数的数值类型。
 
-    - 文件路径：输入需要打开进行设置单元格格式操作的文件路径，如，"" C:\Users\wangxin\Desktop\学院证书信息.xlsx ""
+![配置设置单元格格式组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcellformat20210611.png)
 
-4. 双击该组件，拖入一个 **设置单元格格式** 组件至 **打开/新建** 组件中。
-5. 配置 **设置单元格格式** 组件的属性参数，如下图所示。
+**执行结果**：
 
-    ![设置单元格格式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcellformat20210611.png)
-
-    - 工作表：需要设置单元格格式所在的工作表，如，`"Sheet1"`。
-    - 区域/列号：需要设置单元格格式所在的数据的区域，如，`"A1:C7"`。
-
-6. 保存并运行流程。
-7. 打开 EXCEL 工作表，查看已设置单元格格式的数据。
-
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runresult20210611.png)
+![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runresult20210611.png)

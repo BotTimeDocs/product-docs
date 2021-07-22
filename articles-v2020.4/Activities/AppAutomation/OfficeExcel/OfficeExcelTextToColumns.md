@@ -7,9 +7,8 @@
 实现 Excel 工作表中某一列数据的分割，最终将该列数据拆成一列或多列数据显示。
 
 > **说明：**
-> 
+>
 > 一般需搭配 “Office Excel > 打开/新建”组件进行使用。
-
 
 ## 属性
 
@@ -19,34 +18,23 @@
 
 ### 输入
 
-- **工作表**：指定的需要分列的数据所在工作表，可接变量。如，"Sheet1"。
-- **列号**：指定的需要分列的数据所在工作表的列号，依赖于 "顺序" 中的列类型，可接变量。如，"A"。
-- **目标区域**：输入分列后数据的目标区域位置，可接变量。如，"B1: C20"。
+- **工作表**：指定的需要分列的数据所在工作表。如，"Sheet1"。
+- **列号**：指定的需要分列的数据所在工作表的列号，依赖于 "顺序" 中的列类型。如，"A"。
+- **目标区域**：输入分列后数据的目标区域位置。如，"B1: C20"。
 - **顺序**：下拉选择列号的类型：数字列号、字母列号。
 
   > **说明：**
+  >
   >- 一般情况下，列号的类型是字母列号，如，A、B、C 等等。
   >- 通过勾选 Excel “选项 > 公式 > 使用公式”中的“R1C1 引用样式”，可设置列号类型为数字列号。
 
 ## 使用示例
 
-1. 准备一份需要分列的 Excel 数据。
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：将指定工作表 Sheet1 中 A 列的数据以空格分割后，存放于“B1：B100”区域。
 
-   ![分列数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndata20201217.png)
+![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
 
-2. 拖入一个 Office Excel 的 **打开/新建** 组件至流程中。
-3. 配置 **打开/新建** 组件的属性参数。
-    - 文件路径：输入需要打开进行分列操作的文件的路径，如，"C:\Users\wangxin\Desktop\test.xlsx"
-4. 双击该组件，拖入一个 **分列** 组件至 **打开/新建** 组件中。
-5. 配置 **分列** 组件的属性参数，如下图所示。
+**执行结果**：
 
-   ![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
-    - 工作表：输入 Excel 工作表的名称，如，"Sheet1"
-    - 顺序：下拉选择列号类型，如，字母列号
-    - 列号：根据选择的列中类型，输入对应的列号名称，如 "A"
-    - 分隔符号：根据样例中的数据特征设置分隔符号为点和空格
-    - 目标区域：输入将分列完成的数据存放的区域，如，"B1: B100"
-6. 保存并运行流程。
-7. 查看分列后的数据。
-
-   ![查看分列后的数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndataresult20201217.png)
+![查看分列后的数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndataresult20201217.png)
