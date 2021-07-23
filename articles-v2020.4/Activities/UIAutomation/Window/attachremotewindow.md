@@ -16,27 +16,21 @@
 
 参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
-### 可选项
-
-- **窗口置顶**：选择运行时的桌面窗口是否置顶，部分界面窗口置顶时无法获取到窗口内的内容，这时需要将此属性设置为不置顶。
-
 ### 目标
 
 - **匹配超时（毫秒）**：限定查找目标元素时间，超出指定时间后将不再等待。若超过此时间还未匹配到指定元素则会抛出错误。单位为毫秒（ms）,1000ms = 1s。仅支持整型变量和整型。
 - **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：用于指示要获取文本的目标元素。可通过点击 **指定窗口** 自动生成。属性 **控件元素** 和 **选择器** 二者必填其一且互斥。仅支持字符串变量和字符串。
 
+### 可选项
+
+- **窗口置顶**：选择运行时的桌面窗口是否置顶，部分界面窗口置顶时无法获取到窗口内的内容，这时需要将此属性设置为不置顶。
+
 ## 使用示例
 
-1. 拖入一个“绑定远程窗口”组件至流程中。
-2. 双击进入“绑定远程窗口”组件内。
-3. 点击“指定窗口”链接，指定远程窗口。
+**此流程执行逻辑**：在指定的远程窗口中打开指定浏览器地址，下载云扩学院文档。
 
-   ![指定远程窗口](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindow20210510.png)
+![配置指定远程窗口组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindow20210510.png)
 
-4. 在“绑定远程窗口”组件内，拖入一个“序列”组件，并命名为 `下载云扩文档`。
-5. 在“下载云扩文档”序列组件内，拖入一个“打开浏览器”组件，并设置其网址为 `"https://academy.encoo.com/zh-cn/wiki/"`。
-6. 在“打开浏览器”组件内，拖入一个“点击”组件，并为其指定云扩文档页面左下角的“下载 PDF”元素。
-7. 保存并运行流程。
-8. 查看运行结果。
+**执行结果**：
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindowresult20210510.png)
+![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindowresult20210510.png)
