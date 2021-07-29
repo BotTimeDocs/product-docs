@@ -12,27 +12,22 @@
 
 参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
+### 输入
+
+- **解压至文件夹**：选择或输入需要解压到的文件夹路径，支持相对路径或绝对路径。
+- **压缩文件路径**：选择需要被解压的压缩文件路径，支持相对路径或绝对路径。
+
 ### 可选项
 
 - **密码**：输入压缩密码，可接变量。可与 **设置密码** 组件配合使用。
 - **同名替换**：有同名文件是否替换。
 
-### 输入
-
-- **解压至文件夹**：选择或输入需要解压到的文件夹路径，支持相对路径或绝对路径，可接变量。
-- **压缩文件路径**：选择需要被解压的压缩文件路径，支持相对路径或绝对路径，可接变量。
-
 ## 使用示例
 
-1. 拖入一个 **解压缩文件** 组件至流程中。
-2. 双击打开该组件，配置该组件的属性，如下图所示。
+**此流程执行逻辑**：将桌面上的`test.rar`文件，解压至桌面。
 
-    - 压缩文件路径：选择压缩文件所在的路径，如，"C:\Users\wangxin\Desktop\test.rar"。
-    - 解压至文件夹：选择或输入需要解压到的文件路径，如，"C:\Users\wangxin\Desktop"。
+![解压缩文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefile20210225.png)
 
-    ![解压缩文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefile20210225.png)
+**执行结果**：
 
-3. 保存并运行流程。
-4. 在目标路径下，查看运行结果。
-
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefileresult20210225.png)
+![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefileresult20210225.png)

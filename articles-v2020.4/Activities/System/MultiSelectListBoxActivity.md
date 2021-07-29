@@ -14,37 +14,20 @@
 
 ### 输入
 
-- **标题**：运行时的弹窗标题，可接变量。
-- **描述**：运行时弹窗中显示的描述信息，可接变量。
-- **选项**：输入选项列表，可接变量。
+- **标题**：运行时的弹窗标题。
+- **描述**：运行时弹窗中显示的描述信息。
+- **选项**：输入选项列表。
 
 ### 输出
 
-- **选中项**：需要输出的已选择的选项，仅可接变量。
+- **选中项**：需要输出的已选择的选项。
 
 ## 使用示例
 
-1. 拖入一个**多项选择框**组件至流程中。
-2. 双击**多项选择框**组件的空白处，配置属性。
+**此流程执行逻辑**：在多项选择框中设置指定的多项选择项。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselect20210111.png)
+![配置多项选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselect20210111.png)
 
-    - 标题：输入弹出框的标题名称，如，`"请选择"`。
-    - 描述：输入对该多项选择框的描述信息，如，`"如下选项，可多选"`。
-    - 选项：输入在弹框中需显示的多个选项，可定义一个如上图所示的 String 数组，如，`S`。
-    - 默认索引：输入希望弹框中默认勾选的选项的位置，如，`1`,表示弹框时，默认勾选第2个选项。
-    - 选中项：存放弹窗中已选的选项的值，可定义一个如上图所示的 String 数组，如，`C`。
+**执行结果**：
 
-3. 在**多项选择框**组件的下方拖入一个**写入日志**组件。
-4. 双击**写入日志**组件的空白处，配置属性。
-
-    - **日志级别**：下拉选择日志级别，如，`Info`
-    - **日志内容**：输入日志内容，如，`"已选中的值为："+C.Length`
-
-5. 保存并运行流程。
-
-   ![运行时的流程弹框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectskip20210111.png)
-
-6. 在输出面板中查看运行结果。
-
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectresult20210111.png)
+![运行时的流程弹框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectskip20210111.png)

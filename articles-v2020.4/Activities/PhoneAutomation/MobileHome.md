@@ -14,11 +14,7 @@
 
 ## 使用示例
 
-1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
-2. 在连接设备组件内拖入一个**打开应用软件**组件。
-3. 单击**打开应用软件**组件中的**选择软件**链接，选择需要打开的软件名称并单击“运行”按钮，这里以打开“Metro大都会”软件为例，如下图所示。
+**前置必要组件**：[连接设备](./MobileConnect.md)、[打开应用软件](../PhoneAutomation/MobileStartApp.md)
+**此流程执行逻辑**：从打开的指定的“Metro大都会”APP软件界面返回至手机主页的界面。
 
-    ![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openapp20201222.png)
-
-4. 在编辑器界面中**打开应用软件**组件的下方拖入一个**返回主页**组件。
-5. 保存并运行流程，可看到屏幕上从打开的“Metro大都会”软件界面返回至手机主页的界面。
+![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openapp20201222.png)

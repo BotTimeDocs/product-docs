@@ -14,7 +14,6 @@
 
 ## 使用示例
 
-1. 拖入一个**锁屏**组件至流程中。
-2. 保存并运行流程，可实现自动把电脑屏幕锁住，如下图所示。
+**此流程执行逻辑**：保存并运行流程，可实现自动把电脑屏幕锁住。
 
-   ![锁屏样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/lock20201216.gif)
+![锁屏样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/lock20201216.gif)
