@@ -22,22 +22,7 @@
 
 ## 使用示例
 
-1. 拖入一个连接设备组件至流程中，具体参见[连接设备组件 - 操作样例](./MobileConnect.md)。
-2. 在连接设备组件内拖入一个**获取文本**组件。
-3. 单击**获取文本**组件中的“指定元素”链接，指定需要获取的元素的文本。
+**前置必要组件**：[连接设备](./MobileConnect.md)
+**此流程执行逻辑**：将获取到的文本内容输出至确认框中。
 
-    ![指定获取元素文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settinggettext20201223.png)
-
-4. 配置**获取文本**组件的属性参数。
-
-    ![配置获取文本属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextproperty20201223.png)
-
-5. 在**获取文本**组件的下方，拖入一个**确认框**组件，并配置属性参数，将获取到的属性文本值输出至确认框中。
-
-    - 标题：输入确认框的标题，如，"确认获取文本的值"
-    - 描述：输入确认框中的正文内容，如，"GetText:"+GetText
-
-6. 保存并运行流程，可看到将获取到的文本内容输出至确认框中的运行效果，如下图所示。
-
-    ![运行效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showgettext20201223.png)
-
+![配置获取文本属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextproperty20201223.png)

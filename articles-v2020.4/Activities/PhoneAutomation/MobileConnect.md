@@ -8,6 +8,10 @@
 
 ## 属性
 
+### 基本
+
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+
 ### 安卓
 
 - **序列号**：连接安卓手机设备的序列号，当**平台类型**选择**Andriod**时，出现此属性。
@@ -18,10 +22,6 @@
 - **版本号**：连接iOS手机设备的版本号，支持一键填充。
 - **设备名称**：连接iOS手机设备的设备名称，支持一键填充。
 
-### 基本
-
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
-
 ### 连接配置
 
 - **平台类型**：连接设备的类型，分为 Andriod 和 iOS 。
@@ -29,14 +29,8 @@
 
 ## 使用示例
 
-1. 手机与电脑已建立连接，可参见[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
+**前置必要步骤**：[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
 
-2. 拖入一个**连接设备**组件至流程中。
-3. 在**移动设备管理器**窗口中复制已添加的设备信息。
-   ![复制设备信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copydeviceinformation20201222.png)
+**此流程执行逻辑**：连接指定的手机。
 
-4. 双击**连接设备**组件的空白处，进入配置界面。
-5. 选择**平台类型**并单击“**一键填充**”按钮，完成**连接设备**组件的配置。  
-   ![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)
-
-6. 保存并运行流程。
+![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)

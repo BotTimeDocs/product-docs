@@ -4,7 +4,11 @@
 
 ## 概述
 
-对敏感信息进行保护输入，安全存储和调用输出。使用此组件时，编辑和执行需在同一机器且必须是同一用户（包括机器人）；如果流程文件在不同机器或用户下运行，则需重新编辑&quot;设置密码&quot;组件的输入
+对敏感信息进行保护输入，安全存储和调用输出。
+
+>**说明**：
+>
+>使用此组件时，编辑和执行需在同一机器且必须是同一用户（包括机器人）；如果流程文件在不同机器或用户下运行，则需重新编辑“设置密码”组件的输入。
 
 ## 属性
 
@@ -14,22 +18,14 @@
 
 ### 输入
 
-- **设置密码** ：敏感信息。仅支持字符串变量和字符串
+- **设置密码**：敏感信息。
 
 ### 输出
 
-- **赋值到变量** ：将敏感信息存储到此变量。仅支持字符串变量和字符串
+- **赋值到变量**：将敏感信息存储到此变量。
 
 ## 使用示例
 
-1. 拖入**设置密码**组件到设计面板：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-1.png)
+**此流程执行逻辑**：设置一个密码，并对其输出查看设置的密码值。
 
-2. 双击进入组件内部，配置属性参数：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-2.png)
-
-3. 拖入**写入日志**组件，可以输出用户设置的密码：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-3.png)
-
-4. 运行流程，查看控制台的输出：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-4.png)
+![配置设置密码组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setPassword-2.png)

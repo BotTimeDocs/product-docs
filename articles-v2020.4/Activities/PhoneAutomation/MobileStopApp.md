@@ -15,17 +15,12 @@
 ### 目标
 
 - **应用软件名**：Bundle Id 的应用名称，系统自动生成，可编辑且可为空，并不做定位效用。
-- **应用标识名**：应用软件的Bundle ID 。
+- **应用标识名**：应用软件的 Bundle ID 。
 
 ## 使用示例
 
-1. 在完成[打开应用软件组件-操作样例](./MobileStartApp.md)的基础上，拖入一个**关闭应用软件**组件至**打开应用软件**的下方。
-2. 单击**关闭应用软件**中的“选择软件”链接，选择需要关闭的软件名称，并单击“停止”按钮，这里以关闭“Metro大都会”软件为例，如下图所示。
+**前置必要组件**：[打开应用软件](./MobileStartApp.md)
 
-    ![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/closeapp20201222.png)
+**此流程执行逻辑**：关闭已打开的指定的 APP 软件。
 
-3. 在编辑器界面，查看配置完成的流程如下图所示。
-
-   ![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcloseapp20201222.png)
-
-4. 保存并运行流程。
+![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcloseapp20201222.png)
