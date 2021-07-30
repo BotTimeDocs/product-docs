@@ -15,9 +15,9 @@
     },
     {
         "id": null,
-        "name": "list.md",
-        "localizedName": "列表",
-        "uuid": "b75af54e-2794-47db-af39-11b7aaf26dcd",
-        "labels": "列表, 布局组件"
+        "name": "dynamic.md",
+        "localizedName": "动态组件",
+        "uuid": "39bc3427-ff89-4538-bca7-aab532a74530",
+        "labels": "动态组件, 布局组件"
     }
 ]
