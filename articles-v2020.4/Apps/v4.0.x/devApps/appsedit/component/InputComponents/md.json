@@ -36,18 +36,19 @@
     },
     {
         "id": null,
-        "name": "textarea.md",
-        "localizedName": "多行文本框",
-        "uuid": "7322e175-7c18-4c2e-9d97-19651a956ffb",
-        "labels": "多行文本框, 输入组件"
-    },
-    {
-        "id": null,
         "name": "TextBox.md",
         "localizedName": "文本输入框",
         "uuid": "1c107bf1-bb6b-48da-9fed-6255158a6e9b",
         "labels": "文本输入框, 输入组件"
     },
+    {
+        "id": null,
+        "name": "textarea.md",
+        "localizedName": "多行文本框",
+        "uuid": "7322e175-7c18-4c2e-9d97-19651a956ffb",
+        "labels": "多行文本框, 输入组件"
+    },
+
     {
         "id": null,
         "name": "passwordinput.md",
@@ -71,16 +72,16 @@
     },
     {
         "id": null,
-        "name": "Fileupload.md",
-        "localizedName": "文件上传",
-        "uuid": "fd9096d1-3bea-4b93-bf01-3cf8d22f88ac",
-        "labels": "文件上传, 输入组件"
-    },
-    {
-        "id": null,
         "name": "Switch.md",
         "localizedName": "开关",
         "uuid": "7e345393-8164-45b6-80a2-90f34f802361",
         "labels": "开关, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Fileupload.md",
+        "localizedName": "文件上传",
+        "uuid": "fd9096d1-3bea-4b93-bf01-3cf8d22f88ac",
+        "labels": "文件上传, 输入组件"
     }
 ]

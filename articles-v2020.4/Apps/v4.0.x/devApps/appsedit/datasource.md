@@ -177,6 +177,23 @@
 
     ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/datatbletestresult20210512.png)
 
+## 添加 Excel 数据源
+
+1. 在数据源页面，单击“新增”图标，选择“Excel”，可自定义 Excel 数据源名称。
+2. 在页面右侧弹框中，输入各参数。
+
+    - **资源**：选择创建 Excel 时自定义的数据连接器名称。
+    - **文件路径**：下拉选择该资源下的已有的 Excel 文件，即，“控制台 > 数据中心 > 文件服务”中已上传的 Excel 文件。
+    - **表密码**：Excel 工作簿的保护密码。
+    - **方法**：下拉选择需要对工作表进行的操作。
+
+    ![Excel 数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/exceldatasource20210730.png)
+
+3. 单击“保存”按钮，保存已配置的信息。
+4. 单击“运行”按钮，可在下方查看运行结果。
+
+    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/runresult20210730.png)
+
 ## 后续操作
 
 - **编辑数据源**：在“数据”页面的数据源列表中，选择需要修改的数据源列表，单击右侧页面的“编辑”按钮，可修改数据源。
