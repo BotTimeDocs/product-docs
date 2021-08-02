@@ -32,7 +32,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../WPSExcel/OpenExcel.md)
 
 **此流程执行逻辑**：将桌面上的 `wps.xlsx工作簿` 的 `sheet1` 工作表中的第 2 列内容删除。
 
