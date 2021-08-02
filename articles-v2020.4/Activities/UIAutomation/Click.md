@@ -4,6 +4,8 @@
 
 <video controls height='498px' width='800px' src="https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4"></video>
 
+<video controls height='498px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/click.mp4"></video>
+
 ## 概述
 
 模拟鼠标的点击操作，支持桌面端和浏览器。同时支持桌面端图像识别指定元素。
