@@ -4,7 +4,7 @@
 
 ## 概述
 
-向单元格插入公式，并填充公式运行后的结果
+向单元格插入公式，并填充公式运行后的结果。
 
 ## 属性
 
@@ -14,24 +14,18 @@
 
 ### 输入
 
-- **工作表** ：插入公式的目标单元格所属工作表。仅支持字符串变量和字符串
-- **单元格** ：执行插入公式操作的目标单元格，支持区域。仅支持字符串变量和字符串
-- **公式** ：插入的公式。支持两种写法：含公式名（例：SUM(A1, A2)），不含公式名（A1+A2）；两种写法均可省略等号。仅支持字符串变量和字符串
+- **工作表** ：插入公式的目标单元格所属工作表。
+- **单元格** ：执行插入公式操作的目标单元格，支持区域。
+- **公式** ：插入的公式。支持两种写法：含公式名（例：SUM(A1, A2)），不含公式名（A1+A2）；两种写法均可省略等号。
 
 ### 输出
 
-- **执行结果** ：将公式执行结果存储在此变量
+- **执行结果**：将公式执行结果存储在此变量。
 
 ## 使用示例
 
-1. 新建一个 Excel 文件，并在 Sheet1 的 A1-E1 单元格中分别填写数字 10，11，12，13，14:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps55.png)
+**前置必要组件**：[打开/新建](../WPSExcel/OpenExcel.md)
 
-2. 拖入 **打开/新建** 组件，不勾选新建文件，再填入需要打开的 Excel 文件路径:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps5.png)
+**此流程执行逻辑**：在指定工作表`Sheet1`中，计算`A1:E1`所有单元格的值之和，结果存放至`A2`单元格中。
 
-3. 双击 **打开/新建** 组件，拖入 **插入公式** 组件，分别填写工作表和单元格位置，以及公式内容:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps56.png)
-
-4. 点击流程运行，观察运行结果:
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps57.png)
+![配置插入公式组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps56.png)

@@ -19,7 +19,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../WPSExcel/OpenExcel.md)
 
 **此流程执行逻辑**：筛选`sheet1`工作表中第2列中包含数字`2`或者等于`value4`的记录。
 
