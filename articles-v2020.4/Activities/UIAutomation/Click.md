@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video height=498 width=880 src="https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4"></video>
+<video controls height='498px' width='880px' src="https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4"></video>
 
 ## 概述
 
