@@ -1,5 +1,11 @@
 [
     {
+        "name": "Prerequisites.md",
+        "localizedName": "前提条件",
+        "uuid": "10e9b5e5-26b2-4777-9661-7f6d30d35c1c",
+        "labels": "手机自动化，前提条件"
+    },
+    {
         "name": "Download.md",
         "localizedName": "步骤1：下载安装包",
         "uuid": "1ba0256c-ad6d-4f13-aff7-8572dd274f18",
@@ -28,5 +34,11 @@
         "localizedName": "步骤5：手机自动化操作",
         "uuid": "a020c4b6-e713-4460-89bb-7b8cd75d46a9",
         "labels": "自动化, 手机"
+    },
+    {
+        "name": "MFAQ.md",
+        "localizedName": "常见问题",
+        "uuid": "e398ad35-1c1b-4810-917e-5f5cc2987afc",
+        "labels": "常见问题, 手机"
     }
 ]

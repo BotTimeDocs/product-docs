@@ -1,29 +1,34 @@
 # 序列化
 
-此组件可以将.NET对象序列化为JSON字符串
+## 视频示例
+
+
+## 概述
+
+此组件可以将 .NET 对象序列化为 JSON 字符串。
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-- **超时(毫秒)** ：指定此组件的执行时间。单位为毫秒（ms）,1000ms = 1s。默认值为30000，即30秒，包含匹配超时（毫秒）。仅支持整型变量和整型
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **对象** ：输入被序列化的对象；仅支持变量
+- **对象** ：用于被序列化的对象的变量。如，`json对象`。
 
 ### 输出
 
-- **结果(JSON)** ：输入用于接收被序列化为JSON后数据的变量；仅支持字符串变量
+- **结果(JSON)** ：用于接收被序列化为 JSON 后数据的变量。如，`json字符串`。
 
-## 操作样例
+## 使用示例
 
-1. 在左侧**组件**区域找到**序列化**和**写入日志**，并将其拖入**编辑区域**，按图示顺序连接，导入**Newtonsoft.Json.Linq**命名空间：![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject1.png)
-2. 创建2个变量，其中1个变量类型为**String**，不需要赋值。另一个变量类型为**JObject**，如果变量类型列表没有，单击**浏览类型**，在弹出窗口搜索**JObject**，选中后单击确定。对于**JObject**类型的变量，使用**JObject.Parse**赋值，例如`JObject.Parse("{'名称':'云扩RPA','版本':1.0}")`（全为英文引号，注意单双引号和引号数量）。在组件**序列化**的右侧属性设置的对应位置，填写刚才创建的变量：![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject2.png)
-3. 在写入日志的右侧日志内容中输入变量**json字符串**，然后单击**运行**流程，可以看到，序列化后的**json字符串**：![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject3.png)
+**此流程执行逻辑**：将 Json对象`JObject.Parse("{'名称':'云扩RPA','版本':1.0}")`转换成标准化Json字符串：
 
-> 若想了解更多关于**json**的内容，请参考网上的**[json教程](https://www.runoob.com/json/json-tutorial.html)**
+![配置项](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject2.png)
+
+**执行结果**：
+
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject3.png)
+
+> 若想了解更多关于 **json** 的内容，请参考网上的 **[json 教程](https://www.runoob.com/json/json-tutorial.html)**

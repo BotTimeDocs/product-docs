@@ -16,10 +16,6 @@
 
    **A：** `%UserProfile%\AppData\Local\Encoo Studio`
 
-4. **Q：机器人的默认安装目录是什么？**
-
-   **A：** `%programfiles(x86)%\Encoo Robot`
-
 ## 卸载相关
 
 1. **Q：卸载失败**
@@ -31,11 +27,11 @@
 
 ## 系统日志相关
 
-1. **Q：编辑器 / 机器人的系统日志的默认路径是什么？**
+1. **Q：编辑器的系统日志的默认路径是什么？**
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Log`。
 
-2. **Q: 编辑器 / 机器人的安装日志的默认路径是什么？**
+2. **Q：编辑器的安装日志的默认路径是什么？**
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
@@ -63,3 +59,12 @@
     **A：** 打开编辑器，在**开始 > 工具 > 扩展** 中，选择并点击“Chrome扩展”，根据提示操作即可。（在安装后，请手动打开浏览器并输入：chrome://extensions/，启用扩展。）
 
     ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+
+
+## 指定元素相关
+
+1. **Q: 使用组件中的“指定元素”指定浏览器时，无法定位到目标应用程序，验证失败。**
+
+   ![指定元素验证失败](https://docimages.blob.core.chinacloudapi.cn/images/Studio/locateelement20210603.png)
+
+   **A：** 观察目标title的特征，如果目标title为动态的，把动态字段的值用*来代替。

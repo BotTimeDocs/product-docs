@@ -1,6 +1,13 @@
 [
     {
         "id": null,
+        "name": "list.md",
+        "localizedName": "列表",
+        "uuid": "b75af54e-2794-47db-af39-11b7aaf26dcd",
+        "labels": "列表, 布局组件"
+    },
+    {
+        "id": null,
         "name": "Table.md",
         "localizedName": "表格",
         "uuid": "4380376f-f1d2-4d57-a5a7-2aafaecb8cd2",

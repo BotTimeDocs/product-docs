@@ -1,8 +1,16 @@
 # 连接设备
 
-连接指定的手机，实现手机自动化。
+## 视频示例
+
+## 概述
+
+连接指定的手机，以确定流程在哪台设备上运行，同时为放在该组件内的手机自动化组件提供运行的范围，实现手机自动化。
 
 ## 属性
+
+### 基本
+
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 安卓
 
@@ -14,28 +22,15 @@
 - **版本号**：连接iOS手机设备的版本号，支持一键填充。
 - **设备名称**：连接iOS手机设备的设备名称，支持一键填充。
 
-### 基本
-
-- **后延迟（毫秒）**：在执行组件操作之后的延迟时间（以毫秒为单位）。
-- **前延迟（毫秒）**：在开始执行组件操作之前的延迟时间（以毫秒为单位）。
-- **失败后继续**：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误。
-- **显示名称**：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
-
 ### 连接配置
 
 - **平台类型**：连接设备的类型，分为 Andriod 和 iOS 。
 - **终端地址**：服务端地址，例如："<sh.encootech.com:28888>"
 
-## 操作样例
+## 使用示例
 
-1. 手机与电脑已建立连接，可参见[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
+**前置必要步骤**：[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
 
-2. 拖入一个**连接设备**组件至流程中。
-3. 在**移动设备管理器**窗口中复制已添加的设备信息。
-   ![复制设备信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copydeviceinformation20201222.png)
+**此流程执行逻辑**：连接指定的手机。
 
-4. 双击**连接设备**组件的空白处，进入配置界面。
-5. 选择**平台类型**并单击“**一键填充**”按钮，完成**连接设备**组件的配置。  
-   ![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)
-
-6. 保存并运行流程。
+![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)

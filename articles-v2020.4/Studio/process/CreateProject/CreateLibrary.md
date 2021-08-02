@@ -63,7 +63,7 @@
 
 2. 在菜单栏，点击“发布到组件市场”，打开发布窗口
    ![发布到组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/publishactivities20201112.png)
-    - 选择你要发布的目标市场，若没有市场，可点击“管理市场”进行创建。关如何创建市场，请查看 [管理市场](../market/Market.md)
+    - 选择你要发布的目标市场，若没有市场，可点击“管理市场”进行创建。关如何创建市场，请查看 [管理市场](../../market/Market.md)
     - 在 **最新版本号** 字段中，你可以设置当前发布的版本号
     - 在 **描述** 字段中，你可以添加有关此组件项目的详细信息
 

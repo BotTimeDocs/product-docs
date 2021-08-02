@@ -1,15 +1,16 @@
 # 遍历文件夹
 
+## 视频示例
+
+## 概述
+
 遍历指定的文件夹并获取文件路径（默认为变量filePath），可在此组件范围内根据实际业务需要拖入其他组件。
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -20,12 +21,12 @@
 - **文件筛选** ：输入欲筛选的文件类型，默认为空即获取所有文件；支持通配符（* 和 ?）或指定文件名称，例如：*.xls 或 ?.jpg
 - **遍历子文件夹** ：默认为False，即不遍历子文件夹。勾选后则遍历指定“文件夹”下的子文件夹
 
-## 操作样例
-1. 拖入**遍历文件夹**组件到设计面板，双击进入组件内部，在组件面板点击“...”弹出对话框，选择目标文件；或者手动输入路径：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-1.png)
+## 使用示例
 
-2. 在**遍历文件夹**组件里拖入**写入日志**组件，可以输出遍历的文件夹里文件路径信息：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-2.png)
+**此流程执行逻辑**：查看指定文件夹路径下的文件路径，并输出至“输出面板”中。
 
-3. 运行流程，查看输出的文件夹里文件路径信息：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-3.png)
+![配置遍历文件夹组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-1.png)
+
+**执行结果**：
+
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-3.png)

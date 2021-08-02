@@ -1,21 +1,25 @@
 # 执行JavaScript代码
 
+## 视频示例
+
+## 概述
+
 执行JavaScript代码，可接收执行后的返回值。支持在代码中直接使用本地变量
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-- **超时(毫秒)** ：指定此组件的执行时间。单位为毫秒（ms）,1000ms = 1s。默认值为30000，即30秒，包含匹配超时（毫秒）。仅支持整型变量和整型
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+
+### 可选项
+
+- **窗口置顶**：选择运行时的桌面窗口是否置顶，部分界面窗口置顶时无法获取到窗口内的内容，这时需要将此属性设置为不置顶。
 
 ### 目标
 
-- **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：用于指示特定的UI元素，并在此元素上执行JavaScript代码。可通过点击指定元素自动生成。仅支持字符串变量和字符串
 - **匹配超时(毫秒)** ：限定查找目标元素时间，超出指定时间后将不再等待。若超过此时间还未匹配到指定元素则会抛出错误。单位为毫秒（ms）,1000ms = 1s。仅支持整型变量和整型
+- **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：用于指示特定的UI元素，并在此元素上执行JavaScript代码。可通过点击指定元素自动生成。仅支持字符串变量和字符串
 
 ### 输入
 
@@ -30,16 +34,16 @@
 
 - **返回值** ：将执行JavaScript代码后返回的值存储在此变量。
 
-## 操作样例
+## 使用示例
 
 1. 拖入**执行JavaScript代码**组件并指定元素：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-JavaScript-code.png)
+    ![执行JavaScript代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutejavascriptcode20210630.png)
 
 2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-method-verify.png)
+    ![验证网页元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/verifyelement20210630.png)
 
 3. 运行流程并查看结果：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/execute-js-success.png)
+    ![运行流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/javascriptcoderesult20210630.png)

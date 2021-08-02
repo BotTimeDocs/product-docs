@@ -1,39 +1,35 @@
 # 插入图片
 
-指定单元格插入图片
+## 视频示例
+
+## 概述
+
+在 Excel 指定的单元格中插入图片。
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择 "是" 时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择 "否" 时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **工作表** ：插入图片的目标单元格所属工作表。仅支持字符串变量和字符串
-- **单元格** ：被插入图片的目标单元格，支持区域。仅支持字符串变量和字符串
-- **图片路径** ：指定插入图片的路径。仅支持字符串变量和字符串
+- **单元格** ：被插入图片的目标单元格，支持区域。
+- **工作表** ：插入图片的目标单元格所属工作表。
+- **图片路径** ：指定插入图片的路径。
 
 ### 可选项
 
-- **高度(像素)** ：输入被插入图片的高度，单位为像素，为空则使用图片原高度。仅支持 Float 变量和字符串
-- **宽度(像素)** ：输入被插入图片的宽度，单位为像素，为空则使用图片原高度。仅支持 Float 变量和字符串
+- **高度(像素)** ：输入被插入图片的高度，单位为像素，为空则使用图片原高度。
+- **宽度(像素)** ：输入被插入图片的宽度，单位为像素，为空则使用图片原高度。
 
-## 操作样例
-1. 新建一个 Excel 文件，存放在本地。
+## 使用示例
 
-2. 拖拽 **打开/新建** 组件至项目流程中：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel1.png)
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：在指定的“Sheet1”工作表中插入本地指定路径下的图片。
 
-3. 双击打开，并点击 **...** 选择本地 Excel 文档：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![配置插入图片组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic1.png)
 
-4. 拖拽 **插入图片** 到 **打开/新建** 组件中，填写工作表名称，单元格名称和图片路径：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic1.png)
+**执行结果**：
 
-5. 运行成功后，sheet1 的 B2 中插入图片：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic2.png)
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic2.png)

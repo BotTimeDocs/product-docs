@@ -8,6 +8,20 @@
     },
     {
         "id": null,
+        "name": "rolesmanagement.md",
+        "localizedName": "角色管理",
+        "uuid": "2b302eae-9c16-4fc2-90a7-ecf49b5937ab",
+        "labels": "角色, 控制台"
+    },
+    {
+        "id": null,
+        "name": "usersmanagement.md",
+        "localizedName": "用户管理",
+        "uuid": "0b889e4f-051b-4679-a4be-0e8ebb057715",
+        "labels": "用户, 控制台"
+    },
+    {
+        "id": null,
         "name": "log",
         "localizedName": "审计日志"
     },

@@ -19,5 +19,19 @@
         "localizedName": "饼状图",
         "uuid": "4a9b51e3-e245-4a6b-afa5-b1f03f94a0ec",
         "labels": "饼状图,图表"
+    },
+    {
+        "id": null,
+        "name": "ChartRadar.md",
+        "localizedName": "雷达图",
+        "uuid": "5e40a9a0-94c2-49c9-89e1-490416c4e2da",
+        "labels": "雷达图,图表"
+    },
+    {
+        "id": null,
+        "name": "ChartScatter.md",
+        "localizedName": "散点图",
+        "uuid": "9be708be-9444-4a54-9813-cc2b4c475fee",
+        "labels": "散点图,图表"
     }
 ]

@@ -1,6 +1,6 @@
 # 连接管理
 
-连接管理主要用户创建并管理各类数据连接器，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+连接管理主要用于创建并管理各类数据连接器，建立与各类外部数据之间的连接，便于后续在 ViCode 中进行各类数据操作。
 
 ## 前提条件
 
@@ -48,6 +48,74 @@
     ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/settingtrustconnect20210425.png)
 
 4. 单击“新建”按钮，完成托管数据库连接。
+
+### 新建 DB2 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“DB2”，单击“下一步”按钮。
+
+   ![新建 DB2 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/db2connect20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 DB2 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingdb2connection20210604.png)
+
+4. 单击“新建”按钮，完成 DB2 数据库连接。
+
+### 新建 PostgreSQL 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“PostgreSQL”，单击“下一步”按钮。
+
+   ![新建 Postgre SQL 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/selectpostgresql20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 PostgreSQL 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/postgresqlconnection20210604.png)
+
+4. 单击“新建”按钮，完成 PostgreSQL 数据库连接。
+
+### 新建 SQL Server 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“SQL Server”，单击“下一步”按钮。
+
+   ![新建 SQL Server 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/sqlserverconnection20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 SQL Server 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingsqlserver20210604.png)
+
+4. 单击“新建”按钮，完成 SQL Server 数据库连接。
+
+### 新建 Oracle 数据库
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择“Oracle”，单击“下一步”按钮。
+
+   ![新建 Oracle 数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/oracleconnection20210604.png)
+
+3. 在进入的“配置连接”弹框中，配置 Oracle 数据库连接。
+
+    - **连接名称**：自定义新建的托管数据库连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **连接方式**：选择“通过配置连接”或“通过 Connection String 连接”连接方式。
+
+    ![配置数据连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingoracle20210604.png)
+
+4. 单击“新建”按钮，完成 Oracle 数据库连接。
 
 ## 新建 API 类连接
 
@@ -126,6 +194,60 @@
     ![配置 EncooStorage 文件连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingencoostorage20210413.png)
 
 4. 单击“新建”按钮，完成 EncooStorage 文件连接。
+
+## 新建 RESTfulTemplate
+
+### 1. 配置 API 类连接模板
+
+通过导入 Postman Collection 模板文件自定义 API 类连接模板。
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“API 类连接模板配置”链接。
+2. 在弹出的“新建 API 类连接模板”弹框中，选择“+”图标。
+
+   ![选择新建图标](https://docimages.blob.core.chinacloudapi.cn/images/Console/newapi20210607.png)
+
+3. 根据向导进行创建模板。
+
+    - 模板名称：自定义模板名称。
+    - 备注：对自定义模板名称的描述。
+    - 模板文件：从本地选择已通过 Postman 工具生成的模板 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/GitHub_Demo.json)。
+    - 模板图标：从本地选择一个图标作为模板图标。
+    - 环境变量文件：从本地选择已通过 Postman 工具生成的环境变量 json 文件，如，[示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/postman_environment.json)。
+
+    ![创建模板](https://docimages.blob.core.chinacloudapi.cn/images/Console/createtemplate20210607.png)
+
+4. 单击“下一步”按钮，进入“连接参数”步骤，根据情况配置参数信息。
+
+    > **说明：**
+    >
+    > 此参数为在环境变量 json 文件中预先配置的，此处为个人 github 的 token, 如，`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`。
+
+    ![连接参数](https://docimages.blob.core.chinacloudapi.cn/images/Console/connectionargument20210607.png)
+
+5. 单击“下一步”按钮，进入“方法确认”步骤，根据情况确认相关信息。
+
+    ![方法确认](https://docimages.blob.core.chinacloudapi.cn/images/Console/confirm20210607.png)
+
+6. 单击“确定”按钮，完成模板的创建。
+
+    ![模板创建完成](https://docimages.blob.core.chinacloudapi.cn/images/Console/templatedone20210607.png)
+
+### 2. 使用模板新建 RESTful 连接
+
+1. 在“**云扩 RPA 控制台 > 数据中心 > 连接管理**”页面中，单击页面右上角的“+新建”按钮。
+2. 在弹出的“新建连接”对话框中，选择已创建的 RESTfulTemplate“test_demo”，单击“下一步”按钮。
+
+    ![新建 RESTfulTemplate 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/test_demo20210607.png)
+
+3. 在进入的“配置连接”弹框中，配置 自定义的 RESTfulTemplate "test_demo" 连接。
+
+    - **连接名称**：自定义新建的 RESTful 连接名称。
+    - **环境类型**：下拉选择生产环境或测试环境。
+    - **参数名称**：填写自定义的参数名称对应的值。
+
+    ![配置 RESTful 连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingconnect20210607.png)
+
+4. 单击“新建”按钮，完成 RESTful 连接。
 
 ## 后续操作
 

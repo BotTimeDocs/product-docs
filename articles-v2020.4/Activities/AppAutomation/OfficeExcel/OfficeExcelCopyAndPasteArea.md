@@ -1,46 +1,31 @@
 # 复制粘贴区域
 
+## 视频示例
+
+## 概述
+
 实现将指定工作表中的区域数据，复制并粘贴到目标工作表区域。
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称。
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择 "是" 时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择 "否" 时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误。
-- **前延迟(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件。
-- **后延迟(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写 1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **源工作表**：欲被复制的源工作表。
-- **源区域**：欲被复制的源工作表中的区域。
 - **目标工作表**：欲被粘贴至的目标工作表。
 - **目标区域**：欲被粘贴至的目标工作表区域。
+- **源工作表**：欲被复制的源工作表。
+- **源区域**：欲被复制的源工作表中的区域。
 
-## 操作样例
+## 使用示例
 
+**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**此流程执行逻辑**：将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。
 
-1. 准备一份 Excel 工作表数据，计划将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。   
+![配置复制粘贴区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
 
-   ![数据准备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sheet1andsheet220201217.png)
+**执行结果**：
 
-2. 拖入一个 Office Excel 的 **打开/新建** 组件至流程中。
-3. 配置 **打开/新建** 组件的属性参数。
-
-    - 文件路径：输入需要打开进行复制粘贴数据操作的文件路径，如，"C:\Users\wangxin\Desktop\A.xlsx"
-
-4. 双击该组件，拖入一个 **复制粘贴区域** 组件至 **打开/新建** 组件中。
-5. 配置 **复制粘贴区域** 组件的属性参数，如下图所示。
-
-   ![属性配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
-
-    - 源工作表：输入需要复制数据的工作表名称，如，"Sheet1"
-    - 源区域：输入需要复制数据的工作表中的数据区域，如，"B2: B11"
-    - 目标工作表：输入需要粘贴数据的工作表名称，如，"Sheet2"
-    - 目标区域：输入需要粘贴数据的工作表中的数据区域，如，"A2: A11"
-
-6. 保存并运行流程。
-7. 在目标工作表 Sheet2 中查看粘贴后的数据。
-
-   ![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)
+![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)

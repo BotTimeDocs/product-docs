@@ -40,5 +40,14 @@
         "localizedName": "选择器管理器",
         "uuid": "5411559b-c398-4b63-b39a-b14c18f3f0a7",
         "labels": "选择器, 管理器"
+    },
+    {
+        "id": null,
+        "name": "CommonConfigurationItems.md",
+        "localizedName": "通用配置项",
+        "uuid": "013d53e9-3170-4da7-80ac-586f6819bb46",
+        "labels": "组件通用配置项, 属性，基本"
     }
+
+
 ]

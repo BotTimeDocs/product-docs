@@ -1,23 +1,25 @@
 # 登录应用
 
+## 视频示例
+
+## 概述
+
 实现打开SAP Logon 指定连接，并输入客户端、用户、口令登录连接。
 
-本功能仅在云扩企业版编辑器中支持。
+> **说明：**
+>
+> 本功能仅在云扩企业版编辑器中支持。
 
 ## 属性
 
 ### 基本
 
-- **显示名称** ：默认为该组件的名称。支持更改，用户自定义此组件的显示名称
-- **失败后继续** ：设置当此组件运行失败时，是否忽略此错误继续运行下一个组件。下拉框选择，当选择"是"时，如果该组件运行时遇到错误，该流程也会继续执行下一个组件，并不会停止；当选择"否"时，如果该组件运行时遇到错误，该流程将会停止执行并抛出错误
-- **前延时(毫秒)** ：指定在此组件执行前的等待时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为上一个组件执行完毕后，等待一秒钟后执行此组件
-- **后延时(毫秒)** ：指定在此组件执行后的延迟时间。单位为毫秒（ms）,1000ms = 1s。若此处填写1000，意为此组件执行完毕后，等待一秒钟后执行下一个组件
-- **超时(毫秒)** ：指定此组件的执行时间。单位为毫秒（ms）,1000ms = 1s。若超出此时间元素还未消失，会抛出错误。仅支持整型变量和整型
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **SAP Logon路径** ：SAP Logon的安装路径。仅支持字符串变量和字符串
-- **连接名** ：指定要登录的连接名 （Connection Name）。仅支持字符串变量和字符串
+- **SAP Logon路径** ：SAP Logon的安装路径。
+- **连接名** ：指定要登录的连接名 （Connection Name）。
   
   ![连接名样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connectionname20210325.png)
 
@@ -25,16 +27,16 @@
 
   ![客户端名样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/client20210325.png)
 
-- **用户** ：登录连接界面时要输入的用户 （User)。仅支持字符串变量和字符串
-- **口令** ：登录连接界面时要输入的口令 （Password)。仅支持字符串变量和字符串
-- **多登录时** ：含三个值：继续此登录，保持同用户的其他连接；继续此登录，停止同用户的其他连接；停止此次登录
+- **用户** ：登录连接界面时要输入的用户 （User)。
+- **口令** ：登录连接界面时要输入的口令 （Password)。
+- **多登录时** ：含三个值：继续此登录，保持同用户的其他连接；继续此登录，停止同用户的其他连接；停止此次登录。
 
-## 操作样例
+## 使用示例
 
-1. 拖入**登录应用**组件，输入应用路径、客户端、口令、连接名及用户，选择多登录时的目标状态选项，例：停止此次登录
+**此流程执行逻辑**：当有多登录时，停止此次登录SAP应用。
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-1.png)
+![配置登录应用组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-1.png)
 
-2. 点击运行流程，查看效果：
+**执行结果**：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)

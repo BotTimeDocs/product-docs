@@ -10,5 +10,11 @@
         "localizedName": "流程图",
         "uuid": "64aaf6c5-5b86-4b22-bfc2-e988529dbe83",
         "labels": "流程图"
+    },
+    {
+        "name": "CodeFile.md",
+        "localizedName": "代码文件",
+        "uuid": "8a4952f5-0fe2-4d9c-a3a1-d0568dc302cd",
+        "labels": "代码文件"
     }
 ]

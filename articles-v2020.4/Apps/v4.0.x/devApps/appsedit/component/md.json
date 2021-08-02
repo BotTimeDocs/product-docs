@@ -2,7 +2,7 @@
     {
         "id": null,
         "name": "aboutComponent.md",
-        "localizedName": "关于组件库",
+        "localizedName": "关于组件",
         "uuid": "907c1d96-5ae8-47df-acf0-54d8ab388c46",
         "labels": "组件库"
     },
@@ -22,6 +22,12 @@
         "id": null,
         "name": "ModuleComponents",
         "localizedName": "模块组件",
+        "uuid": ""
+    },
+    {
+        "id": null,
+        "name": "ModalView",
+        "localizedName": "模态视图",
         "uuid": ""
     },
     {

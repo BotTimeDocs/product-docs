@@ -1,20 +1,21 @@
 # 步骤 3：自动化服务配置
 
+**自动化服务配置** 主要是在 PC 端配置已下载的移动端服务包与移动端手机设备的连接。当移动端服务包与移动端手机设备连接成功后，移动端服务包（或 移动服务管理器）界面上，可记录服务端地址及端口号，便于编辑器中的“移动设备管理器”连接使用。
 ## Android
 
 ### 连接服务
 
-1. 解压已下载的移动端服务包 **Encoo.Android.Automation.zip**。
-
-    > **说明：**
-    >
-    > 需要确保解压路径中不可包含中文字符。
+1. 打开已下载的移动端服务包 **Encoo.Android.Automation.zip** 的解压完成的文件夹。
 
 2. 在解压完成的文件夹中，双击 **Encoo.Android.Automation.exe** 应用程序。
 
-3. 在弹出的 **云扩 Android 服务管理器** 窗口中，单击 **连接服务**。
+3. 在弹出的 **云扩 Android 服务管理器** 窗口中输入自定义端口号，单击 **连接服务**。
 
-    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Andriodconnect20201104.png)
+    > **说明：**
+    >
+    > 自定义的端口号，建议输入 8080~65535 之间的任意数值，但如果连接的模拟器有默认端口，请与之区分。
+
+    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/connectservice20210512.png)
 
 4. 服务连接成功，如下图所示。
 
@@ -22,7 +23,7 @@
 
 ### 安装 APP 应用（首次）
 
-在解压完成的文件夹下的 **apk** 文件夹中，有以下三个手机应用安装包。
+在解压完成的文件夹下的 **apk** 文件夹中，有以下三个手机应用安装包。根据需要选择对应的 apk 文件, 安装至连接的手机中。
 
 ![APP 应用](https://docimages.blob.core.chinacloudapi.cn/images/Studio/app20201104.png)
 
