@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<iframe height=498 width=980 src="https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4">
+![click](https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4)
 
 ## 概述
 
