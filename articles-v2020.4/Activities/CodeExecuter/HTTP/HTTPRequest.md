@@ -18,12 +18,12 @@
 
 ### 输入
 
-- **URL** ：输入请求的 URL；仅支持字符串变量和字符串。
-- **超时(秒)** ：输入请求超时秒数；仅支持整型变量和整型值。
+- **URL** ：输入请求的 URL。
+- **超时(秒)** ：输入请求超时秒数。
 - **内容类型** ：选择请求的内容类型，例如：application/json。
 - **请求方法** ：选择请求的方法，支持 GET、POST、HEAD、PUT、DELETE、OPTIONS、PATCH。
 - **请求头** ：输入请求头，仅支持 Dictionary 变量。可在“设置请求方式”弹窗中输入请求头信息，若同时在此属性框和弹窗中指定请求头，则使用弹窗中设置的变量。
-- **请求正文** ：输入请求的正文；仅支持字符串变量和字符串。
+- **请求正文** ：输入请求的正文。
     > **说明：**
     >
     > 在组件的可视化界面中，请求正文对应的内容支持文本模式（默认）和代码模式。
@@ -33,57 +33,13 @@
   
 ### 输出
 
-- **响应正文** ：输出此 HTTP 请求返回的数据；仅支持变量
+- **响应正文** ：输出此 HTTP 请求返回的数据。
 
 ## 使用示例
 
-1. 示例中使用阿里云 **身份证识别** 接口，接口说明：[身份证识别](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.12901015.0.i12901015.6416525cpTr5NW&innerSource=search#sku=yuncode440100000)
-2. 接口文档如：
+**此流程执行逻辑**：使用阿里云 **身份证识别** 接口，接口说明：[身份证识别](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.12901015.0.i12901015.6416525cpTr5NW&innerSource=search#sku=yuncode440100000)验证HTTP请求结果。
 
-    - **请求方式**：POST
-    - **返回类型**：JSON
-    - **请求参数（Hearders）**：
-    ```
-   "Content-Type":"application/json; charset=UTF-8"
-   "Authorization":"APPCODE 你的appcode"
-    ```
-    - **请求参数（Body）**：
-    ```
-    {
-	"image":  "图片二进制数据的base64编码/图片url",
-	"configure": {"side":"face"}  #身份证正反面类型:face/back
-    }
-    ```
-3. 拖入 **HTTP 请求** 组件，如下图所示：
-
-    - 设置 `方法`： POST
-    - 设置 `URL`：`"http://dm-51.data.aliyun.com/rest/160601/ocr/ocr_idcard.json"`
-    - 设置 `内容类型`：`application/json`
-    - 设置 `Hearders`：
-    ```
-    "Content-Type":"application/json; charset=UTF-8"
-    "Authorization(key)","APPCODE APPcode值(value)"
-    ```
-    - 设置 Boby 输入框：支持文本模式和 C#代码模式，点击 icon 切换 2 种输入方式
-
-    文本模式：支持文本在文本框中输入，例如
-    ```
-    {"configure": {"side": "face"}, "image": "/9j/4AAQSkZJRgABAQAAAQABAAD(内容太多只放入部分)"}
-    ```
-    或者
-    ```
-    {'configure': {'side': 'face'}, 'image': '/9j/4AAQSkZJRgABAQAAAQABAAD(内容太多只放入部分)'}
-    ```
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid.jpg)
-
-    代码模式 C#：支持 C#代码语法在文本框中输入，例如 side 是以变量传入进去
-    ```
-    "{""configure"": {""side"": """ + side + """}, ""image"": ""/9j/4AAQSkZJRgABA(内容太多只放入部分)""}"
-    ```
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid_csharp.jpg)
-
-4. 点击 `测试`，查看测试结果，如下图所示：
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httpresponse.jpg)
+![配置HTTP(S)请求组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid.jpg)
 
 **更多 HTTP 操作链接**：
 [HTTP 抓包](https://mp.weixin.qq.com/s/Vo7QVfucAyHhEbHJZWeZXw)
