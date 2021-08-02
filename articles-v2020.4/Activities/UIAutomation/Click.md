@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+![click](https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4)
+
 ## 概述
 
 模拟鼠标的点击操作，支持桌面端和浏览器。同时支持桌面端图像识别指定元素。
