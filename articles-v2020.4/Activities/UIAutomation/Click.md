@@ -2,6 +2,7 @@
 
 ## 视频示例
 
+<iframe src="//player.bilibili.com/player.html?aid=846778475&bvid=BV1Y54y1E7a4&cid=374679631&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px" height="472px"> </iframe>
 ## 概述
 
 模拟鼠标的点击操作，支持桌面端和浏览器。同时支持桌面端图像识别指定元素。
