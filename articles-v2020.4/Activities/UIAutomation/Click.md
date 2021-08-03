@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='498px' width='808px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/click.mp4"></video>
+<video controls height='498px' width='808px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Click.mp4"></video>
 
 ## 概述
 

@@ -5,7 +5,10 @@
 ## 概述
 
 可实现获取企业版控制台数据中心设置的资产。在编辑器或机器人运行时基于当前激活信息的控制台权限。
-仅支持企业版。
+
+>**说明：**
+>
+>该功能仅在企业版中支持。
 
 ## 属性
 
@@ -15,28 +18,20 @@
 
 ### 输入
 
-- **资源组/部门** ：输入或从下拉列表选择资源组。支持字符串变量或字符串
-- **资产名称** ：输入或从下拉列表选择资产名称。支持字符串变量或字符串
+- **资源组/部门** ：输入或从下拉列表选择资源组。
+- **资产名称** ：输入或从下拉列表选择资产名称。
 
 ### 输出
 
-- **值** ：输出资产的值。仅支持变量。注意：变量类型依赖于所获取资产在控制台设置的值类型，例如获取凭证类资产，变量类型应为 Encoo.DataType.Credential；可使用Credential.UserName和Credential.Password获取用户名和密码
+- **值**：输出资产的值。仅支持变量。
+
+   >**注意：**
+   >
+   >变量类型依赖于所获取资产在控制台设置的值类型，例如,获取凭证类资产，变量类型应为 Encoo.DataType.Credential；可使用Credential.UserName和Credential.Password获取用户名和密码。
 
 ## 使用示例
 
-1. 拖入**获取资产**组件至项目流程中，并设置变量result(String)：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_1.png)
+**前置必要条件**：在控制台中的“资产管理”中已创建资产。
+**此流程执行逻辑**：获取指定的部门`"默认资源组"`下的资产`"测试字符串"`，结果保存至`result`变量中。
 
-2. 双击打开获取资产，选择资源组和资源名称，在输出中添加变量result,如下图所示：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_2.png)
-
-3. 点击运行，查看运行结果：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_3.png)
-
-   >**说明：**
-   >
-   >组件需要私有化部署，控制端设置如下图所示：
-
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_4.png)
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_5.png)
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_6.png)
+![配置获取资产组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_3.png)

@@ -4,7 +4,7 @@
 
 ## 概述
 
-初始化指定的集合
+初始化指定的集合。
 
 ## 属性
 
@@ -14,9 +14,10 @@
 
 ### 输入输出
 
-- **集合** ：输出完成初始化后的集合
+- **集合**：输出完成初始化后的集合。
 
 ## 使用示例
 
-1. 拖入**初始化集合**组件，设置变量`集合List`，变量类型为`List<String>`，如下图所示：
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InitializeCollectionActivity1.png)
+**此流程执行逻辑**：对集合`集合List`初始化。
+
+![配置初始化集合](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InitializeCollectionActivity1.png)
