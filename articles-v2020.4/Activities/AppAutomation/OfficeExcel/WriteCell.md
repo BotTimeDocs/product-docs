@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteCell.mp4"></video>
+
 ## 概述
 
 使用组件，写入数据到 Excel 文件中的指定单元格。

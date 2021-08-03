@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InputText.mp4"></video>
+
 ## 概述
 
 模拟输入文本的操作，输入文本到指定位置，支持桌面端和浏览器。同时支持桌面端图像识别指定元素，浏览器端暂不支持

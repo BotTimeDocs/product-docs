@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CreateFileOrFolder.mp4"></video>
+
 ## 概述
 
 新建文件或文件夹到指定位置。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/LockScreen.mp4"></video>
+
 ## 概述
 
 锁住系统屏幕，确保后续流程能在锁屏状态下正常运行。

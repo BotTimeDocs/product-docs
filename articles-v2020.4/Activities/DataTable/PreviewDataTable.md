@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/PreviewDatatable.mp4"></video>
+
 ## 概述
 
 预览指定输入数据表。即，在运行时将数据表的数据内容以界面形式展现。

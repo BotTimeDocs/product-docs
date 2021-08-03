@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecuteCSharpCode.mp4"></video>
+
 ## 概述
 
 提供 C# 代码编辑器，支持编写 C# 类、函数等基本代码，并可直接使用编辑器中定义的变量，无需进行编辑器和 C# 代码编辑器之间的参数传递。

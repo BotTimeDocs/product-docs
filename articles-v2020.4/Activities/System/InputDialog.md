@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InputBox.mp4"></video>
+
 ## 概述
 
 提供人机交互界面，弹框形式展现并且带有输入框，接收用户输入的值并可以输出输入的值。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SelectFolder.mp4"></video>
+
 ## 概述
 
 选择文件夹路径，在运行时弹窗选择文件夹后输出。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/OpenBrowser.mp4"></video>
+
 ## 概述
 
 该组件用于使用浏览器打开指定的 URL。

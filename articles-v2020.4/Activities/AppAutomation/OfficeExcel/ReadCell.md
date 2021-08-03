@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadCell.mp4"></video>
+
 ## 概述
 
 获取工作簿单元格内数据并可存储在变量中

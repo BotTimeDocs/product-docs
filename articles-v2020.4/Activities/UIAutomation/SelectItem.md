@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SelectItem.mp4"></video>
+
 ## 概述
 
 选择下拉框列表中的一项，支持桌面端和浏览器。

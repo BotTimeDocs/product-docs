@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CloseProgram.mp4"></video>
+
 ## 概述
 
 关闭指定UI元素相对于的应用程序（包括桌面程序和浏览器）。

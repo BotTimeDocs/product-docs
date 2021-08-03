@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CompressFileOrFolder.mp4"></video>
+
 ## 概述
 
 该组件实现对指定的文件/文件夹压缩成 ZIP 文件。

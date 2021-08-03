@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/UnzipFile.mp4"></video>
+
 ## 概述
 
 对指定的 ZIP 或 RAR 压缩文件进行解压缩。

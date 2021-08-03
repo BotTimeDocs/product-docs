@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SelectFile.mp4"></video>
+
 ## 概述
 
 指定筛选的文件类型，在运行时弹窗选择文件后输出。

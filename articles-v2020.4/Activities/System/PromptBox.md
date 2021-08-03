@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/PromptBox.mp4"></video>
+
 ## 概述
 
 在 Windows 桌面右下角展示在流程中必要的提示信息，例如：展示当前流程执行到了哪个阶段。

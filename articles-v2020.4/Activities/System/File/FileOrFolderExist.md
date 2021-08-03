@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/FolderExist.mp4"></video>
+
 ## 概述
 
 判断指定文件或文件夹是否存在，并返回结果。

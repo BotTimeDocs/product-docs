@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/BuildDataTable.mp4"></video>
+
 ## 概述
 
 按照自定义结构生成一个新的数据表。通过&quot;数据表搭建器&quot;，可以自定义列信息，并可同步预览定义的列并编辑行值

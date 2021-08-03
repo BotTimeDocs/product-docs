@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/TraverseFolders.mp4"></video>
+
 ## 概述
 
 遍历指定的文件夹并获取文件路径（默认为变量filePath），可在此组件范围内根据实际业务需要拖入其他组件。

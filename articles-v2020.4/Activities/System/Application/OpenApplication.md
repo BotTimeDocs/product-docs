@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/OpenProgram.mp4"></video>
+
 ## 概述
 
 用于启动指定的应用程序并在其中执行多个组件。

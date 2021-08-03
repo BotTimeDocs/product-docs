@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/While.mp4"></video>
+
 ## 概述
 
 当满足指定条件时重复执行特定流程。与循环操作(Do While)的区别为，此组件先判断后执行。

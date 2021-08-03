@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendShortcut.mp4"></video>
+
 ## 概述
 
 模拟人类在键盘按下快捷键的行为，主要用于桌面端和浏览器端将键盘快捷方式发送到指定UI元素。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadFile.mp4"></video>
+
 ## 概述
 
 读取指定文件内容并可将其数据存储在变量中。

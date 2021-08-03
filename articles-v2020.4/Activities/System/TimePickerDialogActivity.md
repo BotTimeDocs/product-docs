@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DatetimeSelectionBox.mp4"></video>
+
 ## 概述
 
 流程运行时弹窗让用户选择日期和时间并输出。

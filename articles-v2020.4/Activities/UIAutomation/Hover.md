@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Hover.mp4"></video>
+
 ## 概述
 
 模拟鼠标悬停在桌面端或浏览器端的指定元素上。

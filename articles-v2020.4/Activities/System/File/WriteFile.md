@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteFile.mp4"></video>
+
 ## 概述
 
 将“写入内容”，覆盖写入到指定文件；若文件不存在，则新建。

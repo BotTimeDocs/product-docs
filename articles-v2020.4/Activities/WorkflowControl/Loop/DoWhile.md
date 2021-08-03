@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DoWhile.mp4"></video>
+
 ## 概述
 
 先执行后判断。当满足指定条件时，执行后续组件且至少执行一次；结束时再次判断指定条件，当不再满足时，退出循环

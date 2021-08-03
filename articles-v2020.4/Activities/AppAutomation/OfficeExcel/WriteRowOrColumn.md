@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteRowOrColumnData.mp4"></video>
+
 ## 概述
 
 横向或纵向写入数据到工作表中，支持自定义起始单元格地址执行写入。

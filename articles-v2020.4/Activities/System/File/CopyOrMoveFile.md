@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MoveOrCopyFile.mp4"></video>
+
 ## 概述
 
 对目标文件进行复制或移动至特定位置。效果实现同系统对文件的复制和剪切操作，同时支持目标路径的文件名更改。
