@@ -18,20 +18,7 @@
 
 ## 使用示例
 
-1. 拖入一个 **初始化字典** 组件至流程中，具体属性配置参见 [初始化字典](CodeExecuter/../InitializeDictionaryActivity.md)。
-2. 拖入一个 **添加键值对** 组件至流程中。
-3. 配置 **添加键值对** 组件的属性。
+**前置必要条件**：已有添加键值对的字典，参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+**此流程执行逻辑**：清空已添加键值对的字典 `D` 中的内容。
 
-    - 字典：输入变量面板中已定义的字典变量，如，`D`
-    - 键/值：输入需要向字典变量中添加的键值对。如，`key3`、`value3`
-
-4. 在 **添加键值对** 组件下方，拖入一个 **清空字典** 组件。
-5. 配置 **清空字典** 组件的属性。
-
-    - 字典：输入需要清空的字典变量，如，`D`
-
-6. 完整的流程图如下。
-
-    ![完整流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/emptydictionary20210112.png)
-
-7. 保存并运行流程。
+![配置清空字典组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/emptydictionary20210112.png)
