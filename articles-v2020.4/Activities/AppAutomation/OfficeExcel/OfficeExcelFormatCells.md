@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/trytest.mp4"></video>
+
 ## 概述
 
 在 Excel 中，设置对指定单元格或单元格区域中数据的格式。支持的单元格式与 Excel 中支持的格式相同，如，常规、数值、货币、日期，等等。
