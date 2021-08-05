@@ -94,7 +94,7 @@
 |选项 |描述 |
 |-----------|---------------------------------------|
 |打开 |打开项目或文件|
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[代码文件](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹|
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)|
 |导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 |使你可以重命名当前所选文件或文件夹 |
 |删除 |删除所选中的文件或文件夹 </br> **说明：** </br> 支持按住 Ctrl 键/Shift 键进行多选后，鼠标右键进行批量“删除”操作。 |
@@ -136,9 +136,14 @@
 
 - **运行面板** 主要显示与运行和调试有关的所有信息，顶部显示带有调试和运行命令的相关按钮。
 
-    - **运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
+  ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/runpanel20210805.png)
 
-      ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/runpanel20201019.png)
+    - **运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
+    - **独立运行** 在计算机上开启一个新的 Windows 会话窗口执行 RPA 流程，不影响当前用户正在进行的工作，可参见[如何独立运行流程](../BestPractices/RunAlone.md)。
+
+      >**说明：**
+      >
+      >仅 **企业版** 支持该功能.
 
     - **调试** 主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看 [调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
@@ -146,7 +151,7 @@
 
 - **断点管理面板** 主要用于集中对流程中的断点进行管理，包括启用断点、禁用断点、删除断点操作。
 
-![断点管理](https://docimages.blob.core.chinacloudapi.cn/images/Studio/breakpointmanagement20210508.png)
+  ![断点管理](https://docimages.blob.core.chinacloudapi.cn/images/Studio/breakpointmanagement20210508.png)
 
 ### 版本控制面板
 
