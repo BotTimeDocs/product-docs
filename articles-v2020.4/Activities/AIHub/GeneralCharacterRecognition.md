@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：指定识别的图片、服务及平台，查看识别结果。
 
-![配置通用文字识别组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GeneralCharacterRecognition_2.png)
+![配置通用文字识别组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/generalocr20210805.png)
