@@ -80,11 +80,11 @@
   
 ## 删除变量
 
-1. 在变量列表中，选中一个变量并右击，在上下文菜单中点击“删除”。
+- **方式一**：在变量列表中，选中一个变量并右击，在上下文菜单中点击“删除”。若需要删除流程中未使用的变量，可选择“删除未使用的变量”选项。
 
-   ![删除变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/deleteVariable.png)
+   ![删除变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/deletevariable20210806.png)
 
-2. 在变量列表中，选择一个变量并按 Delete 键。
+- **方式二**：在变量列表中，选择一个变量并按 Delete 键。
 
 >**注意：**
 >
