@@ -23,14 +23,14 @@
 
 ### 输出
 
-- **识别结果** ：输出识别的结果（JSON）。
+- **识别结果**：输出识别的结果（JSON）。
 
 ## 使用示例
 
 **前置必要条件**：在控制台中的“文档理解”服务中已创建文档理解的模板。
 
-![配置文档理解模板](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
+![前置必要条件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
 
 **此流程执行逻辑**：将"D:\\测试.PDF"按照控制台中已设定的指定的模板识别，结果保存至`result`变量中。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_2.png)
+![配置文档理解模板](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_2.png)

@@ -22,28 +22,7 @@
 
 ## 使用示例
 
-1. 拖入一个 **初始化字典** 组件至流程中，具体属性配置参见 [初始化字典](CodeExecuter/../InitializeDictionaryActivity.md)。
-2. 拖入一个 **添加键值对** 组件至流程中。
-3. 配置 **添加键值对** 组件的属性。
+**前置必要条件**：已有一个已添加键值对的字典，可参见[添加键值对](../Dictionary/AddDictionaryActivity.md)。
+**此流程执行逻辑**：获取已添加键值对的字典`D`中已有键值对的数量存储至变量`Count`中。
 
-    - 字典：输入变量面板中已定义的字典变量，如，`D`
-    - 键/值：输入需要向字典变量中添加的键值对。如，`key3`、`value3`
-
-4. 拖入一个 **获取键值对数量** 组件至 **添加键值对** 组件的下方。
-5. 配置 **获取键值对数量** 组件的属性。
-
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getkeyvalue20210111.png)
-
-    - 字典：输入获取键值对所在的字典，如，`D`
-    - 数量：输入获取到的结果的值所在的变量，如，`Count`
-
-6. 拖入一个 **写入日志** 组件至 **获取键值对数量** 组件的下方, 用于输出已获取的键值对的数量。
-7. 配置 **写入日志** 组件的属性。
-
-    - **日志级别**：下拉选择日志级别，如，`Info`。
-    - **日志内容**：输入日志内容，如，`Count.ToString()`，表示将 **获取键值对数量** 组件的返回值转成字符串输出。
-
-8. 保存并运行流程。
-9. 在输出面板中查看运行结果。
-
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getkeyvalueresult20210111.png)
+![配置获取键值对数量组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getkeyvalue20210111.png)

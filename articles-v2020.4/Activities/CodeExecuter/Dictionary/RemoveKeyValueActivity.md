@@ -23,31 +23,7 @@
 
 ## 使用示例
 
-1. 拖入一个**初始化字典**组件至流程中，具体属性配置参见[初始化字典](CodeExecuter/../InitializeDictionaryActivity.md)。
-2. 拖入一个**添加键值对**组件至流程中。
-3. 配置**添加键值对**组件的属性。
+**前置必要条件**：已有一个已添加键值对的字典，可参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)。
+**此流程执行逻辑**：将已添加键值对的字典 `D` 中的键值对(`key3`、`value3`)移除，返回结果存储至变量 `S` 中。
 
-    - 字典：输入变量面板中已定义的字典变量，如，`D`
-    - 键/值：输入需要向字典变量中添加的键值对。如，`key3`、`value3`
-
-4. 在**添加键值对**组件下方，拖入一个**移除键值对**组件。
-5. 配置**移除键值对**组件的属性。
-
-    - 字典：输入需要清空的字典变量，如，`D`。
-    - 键：输入根据指定的键移除对应的键值对，如，`key3`。
-    - 结果：输入定义的 Boolean 类型的变量，如，`S`。
-
-6. 在**移除键值对**组件的下方，拖入一个**写入日志**组件。
-7. 配置**写入日志**组件的属性。
-
-    - 日志级别：下拉选择日志级别，如，`Info`。
-    - 日志内容：输入需要在输出面板中显示的内容，如，`"移除结果:"+S.ToString()`。
-  
-8. 完整的流程图如下。
-
-    ![完整流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removekeyvalue20210112.png)
-
-9. 保存并运行流程。
-10. 在输出面板中查看运行结果。
-
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removekeyvalueresult20210112.png)
+![配置移除键值对组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removekeyvalue20210112.png)

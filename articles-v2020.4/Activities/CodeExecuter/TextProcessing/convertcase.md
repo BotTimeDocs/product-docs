@@ -23,24 +23,6 @@
 
 ## 使用示例
 
-如下案例为将一串字符串，转换为小写。
+**此流程执行逻辑**：将一串字符串，转换为小写。
 
-1. 拖入一个“转换大小写”组件至流程中。
-2. 配置“转换大小写”组件的属性。
-
-    ![配置转换大小写属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/covertcase20210427.png)
-
-    - 原文本：期望被转换的字符串文本，如，`"Hello World!"`。
-    - 转换方式：选择需要转换的大小写形式，如，`转小写`。
-    - 结果：填写转换后的结果存在变量中，如，`result`。
-
-3. 在“转换大小写”组件下方，拖入一个“写入日志”组件。
-4. 配置“写入日志”组件属性。
-
-    - 日志级别：选择默认的选项，如，`Info`。
-    - 日志内容：填写需输出的日志内容，如，`"转换后的字符串为："+result`。
-
-5. 保存并运行流程。
-6. 在“输出面板”中查看运行结果。
-
-   ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/convertcase20210427.png)
+![配置转换大小写组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/covertcase20210427.png)

@@ -18,11 +18,6 @@
 
 ## 使用示例
 
-1. 拖入一个 **初始化字典** 组件至流程中。
-2. 双击 **初始化字典** 组件的空白处，配置属性。
+**此流程执行逻辑**：对字典`D`初始化。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inializedictionary20210111.png)
-
-    - 字典：输入在变量面板中定义的参数类型均为 String 的字典对象，如，`D`
-
-3. 保存并运行流程。
+![配置初始化字典组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inializedictionary20210111.png)
