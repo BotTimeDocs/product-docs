@@ -27,16 +27,8 @@
 
 ## 使用示例
 
-1. 拖入一个 **执行 PowerShell 代码** 组件至流程中。
-2. 双击打开该组件，配置该组件的属性，如下图所示。
+**此流程执行逻辑**：执行指定的 PowerShell 代码。
 
-    - 文件路径：选择需要执行的 PowerShell 文件路径。
-    - 编辑代码：输入需要执行的 Powershell 代码。
-  
-    ![powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210225.png)
+![配置执行 powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210225.png)
 
-    - 设置参数：输入需要传参的参数信息。
-
-    ![设置参数信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershellparmar20210225.png)
-
-3. 保存并运行流程。
+![设置参数信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershellparmar20210225.png)
