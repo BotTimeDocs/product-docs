@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SetCellsbackground.mp4"></video>
+
 ## 概述
 
 对指定单元格进行填充背景色(16 进制颜色码)操作。

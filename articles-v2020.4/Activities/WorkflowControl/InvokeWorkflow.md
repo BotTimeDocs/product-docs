@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InvokeSubWorkflow.mp4"></video>
+
 ## 概述
 
 支持调用执行其他子流程文件，并可在两个流程间进行参数的传递。可在组件面板点击弹出对话框，选择要调用的文件；亦支持手动输入路径。

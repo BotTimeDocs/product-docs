@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MouseTrigger.mp4"></video>
+
 ## 概述
 
 当鼠标按指定的点击类型操作时，触发指定的操作。

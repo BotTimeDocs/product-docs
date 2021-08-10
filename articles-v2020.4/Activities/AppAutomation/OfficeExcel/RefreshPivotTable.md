@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/RefreshPivotTable.mp4"></video>
+
 ## 概述
 
 实现刷新指定透视表的数据。

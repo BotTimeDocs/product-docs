@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetArrayLength.mp4"></video>
+
 ## 概述
 
 获取指定数组的长度。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CreatePivotTable.mp4"></video>
+
 ## 概述
 
 实现在 Excel 中创建透视表。

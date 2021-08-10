@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MultipleAssign.mp4"></video>
+
 ## 概述
 
 支持对最多10个变量进行赋值。

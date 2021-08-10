@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/HideWorkSheet.mp4"></video>
+
 ## 概述
 
 隐藏工作簿内指定的工作表名称。
