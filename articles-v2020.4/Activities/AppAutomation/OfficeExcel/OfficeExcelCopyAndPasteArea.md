@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CopyAndPasteArea.mp4"></video>
+
 ## 概述
 
 实现将指定工作表中的区域数据，复制并粘贴到目标工作表区域。

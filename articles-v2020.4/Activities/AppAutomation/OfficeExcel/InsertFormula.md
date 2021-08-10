@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InsertFormula.mp4"></video>
+
 ## 概述
 
 向单元格插入公式，并填充公式运行后的结果。
