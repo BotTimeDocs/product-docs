@@ -29,6 +29,7 @@
 ## 使用示例
 
 **前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+
 **此流程执行逻辑**：从已搭建的数据表`table`中获取第二行第二列单元格的值，存放至`cellvalue`变量中。
 
 ![配置获取单元格的值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetValueDataTable20201229.png)

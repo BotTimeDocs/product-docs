@@ -26,6 +26,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：将 Sheet1 中的 A1 至 C7 单元格区域中的数据，设置为保留 2 位小数的数值类型。
 
 ![配置设置单元格格式组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcellformat20210611.png)

@@ -21,6 +21,7 @@
 ## 使用示例
 
 **前置必要条件**：已有两个已搭建的数据表，可参见 [搭建数据表](../DataTable/BuildDataTable.md)。
+
 **此流程执行逻辑**：将源数据表 `table` 与目标数据表 `table2` 进行合并。
 
 ![配置合并数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeDataTable2020122502.png)

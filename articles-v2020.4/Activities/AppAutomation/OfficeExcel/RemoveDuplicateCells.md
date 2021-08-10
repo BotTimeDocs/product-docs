@@ -24,6 +24,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：将指定工作表 Sheet2 中 A 列相同的单元格值进行去重。
 
 ![配置去重组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateCells2.png)

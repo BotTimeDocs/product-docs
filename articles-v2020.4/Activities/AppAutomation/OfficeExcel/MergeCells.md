@@ -33,6 +33,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：合并指定“Sheet2”工作表中的“A1: A3”单元格区域。
 
 ![配置合并单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergeCells2.png)

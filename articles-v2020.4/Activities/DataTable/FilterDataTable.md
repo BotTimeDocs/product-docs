@@ -35,6 +35,7 @@
 ## 使用示例
 
 **前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+
 **此流程执行逻辑**：在已搭建的数据表中筛选“姓名”列中包含“张三”的数据。
 
 ![配置筛选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FilterDataTable20201229.png)
