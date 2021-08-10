@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/AutoFill.mp4"></video>
+
 ## 概述
 
 从源单元格区域自动填充数据到目标区域。

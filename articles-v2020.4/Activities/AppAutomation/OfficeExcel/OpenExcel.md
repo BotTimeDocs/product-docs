@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/OpenExcel.mp4"></video>
+
 ## 概述
 
 打开一个 Office Excel 工作簿并为 Excel 组件操作提供范围。

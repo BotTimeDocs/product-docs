@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetCellsBackground.mp4"></video>
+
 ## 概述
 
 提取指定单元格的背景色，并返回十六进制值。同时可使用返回值作为“设置单元格背景色”组件的输入。

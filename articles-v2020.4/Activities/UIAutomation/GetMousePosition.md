@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetMousePosition.mp4"></video>
+
 ## 概述
 
 获取鼠标最终光标位置。

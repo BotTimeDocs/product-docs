@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ClickTrigger.mp4"></video>
+
 ## 概述
 
 在指定时间内，等待点击触发器事件。

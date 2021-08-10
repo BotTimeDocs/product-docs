@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Replace.mp4"></video>
+
 ## 概述
 
 实现在指定 Office Excel 工作表的指定单元格范围内，输入查找的内容并替换为新内容。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DeleteData.mp4"></video>
+
 ## 概述
 
 对指定工作表进行删除操作。可实现删除单元格、整行、整列、区域、工作表。

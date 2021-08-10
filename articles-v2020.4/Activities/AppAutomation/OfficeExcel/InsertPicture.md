@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InsertImage.mp4"></video>
+
 ## 概述
 
 在 Excel 指定的单元格中插入图片。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Search.mp4"></video>
+
 ## 概述
 
 在特定单元格区域内查找给定值，并返回第一个查找到的单元格地址。
