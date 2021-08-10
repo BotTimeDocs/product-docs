@@ -1,5 +1,19 @@
 [
     {
+        "id": "",
+        "name": "ElementTrigger",
+        "localizedName": "元素触发器",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "id": "",
+        "name": "SystemTrigger",
+        "localizedName": "系统触发器",
+        "uuid": "",
+        "labels": ""
+    },
+    {
         "id": "Encoo.Trigger.Activity.Activities.FileTriggerActivity",
         "name": "FileTrigger.md",
         "localizedName": "文件触发器",
