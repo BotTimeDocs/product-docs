@@ -23,6 +23,7 @@
 ## 使用示例
 
 **前置必要组件**：[绑定浏览器](../Browser/AttachBrowser.md)
+
 **此流程执行逻辑**：刷新指定的网页页面。
 
 ![配置刷新浏览器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RefreshBrowser20201221.png)

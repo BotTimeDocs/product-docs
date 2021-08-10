@@ -30,6 +30,7 @@
 ## 使用示例
 
 **前置必要组件**：[锁屏](../Screen/WindowsLockActivity.md)
+
 **此流程执行逻辑**：将已锁屏的计算机解锁。
 
 ![解锁组件示例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/unlock20201216.png)

@@ -19,6 +19,7 @@
 ## 使用示例
 
 **前置必要组件**：[连接设备](./MobileConnect.md)
+
 **此流程执行逻辑**：清空屏幕上文本框中的内容。
 
 ![配置清空文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatecleartext20201224.png)

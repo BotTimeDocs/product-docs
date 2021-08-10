@@ -22,6 +22,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。
 
 ![配置复制粘贴区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
