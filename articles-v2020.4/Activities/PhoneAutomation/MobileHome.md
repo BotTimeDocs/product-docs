@@ -15,6 +15,7 @@
 ## 使用示例
 
 **前置必要组件**：[连接设备](./MobileConnect.md)、[打开应用软件](../PhoneAutomation/MobileStartApp.md)
+
 **此流程执行逻辑**：从打开的指定的“Metro大都会”APP软件界面返回至手机主页的界面。
 
 ![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openapp20201222.png)

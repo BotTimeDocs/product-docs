@@ -28,6 +28,7 @@
 ## 使用示例
 
 **前置可选组件**：等待元素出现
+
 **此流程执行逻辑**：执行流程决策组件的True和False端的流程。
 
 ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-2.png)

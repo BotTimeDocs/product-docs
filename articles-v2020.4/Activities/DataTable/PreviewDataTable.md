@@ -18,7 +18,7 @@
 
 ## 使用示例
 
-**必要前置组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：将搭建完成的数据表，以界面化的形式展现出来。
 

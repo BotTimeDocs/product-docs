@@ -14,7 +14,8 @@
 
 ## 使用示例
 
-**前置必要组件**：
+**前置可选组件**：[循环操作(While)](../WorkflowControl/Loop/While.md)
+
 **此流程执行逻辑**：当流程出现异常时，重新抛出异常信息。
 
 ![配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Rethrow-3.png)

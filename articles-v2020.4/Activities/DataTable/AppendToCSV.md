@@ -25,6 +25,7 @@
 ## 使用示例
 
 **前置必要条件**：已有一个已搭建的数据表，可参见 [搭建数据表](../DataTable/BuildDataTable.md)。
+
 **此流程执行逻辑**：将已搭建的数据表 `table` 追加至指定的 CSV 文件 `"C:\云扩科技\appendtocsv.csv"` 中。
 
 ![配置追加到 CSV 文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AppendToCSV2020122902.png)

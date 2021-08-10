@@ -25,6 +25,7 @@
 ## 使用示例
 
 **前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+
 **此流程执行逻辑**：将已搭建的数据表`table`保存为"C:\云扩科技\savetable.csv"。
 
 ![配置保存为CSV文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SaveToCSV20201229.png)
