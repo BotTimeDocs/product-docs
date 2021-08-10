@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Sequence.mp4"></video>
+
 ## 概述
 
 使你能够创建由许多组件组成的线性流程，这些组件按顺序执行。它既可以用作独立的自动化流程，也可以作为流程图的一部分包含在内，以帮助你对特定组件进行分组。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Filter.mp4"></video>
+
 ## 概述
 
 设置“筛选向导”中的条件，并依此对工作表进行条件筛选，同时将符合筛选条件的结果应用到工作表内。
