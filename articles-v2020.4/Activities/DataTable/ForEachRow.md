@@ -23,6 +23,7 @@
 ## 使用示例
 
 **前置必要条件**：已有一个已搭建的数据表，可参见 [搭建数据表](../DataTable/BuildDataTable.md)。
+
 **此流程执行逻辑**：遍历检查数据表 `table` 的每行的行值和姓名值。
 
 ![配置遍历行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ForEachRow20201228.png)

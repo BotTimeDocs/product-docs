@@ -19,6 +19,7 @@
 ## 使用示例
 
 **必要前置组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+
 **此流程执行逻辑**：将搭建完成的数据表，以界面化的形式展现出来。
 
 ![配置预览数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122403.png)

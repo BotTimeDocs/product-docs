@@ -24,6 +24,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：获取“Sheet1”工作表中“A1”单元格的背景色，存储至“color”变量中。
 
 ![配置获取单元格背景色组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetCellBackColor1.png)

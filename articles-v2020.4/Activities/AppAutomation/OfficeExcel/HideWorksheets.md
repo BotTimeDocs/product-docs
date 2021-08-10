@@ -23,6 +23,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：隐藏指定的工作表（如，“Sheet2”）。
 
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HideWorksheets1.png)

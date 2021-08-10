@@ -23,6 +23,7 @@
 ## 使用示例
 
 **前置必要条件**：已有一个添加对象的集合，参见[添加对象](../CollectionProcessing/AddToCollectionActivity.md)
+
 **此流程执行逻辑**：将集合`集合List`中的指定对象`"A1"`移除，最终是否移除的结果保存至`isremoved`变量中。
 
 ![配置移除对象组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveFromCollectionActivity1.png)

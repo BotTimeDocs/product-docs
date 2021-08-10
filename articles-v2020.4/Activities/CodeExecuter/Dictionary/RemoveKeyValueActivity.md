@@ -23,7 +23,8 @@
 
 ## 使用示例
 
-**前置必要条件**：已有一个已添加键值对的字典，可参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)。
+**前置必要条件**：已有一个已添加键值对的字典，可参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+
 **此流程执行逻辑**：将已添加键值对的字典 `D` 中的键值对(`key3`、`value3`)移除，返回结果存储至变量 `S` 中。
 
 ![配置移除键值对组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removekeyvalue20210112.png)

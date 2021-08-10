@@ -23,6 +23,7 @@
 ## 使用示例
 
 **前置必要组件**：已有一个已搭建的数据表，可参见 [搭建数据表](../DataTable/BuildDataTable.md)。
+
 **此流程执行逻辑**：将数据表 1 `table` 和数据表 2 `table2` 中的 `姓名` 字段以左连接的方式关联起来。
 
 ![配置联结数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/JoinDataTable2020122502.png)

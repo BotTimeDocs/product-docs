@@ -24,6 +24,7 @@
 ## 使用示例
 
 **前置必要条件**：已有一个添加对象的集合，参见[添加对象](../CollectionProcessing/AddToCollectionActivity.md)
+
 **此流程执行逻辑**：判断对象`"A1"`在集合`集合List`中是否存在，返回结果存储在`isexist`变量中。
 
 ![配置对象是否存在组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExistsInCollectionActivity1.png)

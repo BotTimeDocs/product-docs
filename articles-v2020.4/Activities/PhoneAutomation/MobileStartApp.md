@@ -20,6 +20,7 @@
 ## 使用示例
 
 **前置必要组件**：[连接设备](./MobileConnect.md)
+
 **此流程执行逻辑**：打开指定的手机端APP应用软件。
 
 ![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingopenapp20201222.png)

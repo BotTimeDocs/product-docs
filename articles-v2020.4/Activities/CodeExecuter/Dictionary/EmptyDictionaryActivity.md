@@ -19,6 +19,7 @@
 ## 使用示例
 
 **前置必要条件**：已有添加键值对的字典，参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+
 **此流程执行逻辑**：清空已添加键值对的字典 `D` 中的内容。
 
 ![配置清空字典组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/emptydictionary20210112.png)

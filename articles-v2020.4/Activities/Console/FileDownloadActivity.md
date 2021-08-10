@@ -42,6 +42,7 @@
 ## 使用示例
 
 **前置必要条件**：在控制台“文件服务”中已上传指定的文件。
+
 **此流程执行逻辑**：将控制台中文件服务中上传的文件`"Testdemo/FunctionList_1.Jpeg"`下载至本地指定的文件路径`桌面`中。
 
 ![配置下载文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/savepath20201216.png)
