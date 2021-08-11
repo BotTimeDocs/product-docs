@@ -25,3 +25,5 @@
 - [云扩 RPA 机器人文档](./Robot/aboutRobot.md)
 - [云扩 RPA 控制台文档](./Console/README.md)
 - [云扩 ViCode 云码文档](./Apps/README.md)
+- [云扩 AI Hub 智能应用中心文档](./AIHub/README.md)
+- [云扩 DocReader 文档理解文档](./DocReader/README.md)

@@ -16,7 +16,7 @@ A: 社区版和企业版都包含编辑器，控制台和机器人。两者差�
         - [关于角色管理](./Console/v3.0.x/management/roles/aboutRoles.md)
         - [关于资源组](./Console/v3.0.x/management/groups/aboutGroups.md)
     - 资产管理和文件服务。详情请参看 [关于资产管理](./Console/datacentor/asset/AboutAsset.md) 和 [关于文件服务](./Console/datacentor/fileservice/Aboutfileservice.md)
-    - 文档理解能力。详情请参看 [关于文档理解](./Console/docreader/aboutDocreader.md)
+    - 文档理解能力。详情请参看 [关于文档理解](./DocReader/README.md)
 3. 【编辑器】在编辑器中，一些项目实施帮助工具仅在企业版中提供：
     - OCR 相关组件。详情请参看 [获取 OCR 文本](Activities/UIAutomation/OCR/GetOCRText.md)
     - SAP 相关组件。详情请参看 [登录应用](Activities/UIAutomation/SAP/SAP_Login.md)
@@ -33,9 +33,3 @@ A：控制台的企业版本，主要分为云端 SaaS 企业版和私有化企�
 
 - **私有化企业版**：将控制台部署在企业内部服务器上，只对该企业提供服务。
 - **云端 SaaS 企业版**：将控制台部署在云扩的云端服务器上，对外多个企业提供服务。
-
-## 获取离线产品文档
-
-Q: 如何获取最新版本的离线产品文档？
-
-A: 下载 [产品手册（PDF）](https://academy.encoo.com/pdf/Product_Induction_ZH-CN.pdf)
