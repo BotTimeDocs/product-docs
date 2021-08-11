@@ -10,13 +10,13 @@
 
 >**说明：**
 >
->运行此组件前，需安装 [Windows 屏幕解锁服务](Studio/../../../../Studio/Extensions/WindowsUnlockService.md)扩展。
+>运行此组件前，需安装 [Windows 屏幕解锁服务](../../../Studio/Extensions/WindowsUnlockService.md)扩展。
 
 ## 属性
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 

@@ -47,16 +47,16 @@
 
 #### 【ViCode】
 
-1. 新增布局组件 > [动态组件](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
+1. 新增布局组件 > [动态组件](./Apps/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
 2. 在组件的“事件”中，新增“运行流程”的事件行为，用于运行控制台中当前部门下的“流程部署”中的流程。
 3. 在组件的“事件”中，新增“打开/关闭弹窗”的事件行为，用于打开/关闭 "对话框" 组件。
-4. 新增 [Excel 数据源](./Apps/v4.0.x/devApps/appsedit/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
+4. 新增 [Excel 数据源](./Apps/devApps/appsedit/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化输入组件 > [文件上传](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
+1. 优化输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
 2. 优化 Echarts 社区组件库，丰富组件库数量，提升用户使用体验。
 
 ### 问题修复
@@ -160,13 +160,13 @@
 
 1. 上线控制台 V4 版本，提供全新的组织架构及权限系统，方便管理员管理公司组织架构权限等信息，主要包括如下：
 
-    - [组织架构管理](./Console/v4.0.x/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
+    - [组织架构管理](./Console/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
     - 部门权限配置：支持自定义当前部门的用户、机器人、API KEY 访问等不同模式的数据权限。
     - 单个资源权限配置：支持在“角色管理”中设置“权限管理”权限，在对应资源列表详情页中可配置该资源的数据权限。
-    - [用户管理](./Console/v4.0.x/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
-    - [角色管理](./Console/v4.0.x/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
+    - [用户管理](./Console/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
+    - [角色管理](./Console/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
 
-2. 通过是否激活 [许可证](./Console/v4.0.x/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
+2. 通过是否激活 [许可证](./Console/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
 3. 控制台 V4 版本支持社区版，方便用户试用。
 4. 机器人创建之后，默认内置“部门功能管理员” 角色，可在”组织架构管理 > 数据权限配置 > 机器人权限 > 查看当前部门机器人权限“中查看，便于管理部门机器人权限。
 
@@ -177,7 +177,7 @@
 3. 在“全局管理 > 许可证”中，新增“应用发布数量”，方便用户查看已发布的 ViCode 应用的数量。
 4. 与企业微信集成，支持企业微信扫码登录控制台，并能够在企业微信中查看并使用“我的应用”，方便用户一键登录并管理“我的应用”。
 5. 在应用开发页面中的“数据”模块中，支持与控制台全新权限系统集成，方便管理数据源权限。
-6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./Apps/v4.0.x/devApps/appsedit/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
+6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./Apps/devApps/appsedit/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
 7. 在应用管理页面中，支持新建“组合应用”，使之可以关联多个本部门下的基本应用，满足用户使用场景。
 8. 支持跨租户进行应用拷贝，便于给用户提供初始化应用。
 
@@ -245,8 +245,8 @@
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [散点图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
-2. 模态视图 > [对话框](./Apps/v4.0.x/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [散点图](./Apps/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
+2. 模态视图 > [对话框](./Apps/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -327,13 +327,13 @@
 
 #### 【ViCode】
 
-1. 新增 [数据表](./Apps/v4.0.x/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
-2. 支持在数据源中新增 [数据表类型的数据源](./Apps/v4.0.x/devApps/appsedit/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
+1. 新增 [数据表](./Apps/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
+2. 支持在数据源中新增 [数据表类型的数据源](./Apps/devApps/appsedit/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
 3. 手机端支持使用“我的应用”，方便用户在企业微信中快速查找使用“我的应用”小程序，提升用户体验。
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [折线图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [折线图](./Apps/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -353,21 +353,21 @@
 
 1. 在应用的编辑模式中，支持选中组件后进行复制和删除操作，提升开发人员使用体验。
 2. 在应用的编辑模式中，支持画布按 Web 端和移动端进行切换，方便开发人员开发出适应不同平台的应用。
-3. 新增 [主题](./Apps/v4.0.x/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
+3. 新增 [主题](./Apps/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
 4. 在“我的应用”中，支持收藏应用，方便用户可以在控制台首页中快速查找已收藏的应用。
 
 #### 【ViCode 的组件库】
 
-1. 布局组件 > [分栏布局](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
-2. 输入组件 > [文件上传](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
-3. 图表组件 > [柱状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
-4. 图表组件 > [饼状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 布局组件 > [分栏布局](./Apps/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
+2. 输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
+3. 图表组件 > [柱状图](./Apps/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
+4. 图表组件 > [饼状图](./Apps/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [全局变量](./Apps/v4.0.x/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
+1. 优化 [全局变量](./Apps/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
 2. 应用管理与应用开发模块合并，使得管理员和开发人员可以集中管理与开发当前部门下的应用。
 
 #### 【控制台】
@@ -391,26 +391,26 @@
 
 #### 【ViCode 的组件库】
 
-1. 展示组件 > [图标](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
-2. 展示组件 > [视频](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
-3. 输入组件 > [多行文本框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
-4. 输入组件 > [单选框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
+1. 展示组件 > [图标](./apps/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
+2. 展示组件 > [视频](./apps/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
+3. 输入组件 > [多行文本框](./apps/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
+4. 输入组件 > [单选框](./apps/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
-1. 新增 [文件类数据连接器](./Console/v4.0.x/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
-2. [多重身份验证配置](./Console/v4.0.x/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
+1. 新增 [文件类数据连接器](./Console/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
+2. [多重身份验证配置](./Console/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [连接器映射关系](./Apps/v4.0.x/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
+1. 优化 [连接器映射关系](./Apps/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
 2. 优化组件的默认填充样式，使得所有组件拖拽至画布中默认横向自动扩展占满画布，提升开发人员使用体验。
 
 #### 【控制台】
 
-1. 优化文件服务，支持 [新建根目录文件夹](./Console/v4.0.x/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
+1. 优化文件服务，支持 [新建根目录文件夹](./Console/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
 
 ## 2021.04.02 发版说明
 
@@ -440,8 +440,8 @@
 3. 手机自动化 > [设置剪贴板文本](./Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
 4. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
 5. 界面自动化 > [设置窗口](./Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
-6. 资源 > 数据表 > [创建表](./Activities/Resource/DataBase/createtable.md)、[删除表](./Activities/Resource/DataBase/deletetable.md)、[执行语句](./Activities/Resource/DataBase/executesql.md)、[更新表](./Activities/Resource/DataBase/datatableupdated.md)、[查询](./Activities/Resource/DataBase/datatablequery.md)、[清空全部数据表](./Activities/Resource/DataBase/emptydatabase.md)，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
-7. 资源 > 文本 > [文本赋值](./Activities/Resource/Text/assignglobaltext.md)、[读取文本](./Activities/Resource/Text/readglobaltext.md)，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
+6. 资源 > 数据表 > 创建表、删除表、执行语句、更新表、查询、清空全部数据表，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
+7. 资源 > 文本 > 文本赋值、读取文本，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
 8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
 
 #### 【AI Hub】
@@ -482,24 +482,24 @@
 
 #### 【小程序】
 
-1. 新增 [数据源管理](./Apps/v4.0.x/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
-2. 新增 [代码管理](./Apps/v4.0.x/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
-3. 新增 [连接器映射关系管理](./Apps/v4.0.x/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
+1. 新增 [数据源管理](./Apps/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
+2. 新增 [代码管理](./Apps/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
+3. 新增 [连接器映射关系管理](./Apps/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
 4. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
 5. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
 6. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
-7. 布局组件 > [列表](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
-8. 模块组件 > [表格](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
-9.  模块组件 > [分页](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
-10. 展示组件 > [IFrame](./Apps/v4.0.x/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
-11. 输入组件 > [密码输入框](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
+7. 布局组件 > [列表](./Apps/devApps/appsedit/component/ModuleComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
+8. 模块组件 > [表格](./Apps/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
+9.  模块组件 > [分页](./Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
+10. 展示组件 > [IFrame](./Apps/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
+11. 输入组件 > [密码输入框](./Apps/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
 
 #### 【控制台】
 
-1. 上线全新的 [组织架构及权限系统](./Console/v4.0.x/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
+1. 上线全新的 [组织架构及权限系统](./Console/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
 2. 公司架构管理支持多级部署，方便管理员更好地维护企业上级公司与子公司之间的关系。
-3. 支持 [多重身份验证](./Console/v4.0.x/management/syssetting.md) 配置，保证系统安全性。
-4. 支持创建并管理各类 [数据连接器](./Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+3. 支持 [多重身份验证](./Console/management/syssetting.md) 配置，保证系统安全性。
+4. 支持创建并管理各类 [数据连接器](./Console/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
 
 ### 改进与增强
 
