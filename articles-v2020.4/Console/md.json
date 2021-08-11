@@ -62,6 +62,11 @@
     },
     {
         "id": null,
+        "name": "docreader",
+        "localizedName": "文档理解"
+    },
+    {
+        "id": null,
         "name": "datacentor",
         "localizedName": "数据中心"
     },
