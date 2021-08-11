@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadText.mp4"></video>
+
 ## 概述
 
 可实现获取指定 PDF 文件中的文本。

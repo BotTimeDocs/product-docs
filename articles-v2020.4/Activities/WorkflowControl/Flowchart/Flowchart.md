@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Workflow.mp4"></video>
+
 ## 概述
 
 流程图可包含各种组件，并通过连线将组件连接起来。应用范围广泛、可复用。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='450px' width='800px' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetLastColumn.mp4"></video>
+
 ## 概述
 
 获取工作表或指定列有数据区域的最后一行行号。
