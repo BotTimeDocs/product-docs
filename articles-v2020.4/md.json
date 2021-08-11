@@ -36,13 +36,18 @@
     },
     {
         "id": null,
-        "name": "Apps",
-        "localizedName": "云扩ViCode云码"
+        "name": "AIHub",
+        "localizedName": "云扩AIHub智能应用中心"
     },
     {
         "id": null,
-        "name": "AIHub",
-        "localizedName": "云扩AIHub智能应用中心"
+        "name": "DocReader",
+        "localizedName": "云扩DocReader文档理解"
+    },
+    {
+        "id": null,
+        "name": "Apps",
+        "localizedName": "云扩ViCode云码"
     },
     {
         "name": "QA.md",

@@ -27,6 +27,8 @@
 
 ## 使用示例
 
+**前置必要条件**：首次使用该组件执行 PowerShell 代码时，需配置执行策略，可参见 [关于执行策略](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1)。
+
 **此流程执行逻辑**：执行指定的 PowerShell 代码。
 
 ![配置执行 powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210225.png)
