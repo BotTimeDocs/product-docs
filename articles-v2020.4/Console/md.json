@@ -76,7 +76,7 @@
         "localizedName": "注销账户",
         "uuid": "0f233a42-14ac-4654-ac64-8a1e742b577a",
         "labels": "账户, 注销"
-    }
+    },
     {
         "id": null,
         "name": "v3.0.x",
