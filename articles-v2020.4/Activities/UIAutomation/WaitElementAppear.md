@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WaitElementAppear.mp4"></video>
+
 ## 概述
 
 等待指定的UI元素从屏幕上出现，支持桌面端和浏览器。同时支持桌面端图像识别指定元素，浏览器端暂不支持

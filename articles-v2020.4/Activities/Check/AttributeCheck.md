@@ -47,6 +47,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：在百度网页中，使用指定元素指定“百度一下”按钮，验证属性“url”的值是否正确。
+**此流程执行逻辑**：在百度网页中，使用指定元素指定“百度一下”按钮，验证属性“sinfo”的值是否正确。
 
-![配置属性校验组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attributeCheck-2.png)
+![配置属性校验组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/propertycheck20210812.png)

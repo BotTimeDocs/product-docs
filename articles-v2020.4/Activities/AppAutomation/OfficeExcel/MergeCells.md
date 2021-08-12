@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MergeCell.mp4"></video>
+
 ## 概述
 
 对指定单元格区域进行合并操作。

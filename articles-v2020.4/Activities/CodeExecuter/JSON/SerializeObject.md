@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Serialization.mp4"></video>
+
 ## 概述
 
 此组件可以将 .NET 对象序列化为 JSON 字符串。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecutePowerShellCode.mp4"></video>
+
 ## 概述
 
 该组件实现自定义的 PowerShell 代码。

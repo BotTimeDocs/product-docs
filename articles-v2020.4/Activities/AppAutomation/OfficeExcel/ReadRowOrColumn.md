@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadColumnRowDatable.mp4"></video>
+
 ## 概述
 
 读取指定工作表中的某一列或某一行，将读取到的内容保存在数组中并可输出。

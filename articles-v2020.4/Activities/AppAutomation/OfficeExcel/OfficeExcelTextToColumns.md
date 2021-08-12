@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Split.mp4"></video>
+
 ## 概述
 
 实现 Excel 工作表中某一列数据的分割，最终将该列数据拆成一列或多列数据显示。

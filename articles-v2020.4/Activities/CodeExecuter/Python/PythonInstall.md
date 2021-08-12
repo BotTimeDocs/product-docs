@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InstallPython.mp4"></video>
+
 ## 概述
 
 选择已下载至本地的 Python 安装文件，安装到指定目录。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetStructData.mp4"></video>
+
 ## 概述
 
 获取指定页面的结构化数据，可自动翻页获取更多数据。

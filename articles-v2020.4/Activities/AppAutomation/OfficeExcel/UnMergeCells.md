@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/UnmergeCell.mp4"></video>
+
 ## 概述
 
 对指定单元格区域已合并的单元格进行拆分，拆分后的值显示在左上角第一个单元格内。

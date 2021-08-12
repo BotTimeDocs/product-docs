@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExtractAsNewDocument.mp4"></video>
+
 ## 概述
 
 获取指定 PDF 文件中的数据并写入到新文件。
