@@ -1,10 +1,10 @@
 [
     {
-        "id": "BotTime.Flow.Activities.For",
+        "id": "BotTime.Flow.Activities.ForPro",
         "name": "For.md",
-        "localizedName": "循环操作",
+        "localizedName": "重复操作",
         "uuid": "2f411024-643a-4c96-9cdf-18cf2036621c",
-        "labels": "循环, for, 操作"
+        "labels": "重复, for, 操作"
     },
     {
         "id": "BotTime.Flow.Activities.While",
