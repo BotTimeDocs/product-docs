@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MoveMouse.mp4"></video>
+
 ## 概述
 
 移动鼠标光标位置。

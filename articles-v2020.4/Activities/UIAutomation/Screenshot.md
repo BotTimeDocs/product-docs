@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Screenshot.mp4"></video>
+
 ## 概述
 
 实现截图，并将结果保存在指定位置或变量中。

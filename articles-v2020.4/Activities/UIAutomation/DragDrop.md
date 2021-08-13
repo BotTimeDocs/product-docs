@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MouseDrag.mp4"></video>
+
 ## 概述
 
 模拟鼠标按下拖动的操作，如，按下鼠标左键将文件拖动至另一文件夹内。

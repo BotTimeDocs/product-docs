@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/If.mp4"></video>
+
 ## 概述
 
 根据是否满足指定条件决定下一步的执行内容。

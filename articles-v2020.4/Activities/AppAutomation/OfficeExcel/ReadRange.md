@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadArea.mp4"></video>
+
 ## 概述
 
 获取工作簿内单元格区域数据并存储在数据表变量内。若单元格区域未指定，则默认读取整表。
