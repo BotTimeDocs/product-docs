@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InsertWorkSheet.mp4"></video>
+
 ## 概述
 
 在工作簿内插入指定的工作表。
