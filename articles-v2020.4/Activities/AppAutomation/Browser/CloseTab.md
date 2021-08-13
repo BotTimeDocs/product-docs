@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CloseTab.mp4"></video>
+
 ## 概述
 
 使用该组件关闭网站内特定标签页。该组件必须放置在**绑定浏览器**或**打开浏览器**组件中使用。

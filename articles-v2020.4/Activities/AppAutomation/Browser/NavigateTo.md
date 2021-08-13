@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/JumpToCurrentPage.mp4"></video>
+
 ## 概述
 
 使用该组件实现在当前浏览器对象范围内的当前标签页进行跳转。跳转后，无需重新绑定浏览器，即可正常操作新页面内元素（点击等可以在新页面生效）。

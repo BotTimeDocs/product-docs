@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ElementIsNotExist.mp4"></video>
+
 ## 概述
 
 验证输入的元素是否存在于指定的数组。

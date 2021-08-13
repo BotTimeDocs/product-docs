@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetElementAttribute.mp4"></video>
+
 ## 概述
 
 获取桌面端或浏览器端指定元素的属性值，并将其存储在输出变量 **属性值** 中。

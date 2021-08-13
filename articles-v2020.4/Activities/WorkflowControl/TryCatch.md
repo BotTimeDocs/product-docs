@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/TryCatch.mp4"></video>
+
 ## 概述
 
 针对异常处理，能够捕获流程图或组件中的指定异常类型，并显示错误通知或继续执行。由三部分组成：
