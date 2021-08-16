@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MultipleSelectionBox.mp4"></video>
+
 ## 概述
 
 以弹框的形式，选择一个或多个选项。
