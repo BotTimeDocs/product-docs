@@ -13,8 +13,20 @@
     },
     {
         "name": "CodeFile.md",
-        "localizedName": "代码文件",
+        "localizedName": "脚本",
         "uuid": "8a4952f5-0fe2-4d9c-a3a1-d0568dc302cd",
-        "labels": "代码文件"
+        "labels": "脚本"
+    },
+    {
+        "name": "ErrorHandler.md",
+        "localizedName": "异常处理流程",
+        "uuid": "17e7013e-aca2-44e7-92da-ae2879ff6082",
+        "labels": "异常处理流程"
+    },
+    {
+        "name": "CleanUp.md",
+        "localizedName": "终止处理流程",
+        "uuid": "934b3872-3116-4078-a6f4-4bf7e28e3637",
+        "labels": "终止处理流程"
     }
 ]

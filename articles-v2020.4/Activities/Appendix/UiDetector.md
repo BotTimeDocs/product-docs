@@ -1,4 +1,5 @@
 # 元素探测器
+
 获取Windows桌面上所有进程的UI树元素信息，在树形节点展开的同时智能根据对应的自动化框架获取下一级的元素信息，并且可以生成对应的选择器，同时支持对选择器的编辑，验证及保存回传操作。 
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/uidetector20201208.png)
