@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetClipboardText.mp4"></video>
+
 ## 概述
 
 获取剪贴板的文本内容并以String类型输出。

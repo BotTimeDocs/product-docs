@@ -1,5 +1,7 @@
 # 上传文件
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/UploadFile.mp4"></video>
+
 ## 视频示例
 
 ## 概述

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DownloadFile.mp4"></video>
+
 ## 概述
 
 下载云扩 RPA 控制台“数据中心 > 文件服务”中已上传的文件。
