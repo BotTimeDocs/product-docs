@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetAssets.mp4"></video>
+
 ## 概述
 
 可实现获取企业版控制台数据中心设置的资产。在编辑器或机器人运行时基于当前激活信息的控制台权限。

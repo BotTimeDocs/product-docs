@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DeleteConsoleFileOrFolder.mp4"></video>
+
 ## 概述
 
 删除云扩 RPA 控制台（企业版）的“数据中心 > 文件服务”中的指定文件/文件夹。
