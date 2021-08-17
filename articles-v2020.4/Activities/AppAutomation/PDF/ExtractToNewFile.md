@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExtractAsNewDocument.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/AsNewDocument.mp4"></video>
 
 ## 概述
 
