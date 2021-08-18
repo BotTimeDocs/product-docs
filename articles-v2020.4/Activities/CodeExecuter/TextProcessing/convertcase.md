@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ConvertCase.mp4"></video>
+
 ## 概述
 
 实现将指定的字符串转换为大写或小写。
