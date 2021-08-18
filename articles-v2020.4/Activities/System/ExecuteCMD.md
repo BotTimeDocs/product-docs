@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExcuteCMD.mp4"></video>
+
 ## 概述
 
 执行 CMD 命令行，并提供返回值。如，使用命令行实现 60 秒后定时关机： “shutdown -s -t 60”。
