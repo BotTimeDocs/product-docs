@@ -28,7 +28,7 @@
 
   >**说明：**
   >
-  > 若不输入，则使用默认安装路径：C:\Users\{user}\AppData\Local\Programs。
+  > 若不输入，则使用默认安装路径：C:\Users\{user}\AppData\Local\Programs\Python。
 
 ## 使用示例
 
