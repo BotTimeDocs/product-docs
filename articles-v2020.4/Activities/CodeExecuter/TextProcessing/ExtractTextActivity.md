@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExtractText.mp4"></video>
+
 ## 概述
 
 支持提取指定文本内容中符合条件（正则表达式）的第一个结果，源文本内容不变。
