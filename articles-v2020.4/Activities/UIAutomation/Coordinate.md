@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CoordinateClick.mp4"></video>
+
 ## 概述
 
 根据绝对坐标点击指定的用户界面元素。
