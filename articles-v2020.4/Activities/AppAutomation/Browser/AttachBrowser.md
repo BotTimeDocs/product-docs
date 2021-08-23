@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/BindBrowser.mp4"></video>
+
 ## 概述
 
 绑定一个已经打开的浏览器窗口，方便之后在该浏览器窗口中执行各种操作。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetTextIndex.mp4"></video>
+
 ## 概述
 
 获取指定文本所在源文本的索引。
