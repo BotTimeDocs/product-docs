@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Parallel.mp4"></video>
+
 ## 概述
 
 同时执行此组件内所包含的纵向序列下的组件。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/VerifyTextValidity.mp4"></video>
+
 ## 概述
 
 使用正则表达式对整段源文本内容验证是否匹配期望值。
