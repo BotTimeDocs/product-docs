@@ -43,3 +43,9 @@
 
 **更多 HTTP 操作链接**：
 [HTTP 抓包](https://mp.weixin.qq.com/s/Vo7QVfucAyHhEbHJZWeZXw)
+
+## 常见问题
+
+1. **Q：现需将抓取的数据通过HTTP协议Post请求发送给其它系统，编辑器中哪个组件可以实现？**
+
+    **A：**“HTTP(S)请求”、 “执行C#代码”、“执行Python代码”等组件均可实现。

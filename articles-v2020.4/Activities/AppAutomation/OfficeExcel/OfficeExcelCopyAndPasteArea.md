@@ -32,3 +32,9 @@
 **执行结果**：
 
 ![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)
+
+## 常见问题
+
+1. **Q：Excel复制粘贴组件，是否能在复制的时候转换格式？**
+
+    **A：** 复制粘贴的时候不可以，可以复制粘贴完成后，通过[设置单元格格式](../OfficeExcel/OfficeExcelFormatCells.md)组件来调整目标位置的格式。

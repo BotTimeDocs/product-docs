@@ -27,3 +27,32 @@
 > **说明：**
 >
 > 这里支持变量的引用，事先在编辑器中定义了 String 类型的变量 `m` 和 `n`。
+
+## 常见问题
+
+1. **Q：如何将图片转base64？**
+
+    **A：** 目前无对应组件，建议先用C#代码实现。
+
+    ```C#
+    //代码执行入口，请勿修改或删除
+    public void Run()
+    {
+    //在这里编写您的代码
+        try
+        {
+            Bitmap bmp = new Bitmap(DirStr+"/code.jpg");
+            MemoryStream ms = new MemoryStream();
+            bmp.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+            byte[] arr = new byte[ms.Length]; ms.Position = 0;
+            ms.Read(arr, 0, (int)ms.Length); ms.Close();
+            base64String= Convert.ToBase64String(arr);
+        }
+        catch (Exception ex)
+        {
+            base64String="验证码图片转换错误";
+        }
+    }
+    //在这里编写您的函数或者类"
+
+    ```

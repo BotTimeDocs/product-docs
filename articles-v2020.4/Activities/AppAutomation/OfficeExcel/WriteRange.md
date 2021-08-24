@@ -26,3 +26,9 @@
 **此流程执行逻辑**：读取 Excel 的 "sheet1" 中的“A1：D3”区域的内容，写入至 "sheet2" 中的“A1：D3”区域中。
 
 ![配置写入区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange2.png)
+
+## 常见问题
+
+1. **Q：如何在Excel中将两张表的内容，整合到第三张表中？**
+
+    **A：** 可先读取前两张表的数据，一起写到第三个表。若前两张表结构一样，可使用[合并数据表](../../DataTable/MergeDataTable.md)。

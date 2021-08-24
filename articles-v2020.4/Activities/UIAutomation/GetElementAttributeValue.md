@@ -41,3 +41,9 @@
 **此流程执行逻辑**：获取指定元素的属性值。
 
 ![配置获取元素属性值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr1.png)
+
+## 常见问题
+
+1. **Q：如何获取当前页面的URL？**
+
+    **A：** 使用“获取元素属性值”组件，获取URL属性。

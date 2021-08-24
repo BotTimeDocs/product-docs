@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetStructData.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetStructData.mp4"> </video>
 
 ## 概述
 
@@ -49,19 +49,28 @@
 
 1. **Q：设置了指定的“最大提取条数”，为何会重复获取相应数据？**
 </br>
-**A：**
 
-**【异常现象】**
+    **A：**
 
-当获取的数据条数小于最大提取条数且最后一页的“下一页”按钮置灰（如下图所示，disabled = "true"）时，会一直获取最后一页数据，直至满足最大提取条数。
+    **【异常现象】**
 
-![获取结构化数据异常示例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getstructdata20210806.png)
+    当获取的数据条数小于最大提取条数且最后一页的“下一页”按钮置灰（如下图所示，disabled = "true"）时，会一直获取最后一页数据，直至满足最大提取条数。
 
-**【异常原因】**
+    ![获取结构化数据异常示例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getstructdata20210806.png)
 
-按钮的样式看起来置灰了, 实际 DOM 结构上是没有这个属性的。所以，该组件调用 javascript 能够触发点击动作，获取的一直是最后一页的数据。
+    **【异常原因】**
 
-**【解决方案】**
+    按钮的样式看起来置灰了, 实际 DOM 结构上是没有这个属性的。所以，该组件调用 javascript 能够触发点击动作，获取的一直是最后一页的数据。
 
-- 方案一：获取需要获取的数据的总的条数，然后在组件的“最大提取条数”中填写具体的条数。
-- 方案二：获取需要获取数据所在页的总页数，然后使用“While 组件”嵌套“获取结构化数据组件”，控制循环次数，每次只获取一页，最后合并每次获取的 Datatable。
+    **【解决方案】**
+
+   - 方案一：获取需要获取的数据的总的条数，然后在组件的“最大提取条数”中填写具体的条数。
+   - 方案二：获取需要获取数据所在页的总页数，然后使用“While 组件”嵌套“获取结构化数据组件”，控制循环次数，每次只获取一页，最后合并每次获取的 Datatable。
+  
+2. **Q：淘宝店铺图片中的隐藏属性的图片链接在哪里获取？如何抓取？**
+
+    **A：** 可以用获取结构化数据组件，可参见 [淘宝店铺抓取隐藏属性图片的链接](https://v.qq.com/x/page/f3268gdy73u.html)。
+
+3. **Q：用循环重复做同样的操作获取结构化数据，为何每次获取的数据都缺少一列？**
+
+    **A：** 获取结构化数据时需要查看网页结构，如果 Table 的 td 标签再套 Div，然后 Div 里面再有 span，有可能识别不到，需要再获取一次结构化数据，在“是否需要导入全部”时，选择“否”，再选择下一行数据，然后再循环两次结构化数据获取的 Datatable 整合为一个。
