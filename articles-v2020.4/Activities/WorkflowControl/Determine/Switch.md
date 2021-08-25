@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Switch.mp4"></video>
+
 ## 概述
 
 指定 C#表达式，并根据每个 Case 判断执行符合条件的流程。

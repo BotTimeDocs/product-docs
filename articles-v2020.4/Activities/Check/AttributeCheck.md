@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/AttributeCheck.mp4"></video>
+
 ## 概述
 
 适用于对界面某一元素的属性值进行判断。可以通过指定元素的方式，自动生成选择器属性，其后只需选择 **属性名** 属性，例如“Id”等即可。最终将取“属性名”和“值”进行对比，根据对比条件返回布尔值。

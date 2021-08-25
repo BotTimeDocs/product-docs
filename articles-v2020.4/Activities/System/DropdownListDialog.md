@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DropdownSelectionBox.mp4"></video>
+
 ## 概述
 
 提供人机交互界面，弹框形式展现并且带有下拉选择框，在界面选择下拉框中的选项并输出。
