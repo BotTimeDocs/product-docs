@@ -43,3 +43,7 @@
 **此流程执行逻辑**：在指定的百度网页文本框中输入一个字符串文本 `123`。
 
 ![执行 JavaScript 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excutejavascriptcode20210630.png)
+
+>**说明：**
+>
+> 图中的`" _context$.currentElement." `表示指定的元素。

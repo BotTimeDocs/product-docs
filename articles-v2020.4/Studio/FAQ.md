@@ -22,6 +22,14 @@
 
    **A：** `%UserProfile%\AppData\Local\Encoo Studio`
 
+4. **Q：已安装机器人后安装编辑器，报错“错误消息：未将对象引用设置到对象的实例”。**
+
+    ![安装报错](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studioinstallerror20210825.png)
+
+    **A：** 可检查是否安装“.net中文语言包”，如果安装了，可以卸载后再尝试，如果没有安装，可检查日志。
+
+    ![中文语言包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/dnetpackage20210825.jpg)
+
 ## 激活/许可证相关
 
 1. **Q：编辑器许可证已过期，是否需要应用新的许可证？企业版的没联网是否就会出现此弹窗提示？**
@@ -55,11 +63,30 @@
 
     ![导入文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Importproject20210824.png)
 
+2. **Q：新建了一个项目，报错：[错误] 未能从程序集“BotTimeUI.Common, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null”中加载类型“BotTimeUI.Common.Utility.ChildrenAccessWay”。**
+
+    **A：** 如果是新安装的编辑器，可能是和其他版本冲突了。先关闭编辑器，在 `C:\users\<user>\.nuget` 下面，将 packages 文件夹重命名，相当于备份，然后重新打开编辑器，新建项目。
+
+
 ## 市场相关
 
 1. **Q: 从组件市场安装的组件包存放在本地计算机什么路径下？**
 
-   **A：** `%UserProfile%\.nuget\packages`
+    **A：** `%UserProfile%\.nuget\packages`
+
+2. **Q：如何将组件市场中的 FlexGrid 组件安装至离线的编辑器环境中？**
+
+    **A：** 导出项目的时候勾选包含依赖项，或者在离线环境建一个私有市场，私有市场也需要把有网环境的.nupkg 文件复制过去，`%userprofile%\.nuget\packages`
+
+    ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/activitymarket20210825.png)
+
+3. **Q：编辑器调用 C#代码的时候如何引用第三方类库？需要做一个企业内网的 IMAP 协议接受邮件的脚本，编辑器的 IMAP 接受邮件组件一直报错。**
+
+    ![报错信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/imap20210825.png)
+
+    **A：** 在“代码市场”中引用“.net”, 另外“安全连接”选否。
+
+    ![代码市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/codemarket20210825.png)
 
 ## 插件相关
 
@@ -118,6 +145,12 @@
 
     **A：** 录制技术切换至 IA。
 
+4. **Q：在浏览器上点击链接打开新的浏览器窗口，运行的时候新窗口上的内容一直不能正常执行，总是报错: 操作已超时。**
+
+    **A：** 可能是新窗口上的元素没定位成功，需检查定位的元素里有哪些可能是动态变化的。在选择器编辑器中把可能发生变化的部分用 `*` 代替。
+
+    ![选择器编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selector20210825.png)
+
 ## 操作相关
 
 1. **Q：编辑器内撤销后是否能恢复?**
@@ -140,3 +173,13 @@
     ![类型转换错误](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeconverterror20210824.png)
 
     **A：** Substring(7,4) ，不是 SubString(7,4)，存在拼写错误。
+
+5. **Q：区域截取是使用截屏组件吗？为什么会报错“发生了以下错误：截屏不支持图像识别”？**
+
+    **A：** 区域截取建议使用“组件市场”中的组件，可以设置坐标范围。而“截屏”组件是根据元素截图，不支持按住 Ctrl 截取区域，您可以指定一个相对固定的元素然后设定大小和偏移。
+
+## 其他问题
+
+1. **Q：RPC 服务器不可用，报错“Exception from HRESULT: 0x800706BA”，为什么会偶尔出现此错误？**
+
+    **A：** 参见 [RPC 服务器不可用的解决方案](https://www.cnblogs.com/bosins/p/13150489.html)。

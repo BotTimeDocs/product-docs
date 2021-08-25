@@ -12,5 +12,12 @@
         "localizedName": "AI Hub的使用",
         "uuid": "1cec5de6-d4f5-4fc4-a1e7-888dca3fe5ba",
         "labels": "AI Hub, 使用"
+    },
+    {
+        "id": null,
+        "name": "FAQ.md",
+        "localizedName": "常见问题",
+        "uuid": "1cec5de6-d4f5-4fc4-a1e7-888dca3fe5ba",
+        "labels": "常见问题, FAQ, AI Hub"
     }
 ]

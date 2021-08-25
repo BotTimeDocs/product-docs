@@ -56,3 +56,13 @@
 **此流程执行逻辑**：指定需要截屏的图片，实现自动截屏。
 
 ![配置截屏组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/screenShot2.png)
+
+## 常见问题
+
+1. **Q：使用截屏组件报错“[错误]截屏失败。详细错误信息：图像格式不支持”**。
+
+    ![截屏报错](https://docimages.blob.core.chinacloudapi.cn/images/Activities/screenshots20210825.png)
+
+    **A：** 验证码路径应当是文件路径，图中填写的为文件夹。
+
+    ![文件路径](https://docimages.blob.core.chinacloudapi.cn/images/Activities/filepath20210825.png)

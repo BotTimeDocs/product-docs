@@ -31,3 +31,9 @@
 **此流程执行逻辑**：读取D盘下的“新建文本文档.txt”文件中的内容，并输出至“输出面板”中。
 
 ![配置读取文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-2.png)
+
+## 常见问题
+
+1. **Q：如何解决读取文件乱码问题？**
+
+    **A：** 可尝试将设置文件中字符`UTF-8`换为`GBK`编码。
