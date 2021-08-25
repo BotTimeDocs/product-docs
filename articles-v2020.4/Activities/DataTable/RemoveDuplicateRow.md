@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/RemoveDuplicateRows.mp4"></video>
+
 ## 概述
 
 删除指定数据表中的重复行，仅保留一行且保留行索引最小的行。

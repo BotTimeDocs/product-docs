@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SaveAsCsvFile.mp4"></video>
+
 ## 概述
 
 将数据表保存为CSV文件。

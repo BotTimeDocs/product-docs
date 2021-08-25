@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CollectionToArray.mp4"></video>
+
 ## 概述
 
 将集合转换为数组，一般用来遍历集合。
