@@ -29,3 +29,11 @@
 > **说明：**
 >
 > 若想了解更多关于**json**的内容，请参考网上的**[json教程](https://www.runoob.com/json/json-tutorial.html)**
+
+## 常见问题
+
+1. **Q：通用文字识别得到JSON，进行反序列化后，Object如何调用其中的Value值？**
+
+    **A：** `Convert.ToString(jobj["data"]["result"][0])`
+
+    ![反序列化](https://docimages.blob.core.chinacloudapi.cn/images/Activities/json20210825.png)
