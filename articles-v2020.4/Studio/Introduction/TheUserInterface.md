@@ -141,7 +141,7 @@
   ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/runpanel20210805.png)
 
     - **运行** 自动化项目时，所有项目运行时相关过程的详细信息都将显示在输出面板中。当流程出现错误时，通过日志你可以轻松地定位到出现错误的组件。
-    - **独立运行** 在计算机上开启一个新的 Windows 会话窗口执行 RPA 流程，不影响当前用户正在进行的工作，可参见[如何独立运行流程](../BestPractices/RunAlone.md)。
+    - **独立运行** 在计算机上开启一个新的 Windows 会话窗口执行 RPA 流程，不影响当前用户正在进行的工作，可参见[如何独立运行流程](./../../BestPractices/RunAlone.md)。
 
       >**说明：**
       >
