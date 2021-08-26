@@ -33,9 +33,3 @@
 **此流程执行逻辑**：指定识别的图片、服务及平台，查看识别结果。
 
 ![配置票据识别组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BillIdentification20210805.png)
-
-## 常见问题
-
-1. **Q：票据识别组件是否是发票真伪识别？**
-
-    **A：** 不是，票据识别组件是内容识别，提取内容可在税务局网站进行真伪识别。

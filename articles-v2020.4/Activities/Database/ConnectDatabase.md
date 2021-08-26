@@ -29,3 +29,9 @@
 **此流程执行逻辑**：根据“配置向导”配置与 MySQL 数据库建立连接。
 
 ![配置连接数据库组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db2.png)
+
+## 常见问题
+
+1. **Q：Oracle的数据库链接字符串格式是什么？**
+
+    **A：** `"DataSource=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.161.150)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));Persist Security Info=True;User ID=system;Password=sasa;"`

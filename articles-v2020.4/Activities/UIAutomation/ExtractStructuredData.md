@@ -80,3 +80,9 @@
     ![用友 U8](https://docimages.blob.core.chinacloudapi.cn/images/Activities/u820210825.png)
 
     **A：** 检查识别的录制技术，如果是 JAVA 录制是可以的，如果是 UIA 录制需要用市场组件 FlexGrid 来抓取。
+
+5. **Q：使用金蝶应用时，不支持获取结构化数据？**
+
+    ![指定元素失败](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locateelement20210826.png)
+
+    **A：** 这种表格的格式没有覆盖，暂时不支持。只能用“获取区域结构”组件，自行解析里面的json。

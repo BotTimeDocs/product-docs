@@ -63,17 +63,44 @@
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
-## 项目相关
+## 项目/流程相关
 
-1. **Q: 建了两个项目，如何才能把两个项目合并，使得打开编辑器时两个都可以看到？**
+1. **Q：使用标准流程模板创建的流程，日志目录配置好了，但其实没有创建日志文件在配置的目录下。**
+
+    ![日志路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/logpath20210826.png)
+
+    **A：** 日志文件路径这里是把上面两个变量连在一起的，只要设置日志文件夹路径和日志文件名即可。如果没设，默认应该是在桌面上有个日志文件夹，里面有日志文件。
+
+2. **Q: 建了两个项目，如何才能把两个项目合并，使得打开编辑器时两个都可以看到？**
 
     **A：** 可在需要保留的项目中把另外一个项目的 xaml 文件都导入过去。
 
     ![导入文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Importproject20210824.png)
 
-2. **Q：新建了一个项目，报错：[错误] 未能从程序集“BotTimeUI.Common, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null”中加载类型“BotTimeUI.Common.Utility.ChildrenAccessWay”。**
+3. **Q：新建了一个项目，报错：[错误] 未能从程序集“BotTimeUI.Common, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null”中加载类型“BotTimeUI.Common.Utility.ChildrenAccessWay”。**
 
     **A：** 如果是新安装的编辑器，可能是和其他版本冲突了。先关闭编辑器，在 `C:\users\<user>\.nuget` 下面，将 packages 文件夹重命名，相当于备份，然后重新打开编辑器，新建项目。
+
+4. **Q：如何处理管理员运行的市场组件，仍提示该组件需要使用管理员方式运行编辑器？**
+
+    **A：** 编辑器以管理员身份运行，在项目空白处右击，选择“项目设置 > 常规”，勾选以管理员方式运行。
+
+    ![项目设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/projectsetting20210826.png)
+
+5. **Q：怎样用管理员权限执行 cmd 命令?**
+
+    ![执行 cmd 命令](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20210826.png)
+
+    **A：** 在“项目设置”里勾选“以管理员权限运行”。
+
+1. **Q：执行流程时，报错“需要提升权限才能识别此应用。请尝试以管理员身份启动录制程序。”**
+
+    **A：** 可以右键点击项目“项目设置 > 常规”，勾选以管理员方式运行。
+
+2. **Q：有什么办法快速转换到流程项目吗？**
+
+    **A：** project.json文件里面，把`ProjectType`的值改成`Workflow`，project.runtime.json里面也改下。
+
 
 ## 调试/运行相关
 
@@ -145,7 +172,7 @@
     - 方式一：在编辑器中将流程导出为 dgs，然后在控制台的“流程包管理”中上传已导出的 dgs 流程包。
     - 方式二：从编辑器中将流程 [发布至控制台](../Studio/process/PublishProject.md)。
 
-## 指定元素/选择器相关
+## 指定元素/定位/录制/选择器相关
 
 1. **Q: 使用组件中的“指定元素”指定浏览器时，无法定位到目标应用程序，验证失败。**
 
@@ -153,24 +180,76 @@
 
     **A：** 观察目标 title 的特征，如果目标 title 为动态的，把动态字段的值用*来代替。
 
-2. **Q：有个流程每天运行，不定期会偶发某个组件元素定位失败，但调查问题组件无法再现问题，整体流程稳定性很差，是否有改进方法？（流程操作：桌面 CMS 程序，win10 系统）**
+2. **Q：为什么结构化数据经常获取失败，报错“[错误] 获取结构化数据失败。详细错误信息：操作已超时。”**
+
+    **A：** 是定位失败，编辑时的定位选择和运行时不一样了，要检查哪个属性发生了变化。
+
+3. **Q：有个流程每天运行，不定期会偶发某个组件元素定位失败，但调查问题组件无法再现问题，整体流程稳定性很差，是否有改进方法？（流程操作：桌面 CMS 程序，win10 系统）**
 
     **A：** 这与系统元素的响应时长有关，建议在出问题的组件上加延迟，或在此步骤前使用等待元素出现组件。
     一般有以下几种方式增加稳定性，增加超时时间、重试、机器人运行出错时截图，在使用前先等待元素出现。exe 应用程序出错时，建议排错期间先不要关闭，查看此时能否验证成功。
 
-3. **Q：如何精确定位到 Excel 内的 button？**
+4. **Q：如何精确定位到 Excel 内的 button？**
 
     **A：** 录制技术切换至 IA。
 
-4. **Q：在浏览器上点击链接打开新的浏览器窗口，运行的时候新窗口上的内容一直不能正常执行，总是报错: 操作已超时。**
+5. **Q：在浏览器上点击链接打开新的浏览器窗口，运行的时候新窗口上的内容一直不能正常执行，总是报错: 操作已超时。**
 
     **A：** 可能是新窗口上的元素没定位成功，需检查定位的元素里有哪些可能是动态变化的。在选择器编辑器中把可能发生变化的部分用 `*` 代替。
 
     ![选择器编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selector20210825.png)
 
-5. **选择器中是否可以写变量？**
+6. **Q：选择器中是否可以写变量？**
 
     **A：** 可以的，`{{变量名}}`。
+
+7. **Q：弹出窗口的文本框数据无法自动输入，报错“[错误] 输入文本失败。详细错误信息：操作已超时。”**
+
+    **A：** 勾选生成 XPath（仅支持 WEB），然后重新指向元素，`//label[@for='confCode']/..//input[contains(@placeholder,'变量代码')]`
+
+    ![xpath](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xpath20210826.png)
+
+8. **Q：如何让机器人知道这里有几页，需要截几次图（每页截图 1 次）？**
+
+    ![页面页数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pages20210826.png)
+
+    **A：** 获取这个标签的值 3 页，然后截取“3”，以后数据多了，获取了这个标签值也会随总数据量变化，可以做到动态。
+
+9. **Q：如何取消掉网页端 Input 标签的 Readonly 属性？**
+
+    ![readonly](https://docimages.blob.core.chinacloudapi.cn/images/Studio/readonly20210826.png)
+
+    **A：** 设置元素属性 `Readonly =""`。
+
+10. **Q：使用 Chrome 浏览器打开 SAP 浏览器页面，页面上的内容无法获取，但是录制时，在选择器中验证是通过的，这个要怎么处理？**
+
+    ![SAP 页面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/sap20210826.png)
+
+    **A：** 用 Xpath，`//input[@title='公司代码']`，改成 `*` 就可以了。
+
+    ![SAP_Xpath](https://docimages.blob.core.chinacloudapi.cn/images/Studio/SAPtitle20210826.png)
+
+11. **Q：有个动态网页，怎么让它不是每次都能输入文本？已经试了通配符 `*` 或 `?` 都识别不到，这有什么好方法？**
+
+    **A：** 只有 `id` 在变，用其他 `sinfo` 或者 `CssSelector` 属性试试，属性值用元素探测器获取到填进去，截取到 iframe 的位置。
+
+    ![CssSelector](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cssselector20210826.png)
+
+12. **Q：在桌面软件界面上定位不到元素，需要如何解决？**
+
+    **A：** 外层定位到弹窗以后，使用图像识别功能进行录制。使用“点击”组件录制的时候定位到弹出窗时，按下ctrl键盘，框选一下那个关闭按钮就可以了。
+
+13. **Q：如何实现点击菜单中的子菜单？**
+
+    ![点击子菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/clicksubmenu20210826.png)
+
+    **A：** 使用“点击”组件继续点击黄色框的部分，录制时候按F2，延迟后录制，另外设置一下点击前后的延迟时间。
+
+1. **Q：无法识别到指定的元素，怎么处理？**
+
+    ![无法识别按钮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/f420210826.jpg)
+
+    **A：** 用“坐标点击”组件试试，或者F4切换一下识别方式。
 
 ## 操作相关
 
@@ -211,6 +290,40 @@
 
     **A：** 有些只能点击，有些可以用 JS，有些可以直接输入，所以需要根据实际情况判断使用哪种。如果手动输入方便，则先鼠标点击，获取焦点，然后再输入。
 
+9. **Q：为什么打开 WPS 文档，报错“[NPOI.POIXMLException--> System.Reflection.TargetInvocationException: 调用的目标发生了异常。”**
+
+    ![WPS 异常](https://docimages.blob.core.chinacloudapi.cn/images/Studio/wpserror20210826.png)
+
+    **A：** 需要在桌面右键文件，选择默认打开程序改成 Office，即可恢复正常。
+
+10. **Q：如果没有安装 office，想要使用 office 组件，有办法吗？**
+
+    **A：** 若可以安装 WPS，也可以用 office 组件，WPS 用的是 office 的库。
+
+1. **Q：如何实现EXCEL行数不固定情况下的数据自动填充？**
+
+    **A：** 使用“写入行/列数据”组件，使用“获取末行号”组件搭配数据确定要加几个，创建数组变量，要填几个数据，就加几个。
+
+11. **Q：执行流程时报错“[错误] 未将对象引用设置到对象的实例。”**
+
+    **A：** 一般情况下是流程中用到的某个变量没有值。
+
+12. **Q：赋值文件名给变量，怎么写，item 有属性表示文件名的吗？**
+
+    **A：** `System.IO.Path.GetFileName(item)`，如果希望不要带扩展名的名称，可用 `System.IO.Path.GetFileNameWithoutExtension(item)`。
+
+13. **Q：AI 识别到的是一个字符串内容，该怎么处理？**
+
+    **A：** 返回是 json 格式的序列化后的字符串，可以用 JSON“反序列化”组件，也可以用字符串匹配来提取想要的内容。
+
+14. **Q：把数据添加到 Oracle 数据库用什么组件？**
+
+    **A：** 使用 [连接数据库](./../Activities/Database/ConnectDatabase.md) 组件。
+
+1. **Q：Split分割字符串方法怎么使用？**
+
+    **A：** 可参考[如何在C#中使用String.Split分隔字符串](https://docs.microsoft.com/zh-cn/dotnet/csharp/how-to/parse-strings-using-split)。
+
 ## 其他问题
 
 1. **Q：RPC 服务器不可用，报错“Exception from HRESULT: 0x800706BA”，为什么会偶尔出现此错误？**
@@ -220,3 +333,11 @@
 2. **Q：是否有 PPT VBA 自动化的资料？**
 
     **A：** 参见 [PowerPoint VBA(Macros)教程](https://zhuanlan.zhihu.com/p/134142512)。
+
+## 手机自动化
+
+1. **Q：如何对手机APP应用内的页面进行翻页或向上滑动操作？**
+
+    **A：** 使用“移动设备管理器”，先点击1处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
+
+    ![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)

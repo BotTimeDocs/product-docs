@@ -33,3 +33,7 @@
     **A：** “写入单元格”组件需在“打开/新建”组件内部。
 
     ![写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writecell20210825.png)
+
+1. **Q：Office写入完单元格后能否不要自动关闭？即新建/打开后不自动关闭。**
+
+    **A：** 设计就是需要自动关闭的，因为场景可能有很多个Excel文件处理。
