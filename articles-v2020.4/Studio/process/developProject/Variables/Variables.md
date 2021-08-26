@@ -32,7 +32,7 @@
 - **从组件中**
 
 1. 从组件面板拖入一个组件到编辑区域。在组件的输入框中填入变量名称。
-2. 选中名称并右击，从上下文菜单中选择“创建变量”，或者使用快捷键 **Ctrl+B** ，将创建该变量。通过变量列表可检查变量的类型和范围。
+2. 选中名称并右击，从上下文菜单中选择“创建变量”或者使用快捷键 **Ctrl+B** ，将创建该变量。通过变量列表可检查变量的类型和范围。
 
    ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/Activity-createVariable.png)
 

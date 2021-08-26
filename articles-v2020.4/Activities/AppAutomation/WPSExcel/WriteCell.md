@@ -25,3 +25,11 @@
 **此流程执行逻辑**：在`wps.xlsx`工作簿的`Sheet1`工作表的`A1`单元格中写入`"测试写入单元格"`内容。
 
 ![配置写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wps44.png)
+
+## 常见问题
+
+1. **Q：“写入单元格”组件，报错“[错误]活动仅在WPS表格打开/新建中有效”。**
+
+    **A：** “写入单元格”组件需在“打开/新建”组件内部。
+
+    ![写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writecell20210825.png)

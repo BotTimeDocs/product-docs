@@ -40,3 +40,9 @@
 **执行结果**：
 
 ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)
+
+## 常见问题
+
+1. **Q：执行“登陆应用”组件，出现报错：[错误] Could not load file or assembly 'Encoo.Automation.Sap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。**
+
+    **A：** “登录应用”组件仅在企业版编辑器中支持，之前是否下载了社区版安装包进行安装，之后使用企业版许可证激活？如果是，需要重新下载企业版安装包安装，并且安装前需要把这个目录`%userprofile%\.nuget\packages`的文件全部删除。
