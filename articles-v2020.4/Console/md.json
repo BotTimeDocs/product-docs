@@ -79,13 +79,6 @@
     },
     {
         "id": null,
-        "name": "FAQ.md",
-        "localizedName": "常见问题",
-        "uuid": "0444847e-603b-4f2d-9fc2-ebb8bd8ffcba",
-        "labels": "常见问题, FAQ，控制台"
-    },
-    {
-        "id": null,
         "name": "v3.0.x",
         "localizedName": "v3.0.x",
         "uuid": "",

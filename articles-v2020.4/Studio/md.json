@@ -30,11 +30,5 @@
     {
         "name": "market",
         "localizedName": "云扩市场"
-    },
-    {
-        "name": "FAQ.md",
-        "localizedName": "常见问题",
-        "uuid": "edf49939-4f26-4c60-9fcc-c45da6eba123",
-        "labels": "FAQ, 常见问题"
     }
 ]
