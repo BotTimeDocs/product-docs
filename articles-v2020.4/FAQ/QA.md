@@ -12,9 +12,7 @@ A: 社区版和企业版都包含编辑器，控制台和机器人。两者差�
     - 调度队列。详情请参看 [关于调度队列](./../Console/queue/aboutqueue.md)
     - 流程部署。详情请参看 [关于流程部署](./../Console/workflow/aboutworkflow.md)
     - 任务记录。详情请参看 [关于任务记录](./../Console/job/aboutJob.md)
-    - 角色管理和资源组管理：
-        - [关于角色管理](./Console/v3.0.x/management/roles/aboutRoles.md)
-        - [关于资源组](./Console/v3.0.x/management/groups/aboutGroups.md)
+    - 组织架构管理。详情请参看[组织架构管理](./../Console/management/organizationalstructure.md)
     - 资产管理和文件服务。详情请参看 [关于资产管理](./../Console/datacentor/asset/AboutAsset.md) 和 [关于文件服务](./../Console/datacentor/fileservice/Aboutfileservice.md)
     - 文档理解能力。详情请参看 [关于文档理解](./../DocReader/README.md)
 3. 【编辑器】在编辑器中，一些项目实施帮助工具仅在企业版中提供：
@@ -23,7 +21,7 @@ A: 社区版和企业版都包含编辑器，控制台和机器人。两者差�
     - 桌面控件专有相关组件。详情请参看 [获取区域结构](./../Activities/UIAutomation/DesktopOnly/GetJsonStructure.md)
     - 元素探测器。详情请参看 [元素探测器](./../Activities/Appendix/UiDetector.md)
 4. 【机器人】企业版机器人可以在控制台的调度下运行，社区版机器人不支持相关功能。
-5. 【云扩ViCode】云扩ViCode仅在企业版中支持。详情请参看 [关于云扩ViCode](./Apps/README.md)
+5. 【云扩ViCode】云扩ViCode仅在企业版中支持。详情请参看 [关于云扩ViCode](./../Apps/README.md)
 
 ## 控制台企业版说明
 
