@@ -1,14 +1,13 @@
-# FAQ
-
-[toc]
+# 编辑器 FAQ
 
 ## 安装相关
 
-1. **Q：安装时弹出程序崩溃提示，如图：**
+1. **Q：安装时弹出程序崩溃提示，如何解决？**
 
    ![安装崩溃](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installCollapse.png)
 
-   **A：** 打开控制面板-> 程序-> 卸载程序，在卸载或更改程序列表中检查是否安装.Net Framework 4.6.1 及以上版本的.Net Framework 环境。如果未安装，请先下载.Net Framework 4.6.1 并安装，安装好之后重启电脑再进行云扩 RPA 编辑器的安装。下载地址：<https://www.microsoft.com/zh-CN/download/details.aspx?id=49982>
+   **A：** 打开“控制面板 > 程序 > 卸载程序”，在卸载或更改程序列表中检查是否安装“.Net Framework 4.6.1 ”及以上版本的“.Net Framework 环境”。
+   如果未安装，请先下载“[.Net Framework 4.6.1](https://www.microsoft.com/zh-CN/download/details.aspx?id=49982)”并安装，安装好之后重启电脑再进行云扩 RPA 编辑器的安装。
 
 2. **Q：点击安装，显示安装失败**
 
@@ -48,10 +47,13 @@
 
 1. **Q：卸载失败**
 
-   **A：** </br>
-   (1) 安装目录(Program files x86)，25 版本以后的安装目录在用户目录 AppData\Local\，下面 encootech 文件夹删掉 </br>
-   (2) C:\ProgramData\Package Cache\ 里面搜一下 Digi4th 开头的 都删掉 </br>
-   (3) 删除 windows 服务 DataBusService(cmd 命令行 sc delete DataBusService)
+   **A：**
+
+   (1) 安装目录(Program files x86)，25 版本以后的安装目录在用户目录 `AppData\Local\`，下面 encootech 文件夹删掉
+
+   (2) `C:\ProgramData\Package Cache\` 里面搜一下 Digi4th 开头的，都删掉
+
+   (3) 删除 windows 服务 DataBusService(cmd 命令行 `sc delete DataBusService`)
 
 ## 系统日志相关
 
@@ -87,20 +89,27 @@
 
     ![项目设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/projectsetting20210826.png)
 
-5. **Q：怎样用管理员权限执行 cmd 命令?**
+5. **Q：怎样用管理员权限执行“执行命令行”组件?**
 
     ![执行 cmd 命令](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20210826.png)
 
     **A：** 在“项目设置”里勾选“以管理员权限运行”。
 
-1. **Q：执行流程时，报错“需要提升权限才能识别此应用。请尝试以管理员身份启动录制程序。”**
+6. **Q：执行流程时，报错“需要提升权限才能识别此应用。请尝试以管理员身份启动录制程序。”**
 
     **A：** 可以右键点击项目“项目设置 > 常规”，勾选以管理员方式运行。
 
-2. **Q：有什么办法快速转换到流程项目吗？**
+7. **Q：有什么办法快速转换到流程项目吗？**
 
-    **A：** project.json文件里面，把`ProjectType`的值改成`Workflow`，project.runtime.json里面也改下。
+    **A：** project.json 文件里面，把 `ProjectType` 的值改成 `Workflow`，project.runtime.json 里面也改下。
 
+8. **Q：编辑器流程中的组件未显示，报错“未能生成 BrowserOpen 的视图”。**
+
+    **A：** 按照如下步骤进行处理：
+
+    - step1: 关闭编辑器
+    - step2：在文件资源管理器输入目录：`%userprofile%\.nuget\packages\automationactivity`，然后重命名此文件夹，如 `automationactivity01`
+    - step3：重启编辑器
 
 ## 调试/运行相关
 
@@ -111,6 +120,10 @@
 2. **Q：通过设置断点调试流程，是否指运行到断点就停止了？如果需要恢复应该如何操作？**
 
     **A：** 断点只是调试用的，不影响运行，停下后在左侧面板点击“继续”还会继续往下跑的。如果需要恢复，右击“删除断点”即可。
+
+3. **Q：执行流程时报错“[错误] 未将对象引用设置到对象的实例。”**
+
+    **A：** 一般情况下是流程中用到的某个变量没有值。
 
 ## 市场相关
 
@@ -134,22 +147,23 @@
 
 ## 插件相关
 
-1. **Q: Chrome 录制失败，自动化失败有哪些原因？**
-
-    **A：** </br>
-    (1) 检查 chrome 浏览器扩展，是否安装了 chrome 插件并且启用，如图：
-
-    ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png) </br>
-
-    (2) 当打开 chrome 后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是 RPA 与 chrome 浏览器的通信进程，如果不存在，则检查(1)。
-
-    ![检查进程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/taskManager.png) </br>
-
-2. **Q: 怎么安装 chrome 插件？**
+1. **Q: 怎么安装 chrome 插件？**
 
     **A：** 打开编辑器，在 **开始 > 工具 > 扩展** 中，选择并点击“Chrome 扩展”，根据提示操作即可。（在安装后，请手动打开浏览器并输入：chrome://extensions/，启用扩展。）
 
     ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
+
+2. **Q: Chrome 录制失败，自动化失败有哪些原因？**
+
+    **A：**
+
+    (1) 检查 chrome 浏览器扩展，是否安装了 chrome 插件并且启用，如图：
+
+    ![启用扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)
+
+    (2) 当打开 chrome 后，检查任务管理器是否存在进程：EncooNativeMessageHost.exe，该进程是 RPA 与 chrome 浏览器的通信进程，如果不存在，则检查(1)。
+
+    ![检查进程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/taskManager.png)
 
 3. **Q: 项目换了电脑后，为什么浏览器打开会闪退？**
 
@@ -172,7 +186,7 @@
     - 方式一：在编辑器中将流程导出为 dgs，然后在控制台的“流程包管理”中上传已导出的 dgs 流程包。
     - 方式二：从编辑器中将流程 [发布至控制台](../Studio/process/PublishProject.md)。
 
-## 指定元素/定位/录制/选择器相关
+## 元素捕捉相关
 
 1. **Q: 使用组件中的“指定元素”指定浏览器时，无法定位到目标应用程序，验证失败。**
 
@@ -193,27 +207,27 @@
 
     **A：** 录制技术切换至 IA。
 
-5. **Q：在浏览器上点击链接打开新的浏览器窗口，运行的时候新窗口上的内容一直不能正常执行，总是报错: 操作已超时。**
+5. **Q：无法识别到指定的元素，怎么处理？**
+
+    ![无法识别按钮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/f420210826.jpg)
+
+    **A：** 用“坐标点击”组件试试，或者 F4 切换一下识别方式。
+
+6. **Q：在浏览器上点击链接打开新的浏览器窗口，运行的时候新窗口上的内容一直不能正常执行，总是报错: 操作已超时。**
 
     **A：** 可能是新窗口上的元素没定位成功，需检查定位的元素里有哪些可能是动态变化的。在选择器编辑器中把可能发生变化的部分用 `*` 代替。
 
     ![选择器编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selector20210825.png)
 
-6. **Q：选择器中是否可以写变量？**
+7. **Q：选择器中是否可以写变量？**
 
     **A：** 可以的，`{{变量名}}`。
 
-7. **Q：弹出窗口的文本框数据无法自动输入，报错“[错误] 输入文本失败。详细错误信息：操作已超时。”**
+8. **Q：弹出窗口的文本框数据无法自动输入，报错“[错误] 输入文本失败。详细错误信息：操作已超时。”**
 
     **A：** 勾选生成 XPath（仅支持 WEB），然后重新指向元素，`//label[@for='confCode']/..//input[contains(@placeholder,'变量代码')]`
 
     ![xpath](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xpath20210826.png)
-
-8. **Q：如何让机器人知道这里有几页，需要截几次图（每页截图 1 次）？**
-
-    ![页面页数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pages20210826.png)
-
-    **A：** 获取这个标签的值 3 页，然后截取“3”，以后数据多了，获取了这个标签值也会随总数据量变化，可以做到动态。
 
 9. **Q：如何取消掉网页端 Input 标签的 Readonly 属性？**
 
@@ -237,92 +251,88 @@
 
 12. **Q：在桌面软件界面上定位不到元素，需要如何解决？**
 
-    **A：** 外层定位到弹窗以后，使用图像识别功能进行录制。使用“点击”组件录制的时候定位到弹出窗时，按下ctrl键盘，框选一下那个关闭按钮就可以了。
+    **A：** 外层定位到弹窗以后，使用图像识别功能进行录制。使用“点击”组件录制的时候定位到弹出窗时，按下 ctrl 键盘，框选一下那个关闭按钮就可以了。
 
 13. **Q：如何实现点击菜单中的子菜单？**
 
     ![点击子菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/clicksubmenu20210826.png)
 
-    **A：** 使用“点击”组件继续点击黄色框的部分，录制时候按F2，延迟后录制，另外设置一下点击前后的延迟时间。
+    **A：** 使用“点击”组件继续点击黄色框的部分，录制时候按 F2，延迟后录制，另外设置一下点击前后的延迟时间。
 
-1. **Q：无法识别到指定的元素，怎么处理？**
+## 数据类型/语法相关
 
-    ![无法识别按钮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/f420210826.jpg)
-
-    **A：** 用“坐标点击”组件试试，或者F4切换一下识别方式。
-
-## 操作相关
-
-1. **Q：编辑器内撤销后是否能恢复?**
-    **A：** 不能。
-
-2. **Q：编辑器流程中的组件未显示，报错“未能生成 BrowserOpen 的视图”。**
-
-    **A：** 按照如下步骤进行处理：
-
-    - step1: 关闭编辑器
-    - step2：在文件资源管理器输入目录：`%userprofile%\.nuget\packages\automationactivity`，然后重命名此文件夹，如 `automationactivity01`
-    - step3：重启编辑器
-
-3. **Q：String 类型如何转化为 int？**
+1. **Q：String 类型如何转化为 int？**
 
     **A：** Convert.ToInt32("String 字串")。
 
-4. **Q：如何用变量计算时间差？比如从网页上获取了一个文本，转换为时间格式后，如何计算时间和自己当前操作时间的时间差？**
+2. **Q：如何用变量计算时间差？比如从网页上获取了一个文本，转换为时间格式后，如何计算时间和自己当前操作时间的时间差？**
 
     **A：** 可参见 [C#日期加减](https://www.cnblogs.com/RCJL/p/12930425.html?wework_cfm_code=OTcx9KzwohAgedF7GMK4w2wgfzzAnXYvJkWj%2BfQlKu2ufHEl5IWDPUfA5BGsjcdX02a8d5HRYX8WgPkozEyQ1Q7DOODUJ1%2F2Iej2z%2FE1Bpbs4YNG7XGzAoI%3D)。
 
-5. **Q：字符串中如果包含双引号，是否可以使用转义字符？**
+3. **Q：字符串中如果包含双引号，是否可以使用转义字符？**
 
     **A：** 可以，两个双引号代表一个双引号。
 
-6. **Q：这个同样的语句，为什么在另一个组件里面调试正常，到这里就报错？**
+4. **Q：这个同样的语句，为什么在另一个组件里面调试正常，到这里就报错？**
 
     ![类型转换错误](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeconverterror20210824.png)
 
     **A：** Substring(7,4) ，不是 SubString(7,4)，存在拼写错误。
 
-7. **Q：区域截取是使用截屏组件吗？为什么会报错“发生了以下错误：截屏不支持图像识别”？**
+5. **Q：赋值文件名给变量，怎么写，item 有属性表示文件名的吗？**
 
-    **A：** 区域截取建议使用“组件市场”中的组件，可以设置坐标范围。而“截屏”组件是根据元素截图，不支持按住 Ctrl 截取区域，您可以指定一个相对固定的元素然后设定大小和偏移。
+    **A：** `System.IO.Path.GetFileName(item)`，如果希望不要带扩展名的名称，可用 `System.IO.Path.GetFileNameWithoutExtension(item)`。
 
-8. **Q：在 Web 网站自动输入查询条件查询，为什么输入的条件不生效，Web 网站展示了所有数据？**
+6. **Q：Split 分割字符串方法怎么使用？**
 
-    **A：** 有些只能点击，有些可以用 JS，有些可以直接输入，所以需要根据实际情况判断使用哪种。如果手动输入方便，则先鼠标点击，获取焦点，然后再输入。
+    **A：** 可参考 [如何在 C#中使用 String.Split 分隔字符串](https://docs.microsoft.com/zh-cn/dotnet/csharp/how-to/parse-strings-using-split)。
 
-9. **Q：为什么打开 WPS 文档，报错“[NPOI.POIXMLException--> System.Reflection.TargetInvocationException: 调用的目标发生了异常。”**
+## Excel 相关
+
+1. **Q：为什么打开 WPS 文档，报错“[NPOI.POIXMLException--> System.Reflection.TargetInvocationException: 调用的目标发生了异常。”**
 
     ![WPS 异常](https://docimages.blob.core.chinacloudapi.cn/images/Studio/wpserror20210826.png)
 
     **A：** 需要在桌面右键文件，选择默认打开程序改成 Office，即可恢复正常。
 
-10. **Q：如果没有安装 office，想要使用 office 组件，有办法吗？**
+2. **Q：如果没有安装 office，想要使用 office 组件，有办法吗？**
 
     **A：** 若可以安装 WPS，也可以用 office 组件，WPS 用的是 office 的库。
 
-1. **Q：如何实现EXCEL行数不固定情况下的数据自动填充？**
+3. **Q：如何实现 EXCEL 行数不固定情况下的数据自动填充？**
 
     **A：** 使用“写入行/列数据”组件，使用“获取末行号”组件搭配数据确定要加几个，创建数组变量，要填几个数据，就加几个。
 
-11. **Q：执行流程时报错“[错误] 未将对象引用设置到对象的实例。”**
+## 操作/逻辑相关
 
-    **A：** 一般情况下是流程中用到的某个变量没有值。
+1. **Q：编辑器内撤销后是否能恢复?**
+    **A：** 不能。
 
-12. **Q：赋值文件名给变量，怎么写，item 有属性表示文件名的吗？**
+2. **Q：如何让机器人知道这里有几页，需要截几次图（每页截图 1 次）？**
 
-    **A：** `System.IO.Path.GetFileName(item)`，如果希望不要带扩展名的名称，可用 `System.IO.Path.GetFileNameWithoutExtension(item)`。
+    ![页面页数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pages20210826.png)
 
-13. **Q：AI 识别到的是一个字符串内容，该怎么处理？**
+    **A：** 获取这个标签的值 3 页，然后截取“3”，以后数据多了，获取了这个标签值也会随总数据量变化，可以做到动态。
+
+3. **Q：区域截取是使用截屏组件吗？为什么会报错“发生了以下错误：截屏不支持图像识别”？**
+
+    **A：** 区域截取建议使用“组件市场”中的组件，可以设置坐标范围。而“截屏”组件是根据元素截图，不支持按住 Ctrl 截取区域，您可以指定一个相对固定的元素然后设定大小和偏移。
+
+4. **Q：在 Web 网站自动输入查询条件查询，为什么输入的条件不生效，Web 网站展示了所有数据？**
+
+    **A：** 有些只能点击，有些可以用 JS，有些可以直接输入，所以需要根据实际情况判断使用哪种。如果手动输入方便，则先鼠标点击，获取焦点，然后再输入。
+
+5. **Q：AI 识别到的是一个字符串内容，该怎么处理？**
 
     **A：** 返回是 json 格式的序列化后的字符串，可以用 JSON“反序列化”组件，也可以用字符串匹配来提取想要的内容。
 
-14. **Q：把数据添加到 Oracle 数据库用什么组件？**
+6. **Q：把数据添加到 Oracle 数据库用什么组件？**
 
     **A：** 使用 [连接数据库](./../Activities/Database/ConnectDatabase.md) 组件。
 
-1. **Q：Split分割字符串方法怎么使用？**
+## 手机自动化相关
 
-    **A：** 可参考[如何在C#中使用String.Split分隔字符串](https://docs.microsoft.com/zh-cn/dotnet/csharp/how-to/parse-strings-using-split)。
+参见 [手机自动化常见问题](../Studio/process/developProject/MobileDevicesManage/MFAQ.md)。
 
 ## 其他问题
 
@@ -333,11 +343,3 @@
 2. **Q：是否有 PPT VBA 自动化的资料？**
 
     **A：** 参见 [PowerPoint VBA(Macros)教程](https://zhuanlan.zhihu.com/p/134142512)。
-
-## 手机自动化
-
-1. **Q：如何对手机APP应用内的页面进行翻页或向上滑动操作？**
-
-    **A：** 使用“移动设备管理器”，先点击1处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
-
-    ![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)
