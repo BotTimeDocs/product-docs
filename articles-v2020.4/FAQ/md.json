@@ -40,5 +40,12 @@
         "localizedName": "ViCode FAQ",
         "uuid": "b4ffd881-d27f-471d-819c-dea2255a4d35",
         "labels": "ViCode，FAQ"
+    },
+    {
+        "id": null,
+        "name": "QA.md",
+        "localizedName": "通用FAQ",
+        "uuid": "527f12ec-873f-4b7f-ac12-d1d68c368fe8",
+        "labels": "社区版，企业版，FAQ"
     }
 ]
