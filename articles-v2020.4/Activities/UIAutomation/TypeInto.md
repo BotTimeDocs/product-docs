@@ -40,3 +40,13 @@
 **执行结果**：
 
 ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-2.png)
+
+## 常见问题
+
+1. **Q：使用“输入文本”组件，如何输入“年/月/日”这种日期格式？**
+
+    ![日期格式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dateformat20210825.png)
+
+    **A：** 在“输入文本”组件的“文本”属性框中输入，如`"2000-01-01"`。
+
+    ![输入文本日期](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputtext20210825.png)
