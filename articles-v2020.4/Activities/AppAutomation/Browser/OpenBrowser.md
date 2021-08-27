@@ -55,3 +55,11 @@
 2. **Q：如果我的操作都是浏览器界面，是否都是双击“打开浏览器”组件，在里面界面添加组件？**
 
     **A：** 不是，如果打开浏览器不关闭，在外部界面也可以用组件操作浏览器里面的元素。
+
+3. **Q：执行打开浏览器组件之后卡住无法向下执行？**
+
+    ![打开浏览器异常](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openbrowser20210827.png)
+
+    **A：** 打开浏览器中的“结束后关闭”属性取消勾选，然后使用“点击”组件关闭浏览器。
+
+    ![解决方法 ](https://docimages.blob.core.chinacloudapi.cn/images/Activities/endtoclose20210827.png)
