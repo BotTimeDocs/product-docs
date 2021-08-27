@@ -1,7 +1,8 @@
 # 管理调度队列
+
 ## 查看调度队列列表
 
-进入**调度队列**页面，你可以看到当前资源组下所有的调度队列的列表信息。
+进入**调度队列**页面，你可以看到当前部门下所有的调度队列的列表信息。
 
 ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/V3queue4.png)
 

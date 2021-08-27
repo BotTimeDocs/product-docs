@@ -2,7 +2,7 @@
 
 ## 查看资产列表
 
-进入“数据中心 > 资产管理”页面，即可通过列表查看当前资源组下所有的资产信息。
+进入“数据中心 > 资产管理”页面，即可通过列表查看当前部门下所有的资产信息。
 
 ![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3assettable.png)
 

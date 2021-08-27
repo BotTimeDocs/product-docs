@@ -2,7 +2,7 @@
 
 ## 查看机器人列表
 
-进入 **机器人管理**，你可以看到当前部门（资源组）下的所有机器人。你可以选择切换 **资源组**，查看不同资源组下的机器人。
+进入 **机器人管理**，你可以看到当前部门下的所有机器人。你可以选择切换部门，查看不同部门下的机器人。
 
  ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/robot/robot/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BB%E9%A1%B5.png)
 
