@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/RemoveColumn.mp4"></video>
+
 ## 概述
 
 删除指定数据表的指定列，并自动保存同步其数据至指定数据表。
