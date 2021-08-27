@@ -9,23 +9,23 @@
 创建一个 Python 脚本文件并运行。
 
 1. 选择菜单栏中的“文件 > 新建 > 脚本”菜单。
-2. 在弹出的“添加脚本”弹框中，选择“Python文件”文件类型，自定义一个脚本文件名称，如，`test_demo`, 单击“确定”按钮。
+2. 在弹出的“添加脚本”弹框中，选择“Python 文件”文件类型，自定义一个脚本文件名称，如，`test_demo`, 单击“确定”按钮。
 
     ![添加 Python 脚本文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/createpythoncodefile20210827.png)
 
-3. 在“项目面板”上可以看到添加完成的Python文件。
+3. 在“项目面板”上可以看到添加完成的 Python 文件。
 
     ![已添加完成的 Python 文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pythonfiledone20210827.png)
 
-4. 双击“test_demo.py”文件，在弹出的“Python代码编辑器”框中，编写 Python 代码，单击“确认”按钮。
+4. 双击“test_demo.py”文件，在弹出的“Python 代码编辑器”框中，编写 Python 代码，单击“确认”按钮。
 
-   ![Python代码](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pythoncode20210827.png)
+   ![Python 代码](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pythoncode20210827.png)
 
 5. 在流程文件中，拖入一个“执行 Python 代码”组件至流程中，并选择上方已创建的 Python 代码文件。
 
-    >**说明：**
+    > **说明：**
     >
-    > 也可以从项目面板拖动已创建的 Python 文件至流程中的“Python环境”组件中。
+    > 也可以从项目面板拖动已创建的 Python 文件至流程中的“Python 环境”组件中。
 
     ![拖入执行 Python 代码组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selectpythonfile20210827.png)
 
