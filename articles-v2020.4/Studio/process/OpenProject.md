@@ -20,10 +20,10 @@
 
 1. 打开云扩 RPA 编辑器，使用控制台账号进行登录。
 ![控制台账号登录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/consoleaccount20201112.png)
-2. 在开始主页，选择“打开”->“控制台流程”，将会获取到你所在资源组下的所有流程。
+2. 在开始主页，选择“打开”->“控制台流程”，将会获取到你所在公司部门下的所有流程。
 ![打开控制台流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/openconsoleflow20201112.png)
 
-3. 通过资源组下拉列表，你可以选择你想要查看的资源组，选择完成，将会把该资源组下的流程全部加载出来。
+3. 通过部门下拉列表，你可以选择你想要查看的部门，选择完成，将会把该部门下的流程全部加载出来。
 
 4. 在流程列表处，选择你要查看的流程，单击将会在版本列表看到该流程的所有版本。
 
