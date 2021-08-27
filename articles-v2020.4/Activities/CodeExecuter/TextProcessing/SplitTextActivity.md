@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SplitText.mp4"></video>
+
 ## 概述
 
 根据指定的分割符分割文本。

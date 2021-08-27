@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MergeDataTable.mp4"></video>
+
 ## 概述
 
 将数据表按照指定规则进行合并，并将合并后的结果更新到目标数据表中。
