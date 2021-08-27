@@ -92,3 +92,11 @@ step4：将“应用 > 权限管理 > 设置 > 权限推荐”设置为“勾选
     **A：** 使用“移动设备管理器”，先点击 1 处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
 
     ![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)
+
+## 手机自动化组件类
+
+1. **Q：手机动态截图如何确定滑动距离？**
+
+    **A：** 滑动距离需要根据当前控件的属性决定，所以可以先按下图方式先获取控件属性的 size 属性。滑动组件 duration 参数设置为 2。duration 参数的意义是滑动的时间，从滑动开始到滑动结束。
+
+    ![手机自动化组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiletap20210827.png)
