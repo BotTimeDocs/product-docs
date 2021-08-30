@@ -10,7 +10,9 @@
 
 ## 打开本地项目
 
-如果需要打开本地已存在的项目，则可以在“开始 > 打开 > 本地项目”列表中选择后打开。
+如果需要打开本地已存在的项目，则可以在“开始 > 打开 > 本地项目”列表中选择后打开，也可以直接导入流程项目（dgs）或组件项目（egs）。
+
+![导入项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/importproject20210830.png)
 
 ## 打开控制台流程
 

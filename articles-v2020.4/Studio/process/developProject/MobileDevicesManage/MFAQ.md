@@ -80,23 +80,25 @@ step4：将“应用 > 权限管理 > 设置 > 权限推荐”设置为“勾选
 ## Android 真机运行类
 
 **1. Q：使用 USB 连接 PC 机与 Android 真机时，偶尔会出现异常断开的现象，应该怎么办？**
-</br> **A：** 尽量使用原装 USB 数据线或检查 USB 接口的稳定性。
+
+**A：** 尽量使用原装 USB 数据线或检查 USB 接口的稳定性。
 
 **2. Q：手机在输入密码界面输入密码时，会造成编辑器的“移动设备管理器”中的手机投屏页面为黑屏现象，是什么原因？**
-</br> **A：** 在手机输入法设置中将“取消安全输入”设置为“勾选”状态。
+
+**A：** 在手机输入法设置中将“取消安全输入”设置为“勾选”状态。
 
 ## 移动设备管理器类
 
-1. **Q：如何对手机 APP 应用内的页面进行翻页或向上滑动操作？**
+**1. Q：如何对手机 APP 应用内的页面进行翻页或向上滑动操作？**
 
-    **A：** 使用“移动设备管理器”，先点击 1 处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
+**A：** 使用“移动设备管理器”，先点击 1 处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
 
-    ![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)
+![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)
 
 ## 手机自动化组件类
 
-1. **Q：手机动态截图如何确定滑动距离？**
+**1. Q：手机动态截图如何确定滑动距离？**
 
-    **A：** 滑动距离需要根据当前控件的属性决定，所以可以先按下图方式先获取控件属性的 size 属性。滑动组件 duration 参数设置为 2。duration 参数的意义是滑动的时间，从滑动开始到滑动结束。
+**A：** 滑动距离需要根据当前控件的属性决定，所以可以先按下图方式先获取控件属性的 size 属性。滑动组件 duration 参数设置为 2。duration 参数的意义是滑动的时间，从滑动开始到滑动结束。
 
-    ![手机自动化组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiletap20210827.png)
+![手机自动化组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiletap20210827.png)
