@@ -8,7 +8,7 @@
 
 ## 软件要求
 
-- 编辑器依赖.NET Framework 4.6.1 版本（需预先安装.NET 4.6.1）[下载链接](https://www.microsoft.com/zh-CN/download/details.aspx?id=49982)
+- 编辑器依赖“.NET Framework 4.6.1 ”版本（需预先安装“.NET 4.6.1”）[下载链接](https://www.microsoft.com/zh-CN/download/details.aspx?id=49982)
 - 图像识别依赖 VC++ Redistributable 2005-2017 中间所有版本
 
     - Microsoft Visual C++ 2005 [下载链接](https://www.microsoft.com/zh-CN/download/details.aspx?id=26347) </br>
