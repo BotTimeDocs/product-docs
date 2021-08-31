@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MatchPicture.mp4"></video>
+
 ## 概述
 
 在指定范围内寻找指定图片，返回符合的结果集。
