@@ -33,7 +33,7 @@
 
 ### 工具
 
-![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
+![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/tool20210901.jpg)
 
 1. **应用** — 支持 **元素探测器** 应用小工具。
 2. **扩展** — 可以快速安装各种扩展程序，以对不同的应用进行自动化。
