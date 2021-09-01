@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteArea.mp4"></video>
+
 ## 概述
 
 将 Excel 工作表中的数据写入至同一个或不同 Excel 工作表的指定区域。

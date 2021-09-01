@@ -1,5 +1,7 @@
 # 等待元素消失
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WaitElementDisapper.mp4"></video>
+
 ## 视频示例
 
 ## 概述
