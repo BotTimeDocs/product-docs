@@ -30,6 +30,17 @@
 3. RPA 流程的编辑、保存、删除等。
 4. RPA 流程的调试、运行、发布等。
 
+其中，除了基本功能外，社区版与企业版的功能，主要有如下组件类的区别：
+
+ 功能/场景| 社区版 | 企业版
+---------|----------|---------
+[OCR 相关组件](./../Activities/UIAutomation/OCR/GetOCRText.md)|不支持|支持
+[SAP 相关组件](./../Activities/UIAutomation/SAP/SAP_Login.md)|不支持|支持
+[桌面控件专有相关组件](./../Activities/UIAutomation/DesktopOnly/GetJsonStructure.md)|不支持|支持
+[手机自动化相关组件](./../Activities/PhoneAutomation/MobileConnect.md)|不支持|支持
+[控制台相关组件](./../Activities/Console/DocReader.md)|不支持|支持(需连接企业版控制台使用)
+[移动设备管理器](./../Studio/process/developProject/MobileDevicesManage/Prerequisites.md)|不支持|支持
+
 ## 应用场景
 
 - **网页上的数据批量采集**
