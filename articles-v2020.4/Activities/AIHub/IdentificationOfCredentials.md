@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/LicenseRecognition.mp4"></video>
+
 ## 概述
 
 使用控制台账号登录编辑器（暂不支持私有化企业版），识别证照信息。

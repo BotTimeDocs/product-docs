@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecutePythonCode.mp4"></video>
+
 ## 概述
 
 在 **Python 环境** 组件内，拖入 **执行 Python 代码** 组件，用于执行自定义的 Python 代码。

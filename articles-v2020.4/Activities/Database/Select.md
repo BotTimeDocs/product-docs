@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Select.mp4"></video>
+
 ## 概述
 
 对数据库执行查询操作并将结果返回到数据表。

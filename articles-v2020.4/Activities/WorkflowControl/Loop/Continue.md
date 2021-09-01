@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/KeepLooping.mp4"></video>
+
 ## 概述
 
 跳出当前次循环，执行下一次循环。
