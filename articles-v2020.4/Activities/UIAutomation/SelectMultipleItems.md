@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SelectMultipleItem.mp4"></video>
+
 ## 概述
 
 实现多个项目的同时选择，此组件仅当原页面支持多选时生效。

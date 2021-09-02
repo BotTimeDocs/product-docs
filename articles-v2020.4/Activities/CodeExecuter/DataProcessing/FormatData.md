@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DataFormat.mp4"></video>
+
 ## 概述
 
 支持输入 DateTime、Int 等类型数据并转换成符合实际业务需要的数据格式（数值、百分比、货币和日期时间）。

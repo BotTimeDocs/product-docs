@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetPOP3Mail.mp4"></video>
+
 ## 概述
 
 使用 POP3 服务获取邮件，同时可使用代理。

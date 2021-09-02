@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/RepeatOperation.mp4"></video>
+
 ## 概述
 
 根据指定的重复次数执行循环操作，类似于 FOR 循环。
