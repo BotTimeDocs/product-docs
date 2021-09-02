@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendOutlookMail.mp4"></video>
+
 ## 概述
 
 使用本机 Outlook 中配置的邮箱账号发送邮件。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/IterateOverRows.mp4"></video>
+
 ## 概述
 
 遍历指定数据表中的每一行，同时可返回当前行索引。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/PythonScope.mp4"></video>
+
 ## 概述
 
 该组件用于指定 Python 组件运行的环境。

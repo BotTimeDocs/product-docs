@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MailTrigger.mp4"></video>
+
 ## 概述
 
 邮件触发器（Outlook）用于监听 Outlook 邮箱接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。

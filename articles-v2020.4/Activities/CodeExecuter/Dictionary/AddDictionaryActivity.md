@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/AddKeyValue.mp4"></video>
+
 ## 概述
 
 对已初始化的字典变量添加键值对。
