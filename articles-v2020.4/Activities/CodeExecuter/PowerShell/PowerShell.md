@@ -33,6 +33,4 @@
 
 **此流程执行逻辑**：执行指定的 PowerShell 代码。
 
-![配置执行 powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210225.png)
-
-![设置参数信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershellparmar20210225.png)
+![配置执行 powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210902.jpg)
