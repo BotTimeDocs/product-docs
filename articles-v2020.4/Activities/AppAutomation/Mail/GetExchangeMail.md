@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetExchangeMail.mp4"></video>
+
 ## 概述
 
 获取 Exchange 服务账号中的邮件。

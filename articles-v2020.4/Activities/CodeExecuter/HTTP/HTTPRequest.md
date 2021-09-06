@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/HTTPRequest.mp4"></video>
+
 ## 概述
 
 此组件可以发送 HTTP(S)请求并返回响应的数据，并支持测试配置的 HTTP(S)请求是否可用。
