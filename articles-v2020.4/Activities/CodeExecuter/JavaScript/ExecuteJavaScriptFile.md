@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecuteJavaScriptFile.mp4"></video>
+
 ## 概述
 
 执行JavaScript文件，并支持参数传递。

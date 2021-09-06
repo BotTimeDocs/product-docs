@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ContainKeyValue.mp4"></video>
+
 ## 概述
 
 判断在变量面板中定义的字典对象中是否包含键（key）及对应的值（value）。

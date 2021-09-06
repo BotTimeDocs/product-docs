@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/EmptyDictionary.mp4"></video>
+
 ## 概述
 
 对已在变量面板创建的字典（Dictionary <TKey,TValue>）中的内容进行清空，即，移除所有的键和值。

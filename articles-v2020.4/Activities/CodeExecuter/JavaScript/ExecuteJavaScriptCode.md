@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecuteJavaScriptCode.mp4"></video>
+
 ## 概述
 
 执行 JavaScript 代码，可接收执行后的返回值。
