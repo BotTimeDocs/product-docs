@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SetDataRowsValue.mp4"></video>
+
 ## 概述
 
 设置已有 **非空** 数据表的指定数据行所在单元格的值。
