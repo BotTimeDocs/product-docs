@@ -40,6 +40,10 @@
 
 ![配置筛选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FilterDataTable20201229.png)
 
+>**说明：**
+>
+>目前“筛选列”仅支持：int、string、boolean这些数据类型。
+
 ## 常见问题
 
 1. **Q：数据表筛选字符串带 `*`，怎么写？**
