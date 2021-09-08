@@ -8,18 +8,27 @@
 >
 > 即使在不同的作用域中使用，也需要使用不同的名称创建变量。
 
-存储在变量中的数据称为值，它可以是多种类型。在云扩 RPA 编辑器中，我们支持大量类型，例如文本、数字、时间和日期等等。
+存储在变量中的数据称为值，它可以是多种类型。在云扩 RPA 编辑器中，我们支持大量类型，例如文本、数字、时间和日期等等，具体可参见[变量类型](./TypeOfVariables.md)。
 
 ## 创建变量
 
 ![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variabletips.png)
 
-|字段| 描述|
-|---|---|
-|名称（必填）| 变量的名称。 如果不向变量添加名称，则会自动生成一个名称。
-|变量类型（必填）| 允许选择变量的类型。可以使用以下选项：</br> Boolean </br> Int32 </br> String </br> Object </br> Array of [T] </br> System.Data.DataTable </br> BotTimeUI.Common.Control.Interface.IUiObject </br> 浏览 .Net 类型 |
-|范围（必填）| 变量可用的区域，例如特定组件。</br> 默认情况下，它们在整个项目中可用。|
-|默认值（可选）| 变量的默认值。  </br> 如果此字段为空，则使用其类型的默认值初始化变量。例如，对于 Int32，默认值为 0。 |
+- **名称：** 变量的名称。如，`company`。
+
+   >**说明：**
+   >
+   >1. 如果不给变量添加名称，则会自动生成一个`variable`开头的名称。
+   >2. 变量的命名规则如下：
+   >    - 支持中文、英文、数字、下划线
+   >    - 不能以数字开头
+   >    - 不可以是[关键字](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/)
+   >    - 不区分大小写
+   >    - 有一定的意义
+
+- **变量类型：** 选择变量的类型。具体可参见[变量类型](./TypeOfVariables.md)。
+- **范围：** 变量可用的区域，例如，特定组件。默认情况下，它们在整个项目（Root）中可用。
+- **默认值：** 变量的默认值。如果此字段为空，则使用其类型的默认值初始化变量。例如，对于 Int32，默认值为 0。
 
 > **注意：**
 >
