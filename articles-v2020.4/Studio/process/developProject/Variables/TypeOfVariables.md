@@ -1,6 +1,6 @@
 # 变量类型
 
-如下介绍部分常用的变量类型及使用方法。
+如下介绍部分常用的变量类型及使用方法，更多变量的类型及使用可参见[官方文档](https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netframework-4.6.1)。
 
 ![变量类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/datatype20210908.png)
 
