@@ -38,7 +38,7 @@
 
 例如，它们可用于将日期附加到你可能正在使用的发票或任何其他文档中，并且对时间敏感。
 
-## Datatable 型变量
+## DataTable 型变量
 
 DataTable 型变量表示的是一种可以存储大量信息，并充当数据库或包含行和列的简单电子表格的变量类型，如，`table=new DataTable("PrentTable")`。
 
