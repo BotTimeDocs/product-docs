@@ -5,4 +5,3 @@
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/updaterobot.png)
 
 如果你暂时不想更新机器人，你也可以选择“**请勿更新**”，关闭提示弹窗。
-
