@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WaitElementDisapper.mp4"></video>
+
 ## 概述
 
 等待指定的桌面端或浏览器端的 UI 元素从屏幕上消失。
