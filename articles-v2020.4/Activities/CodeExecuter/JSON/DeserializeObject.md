@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Deserialization.mp4"></video>
+
 ## 概述
 
 将JSON字符串反序列化为.NET对象。
