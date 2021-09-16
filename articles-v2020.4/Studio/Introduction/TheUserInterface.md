@@ -94,7 +94,7 @@
 |选项 |描述 |
 |-----------|---------------------------------------|
 |打开 |打开项目或文件|
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)|
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)、[并行处理流程](../process/developProject/TypeOfWorkflow/Parallel.md)|
 |导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 |使你可以重命名当前所选文件或文件夹 |
 |删除 |删除所选中的文件或文件夹 </br> **说明：** </br> 支持按住 Ctrl 键/Shift 键进行多选后，鼠标右键进行批量“删除”操作。 |
