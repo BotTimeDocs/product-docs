@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ProcessDecision.mp4"></video>
+
 ## 概述
 
 根据是否满足指定条件，选择执行流程图中两个分支。

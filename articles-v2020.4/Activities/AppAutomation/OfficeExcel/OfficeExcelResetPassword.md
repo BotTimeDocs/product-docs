@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ResetPassword.mp4"></video>
+
 ## 概述
 
 对 Excel 文件进行增加、更新或去除密码。
