@@ -1,12 +1,12 @@
-# 流程执行历史
+# 任务记录页
 
-此页展示流程执行的历史记录，每条记录包括：
+此页面展示流程执行的任务记录，每条记录包括：
+
 - 流程库: 当前流程所属流程库
 - 流程：当前记录执行的流程名称
 - 版本号：当前记录执行的流程版本号
 - 开始执行时间：当前流程开始执行的时间
-- 执行状态：当前记录的执行结果
+- 执行状态：当前记录的执行状态，包括：等待、运行中、成功、失败、已取消、已终止
 - 操作：可直接从记录中点击【执行】再次执行当前流程。点击【日志】查看当前记录的详细信息
 
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-History-0.png)
-
+![任务记录页面](https://docimages.blob.core.chinacloudapi.cn/images/Robot/taskrecord20210927.png)

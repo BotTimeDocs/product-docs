@@ -10,6 +10,4 @@
 
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/InstallRobot-1.gif)
 
-
 一台机器上只允许安装一个机器人，若你的机器上安装过老版本的机器人，应用会要求先**卸载**老版本的机器人再进行**安装**。
-
