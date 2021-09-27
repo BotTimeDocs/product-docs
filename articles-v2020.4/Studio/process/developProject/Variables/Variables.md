@@ -12,7 +12,7 @@
 
 ## 创建变量
 
-![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Variable/variabletips.png)
+![创建变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/createvariable20210927.png)
 
 - **名称：** 变量的名称。如，`company`。
 
@@ -28,11 +28,6 @@
    >    - 有一定的意义
 
 - **变量类型：** 选择变量的类型。具体可参见 [变量类型](./TypeOfVariables.md)。
-- **范围：** 变量可用的区域，例如，特定组件。默认情况下，它们在整个项目（Root）中可用。
-
-   > **说明：**
-   >
-   > 变量的范围若设置为局部，只是提示该变量存在于当前范围内，但变量名需要保持全局唯一性。
 
 - **默认值：** 变量的默认值。如果此字段为空，则使用其类型的默认值初始化变量。例如，对于 Int32，默认值为 0。
 
