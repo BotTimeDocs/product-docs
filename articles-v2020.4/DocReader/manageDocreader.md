@@ -4,13 +4,17 @@
 
 进入“文档理解”页面中即可通过列表查看当前资源组下所有的文档理解模板。主要包括模板名称、模板发布状态以及当前模板的抽取标签等信息。模板主要用于对属于该模板的同类文件进行非结构化信息抽取。
 
-![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader1.png)
+![docreader](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/docreader20210928.png)
 
 ## 新建文档理解模板
 
 新建文档理解模板点击“新建”按钮，在弹窗中填写模板名称、备注、选择内置模型（包括电子版 PDF 抽取模型、OCR 抽取模型）选择对应的模板文件之后即可完成模板信息的初步创建。
 
-![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader2.png)
+>**说明**：
+>
+> 当内置模型选择“电子版PDF模型”时，可选择不同的“抽取标签方式”。
+
+![docreader](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/createdocreader20210928.png)
 
 ## 配置文档理解模板
 
