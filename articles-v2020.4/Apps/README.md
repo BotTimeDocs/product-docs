@@ -24,12 +24,14 @@
 
 ## 产品主要功能
 
-云扩 ViCode 仅在**企业版**中支持，其主要功能如下：
+云扩 ViCode 仅在**企业版**中支持，其主要功能及操作流程如下：
 
 序号 | 适用角色 | 产品模块|描述
 ---------|----------|---------|---------
  1 | 管理员/开发者 | [应用管理](./devApps/manageapps.md)|用于设计开发、审核应用。
  2 | 普通用户 | [我的应用](./userApps/userApps.md)|用于使用已开发完成且发布了的应用。
+
+![主要流程](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/vicodeprocess20210930.png)
 
 ## 应用场景
 
