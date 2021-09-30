@@ -22,6 +22,13 @@
     },
     {
         "id": null,
+        "name": "flow.md",
+        "localizedName": "流程",
+        "uuid": "70f4adcf-3c94-40ed-b380-1fe80960f9c9",
+        "labels": "流程，模块，组件"
+    },
+    {
+        "id": null,
         "name": "Jobmonitor.md",
         "localizedName": "任务记录",
         "uuid": "04d40d0b-e36a-42b8-b734-51f8567d7de6",
