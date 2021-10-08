@@ -31,6 +31,10 @@
 
     ![中文语言包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/dnetpackage20210825.jpg)
 
+5. **Q：Windows XP 系统的计算机，可以安装 RPA 的客户端吗？**
+
+    **A：** 不支持，RPA 大部分产品都是新型产品，诞生的时间比 XP 系统要晚很多，所以版本适配一般都是 Win7 版本及以上。
+
 ## 激活/许可证相关
 
 1. **Q：编辑器许可证已过期，是否需要应用新的许可证？企业版的没联网是否就会出现此弹窗提示？**
@@ -159,6 +163,14 @@
 
     ![市场组件滑块](https://docimages.blob.core.chinacloudapi.cn/images/Studio/slider20210902.png)
 
+5. **Q：在代码市场中安装的 C#包，如何引用？**
+
+    **A：** 手动导入命名空间即可在 c#组件中测试。
+
+6. **Q：如何在内网创建项目并使用组件市场的组件？**
+
+    **A：** 从组件市场下载的组件包在目录下(%userprofile%\.nuget\packages)，可以从此拷到内网的电脑中，例如，放在 "c:\activities"，再把 "c:\activities" 设置为本地组件市场即可。
+
 ## 插件/扩展相关
 
 1. **Q: 怎么安装 chrome 扩展？**
@@ -167,7 +179,7 @@
 
     ![安装扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png)
 
-2. **Q: Chrome 录制失败，无法与Chrome扩展通信？**
+2. **Q: Chrome 录制失败，无法与 Chrome 扩展通信？**
 
     **A：** 若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
 
@@ -205,6 +217,10 @@
     **A：**
     - 方式一：在编辑器中将流程导出为 dgs，然后在控制台的“流程包管理”中上传已导出的 dgs 流程包。
     - 方式二：从编辑器中将流程 [发布至控制台](../Studio/process/PublishProject.md)。
+
+3. **Q：开发完成了的流程在哪里部署？**
+
+    **A：** 开发完成了的流程，可以点击编辑器菜单栏中的“发布”菜单，可将流程发布至控制台、机器人、流程市场等。
 
 ## 元素捕捉相关
 
@@ -252,23 +268,27 @@
 
     ![选择器编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/selector20210825.png)
 
-9.  **Q：选择器中是否可以写变量？**
+9. **Q：选择器中是否可以写变量？**
 
     **A：** 可以的，`{{变量名}}`。
 
-10. **Q：弹出窗口的文本框数据无法自动输入，报错“[错误] 输入文本失败。详细错误信息：操作已超时。”**
+10. **Q：在选择器里面可以写row[0].tostring()这种类型的吗？**
+
+    **A：** 不可以，变量替换必须是基础变量。
+
+11. **Q：弹出窗口的文本框数据无法自动输入，报错“[错误] 输入文本失败。详细错误信息：操作已超时。”**
 
     **A：** 勾选生成 XPath（仅支持 WEB），然后重新指向元素，`//label[@for='confCode']/..//input[contains(@placeholder,'变量代码')]`
 
     ![xpath](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xpath20210826.png)
 
-11. **Q：如何取消掉网页端 Input 标签的 Readonly 属性？**
+12. **Q：如何取消掉网页端 Input 标签的 Readonly 属性？**
 
     ![readonly](https://docimages.blob.core.chinacloudapi.cn/images/Studio/readonly20210826.png)
 
     **A：** 设置元素属性 `Readonly =""`。
 
-12. **Q：使用 Chrome 浏览器打开 SAP 浏览器页面，页面上的内容无法获取，但是录制时，在选择器中验证是通过的，这个要怎么处理？**
+13. **Q：使用 Chrome 浏览器打开 SAP 浏览器页面，页面上的内容无法获取，但是录制时，在选择器中验证是通过的，这个要怎么处理？**
 
     ![SAP 页面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/sap20210826.png)
 
@@ -276,17 +296,17 @@
 
     ![SAP_Xpath](https://docimages.blob.core.chinacloudapi.cn/images/Studio/SAPtitle20210826.png)
 
-13. **Q：有个动态网页，怎么让它不是每次都能输入文本？已经试了通配符 `*` 或 `?` 都识别不到，这有什么好方法？**
+14. **Q：有个动态网页，怎么让它不是每次都能输入文本？已经试了通配符 `*` 或 `?` 都识别不到，这有什么好方法？**
 
     **A：** 只有 `id` 在变，用其他 `sinfo` 或者 `CssSelector` 属性试试，属性值用元素探测器获取到填进去，截取到 iframe 的位置。
 
     ![CssSelector](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cssselector20210826.png)
 
-14. **Q：在桌面软件界面上定位不到元素，需要如何解决？**
+15. **Q：在桌面软件界面上定位不到元素，需要如何解决？**
 
     **A：** 外层定位到弹窗以后，使用图像识别功能进行录制。使用“点击”组件录制的时候定位到弹出窗时，按下 ctrl 键盘，框选一下那个关闭按钮就可以了。
 
-15. **Q：如何实现点击菜单中的子菜单？**
+16. **Q：如何实现点击菜单中的子菜单？**
 
     ![点击子菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/clicksubmenu20210826.png)
 
@@ -319,6 +339,10 @@
 6. **Q：Split 分割字符串方法怎么使用？**
 
     **A：** 可参考 [如何在 C#中使用 String.Split 分隔字符串](https://docs.microsoft.com/zh-cn/dotnet/csharp/how-to/parse-strings-using-split)。
+
+7. **Q：Json 字符串可以转数据表吗？**
+
+    **A：** 可以使用 C#代码转换，具体可参见 [Json 转 DataTable](https://www.cnblogs.com/zhangjd/p/6007072.html)
 
 ## Excel 相关
 
@@ -366,6 +390,16 @@
 7. **Q：如何往拼接好的 JSON 里循环追加数组？**
 
     **A：** 目前没有组件可以直接添加，可以在执行 C#代码组件中写代码处理。
+
+8. **Q：无法获取 Excel 中的列头，报错“[错误] 列“发票代码”不属于表”，该如何解决？**
+
+    ![列不属于表](https://docimages.blob.core.chinacloudapi.cn/images/Studio/row20211008.png)
+
+    **A：** 使用 **读取区域** 组件，勾选“添加列头”选项。
+
+9. **Q：如何实现滑动鼠标滚轮，让网页页面下拉？**
+
+    **A：** 使用 **点击** 组件点击向下按钮，若操作不便可使用快捷键 pagedown 翻页。
 
 ## 手机自动化相关
 
