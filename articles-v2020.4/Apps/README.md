@@ -31,7 +31,7 @@
  1 | 管理员/开发者 | [应用管理](./devApps/manageapps.md)|用于设计开发、审核应用。
  2 | 普通用户 | [我的应用](./userApps/userApps.md)|用于使用已开发完成且发布了的应用。
 
-![主要流程](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/vicodeprocess20210930.png)
+![主要流程](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/vicodeprocess20211008.png)
 
 ## 应用场景
 
