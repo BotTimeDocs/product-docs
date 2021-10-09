@@ -20,7 +20,11 @@
 >
 >或在注册页面，通过点击页面右下**登录**按钮，进入登录页面。
 
-![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelogin20210330.png) 
+![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelogin20210330.png)
+
+### 企业微信登录
+
+使用企业微信登录控制台，一般用于访问ViCode中的“我的应用”，具体可参见[企业微信端访问“我的应用”](../Apps/userApps/userApps.md)。
 
 ## 忘记密码
 
