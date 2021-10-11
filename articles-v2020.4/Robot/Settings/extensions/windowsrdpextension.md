@@ -26,7 +26,7 @@ Encoo Remote Runtime 为运行在 RDP 远程端上的组件，可以使 RDP 远�
 3. （可选）当您需要在远程机器上自动化浏览器或者 Java 应用程序时，需要在服务器上安装对应的扩展，以取得更好的自动化支持。
 
     - **Web 扩展安装**
- 
+
       a. 找到 Remote Runtime 安装目录下的 Web 扩展安装程序(Encoo.Web.ExtensionInstall.exe)，路径为："C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Web\Encoo.Web.ExtensionInstall.exe"
       b. 打开命令行，执行命令 ` cd C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Web\`，切换到安装程序所在目录。
       c. 根据需要安装的浏览器扩展，执行以下命令执行安装：
