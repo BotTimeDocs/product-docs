@@ -6,6 +6,12 @@
         "labels": "介绍"
     },
     {
+        "name": "RunEnveriment.md",
+        "localizedName": "硬件和软件要求",
+        "uuid": "02899780-16c9-428d-8030-3992aa8c5542",
+        "labels": "机器人，硬件，软件"
+    },
+    {
         "name": "installRobot.md",
         "localizedName": "安装机器人",
         "uuid": "ff9f6b33-32b1-4be9-ba41-368ed8d1dfc9",
