@@ -31,6 +31,10 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
     ![验证 ADB 环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/confirmadb20210617.png)
 
+<SimpleTab>
+
+<div label="方式一">
+
 ### 方式一：Android 模拟器
 
 **安卓模拟器** 是可以在个人计算机运行并模拟安卓手机系统的模拟器，并能安装、使用、卸载安卓应用的软件，利用安卓模拟器，用户即使没有手机硬件设备，也可以在模拟器中使用移动应用程序。
@@ -61,6 +65,10 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 3. 在 PC 端的 **命令行提示符** 界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
 
     ![命令行提示符](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20201104.png)
+
+</div>
+
+<div label="方式二">
 
 ### 方式二：Android 真机 USB 连接
 
@@ -107,6 +115,10 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
     > - 建议尽量使用机箱背面的 USB 接口，主机正面的 USB 接口可能稳定性较差。
     > - 手机上需要将 开发者选项 开启，并开启 USB 调试 选项，并且在接入电脑时，选择 允许该 PC 对设备进行调试，否则手机状态为 **unauthorized** 是无法连接的。
     > - 需要确认电脑上所有手机助手类型的软件均已关闭，且 adb 进程都已完全退出（大部分手机助手都需要手动在任务管理器里终止进程）。
+
+</div>
+
+</SimpleTab>
 
 ## IOS
 
