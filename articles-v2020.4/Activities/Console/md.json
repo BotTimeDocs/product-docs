@@ -33,5 +33,19 @@
         "localizedName": "删除文件或文件夹",
         "uuid": "cc07bde9-2bda-46a7-9b66-edc7e40a0cf4",
         "labels": "文件, 文件夹, 删除, 控制台, 文件服务"
+    },
+    {
+        "id": "Encoo.Console.Activity.GetAccountActivity",
+        "name": "GetAccount.md",
+        "localizedName": "获取帐号",
+        "uuid": "4fb1e3d7-231f-4f5b-abd2-4947493a40b8",
+        "labels": "获取帐号，控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.ExecuteFlowDeploymentActivity",
+        "name": "ExecuteFlowDeployment.md",
+        "localizedName": "执行流程部署",
+        "uuid": "1ae7e57f-dd04-47b0-bbac-72308e97c30c",
+        "labels": "执行流程部署，控制台"
     }
 ]

@@ -112,6 +112,13 @@
         "labels": "筛选, 数据, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelCancelFilterActivity",
+        "name": "CancelFilter.md",
+        "localizedName": "取消筛选",
+        "uuid": "79c1bb68-9d83-406c-8a75-bd48ceb2176e",
+        "labels": "取消筛选, 数据, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelFindCellAddressActivity",
         "name": "Search.md",
         "localizedName": "查找",
