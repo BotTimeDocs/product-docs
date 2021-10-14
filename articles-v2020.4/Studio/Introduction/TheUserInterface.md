@@ -94,13 +94,14 @@
 |选项 |描述 |
 |-----------|---------------------------------------|
 |打开 |打开项目或文件|
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)|
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)、[并行处理流程](../process/developProject/TypeOfWorkflow/Parallel.md)|
 |导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 |使你可以重命名当前所选文件或文件夹 |
 |删除 |删除所选中的文件或文件夹 </br> **说明：** </br> 支持按住 Ctrl 键/Shift 键进行多选后，鼠标右键进行批量“删除”操作。 |
 |导出项目 |将所选中的项目导出，导出后会自动生成一个 .dgs(流程项目) 或 .egs（组件项目） 文件|
 |引用项目|引用其他项目（支持文件夹和文件）作为依赖项|
 |打开所在文件夹| 打开所选项目或文件的本地文件夹 |
+|复制/粘贴|复制/粘贴所选文件或文件夹|
 |项目设置| 打开 [项目设置](../process/ProjectSettings.md) 以设置某一类别组件属性 |
 |属性|查看或编辑项目的属性信息，包括项目名称、作者、版本等|
 |图形化编辑|以图形化形式打开编辑xaml文件|
@@ -267,7 +268,7 @@
 
 **输出面板** 可以显示当前项目中的所有信息，包括但不限于项目打开或执行时的信息、写入日志组件的输出信息。通过输出面板，你可以快速定位到项目中错误出现的位置，及时更改，保证项目的正确性。
 
-在输出面板中，可以通过点击面板标题栏的不同按钮来显示或隐藏不同日志级别的消息，例如错误、信息、调试。右键单击消息，将会把该消息复制到粘贴板中。
+在输出面板中，通过单击输出面板右上角的“箭头”图标，可以浮动显示日志信息。也可以通过点击面板标题栏的不同按钮来显示或隐藏不同日志级别的消息，例如错误、信息、调试。右键单击消息，将会把该消息复制到粘贴板中。
 
 当项目验证出现问题时，将在输出面板中显示错误信息。针对调试项目时，输出面板将显示所有组件从开始到结束的详细日志。当流程出错，通过日志信息将可以轻松地定位到出现错误的组件。
 
