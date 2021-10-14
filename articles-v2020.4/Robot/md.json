@@ -42,22 +42,22 @@
         "labels": "流程库"
     },
     {
+        "name": "CronJob.md",
+        "localizedName": "定时任务页",
+        "uuid": "872537dd-00fe-4bc3-8226-c23d560ae50e",
+        "labels": "任务, 定时"
+    },
+    {
         "name": "ProcessHistory.md",
-        "localizedName": "执行历史页",
+        "localizedName": "任务记录页",
         "uuid": "8ac310b6-e403-4327-9ad2-068f4e767652",
-        "labels": "执行, 历史, 流程"
+        "labels": "执行, 历史, 流程，任务，记录"
     },
     {
         "name": "RunningProcess.md",
         "localizedName": "正在执行页",
         "uuid": "1ec7462f-9446-4472-bd60-6dffaea9fb5a",
         "labels": "执行, 正在"
-    },
-    {
-        "name": "CronJob.md",
-        "localizedName": "定时任务页",
-        "uuid": "872537dd-00fe-4bc3-8226-c23d560ae50e",
-        "labels": "任务, 定时"
     },
     {
         "name": "ProcessMarket.md",

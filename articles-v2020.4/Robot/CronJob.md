@@ -32,7 +32,10 @@
 
     - 结束时间：任务的最后到期时间，不填写则默认无到期时间。
 
-![定时任务设置](https://docimages.blob.core.chinacloudapi.cn/images/Robot/cronjob20201201.png)
+- 冲突处理：选择机器人忙碌时的处理方式，如，取消、等待。
+- 启用/禁用：是否启用该定时任务。
+
+![定时任务设置](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotcronjob20210927.png)
 
 ## 定时任务列表
 

@@ -39,7 +39,7 @@
 
 5. 点击确认，流程在快速准备后将自动执行。
 
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/running20201230.png)
+    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/running20201230.png)
 
 ## 执行控制台流程
 
@@ -48,7 +48,7 @@
 3. 你可以通过流程包名搜索找到你想要执行的流程包。
 4. 选择要执行的版本，点击执行。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Console-0.png)
+    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotprocessconsole20210914.png)
 
 ## 终止流程
 
@@ -61,13 +61,13 @@
     >
     > 可以使用快捷键 Shift+F5 终止当前正在运行的流程。
 
-3. 确认 **终止** 后，机器人将强制终止正在运行的流程，无论流程运行到哪一步。**终止** 操作无法撤回，无法删除。请谨慎操作。
+3. 确认 **终止** 后，机器人将强制终止正在运行的流程，无论流程运行到哪一步。**终止** 操作无法撤回，无法删除。请谨慎操作
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Kill-0.png)
+    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/stopprocess20210914.png)
 
 ## 查看日志
 
-当流程执行结束后，用户可查看日志及录制的流程执行视频。
+当流程执行结束后，用户可查看日志。
 
 1. 打开本地/控制台流程库，找到已运行的流程。
 2. 点击 **日志** 打开此流程执行记录的日志文件夹，包括视频文件。
