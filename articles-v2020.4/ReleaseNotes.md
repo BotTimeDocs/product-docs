@@ -6,6 +6,98 @@
 >
 > 关于社区版与企业版的差异说明，请参见 [常见问题](./FAQ/QA.md)。
 
+## 2021.10.14 发版说明
+
+2021.10.14 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2109.13 |
+|机器人  |1.1.2109.13|
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 支持 [静默并行流程](./Studio/process/developProject/TypeOfWorkflow/Parallel.md)，实现无需用户界面，也无需用户干预即可与前台流程并行执行。
+2. 企业版编辑器支持 [在线更新](./Studio/quickStart/Installation.md) 升级，无需用户手动下载安装包更新。
+3. 支持鼠标双击添加组件至设计面板中，提升用户体验。
+4. 支持在“项目面板”中，移动、复制/粘贴文件，提升用户体验。
+5. 支持在变量/参数面板中变更变量/参数时，自动关联变更已引用的变量/参数。
+6. 支持输出面板浮动显示，方便查看设计面板中的流程。
+
+    ![输出面板浮动](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outputpanel20211014.png)
+
+7. 流程发布到控制台时，支持自定义流程图标，方便在“控制台流程”中查找已发布的流程。
+
+    ![控制台流程库](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/publishlogo20211014.png)
+
+8. 导出或发布流程时，支持依赖项可选择，同时支持导出每个流程文件对应的大纲，满足特定的用户场景。
+
+    ![导出流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/importproject20211014.png)
+
+    ![大纲文件](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outline20211014.png)
+
+9.  自动化录制技术 UIA3 支持更多的属性，如，AccessKey、AcceleratorKey、 HelpText、 ItemType、 ItemStatus、 Orientation。
+
+    ![UIA3](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/UIA320211014.png)
+
+#### 【组件】
+
+1. 控制台 > [获取账号](./Activities/Console/GetAccount.md)：用于获取控制台的个人用户信息。
+2. 控制台 > [执行流程部署](./Activities/Console/ExecuteFlowDeployment.md)：用于执行控制台中已创建的“流程部署”。
+3. 数据库 > [创建表](./Activities/Database/CreateTable.md)：用于在已连接的数据库中创建数据表。
+4. 数据库 > [删除表](./Activities/Database/Droptable.md)：删除已连接的数据库内已创建的数据表。
+5. 数据库 > [插入数据](./Activities/Database/InsertData.md)：在已有的数据表中插入数据。
+6. 数据库 > [查询](./Activities/Database/QueryData.md)：根据指定的筛选条件，查询已连接的数据库内已创建的数据表中的数据。
+7. 系统 > 应用程序 > [进程是否存在](./Activities/System/Application/ProcessExists.md)：根据指定的进程名，判断本地电脑上的进程名是否存在。
+8. 系统 > 应用程序 > [关闭进程](./Activities/System/Application/CloseProcess.md)：关闭指定的正在运行中的进程。
+9. 软件自动化 > Office Excel > [取消筛选](./Activities/AppAutomation/OfficeExcel/CancelFilter.md)：取消筛选指定工作表中的已设定筛选的指定列。
+10. 界面自动化 > [判断元素是否存在](./Activities/UIAutomation/WhetherElementExists.md)：用于判断指定的元素是否存在。
+
+#### 【机器人】
+
+1. 企业版机器人支持 [在线更新](./Robot/updateRobot.md) 升级，无需用户手动下载安装包更新。
+2. 支持 [“本地自动解锁运行流程”和“RDP 远程会话保持”](./Robot/Settings/Basic.md)，保证流程执行的稳定性。
+
+    ![执行流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/executeflow20211014.png)
+
+3. 支持在新建 [定时任务](./Robot/CronJob.md) 时，设置“是否启用”定时任务以及机器人忙碌时的处理方式，满足特定的用户场景。
+
+    ![定时任务](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/cronjob20211014.png)
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化 Web 元素选择器定位支持 title 属性，以及支持 index 属性倒序排序定位。
+2. 优化“终止处理流程”，可通过 state 参数辨别结束状态。
+3. 优化“开始主页 > 打开 > 控制台流程 " 页的布局样式，提升用户使用体验。
+4. 优化”项目设置“中的”匹配超时“时间，由原来的 5 秒变更为默认的 15 秒。
+5. 更新“开始主页 > 设置 > 快捷键”列表。
+6. 优化”独立运行“窗口，支持在”独立桌面“中查看”状态栏“信息。
+7. 优化用户编辑流程体验：当组件拖入的数量到达底部时，流程图能自动扩展边界。
+8. 优化关闭项目时，如有未保存的文件时的提示信息，提升用户使用体验。
+9. 优化登录界面，记住上一次连接的控制台地址&密码显示/隐藏功能，提升用户使用体验。
+10. 优化网页自动化无法定位元素时，展示在”输出面板“中的报错提示信息，方便定位问题。
+
+#### 【组件】
+
+1. 优化所有组件的组件属性，支持显示原组件名称，便于与组件的显示名称进行区分。
+2. 优化 "软件自动化 > 邮件" 系列组件，增加”超时“属性，提升用户使用体验。
+3. 优化 "系统 > 下拉选择框" 组件，支持在输入框中搜索，提升用户使用体验。
+4. 优化 "写入文件、读取文件、保存为 CSV 文件、读取 CSV 文件" 这些组件，支持在弹窗显示组件时可以下拉选择“编码方式”，提升用户使用体验。
+5. 优化 "AI Hub" 系列组件，支持配置“图片对象”的形式进行 OCR 识别。
+6. 优化“界面自动化 > 获取元素属性值”组件，支持获取 Web 元素的 title 属性。
+7. 优化“界面自动化 > 获取结构化数据 " 组件，支持感知页面中“下一页”按钮的 disabled 状态是否可点击。
+
+#### 【机器人】
+
+1. 优化“正在执行“页面，支持按“日志类型”筛选日志信息，方便区分系统日志和业务日志。
+2. 优化“流程库”页面，移除“执行状态”字段和“操作”栏中的“终止”操作，提升用户使用体验。
+3. 优化菜单导航，”定时任务页“移至”流程库“下方，提升用户使用体验。
+4. 优化“任务记录”页面，支持展示“等待”状态的执行任务，且无任务记录时给出提示信息，提升用户使用体验。
+
 ## 2021.08.20 发版说明
 
 2021.08.20 发布了云扩 RPA , 本次发布的产品及版本号为：
@@ -37,7 +129,7 @@
 
     - 支持在任务记录详情中查看日志信息时，按日志类型筛选日志信息
     - 支持删除单个或多个任务记录
-7. 【文档理解】在新建PDF抽取模型的文档理解时，支持“按词义自动补全”的抽取标签方式识别
+7. 【文档理解】在新建 PDF 抽取模型的文档理解时，支持“按词义自动补全”的抽取标签方式识别
 
 ## 2021.08.16 发版说明
 
