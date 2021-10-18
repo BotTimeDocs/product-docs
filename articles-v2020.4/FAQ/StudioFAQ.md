@@ -272,7 +272,7 @@
 
     **A：** 可以的，`{{变量名}}`。
 
-10. **Q：在选择器里面可以写row[0].tostring()这种类型的吗？**
+10. **Q：在选择器里面可以写 row [0].tostring()这种类型的吗？**
 
     **A：** 不可以，变量替换必须是基础变量。
 
@@ -311,6 +311,12 @@
     ![点击子菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/clicksubmenu20210826.png)
 
     **A：** 使用“点击”组件继续点击黄色框的部分，录制时候按 F2，延迟后录制，另外设置一下点击前后的延迟时间。
+
+17. **Q：无法获取页面上显示的数字，F12 查看是乱码，使用获取结构化数据组件查看也是乱码，如何解决？**
+
+    ![F12 页面显示](https://docimages.blob.core.chinacloudapi.cn/images/Studio/F12view20211018.png)
+
+    **A：** 使用 **截屏** 组件截图后，再使用 **OCR 图像识别** 组件识别。
 
 ## 数据类型/语法相关
 
