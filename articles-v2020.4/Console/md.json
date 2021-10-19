@@ -23,7 +23,7 @@
     {
         "id": null,
         "name": "dashboard",
-        "localizedName": "仪表盘"
+        "localizedName": "仪表盘（企业版）"
     },
     {
         "id": null,
@@ -38,17 +38,17 @@
     {
         "id": null,
         "name": "queue",
-        "localizedName": "机器人队列"
+        "localizedName": "机器人队列（企业版）"
     },
     {
         "id": null,
         "name": "workflow",
-        "localizedName": "流程部署"
+        "localizedName": "流程部署（企业版）"
     },
     {
         "id": null,
         "name": "job",
-        "localizedName": "任务记录"
+        "localizedName": "任务记录（企业版）"
     },
     {
         "id": null,
@@ -58,17 +58,17 @@
     {
         "id": null,
         "name": "Apps",
-        "localizedName": "ViCode管理"
+        "localizedName": "ViCode管理（企业版）"
     },
     {
         "id": null,
         "name": "docreader",
-        "localizedName": "文档理解"
+        "localizedName": "文档理解（企业版）"
     },
     {
         "id": null,
         "name": "datacentor",
-        "localizedName": "数据中心"
+        "localizedName": "数据中心（企业版）"
     },
     {
         "id": null,

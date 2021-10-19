@@ -21,6 +21,6 @@ AI Hub Key 是由公司内的任一用户配置的一个唯一值，用来标识
 - 方式一：通过 [云扩 AI Hub](https://aihub.encoo.com/aiService) 网页端上传本地需要识别的图片。
 - 方式二：在云扩 [RPA 编辑器 Studio](../Studio/README.md) 中，使用 AI Hub 类的组件，具体可参见如下：
 
-  - [证照识别](../Activities/AIHub/IdentificationOfCredentials.md)
-  - [票据识别](../Activities/AIHub/BillIdentification.md)
-  - [通用文字识别](../Activities/AIHub/GeneralCharacterRecognition.md)
+    - [证照识别](../Activities/AIHub/IdentificationOfCredentials.md)
+    - [票据识别](../Activities/AIHub/BillIdentification.md)
+    - [通用文字识别](../Activities/AIHub/GeneralCharacterRecognition.md)
