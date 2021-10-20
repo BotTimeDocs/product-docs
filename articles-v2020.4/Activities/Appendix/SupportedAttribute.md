@@ -42,7 +42,7 @@
 | IsChecked      | checkbox，radio  是否选择                                    |
 | SinfoState     | "disabled" 或 "enabled"                                        |
 | SInfo          | 特征名（可以理解为是显示的文本）                             |
-| SinfoShort     | aaname  返回 512 字以内                                        |
+| SinfoShort     | 返回 512 字以内                                        |
 | CssSelector    | 所有父亲节点的和自己的 tag 名组合                             |
 | SelectedItem   | option 的第一个选择项 text                                     |
 | SelectedItems  | option 的所有选择项 text                                       |
