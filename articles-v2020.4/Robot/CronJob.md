@@ -20,7 +20,7 @@
    | 按天     | 每隔 N 天固定时间执行任务，默认为每隔一天，执行时间默认为当前时间。 |
    | 按周     | 每隔 N 周星期 X 执行任务，默认为每隔一周，执行时间默认为当前时间。 |
    | 按月     | 每 N 个月的第 X 天执行任务，默认为每 1 个月的第 1 天。若 X 大于当月最大天数，则算为当月的最后一天。<br> 每 N 个月的第 M 个星期 Y 执行任务，默认为每 1 个月的第 1 个星期天。执行时间默认为当前时间。 |
-   | 按表达式 | 按 [Cron](https://baike.baidu.com/item/cron/10952601?fr=aladdin) 表达式配置定时任务。<br> 点击 [在线生成](https://console.encoo.com/lib/cron/index.html)，可在线生成 Cron 表达式，并手动复制粘贴到 Cron 表达式输入框。 |
+   | 按表达式 | 按 [Cron](https://baike.baidu.com/item/cron/10952601?fr=aladdin) 表达式配置定时任务。<br> 点击 [在线生成](https://www.bejson.com/othertools/cron/)，可在线生成 Cron 表达式，并手动复制粘贴到 Cron 表达式输入框。 |
   
 - 生效范围：
 
