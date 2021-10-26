@@ -14,6 +14,10 @@
 
     **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
+4. **Q：机器人的流程执行的任务记录的日志默认路径是什么？**
+
+     **A：** `%UserProfile%\AppData\Local\Encoo\Encoo Robot\JobLogs`。
+
 ## 流程库相关
 
 1. **Q：机器人中只能导入流程项目 dgs, 那如何运行组件项目 egs?**
