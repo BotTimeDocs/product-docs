@@ -10,5 +10,11 @@
         "localizedName": "安卓手机获取短信验证码",
         "uuid": "17f29a0a-44f9-4499-b3ee-7992d5dbc22f",
         "labels": "短信验证码，安卓"
+    },
+    {
+        "name": "RobotLog.md",
+        "localizedName": "如何查看机器人的日志",
+        "uuid": "4c8a0db2-a293-427d-9136-c6b1b8a27705",
+        "labels": "机器人日志"
     }
 ]
