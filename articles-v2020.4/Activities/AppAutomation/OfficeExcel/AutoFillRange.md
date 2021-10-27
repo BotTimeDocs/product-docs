@@ -28,6 +28,6 @@
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
 
-**此流程执行逻辑**：将“Sheet1”工作表中“A1: I3”区域的数据填充至“A1: C9”中。
+**此流程执行逻辑**：将“Sheet1”工作表中“A1:C3”区域的数据填充至“A1:I3”中。
 
 ![配置自动填充组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AutoFillRange1.png)
