@@ -53,6 +53,6 @@
 
 - **云扩 ViCode 试用**：云端版目前仅供云端企业版用户使用，如需试用，请联系我们的销售人员（致电：400-639-2198）。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/productviewvicode20210520.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/vicodeproduct20211102.png)

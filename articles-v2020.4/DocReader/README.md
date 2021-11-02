@@ -48,6 +48,6 @@
 - **云扩文档理解访问入口**：该服务为云扩 RPA 控制台(私有化企业版)中集成的服务，如需访问，需联系您的企业相关负责人。
 - **云扩文档理解试用**：若您的企业未安装部署云扩控制台（私有化企业版），如需试用，请联系我们的销售人员（致电：400-639-2198）。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/docreaderproduct20210811.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/docreaderproduct20211102.png)

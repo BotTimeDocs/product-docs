@@ -55,10 +55,11 @@
 
 - **云扩 RPA 机器人为桌面版应用程序，安装包下载入口**：[云扩 RPA 控制台](https://console.encoo.com/) > 首页 > 安装包下载，下载后根据向导进行安装，与控制台共享一套账户。
 
-- **云扩 RPA 机器人试用**：  
+- **云扩 RPA 机器人试用**：
+ 
     - 社区版：供普通用户下载后，自行使用。每个社区版控制台可以激活一个社区版机器人，
     - 企业版：如需试用，请联系我们的销售人员（致电：400-639-2198）。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/productviewrobot20210520.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotproduct20211102.png)
