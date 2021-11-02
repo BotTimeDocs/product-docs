@@ -47,6 +47,7 @@ SaaS或私有化，支持跨境上云，大大降低规模化成本
 - **智能监控流程执行数据并在仪表盘展示**
 
 通过可视化手段提供RPA多维度数据，直观高效的了解企业RPA运行状态;全局分析系统资源及配置情况，为企业RPA调试及决策提供数据支持。
+
 ## 产品入口与试用
 
 - **云扩 RPA 控制台访问入口**：[云扩 RPA 控制台](https://console.encoo.com/)
@@ -60,6 +61,6 @@ SaaS或私有化，支持跨境上云，大大降低规模化成本
 >    - 私有化企业版：将控制台部署在企业内部服务器上，只对该企业提供服务。
 >    - 云端 SaaS 企业版：将控制台部署在云扩的云端服务器上，对外多个企业提供服务。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/productviewconsole20210520.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Console/consoleproduct20211102.png)
