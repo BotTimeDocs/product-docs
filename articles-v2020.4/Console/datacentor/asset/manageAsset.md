@@ -39,6 +39,12 @@
 
 ![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/assestsviewdetails20210923.png)
 
+## 搜索资产
+
+在“资产管理”列表页，可按不同的条件搜索和过滤相应的资产列表信息。
+
+![搜索资产](https://docimages.blob.core.chinacloudapi.cn/images/Console/assets20211108.png)
+
 ## 删除资产
 
 在“资产列表”页，点击“操作”栏中的“删除”选项，即可删除对应资产。
