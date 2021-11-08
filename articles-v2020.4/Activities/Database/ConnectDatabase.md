@@ -53,3 +53,7 @@
 5. **Q：DB2 的数据库连接字符串格式是什么？**
 
     **A：** `"Server=127.0.0.1:50000;DataBase=Demo;UID= db2admin;PWD=sasa;"`
+
+6. **Q：PostgreSQL 的数据库连接字符串格式是什么？**
+
+    **A：** `"User ID=postgres;Password=123456;Host=127.0.0.1;Port=5432;Database=postgres;Pooling=true"`
