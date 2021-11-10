@@ -189,6 +189,13 @@
         "labels": "工作表, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelRenameWorksheetActivity",
+        "name": "rename-worksheet.md",
+        "localizedName": "重命名工作表",
+        "uuid": "77772281-08b5-4276-ab02-1b654e10d272",
+        "labels": "重命名工作表, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelInsertRowColumnActivity",
         "name": "InsertRoworColumn.md",
         "localizedName": "插入行或列",

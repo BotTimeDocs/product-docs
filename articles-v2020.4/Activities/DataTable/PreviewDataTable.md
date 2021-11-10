@@ -24,8 +24,8 @@
 
 **此流程执行逻辑**：将搭建完成的数据表，以界面化的形式展现出来。
 
-![配置预览数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122403.png)
+![配置预览数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/previewdatatable20211110.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122404.png)
+![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/previewdatatableresult20211110.png)
