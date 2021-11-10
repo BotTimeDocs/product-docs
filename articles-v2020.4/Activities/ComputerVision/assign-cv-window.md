@@ -8,7 +8,8 @@
 
 > **说明：**
 >
-> 该组件仅可绑定一个界面，指定时既可以识别窗口，也可识别窗口中的元素。
+> - 该组件仅可在外网环境中使用。
+> - 该组件仅可绑定一个界面，指定时既可以识别窗口，也可识别窗口中的元素。
 
 ## 属性
 
@@ -19,7 +20,13 @@
 ### 目标
 
 - **匹配超时（毫秒）**：限定查找目标元素时间，超出指定时间后将不再等待，1000ms = 1s。
-- **[选择器](../Appendix/Selector.md?_v=v2020.4)**：用于指示要勾选的目标元素。可通过点击 **指定元素** 自动生成。
+- **[选择器](../Appendix/Selector.md?_v=v2020.4)**：用于执行组件时查找特定用户界面元素的属性。它实际上是一个XML片段，用于指定要查找的图形用户界面元素及其一些父元素的属性。可通过点击 **指定元素** 自动生成。
+
+    >**说明：**
+    >
+    >当更改选择器属性值后，需单击该窗口的“刷新”图标按钮，否则更改的值不生效。
+
+    ![刷新](https://docimages.blob.core.chinacloudapi.cn/images/Activities/refresh20211110.png)
 
 ### 可选项
 
@@ -27,6 +34,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：当匹配到指定的图标元素时，弹出提示框。
+此组件是计算机视觉（CV）屏幕的作用域，需结合CV类的组件一起使用。
 
-![配置指定 CV 窗口](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatecvwindow20211109.png)
+![指定CV窗口](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CVwindow20211110.png)

@@ -13,6 +13,11 @@
     },
     {
         "id": null,
+        "name": "ComputerVision",
+        "localizedName": "计算机视觉（企业版）"
+    },    
+    {
+        "id": null,
         "name": "AppAutomation",
         "localizedName": "软件自动化"
     },
@@ -54,7 +59,7 @@
     {
         "id": null,
         "name": "PhoneAutomation",
-        "localizedName": "手机自动化"
+        "localizedName": "手机自动化（企业版）"
     },
     {
         "id": null,
