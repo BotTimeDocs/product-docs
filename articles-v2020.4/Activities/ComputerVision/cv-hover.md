@@ -1,10 +1,10 @@
-# CV悬停
+# CV 悬停
 
 ## 视频示例
 
 ## 概述
 
-将鼠标悬停于使用“指定CV窗口”组件定位的指定用户界面元素上。
+将鼠标悬停于使用“指定 CV 窗口”组件定位的指定用户界面元素上。
 
 > **说明：**
 >
@@ -22,6 +22,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：将鼠标悬停于指定的CV窗口定位的某个用户界面元素上。
+**此流程执行逻辑**：将鼠标悬停于指定的 CV 窗口定位的某个用户界面元素上。
 
-![配置CV悬停组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvhover20211109.png)
+![配置 CV 悬停组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvhover20211109.png)

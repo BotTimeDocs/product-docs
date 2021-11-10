@@ -1,4 +1,4 @@
-# CV输入文本
+# CV 输入文本
 
 ## 视频示例
 
@@ -26,6 +26,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：在指定的用户界面中的指定输入框中，自动输入`cvc`文本内容。
+**此流程执行逻辑**：在指定的用户界面中的指定输入框中，自动输入 `cvc` 文本内容。
 
-![配置CV输入文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvinputtext20211109.png)
+![配置 CV 输入文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvinputtext20211109.png)
