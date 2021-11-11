@@ -47,4 +47,8 @@
 
 使用“本地激活”方式，激活控制台后，相当于单机版机器人，不依赖于控制台的调度，用户只可执行本地流程库。用户需将显示在页面上的机器码提供给我们的客服人员获取许可证。
 
+> **说明：**
+>
+> 机器码会随着硬件的改变而改变，如，变更 CPU 的核数。
+
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebylocal-N-1.png)
