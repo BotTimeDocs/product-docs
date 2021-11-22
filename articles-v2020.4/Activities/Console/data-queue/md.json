@@ -1,0 +1,31 @@
+[
+    {
+        "id": "Encoo.Console.Activity.DataQueueAddMessageActivity",
+        "name": "add-message.md",
+        "localizedName": "写入消息",
+        "uuid": "27867a4a-fab9-4fe5-ba1b-8552850dfde8",
+        "labels": "写入消息, 数据队列, 控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.DataQueueGetMessageActivity",
+        "name": "get-message.md",
+        "localizedName": "获取消息",
+        "uuid": "2fcdc5b4-7d6d-4581-816c-9a1d7e218ba8",
+        "labels": "获取消息, 数据队列, 控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.DQHandleMessageActivity",
+        "name": "handle-message.md",
+        "localizedName": "处理消息",
+        "uuid": "03fc6fb2-322a-4644-b6ed-207a1419e480",
+        "labels": "处理消息, 数据队列, 控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.DQRemoveMessageActivity",
+        "name": "remove-message.md",
+        "localizedName": "移除消息",
+        "uuid": "7f34563a-c92c-45f1-a9f1-fbcc6952d3f2",
+        "labels": "移除消息, 数据队列, 控制台"
+    }
+
+]
