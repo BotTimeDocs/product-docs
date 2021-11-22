@@ -154,6 +154,13 @@
         "labels": "单元格格式, 数据, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelClearFormatActivity",
+        "name": "clear-format.md",
+        "localizedName": "清除格式",
+        "uuid": "6a5c5b86-2cb5-49ec-b39c-4d5691f86f15",
+        "labels": "清除格式, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
         "name": "GetCellBackcolor.md",
         "localizedName": "获取单元格背景色",
@@ -187,6 +194,13 @@
         "localizedName": "插入工作表",
         "uuid": "04908cff-82bf-41a4-b3a2-b819be9bba7d",
         "labels": "工作表, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelRenameWorksheetActivity",
+        "name": "rename-worksheet.md",
+        "localizedName": "重命名工作表",
+        "uuid": "77772281-08b5-4276-ab02-1b654e10d272",
+        "labels": "重命名工作表, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelInsertRowColumnActivity",

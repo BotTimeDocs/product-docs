@@ -18,6 +18,6 @@
 
 **前置必要组件**：[循环操作（While）](../Loop/While.md)
 
-**此流程执行逻辑**：在 While 循环中，拖入 **流程决策** 组件，设置流程决策的判断条件 `System.DateTime.Now.CompareTo(Convert.ToDateTime(t1)) < 0`，如果值为真（即当前时间早于指定时间），则用 **终止循环** 组件来结束循环，如果值为假，用 **赋值** 组件递增循环变量 count。
+**此流程执行逻辑**：在 While 循环中，拖入 **流程判断** 组件，设置流程的判断条件 `System.DateTime.Now.CompareTo(Convert.ToDateTime(t1)) < 0`，如果值为真（即当前时间早于指定时间），则用 **终止循环** 组件来结束循环，如果值为假，用 **赋值** 组件递增循环变量 count。
 
 ![设置终止循环组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/break-2.png)

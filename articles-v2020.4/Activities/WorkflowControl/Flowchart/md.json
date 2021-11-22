@@ -9,8 +9,8 @@
     {
         "id": "System.Activities.Statements.FlowDecision",
         "name": "Decision.md",
-        "localizedName": "流程决策",
+        "localizedName": "流程判断",
         "uuid": "b7deb2f5-e512-488c-9b29-86a317226e54",
-        "labels": "流程决策, 流程图, 分支"
+        "labels": "流程判断, 流程图, 分支"
     }
 ]

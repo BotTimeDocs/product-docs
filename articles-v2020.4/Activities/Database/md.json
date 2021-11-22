@@ -49,10 +49,24 @@
         "labels": "查询, 数据库"
     },
     {
+        "id": "BotTime.DataBase.Activity.DatabaseUpdateDataActivity",
+        "name": "update-data.md",
+        "localizedName": "更新数据",
+        "uuid": "0c370971-1c6c-4882-8701-d48ea815386d",
+        "labels": "更新数据, 数据库"
+    },
+    {
         "id": "BotTime.DataBase.Activity.DatabaseInsertDataActivity",
         "name": "InsertData.md",
         "localizedName": "插入数据",
         "uuid": "8c6992d8-8ce5-48c8-93fd-34c8037f1545",
         "labels": "插入数据, 数据库, InsertData"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseDeleteDataActivity",
+        "name": "delete-data.md",
+        "localizedName": "删除数据",
+        "uuid": "3fe7b55e-bc52-4236-9ce7-8e784c0e8a1a",
+        "labels": "删除数据, 数据库"
     }
 ]

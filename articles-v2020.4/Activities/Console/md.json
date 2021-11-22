@@ -1,5 +1,12 @@
 [
     {
+        "id": "",
+        "name": "data-queue",
+        "localizedName": "数据队列",
+        "uuid": "",
+        "labels": ""
+    },
+    {
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
         "localizedName": "文档理解",
@@ -12,6 +19,13 @@
         "localizedName": "获取资产",
         "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8",
         "labels": "获取, 资产, 数据, 控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.SetAssetActivity",
+        "name": "set-assets.md",
+        "localizedName": "设置资产",
+        "uuid": "ec9873a4-5a88-41c7-91ce-b8bddb59538f",
+        "labels": "设置, 资产, 数据, 控制台"
     },
     {
         "id": "Encoo.Console.Activity.FileUploadActivity",

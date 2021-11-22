@@ -34,6 +34,7 @@
 ## 使用示例
 
 **前置必要条件**：在控制台中的“资产管理”中已创建资产。
+
 **此流程执行逻辑**：获取指定的部门`"默认资源组"`下的资产`"测试字符串"`，结果保存至`result`变量中。
 
 ![配置获取资产组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_3.png)

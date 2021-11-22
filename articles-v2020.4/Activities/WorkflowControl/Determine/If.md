@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/If.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/If.mp4"> </video>
 
 ## 概述
 
@@ -16,15 +16,15 @@
 
 ### 输入
 
-- **判断条件** ：Boolean类型的变量或表达式。
+- **判断条件** ：Boolean 类型的变量或表达式。
 
 ## 使用示例
 
-**前置必要条件**：**获取结构化数据**组件
+**前置必要条件**：**获取结构化数据** 组件
 
-**此流程执行逻辑**：在**条件（if）**组件中设置判断条件，如果条件成立或不成立时，分别输出不同的日志。
+**此流程执行逻辑**：在 **条件（if）** 组件中设置判断条件，如果条件成立或不成立时，分别输出不同的日志。
 
-![配置条件IF组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-3.png)
+![配置条件 IF 组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-3.png)
 
 **执行结果**：
 
