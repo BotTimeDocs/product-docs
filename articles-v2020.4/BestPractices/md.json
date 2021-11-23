@@ -16,5 +16,11 @@
         "localizedName": "如何查看机器人的日志",
         "uuid": "4c8a0db2-a293-427d-9136-c6b1b8a27705",
         "labels": "机器人日志"
+    },
+    {
+        "name": "wechat-to-console.md",
+        "localizedName": "将企业微信组织架构同步至控制台",
+        "uuid": "4fd1feed-e8d5-4982-a988-28ce2d176760",
+        "labels": "企业微信，组织架构，控制台"
     }
 ]
