@@ -12,6 +12,13 @@
         "labels": "创建, 组件项目"
     },
     {
+        "id": null,
+        "name": "create-element-project.md",
+        "localizedName": "创建元素项目",
+        "uuid": "ac59d366-bdf3-4d47-b2a4-1a409fa0b338",
+        "labels": "创建, 元素项目"
+    },
+    {
         "name": "ProjectTemplates.md",
         "localizedName": "从模板新建项目",
         "uuid": "676af9fd-9723-4423-a833-0bb7aeaa26a7",
