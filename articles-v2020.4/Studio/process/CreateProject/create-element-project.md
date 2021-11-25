@@ -18,6 +18,10 @@
 
     ![创建元素项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/createelementproject20211124.png)
 
+    >**说明：**
+    >
+    >建议自定义一个可具有代表意义的元素项目名称，代替默认的元素项目名称。
+
 2. 在弹出的“新建元素项目”对话框中，填写元素的名称和存储位置后，单击“创建”按钮。
 3. 双击打开“元素项目 1.selector”文件，在该元素项目下右击创建选择器“点击”。
 
