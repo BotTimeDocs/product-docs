@@ -2,11 +2,15 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/BindBrowser.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/BindBrowser.mp4"> </video>
 
 ## 概述
 
 绑定一个已经打开的浏览器窗口，方便之后在该浏览器窗口中执行各种操作。
+
+## 浏览器版本要求
+
+参见 [浏览器版本要求](../Browser/browser-version.md)。
 
 ## 属性
 
@@ -32,6 +36,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：使用指定元素指定浏览器并打开网页，如，12306官网。
+**此流程执行逻辑**：使用指定元素指定浏览器并打开网页，如，12306 官网。
 
 ![配置绑定浏览器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122102.png)
