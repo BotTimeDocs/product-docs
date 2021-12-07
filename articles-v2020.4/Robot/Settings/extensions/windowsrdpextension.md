@@ -21,7 +21,7 @@
 
 Encoo Remote Runtime 为运行在 RDP 远程端上的组件，可以使 RDP 远程桌面或远程应用程序与 RDP 本地扩展进行通信，从而可以在本地产生选择器并执行自动化操作。
 
-1. 在控制台中的“**首页 > 安装包下载**”中，获取远程服务端 Encoo Remote Runtime 安装包。
+1. 下载远程服务端 [Encoo Remote Runtime 安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Encoo.RemoteRuntime.Setup.exe)。
 2. 在需要自动化的 RDP 应用程序服务器上安装 Encoo Remote Runtime 安装包。
 3. （可选）当您需要在远程机器上自动化浏览器或者 Java 应用程序时，需要在服务器上安装对应的扩展，以取得更好的自动化支持。
 
