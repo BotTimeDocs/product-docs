@@ -22,5 +22,11 @@
         "localizedName": "将企业微信组织架构同步至控制台",
         "uuid": "4fd1feed-e8d5-4982-a988-28ce2d176760",
         "labels": "企业微信，组织架构，控制台"
+    },
+    {
+        "name": "rpa-and-vicode.md",
+        "localizedName": "使用 ViCode 运行并展示 RPA 流程结果",
+        "uuid": "b06fe832-b1a1-447e-9f28-bd4a9df9b986",
+        "labels": "RPA，ViCode"
     }
 ]
