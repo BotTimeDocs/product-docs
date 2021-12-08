@@ -40,7 +40,7 @@
 
 系统中会内置一些特有的角色类型，如，公司管理员、组织架构管理员等，可在“全局管理 > 角色管理”页面，根据角色类型来查看。
 
-![系统内置角色](https://docimages.blob.core.chinacloudapi.cn/images/Console/innerroles20210923.png)
+![系统内置角色](https://docimages.blob.core.chinacloudapi.cn/images/HAP/innerrole20211208.png)
 
 “内置角色”类型的角色，仅可查看，不支持对其编辑和删除操作。
 

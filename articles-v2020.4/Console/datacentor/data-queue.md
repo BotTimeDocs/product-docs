@@ -14,7 +14,7 @@
 
 1. 在“云扩 RPA 控制台 > 数据中心 > 数据队列”页面中，单击“+新建”。
 
-    ![新建数据队列](https://docimages.blob.core.chinacloudapi.cn/images/Console/dataqueue20211125.png)
+    ![新建数据队列](https://docimages.blob.core.chinacloudapi.cn/images/HAP/testdemo20211208.png)
 
 2. 在弹出的“新建”对话框中，填写对应的数据队列信息，单击“确定”。
 3. 创建完成的“数据队列”在“数据队列”页面显示。
@@ -26,7 +26,7 @@
     >
     > 数据队列中的消息存在一定的时效性，可按需设定。
 
-    ![新建消息](https://docimages.blob.core.chinacloudapi.cn/images/Console/createmessage20211125.png)
+    ![新建消息](https://docimages.blob.core.chinacloudapi.cn/images/HAP/messagetext20211208.png)
 
 7. 数据队列及队列中的消息创建完成。
 

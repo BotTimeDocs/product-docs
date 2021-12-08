@@ -4,7 +4,7 @@
 
 进入“文档理解”页面中即可通过列表查看当前资源组下所有的文档理解模板。主要包括模板名称、模板发布状态以及当前模板的抽取标签等信息。模板主要用于对属于该模板的同类文件进行非结构化信息抽取。
 
-![docreader](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/docreader20210928.png)
+![docreader](https://docimages.blob.core.chinacloudapi.cn/images/HAP/docreader20211208.png)
 
 ## 新建文档理解模板
 
@@ -14,7 +14,7 @@
 >
 > 当内置模型选择“电子版PDF模型”时，可选择不同的“抽取标签方式”。
 
-![docreader](https://docimages.blob.core.chinacloudapi.cn/images/DocReader/createdocreader20210928.png)
+![docreader](https://docimages.blob.core.chinacloudapi.cn/images/HAP/createdocreader20211208.png)
 
 ## 配置文档理解模板
 
@@ -26,13 +26,13 @@
 
     文件锚点用于对文件进行模板匹配及倾斜校正，通过点击附件上的“灰色文本区域 " 的方式确定文件锚点。锚点必须要是不变的文字，每页锚点不得少于 3 个，越多越好。
 
-    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/ocr2.png)
+    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/HAP/ocr2.png)
 
 - **抽取标签配置** 
 
     可以通过鼠标拉框方式在附件展示区域选定要抽取的文字区域，每选定一个区域将自动新增一个标签。 每一个标签意味着一个非结构化文本抽取区域，批量抽取过程将按照标签输入对应文本内容。
 
-    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/ocr3.png)
+    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/HAP/ocr3.png)
 
 - **标签渲染**
 
@@ -46,7 +46,7 @@
 
     可以通过鼠标拉框方式在附件展示区域选定要抽取的文字区域，每选定一个区域将自动新增一个标签。 每一个标签意味着一个非结构化文本抽取区域，批量抽取过程将按照标签输入对应文本内容。
 
-    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader3.png)
+    ![docreader](https://docimages.blob.core.chinacloudapi.cn/images/HAP/docreader3.png)
 
 - **参照点配置**
 

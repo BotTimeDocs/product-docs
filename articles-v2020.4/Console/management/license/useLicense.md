@@ -2,7 +2,7 @@
 
 在“全局管理 > 许可证管理”页面中, 可以查看当前公司（租户）内所有已授权的各类许可证信息。点击“查看使用情况”链接，可查看各类许可证的详细使用信息。
 
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelicense20211012.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/HAP/license20211208.png)
 
 ## 编辑器许可证
 

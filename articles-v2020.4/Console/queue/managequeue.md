@@ -4,7 +4,7 @@
 
 进入 **机器人队列** 页面，你可以看到当前部门下所有的机器人队列的列表信息。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/robotqueuelist20210924.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/HAP/robotqueue20211208.png)
 
 ## 新建机器人队列
 
@@ -12,17 +12,17 @@
 
 1. 在机器人队列管理页面中，点击“新建”按钮，在弹窗中填写队列名称、标签、备注等信息后，点击“下一步”。
 
-    ![基本配置](https://docimages.blob.core.chinacloudapi.cn/images/Console/createrobotqueue20210924.png)
+    ![基本配置](https://docimages.blob.core.chinacloudapi.cn/images/HAP/createrobotqueue20211208.png)
 
 2. 填写基本信息后，勾选对应的机器人后，点击“保存”按钮，即，该队列绑定机器人。
 
-    ![关联机器人](https://docimages.blob.core.chinacloudapi.cn/images/Console/bindrobot20210924.png)
+    ![关联机器人](https://docimages.blob.core.chinacloudapi.cn/images/HAP/createrobotqueue220211208.png)
 
 ## 查看/编辑机器人队列详情
 
 点击“机器人队列”名称，可查看队列详情信息。
 
-![查看机器人队列详情](https://docimages.blob.core.chinacloudapi.cn/images/Console/robotqueuedetails20210924.png)
+![查看机器人队列详情](https://docimages.blob.core.chinacloudapi.cn/images/HAP/robotqueuedetails20210924.jpg)
 
 在机器人队列详情页面中点击 "编辑" 按钮，可对队列名称、备注等进行编辑，编辑完成后点击 "保存" 按钮即可。
 

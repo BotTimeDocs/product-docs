@@ -4,7 +4,7 @@
 
 进入“任务记录 " 页面，可以查看所有流程部署通过任何方式所触发的流程任务的执行状况。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3joblist1.png)
+![job](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewtaskrecord20211208.png)
 
 + **任务（job）**：被任务计划或手动执行方式创建出来需要完成的流程任务。
   
