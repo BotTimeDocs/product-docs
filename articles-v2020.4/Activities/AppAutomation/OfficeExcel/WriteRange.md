@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteArea.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteArea.mp4"> </video>
 
 ## 概述
 
@@ -17,7 +17,7 @@
 ### 目标
 
 - **工作表** ：写入数据表数据的目标工作表。若指定工作表不存在则自动新建。
-- **开始单元格** ：数据表数据开始写入的单元格地址。若为单个单元格地址，则从指定单元格为起始写入数据表；若为单元格区域，则只填充数据到指定区域。
+- **起始单元格** ：数据表数据开始写入的单元格地址。若为单个单元格地址，则从指定单元格为起始写入数据表，如，`"A1"`；若为单元格区域，则只填充数据到指定区域，`"A1：C3"`。
 
 ### 输入
 
@@ -31,6 +31,6 @@
 
 ## 常见问题
 
-1. **Q：如何在Excel中将两张表的内容，整合到第三张表中？**
+1. **Q：如何在 Excel 中将两张表的内容，整合到第三张表中？**
 
-    **A：** 可先读取前两张表的数据，一起写到第三个表。若前两张表结构一样，可使用[合并数据表](../../DataTable/MergeDataTable.md)。
+    **A：** 可先读取前两张表的数据，一起写到第三个表。若前两张表结构一样，可使用 [合并数据表](../../DataTable/MergeDataTable.md)。
