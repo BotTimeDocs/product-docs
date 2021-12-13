@@ -5,7 +5,7 @@
 1. 进入云扩 RPA 控制台的“数据中心 > 资产管理”页面。
 2. 单击“资产管理”页面右上角的“+新建”。
 
-    ![新建资产](https://docimages.blob.core.chinacloudapi.cn/images/Console/createasset20210923.png)
+    ![新建资产](https://docimages.blob.core.chinacloudapi.cn/images/HAP/assets20211208.png)
 
 3. 在弹出的“新建”框中，填写相关信息。
 
@@ -21,7 +21,7 @@
     - **资产存储方式**：除“账户凭证密码”外，根据已选择的不同资产类型，可选择普通存储或加密存储。
     - **存储算法类型**：仅当资产类型为“账户凭证密码”时，可选择“默认加密算法”（AES-256）或 “国密加密加密算法”。
 
-    ![新建资产弹框](https://docimages.blob.core.chinacloudapi.cn/images/Console/testdemoasset20210923.png)
+    ![新建资产弹框](https://docimages.blob.core.chinacloudapi.cn/images/HAP/testdemo20211208.png)
 
     > **注意：**
     >
@@ -37,13 +37,13 @@
 
 在“资产列表”页，点击资产的名称或者“操作”栏中的“查看”选项，即可查看资产的详细信息。
 
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/assestsviewdetails20210923.png)
+![Asset](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewasset20211208.png)
 
 ## 搜索资产
 
 在“资产管理”列表页，可按不同的条件搜索和过滤相应的资产列表信息。
 
-![搜索资产](https://docimages.blob.core.chinacloudapi.cn/images/Console/assets20211108.png)
+![搜索资产](https://docimages.blob.core.chinacloudapi.cn/images/HAP/searchasset20211208.png)
 
 ## 删除资产
 

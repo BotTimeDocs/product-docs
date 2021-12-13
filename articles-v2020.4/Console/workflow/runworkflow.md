@@ -4,11 +4,11 @@
 
 1. 在“流程部署”页面中选择要立即执行的流程部署，点击“操作”栏选项中的“执行”选项。
 
-    ![执行](https://docimages.blob.core.chinacloudapi.cn/images/Console/workdeploy20210924.png)
+    ![执行](https://docimages.blob.core.chinacloudapi.cn/images/HAP/workdeploy2021092411.jpg)
 
 2. 在“流程执行”弹窗中，可以对失败最大尝试次数、参数值进行重新赋值，确认无误后点击“执行”按钮，可生成对应的任务执行。可在“流程部署 > 任务列表”中查看对应任务的执行情况。
 
-    ![手动执行流程部署](https://docimages.blob.core.chinacloudapi.cn/images/Console/executeworkflow20210924.png)
+    ![手动执行流程部署](https://docimages.blob.core.chinacloudapi.cn/images/HAP/executeworkflow2021092411.jpg)
 
     > **说明：**
     >

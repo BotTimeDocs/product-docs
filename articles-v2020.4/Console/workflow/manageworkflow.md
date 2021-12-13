@@ -34,7 +34,7 @@
 
 单击流程部署列表页中的“流程部署名称”或单击“操作”栏中的“查看”选项，可查看流程部署详情。
 
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/workflowdetails20210924.png)
+![process](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewworkflowdetail20211208.png)
 
 - **基本信息**：展示当前流程包的基本信息，单击“编辑”按钮，可变更流程部署的基本信息。
 - **任务计划**：展示当前流程包对应的任务计划列表，参见 [管理任务计划](./trigger.md)。
@@ -47,5 +47,3 @@
 ## 删除流程部署
 
 点击所选的流程部署“操作”栏中的“删除”选项，即可删除相应的流程部署。
-
-![删除流程部署](https://docimages.blob.core.chinacloudapi.cn/images/Console/deleteworkflow20210924.png)
