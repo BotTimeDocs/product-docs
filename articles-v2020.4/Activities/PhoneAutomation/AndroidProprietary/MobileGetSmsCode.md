@@ -15,7 +15,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -67,4 +67,4 @@
 
 2. **Q：获取手机验证码只能通过组件的方式吗？**
 
-   **A：** 不是，目前有三种方式。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。
+   **A：** 不是，目前有四种方式。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。

@@ -6,9 +6,14 @@
 
 ![获取短信验证码应用场景](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/smscode20210818.png)
 
-云扩 RPA 目前支持三种方式获取安卓手机的短信验证码，如下文所述。
+云扩 RPA 目前支持四种方式获取安卓手机的短信验证码，如下文所述。
 
-![获取验证码方式](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/encoosmslisten20210831.png)
+- [安卓手机获取短信验证码](#安卓手机获取短信验证码)
+  - [概述](#概述)
+  - [方式一：通过组件调用](#方式一通过组件调用)
+  - [方式二：通过 API 地址](#方式二通过-api-地址)
+  - [方式三：通过邮箱地址](#方式三通过邮箱地址)
+  - [方式四：通过 WebHook](#方式四通过-webhook)
 
 ## 方式一：通过组件调用
 
@@ -26,7 +31,7 @@
 
 2. **安装“云扩手机验证码监听器”应用**：
   
-    a. 将已下载的“Android服务端”压缩包进行解压缩
+    a. 将已下载的“Android 服务端”压缩包进行解压缩
 
     b. 在“Encoo.Android.Automation/apk”路径下，找到“云扩手机验证码监听器”应用
 
@@ -57,7 +62,7 @@
 
 2. **安装“云扩手机验证码监听器”应用**：
   
-    a. 将已下载的“Android服务端”压缩包进行解压缩
+    a. 将已下载的“Android 服务端”压缩包进行解压缩
 
     b. 在“Encoo.Android.Automation/apk”路径下，找到“云扩手机验证码监听器”应用
 
@@ -67,7 +72,7 @@
 
 3. **配置“云扩手机验证码监听器”应用**：根据如下配置项配置后，单击“开始监听”按钮。
 
-    - **配置发送邮件的邮箱信息**：单击“云扩手机验证码监听器”应用的右上角的“邮箱配置”，按照提示配置发送邮件的邮箱信息，支持基于SMTP的方式。
+    - **配置发送邮件的邮箱信息**：单击“云扩手机验证码监听器”应用的右上角的“邮箱配置”，按照提示配置发送邮件的邮箱信息，支持基于 SMTP 的方式。
 
         ![发件箱配置](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/sendmail20210831.jpg)
   
@@ -78,3 +83,14 @@
         - **监听手机号**：需要获取短信来源的手机号，支持指定手机号或正则表达式，如，`183xxxx1256`。
 
         - **邮箱地址**：手机在当前规则下获取到的短信信息需发送到的邮箱地址，如，`xxx@encootech.com`。
+
+## 方式四：通过 WebHook
+
+通过 WebHook 的方式，支持“**企业微信**”和“**钉钉**”类型，具体使用入口同上述几种方式，具体配置信息如下。
+
+![WebHook](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/wechatwebhook20211214.png)
+
+- **监听手机号**：需要获取短信来源的手机号，支持指定手机号或正则表达式，如，`183xxxx1256`。
+
+- **WebHook 地址**：手机在当前规则下获取到的短信信息需发送到的邮箱地址，如，`https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=693axxx6-7aoc-4bc4-97a0-0ec2sifa5aaa`。
+- **关键词**：content 内容，如，`hello world`。
