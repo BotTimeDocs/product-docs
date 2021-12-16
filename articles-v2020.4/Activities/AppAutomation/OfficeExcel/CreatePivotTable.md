@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CreatePivotTable.mp4"></video>
+
 ## 概述
 
 实现在 Excel 中创建透视表。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 目标位置
 
@@ -31,6 +33,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：创建一个销售统计表，将“Sheet1”工作表的“A1：D11”区域的数据筛选后展示于“F1: H11”区域中。
 
 ![配置创建透视表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable3.png)

@@ -1,16 +1,22 @@
 # 关闭浏览器
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CloseBrowser.mp4"></video>
+
 ## 视频示例
 
 ## 概述
 
 关闭指定的浏览器。
 
+## 浏览器版本要求
+
+参见 [浏览器版本要求](../Browser/browser-version.md)。
+
 ## 属性
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 目标
 

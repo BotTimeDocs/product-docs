@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteCell.mp4"></video>
+
 ## 概述
 
 使用组件，写入数据到 Excel 文件中的指定单元格。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -28,6 +30,7 @@
 ## 使用示例
 
 **前置必要组件**：[读取单元格](../OfficeExcel/ReadCell.md)
+
 **此流程执行逻辑**：将读取到的Excel的"Sheet1"工作表中"A1"单元格的内容写入到"Sheet2"工作表中"A1"单元格中。
 
 ![配置写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)

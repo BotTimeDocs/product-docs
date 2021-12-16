@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ResetPassword.mp4"></video>
+
 ## 概述
 
 对 Excel 文件进行增加、更新或去除密码。
@@ -14,7 +16,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -23,6 +25,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：给指定路径下的 Excel 文件设置密码。
 
 ![配置重置密码组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ResetPassword1.png)

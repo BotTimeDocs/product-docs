@@ -2,6 +2,7 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Serialization.mp4"></video>
 
 ## 概述
 
@@ -31,4 +32,6 @@
 
 ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject3.png)
 
+> **说明：**
+>
 > 若想了解更多关于 **json** 的内容，请参考网上的 **[json 教程](https://www.runoob.com/json/json-tutorial.html)**

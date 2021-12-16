@@ -1,0 +1,51 @@
+[
+    {
+        "id": null,
+        "name": "Text.md",
+        "localizedName": "文本",
+        "uuid": "0a95f7b9-d00b-4f42-b406-74f51eda6d25",
+        "labels": "文本, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Image.md",
+        "localizedName": "图片",
+        "uuid": "022c4ad1-45a8-4636-852d-0307ad5eb5fa",
+        "labels": "图片, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "video.md",
+        "localizedName": "视频",
+        "uuid": "e5057a6b-3d06-4a63-a26a-19702b64ea60",
+        "labels": "视频, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "iframe.md",
+        "localizedName": "IFrame",
+        "uuid": "f2c84d61-e66b-49b4-b718-4ec666a86cdc",
+        "labels": "IFrame, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "icon.md",
+        "localizedName": "图标",
+        "uuid": "174e1acd-19e5-43a6-899b-7d282a1af083",
+        "labels": "图标, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Carousel.md",
+        "localizedName": "轮播图",
+        "uuid": "0295f426-9726-4083-a9c4-5c8f31126d81",
+        "labels": "轮播图, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Progress.md",
+        "localizedName": "进度条",
+        "uuid": "138d0269-4769-4c69-9503-81e2e5568ef7",
+        "labels": "进度条, 显示组件"
+    }
+]

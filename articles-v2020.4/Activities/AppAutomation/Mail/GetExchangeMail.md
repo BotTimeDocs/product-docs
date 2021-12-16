@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetExchangeMail.mp4"></video>
+
 ## 概述
 
 获取 Exchange 服务账号中的邮件。
@@ -11,11 +13,11 @@
 ### 服务器
 
 - **Exchange 版本** ：选择 Exchange 版本。
-- **服务器** ：输入收件人邮箱所属服务器地址。如，“https://×××.outlook.cn”。
+- **服务器** ：输入收件人邮箱所属服务器地址。如，“<https://×××.outlook.cn>”。
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输出
 
@@ -33,6 +35,7 @@
 ### 可选项
 
 - **标记为已读** ：指定检测加密方法，默认为自动。
+- **超时**：指定此组件的执行时间。若超出此时间，组件还未执行，会抛出错误。
 - **获取附件** ：选择是否获取附件，默认为勾选即不获取附件。 勾选后则在获取邮件时同时获取附件。
 - **仅获取未读邮件** ：默认获取所有类型邮件。若勾选，则仅获取未读邮件。
 

@@ -1,0 +1,94 @@
+[
+    {
+        "id": null,
+        "name": "Button.md",
+        "localizedName": "按钮",
+        "uuid": "81c791e2-f011-4e32-8919-1a764207ee5e",
+        "labels": "按钮, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "CheckBox.md",
+        "localizedName": "复选框",
+        "uuid": "6027e0d3-b9d6-4b1f-a443-85ef4bdc3159",
+        "labels": "复选框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "radiogroup.md",
+        "localizedName": "单选框",
+        "uuid": "de16e238-fd5a-43ef-bfcf-539db81a97ec",
+        "labels": "单选框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Selector.md",
+        "localizedName": "选择器",
+        "uuid": "2ffc6dc5-88b5-4773-875e-7709b8c38eb6",
+        "labels": "选择器, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "NumberBox.md",
+        "localizedName": "数字输入框",
+        "uuid": "40b58b6c-b65e-4b0f-9a45-07df77084c08",
+        "labels": "数字输入框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "TextBox.md",
+        "localizedName": "文本输入框",
+        "uuid": "1c107bf1-bb6b-48da-9fed-6255158a6e9b",
+        "labels": "文本输入框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "textarea.md",
+        "localizedName": "多行文本框",
+        "uuid": "7322e175-7c18-4c2e-9d97-19651a956ffb",
+        "labels": "多行文本框, 输入组件"
+    },
+
+    {
+        "id": null,
+        "name": "passwordinput.md",
+        "localizedName": "密码输入框",
+        "uuid": "8952f05f-afe9-4b50-9659-087641f264ce",
+        "labels": "密码输入框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "TimePickerDialog.md",
+        "localizedName": "时间选择框",
+        "uuid": "1c56ed3b-fb87-4a71-bd36-f53b27fe006e",
+        "labels": "时间选择框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "DatePickerDialog.md",
+        "localizedName": "日期选择框",
+        "uuid": "a511bcc3-2f92-46ec-b87d-f60588630564",
+        "labels": "日期选择框, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Switch.md",
+        "localizedName": "开关",
+        "uuid": "7e345393-8164-45b6-80a2-90f34f802361",
+        "labels": "开关, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Fileupload.md",
+        "localizedName": "文件上传",
+        "uuid": "fd9096d1-3bea-4b93-bf01-3cf8d22f88ac",
+        "labels": "文件上传, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Richtexteditor.md",
+        "localizedName": "富文本编辑框",
+        "uuid": "92ddf869-77be-4818-9d19-23319afa78e4",
+        "labels": "富文本编辑框, 输入组件"
+    }
+]

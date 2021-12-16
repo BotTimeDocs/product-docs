@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/HTTPRequest.mp4"></video>
+
 ## 概述
 
 此组件可以发送 HTTP(S)请求并返回响应的数据，并支持测试配置的 HTTP(S)请求是否可用。
@@ -14,7 +16,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -24,6 +26,7 @@
 - **请求方法** ：选择请求的方法，支持 GET、POST、HEAD、PUT、DELETE、OPTIONS、PATCH。
 - **请求头** ：输入请求头，仅支持 Dictionary 变量。可在“设置请求方式”弹窗中输入请求头信息，若同时在此属性框和弹窗中指定请求头，则使用弹窗中设置的变量。
 - **请求正文** ：输入请求的正文。
+
     > **说明：**
     >
     > 在组件的可视化界面中，请求正文对应的内容支持文本模式（默认）和代码模式。
@@ -43,3 +46,9 @@
 
 **更多 HTTP 操作链接**：
 [HTTP 抓包](https://mp.weixin.qq.com/s/Vo7QVfucAyHhEbHJZWeZXw)
+
+## 常见问题
+
+1. **Q：现需将抓取的数据通过HTTP协议Post请求发送给其它系统，编辑器中哪个组件可以实现？**
+
+    **A：**“HTTP(S)请求”、 “执行C#代码”、“执行Python代码”等组件均可实现。

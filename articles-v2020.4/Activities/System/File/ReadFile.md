@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadFile.mp4"></video>
+
 ## 概述
 
 读取指定文件内容并可将其数据存储在变量中。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -29,3 +31,9 @@
 **此流程执行逻辑**：读取D盘下的“新建文本文档.txt”文件中的内容，并输出至“输出面板”中。
 
 ![配置读取文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-2.png)
+
+## 常见问题
+
+1. **Q：如何解决读取文件乱码问题？**
+
+    **A：** 可尝试将设置文件中字符`UTF-8`换为`GBK`编码。

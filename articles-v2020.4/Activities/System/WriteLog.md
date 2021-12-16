@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/WriteLog.mp4"></video>
+
 ## 概述
 
 将指定的文本内容打印在流程运行日志中。通常用于在流程日志中增加业务相关信息或关键字段信息，使流程日志更易于阅读和故障排查。

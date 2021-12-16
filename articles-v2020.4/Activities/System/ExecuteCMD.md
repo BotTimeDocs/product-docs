@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExcuteCMD.mp4"></video>
+
 ## 概述
 
 执行 CMD 命令行，并提供返回值。如，使用命令行实现 60 秒后定时关机： “shutdown -s -t 60”。
@@ -30,3 +32,20 @@
 **此流程执行逻辑**：执行 cmd 命令，并将执行结果保存至“result”变量中。
 
 ![配置执行命令行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-2.png)
+
+## 常见问题
+
+1. **Q：执行"cmd /c query session"命令失败，报错：“`query`不是内部或外部命令，也不是可运行的程序或批处理文件”**
+
+    **A：**
+
+    **【原因排查与分析】**
+
+    64位的计算机上，有“c:\Windows\System32”和“c:\Windows\SysWOW64”两个目录，这两个目录下都有cmd.exe。
+
+    如果应用程序是32位，则默认会调用SystemWOW64下面的cmd.exe（即，c:\Windows\SysWOW64\cmd.exe），因为编辑器的Executor的编译选项是Any CPU且勾了首选32位平台。
+
+    **【短期解决办法】**
+
+    step1：把System32下面的query.exe复制到SystemWow64下。
+    step2：在命令中使用如下方式，强制使用System32下的cmd.exe，即，`@"c:\windows\SysNative\cmd.exe /c query session"`

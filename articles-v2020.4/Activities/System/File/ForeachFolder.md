@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/TraverseFolders.mp4"></video>
+
 ## 概述
 
 遍历指定的文件夹并获取文件路径（默认为变量filePath），可在此组件范围内根据实际业务需要拖入其他组件。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -30,3 +32,15 @@
 **执行结果**：
 
 ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-3.png)
+
+## 常见问题
+
+1. **Q：需要上传到FTP内一个多级文件夹，但无法在FTP内解压缩多级文件夹，如何上传FTP内一个文件夹？**
+
+    **A：** 目前FTP组件尚不支持上传文件夹，建议使用“系统 > 文件 > 遍历文件夹”组件，结合“组件市场 > FTP工具 > FTP上传"组件，实现流程。
+
+2. **Q: 在组件市场中，使用“FTP工具 > FTP上传”，如何用编辑器上传到FTP内的指定文件夹中，而不是FTP根目录？**
+
+   **A：** 先通过“FTP工具 > FTP连接”组件中配置“FTP文件夹路径”，再通过组合“FTP工具 > FTP获取文件/文件夹列表”遍历上传。
+
+   ![FTP连接](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ftpconnect20210824.jpg)

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Assign.mp4"></video>
+
 ## 概述
 
 对指定变量进行赋值。

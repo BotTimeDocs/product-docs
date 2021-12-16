@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendShortcut.mp4"></video>
+
 ## 概述
 
 模拟人类在键盘按下快捷键的行为，主要用于桌面端和浏览器端将键盘快捷方式发送到指定UI元素。
@@ -41,7 +43,8 @@
 
 ## 使用示例
 
-**必要前置组件**：设置剪贴板文本
+**前置必要组件**：[设置剪贴板文本](../System/SetContentsToClipboard.md)
+
 **此流程执行逻辑**：在**发送快捷键**组件中，指定元素并设置任一键值，模拟键盘按下的动作以发送快捷键：
 
    >**说明：**

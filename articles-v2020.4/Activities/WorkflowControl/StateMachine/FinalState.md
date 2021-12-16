@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/FinalState.mp4"></video>
+
 ## 概述
 
 “最终状态”组件是状态机中使用的组件，是状态机工作流的基础组成部分。状态机工作流中必须包含一个“最终状态”组件。
@@ -16,7 +18,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ## 使用示例
 

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetElementAttribute.mp4"></video>
+
 ## 概述
 
 获取桌面端或浏览器端指定元素的属性值，并将其存储在输出变量 **属性值** 中。
@@ -39,3 +41,15 @@
 **此流程执行逻辑**：获取指定元素的属性值。
 
 ![配置获取元素属性值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr1.png)
+
+## 常见问题
+
+1. **Q：如何获取当前页面的URL？**
+
+    **A：** 使用“获取元素属性值”组件，获取URL属性。
+
+2. **Q：怎么获取网页html代码 ？**
+
+    **A：** 使用“获取元素属性值”组件，属性选择`outerhtml`。
+
+    ![获取元素属性值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Getelement20210826.png)

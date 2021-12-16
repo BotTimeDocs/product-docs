@@ -1,0 +1,23 @@
+[
+    {
+        "id": null,
+        "name": "README.md",
+        "localizedName": "关于AI Hub",
+        "uuid": "021f5246-372e-4ac3-bf5f-edbca99fdb36",
+        "labels": "AI Hub, 介绍"
+    },
+    {
+        "id": null,
+        "name": "AIHubSetting.md",
+        "localizedName": "AI Hub的使用",
+        "uuid": "1cec5de6-d4f5-4fc4-a1e7-888dca3fe5ba",
+        "labels": "AI Hub, 使用"
+    },
+    {
+        "id": null,
+        "name": "FAQ.md",
+        "localizedName": "常见问题",
+        "uuid": "1cec5de6-d4f5-4fc4-a1e7-888dca3fe5ba",
+        "labels": "常见问题, FAQ, AI Hub"
+    }
+]

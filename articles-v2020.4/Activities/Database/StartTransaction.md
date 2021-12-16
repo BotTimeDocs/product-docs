@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：在执行事务中，使用**执行语句**组件更新数据库中`test.testconnect`数据表中`C`列的数据。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db11.png)
+![配置执行事务组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db11.png)

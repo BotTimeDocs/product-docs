@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ReadArea.mp4"></video>
+
 ## 概述
 
 获取工作簿内单元格区域数据并存储在数据表变量内。若单元格区域未指定，则默认读取整表。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -31,8 +33,19 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：读取EXCEL文件“sheet1”工作簿中的“A1：D3”单元格区域，写入到“sheet2”工作簿中的“A1：D3”单元格区域。
 
 ![配置读取区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange1.png)
 
 **后置必要组件**：[写入区域](../OfficeExcel/WriteRange.md)
+
+## 常见问题
+
+1. **Q：执行Excel时报错“[错误]列"契约编号"不属于表”。**
+
+    **A：** 报错是指表格没有这一列，勾选“读取区域”组件的“添加列头”属性，并加上输出变量。
+
+2. **Q：“读取区域”组件没有设置行列，默认是整个表单还是仅为内容的表格？当前读取写入一直在重复。**
+
+    **A：** 默认工作表内有内容的表格，即为输入的工作表。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SetFocus.mp4"></video>
+
 ## 概述
 
 为指定元素设置焦点，支持桌面端和浏览器端。同时浏览器端可自动滑动页面将元素置为可视。

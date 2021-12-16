@@ -105,6 +105,20 @@
         "labels": "获取, 单元格"
     },
     {
+        "id": "BotTime.DataTableActivity.Activities.DataTableSetValueActivity",
+        "name": "DataTableSetValue.md",
+        "localizedName": "设置数据表的值",
+        "uuid": "bfdae03d-47fc-4ba5-8409-1fc562f787b2",
+        "labels": "设置, 单元格，数据表的值"
+    },
+    {
+        "id": "BotTime.DataTableActivity.Activities.DataRowSetValueActivity",
+        "name": "DataRowSetValue.md",
+        "localizedName": "设置数据行的值",
+        "uuid": "0a05b22c-b2a8-4b9d-b7d2-e2e09a32dcef",
+        "labels": "设置, 单元格，数据行的值"
+    },
+    {
         "id": "BotTime.DataTableActivity.Activities.DataTableReadCSVActivity",
         "name": "ReadCSV.md",
         "localizedName": "读取CSV文件",

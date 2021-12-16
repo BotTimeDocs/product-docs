@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DeleteData.mp4"></video>
+
 ## 概述
 
 对指定工作表进行删除操作。可实现删除单元格、整行、整列、区域、工作表。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -19,7 +21,7 @@
 - **列** ：删除整列数据。若需删除整列数据，则填充此项（例：1，即删除第一列）
 - **区域** ：删除操作的目标单元格区域。若需删除区域数据，则填充此项。
 - **删除整表** ：勾选时，删除指定工作表。
-- **行** ：删除整行数据。若需删除整行数据，则填充此项（例：1，即删除第一行）。
+- **行** ：删除整行数据。若需删除整行数据，则填充此项（例：1，即删除第一行）;若需一次删除多行数据，则输入删除区域，如，`A1:F6`。
 
     > **注意：**
     >
@@ -33,6 +35,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：删除Sheet1工作表的第三行数据。
 
 ![配置删除数据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Delete2.png)

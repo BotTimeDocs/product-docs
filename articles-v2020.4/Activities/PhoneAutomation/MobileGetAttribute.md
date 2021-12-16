@@ -27,6 +27,7 @@
 ## 使用示例
 
 **前置必要组件**：[连接设备](./MobileConnect.md)
+
 **此流程执行逻辑**：获取指定APP的属性“GetElementAttribute”的值。
 
 ![配置获取元素属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dimvarial20201223.png)

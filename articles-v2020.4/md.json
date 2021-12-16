@@ -3,7 +3,7 @@
         "name": "Index.md",
         "localizedName": "概览",
         "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
-        "labels": "RPA, 平台, 云扩"
+        "labels": "产品介绍"
     },
     {
         "name": "ReleaseNotes.md",
@@ -36,11 +36,31 @@
     },
     {
         "id": null,
+        "name": "AIHub",
+        "localizedName": "云扩AIHub智能应用中心"
+    },
+    {
+        "id": null,
+        "name": "DocReader",
+        "localizedName": "云扩DocReader文档理解"
+    },
+    {
+        "id": null,
         "name": "Apps",
         "localizedName": "云扩ViCode云码"
     },
     {
-        "name": "QA.md",
+        "id": null,
+        "name": "Spark",
+        "localizedName": "云扩Spark"
+    },
+    {
+        "id": null,
+        "name": "BestPractices",
+        "localizedName": "专题文档"
+    },
+    {
+        "name": "FAQ",
         "localizedName": "常见问题",
         "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
         "labels": "常见问题，FAQ"

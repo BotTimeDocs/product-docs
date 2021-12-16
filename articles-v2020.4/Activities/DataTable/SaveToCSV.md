@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SaveAsCsvFile.mp4"></video>
+
 ## 概述
 
 将数据表保存为CSV文件。
@@ -25,6 +27,7 @@
 ## 使用示例
 
 **前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+
 **此流程执行逻辑**：将已搭建的数据表`table`保存为"C:\云扩科技\savetable.csv"。
 
 ![配置保存为CSV文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SaveToCSV20201229.png)

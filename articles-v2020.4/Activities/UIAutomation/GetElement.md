@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetElement.mp4"></video>
+
 ## 概述
 
 获取指定的UI元素，并将其存储在输出变量**控件元素**中。

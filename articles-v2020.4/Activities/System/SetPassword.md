@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SetPassword.mp4"></video>
+
 ## 概述
 
 对敏感信息进行保护输入，安全存储和调用输出。

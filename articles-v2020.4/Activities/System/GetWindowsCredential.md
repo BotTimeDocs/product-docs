@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetWindowsCredentials.mp4"></video>
+
 ## 概述
 
 获取本机 Windows 凭据管理器中 Windows 凭据分类中的普通凭据。

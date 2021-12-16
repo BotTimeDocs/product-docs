@@ -50,7 +50,7 @@
 
 ## 运行流程
 
-1. 点击“运行”或使用快捷键 Ctrl+F6 来尝试运行流程
+1. 点击“运行”或使用快捷键 Ctrl+F5 来尝试运行流程
 
 2. 设置参数的默认值并确认，将会从第一个 Excel 文件中读取一部分数据填写到第二个 Excel 文件中。
 ![设置流程参数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/path20210508.png)

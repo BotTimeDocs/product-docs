@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecuteJavaScriptFile.mp4"></video>
+
 ## 概述
 
 执行JavaScript文件，并支持参数传递。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 可选项
 
@@ -37,14 +39,10 @@
 
 ## 使用示例
 
-1. 拖入**执行JavaScript文件**组件并指定元素：
+**此流程执行逻辑**：执行`demo.js`文件中的`SetText(st)`方法。
 
-    ![执行JavaScript文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executejavascriptfile20210630.png)
+![配置执行JavaScript文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executejavascriptfile20210630.png)
 
-2. 打开选择器，点击“未验证”按钮验证元素是否能识别：
-
-    ![验证网页元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/verifyjsfile20210630.png)
-
-3. 运行流程并查看结果：
-
-    ![运行流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/jsfileresult20210630.png)
+>**说明：**
+>
+> 图中的`" _context$.currentElement." `表示指定的元素。

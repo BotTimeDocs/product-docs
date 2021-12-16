@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecutePowerShellCode.mp4"></video>
+
 ## 概述
 
 该组件实现自定义的 PowerShell 代码。
@@ -14,7 +16,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -27,16 +29,8 @@
 
 ## 使用示例
 
-1. 拖入一个 **执行 PowerShell 代码** 组件至流程中。
-2. 双击打开该组件，配置该组件的属性，如下图所示。
+**前置必要条件**：首次使用该组件执行 PowerShell 代码时，需配置执行策略，可参见 [关于执行策略](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1)。
 
-    - 文件路径：选择需要执行的 PowerShell 文件路径。
-    - 编辑代码：输入需要执行的 Powershell 代码。
-  
-    ![powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210225.png)
+**此流程执行逻辑**：执行指定的 PowerShell 代码。
 
-    - 设置参数：输入需要传参的参数信息。
-
-    ![设置参数信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershellparmar20210225.png)
-
-3. 保存并运行流程。
+![配置执行 powershell 代码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/powershell20210902.jpg)

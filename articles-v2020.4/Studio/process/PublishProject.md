@@ -22,9 +22,9 @@
 2. 在菜单栏中的“**发布**”中选择发布的位置：
     - **发布到控制台**
 
-        ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishproject20201214.png)
+        ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/publishproject20210827.png)
 
-        a. 在 **资源组** 部分，可以选择需要将项目发布到哪个资源组中。
+        a. 在 **部门** 部分，可以选择需要将项目发布到哪个部门中。
 
         b. **流程包名称** 默认情况下为项目名称，可进行更改。
 

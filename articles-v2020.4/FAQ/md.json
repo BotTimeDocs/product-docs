@@ -1,0 +1,51 @@
+[
+    {
+        "id": null,
+        "name": "StudioFAQ.md",
+        "localizedName": "编辑器FAQ",
+        "uuid": "43f0987f-b4c9-4a1d-884b-6f747e0c7d03",
+        "labels": "编辑器，FAQ"
+    },
+    {
+        "id": null,
+        "name": "RobotFAQ.md",
+        "localizedName": "机器人FAQ",
+        "uuid": "fd8627ac-191d-4da6-8fe2-97028b8ffd39",
+        "labels": "机器人，FAQ"
+    },
+    {
+        "id": null,
+        "name": "ConsoleFAQ.md",
+        "localizedName": "控制台FAQ",
+        "uuid": "f7a73f72-7223-4512-90c4-0b5d200e0236",
+        "labels": "控制台，FAQ"
+    },
+    {
+        "id": null,
+        "name": "AIHubFAQ.md",
+        "localizedName": "AIHub FAQ",
+        "uuid": "cac510e6-c783-45b9-ab30-5f87c1f83392",
+        "labels": "AIHub，FAQ"
+    },
+    {
+        "id": null,
+        "name": "DocReaderFAQ.md",
+        "localizedName": "文档理解FAQ",
+        "uuid": "66907876-11bd-4650-ab8b-067c086dc28c",
+        "labels": "文档理解，FAQ"
+    },
+    {
+        "id": null,
+        "name": "ViCodeFAQ.md",
+        "localizedName": "ViCode FAQ",
+        "uuid": "b4ffd881-d27f-471d-819c-dea2255a4d35",
+        "labels": "ViCode，FAQ"
+    },
+    {
+        "id": null,
+        "name": "QA.md",
+        "localizedName": "通用FAQ",
+        "uuid": "527f12ec-873f-4b7f-ac12-d1d68c368fe8",
+        "labels": "社区版，企业版，FAQ"
+    }
+]

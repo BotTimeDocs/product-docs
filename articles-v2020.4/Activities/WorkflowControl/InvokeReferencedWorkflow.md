@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/CallingProcessProject.mp4"></video>
+
 ## 概述
 
 调用已引用的项目的流程文件，供当前项目流程使用。

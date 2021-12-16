@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Check.mp4"></video>
+
 ## 概述
 
 选择或清除桌面端或浏览器端的单选按钮和复选框。

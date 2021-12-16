@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DeleteConsoleFileOrFolder.mp4"></video>
+
 ## 概述
 
 删除云扩 RPA 控制台（企业版）的“数据中心 > 文件服务”中的指定文件/文件夹。
@@ -15,14 +17,10 @@
 ### 输入
 
 - **部门**：填写控制台中文件/文件夹所在的部门。
-- **文件/文件夹路径**：选择需要删除的控制台文件服务中的文件或文件夹路径，可接变量。
+- **文件/文件夹路径**：选择需要删除的控制台文件服务中的文件或文件夹路径。
 
 ## 使用示例
 
-1. 拖入一个**删除文件/文件夹**组件至流程中。
-2. 双击**删除文件/文件夹**组件的空白处，选择需要删除的控制台文件服务中的文件或文件夹路径，如，"Test_demo/执行CSharp代码.xaml"
+**此流程执行逻辑**：选择需要删除的控制台文件服务中的文件或文件夹路径`"Test_demo/执行CSharp代码.xaml"`。
 
-   ![选择需要删除的文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletefile20210105.png)
-
-3. 保存并运行流程。
-4. 在控制台的“数据中心 > 文件服务”中查看指定文件/文件夹是否被成功删除。
+![选择需要删除的文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletefile20210105.png)

@@ -38,6 +38,7 @@
 ## 使用示例
 
 **前置必要组件**：[连接设备](./MobileConnect.md)
+
 **此流程执行逻辑**：接收到手机中发送的手机验证码信息。
 
 ![配置获取短信验证码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smscodevarials20201230.png)
@@ -48,8 +49,9 @@
 
 ## 常见问题
 
-1. Q：为何获取不到短信验证码？
-   </br> A：检查手机短信验证码安全保护是否禁止，若开关打开，则无法获取到验证码。
+1. **Q：为何获取不到短信验证码？**
+
+    **A：** 检查手机短信验证码安全保护是否禁止，若开关打开，则无法获取到验证码。
 
    > **说明：**
    >
@@ -62,3 +64,7 @@
    - OPPO 手机，在“设置 > 信息”中设置“验证码安全保护”为“不勾选”状态。
 
     ![OPPO 手机短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/opposetting20210618.png)
+
+2. **Q：获取手机验证码只能通过组件的方式吗？**
+
+   **A：** 不是，目前有两种方式，一种是通过组件，另一种是通过安装指定应用。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。

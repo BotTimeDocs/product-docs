@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SplitText.mp4"></video>
+
 ## 概述
 
 根据指定的分割符分割文本。
@@ -10,39 +12,23 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
-
-### 可选项
-
-- **移除空字符**：选择是否移除分隔后的空白项。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
 - **分隔符**：分隔原文本内容的分隔符号（该分隔符号包含在原文本中），可接变量。
-- **原文本**：原始需要被分割的文本内容，可接变量。
+- **原文本**：原始需要被分割的文本内容。
 
 ### 输出
 
 - **分割结果**：分割的结果，仅可接变量。
 
+### 可选项
+
+- **移除空字符**：选择是否移除分隔后的空白项。
+
 ## 使用示例
 
-1. 拖入一个**分割文本**组件至流程中。
-2. 配置**分割文本**组件的属性。
+**此流程执行逻辑**：将字符串`"123.56"`以`"."`为分隔符分割文本，分割后的文本存储至变量`S`中。
 
-    ![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)
-
-    - 原文本：输入需要被分隔的文本字符串，如，`"123.56"`
-    - 分隔符：输入需要分隔原文本的分隔符号，如，`"."`
-    - 分割结果：输入存放分割结果的变量，如，`S`
-
-3. 在**分割文本**组件的下方，拖入一个**写入日志**组件，用于将分割的文本的值进行输出查看。。
-4. 双击**写入日志**组件的空白处，配置属性。
-
-    - 日志级别：下拉选择日志级别，如，`Info`
-    - 日志内容：输入需要输出的日志内容，如，`"分割后的值为："+S[0]`,表示获取分割后的文本的第一个文本值。
-
-5. 保存并运行流程。
-6. 在编辑器的输出面板中查看运行结果。
-
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittextresult20210104.png)
+![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)

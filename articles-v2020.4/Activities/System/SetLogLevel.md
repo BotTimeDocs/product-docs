@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SettingLogLevel.mp4"></video>
+
 ## 概述
 
 控制日志输出的内容。此组件后的日志将按照所选级别输出。

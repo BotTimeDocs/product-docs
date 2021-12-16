@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Delay.mp4"></video>
+
 ## 概述
 
 在下一个组件执行前的等待时间，当指定的等待时间过后，开始执行此组件后的流程。

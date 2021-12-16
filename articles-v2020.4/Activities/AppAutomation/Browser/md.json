@@ -40,5 +40,12 @@
         "localizedName": "关闭浏览器",
         "uuid": "797884b5-5513-4d1d-ae31-c636909c8efc",
         "labels": "关闭, 浏览器"
+    },
+    {
+        "id": "",
+        "name": "browser-version.md",
+        "localizedName": "浏览器版本要求",
+        "uuid": "06c4ccef-92ca-43da-88c9-8b2c4dbcd63d",
+        "labels": "浏览器版本，要求"
     }
 ]

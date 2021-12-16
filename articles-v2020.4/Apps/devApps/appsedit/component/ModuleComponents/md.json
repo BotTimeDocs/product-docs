@@ -1,0 +1,38 @@
+[
+    {
+        "id": null,
+        "name": "list.md",
+        "localizedName": "列表",
+        "uuid": "b75af54e-2794-47db-af39-11b7aaf26dcd",
+        "labels": "列表, 布局组件"
+    },
+    {
+        "id": null,
+        "name": "Table.md",
+        "localizedName": "表格",
+        "uuid": "4380376f-f1d2-4d57-a5a7-2aafaecb8cd2",
+        "labels": "表格，模块，组件"
+    },
+    {
+        "id": null,
+        "name": "pagination.md",
+        "localizedName": "分页",
+        "uuid": "503af6c6-759e-4a3d-a2c0-2254fbd708b7",
+        "labels": "分页，模块，组件"
+    },
+    {
+        "id": null,
+        "name": "flow.md",
+        "localizedName": "流程",
+        "uuid": "70f4adcf-3c94-40ed-b380-1fe80960f9c9",
+        "labels": "流程，模块，组件"
+    },
+    {
+        "id": null,
+        "name": "Jobmonitor.md",
+        "localizedName": "任务记录",
+        "uuid": "04d40d0b-e36a-42b8-b734-51f8567d7de6",
+        "labels": "任务记录，模块，组件"
+    }
+
+]

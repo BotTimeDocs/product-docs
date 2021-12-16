@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/FileTrigger.mp4"></video>
+
 ## 概述
 
 文件触发器用于监听指定文件夹下文件变化，设置特定触发条件并自动执行流程。

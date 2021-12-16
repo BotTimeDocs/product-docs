@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MatchPicture.mp4"></video>
+
 ## 概述
 
 在指定范围内寻找指定图片，返回符合的结果集。
@@ -39,6 +41,7 @@
 ## 使用示例
 
 **前置必要组件**：[截屏](../UIAutomation/Screenshot.md)
+
 **此流程执行逻辑**：匹配已截屏的图片。
 
 ![配置匹配图片组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/matchImage2.png)

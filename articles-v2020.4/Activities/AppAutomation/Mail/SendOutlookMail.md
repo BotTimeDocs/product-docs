@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendOutlookMail.mp4"></video>
+
 ## 概述
 
 使用本机 Outlook 中配置的邮箱账号发送邮件。
@@ -10,12 +12,12 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 发件人
 
 - **共享邮箱地址** ：使用 Outlook 中共享邮箱地址作为发件人，执行发送邮件操作。
-- **邮箱地址** ：发件人邮箱地址。如，“××@encootech.com”。
+- **邮箱地址** ：发件人邮箱地址。如，“`××@encootech.com`”。
 
    >**说明：**
    >
@@ -23,9 +25,9 @@
 
 ### 收件人
 
-- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。
-- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】。
-- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分号分割即可；例如：【[user1@encootech.com; user2@encootech.com](mailto:user1@encootech.com;%20user2@encootech.com)】
+- **抄送人** ：发送邮件时的抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：`user1@encootech.com; user2@encootech.com`。
+- **密件抄送** ：发送邮件时的密件抄送人邮箱地址。可写多个收件人，用分号分割即可；例如：`user1@encootech.com; user2@encootech.com`。
+- **收件人** ：邮件接收人邮箱地址。可写多个收件人，用分号分割即可；例如：`user1@encootech.com; user2@encootech.com`。
 
 ### 邮件
 

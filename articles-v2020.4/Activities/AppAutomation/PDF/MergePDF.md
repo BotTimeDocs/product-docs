@@ -1,5 +1,7 @@
 # 合并文件
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MergeFile.mp4"></video>
+
 ## 视频示例
 
 ## 概述
@@ -10,12 +12,12 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
 - **原文件路径** ：输入或选择欲被合并的文件路径列表；点击 "..." 打开弹窗选择文件后可自动生成文件列表数组。可接 IEnumerable 类型变量和对象，例如：数组或集合
-- **新文件路径** ：对此列进行排序操作。填入列索引（例：1，即对第一列进行排序）。
+- **新文件路径** ：合并后的文件路径。
 
 ### 可选项
 

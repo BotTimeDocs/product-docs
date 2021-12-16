@@ -112,6 +112,13 @@
         "labels": "等待, 出现, 元素"
     },
     {
+        "id": "Encootech.AutomationActivity.WhetherElementExistsActivity",
+        "name": "WhetherElementExists.md",
+        "localizedName": "判断元素是否存在",
+        "uuid": "3d1841e8-f824-4052-940c-5c6a54a414ef",
+        "labels": "判断, 是否存在, 元素"
+    },
+    {
         "id": "Encootech.AutomationActivity.WaitElementPropertyActivity",
         "name": "WaitElementAttributeValue.md",
         "localizedName": "等待元素属性值",

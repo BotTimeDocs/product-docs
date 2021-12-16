@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InsertFormula.mp4"></video>
+
 ## 概述
 
 向单元格插入公式，并填充公式运行后的结果。
@@ -10,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -32,6 +34,7 @@
 ## 使用示例
 
 **前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+
 **此流程执行逻辑**：在“Sheet1”工作表的 A2 单元格中插入公式“SUM(A1: D1)”。
 
 ![配置插入公式组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula2.png)

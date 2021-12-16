@@ -1,10 +1,414 @@
 # 云扩 RPA 产品发版说明
 
-本文介绍了云扩 **RPA** 和 **低代码（ViCode）** 产品的的功能发布和对应的文档动态，欢迎体验。
+本文介绍了云扩产品的的功能发布和对应的文档动态，欢迎体验。
 
 > **提示：**
 >
-> 关于社区版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](./QA.md)。
+> 关于社区版与企业版的差异说明，请参见 [常见问题](./FAQ/QA.md)。
+
+## 2021.12.10 发版说明
+
+2021.12.10 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 4.0.65348 |
+
+### 改进与增强
+
+#### 【控制台】
+
+1. 控制台改名为云扩超自动化平台(HAP)，并优化页面展现样式。
+2. 优化上方导航栏中组织架构切换时的用户体验。
+3. 更新用户注册时的《云扩产品用户协议》。
+4. 优化用户注册时“公司名”的唯一性。
+
+#### 【ViCode】
+
+1. 优化“应用管理”页中“操作”名称
+2. 丰富“应用管理”页的列表字段
+
+## 2021.11.20 发版说明
+
+2021.11.20 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   |4.0.63932 |
+|编辑器|1.1.2111.6|
+|机器人|1.1.2111.6|
+|ViCode|-|
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 新增云扩浏览器，支持所有 Web 自动化功能并可以监听 HTTP 传输内容
+2. 在容器类组件内部，支持粘贴一个或多个非序列化的组件
+3. 支持设置 "启用实时编译" 功能，以帮助发现项目中可能存在的错误
+4. 支持创建 [元素项目](./Studio/process/CreateProject/create-element-project.md)，支持将元素项目发布到元素市场，流程项目支持使用元素项目
+5. 在项目的“属性”中或在流程发布时，支持设置项目图标
+6. 支持根据编辑器的运行身份自动设置是否以管理员运行流程
+7. 支持在“开始主页”中“导入项目”
+
+#### 【组件库】
+
+1. 数据库 > [更新数据](./Activities/Database/update-data.md)，用于更新已有数据表中的数据。
+2. 数据库 > [删除数据](./Activities/Database/delete-data.md)，用于删除已有数据表中的数据。
+3. 软件自动化 > Office Excel > [重命名工作表](./Activities/AppAutomation/OfficeExcel/rename-worksheet.md)，用于修改 Excel 的指定工作表名称。
+4. 软件自动化 > Office Excel > [清除格式](./Activities/AppAutomation/OfficeExcel/clear-format.md)，用于清除 Excel 单元格或区域中的内容格式。
+5. 控制台 > [设置资产](./Activities/Console/set-assets.md)，用于设置控制台中的资产的值。
+6. 控制台 > 数据队列 > [获取消息](./Activities/Console/data-queue/get-message.md)，用于获取控制台中的数据队列中的消息。
+7. 控制台 > 数据队列 > [写入消息](./Activities/Console/data-queue/add-message.md)，用于写入消息至控制台中的指定的数据队列中。
+8. 控制台 > 数据队列 > [处理消息](./Activities/Console/data-queue/handle-message.md)，用于对指定的数据队列中的消息进行处理。
+9. 控制台 > 数据队列 > [移除消息](./Activities/Console/data-queue/remove-message.md)，将指定的数据队列中的消息移除。
+10. 代码工具 > 字典 > [打印字典](./Activities/CodeExecuter/Dictionary/print-dictionary.md)，将字典内容以键值对的方式输出至“输出面板”。
+11. 代码工具 > 字典 > [获取值](./Activities/CodeExecuter/Dictionary/get-dictionary-value.md)，用于获取字典中 key 对应的 value 的值。
+12. 计算机视觉 > [指定 CV 窗口](./Activities/ComputerVision/assign-cv-window.md)，用于对指定的窗口执行分析并为所有后续计算机视觉组件提供范围。
+13. 计算机视觉 > [CV 点击](./Activities/ComputerVision/cv-click.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，点击该区域中的某个用户界面元素。
+14. 计算机视觉 > [CV 悬停](./Activities/ComputerVision/cv-hover.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将鼠标悬停于该区域中的某个用户界面元素上。
+15. 计算机视觉 > [CV 输入文本](./Activities/ComputerVision/cv-input-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，向该区域中的某个用户界面元素发送需要输入的文本内容。
+16. 计算机视觉 > [CV 获取文本](./Activities/ComputerVision/cv-get-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，从该区域中的某个用户界面元素上提取文本内容。
+17. 计算机视觉 > [CV 发送快捷键](./Activities/ComputerVision/cv-send-shortcut.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将键盘快捷方式发送至该区域中的某个用户界面元素上。
+18. 计算机视觉 > [CV 等待元素出现](./Activities/ComputerVision/cv-wait-element-appear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素出现。
+19. 计算机视觉 > [CV 等待元素消失](./Activities/ComputerVision/cv-wait-element-disappear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素消失。
+
+#### 【机器人】
+
+1. 支持创建指定流程执行的 [快捷方式](./Robot/localworkflow.md) 至桌面
+2. 在“正在执行”界面，支持以流程目录树的形式查看流程的执行进度
+3. 支持对正在执行流程进行暂停/继续操作
+
+#### 【控制台】
+
+1. 在“数据中心”中，新增 [数据队列](./Console/datacentor/data-queue.md) 模块，用于存储大量的消息，通常用于可积压可异步处理的工作场景
+2. 在“机器人管理详情”页的“计算机监控”选项页中，支持[远程控制](./Console/robot/manageRobot.md)单个或多个机器人桌面
+3. 在“机器人管理”页，支持[远程升级](./Console/robot/manageRobot.md)单个和多个机器人软件的版本
+4. 在“任务记录”页中，支持流程大纲方式查看流程执行进度
+5. 在“任务记录详情”页中，支持自动加载显示视频字幕
+6. 在“机器人管理”页，支持批量分配/解除许可证
+7. 在“流程部署”页中，支持批量更新流程包版本
+8. 在“流程包管理详情”页中，支持查看单个流程包版本关联的“流程部署”
+9. 在“流程包管理详情”、“流程部署详情”、“机器人队列详情”、“机器人管理详情”页中，支持筛选任务记录
+10. 在“机器人管理详情”页，支持修改许可证类型
+11. 在“全局管理 > 角色管理”页中，支持模糊搜索角色信息
+12. 在“全局管理 > 用户管理”页中，支持模糊搜索和筛选用户信息
+13. 在“数据中心 > 资产管理”页中，支持模糊搜索和筛选资产信息
+14. 在“流程部署详情”页中，当流程参数为 DateTime 时，支持选择日期和时间，代替手动输入
+
+#### 【ViCode】
+
+1. 在“应用管理”页，新建应用时支持为 ViCode 应用添加标签
+2. 在“应用管理”页，支持模糊搜索应用列表
+3. 在“应用管理详情”页，支持修改非“启用”状态的应用的“基本信息”
+4. 系统变量 `$user` 支持获取账号信息
+5. 合并“应用管理”编辑页面中的数据源和数据模型模块
+6. 新增 “输入组件 > 日期范围选择”，可选择日期范围
+7. 在“我的应用”页，支持模糊搜索“我的应用”记录
+8. 在“数据模型”中，支持为 SQL 系列的连接添加“查询语句”和“执行语句”
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化组件的弹窗样式，使其样式统一
+2. 优化编辑器左侧菜单的导航栏图标、右上角图标样式
+3. 优化流程运行调试和发布时的验证效率
+4. 优化组件面板中的“展开/折叠”图标
+5. 优化编辑流程用户体验，在流程图下，当拖入第一个组件时，自动将该组件连接至开始节点
+6. 优化新建项目界面，调整项目类型至高级设置
+
+#### 【组件库】
+
+1. 软件自动化 > 浏览器 > 打开浏览器，支持在独立运行模式下使用
+2. 数据表 > 预览数据表，支持在弹窗中显示数据总行数
+3. 代码工具 > Python > 执行 Python 代码，支持数组、字典、列表等复杂类型变量
+4. 代码工具 > 文本 > 提取文本，支持返回多个提取结果
+5. 代码工具 > C# > 执行 C#代码，支持在 C#代码中通过引用命名空间直接调用 OfficeExcel
+6. 系统 > 提示框，支持设置提示后流程继续运行
+7. 系统 > 设置日期和时间，弹窗样式
+8. 流程控制 > 判断 > 条件（If），支持支持弹窗形式“创建条件”
+9. 界面自动化 > 输入文本，支持在输入文本之前点击
+10. 修改“流程决策”组件为“流程判断”
+11. 优化 获取末行号、插入行/列、排序、筛选、设置单元格格式 组件，支持字母/数字列号
+
+#### 【机器人】
+
+1. 优化机器人流程库页面，自动刷新本地/控制台流程库列表
+2. 优化定时任务中的日期和时间选择框控件的使用体验，使之点击图标或文本框时都可以出现日期时间选择器控件
+
+#### 【控制台】
+
+1. 优化修改“流程包管理详情”、“流程部署详情”页时的用户体验
+
+#### 【ViCode】
+
+1. 优化“表格”组件，支持多选、导出、刷新、排序等功能的设置
+2. 优化“按钮”组件，支持“事件加载”功能的设置
+3. 优化“分栏布局”组件，支持左右比例调整和高度自动缩放
+4. 优化“模块组件 > 流程”，支持接收 RPA 流程的返回结果
+5. 优化“应用管理”编辑页面中的主题及布局默认样式，移除主题，不启用“布局默认样式”中的“默认组件边距”
+6. 优化数据模型视图的展现样式
+7. 优化“我的应用”的网页标题的展示样式，使其与创建应用时的图标一致
+
+### 问题修复
+
+#### 【编辑器】
+
+1. 修复“打开 > 控制台流程”中的流程包的“下载数”，使之动态更新
+
+#### 【组件库】
+
+1. 修复了 控制台 > 获取账号，未能正确获取用户名的问题
+
+## 2021.11.05 发版说明
+
+2021.11.5 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 4.0.62203 |
+
+### 新增功能
+
+#### 【控制台】
+
+1. “角色管理”页面，支持模糊搜索。
+2. “用户管理”页面，支持模糊搜索和条件过滤。
+3. “资产管理”页面，支持模糊搜索和条件过滤。
+
+## 2021.10.15 发版说明
+
+2021.10.15 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| AIHub   | - |
+
+### 新增功能
+
+#### 【AI Hub】
+
+1. 云扩 AI 服务全面接入服务管控，统一通过 App 密钥授权使用，用户可以联系商务购买生成 App 密钥使用云扩 AI 服务。
+2. AI Hub 接入“云扩 AI 高级版”服务，提供更加方便使用的结构化数据返回。
+
+## 2021.10.14 发版说明
+
+2021.10.14 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2109.13 |
+|机器人  |1.1.2109.13|
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 支持 [静默并行流程](./Studio/process/developProject/TypeOfWorkflow/Parallel.md)，实现无需用户界面，也无需用户干预即可与前台流程并行执行。
+2. 企业版编辑器支持 [在线更新](./Studio/quickStart/Installation.md) 升级，无需用户手动下载安装包更新。
+3. 支持鼠标双击添加组件至设计面板中，提升用户体验。
+4. 支持在“项目面板”中，移动、复制/粘贴文件，提升用户体验。
+5. 支持在变量/参数面板中变更变量/参数时，自动关联变更已引用的变量/参数。
+6. 支持输出面板浮动显示，方便查看设计面板中的流程。
+
+    ![输出面板浮动](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outputpanel20211014.png)
+
+7. 流程发布到控制台时，支持自定义流程图标，方便在“控制台流程”中查找已发布的流程。
+
+    ![控制台流程库](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/publishlogo20211014.png)
+
+8. 导出或发布流程时，支持依赖项可选择，同时支持导出每个流程文件对应的大纲，满足特定的用户场景。
+
+    ![导出流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/importproject20211014.png)
+
+    ![大纲文件](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outline20211014.png)
+
+9.  自动化录制技术 UIA3 支持更多的属性，如，AccessKey、AcceleratorKey、 HelpText、 ItemType、 ItemStatus、 Orientation。
+
+    ![UIA3](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/UIA320211014.png)
+
+#### 【组件】
+
+1. 控制台 > [获取账号](./Activities/Console/GetAccount.md)：用于获取控制台的个人用户信息。
+2. 控制台 > [执行流程部署](./Activities/Console/ExecuteFlowDeployment.md)：用于执行控制台中已创建的“流程部署”。
+3. 数据库 > [创建表](./Activities/Database/CreateTable.md)：用于在已连接的数据库中创建数据表。
+4. 数据库 > [删除表](./Activities/Database/Droptable.md)：删除已连接的数据库内已创建的数据表。
+5. 数据库 > [插入数据](./Activities/Database/InsertData.md)：在已有的数据表中插入数据。
+6. 数据库 > [查询](./Activities/Database/QueryData.md)：根据指定的筛选条件，查询已连接的数据库内已创建的数据表中的数据。
+7. 系统 > 应用程序 > [进程是否存在](./Activities/System/Application/ProcessExists.md)：根据指定的进程名，判断本地电脑上的进程名是否存在。
+8. 系统 > 应用程序 > [关闭进程](./Activities/System/Application/CloseProcess.md)：关闭指定的正在运行中的进程。
+9. 软件自动化 > Office Excel > [取消筛选](./Activities/AppAutomation/OfficeExcel/CancelFilter.md)：取消筛选指定工作表中的已设定筛选的指定列。
+10. 界面自动化 > [判断元素是否存在](./Activities/UIAutomation/WhetherElementExists.md)：用于判断指定的元素是否存在。
+
+#### 【机器人】
+
+1. 企业版机器人支持 [在线更新](./Robot/updateRobot.md) 升级，无需用户手动下载安装包更新。
+2. 支持 [“本地自动解锁运行流程”和“RDP 远程会话保持”](./Robot/Settings/Basic.md)，保证流程执行的稳定性。
+
+    ![执行流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/executeflow20211014.png)
+
+3. 支持在新建 [定时任务](./Robot/CronJob.md) 时，设置“是否启用”定时任务以及机器人忙碌时的处理方式，满足特定的用户场景。
+
+    ![定时任务](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/cronjob20211014.png)
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化 Web 元素选择器定位支持 title 属性，以及支持 index 属性倒序排序定位。
+2. 优化“终止处理流程”，可通过 state 参数辨别结束状态。
+3. 优化“开始主页 > 打开 > 控制台流程 " 页的布局样式，提升用户使用体验。
+4. 优化”项目设置“中的”匹配超时“时间，由原来的 5 秒变更为默认的 15 秒。
+5. 更新“开始主页 > 设置 > 快捷键”列表。
+6. 优化”独立运行“窗口，支持在”独立桌面“中查看”状态栏“信息。
+7. 优化用户编辑流程体验：当组件拖入的数量到达底部时，流程图能自动扩展边界。
+8. 优化关闭项目时，如有未保存的文件时的提示信息，提升用户使用体验。
+9. 优化登录界面，记住上一次连接的控制台地址&密码显示/隐藏功能，提升用户使用体验。
+10. 优化网页自动化无法定位元素时，展示在”输出面板“中的报错提示信息，方便定位问题。
+
+#### 【组件】
+
+1. 优化所有组件的组件属性，支持显示原组件名称，便于与组件的显示名称进行区分。
+2. 优化 "软件自动化 > 邮件" 系列组件，增加”超时“属性，提升用户使用体验。
+3. 优化 "系统 > 下拉选择框" 组件，支持在输入框中搜索，提升用户使用体验。
+4. 优化 "写入文件、读取文件、保存为 CSV 文件、读取 CSV 文件" 这些组件，支持在弹窗显示组件时可以下拉选择“编码方式”，提升用户使用体验。
+5. 优化 "AI Hub" 系列组件，支持配置“图片对象”的形式进行 OCR 识别。
+6. 优化“界面自动化 > 获取元素属性值”组件，支持获取 Web 元素的 title 属性。
+7. 优化“界面自动化 > 获取结构化数据 " 组件，支持感知页面中“下一页”按钮的 disabled 状态是否可点击。
+
+#### 【机器人】
+
+1. 优化“正在执行“页面，支持按“日志类型”筛选日志信息，方便区分系统日志和业务日志。
+2. 优化“流程库”页面，移除“执行状态”字段和“操作”栏中的“终止”操作，提升用户使用体验。
+3. 优化菜单导航，”定时任务页“移至”流程库“下方，提升用户使用体验。
+4. 优化“任务记录”页面，支持展示“等待”状态的执行任务，且无任务记录时给出提示信息，提升用户使用体验。
+
+## 2021.08.20 发版说明
+
+2021.08.20 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 4.0.56197 |
+
+### 新增功能
+
+#### 【控制台】
+
+1. 【仪表盘】支持在控制台仪表盘中查看子部门数据
+2. 【流程包管理】
+
+    - 支持单次上传多个流程包信息
+    - 支持对流程包管理列表中的“更新时间”字段排序
+    - 支持在查看单个流程包的流程部署、任务记录信息
+    - 支持批量删除流程包
+
+3. 【流程部署】
+
+    - 支持新建流程部署时配置任务异常时通知相关人员
+    - 支持批量执行/删除流程部署信息
+
+4. 【机器人管理】支持将机器人分享给该组织中的其他部门
+5. 【调度队列】支持批量删除调度队列列表
+6. 【任务记录】
+
+    - 支持在任务记录详情中查看日志信息时，按日志类型筛选日志信息
+    - 支持删除单个或多个任务记录
+7. 【文档理解】在新建 PDF 抽取模型的文档理解时，支持“按词义自动补全”的抽取标签方式识别
+
+## 2021.08.16 发版说明
+
+2021.08.16 发布了云扩 RPA , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   | 1.1.2108.9 |
+| 机器人   | 1.1.2108.9 |
+
+### 新增功能
+
+#### 【编辑器】
+
+1. 支持以独立运行模式运行或调试流程，避免影响当前用户正在进行的工作，提高工作效率。
+2. 支持流程项目运行或调试时全局异常处理，代替使用 TryCatch 组件捕获流程异常，提升用户体验。
+3. 支持流程执行过程中被停止时的资源清理，提高流程开发效率。
+4. 支持以文本形式打开和编辑 Xaml 流程文件，提升用户体验。
+5. 支持删除流程项目中未使用的变量或参数，减少冗余资源，提升用户体验。
+6. 支持在调试过程中修改变量和参数的值，方便用户即时调试流程，提升用户体验。
+7. 在”选择器编辑器“或”元素探测器“的 ProcessName 和 FilePath 属性中，支持通配符，满足特殊场景需求。
+8. 支持在编辑器的内置浏览器中查看组件的帮助文档，提升用户体验。
+
+#### 【组件库】
+
+1. 数据表 > [设置数据表的值](./Activities/DataTable/DataTableSetValue.md)，设置已有非空数据表的指定单元格的值。
+2. 数据表 > [设置数据行的值](./Activities/DataTable/DataRowSetValue.md)，设置已有非空数据表的指定数据行所在单元格的值。
+
+#### 【机器人】
+
+1. 支持手动执行流程时选择用“[独立运行](./BestPractices/RunAlone.md)”的方式执行，避免影响当前用户正在进行的工作，提高工作效率。
+
+### 改进与增强
+
+#### 【编辑器】
+
+1. 优化表达式编辑器的输入体验，支持在表达式编辑器输入字符时忽略空格。
+2. 优化”在线咨询“功能，支持微信扫码加入学习群。
+3. 优化“版本控制”中的专业名词，使之通俗易懂。
+4. 优化“关于” 页面，支持查看编辑器的环境信息、支持微信扫码或电话联系云扩。
+5. 优化流程开发体验，在流程图画布内，支持连接的组件之间以图标形式添加组件。
+6. 优化“新手引导”内容，提升用户体验。
+
+#### 【组件库】
+
+1. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)，支持连接 PostgreSQL 数据库。
+2. 优化组件，支持默认变量，提升用户体验。
+3. 优化组件的文件/文件夹路径/目录的展现形式，支持选择的方式，提升用户体验。
+
+### 问题修复
+
+#### 【编辑器】
+
+1. 修复旧版本中的项目在新版本中打开时，项目设置中常规页面丢失的问题。
+2. 修复导入 dgs 流程包时无法发布的问题。
+
+## 2021.08.12 发版说明
+
+2021.08.12 发布了云扩 AI Hub。
+
+### 新增功能
+
+#### 【AI Hub】
+
+1. 新增云扩自研 AI OCR 服务: 身份证识别、 行驶证识别、 车辆合格证识别、 增值税发票识别、 购车发票识别、 表格识别
+
+## 2021.08.06 发版说明
+
+2021.08.06 发布了云扩控制台 , 本次发布的产品及版本号为：
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   | 4.0.55003 |
+
+### 新增功能
+
+#### 【控制台】
+
+1. 资产管理中的单个资产支持权限控制，与其它模块保持一致，方便统一管理。
+2. 资产管理支持选择不同类型的加密方式，满足特定的场景。
+3. 单个文档理解资源接入新的权限系统，方便管理员统一管理。
+4. 部门资源及单个资源权限配置增加”无权限“选项，限制用户访问特定资源。
+
+## 2021.08.03 发版说明
+
+2021.08.03 发布了云扩 AI Hub。
+
+### 新增功能
+
+#### 【AI Hub】
+
+1. 新增“编辑器中的 AI Hub 类的组件可通过 AIHub key 授权登录”功能，可以允许非云扩 Saas 用户（私有化部署 Saas 用户、许可证激活用户等）调用 AIHub 的 AI 服务。
+2. 新增服务商-票小秘，支持调用票小秘增值税发票、卷票、定额发票、出租车票以及飞机票的 OCR 识别。
+3. 新增服务商-微软云，支持微软云的通用 OCR 接口，支持多达 73 种文字的 OCR 识别。
+4. 新增“发票识别验真”服务，支持直接调用票小秘对增值税发票 OCR 识别，并校验真伪。
 
 ## 2021.07.30 发版说明
 
@@ -18,16 +422,16 @@
 
 #### 【ViCode】
 
-1. 新增布局组件 > [动态组件](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
+1. 新增布局组件 > [动态组件](./Apps/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
 2. 在组件的“事件”中，新增“运行流程”的事件行为，用于运行控制台中当前部门下的“流程部署”中的流程。
 3. 在组件的“事件”中，新增“打开/关闭弹窗”的事件行为，用于打开/关闭 "对话框" 组件。
-4. 新增 [Excel 数据源](./Apps/v4.0.x/devApps/appsedit/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
+4. 新增 [Excel 数据源](./Apps/devApps/appsedit/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化输入组件 > [文件上传](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
+1. 优化输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
 2. 优化 Echarts 社区组件库，丰富组件库数量，提升用户使用体验。
 
 ### 问题修复
@@ -131,13 +535,13 @@
 
 1. 上线控制台 V4 版本，提供全新的组织架构及权限系统，方便管理员管理公司组织架构权限等信息，主要包括如下：
 
-    - [组织架构管理](./Console/v4.0.x/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
+    - [组织架构管理](./Console/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
     - 部门权限配置：支持自定义当前部门的用户、机器人、API KEY 访问等不同模式的数据权限。
     - 单个资源权限配置：支持在“角色管理”中设置“权限管理”权限，在对应资源列表详情页中可配置该资源的数据权限。
-    - [用户管理](./Console/v4.0.x/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
-    - [角色管理](./Console/v4.0.x/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
+    - [用户管理](./Console/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
+    - [角色管理](./Console/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
 
-2. 通过是否激活 [许可证](./Console/v4.0.x/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
+2. 通过是否激活 [许可证](./Console/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
 3. 控制台 V4 版本支持社区版，方便用户试用。
 4. 机器人创建之后，默认内置“部门功能管理员” 角色，可在”组织架构管理 > 数据权限配置 > 机器人权限 > 查看当前部门机器人权限“中查看，便于管理部门机器人权限。
 
@@ -148,7 +552,7 @@
 3. 在“全局管理 > 许可证”中，新增“应用发布数量”，方便用户查看已发布的 ViCode 应用的数量。
 4. 与企业微信集成，支持企业微信扫码登录控制台，并能够在企业微信中查看并使用“我的应用”，方便用户一键登录并管理“我的应用”。
 5. 在应用开发页面中的“数据”模块中，支持与控制台全新权限系统集成，方便管理数据源权限。
-6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./Apps/v4.0.x/devApps/appsedit/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
+6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./Apps/devApps/appsedit/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
 7. 在应用管理页面中，支持新建“组合应用”，使之可以关联多个本部门下的基本应用，满足用户使用场景。
 8. 支持跨租户进行应用拷贝，便于给用户提供初始化应用。
 
@@ -216,8 +620,8 @@
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [散点图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
-2. 模态视图 > [对话框](./Apps/v4.0.x/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [散点图](./Apps/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
+2. 模态视图 > [对话框](./Apps/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -298,13 +702,13 @@
 
 #### 【ViCode】
 
-1. 新增 [数据表](./Apps/v4.0.x/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
-2. 支持在数据源中新增 [数据表类型的数据源](./Apps/v4.0.x/devApps/appsedit/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
+1. 新增 [数据表](./Apps/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
+2. 支持在数据源中新增 [数据表类型的数据源](./Apps/devApps/appsedit/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
 3. 手机端支持使用“我的应用”，方便用户在企业微信中快速查找使用“我的应用”小程序，提升用户体验。
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [折线图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [折线图](./Apps/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -324,21 +728,21 @@
 
 1. 在应用的编辑模式中，支持选中组件后进行复制和删除操作，提升开发人员使用体验。
 2. 在应用的编辑模式中，支持画布按 Web 端和移动端进行切换，方便开发人员开发出适应不同平台的应用。
-3. 新增 [主题](./Apps/v4.0.x/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
+3. 新增 [主题](./Apps/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
 4. 在“我的应用”中，支持收藏应用，方便用户可以在控制台首页中快速查找已收藏的应用。
 
 #### 【ViCode 的组件库】
 
-1. 布局组件 > [分栏布局](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
-2. 输入组件 > [文件上传](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
-3. 图表组件 > [柱状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
-4. 图表组件 > [饼状图](./Apps/v4.0.x/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 布局组件 > [分栏布局](./Apps/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
+2. 输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
+3. 图表组件 > [柱状图](./Apps/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
+4. 图表组件 > [饼状图](./Apps/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [全局变量](./Apps/v4.0.x/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
+1. 优化 [全局变量](./Apps/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
 2. 应用管理与应用开发模块合并，使得管理员和开发人员可以集中管理与开发当前部门下的应用。
 
 #### 【控制台】
@@ -362,26 +766,26 @@
 
 #### 【ViCode 的组件库】
 
-1. 展示组件 > [图标](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
-2. 展示组件 > [视频](./apps/v4.0.x/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
-3. 输入组件 > [多行文本框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
-4. 输入组件 > [单选框](./apps/v4.0.x/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
+1. 展示组件 > [图标](./apps/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
+2. 展示组件 > [视频](./apps/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
+3. 输入组件 > [多行文本框](./apps/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
+4. 输入组件 > [单选框](./apps/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
-1. 新增 [文件类数据连接器](./Console/v4.0.x/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
-2. [多重身份验证配置](./Console/v4.0.x/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
+1. 新增 [文件类数据连接器](./Console/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
+2. [多重身份验证配置](./Console/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [连接器映射关系](./Apps/v4.0.x/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
+1. 优化 [连接器映射关系](./Apps/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
 2. 优化组件的默认填充样式，使得所有组件拖拽至画布中默认横向自动扩展占满画布，提升开发人员使用体验。
 
 #### 【控制台】
 
-1. 优化文件服务，支持 [新建根目录文件夹](./Console/v4.0.x/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
+1. 优化文件服务，支持 [新建根目录文件夹](./Console/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
 
 ## 2021.04.02 发版说明
 
@@ -411,8 +815,8 @@
 3. 手机自动化 > [设置剪贴板文本](./Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
 4. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
 5. 界面自动化 > [设置窗口](./Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
-6. 资源 > 数据表 > [创建表](./Activities/Resource/DataBase/createtable.md)、[删除表](./Activities/Resource/DataBase/deletetable.md)、[执行语句](./Activities/Resource/DataBase/executesql.md)、[更新表](./Activities/Resource/DataBase/datatableupdated.md)、[查询](./Activities/Resource/DataBase/datatablequery.md)、[清空全部数据表](./Activities/Resource/DataBase/emptydatabase.md)，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
-7. 资源 > 文本 > [文本赋值](./Activities/Resource/Text/assignglobaltext.md)、[读取文本](./Activities/Resource/Text/readglobaltext.md)，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
+6. 资源 > 数据表 > 创建表、删除表、执行语句、更新表、查询、清空全部数据表，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
+7. 资源 > 文本 > 文本赋值、读取文本，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
 8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
 
 #### 【AI Hub】
@@ -453,24 +857,24 @@
 
 #### 【小程序】
 
-1. 新增 [数据源管理](./Apps/v4.0.x/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
-2. 新增 [代码管理](./Apps/v4.0.x/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
-3. 新增 [连接器映射关系管理](./Apps/v4.0.x/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
+1. 新增 [数据源管理](./Apps/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
+2. 新增 [代码管理](./Apps/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
+3. 新增 [连接器映射关系管理](./Apps/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
 4. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
 5. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
 6. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
-7. 布局组件 > [列表](./Apps/v4.0.x/devApps/appsedit/component/LayoutComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
-8. 模块组件 > [表格](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
-9.  模块组件 > [分页](./Apps/v4.0.x/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
-10. 展示组件 > [IFrame](./Apps/v4.0.x/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
-11. 输入组件 > [密码输入框](./Apps/v4.0.x/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
+7. 布局组件 > [列表](./Apps/devApps/appsedit/component/ModuleComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
+8. 模块组件 > [表格](./Apps/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
+9.  模块组件 > [分页](./Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
+10. 展示组件 > [IFrame](./Apps/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
+11. 输入组件 > [密码输入框](./Apps/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
 
 #### 【控制台】
 
-1. 上线全新的 [组织架构及权限系统](./Console/v4.0.x/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
+1. 上线全新的 [组织架构及权限系统](./Console/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
 2. 公司架构管理支持多级部署，方便管理员更好地维护企业上级公司与子公司之间的关系。
-3. 支持 [多重身份验证](./Console/v4.0.x/management/syssetting.md) 配置，保证系统安全性。
-4. 支持创建并管理各类 [数据连接器](./Console/v4.0.x/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+3. 支持 [多重身份验证](./Console/management/syssetting.md) 配置，保证系统安全性。
+4. 支持创建并管理各类 [数据连接器](./Console/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
 
 ### 改进与增强
 

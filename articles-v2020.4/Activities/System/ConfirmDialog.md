@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ConfirmBox.mp4"></video>
+
 ## 概述
 
 以弹框形式将需要人工确认的信息展现出来，并可通过用户的确认结果来做后续判断与流程走向的控制。

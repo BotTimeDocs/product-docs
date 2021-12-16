@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-![click](https://docimages.blob.core.chinacloudapi.cn/images/Activities/video/click.mp4)
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Click.mp4"></video>
 
 ## 概述
 

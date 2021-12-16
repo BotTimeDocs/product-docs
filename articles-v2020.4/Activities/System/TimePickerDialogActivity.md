@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/DatetimeSelectionBox.mp4"></video>
+
 ## 概述
 
 流程运行时弹窗让用户选择日期和时间并输出。
@@ -32,3 +34,9 @@
 
 **执行结果**：
 ![选择指定的日期和时间](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-4.png)
+
+## 常见问题
+
+1. **Q：在点击图标会出现的日历框中选择时间，如何定位到每月的26号？**
+
+    **A：** 需要根据具体的日期控件分析。由于系统不同，日期框的实现也不一样，可以直接设置的日期框较简单，需要点击选择的日期框，要看日期的控件属性。
