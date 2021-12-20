@@ -63,6 +63,34 @@
         "labels": "数据, 删除, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteCellActivity",
+        "name": "delete-cell.md",
+        "localizedName": "删除单元格",
+        "uuid": "e89aa2fc-e67d-4cf3-b9b7-c2d1547b3c1a",
+        "labels": "单元格, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteRangeActivity",
+        "name": "delete-range.md",
+        "localizedName": "删除区域",
+        "uuid": "d6727665-c33c-4352-8a85-2d2f27a83500",
+        "labels": "区域, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteRowActivity",
+        "name": "delete-row.md",
+        "localizedName": "删除行",
+        "uuid": "692ffb76-a24f-416b-922b-e957127458d7",
+        "labels": "行, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteSheetActivity",
+        "name": "delete-sheet.md",
+        "localizedName": "删除工作表",
+        "uuid": "05d1a285-469e-4a76-935e-4e60e4e0c3aa",
+        "labels": "工作表, 删除, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelGetLastRowIndexActivity",
         "name": "GetLastRow.md",
         "localizedName": "获取末行号",
