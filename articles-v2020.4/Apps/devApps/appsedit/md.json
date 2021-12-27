@@ -36,13 +36,6 @@
     },
     {
         "id": null,
-        "name": "datasource.md",
-        "localizedName": "数据页面",
-        "uuid": "6339568b-8a29-4406-9a7c-369c9477facb",
-        "labels": "数据源, 组件, 应用"
-    },
-    {
-        "id": null,
         "name": "executecode.md",
         "localizedName": "代码页面",
         "uuid": "a94171e6-c2e6-4748-8c7f-b59ccb35775a",
@@ -50,21 +43,15 @@
     },
     {
         "id": null,
-        "name": "connector.md",
-        "localizedName": "连接页面",
-        "uuid": "790b0346-277c-4366-91cb-886f35190e05",
-        "labels": "连接器, 映射关系, 应用"
+        "name": "datamodel",
+        "localizedName": "数据模型",
+        "uuid": "",
+        "labels": ""
     },
     {
         "id": null,
         "name": "component",
         "localizedName": "组件",
         "uuid": ""
-    },
-    {
-        "id": null,
-        "name": "datatable.md",
-        "localizedName": "数据表",
-        "uuid": "数据表，表格"
     }
 ]

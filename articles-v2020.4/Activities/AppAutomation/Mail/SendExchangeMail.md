@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendExchangeMail.mp4"></video>
+
 ## 示例
 
 使用 Exchange 服务发送邮件。

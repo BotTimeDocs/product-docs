@@ -1,8 +1,5 @@
 # 更新机器人
-当机器人有新版本时，系统会自动检测并弹出更新窗口提示更新。
 
-当你选择“**接受并继续**”，系统将下载最新版本机器人，你可以通过后续步骤更新机器人至最新版本。
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/updaterobot.png)
-
-如果你暂时不想更新机器人，你也可以选择“**请勿更新**”，关闭提示弹窗。
-
+当机器人有新版本时，系统会自动检测并提示是否需要进行更新。
+  
+![自动更新](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotautoupdate20211011.png)

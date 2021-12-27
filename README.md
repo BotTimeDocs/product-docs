@@ -15,13 +15,3 @@
 ## 产品试用
 
 **云扩 RPA 试用地址**：你可以通过注册登录 [云扩 RPA 控制台](https://console.encoo.com/) 下载并体验相关产品的社区版。
-
-## 产品文档
-
-本文作为云扩 RPA 的帮助指南，所以我们将主要介绍如何使用云扩 RPA 平台去自动化业务流程。点击以下链接，快速开始我们的 RPA 之旅！
-
-- [云扩 RPA 编辑器文档](/articles-v2020.4/Studio/README.md)
-- [云扩组件库文档](/articles-v2020.4/Activities/README.md)
-- [云扩 RPA 机器人文档](/articles-v2020.4/Robot/aboutRobot.md)
-- [云扩 RPA 控制台文档](/articles-v2020.4/Console/v4.0.x/README.md)
-- [云扩 ViCode 文档](/articles-v2020.4/Apps/v4.0.x/README.md)

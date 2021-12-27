@@ -1,10 +1,8 @@
 # 机器人运行统计表
 
-**本功能仅企业版可见**
-
 本页面主要用于展示当前部门下所有机器人的执行任务次数、完成次数、忙碌时长及忙碌比等情况。默认展示最近 7 天数据，可自由筛选时间段范围内的机器人运行数据。
 
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboardrun1.png)
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/HAP/robotdashboard20211208.png)
 
 - **图表展示**：
 

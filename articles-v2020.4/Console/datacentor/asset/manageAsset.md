@@ -1,43 +1,50 @@
 # 管理资产
 
+## 创建资产
+
+1. 进入云扩 RPA 控制台的“数据中心 > 资产管理”页面。
+2. 单击“资产管理”页面右上角的“+新建”。
+
+    ![新建资产](https://docimages.blob.core.chinacloudapi.cn/images/HAP/assets20211208.png)
+
+3. 在弹出的“新建”框中，填写相关信息。
+
+    - **资产名称**：自定义容易识别的资产名称。
+    - **资产类型**：选择不同的资产类型，需要填写不同的资产值。
+
+        - 字符串：可以存储字符串值的资产。。
+        - 整型：可以存储整数的资产。
+        - 浮点型: 可以存储小数的资产。
+        - 布尔型：可以存储 True 或 False 值的资产。。
+        - 账户凭证密码：可以存储账户凭证密码的资产。
+
+    - **资产存储方式**：除“账户凭证密码”外，根据已选择的不同资产类型，可选择普通存储或加密存储。
+    - **存储算法类型**：仅当资产类型为“账户凭证密码”时，可选择“默认加密算法”（AES-256）或 “国密加密加密算法”。
+
+    ![新建资产弹框](https://docimages.blob.core.chinacloudapi.cn/images/HAP/testdemo20211208.png)
+
+    > **注意：**
+    >
+    > 资产创建后，无法更改资产类型。
+
+4. 单击“确定”，完成资产的创建。
+
 ## 查看资产列表
 
 进入“数据中心 > 资产管理”页面，即可通过列表查看当前部门下所有的资产信息。
 
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3assettable.png)
+## 查看资产详情
 
-## 新建资产
+在“资产列表”页，点击资产的名称或者“操作”栏中的“查看”选项，即可查看资产的详细信息。
 
-点击“新建”按钮，填写资产名称、资产类型、资产值相关信息后点击”确认”按钮即可完成资产创建。选择不同的资产类型，需要填写不同的资产值：
+![Asset](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewasset20211208.png)
 
-- 字符串：填写字符串值。
-- 整型：填写整型值。
-- 浮点型: 填写浮点值。
-- 布尔型：下拉选择Ture/False。
-- 账户密码凭证：定义账户及密码。
+## 搜索资产
 
-例如，我们新建一个账户密码凭证，填写资产名称、账户、密码等信息点击“保存"即可，对于账户密码凭证系统会默认加密存储。
+在“资产管理”列表页，可按不同的条件搜索和过滤相应的资产列表信息。
 
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3creatasset.png)
-
-## 查看资产详细信息
-
-点击资产的名称或者操作选中的“查看”按钮即可查看资产的详细信息。
-
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3viewasset.png)
-
-## 编辑资产信息
-
-在用户详情弹窗中点击“编辑”按钮后即可对用户信息进行修改，修改完成后点击”保存”即可完成修改。
-
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3editasset.png)
-
->**说明：**
->
->若选择存储方式为“加密存储”，则编辑时无法看到原始值，若保持为空提交则意味着不对资产值进行修改。
+![搜索资产](https://docimages.blob.core.chinacloudapi.cn/images/HAP/searchasset20211208.png)
 
 ## 删除资产
 
-点击“操作”选项中的“删除”按钮即可删除对应资产。
-
-![Asset](https://docimages.blob.core.chinacloudapi.cn/images/Console/Asset/V3deleteasset.png)
+在“资产列表”页，点击“操作”栏中的“删除”选项，即可删除对应资产。

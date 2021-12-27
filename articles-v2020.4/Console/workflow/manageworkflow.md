@@ -25,22 +25,25 @@
     - 指定队列执行：从该部门下已创建的队列进行选择
     - 指定机器人选择: 展示该部门下所有的机器人
 
-3. 点击“保存”，可完成流程部署的新建；点击“保存并设置定时计划”，即开始快捷配置定时计划，可参见[任务计划管理](../workflow/trigger.md)。
+3. 点击“保存”，可完成流程部署的新建；点击“保存并设置定时计划”，即开始快捷配置定时计划，可参见 [管理任务计划](../workflow/trigger.md)。
 
-## 查看流程部署配置信息
+    > **说明：**
+    > 已创建的“流程部署”，如果需要立即手动执行流程，可参见 [手动执行流程](./runworkflow.md)。
 
-点击流程部署中的“配置”选项页，可查看流程部署的配置信息。
+## 查看流程部署详情
 
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow5.png)
+单击流程部署列表页中的“流程部署名称”或单击“操作”栏中的“查看”选项，可查看流程部署详情。
 
-## 基本配置及参数修改
+![process](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewworkflowdetail20211208.png)
 
-在流程部署的“配置”页面中点击“编辑”按钮即可对基本配置信息及参数信息进行修改，修改完成后点击“保存”按钮即可。
+- **基本信息**：展示当前流程包的基本信息，单击“编辑”按钮，可变更流程部署的基本信息。
+- **任务计划**：展示当前流程包对应的任务计划列表，参见 [管理任务计划](./trigger.md)。
+- **任务记录**：展示当前流程包对应的任务执行历史记录，参见 [流程部署任务记录](./workflowjob.md)。
 
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow6.png)
+## 搜索流程部署
+
+在页面左上角的搜索框中，输入“流程部署名称”、“标签”、“备注”信息，可模糊查找对应的流程部署。
 
 ## 删除流程部署
 
-点击所选的流程部署操作选项中的“删除”按钮即可删除相应的流程部署。
-
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow7.png)
+点击所选的流程部署“操作”栏中的“删除”选项，即可删除相应的流程部署。

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExcuteStatement.mp4"></video>
+
 ## 概述
 
 执行指定的Non Query语句，例如UPDATE, INSERT, DELETE，并返回语句执行后受影响的作用行数。若执行其他非Non Query 语句，返回-1。

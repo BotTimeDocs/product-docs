@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ThrowException.mp4"></video>
+
 ## 概述
 
 支持在流程执行时主动抛出异常。

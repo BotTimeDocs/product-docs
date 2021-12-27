@@ -56,6 +56,6 @@
 
 - **云扩 AI Hub 试用**：通过注册并登录云扩 RPA 控制台，试用云扩 AI Hub。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/AIHub/AIHubProductView20210804.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/AIHub/aihubproduct20211102.png)

@@ -4,7 +4,7 @@
 
 文件夹管理主要用于对各文件夹、子文件夹进行新建及删除等操作。文件服务中的文件必须存储于某一文件夹/子文件夹之内。
 
-![fileservice](https://docimages.blob.core.chinacloudapi.cn/images/Console/Datacentor/fileervice1.png)
+![fileservice](https://docimages.blob.core.chinacloudapi.cn/images/HAP/fileservice20211208.png)
 
 ### 新建根目录文件夹
 

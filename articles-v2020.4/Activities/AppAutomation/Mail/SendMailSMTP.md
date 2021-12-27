@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/SendSMTPMail.mp4"></video>
+
 ## 概述
 
 使用 SMTP 服务自动检测加密方法发送邮件，同时可使用代理。
@@ -37,6 +39,7 @@
 ### 可选项
 
 - **安全连接** ：指定检测加密方法，默认为自动。
+- **超时**：指定此组件的执行时间。若超出此时间，组件还未执行，会抛出错误。
 
 ## 使用示例
 

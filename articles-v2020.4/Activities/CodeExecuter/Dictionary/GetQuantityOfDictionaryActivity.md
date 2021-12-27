@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetKeyValueCount.mp4"></video>
+
 ## 概述
 
 获取字典中键值对的数量。

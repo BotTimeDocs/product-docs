@@ -3,7 +3,7 @@
         "name": "Index.md",
         "localizedName": "概览",
         "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
-        "labels": "RPA, 平台, 云扩"
+        "labels": "产品介绍"
     },
     {
         "name": "ReleaseNotes.md",
@@ -51,8 +51,13 @@
     },
     {
         "id": null,
+        "name": "Spark",
+        "localizedName": "云扩Spark"
+    },
+    {
+        "id": null,
         "name": "BestPractices",
-        "localizedName": "最佳实践"
+        "localizedName": "专题文档"
     },
     {
         "name": "FAQ",

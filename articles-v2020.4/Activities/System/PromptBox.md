@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/PromptBox.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/PromptBox.mp4"> </video>
 
 ## 概述
 
@@ -18,6 +18,7 @@
 
 - **提示时长(秒)** ：提示框显示时长。
 - **提示信息** ：提示框所展示的信息。
+- **提示后继续**：勾选时表示弹出提示框的同时流程继续执行。
 
 ## 使用示例
 

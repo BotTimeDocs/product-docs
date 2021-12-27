@@ -35,15 +35,15 @@
 
     ![输入框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-input1Properties.png)
 
-6. 将“流程决策”添加到编辑区域中，并连接到“输入框”。此组件可以判断用户是否正确输入用户名。
+6. 将“流程判断”添加到编辑区域中，并连接到“输入框”。此组件可以判断用户是否正确输入用户名。
 
-    ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flowdecisioninflow20201019.png)
+    ![流程判断](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flowdecisioninflow20201019.png)
 
 7. 在“流程决策”的属性面板中，输入以下内容：
     * 判断条件：name == ""。该字段用来判断用户名是否为空
     * 显示名称：判断用户名是否为空。该字段可自行更改为你所想要的其他内容
 
-    ![流程决策属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision1Properties.png)
+    ![流程判断属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision1Properties.png)
 
 8. 添加一个“输入框”连接到流程决策的 False 分支。流程决策的 True 分支连接到上一个“输入框”，用来重新输入用户名。
 
@@ -57,15 +57,15 @@
 
     ![输入框属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-input2Properties.png)
 
-10. 添加一个“流程决策”并连接到“输入框”。此组件能够判断用户是否正确输入密码。
+10. 添加一个“流程判断”并连接到“输入框”。此组件能够判断用户是否正确输入密码。
 
-    ![流程决策](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/decision2inflow20201019.png)
+    ![流程判断](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/decision2inflow20201019.png)
 
 11. 在“流程决策”的属性面板中，输入以下内容：
     * 判断条件：password == ""。该字段用来判断密码是否为空
     * 显示名称：判断密码是否为空。该字段可自行更改为你所需要的其他内容
 
-    ![流程决策属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision2Properties.png)
+    ![流程判断属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeOfWorkflow/flow-decision2Properties.png)
 
 12. 添加一个“确认框”连接到流程决策的 False 分支。流程决策的 True 分支连接到上一个“输入框”，用来重新输入密码。
 

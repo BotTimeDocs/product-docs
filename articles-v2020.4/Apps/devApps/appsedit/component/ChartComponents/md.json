@@ -33,5 +33,19 @@
         "localizedName": "散点图",
         "uuid": "9be708be-9444-4a54-9813-cc2b4c475fee",
         "labels": "散点图,图表"
+    },
+    {
+        "id": null,
+        "name": "Chartgauge.md",
+        "localizedName": "仪表盘",
+        "uuid": "944ef8ab-5acb-4e7b-a554-92bbb89bf135",
+        "labels": "仪表盘,图表"
+    },
+    {
+        "id": null,
+        "name": "Chinamap.md",
+        "localizedName": "中国地图",
+        "uuid": "5593afee-b900-40e3-8315-9b7ae3cd001c",
+        "labels": "中国地图,图表"
     }
 ]

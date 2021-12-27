@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/TextToDateAndTime.mp4"></video>
+
 ## 概述
 
 将文本转换为日期和时间。

@@ -191,6 +191,10 @@
     - **环境类型**：下拉选择生产环境或测试环境。
     - **文件存储路径**：非必填，填写需要在 EncooStorage 对象存储服务中创建的文件夹名称，如果不填写，则自动在 EncooStorage 的根目录下创建文件夹。
 
+        > **说明**：
+        >
+        > 如果创建多个 EncooStorage 文件连接，建议将“文件存储路径”设置成唯一值，否则在“文件服务”中创建的文件夹将指向同一个数据连接器，不利于管理。
+
     ![配置 EncooStorage 文件连接](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingencoostorage20210413.png)
 
 4. 单击“新建”按钮，完成 EncooStorage 文件连接。

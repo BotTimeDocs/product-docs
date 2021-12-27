@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/RemoveKeyValue.mp4"></video>
+
 ## 概述
 
 从已初始化的字典中移除所指定的键值对。

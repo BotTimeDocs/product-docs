@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ConnectDatabase.mp4"> </video>
+
 ## 概述
 
 连接到指定数据库。点击 **配置向导** 后可进行连接测试。组件执行结束后自动断开连接，所有数据库相关操作均需放置在此组件内且无需二次配置连接。
@@ -32,6 +34,26 @@
 
 ## 常见问题
 
-1. **Q：Oracle的数据库链接字符串格式是什么？**
+1. **Q：Oracle 的数据库连接字符串格式是什么？**
 
-    **A：** `"DataSource=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.161.150)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));Persist Security Info=True;User ID=system;Password=sasa;"`
+    **A：** `"Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.161.150)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));Persist Security Info=True;User ID=system;Password=sasa;"`
+
+2. **Q：MySQL 的数据库连接字符串格式是什么？**
+
+    **A：** `"Server=localhost;Port=3306;Database=nuget1;Uid=root;Pwd=root;"`
+
+3. **Q：SQL Server 的数据库连接字符串格式是什么？**
+
+    **A：** `"Data Source =DESKTOP-L7GL8TM;Initial Catalog =Northwind1;User Id =sa;Password =sasa;"`
+
+4. **Q：Teradata 的数据库连接字符串格式是什么？**
+
+    **A：** `"Data Source=localhost;User Id=sa;Password=sasa;"`
+
+5. **Q：DB2 的数据库连接字符串格式是什么？**
+
+    **A：** `"Server=127.0.0.1:50000;DataBase=Demo;UID= db2admin;PWD=sasa;"`
+
+6. **Q：PostgreSQL 的数据库连接字符串格式是什么？**
+
+    **A：** `"User ID=postgres;Password=123456;Host=127.0.0.1;Port=5432;Database=postgres;Pooling=true"`

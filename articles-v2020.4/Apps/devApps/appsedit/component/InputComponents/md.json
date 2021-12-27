@@ -83,5 +83,12 @@
         "localizedName": "文件上传",
         "uuid": "fd9096d1-3bea-4b93-bf01-3cf8d22f88ac",
         "labels": "文件上传, 输入组件"
+    },
+    {
+        "id": null,
+        "name": "Richtexteditor.md",
+        "localizedName": "富文本编辑框",
+        "uuid": "92ddf869-77be-4818-9d19-23319afa78e4",
+        "labels": "富文本编辑框, 输入组件"
     }
 ]

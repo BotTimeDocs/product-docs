@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MailTriggerExchange.mp4"></video>
+
 ## 概述
 
 邮件触发器（Exchange）用于监听Exchange服务器接收新邮件事件，设置特定触发条件，满足条件时自动执行流程。
