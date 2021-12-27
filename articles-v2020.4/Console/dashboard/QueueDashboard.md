@@ -1,7 +1,5 @@
 # 队列监控
 
-**本功能仅企业版可见**
-
 队列监控页面可按今日、最近 7 天、最近 30 天或自定义时间段，从多维度对调度队列中机器人、流程任务运行调度情况进行统计监测，主要包括如下功能：
 
 - **调度队列数量：** 统计当前部门下所有调度队列的数量及今日新增数量。  
@@ -18,7 +16,7 @@
 
 - **队列故障占比 TOP 10:** 统计当前部门下所有调度队列在所选时间段范围内所有执行失败的流程任务在队列中的分布情况。
 
-![队列监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/queuedashboard1.png)
+![队列监控](https://docimages.blob.core.chinacloudapi.cn/images/HAP/queuedashboard20211208.png)
 
 - **调度队列任务分布：** 统计当前部门下所有调度队列中的任务在所选时间段范围内的分布情况。
 

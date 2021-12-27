@@ -4,7 +4,6 @@
 
 - 点击【更改】则跳转至【激活页】可更换激活方式或许可证。
 
-- 若机器人（企业版）**本地激活**后，可在此页查看许可证有效期。
+- 若机器人（企业版）**本地激活** 后，可在此页查看许可证有效期。
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/about20201118.png)
-

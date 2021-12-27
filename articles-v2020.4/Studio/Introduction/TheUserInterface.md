@@ -4,16 +4,16 @@
 
 ## 开始主页
 
-![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201019.png)
+![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/start20211124.png)
 
-1. **新建** — 新建流程项目或组件项目。
+1. **常用** — 新建流程项目和导入项目。
 2. **最近** — 打开您最近处理过的项目。可以进行 **打开项目所在的文件夹**、**导出项目**、**删除项目** 和 **从最近使用列表中删除** 操作；单击 **更多项目** 链接，展开更多的最近处理过的项目，且可模糊搜索 **最近使用** 列表。
 
 ### 新建
 
-![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201118.png)
+![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/new20211124.png)
 
-1. **新建** — 新建流程项目或组件项目。
+1. **新建** — 新建流程项目、组件项目、元素项目。
 2. **从模板新建** — 从预定义的模板开始一个新项目。
 3. **流程市场** — 在流程市场中选择并打开已有的流程的基础上进行新建项目。
 
@@ -33,9 +33,9 @@
 
 ### 工具
 
-![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/tool20201019.png)
+![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/tool20211124.png)
 
-1. **应用** — 支持 **元素探测器** 应用小工具。
+1. **应用** — 支持 **元素探测器** 应用小工具、移动设备管理器、云扩浏览器工具。
 2. **扩展** — 可以快速安装各种扩展程序，以对不同的应用进行自动化。
 
 ### 设置
@@ -47,8 +47,10 @@
     - **运行**：勾选“运行时最小化”可以将编辑器窗口设置为运行时是否最小化。
     - **快速访问**：勾选“打开项目时显示快速访问页”可以在打开项目时显示快速访问页。
     - **编辑样式**：勾选“添加组件时弹窗填写属性”可以在添加组件时以弹窗的形式填写属性信息。
+    - **项目加载优化**：勾选时，开启项目加载优化。
     - **运行时日志**：勾选“保存运行、调试日志”时可以将调试运行时的日志保存至指定目录路径下。
-- **管理市场** - 对组件市场、代码市场、流程市场进行管理操作，包括新增、删除、启用/禁用、上移/下移等。
+    - **启用实时编译**：勾选时，可帮助发现项目中可能存在的错误。
+- **管理市场** - 对组件市场、代码市场、流程市场、元素市场进行管理操作，包括新增、删除、启用/禁用、上移/下移等。
 - **快捷键**- 查看系统中所有的快捷键。
 
 ### 帮助
@@ -94,13 +96,14 @@
 |选项 |描述 |
 |-----------|---------------------------------------|
 |打开 |打开项目或文件|
-|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)|
+|添加|选择可以在所选中项目下添加的选项：[序列](../process/developProject/TypeOfWorkflow/Sequence.md)、[流程图](../process/developProject/TypeOfWorkflow/Flowchart.md)、[状态机](../../Activities/WorkflowControl/StateMachine/StateMachine.md)、[脚本](../process/developProject/TypeOfWorkflow/CodeFile.md)、文件夹、[异常处理流程](../process/developProject/TypeOfWorkflow/ErrorHandler.md)、[终止处理流程](../process/developProject/TypeOfWorkflow/CleanUp.md)、[并行处理流程](../process/developProject/TypeOfWorkflow/Parallel.md)|
 |导入文件| 导入本地文件至当前所指定的文件夹下|
 |重命名 |使你可以重命名当前所选文件或文件夹 |
 |删除 |删除所选中的文件或文件夹 </br> **说明：** </br> 支持按住 Ctrl 键/Shift 键进行多选后，鼠标右键进行批量“删除”操作。 |
 |导出项目 |将所选中的项目导出，导出后会自动生成一个 .dgs(流程项目) 或 .egs（组件项目） 文件|
 |引用项目|引用其他项目（支持文件夹和文件）作为依赖项|
 |打开所在文件夹| 打开所选项目或文件的本地文件夹 |
+|复制/粘贴|复制/粘贴所选文件或文件夹|
 |项目设置| 打开 [项目设置](../process/ProjectSettings.md) 以设置某一类别组件属性 |
 |属性|查看或编辑项目的属性信息，包括项目名称、作者、版本等|
 |图形化编辑|以图形化形式打开编辑xaml文件|
@@ -247,8 +250,8 @@
    |从此组件调试|从选定的组件开始调试流程。|
    |复制为图像    |将编辑区域中显示的内容保存为图片，图片名称、类型、存储路径等为默认状态。|
    |另存为图像    |将编辑区域中显示的内容保存为图片，但图片的名称、类型、存储路径等可以进行自定义。|
-   |显示所有条件|在流程编辑区域将流程决策组件的条件（Condition）属性值显示出来。|
-   |隐藏所有条件|在流程编辑区域将流程决策组件的条件（Condition）属性值隐藏起来。 |
+   |显示所有条件|在流程编辑区域将流程判断组件的条件（Condition）属性值显示出来。|
+   |隐藏所有条件|在流程编辑区域将流程判断组件的条件（Condition）属性值隐藏起来。 |
    |帮助 |快速打开对应组件的帮助文档，以了解相应组件的详细信息及使用方法，也可以通过快捷键 F1 实现。|
    |设置为开始节点 |将当前选中组件设为开始节点，流程执行由当前组件开始。 </br> 注意：只在当前容器组件为流程图时显示。|
    |查看父级     |在编辑区域中显示当前选中组件的父级。 </br> 注意：只在子级组件的上下文菜单中显示。|
@@ -267,7 +270,7 @@
 
 **输出面板** 可以显示当前项目中的所有信息，包括但不限于项目打开或执行时的信息、写入日志组件的输出信息。通过输出面板，你可以快速定位到项目中错误出现的位置，及时更改，保证项目的正确性。
 
-在输出面板中，可以通过点击面板标题栏的不同按钮来显示或隐藏不同日志级别的消息，例如错误、信息、调试。右键单击消息，将会把该消息复制到粘贴板中。
+在输出面板中，通过单击输出面板右上角的“箭头”图标，可以浮动显示日志信息。也可以通过点击面板标题栏的不同按钮来显示或隐藏不同日志级别的消息，例如错误、信息、调试。右键单击消息，将会把该消息复制到粘贴板中。
 
 当项目验证出现问题时，将在输出面板中显示错误信息。针对调试项目时，输出面板将显示所有组件从开始到结束的详细日志。当流程出错，通过日志信息将可以轻松地定位到出现错误的组件。
 

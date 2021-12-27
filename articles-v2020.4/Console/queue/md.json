@@ -2,22 +2,22 @@
     {
         "id": null,
         "name": "aboutqueue.md",
-        "localizedName": "关于调度队列",
+        "localizedName": "关于机器人队列",
         "uuid": "c3f76c81-2e62-489d-b42d-b0d0f2ff672f",
-        "labels": "调度, 队列"
+        "labels": "机器人, 队列"
     },
     {
         "id": null,
         "name": "managequeue.md",
-        "localizedName": "管理调度队列",
+        "localizedName": "管理机器人队列",
         "uuid": "ec3c9751-751a-49d2-968d-3e3559f4accf",
-        "labels": "调度队列, 查看, 队列"
+        "labels": "机器人队列, 查看, 队列"
     },
     {
         "id": null,
         "name": "queuejob.md",
-        "localizedName": "查看调度队列任务",
+        "localizedName": "查看机器人队列任务",
         "uuid": "322eecfd-6a0a-4009-b2f6-9af9a8465e36",
-        "labels": "调度队列, 查看, 队列, 任务"
+        "labels": "机器人队列, 查看, 队列, 任务"
     }
 ]

@@ -28,5 +28,11 @@
         "localizedName": "终止处理流程",
         "uuid": "934b3872-3116-4078-a6f4-4bf7e28e3637",
         "labels": "终止处理流程"
+    },
+    {
+        "name": "Parallel.md",
+        "localizedName": "并行处理流程",
+        "uuid": "2c3e4c1f-1683-4253-8c6d-31e66ac55ac6",
+        "labels": "并行处理流程"
     }
 ]

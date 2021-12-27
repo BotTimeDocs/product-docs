@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetStructData.mp4"> </video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetStructData.mp4"></video>
 
 ## 概述
 
@@ -48,7 +48,6 @@
 ## 常见问题
 
 1. **Q：设置了指定的“最大提取条数”，为何会重复获取相应数据？**
-</br>
 
     **A：**
 
@@ -64,8 +63,8 @@
 
     **【解决方案】**
 
-   - 方案一：获取需要获取的数据的总的条数，然后在组件的“最大提取条数”中填写具体的条数。
-   - 方案二：获取需要获取数据所在页的总页数，然后使用“While 组件”嵌套“获取结构化数据组件”，控制循环次数，每次只获取一页，最后合并每次获取的 Datatable。
+    - 方案一：获取需要获取的数据的总的条数，然后在组件的“最大提取条数”中填写具体的条数。
+    - 方案二：获取需要获取数据所在页的总页数，然后使用“While 组件”嵌套“获取结构化数据组件”，控制循环次数，每次只获取一页，最后合并每次获取的 Datatable。
   
 2. **Q：淘宝店铺图片中的隐藏属性的图片链接在哪里获取？如何抓取？**
 
@@ -85,4 +84,8 @@
 
     ![指定元素失败](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locateelement20210826.png)
 
-    **A：** 这种表格的格式没有覆盖，暂时不支持。只能用“获取区域结构”组件，自行解析里面的json。
+    **A：** 这种表格的格式没有覆盖，暂时不支持。只能用“获取区域结构”组件，自行解析里面的 json。
+
+6. **Q：获取页面结构化数据时，无法翻页，怎么解决？**
+
+    **A：** 当前页面50条记录，如果条数够了，就不会往下翻页了。将该组件的“最大提取条数”属性的值加大，如，150。

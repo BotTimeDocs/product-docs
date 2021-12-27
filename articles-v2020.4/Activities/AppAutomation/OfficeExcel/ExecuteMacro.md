@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ExecuteMacro.mp4"></video>
+
 ## 概述
 
 执行外部宏文件或者 XLSM 格式的内部宏，支持实参传递。

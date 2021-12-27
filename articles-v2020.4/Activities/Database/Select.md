@@ -1,6 +1,8 @@
-# 查询
+# 查询语句
 
 ## 视频示例
+
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/Select.mp4"></video>
 
 ## 概述
 

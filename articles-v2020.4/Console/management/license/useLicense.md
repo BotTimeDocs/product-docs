@@ -1,8 +1,8 @@
 # 许可证列表
 
-在“全局管理 > 许可证”页面中, 可以查看当前公司（租户）内所有已授权的各类许可证信息。点击“查看使用情况”链接，可查看各类许可证的详细使用信息。
+在“全局管理 > 许可证管理”页面中, 可以查看当前公司（租户）内所有已授权的各类许可证信息。点击“查看使用情况”链接，可查看各类许可证的详细使用信息。
 
-![license](https://docimages.blob.core.chinacloudapi.cn/images/Console/docreader/licensenew2.png)
+![license](https://docimages.blob.core.chinacloudapi.cn/images/HAP/license20211208.png)
 
 ## 编辑器许可证
 
@@ -18,7 +18,7 @@
 >
 > 控制台的编辑器名额采用”抢占制“，租户下的所有账户均可登录编辑器占用许可，采用先登录先占用，占满为止的策略。
 
-![编辑器的许可证](https://docimages.blob.core.chinacloudapi.cn/images/Console/studiolicense20210628.png)
+![编辑器的许可证](https://docimages.blob.core.chinacloudapi.cn/images/Console/uselicense20211012.png)
 
 - **释放编辑器许可**
 
@@ -37,13 +37,14 @@
 ## 机器人许可证
 
 机器人许可证分为固定许可证和浮动许可证两种。具体两者的区别，请参见 [关于许可证](../license/aboutLicense.md)。
+
 ### 固定许可证
 
 - **占用机器人许可**
 
 当你在控制台新增机器人时，新增一个机器人将在许可证页面占用一个相应类型的机器人额度。例如，你在控制台了一个企业版机器人，新增成功后，许可证的企业版机器人将显示已使用数量+1。
 
-![机器人的许可证](https://docimages.blob.core.chinacloudapi.cn/images/Console/robotlicense20210628.png)
+![机器人的许可证](https://docimages.blob.core.chinacloudapi.cn/images/Console/robotlicense20211012.png)
 
 当占用的名额到达许可上限时，则无法再新增该类型的机器人，已经新增的机器人可以正常使用。
 

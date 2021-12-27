@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/AddDataRow.mp4"></video>
+
 ## 概述
 
 向数据表中添加一行数据，并自动保存同步至指定数据表。

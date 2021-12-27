@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetLastColumn.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetLastColumn.mp4"> </video>
 
 ## 概述
 
@@ -17,7 +17,9 @@
 ### 输入
 
 - **工作表** ：需要获取的末行号所属工作表。
-- **列号** ：获取末行号的所属列索引（例：1，即获取第一列的末行号）。当此项为空时，取整表数据区域最后一行行号。
+- **列类型**：选择 Excel 中列的类型。
+- **数字列号**：数字形式的列号，如，1、2、3 等。
+- **字母列号**：字母形式的列号，如，A、B、C 等。
 
 ### 输出
 

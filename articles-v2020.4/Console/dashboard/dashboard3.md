@@ -1,10 +1,8 @@
 # 用户流程统计表
 
-**本功能仅企业版可见**
-
 本页面主要用于展示当前部门下所有用户的工作情况，例如，创建流程部署数量、创建任务计划数量以及相应的任务的运行情况。默认展示最近 7 天数据，可自由筛选时间段范围内的机器人运行数据。
 
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/%E4%BB%AA%E8%A1%A8%E7%9B%98/dashboardnew3.png)
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/HAP/userworkflow20211208.png)
 
 - **图表展示**：
 

@@ -30,6 +30,17 @@
 3. RPA 流程的编辑、保存、删除等。
 4. RPA 流程的调试、运行、发布等。
 
+其中，除了基本功能外，社区版与企业版的功能，主要有如下组件类的区别：
+
+ 功能/场景| 社区版 | 企业版
+---------|----------|---------
+[OCR 相关组件](./../Activities/UIAutomation/OCR/GetOCRText.md)|不支持|支持
+[SAP 相关组件](./../Activities/UIAutomation/SAP/SAP_Login.md)|不支持|支持
+[桌面控件专有相关组件](./../Activities/UIAutomation/DesktopOnly/GetJsonStructure.md)|不支持|支持
+[手机自动化相关组件](./../Activities/PhoneAutomation/MobileConnect.md)|不支持|支持
+[控制台相关组件](./../Activities/Console/DocReader.md)|不支持|支持(需连接企业版控制台使用)
+[移动设备管理器](./../Studio/process/developProject/MobileDevicesManage/Prerequisites.md)|不支持|支持
+
 ## 应用场景
 
 - **网页上的数据批量采集**
@@ -51,10 +62,11 @@
 ## 产品入口与试用
 
 - **云扩 RPA 编辑器为桌面版应用程序，安装包下载入口**：[云扩 RPA 控制台](https://console.encoo.com/) > 首页 > 安装包下载，下载后根据向导进行安装，与控制台共享一套账户。
-- **云扩 RPA 编辑器试用**：  
+- **云扩 RPA 编辑器试用**：
+
     - 社区版：供普通用户下载后，自行使用。每个社区版控制台可以激活一个社区版编辑器
     - 企业版：如需试用，请联系我们的销售人员（致电：400-639-2198）。
 
-## 与其他云扩产品之间的关系
+## 与云扩其他产品之间的关系
 
-![与其他云扩产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/productviewstudio20210520.png)
+![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studioproduct20211102.png)

@@ -4,7 +4,6 @@
 
 <video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/MoveOrCopyFolder.mp4"></video>
 
-
 ## 概述
 
 对目标文件夹进行复制或移动至特定位置。效果实现同系统对文件夹的复制和剪切操作。

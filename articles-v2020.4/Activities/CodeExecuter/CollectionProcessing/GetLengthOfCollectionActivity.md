@@ -25,6 +25,7 @@
 ## 使用示例
 
 **前置必要条件**：已有一个添加对象的集合，参见[添加对象](../CollectionProcessing/AddToCollectionActivity.md)
+
 **此流程执行逻辑**：获取集合`集合List`中对象的长度，结果存储至`集合count`变量中。
 
 ![配置获取集合长度组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfCollectionActivity1.png)

@@ -2,6 +2,8 @@
 
 ## 视频示例
 
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/ConnectDatatable.mp4"></video>
+
 ## 概述
 
 根据联结条件，将两个数据表联结到一起，并将结果存储到输出输出数据表变量。提供四种联结条件：全连接，内连接，左连接，右连接。

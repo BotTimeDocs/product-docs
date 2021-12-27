@@ -33,5 +33,19 @@
         "localizedName": "图标",
         "uuid": "174e1acd-19e5-43a6-899b-7d282a1af083",
         "labels": "图标, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Carousel.md",
+        "localizedName": "轮播图",
+        "uuid": "0295f426-9726-4083-a9c4-5c8f31126d81",
+        "labels": "轮播图, 显示组件"
+    },
+    {
+        "id": null,
+        "name": "Progress.md",
+        "localizedName": "进度条",
+        "uuid": "138d0269-4769-4c69-9503-81e2e5568ef7",
+        "labels": "进度条, 显示组件"
     }
 ]
