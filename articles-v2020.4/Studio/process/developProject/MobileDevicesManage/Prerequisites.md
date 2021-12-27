@@ -10,11 +10,9 @@
 
 - **移动端操作系统**：
   
-    - **Android**：支持 Android 4.4~11 操作系统 。
+    - **Android**：支持真机 Android 4.4~11 操作系统，支持模拟器 Android SDK 23 以上的操作系统。
 
-      > **说明：**
-      >
-      > 暂不支持基于 Android 9 及 Android 10 的 MIUI 11 & MIUI12。
+    - **HarmonyOS**：支持鸿蒙 V1、V2 操作系统。
 
     - **iOS**：支持 iOS9.0 以上操作系统。
     - **华为鸿蒙（HarmonyOS）**：支持 2.0.0 操作系统。

@@ -18,7 +18,7 @@
 
     - **Android**  
 
-    ![添加 Android 设备](https://docimages.blob.core.chinacloudapi.cn/images/Studio/adddevices20201104.png)
+    ![添加 Android 设备](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiledevicesmanage20210831.png)
 
      - **IOS**  
   

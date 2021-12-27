@@ -15,28 +15,28 @@
     >
     > 自定义的端口号，建议输入 8080~65535 之间的任意数值，但如果连接的模拟器有默认端口，请与之区分。
 
-    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/connectservice20210512.png)
+    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/androidservice20210831.png)
 
 4. 服务连接成功，如下图所示。
 
-    ![服务连接成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/serverconnectsucess20201104.png)
+    ![服务连接成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/serverconnectsucess20210831.png)
 
 ### 安装 APP 应用（首次）
 
 在解压完成的文件夹下的 **apk** 文件夹中，有以下三个手机应用安装包。根据需要选择对应的 apk 文件, 安装至连接的手机中。
 
-![APP 应用](https://docimages.blob.core.chinacloudapi.cn/images/Studio/app20201104.png)
+![APP 应用](https://docimages.blob.core.chinacloudapi.cn/images/Studio/encoosmscode20210831.png)
 
 > **说明：**
 >
 >- “pocoservice-debug”和“Yosemite”由系统默认自主安装，用户无需手动安装。
->- “SmsObserver”为“获取短信验证码”组件使用，用户按需安装。
+>- “云扩手机验证码监听器”为配合“获取短信验证码”组件使用，用户按需安装。
 
 | **序号** | **安装包**        | **说明**                                               |
 | -------- | ----------------- | ------------------------------------------------------ |
 | 1        | pocoservice-debug | 用于显示手机页面元素控件信息。                        |
-| 2        | SmsObserver       | 配合 **获取短信验证码** 组件一起使用, 用于获取短信验证码。<br> **说明：** <br>- 此应用支持 Android 6.0 及以上版本。<br>- "读取短信内容" 权限需设置为“允许”。 |
-| 3        | Yosemite          | 测试时默认使用的输入法，测试后可手动修改输入法。       |
+| 2        | Yosemite          | 测试时默认使用的输入法，测试后可手动修改输入法。       |
+| 3        | 云扩手机验证码监听器       | 配合 **获取短信验证码** 组件一起使用, 用于获取短信验证码。<br> **说明：** <br>- 此应用支持 Android 6.0 及以上版本。<br>- "读取短信内容" 权限需设置为“允许”。 |
 
 ## IOS
 
