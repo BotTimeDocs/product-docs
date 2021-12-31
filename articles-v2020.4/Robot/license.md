@@ -35,13 +35,13 @@
 
 ### 方式一：控制台激活
 
-1. 进入控制台，找到 **断开** 状态的机器人，将控制台创建的机器人的 **连接字符串** 复制填入。
+1. 使用控制台账号登录机器人。
 
-    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotconnectionstring.png)
+    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/active20211231.png)
 
 2. 点击激活，即可激活机器人：
 
-    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebyconsole2-N-1.png)
+    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/selectdepart20211231.png)
 
 ### 方式二：本地激活
 
