@@ -57,7 +57,7 @@
         "labels": "下拉选择"
     },
     {
-        "id": "BotTime.ActivityLibrary.ActivityDesigners.Controls.MultiSelectListBoxWindow",
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.MultiSelectListBoxProActivity",
         "name": "MultiSelectListBoxActivity.md",
         "localizedName": "多项选择框",
         "uuid": "3992bcc5-0f57-4d41-939e-dbe818470d93",

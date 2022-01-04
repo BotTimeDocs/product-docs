@@ -8,14 +8,14 @@
 
 > **说明：**
 >
-> - 使用此组件之前请确保手机安装了 SmsObserver.apk 应用，并授予相关短信权限，可参见 [安装 App 应用](../../Studio/process/developProject/MobileDevicesManage/AutomationConfiguration.md)。
+> - 使用此组件之前请确保手机安装了 “云扩手机验证码监听器.apk” 应用，并授予相关短信权限，可参见 [安装 App 应用](../../Studio/process/developProject/MobileDevicesManage/AutomationConfiguration.md)。
 > - 目前仅支持 Andriod 手机。
 
 ## 属性
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -67,4 +67,4 @@
 
 2. **Q：获取手机验证码只能通过组件的方式吗？**
 
-   **A：** 不是，目前有两种方式，一种是通过组件，另一种是通过安装指定应用。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。
+   **A：** 不是，目前有四种方式。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。
