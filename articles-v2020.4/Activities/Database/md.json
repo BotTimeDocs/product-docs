@@ -42,6 +42,13 @@
         "labels": "删除表, 数据库, Drop"
     },
     {
+        "id": "BotTime.DataBase.Activity.DatabaseIsTableExistActivity",
+        "name": "is-table-exist.md",
+        "localizedName": "表是否存在",
+        "uuid": "152b961d-9ba1-4dc7-a5f8-51fdc22d408d",
+        "labels": "表是否存在, 数据库 "
+    },    
+    {
         "id": "BotTime.DataBase.Activity.DatabaseQueryDataActivity",
         "name": "QueryData.md",
         "localizedName": "查询",
