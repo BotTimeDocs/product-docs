@@ -21,11 +21,14 @@
         "labels": "配置, 资源，页面"
     },
     {
+        动作流
+    },
+    {
         "id": null,
-        "name": "BasicSetting.md",
-        "localizedName": "设置页面",
-        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73",
-        "labels": "设置, 基本, 应用"
+        "name": "datamodel",
+        "localizedName": "数据模型",
+        "uuid": "",
+        "labels": ""
     },
     {
         "id": null,
@@ -36,17 +39,10 @@
     },
     {
         "id": null,
-        "name": "executecode.md",
-        "localizedName": "代码页面",
-        "uuid": "a94171e6-c2e6-4748-8c7f-b59ccb35775a",
-        "labels": "代码, 组件, 应用"
-    },
-    {
-        "id": null,
-        "name": "datamodel",
-        "localizedName": "数据模型",
-        "uuid": "",
-        "labels": ""
+        "name": "BasicSetting.md",
+        "localizedName": "设置页面",
+        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73",
+        "labels": "设置, 基本, 应用"
     },
     {
         "id": null,

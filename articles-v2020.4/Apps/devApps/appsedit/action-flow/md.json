@@ -1,0 +1,16 @@
+[
+    {
+        "id": null,
+        "name": "action-flow.md",
+        "localizedName": "动作流",
+        "uuid": "b29c683d-ca63-4ccf-9583-9b1aadf2909f",
+        "labels": "动作流，ViCode"
+    },
+    {
+        "id": null,
+        "name": "action-activity",
+        "localizedName": "动作流组件",
+        "uuid": "",
+        "labels": ""        
+    }
+]

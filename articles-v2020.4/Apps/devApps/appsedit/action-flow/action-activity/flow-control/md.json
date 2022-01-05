@@ -1,0 +1,123 @@
+[
+
+    {
+        "id": null,
+        "name": "jump-to-new-page.md",
+        "localizedName": "赋值",
+        "uuid": "86a9c597-6e32-4e3a-80e1-05a50bc8728f",
+        "labels": "赋值，ViCode"
+    },
+    {
+        "id": null,
+        "name": "jump-to-previous-page.md",
+        "localizedName": "If",
+        "uuid": "fefaa2f9-7401-4d29-98ba-2f74c9db6922",
+        "labels": "If，ViCode"
+    },
+    {
+        "id": null,
+        "name": "execute-datasource.md",
+        "localizedName": "If多条件",
+        "uuid": "700d59cd-bf2f-4cce-8f36-9b74fffd40da",
+        "labels": "If多条件，ViCode"
+    },
+    {
+        "id": null,
+        "name": "execute-js.md",
+        "localizedName": "Else",
+        "uuid": "d0c9c412-c25e-4ee1-82ab-13f250b9a95f",
+        "labels": "Else，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-dialog.md",
+        "localizedName": "Else If",
+        "uuid": "70cf950d-1e69-4d8f-a805-ae6d3522a7b1",
+        "labels": "Else If，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-dialog.md",
+        "localizedName": "Else If多条件",
+        "uuid": "c274c535-72f9-4a3c-a883-6dd22738b81d",
+        "labels": "Else If多条件，ViCode"
+    },
+    {
+        "id": null,
+        "name": "export-data.md",
+        "localizedName": "ForEach循环",
+        "uuid": "1aa0b670-847f-4612-82db-2f5d854aa5ae",
+        "labels": "ForEach循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "message-notification.md",
+        "localizedName": "While循环",
+        "uuid": "079ace30-52b4-4edf-a95d-ad6ce95269d1",
+        "labels": "While循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-drawer.md",
+        "localizedName": "继续循环",
+        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
+        "labels": "继续循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-drawer.md",
+        "localizedName": "无限循环",
+        "uuid": "3bf0ca74-286f-44d2-866f-c7e514c57e07",
+        "labels": "无限循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-load-state.md",
+        "localizedName": "退出循环",
+        "uuid": "67682961-ff03-4251-b5c1-f5aa61b5f9c9",
+        "labels": "退出循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "尝试执行",
+        "uuid": "f13aef5d-54e9-4405-9a5d-dfcee8156750",
+        "labels": "尝试执行，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "捕获错误",
+        "uuid": "4c0657cb-83f6-493a-859f-93739c6c73a0",
+        "labels": "捕获错误，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "抛出错误",
+        "uuid": "2a9cf9d0-9bd5-4e48-9689-5264b3a09eef",
+        "labels": "抛出错误，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "最终执行",
+        "uuid": "71b40a3c-70c7-43e7-937c-4423f85780db",
+        "labels": "最终执行，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "等待",
+        "uuid": "b216acae-4bf2-4651-966b-5009e146ce06",
+        "labels": "等待，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "打印日志",
+        "uuid": "d7a1d082-8cb2-484b-aee2-6ab7ccdb2f3f",
+        "labels": "打印日志，ViCode"
+    }
+
+]
