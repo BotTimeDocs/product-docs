@@ -21,7 +21,11 @@
         "labels": "配置, 资源，页面"
     },
     {
-        动作流
+        "id": null,
+        "name": "action-flow",
+        "localizedName": "动作流",
+        "uuid": "",
+        "labels": ""
     },
     {
         "id": null,
