@@ -1,0 +1,88 @@
+[
+
+    {
+        "id": null,
+        "name": "jump-to-new-page.md",
+        "localizedName": "跳转到新页面",
+        "uuid": "4bff7bae-3147-443a-b7b9-4d55c071c87e",
+        "labels": "跳转到新页面，ViCode"
+    },
+    {
+        "id": null,
+        "name": "jump-to-previous-page.md",
+        "localizedName": "跳转到上一页",
+        "uuid": "ec2c29fb-25e5-44fd-b424-d010027f3563",
+        "labels": "跳转到上一页，ViCode"
+    },
+    {
+        "id": null,
+        "name": "execute-datasource.md",
+        "localizedName": "执行数据源",
+        "uuid": "3b01a457-c6fe-492d-8ea3-0d6bfff169bf",
+        "labels": "执行数据源，ViCode"
+    },
+    {
+        "id": null,
+        "name": "execute-js.md",
+        "localizedName": "执行JS",
+        "uuid": "94ecc5ab-985c-4ed0-8594-3dd808dce9e2",
+        "labels": "执行JS，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-dialog.md",
+        "localizedName": "打开对话框",
+        "uuid": "43fb1ec3-912b-4568-ad07-07f907014e7e",
+        "labels": "打开对话框，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-dialog.md",
+        "localizedName": "关闭对话框",
+        "uuid": "c274c535-72f9-4a3c-a883-6dd22738b81d",
+        "labels": "关闭对话框，ViCode"
+    },
+    {
+        "id": null,
+        "name": "export-data.md",
+        "localizedName": "导出数据",
+        "uuid": "1aa0b670-847f-4612-82db-2f5d854aa5ae",
+        "labels": "导出数据，ViCode"
+    },
+    {
+        "id": null,
+        "name": "message-notification.md",
+        "localizedName": "消息通知",
+        "uuid": "079ace30-52b4-4edf-a95d-ad6ce95269d1",
+        "labels": "消息通知，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-drawer.md",
+        "localizedName": "打开抽屉",
+        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
+        "labels": "打开抽屉，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-drawer.md",
+        "localizedName": "关闭抽屉",
+        "uuid": "3bf0ca74-286f-44d2-866f-c7e514c57e07",
+        "labels": "关闭抽屉，ViCode"
+    },
+    {
+        "id": null,
+        "name": "open-load-state.md",
+        "localizedName": "打开加载状态",
+        "uuid": "67682961-ff03-4251-b5c1-f5aa61b5f9c9",
+        "labels": "打开加载状态，ViCode"
+    },
+    {
+        "id": null,
+        "name": "close-load-state.md",
+        "localizedName": "关闭加载状态",
+        "uuid": "d22d84b9-18bb-4f61-93ad-09247dacee29",
+        "labels": "关闭加载状态，ViCode"
+    }
+
+]
