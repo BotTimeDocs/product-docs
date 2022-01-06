@@ -37,8 +37,8 @@
     },
     {
         "id": null,
-        "name": "close-dialog.md",
-        "localizedName": "else-if-multi-condition.md",
+        "name": "else-if-multi-condition.md",
+        "localizedName": "Else If多条件",
         "uuid": "c274c535-72f9-4a3c-a883-6dd22738b81d",
         "labels": "Else If多条件，ViCode"
     },
