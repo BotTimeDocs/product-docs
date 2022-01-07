@@ -6,13 +6,21 @@
 
  ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/robotlist20210924.png)
 
+> **说明：**
+>
+> 列表中的“连接状态”分为如下三种：
+>
+> - 中断：机器人与控制台未进行连接。
+> - 空闲：机器人与控制台已连接，且机器人未执行流程。
+> - 忙碌：机器人与控制台已连接，且机器人正在执行流程。
+
 ## 新增机器人
 
 点击“+新建”按钮，打开新增弹窗，填写机器人名称、标签、备注，并且选择机器人类型后，点击确定即可新建机器人。
 
 > **说明：**
 >
-> 支持创建不同许可证类型的机器人，不同许可证类型的机器人，请参见 [许可证列表](../management/license/useLicense.md)。
+> 支持创建不同许可证类型的机器人，不同许可证类型的机器人，请参见 [许可证列表](./../../management/license/useLicense.md)。
 
  ![新建机器人](https://docimages.blob.core.chinacloudapi.cn/images/Console/createrobot20210628.png)
 
