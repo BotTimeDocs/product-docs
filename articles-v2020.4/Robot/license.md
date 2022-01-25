@@ -49,6 +49,6 @@
 
 > **说明：**
 >
-> 机器码会随着硬件的改变而改变，如，变更 CPU 的核数。
+> 机器码会随着硬件的改变而改变，如，重装系统、变更 CPU 的核数。
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebylocal-N-1.png)

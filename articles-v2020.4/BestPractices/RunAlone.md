@@ -4,9 +4,9 @@
 
 **独立运行**功能使您可以与机器人协作运行有人值守的流程。以“独立运行”模式启动的流程在独立的 Windows 会话中运行。
 
-您可以通过勾选编辑器 Studio“运行面板”中的“独立运行”，或通过勾选机器人 Robot“执行流程”弹窗中的“独立运行”项。
+您可以通过单击编辑器 Studio“工具栏”中的“独立桌面”，或通过勾选机器人 Robot“执行流程”弹窗中的“独立运行”项。
 
-![编辑器独立运行](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/robotrunalone20210805.png)
+![编辑器独立运行](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/runalone20220125.png)
 
 在“独立运行”模式下启动流程后，预览窗口将显示在桌面上，并提供来自流程执行时的实时反馈。可以调整显示窗口的大小、移动窗口、全屏放置窗口或将其放置在其他窗口的顶部。您可以随时通过预览窗口右上角的“关闭”图标来退出“独立运行”模式。出现确认对话框，选择关闭预览窗口将停止正在运行的流程。
 
