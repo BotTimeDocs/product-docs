@@ -28,5 +28,12 @@
         "localizedName": "使用 ViCode 运行并展示 RPA 流程结果",
         "uuid": "b06fe832-b1a1-447e-9f28-bd4a9df9b986",
         "labels": "RPA，ViCode"
+    },
+    {
+        "name": "offline-use-activitymarket.md",
+        "localizedName": "离线使用组件市场中的组件",
+        "uuid": "e6870ddb-2bee-427e-bf93-7f39c0288080",
+        "labels": "离线，无网络，组件市场"
     }
+    
 ]
