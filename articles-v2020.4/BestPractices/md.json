@@ -34,6 +34,12 @@
         "localizedName": "离线使用组件市场中的组件",
         "uuid": "e6870ddb-2bee-427e-bf93-7f39c0288080",
         "labels": "离线，无网络，组件市场"
-    }
+    },
+    {
+        "name": "workflow-activity.md",
+        "localizedName": "如何将流程发布成组件",
+        "uuid": "1b1ab067-7487-4efe-b35a-5dfdc6638847",
+        "labels": "组件项目，本地组件市场，组件"
+    }    
     
 ]
