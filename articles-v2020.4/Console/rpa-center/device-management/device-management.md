@@ -1,14 +1,14 @@
-# 设备管理
+# 计算机管理
 
 ## 概述
 
-**设备管理** 主要用于管理机器人所在计算机状态、数据监控等，以便于更好的跟踪机器人情况。
+**计算机管理** 主要用于管理机器人所在计算机状态、数据监控等，以便于更好的跟踪机器人情况。
 
 >**说明：**
 >
 >仅显示当前部门连接的机器人列表。
 
-![设备管理](https://docimages.blob.core.chinacloudapi.cn/images/Console/devicemanage20220104.png)
+![计算机管理](https://docimages.blob.core.chinacloudapi.cn/images/Console/devicemanage20220104.png)
 
 ## 查看计算机基本信息
 
