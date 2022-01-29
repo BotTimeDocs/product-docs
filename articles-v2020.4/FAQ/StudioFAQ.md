@@ -861,6 +861,28 @@
 
 参见 [手机自动化常见问题](../Studio/process/developProject/MobileDevicesManage/MFAQ.md)。
 
+## 变量、参数、语法相关
+
+1. **Q：变量与参数的区别是什么？**
+
+    <details>
+
+    <summary>点击展开</summary>
+
+    **A：** 变量是用于存储数据，让组件之间可以传递和共用数据。 而参数既可以存储数据又可以用于流程间数据的传递，且参数没有范围（即，参数的范围是整个流程），参数是有方向的（输入、输出、输入/输出）。
+
+    </details>
+
+2. **Q：C#基本语法**
+
+    <details>
+
+    <summary>点击展开</summary>
+
+    **A：** [C#基本语法](https://www.runoob.com/csharp/csharp-tutorial.html)
+
+    </details>
+
 ## 其他问题
 
 1. **Q：RPC 服务器不可用，报错“Exception from HRESULT: 0x800706BA”，为什么会偶尔出现此错误？**
