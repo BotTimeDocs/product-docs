@@ -14,6 +14,7 @@
 ## 前置条件
 
 - 已创建一个组件项目，具体可参见 [创建组件项目](./../Studio/process/CreateProject/CreateLibrary.md)。
+- 已创建并启用本地或特定私有网络的组件市场。
 
 ## 操作步骤
 
