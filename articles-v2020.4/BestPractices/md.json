@@ -1,9 +1,9 @@
 [
     {
         "name": "RunAlone.md",
-        "localizedName": "如何独立运行流程",
+        "localizedName": "如何让流程在独立桌面中运行",
         "uuid": "77b8684e-98a6-4869-8f39-d493261e8fe9",
-        "labels": "独立运行"
+        "labels": "独立桌面"
     },
     {
         "name": "GetAndroidSMSCode.md",
