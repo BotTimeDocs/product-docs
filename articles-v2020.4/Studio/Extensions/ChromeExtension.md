@@ -6,6 +6,7 @@
 
 > **注意：**
 >
+>- 建议使用官方版本的 Chrome 浏览器。
 >- Chrome 版本最低为 60。
 >- 在安装该扩展前，可能会要求你关闭 Google Chrome，因此请务必将处理中的相关任务进行保存。
 
@@ -37,47 +38,47 @@
 
 在部分场景中（如，无法关闭杀毒防护软件）无法自动安装 Chrome 扩展时，可选择手动安装 Chrome 扩展以便完成自动化操作。
 
-1. 在Chrome浏览器中，打开Chrome扩展页面（<chrome://extensions/>）。
-2. 进入Studio程序的Chrome扩展所在的文件夹。
+1. 在 Chrome 浏览器中，打开 Chrome 扩展页面(<chrome://extensions/>)。
+2. 进入 Studio 程序的 Chrome 扩展所在的文件夹。
 
-    ![Studio程序所在路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studiopath20210909.png)
+    ![Studio 程序所在路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studiopath20210909.png)
 
-    ![chrome扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromecrx20210909.png)
+    ![chrome 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromecrx20210909.png)
 
-3. 拖入"gcpfpefcddakgefbkjlmkooffapfdmbi_main.crx"至浏览器的Chrome扩展页面，添加并启用扩展。
+3. 拖入 "gcpfpefcddakgefbkjlmkooffapfdmbi_main.crx" 至浏览器的 Chrome 扩展页面，添加并启用扩展。
 
-    ![安装chrome扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/addchromecrx20210909.png)
+    ![安装 chrome 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/addchromecrx20210909.png)
 
-4. 复制chromemessagehost文件夹中的所有文件至“C:\Users\UserName\AppData\Local\Encoo\messagehost\chrome”文件夹中。
+4. 复制 chromemessagehost 文件夹中的所有文件至“C:\Users\UserName\AppData\Local\Encoo\messagehost\chrome”文件夹中。
 
-    ![chromemessagehost文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromemessagehost20210909.png)
+    ![chromemessagehost 文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromemessagehost20210909.png)
 
-    >**说明：**
+    > **说明：**
     >
-    > `UserName`为当前系统用户名。
+    > `UserName` 为当前系统用户名。
 
-    ![chrome路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chrome20210909.png)
+    ![chrome 路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chrome20210909.png)
 
-5. 修改chrome文件夹下“encoorpachromemessage.json”配置文件，将配置文件中的path值修改为同目录下EncooNativeMessageHost.exe文件的绝对地址。
+5. 修改 chrome 文件夹下“encoorpachromemessage.json”配置文件，将配置文件中的 path 值修改为同目录下 EncooNativeMessageHost.exe 文件的绝对地址。
 
-    ![chrome配置文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromepath20210909.png)
+    ![chrome 配置文件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromepath20210909.png)
 
-6. 使用“Win+R”打开运行窗口并输入`regedit`打开注册表窗口。
+6. 使用“Win+R”打开运行窗口并输入 `regedit` 打开注册表窗口。
 
     ![运行窗口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/winR20210909.png)
 
 7. 查看注册表的“HKEY_CURRENT_USER\SOFTWARE\Google\Chrome”路径下是否有“NativeMessagingHosts”文件夹。
 
-    >**说明：**
+    > **说明：**
     >
-    >如果没有该文件夹，则执行如下步骤：
+    > 如果没有该文件夹，则执行如下步骤：
     >
-    >1. 在“Chrome”文件夹上右击，选择“新建 > 项”，新建一个“NativeMessagingHosts”文件夹。
-    >2. 在“NativeMessagingHosts”文件夹上右击，选择“新建 > 项”，新建一个“com.bottime.chrome.msghost”项。
+    > 1. 在“Chrome”文件夹上右击，选择“新建 > 项”，新建一个“NativeMessagingHosts”文件夹。
+    > 2. 在“NativeMessagingHosts”文件夹上右击，选择“新建 > 项”，新建一个“com.bottime.chrome.msghost”项。
 
     ![NativeMessagingHosts](https://docimages.blob.core.chinacloudapi.cn/images/Studio/regeditchrome20210909.png)
 
-8. 打开“C:\Users\UserName\AppData\Local\Encoo\messagehost\chrome”路径下“encoorpachromemessage.json”配置文件，修改`name`的值为“com.bottime.chrome.msghost”。
+8. 打开“C:\Users\UserName\AppData\Local\Encoo\messagehost\chrome”路径下“encoorpachromemessage.json”配置文件，修改 `name` 的值为“com.bottime.chrome.msghost”。
 
     ![name](https://docimages.blob.core.chinacloudapi.cn/images/Studio/chromename20210909.png)
 
