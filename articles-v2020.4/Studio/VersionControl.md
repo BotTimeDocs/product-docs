@@ -41,3 +41,33 @@
 - **显示历史**：显示当前所选文件的历史记录。
   
   ![显示历史](https://docimages.blob.core.chinacloudapi.cn/images/Studio/showhistory20201214.png)
+
+## 【高级】将已启用版本控制的项目推送到Github
+
+- **为项目添加远程仓库**：在项目文件夹执行以下命令：
+
+  `git remote add origin https://github.com/xxxx/xxx.git`
+
+    ![添加远程仓库](https://docimages.blob.core.chinacloudapi.cn/images/Studio/gitRemoteAddOrigin20220309.png)
+
+- **推送代码**：在项目文件夹执行以下命令：
+
+    `git push -u origin master`
+
+    ![推送代码](https://docimages.blob.core.chinacloudapi.cn/images/Studio/gitPush20220309.png)
+
+- **访问Github网站可以看见刚推送的项目文件**
+
+    ![Github](https://docimages.blob.core.chinacloudapi.cn/images/Studio/gitDemo20220309.png)
+
+## 【高级】从Github将项目下载至本地
+
+- **克隆项目**：在编辑器本地项目根目录执行以下命令：
+
+    `git clone -b master https://github.com/XXXX/XXXX.git`
+
+    ![GitClone](https://docimages.blob.core.chinacloudapi.cn/images/Studio/gitClone20220309.png)
+
+- **打开编辑器可以在本地项目看见刚才下载的项目**
+
+    ![本地项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/gitProject20220309.png)
