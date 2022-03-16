@@ -40,7 +40,7 @@
 
 2. **Q：MySQL 的数据库连接字符串格式是什么？**
 
-    **A：** `"Server=localhost;Port=3306;Database=nuget1;Uid=root;Pwd=root;"`
+    **A：** `"Server=localhost;Port=3306;Database=nuget1;Uid=root;Pwd=root;Charset=utf8;"`
 
 3. **Q：SQL Server 的数据库连接字符串格式是什么？**
 
@@ -57,3 +57,13 @@
 6. **Q：PostgreSQL 的数据库连接字符串格式是什么？**
 
     **A：** `"User ID=postgres;Password=123456;Host=127.0.0.1;Port=5432;Database=postgres;Pooling=true"`
+
+7. **Q：连接DB2数据库时无法加载DLL“db2app.dll”，找不到指定模块(异常来自HRESULT:0x8007007E)**
+
+    **A：**  按照如下步骤排查：
+
+    a. 确认IBM DB2扩展是否已安装，若已更新过编辑器或机器人，则需要重新[安装IBM DB2扩展](./../../Studio/Extensions/ChromeExtension.md)。
+    b. 确认是否安装*Microsoft Visual C++ 2005 RunTime Pack*，若未安装，则需按上文进行安装。
+    c. 若以上步骤仍未解决，则需检查Windows 系统版本，是否是Windows Embedded Standard，若是，根据系统是64位系统还是32位系统下载安装
+    - x64下载安装：https://share.weiyun.com/FFxPWka7
+    - x86下载安装：https://share.weiyun.com/DBAnBZBe

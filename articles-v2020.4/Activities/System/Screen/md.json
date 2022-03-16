@@ -12,5 +12,12 @@
         "localizedName": "解锁",
         "uuid": "33d6edb3-cdd1-4dfb-a766-5a46c8730340",
         "labels": "解锁, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsLockScreenRunningActivity",
+        "name": "lock-screen-running.md",
+        "localizedName": "锁屏运行",
+        "uuid": "c9c0b00a-1a83-4a58-a042-f7ad04731201",
+        "labels": "锁屏运行, Windows"
     }
 ]

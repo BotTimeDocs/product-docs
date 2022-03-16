@@ -1,9 +1,9 @@
 [
     {
         "name": "RunAlone.md",
-        "localizedName": "如何独立运行流程",
+        "localizedName": "如何让流程在独立桌面中运行",
         "uuid": "77b8684e-98a6-4869-8f39-d493261e8fe9",
-        "labels": "独立运行"
+        "labels": "独立桌面"
     },
     {
         "name": "GetAndroidSMSCode.md",
@@ -28,5 +28,18 @@
         "localizedName": "使用 ViCode 运行并展示 RPA 流程结果",
         "uuid": "b06fe832-b1a1-447e-9f28-bd4a9df9b986",
         "labels": "RPA，ViCode"
-    }
+    },
+    {
+        "name": "offline-use-activitymarket.md",
+        "localizedName": "离线使用组件市场中的组件",
+        "uuid": "e6870ddb-2bee-427e-bf93-7f39c0288080",
+        "labels": "离线，无网络，组件市场"
+    },
+    {
+        "name": "workflow-activity.md",
+        "localizedName": "如何将流程发布成组件",
+        "uuid": "1b1ab067-7487-4efe-b35a-5dfdc6638847",
+        "labels": "组件项目，本地组件市场，组件"
+    }    
+    
 ]

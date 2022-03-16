@@ -31,17 +31,17 @@
 
 ## 激活企业版机器人
 
-可选择使用 控制台激活 或 本地激活 两种方式。
+可选择使用 控制台激活 或 本地激活 两种方式。激活后，机器人与控制台的连接状态为“已连接”。
 
 ### 方式一：控制台激活
 
-1. 进入控制台，找到 **断开** 状态的机器人，将控制台创建的机器人的 **连接字符串** 复制填入。
+1. 使用控制台账号登录机器人。
 
-    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/getrobotconnectionstring.png)
+    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/active20211231.png)
 
 2. 点击激活，即可激活机器人：
 
-    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebyconsole2-N-1.png)
+    ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/selectdepart20211231.png)
 
 ### 方式二：本地激活
 
@@ -49,6 +49,6 @@
 
 > **说明：**
 >
-> 机器码会随着硬件的改变而改变，如，变更 CPU 的核数。
+> 机器码会随着硬件的改变而改变，如，重装系统、变更 CPU 的核数。
 
 ![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/activebylocal-N-1.png)

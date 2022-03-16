@@ -27,33 +27,8 @@
     },
     {
         "id": null,
-        "name": "packages",
-        "localizedName": "流程包管理"
-    },
-    {
-        "id": null,
-        "name": "robot",
-        "localizedName": "机器人管理"
-    },
-    {
-        "id": null,
-        "name": "queue",
-        "localizedName": "机器人队列（企业版）"
-    },
-    {
-        "id": null,
-        "name": "workflow",
-        "localizedName": "流程部署（企业版）"
-    },
-    {
-        "id": null,
-        "name": "job",
-        "localizedName": "任务记录（企业版）"
-    },
-    {
-        "id": null,
-        "name": "management",
-        "localizedName": "管理中心"
+        "name": "rpa-center",
+        "localizedName": "RPA中心"
     },
     {
         "id": null,
@@ -62,13 +37,18 @@
     },
     {
         "id": null,
-        "name": "docreader",
-        "localizedName": "文档理解（企业版）"
+        "name": "ai-center",
+        "localizedName": "AI中心（企业版）"
     },
     {
         "id": null,
         "name": "datacentor",
         "localizedName": "数据中心（企业版）"
+    },
+    {
+        "id": null,
+        "name": "management",
+        "localizedName": "管理中心"
     },
     {
         "id": null,

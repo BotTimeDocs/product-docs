@@ -2,7 +2,7 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetOutlookMail.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/GetOutlookMail.mp4"> </video>
 
 ## 概述
 
@@ -30,6 +30,12 @@
 - **超时**：指定此组件的执行时间。若超出此时间，组件还未执行，会抛出错误。
 - **仅获取未读邮件** ：默认仅获取未读邮箱，若不勾选则获取所有状态邮件。
 - **筛选** ：支持输入 JET / DASL query 语法检索过滤邮件，例如仅获取只读的邮件 query 为 "[UnRead] = True"，如果当前输入的 query 与其他属性选项有冲突，则优先使用其他属性选项值。具体写法参考：<https://docs.microsoft.com/zh-cn/office/vba/outlook/how-to/search-and-filter/filtering-items>
+
+    书写示例：
+
+    - `"@SQL= ""urn:schemas:httpmail:sender"" = 'encoo'"`
+
+    - `"@SQL= ""urn:schemas:httpmail:date"" > '2021/8/4'" + "And ""urn:schemas:httpmail:subject"" like '%测试%'"`
 
 ## 使用示例
 

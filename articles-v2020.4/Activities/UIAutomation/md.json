@@ -168,6 +168,13 @@
         "labels": "图片, 匹配"
     },
     {
+        "id": "Encootech.AutomationActivity.RotateWheelActivity",
+        "name": "rotate-wheel.md",
+        "localizedName": "鼠标滚动（中键）",
+        "uuid": "afa6d12e-1653-4118-9a0a-e3cda61a529c",
+        "labels": "鼠标滚动，中键"
+    },
+    {
         "id": null,
         "name": "Window",
         "localizedName": "窗口"

@@ -57,7 +57,7 @@
         "labels": "下拉选择"
     },
     {
-        "id": "BotTime.ActivityLibrary.ActivityDesigners.Controls.MultiSelectListBoxWindow",
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.MultiSelectListBoxProActivity",
         "name": "MultiSelectListBoxActivity.md",
         "localizedName": "多项选择框",
         "uuid": "3992bcc5-0f57-4d41-939e-dbe818470d93",
@@ -90,6 +90,13 @@
         "localizedName": "获取Windows凭据",
         "uuid": "1d9d79be-39fc-47a3-807b-e227940b0c8e",
         "labels": "凭据, 获取, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetPcInfoActivity",
+        "name": "get-pc-info.md",
+        "localizedName": "获取计算机信息",
+        "uuid": "8f68f3a9-0102-46e1-98da-4180162637ff",
+        "labels": "计算机信息, 获取，Windows"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetClipboardTextActivity",

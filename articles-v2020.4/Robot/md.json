@@ -54,6 +54,12 @@
         "labels": "任务, 定时"
     },
     {
+        "name": "pending-execution.md",
+        "localizedName": "待执行计划页",
+        "uuid": "64a68a51-fff4-4039-a839-fcae0eadc772",
+        "labels": "待执行计划"
+    },
+    {
         "name": "ProcessHistory.md",
         "localizedName": "任务记录页",
         "uuid": "8ac310b6-e403-4327-9ad2-068f4e767652",

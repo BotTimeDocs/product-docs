@@ -2,15 +2,15 @@
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InvokeSubWorkflow.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/activity/InvokeSubWorkflow.mp4"> </video>
 
 ## 概述
 
 支持调用执行其他子流程文件，并可在两个流程间进行参数的传递。可在组件面板点击弹出对话框，选择要调用的文件；亦支持手动输入路径。
 
->**小技巧：**
+> **小技巧：**
 >
->将项目面板中的流程文件（扩展名为.xaml）拖拽至编辑区域，将自动生成“调用子流程”组件。
+> 将项目面板中的流程文件（扩展名为.xaml）拖拽至编辑区域，将自动生成“调用子流程”组件。
 
 ## 属性
 
@@ -25,6 +25,6 @@
 
 ## 使用示例
 
-**此流程执行逻辑**：在A流程中，调用B流程并执行。
+**此流程执行逻辑**：在 A 流程中，调用 B 流程并执行。
 
-![子流程配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/invokesubworkflow20210715.png)
+![子流程配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/invokesubworkflow20211220.png)
