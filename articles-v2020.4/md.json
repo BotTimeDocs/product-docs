@@ -1,79 +1,34 @@
 [
     {
-        "name": "Index.md",
-        "localizedName": "概览",
-        "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
-        "labels": "产品介绍"
+        "name": "quick-start",
+        "localizedName": "快速上手"
     },
     {
-        "name": "ReleaseNotes.md",
-        "localizedName": "最新发版说明",
-        "uuid": "4d3fd93f-a9a1-41e5-abad-63aad543c919",
-        "labels": "发版"
-    },
+        "name": "project-develop-guide",
+        "localizedName": "项目开发指南"
+    },   
     {
-        "name": "ReleaseNotes",
-        "localizedName": "历史发版说明"
-    },
+        "name": "process-manage-guide",
+        "localizedName": "流程管理指南"
+    },   
     {
-        "name": "Studio",
-        "localizedName": "云扩RPA编辑器"
-    },
+        "name": "process-example",
+        "localizedName": "示例流程精讲"
+    },     
     {
-        "id": null,
-        "name": "Activities",
-        "localizedName": "云扩组件库"
-    },
+        "name": "coe-guide",
+        "localizedName": "CoE指南"
+    },  
     {
-        "id": null,
-        "name": "Robot",
-        "localizedName": "云扩RPA机器人"
-    },
+        "name": "scenario-specific-guide",
+        "localizedName": "特定场景指南"
+    }, 
     {
-        "id": null,
-        "name": "Console",
-        "localizedName": "云扩RPA控制台"
-    },
+        "name": "reference-guide",
+        "localizedName": "参考指南"
+    }, 
     {
-        "id": null,
-        "name": "AIHub",
-        "localizedName": "云扩AIHub智能应用中心"
-    },
-    {
-        "id": null,
-        "name": "DocReader",
-        "localizedName": "云扩DocReader文档理解"
-    },
-    {
-        "id": null,
-        "name": "Apps",
-        "localizedName": "云扩ViCode云码"
-    },
-    {
-        "id": null,
-        "name": "Spark",
-        "localizedName": "云扩Spark"
-    },
-    {
-        "id": null,
-        "name": "BestPractices",
-        "localizedName": "专题文档"
-    },
-    {
-        "name": "FAQ",
-        "localizedName": "常见问题",
-        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
-        "labels": "常见问题，FAQ"
-    },
-    {
-        "name": "Glossary.md",
-        "localizedName": "术语解释",
-        "uuid": "713e94b4-4a6e-4364-a38e-f028790123bd",
-        "labels": "术语，名词"
-    },
-    {
-        "id": null,
-        "name": "Legal",
-        "localizedName": "法律申明"
+        "name": "releasenotes-history",
+        "localizedName": "版本发布历史"
     }
 ]
