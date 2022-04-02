@@ -10,14 +10,23 @@
 ## 启用 SAP WinGUI 脚本
 
 `启用SAP WinGUI脚本并没有任何安全问题`
+
 ### 执行事务，修改参数
 
 1. 打开 SAP 并登录连接
 2. 执行事务代码 **RZ11**
-3. 输入参数名 **sapgui/user_scripting**，按下回车键
-4. **维护参数文件参数** 窗口中，参数名称输入 **sapgui/user_scripting**，点击 **显示**
-5. 点击 **更改值**，**新值** 设置为 **TRUE**，**保存更改**
-6. 重复第四步，分别将下述参数的值改为 **FALSE**
+
+    ![执行事务](https://docimages.blob.core.chinacloudapi.cn/images/Activities/rz11.png)
+
+3. **维护参数文件参数维护** 窗口中，参数名称输入 **sapgui/user_scripting**，点击 **显示**
+
+    ![输入参数](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapgui.png)
+
+4. 点击 **更改值**，**新值** 设置为 **TRUE**，**保存更改**
+
+    ![更改值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/change.png)
+
+5. 重复第四步，分别将下述参数的值改为 **FALSE**
     - sapgui/user\_scripting\_disable\_recording
     - sapgui/user\_scripting\_force\_notification
     - sapgui/user\_scripting\_per\_user
@@ -27,7 +36,7 @@
     >
     > 事务 RZ11 中对参数的所有更改均立即生效，并且在系统重新启动时丢失。要使更改永久生效，请联系您的 SAP 系统管理员。
 
-7. 注销后重新登录。
+6. 注销后重新登录。
 
 ### 勾选启用脚本
 
@@ -49,3 +58,17 @@
     > 当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图提示，请按照上述勾选启用脚本的步骤进行设置。
 
     ![注意](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png)
+
+### 启用对话框模式
+
+1. 点击“帮助 > 设置”菜单。
+
+    ![帮助设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/helpsetting20220402.png)
+
+2. 点击“F1 帮助”，选择“以对话框模式”。
+
+    ![对话框模式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/F1dialog.png)
+
+3. 如果需要使用日期选择，则点击“F4 帮助”，单击“控制（amodal）”
+
+   ![F4 帮助](https://docimages.blob.core.chinacloudapi.cn/images/Activities/F4help.png)

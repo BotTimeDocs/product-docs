@@ -6,7 +6,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `%programfiles(x86)%\Encoo Robot`
 
@@ -16,7 +16,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `%programfiles(x86)%\Encoo Robot\Logs`。
 
@@ -26,7 +26,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
@@ -36,7 +36,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
      **A：** `%UserProfile%\AppData\Local\Encoo\Encoo Robot\JobLogs`。
 
@@ -48,9 +48,9 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
-     **A：** 一般情况下是机器人版本与控制台版本不匹配导致，如果是V3控制台的私有化用户，需要联系对应的实施退回与之匹配的机器人版本。
+     **A：** 一般情况下是机器人版本与控制台版本不匹配导致，如果是 V3 控制台的私有化用户，需要联系对应的实施退回与之匹配的机器人版本。
 
     </details>
 
@@ -60,9 +60,19 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 组件项目不能运行的，组件项目相当于一个组件包，需要用流程项目在组件市场去安装这个组件项目，然后把这个组件拖入到流程里面去使用。
+
+    </details>
+
+2. **Q：不同账号登录如何看到不同的流程库信息？**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 可在控制台的“RPA 中心 > 流程包管理”中查看。
 
     </details>
 
@@ -72,7 +82,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 具体可参见 [Cron 表达式详解](https://www.cnblogs.com/yanghj010/p/10875151.html?wework_cfm_code=MEUlenv2IN4vo7D10vYW9eLlYMwLm8xSqDjffgjTGvQ9iGFipvqTLczAoPP5NOEVCs1L7n3RwewZnUC0CAW8z5BR%2F0XT3rI9tRzw6tr0hUp3XrxcSQT3cCY%3D)。
 
@@ -82,7 +92,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `0 0/20 7,8 * * ?`，可参见 [在线 Cron 表达式生成器](https://www.bejson.com/othertools/cron/)。
 
@@ -92,7 +102,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 任务只能一个一个地运行，处理完一个任务才能处理其它任务。
 
@@ -104,7 +114,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A:** 勾选机器人“设置”中的“RDP 远程”选项，详情参见 [RDP 远程](../Robot/Settings/Basic.md)。
 
@@ -114,7 +124,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A:** 在当前电脑的“Windows 设置 > 更新和安全”中，保证“Windows 更新”补丁为最新。
 
@@ -124,7 +134,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 在当前电脑的“Windows 设置 > 远程桌面”中，将当前用户添加至远程用户中。
 
@@ -138,7 +148,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A:** 会发生变化。机器人的机器码在不同 Windows 用户下是不同的，而重装了系统后，用户信息就没有了，所以机器码也会发生变化。
 
@@ -148,7 +158,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![执行机器人](https://docimages.blob.core.chinacloudapi.cn/images/Robot/executerobot20210825.png)
 
