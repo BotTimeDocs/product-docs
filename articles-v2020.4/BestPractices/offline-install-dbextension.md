@@ -34,6 +34,7 @@
     **A：** 排查步骤如下：
 
     a. 确认 DB2 扩展是否已经安装，若更新过编辑器或者机器人则需要重新安装 DB2 扩展。
+
     b. DB2 数据库访问驱动 DLL 需要 C++运行环境，一般新电脑没有 [C++环境](https://docimages.blob.core.chinacloudapi.cn/images/Studio/DataBase/RuntimePack.zip)，安装即可。
 
     c. 若以上步骤还是提示该问题，需要检查 Windows 系统版本，是否是 Windows Embedded Standard，根据系统是 64 位系统还是 32 系统下载安装。
