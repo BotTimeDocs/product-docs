@@ -21,8 +21,9 @@
 
 1. 在有网络的电脑上下载 [IBM DB2 扩展的安装包](https://share.weiyun.com/NXqMlQJN)。
 2. 将下载的安装包复制到安装路径所在的目录下。
-   - 编辑器中 IBM DB2 扩展的路径：`%UserProfile%\AppData\Local\Encoo Studio\app-x.x.xxxx.x\buildinActivities`
-   - 机器人中 IBM DB2 扩展的路径：`%programfiles(x86)%\Encoo Robot\app-x.x.xxxx.x\buildinActivities`
+
+    - 编辑器中 IBM DB2 扩展的路径：`%UserProfile%\AppData\Local\Encoo Studio\app-x.x.xxxx.x\buildinActivities`
+    - 机器人中 IBM DB2 扩展的路径：`%programfiles(x86)%\Encoo Robot\app-x.x.xxxx.x\buildinActivities`
 
 3. 单击编辑器/机器人中的“IBM DB2 扩展”，进行安装。
 
