@@ -508,7 +508,11 @@
 
     ![无法识别按钮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/f420210826.jpg)
 
-    **A：** 用“坐标点击”组件试试，或者 F4 切换一下识别方式。
+    **A：**
+
+    a. 用“坐标点击”组件试试，或者 F4 切换一下识别方式。
+
+    b. 如果Java程序里面嵌入的是flash的话，则无法识别。
 
     </details>
 
@@ -660,6 +664,16 @@
     <summary> 点击展开 </summary>
 
     **A：** 连接数据库时，数据库的连接字符串中加上 Charset = utf8，如，`数据库连接字符串="server=localhost;port=3306;user=root;password=root;database=rpa;Charset=utf8;"`。
+
+    </details>
+
+19. **Q：在内网中如何能识别出文字？**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 内网中无法识别文字，可以私有化部署OCR模块。
 
     </details>
 
