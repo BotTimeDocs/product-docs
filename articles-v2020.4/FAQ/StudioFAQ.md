@@ -867,6 +867,22 @@
 
     </details>
 
+10. **Q：编辑器报错：“未将对象引用设置到对象的实例”**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 出现此报错的原因通常为空指针导致。
+
+    如：
+
+      - 使用对象之前没有实例化
+      - 变量值为 null
+      - 未安装 `.net`
+
+    </details>
+
 ## 手机自动化相关
 
 参见 [手机自动化常见问题](../Studio/process/developProject/MobileDevicesManage/MFAQ.md)。
