@@ -23,8 +23,8 @@
 ### 【组件】
 
 1. 新增 [屏保运行](./Activities/System/Screen/screensaver.md) 组件，支持流程在设置的屏保后运行
-2. 新增 加入任务 组件，实现向任务队列中添加消息
-3. 新增 消费任务 组件，实现消费任务队列中的消息
+2. 新增 [加入任务](./Activities/Console/task-queue/AddtoTaskQueue.md) 组件，实现向任务队列中添加消息
+3. 新增 [消费任务](./Activities/Console/task-queue/OperateQueue.md) 组件，实现消费任务队列中的消息
 4. 原 WPS 类组件合并至 OfficeExcel 类组件中
 5. 支持未安装 Excel 和 WPS 时也可使用部分 Excel 组件
 6. 将 删除数据 组件拆分为 [清除单元格](./Activities/AppAutomation/OfficeExcel/clear-cell.md)、[清除区域](./Activities/AppAutomation/OfficeExcel/clear-area.md)、[清除行](./Activities/AppAutomation/OfficeExcel/clear-row.md)、[清除列](./Activities/AppAutomation/OfficeExcel/clear-row.md) 四个组件
