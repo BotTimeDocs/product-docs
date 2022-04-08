@@ -36,6 +36,12 @@
         "labels": "离线，无网络，组件市场"
     },
     {
+        "name": "offline-install-dbextension.md",
+        "localizedName": "离线安装 IBM DB2 扩展",
+        "uuid": "e2accc71-0ff3-4241-b7f4-b39101693ca6",
+        "labels": "离线，无网络，IBM DB2"
+    },
+    {
         "name": "workflow-activity.md",
         "localizedName": "如何将流程发布成组件",
         "uuid": "1b1ab067-7487-4efe-b35a-5dfdc6638847",
