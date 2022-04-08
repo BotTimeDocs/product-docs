@@ -6,7 +6,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
    ![安装崩溃](https://docimages.blob.core.chinacloudapi.cn/images/Studio/FAQ/installCollapse.png)
 
@@ -19,7 +19,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
    ![安装失败](https://docimages.blob.core.chinacloudapi.cn/images/Studio/installfailed20210824.png)
 
@@ -35,7 +35,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `%UserProfile%\AppData\Local\Encoo Studio`
 
@@ -45,7 +45,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![安装报错](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studioinstallerror20210825.png)
 
@@ -59,7 +59,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 不支持，RPA 大部分产品都是新型产品，诞生的时间比 XP 系统要晚很多，所以版本适配一般都是 Win7 版本及以上。
 
@@ -71,7 +71,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 没有网络无法使用社区版编辑器。联网激活企业版编辑器，使用也需要联网，许可证激活可以断网使用。
 
@@ -81,7 +81,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 社区版只有一个 RPA 编辑器可以使用， 确认是否已激活一个编辑器了？可登录控制台，点击“许可证” 菜单，进行解绑。
 
@@ -95,7 +95,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
    **A：**
 
@@ -113,7 +113,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Log`。
 
@@ -123,7 +123,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
    **A：** `%UserProfile%\AppData\Local\Encoo\Installation`。
 
@@ -135,7 +135,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![日志路径](https://docimages.blob.core.chinacloudapi.cn/images/Studio/logpath20210826.png)
 
@@ -147,7 +147,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可在需要保留的项目中把另外一个项目的 xaml 文件都导入过去。
 
@@ -159,7 +159,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 如果是新安装的编辑器，可能是和其他版本冲突了。先关闭编辑器，在 `C:\users\<user>\.nuget` 下面，将 packages 文件夹重命名，相当于备份，然后重新打开编辑器，新建项目。
 
@@ -169,7 +169,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 编辑器以管理员身份运行，在项目空白处右击，选择“项目设置 > 常规”，勾选以管理员方式运行。
 
@@ -181,7 +181,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![执行 cmd 命令](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20210826.png)
 
@@ -193,7 +193,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可以右键点击项目“项目设置 > 常规”，勾选以管理员方式运行。
 
@@ -203,7 +203,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** project.json 文件里面，把 `ProjectType` 的值改成 `Workflow`，project.runtime.json 里面也改下。
 
@@ -213,7 +213,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 按照如下步骤进行处理：
 
@@ -227,7 +227,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 提取子流程只能选单个组件（序列、流程图也可以），可以把这些组件放到一个流程图里，然后把这个流程图提取为子流程。
 
@@ -237,7 +237,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 导出流程，拷贝到另一台电脑并导入进依赖项，然后使用“调用流程（引用项目）”组件调用该流程。
 
@@ -247,7 +247,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：**
     - **流程图** 适用于复杂的业务场景，通过流程控制类组件（如，流程判断）可以创建复杂的流程；
@@ -262,7 +262,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 右键点击有执行快捷键：`F6` 可调试当前打开的流程，`Ctrl+F6` 可运行当前打开的流程。
 
@@ -272,7 +272,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 断点只是调试用的，不影响运行，停下后在左侧面板点击“继续”还会继续往下跑的。如果需要恢复，右击“删除断点”即可。
 
@@ -282,7 +282,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 一般情况下是流程中用到的某个变量没有值。
 
@@ -294,7 +294,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `%UserProfile%\.nuget\packages`
 
@@ -304,7 +304,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 导出项目的时候勾选包含依赖项，或者在离线环境建一个私有市场，私有市场也需要把有网环境的.nupkg 文件复制过去，`%userprofile%\.nuget\packages`
 
@@ -316,7 +316,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![报错信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/imap20210825.png)
 
@@ -330,7 +330,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 云扩市场组件提供了两个模拟滑动组件，一个是支持加速度拖动，一个是支持根据事先录制的轨迹来滑动。
 
@@ -342,7 +342,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 手动导入命名空间即可在 c# 组件中测试。
 
@@ -352,7 +352,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 从组件市场下载的组件包在目录下(%userprofile%\.nuget\packages)，可以从此拷到内网的电脑中，例如，放在 "c:\activities"，再把 "c:\activities" 设置为本地组件市场即可。
 
@@ -362,7 +362,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 主要是通过代码市场，具体可参见 [如何在 C#代码编辑器中引用.dll 文件](https://community.encoo.com/thread/510)。
 
@@ -374,7 +374,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 打开编辑器，在 **开始 > 工具 > 扩展** 中，选择并点击“Chrome 扩展”，根据提示操作即可。（在安装后，请手动打开浏览器并输入：chrome://extensions/，启用扩展。）
 
@@ -386,7 +386,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
 
@@ -410,7 +410,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** Chrome 浏览器安装扩展后并启用。
 
@@ -422,7 +422,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 编辑器中的流程，通过如下方式部署至机器人:
 
@@ -437,7 +437,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：**
     - 方式一：在编辑器中将流程导出为 dgs，然后在控制台的“流程包管理”中上传已导出的 dgs 流程包。
@@ -449,7 +449,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 开发完成了的流程，可以点击编辑器菜单栏中的“发布”菜单，可将流程发布至控制台、机器人、流程市场等。
 
@@ -461,7 +461,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![指定元素验证失败](https://docimages.blob.core.chinacloudapi.cn/images/Studio/locateelement20210603.png)
 
@@ -473,7 +473,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 是定位失败，编辑时的定位选择和运行时不一样了，要检查哪个属性发生了变化。
 
@@ -483,7 +483,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 这与系统元素的响应时长有关，建议在出问题的组件上加延迟，或在此步骤前使用等待元素出现组件。
     一般有以下几种方式增加稳定性，增加超时时间、重试、机器人运行出错时截图，在使用前先等待元素出现。exe 应用程序出错时，建议排错期间先不要关闭，查看此时能否验证成功。
@@ -494,7 +494,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 录制技术切换至 IA。
 
@@ -504,11 +504,15 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![无法识别按钮](https://docimages.blob.core.chinacloudapi.cn/images/Studio/f420210826.jpg)
 
-    **A：** 用“坐标点击”组件试试，或者 F4 切换一下识别方式。
+    **A：**
+
+    a. 用“坐标点击”组件试试，或者 F4 切换一下识别方式。
+
+    b. 如果Java程序里面嵌入的是flash的话，则无法识别。
 
     </details>
 
@@ -516,7 +520,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可以尝试
 
@@ -529,7 +533,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![QQ 输入框](https://docimages.blob.core.chinacloudapi.cn/images/Studio/QQInputbox20210902.png)
 
@@ -541,7 +545,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可能是新窗口上的元素没定位成功，需检查定位的元素里有哪些可能是动态变化的。在选择器编辑器中把可能发生变化的部分用 `*` 代替。
 
@@ -553,7 +557,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可以的，`{{变量名}}`。
 
@@ -563,7 +567,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 不可以，变量替换必须是基础变量。
 
@@ -573,7 +577,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 勾选生成 XPath（仅支持 WEB），然后重新指向元素，`//label[@for='confCode']/..//input[contains(@placeholder,'变量代码')]`
 
@@ -585,7 +589,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![readonly](https://docimages.blob.core.chinacloudapi.cn/images/Studio/readonly20210826.png)
 
@@ -597,7 +601,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![SAP 页面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/sap20210826.png)
 
@@ -611,7 +615,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 只有 `id` 在变，用其他 `sinfo` 或者 `CssSelector` 属性试试，属性值用元素探测器获取到填进去，截取到 iframe 的位置。
 
@@ -623,7 +627,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 外层定位到弹窗以后，使用图像识别功能进行录制。使用“点击”组件录制的时候定位到弹出窗时，按下 ctrl 键盘，框选一下那个关闭按钮就可以了。
 
@@ -633,7 +637,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![点击子菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/clicksubmenu20210826.png)
 
@@ -645,11 +649,31 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![F12 页面显示](https://docimages.blob.core.chinacloudapi.cn/images/Studio/F12view20211018.png)
 
     **A：** 使用 **截屏** 组件截图后，再使用 **OCR 图像识别** 组件识别。
+
+    </details>
+
+18. **Q：获取结构化数据时写入到 DB 时乱码，如何处理？**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 连接数据库时，数据库的连接字符串中加上 Charset = utf8，如，`数据库连接字符串="server=localhost;port=3306;user=root;password=root;database=rpa;Charset=utf8;"`。
+
+    </details>
+
+19. **Q：在内网中如何能识别出文字？**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 内网中无法识别文字，可以私有化部署OCR模块。
 
     </details>
 
@@ -659,7 +683,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** Convert.ToInt32("String 字串")。
 
@@ -669,7 +693,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可参见 [C#日期加减](https://www.cnblogs.com/RCJL/p/12930425.html?wework_cfm_code=OTcx9KzwohAgedF7GMK4w2wgfzzAnXYvJkWj%2BfQlKu2ufHEl5IWDPUfA5BGsjcdX02a8d5HRYX8WgPkozEyQ1Q7DOODUJ1%2F2Iej2z%2FE1Bpbs4YNG7XGzAoI%3D)。
 
@@ -679,7 +703,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可以，两个双引号代表一个双引号。
 
@@ -689,7 +713,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![类型转换错误](https://docimages.blob.core.chinacloudapi.cn/images/Studio/typeconverterror20210824.png)
 
@@ -701,7 +725,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** `System.IO.Path.GetFileName(item)`，如果希望不要带扩展名的名称，可用 `System.IO.Path.GetFileNameWithoutExtension(item)`。
 
@@ -711,7 +735,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可参考 [如何在 C#中使用 String.Split 分隔字符串](https://docs.microsoft.com/zh-cn/dotnet/csharp/how-to/parse-strings-using-split)。
 
@@ -721,7 +745,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 可以使用 C#代码转换，具体可参见 [Json 转 DataTable](https://www.cnblogs.com/zhangjd/p/6007072.html)
 
@@ -733,7 +757,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![WPS 异常](https://docimages.blob.core.chinacloudapi.cn/images/Studio/wpserror20210826.png)
 
@@ -745,7 +769,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 若可以安装 WPS，也可以用 office 组件，WPS 用的是 office 的库。
 
@@ -755,7 +779,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 使用“写入行/列数据”组件，使用“获取末行号”组件搭配数据确定要加几个，创建数组变量，要填几个数据，就加几个。
 
@@ -767,7 +791,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 不能。
 
@@ -777,7 +801,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![页面页数](https://docimages.blob.core.chinacloudapi.cn/images/Studio/pages20210826.png)
 
@@ -789,7 +813,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 区域截取建议使用“组件市场”中的组件，可以设置坐标范围。而“截屏”组件是根据元素截图，不支持按住 Ctrl 截取区域，您可以指定一个相对固定的元素然后设定大小和偏移。
 
@@ -799,7 +823,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 有些只能点击，有些可以用 JS，有些可以直接输入，所以需要根据实际情况判断使用哪种。如果手动输入方便，则先鼠标点击，获取焦点，然后再输入。
 
@@ -809,7 +833,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 返回是 json 格式的序列化后的字符串，可以用 JSON“反序列化”组件，也可以用字符串匹配来提取想要的内容。
 
@@ -819,7 +843,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 使用 [连接数据库](./../Activities/Database/ConnectDatabase.md) 组件。
 
@@ -829,7 +853,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 目前没有组件可以直接添加，可以在执行 C#代码组件中写代码处理。
 
@@ -839,7 +863,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     ![列不属于表](https://docimages.blob.core.chinacloudapi.cn/images/Studio/row20211008.png)
 
@@ -851,9 +875,25 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 使用 **点击** 组件点击向下按钮，若操作不便可使用快捷键 pagedown 翻页。
+
+    </details>
+
+10. **Q：编辑器报错：“未将对象引用设置到对象的实例”**
+
+    <details>
+
+    <summary> 点击展开 </summary>
+
+    **A：** 出现此报错的原因通常为空指针导致。
+
+    如：
+
+      - 使用对象之前没有实例化
+      - 变量值为 null
+      - 未安装 `.net`
 
     </details>
 
@@ -867,7 +907,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 变量是用于存储数据，让组件之间可以传递和共用数据。 而参数既可以存储数据又可以用于流程间数据的传递，且参数没有范围（即，参数的范围是整个流程），参数是有方向的（输入、输出、输入/输出）。
 
@@ -877,7 +917,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** [C#基本语法](https://www.runoob.com/csharp/csharp-tutorial.html)
 
@@ -889,7 +929,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 参见 [RPC 服务器不可用的解决方案](https://www.cnblogs.com/bosins/p/13150489.html)。
 
@@ -899,7 +939,7 @@
 
     <details>
 
-    <summary>点击展开</summary>
+    <summary> 点击展开 </summary>
 
     **A：** 参见 [PowerPoint VBA(Macros)教程](https://zhuanlan.zhihu.com/p/134142512)。
 
