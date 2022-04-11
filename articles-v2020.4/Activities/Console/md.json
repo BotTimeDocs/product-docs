@@ -7,6 +7,13 @@
         "labels": ""
     },
     {
+        "id": "",
+        "name": "task-queue",
+        "localizedName": "任务队列",
+        "uuid": "",
+        "labels": ""
+    },
+    {
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
         "localizedName": "文档理解",

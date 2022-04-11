@@ -16,11 +16,6 @@
     },
     {
         "id": null,
-        "name": "WPSExcel",
-        "localizedName": "WPS Excel"
-    },
-    {
-        "id": null,
         "name": "PDF",
         "localizedName": "PDF"
     }
