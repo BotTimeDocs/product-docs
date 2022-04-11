@@ -56,22 +56,22 @@
         "labels": "清除, 数据, Excel, 单元格"
     },
     {
-        "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
-        "name": "BotTime.Office.Activity.ClearRangeActivity",
+        "id": "BotTime.Office.Activity.ClearRangeActivity",
+        "name": "clear-area.md",
         "localizedName": "清除区域",
         "uuid": "344dd330-9146-4b06-afc0-ddea7fa66404",
         "labels": "清除, 数据, Excel, 区域"
     },
     {
-        "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
-        "name": "BotTime.Office.Activity.ClearRowActivity",
+        "id": "BotTime.Office.Activity.ClearRowActivity",
+        "name": "clear-row.md",
         "localizedName": "清除行",
         "uuid": "f2652fb5-62f3-4b79-9a0c-4a99ecbc3ea9",
         "labels": "清除, 数据, Excel, 行"
     },
     {
-        "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
-        "name": "BotTime.Office.Activity.ClearColumnActivity",
+        "id": "BotTime.Office.Activity.ClearColumnActivity",
+        "name": "clear-column.md",
         "localizedName": "清除列",
         "uuid": "e5c04e12-0958-47d9-90ce-bf0178140925",
         "labels": "清除, 数据, Excel, 列"
