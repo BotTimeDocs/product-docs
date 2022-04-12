@@ -21,7 +21,7 @@ Citrix 广义上指 Citrix Desktop 和 Citrix App 两种虚拟化资源交付方
 
 ### 配置本地客户端
 
-Citrix 扩展安装在本地计算机上，以使 Encoo Studio/Robot 以原生的方式自动化 Citrix 相关的应用程序。
+Citrix 扩展安装在本地计算机上，以使编辑器/机器人 以原生的方式自动化 Citrix 相关的应用程序。
 
 1. 在编辑器中的“**开始 > 工具**”页中，获取本地端 Encoo Citrix 扩展。
 2. 单击**Citrix 扩展**，根据安装向导进行安装。

@@ -44,7 +44,8 @@
 - 任务: 定时任务的名称
 - 流程库: 任务中流程所属流程库
 - 流程：当前任务的流程名称
+- 版本号：当前任务的流程包版本
 - 模式：当前任务的执行模式
 - 操作：点击 **编辑** 对当前定时任务修改；点击 **删除** 则删除当前任务
 
-![定时任务列表](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-CronJob-1.png)
+![定时任务列表](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotJob.png)

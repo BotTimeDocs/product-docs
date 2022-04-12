@@ -13,6 +13,11 @@
 - 通过编辑器发布流程至控制台
 - 手动上传
 
+    >**说明：**
+    >手动上传或者编辑器发布流程包到控制台，最大支持2G的流程包。
+
+    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/packageUpload)
+
 ## 流程包管理权限说明
 
 - 查看流程包：包含流程包管理菜单及流程包管理列表查看权限
