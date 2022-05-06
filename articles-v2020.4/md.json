@@ -1,34 +1,55 @@
 [
     {
-        "name": "quick-start",
-        "localizedName": "快速上手"
+        "id": null,
+        "name": "Index.md",
+        "localizedName": "概览",
+        "uuid": "27aa12b3-1fb1-42a8-85ce-3bb2729ff06c",
+        "labels": "概览"
     },
     {
-        "name": "project-develop-guide",
+        "name": "DevGuide",
         "localizedName": "项目开发指南"
     },   
     {
-        "name": "process-manage-guide",
-        "localizedName": "流程管理指南"
-    },   
+        "name": "RunManager",
+        "localizedName": "流程运行与管理指南"
+    },    
     {
-        "name": "process-example",
-        "localizedName": "示例流程精讲"
-    },     
-    {
-        "name": "coe-guide",
-        "localizedName": "CoE指南"
-    },  
-    {
-        "name": "scenario-specific-guide",
+        "name": "BestPractices",
         "localizedName": "特定场景指南"
     }, 
     {
-        "name": "reference-guide",
+        "name": "Reference",
         "localizedName": "参考指南"
     }, 
     {
-        "name": "releasenotes-history",
-        "localizedName": "版本发布历史"
+        "id": null,
+        "name": "Studio",
+        "localizedName": "云扩RPA编辑器"
+    },
+    {
+        "id": null,
+        "name": "Activities",
+        "localizedName": "云扩组件库"
+    },   
+    {
+        "id": null,
+        "name": "Activities",
+        "localizedName": "云扩组件库"
+    },  
+    {
+        "name": "FAQ",
+        "localizedName": "常见问题"
+    },
+    {
+        "id": null,
+        "name": "ReleaseNotes.md",
+        "localizedName": "最新发版说明",
+        "uuid": "2e59c438-a50e-4e01-b5b8-c9b72eaa6886",
+        "labels": "发版说明"
+    },
+    {
+        "name": "Legal",
+        "localizedName": "法律申明"
     }
 ]
