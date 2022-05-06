@@ -4,8 +4,6 @@
 
 机器人开启录屏执行流程，流程结束后，本地或控制台上看到的录屏视频画面是黑屏，但视频里面还是有字幕的。
 
-![现象](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/black0120220506.png)
-
 ## 限制条件
 
 - 机器人执行流程时，执行流程的 windows 用户需要一个可用的 windows session（即对应的 windows 用户处于登录状态）。

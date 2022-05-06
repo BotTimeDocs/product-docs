@@ -22,12 +22,10 @@
 
     解决办法：
 
-   - Step1：查看自己邮箱设置里面的 smtp 配置（参考 163 的配置），通常私有的邮箱服务器会自己配置 smtp, pop3 等服务。
+    - Step1：查看自己邮箱设置里面的 smtp 配置（参考 163 的配置），通常私有的邮箱服务器会自己配置 smtp, pop3 等服务。
 
         > 说明：
         >
         > QQ 邮箱配置可参考：(<https://service.exmail.qq.com/cgi-bin/help?subtype=1&id=28&no=1000585>)
 
-        ![邮箱配置](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/mail20220506.png)
-
-   - Step2：参照邮件类组件的使用 [说明文档](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendOutlookMail.md?uuid=e9578822-8a59-4f6d-bf84-c62718f5b6b3) 确认配置的属性是否有误。
+    - Step2：参照邮件类组件的使用 [说明文档](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendOutlookMail.md?uuid=e9578822-8a59-4f6d-bf84-c62718f5b6b3) 确认配置的属性是否有误。
