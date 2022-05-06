@@ -19,5 +19,12 @@
         "localizedName": "锁屏运行",
         "uuid": "c9c0b00a-1a83-4a58-a042-f7ad04731201",
         "labels": "锁屏运行, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsScreensaverActivity",
+        "name": "screensaver.md",
+        "localizedName": "屏保运行",
+        "uuid": "91412788-9f37-4790-bf92-0bf98f309065",
+        "labels": "屏保运行, Windows"
     }
 ]

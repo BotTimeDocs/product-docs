@@ -6,9 +6,14 @@
 
 > **注意：**
 >
->- 建议使用官方版本的 Chrome 浏览器。
+>- 建议使用官方版本的 Chrome 浏览器，不推荐使用绿色版或论坛定制版的Chrome浏览器。
 >- Chrome 版本最低为 60。
 >- 在安装该扩展前，可能会要求你关闭 Google Chrome，因此请务必将处理中的相关任务进行保存。
+
+## Chrome安装包
+
+- [在线安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ChromeSetup.exe)
+- [离线安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ChromeStandaloneSetup64.exe)
 
 ## 自动安装
 

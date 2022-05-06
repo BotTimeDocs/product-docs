@@ -6,6 +6,10 @@
 
 ![获取短信验证码应用场景](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/smscode20210818.png)
 
+> **说明：**
+>
+> 获取手机验证码需要在真机环境下（不支持模拟器）才可以获取到手机验证码。
+
 云扩 RPA 目前支持四种方式获取安卓手机的短信验证码，如下文所述。
 
   - [方式一：通过组件调用](#方式一通过组件调用)

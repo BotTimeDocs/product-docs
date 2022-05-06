@@ -49,3 +49,7 @@
 
     step1：把System32下面的query.exe复制到SystemWow64下。
     step2：在命令中使用如下方式，强制使用System32下的cmd.exe，即，`@"c:\windows\SysNative\cmd.exe /c query session"`
+
+2. **Q：如何在组件的【命令行】属性中使用变量？**
+
+    **A：** 只需要将你需要使用的命令字符串与变量通过"+"号拼接即可，比如`"start"+变量名`

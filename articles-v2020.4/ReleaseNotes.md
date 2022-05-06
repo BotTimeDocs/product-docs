@@ -6,6 +6,43 @@
 >
 > 关于社区版与企业版的差异说明，请参见 [常见问题](./FAQ/QA.md)。
 
+## 2022.04.10 发版说明
+
+2022.04.10 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   |1.1.2204.9|
+| 机器人   |1.1.2204.9|
+| 控制台   |V 4.1.73689|
+
+### 【编辑器】
+
+1. 支持发布最高 2GB 的大流程文件至控制台
+
+### 【组件】
+
+1. 新增 [屏保运行](./Activities/System/Screen/screensaver.md) 组件，支持流程在设置的屏保后运行
+2. 新增 [加入任务](./Activities/Console/task-queue/AddtoTaskQueue.md) 组件，实现向任务队列中添加消息
+3. 新增 [消费任务](./Activities/Console/task-queue/OperateQueue.md) 组件，实现消费任务队列中的消息
+4. 原 WPS 类组件合并至 OfficeExcel 类组件中
+5. 支持未安装 Excel 和 WPS 时也可使用部分 Excel 组件
+6. 将 删除数据 组件拆分为 [清除单元格](./Activities/AppAutomation/OfficeExcel/clear-cell.md)、[清除区域](./Activities/AppAutomation/OfficeExcel/clear-area.md)、[清除行](./Activities/AppAutomation/OfficeExcel/clear-row.md)、[清除列](./Activities/AppAutomation/OfficeExcel/clear-row.md) 四个组件
+
+### 【机器人】
+
+1. 扩展，增加描述、详情入口，降低用户使用门槛
+2. 支持在控制台查看运行中的实时日志
+3. 定时任务，增加版本号，增强产品可读性
+4. 产品更新，增加发版说明文档入口，优化交互体验
+
+### 【控制台】
+
+1. [定时任务](./Console/rpa-center/workflow/trigger.md)，支持时区、指定一个时间、动态提示
+2. 审计日志，支持“操作模块”过滤
+3. 文件服务，支持列表排序和分页
+4. [流程包](./Console/rpa-center/packages/aboutPackages.md)，支持批量上传，最大 2G 的文件
+
 ## 2022.02.25 发版说明
 
 2022.02.25 发布了云扩 RPA , 本次发布的产品及版本号为：
@@ -23,7 +60,6 @@
 3. 优化执行记录列表中的启动方式来源，支持任务队列
 4. 支持在执行记录的任务详情页中显示等待状态的资源，便于用户快速定位
 5. 优化资产加密方式
-
 
 ## 2022.01.27 发版说明
 

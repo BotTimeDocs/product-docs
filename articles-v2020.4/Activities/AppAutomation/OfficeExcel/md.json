@@ -49,18 +49,39 @@
         "labels": "写入, 数据, Excel, 行, 列"
     },
     {
+        "id": "BotTime.Office.Activity.ClearCellActivity",
+        "name": "clear-cell.md",
+        "localizedName": "清除单元格",
+        "uuid": "68114581-3605-46c6-8c27-895a475b641c",
+        "labels": "清除, 数据, Excel, 单元格"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearRangeActivity",
+        "name": "clear-area.md",
+        "localizedName": "清除区域",
+        "uuid": "344dd330-9146-4b06-afc0-ddea7fa66404",
+        "labels": "清除, 数据, Excel, 区域"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearRowActivity",
+        "name": "clear-row.md",
+        "localizedName": "清除行",
+        "uuid": "f2652fb5-62f3-4b79-9a0c-4a99ecbc3ea9",
+        "labels": "清除, 数据, Excel, 行"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearColumnActivity",
+        "name": "clear-column.md",
+        "localizedName": "清除列",
+        "uuid": "e5c04e12-0958-47d9-90ce-bf0178140925",
+        "labels": "清除, 数据, Excel, 列"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelAutoFillRangeActivity",
         "name": "AutoFillRange.md",
         "localizedName": "自动填充",
         "uuid": "3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2",
         "labels": "填充, 自动, Excel"
-    },
-    {
-        "id": "BotTime.Office.Activity.OfficeExcelDeleteDataActivity",
-        "name": "Delete.md",
-        "localizedName": "删除数据",
-        "uuid": "01e15b84-e5ae-443f-b8b1-ff81b32ced8a",
-        "labels": "数据, 删除, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteCellActivity",
