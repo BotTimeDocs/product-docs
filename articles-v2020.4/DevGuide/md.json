@@ -1,0 +1,56 @@
+[
+    {
+        "name": "AutomationPrinciples.md",
+        "localizedName": "自动化原理",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "ComponentDetails.md",
+        "localizedName": "组件详解",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "MainStep.md",
+        "localizedName": "流程开发的主要步骤",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "ProcessDesign.md",
+        "localizedName": "流程设计指南",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "BestPractices.md",
+        "localizedName": "流程开发最佳实践",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "AdvancedDevelopment.md",
+        "localizedName": "高级开发技巧",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "Troubleshoot.md",
+        "localizedName": "故障排查指南",
+        "uuid": "",
+        "labels": ""
+    },   
+    {
+        "name": "MobileAutomation.md",
+        "localizedName": "手机自动化专题",
+        "uuid": "",
+        "labels": ""
+    },  
+    {
+        "name": "AI.md",
+        "localizedName": "AI专题",
+        "uuid": "",
+        "labels": ""
+    }
+]

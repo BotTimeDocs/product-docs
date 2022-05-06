@@ -33,14 +33,14 @@
         "localizedName": "云扩组件库"
     },   
     {
-        "id": null,
-        "name": "Activities",
-        "localizedName": "云扩组件库"
-    },  
-    {
         "name": "FAQ",
         "localizedName": "常见问题"
     },
+    {
+        "id": null,
+        "name": "ReleaseNotes",
+        "localizedName": "历史发版说明"
+    },  
     {
         "id": null,
         "name": "ReleaseNotes.md",
