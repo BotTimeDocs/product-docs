@@ -1,0 +1,74 @@
+[
+    {
+        "name": "StudioInstallFailure.md",
+        "localizedName": "安装失败",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "ConnectConsole.md",
+        "localizedName": "控制台连不上",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "OpenProjectFail.md",
+        "localizedName": "打开项目报错",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "processexit.md",
+        "localizedName": "流程闪退",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "RobotClosed.md",
+        "localizedName": "机器人突然关闭",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "ConnectMobile.md",
+        "localizedName": "移动设备管理器连不上",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "RobotBlackScreen.md",
+        "localizedName": "机器人录屏时黑屏",
+        "uuid": "",
+        "labels": ""
+    },   
+    {
+        "name": "Excel.md",
+        "localizedName": "Excel相关报错",
+        "uuid": "",
+        "labels": ""
+    },  
+    {
+        "name": "ConnectMail.md",
+        "localizedName": "邮箱连不上",
+        "uuid": "",
+        "labels": ""
+    },  
+    {
+        "name": "ChromeProblem.md",
+        "localizedName": "Chrome扩展问题排查",
+        "uuid": "",
+        "labels": ""
+    },  
+    {
+        "name": "LocateElement.md",
+        "localizedName": "定位不到元素",
+        "uuid": "",
+        "labels": ""
+    },  
+    {
+        "name": "GetStructData.md",
+        "localizedName": "获取结构化数据异常",
+        "uuid": "",
+        "labels": ""
+    }
+]
