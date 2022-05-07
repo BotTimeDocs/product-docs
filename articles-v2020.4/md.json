@@ -7,46 +7,46 @@
         "labels": "概览"
     },
     {
+        "id": null,
+        "name": "ReleaseNotes.md",
+        "localizedName": "近期更新",
+        "uuid": "2e59c438-a50e-4e01-b5b8-c9b72eaa6886",
+        "labels": "发版说明"
+    },
+    {
         "name": "DevGuide",
-        "localizedName": "项目开发指南"
-    },   
-    {
-        "name": "RunManager",
-        "localizedName": "流程运行与管理指南"
-    },    
-    {
-        "name": "BestPractices",
-        "localizedName": "特定场景指南"
-    }, 
-    {
-        "name": "Reference",
-        "localizedName": "参考指南"
-    }, 
+        "localizedName": "RPA开发指南"
+    },
     {
         "id": null,
         "name": "Studio",
-        "localizedName": "云扩RPA编辑器"
+        "localizedName": "云扩编辑器"
     },
     {
         "id": null,
         "name": "Activities",
-        "localizedName": "云扩组件库"
-    },   
+        "localizedName": "组件库"
+    },
+    {
+        "name": "RunManager",
+        "localizedName": "RPA运行与管理"
+    },
+    {
+        "name": "BestPractices",
+        "localizedName": "特殊场景指南"
+    },
     {
         "name": "FAQ",
         "localizedName": "常见问题"
     },
     {
+        "name": "Reference",
+        "localizedName": "产品参考"
+    },
+    {
         "id": null,
         "name": "ReleaseNotes",
         "localizedName": "历史发版说明"
-    },  
-    {
-        "id": null,
-        "name": "ReleaseNotes.md",
-        "localizedName": "最新发版说明",
-        "uuid": "2e59c438-a50e-4e01-b5b8-c9b72eaa6886",
-        "labels": "发版说明"
     },
     {
         "name": "Legal",

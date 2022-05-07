@@ -19,7 +19,7 @@
 
 ## 方式一：通过组件调用
 
-通过使用编辑器中的 **获取短信验证码** 组件并与安卓真机建立连接后，获取手机上的短信验证码，具体参见 [获取短信验证码](./../Activities/PhoneAutomation/MobileGetSmsCode.md) 组件。
+通过使用编辑器中的 **获取短信验证码** 组件并与安卓真机建立连接后，获取手机上的短信验证码，具体参见 [获取短信验证码](./../Activities/PhoneAutomation/AndroidProprietary/MobileGetSmsCode.md) 组件。
 
 ## 方式二：通过 API 地址
 
@@ -32,7 +32,7 @@
 1. **下载 Android 服务端**：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本 Android 服务包。
 
 2. **安装“云扩手机验证码监听器”应用**：
-  
+
     a. 将已下载的“Android 服务端”压缩包进行解压缩
 
     b. 在“Encoo.Android.Automation/apk”路径下，找到“云扩手机验证码监听器”应用
@@ -63,7 +63,7 @@
 1. **下载 Android 服务端**：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本 Android 服务包。
 
 2. **安装“云扩手机验证码监听器”应用**：
-  
+
     a. 将已下载的“Android 服务端”压缩包进行解压缩
 
     b. 在“Encoo.Android.Automation/apk”路径下，找到“云扩手机验证码监听器”应用
@@ -77,7 +77,7 @@
     - **配置发送邮件的邮箱信息**：单击“云扩手机验证码监听器”应用的右上角的“邮箱配置”，按照提示配置发送邮件的邮箱信息，支持基于 SMTP 的方式。
 
         ![发件箱配置](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/sendmail20210831.jpg)
-  
+
     - **配置接收邮件的邮箱信息**：
 
         ![收件箱配置](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/receivemail20210831.jpg)

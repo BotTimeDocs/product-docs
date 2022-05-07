@@ -52,7 +52,7 @@
 
 - **云扩 AI Hub 访问入口**：
     - 入口一：[云扩 AI Hub](https://aihub.encoo.com/aiService)
-    - 入口二：在云扩 [RPA 编辑器 Studio](../Studio/README.md) 中，使用 AI Hub 类的组件
+    - 入口二：在云扩 [RPA 编辑器 Studio](../../Studio/README.md) 中，使用 AI Hub 类的组件
 
 - **云扩 AI Hub 试用**：通过注册并登录云扩 RPA 控制台，试用云扩 AI Hub。
 

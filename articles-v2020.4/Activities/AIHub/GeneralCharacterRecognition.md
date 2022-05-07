@@ -10,7 +10,7 @@
 
 > **说明:**
 >
-> 若用户未配置相应服务账号，用户只可使用当日免费服务次数。若想继续使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置使用配额，具体参见 [AIHub 设置](../../AIHub/AIHubSetting.md)。
+> 若用户未配置相应服务账号，用户只可使用当日免费服务次数。若想继续使用该服务需前往云扩 [AI HUB](https://aihub.encoo.com/serviceAccount) 配置使用配额，具体参见 [AIHub 设置](../../Reference/AIHub//AIHubSetting.md)。
 
 ## 属性
 

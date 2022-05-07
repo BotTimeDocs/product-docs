@@ -429,7 +429,7 @@
     - 方式一：在编辑器中将流程导出为 dgs，然后在机器人的“流程库 > 本地流程库”中导入已导出的 dgs 流程包。
     - 方式二：使用编辑器将流程 [发布至机器人](../Studio/process/PublishProject.md)
 
-    部署至机器人后可以设置 [定时任务](../Robot/CronJob.md)。
+    部署至机器人后可以设置 [定时任务](../Reference/Robot/CronJob.md)。
 
     </details>
 

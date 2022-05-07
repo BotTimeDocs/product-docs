@@ -116,7 +116,7 @@
 
     <summary> 点击展开 </summary>
 
-    **A:** 勾选机器人“设置”中的“RDP 远程”选项，详情参见 [RDP 远程](../Robot/Settings/Basic.md)。
+    **A:** 勾选机器人“设置”中的“RDP 远程”选项，详情参见 [RDP 远程](../Reference/Robot/Settings/Basic.md)。
 
     </details>
 

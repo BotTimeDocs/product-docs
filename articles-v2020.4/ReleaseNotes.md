@@ -38,10 +38,10 @@
 
 ### 【控制台】
 
-1. [定时任务](./Console/rpa-center/workflow/trigger.md)，支持时区、指定一个时间、动态提示
+1. [定时任务](./Reference/Console/rpa-center/workflow/trigger.md)，支持时区、指定一个时间、动态提示
 2. 审计日志，支持“操作模块”过滤
 3. 文件服务，支持列表排序和分页
-4. [流程包](./Console/rpa-center/packages/aboutPackages.md)，支持批量上传，最大 2G 的文件
+4. [流程包](./Reference/Console/rpa-center/packages/aboutPackages.md)，支持批量上传，最大 2G 的文件
 
 ## 2022.02.25 发版说明
 
@@ -90,7 +90,7 @@
 2. 注册社区版控制台时，“公司”字段支持重名
 3. 支持在流程包的“版本信息”选项页中，查看当前流程是否以管理员运行
 4. 支持单击“机器人管理”列表中的“计算机”，查看该计算机的基本信息
-5. "RPA 中心 > 设备管理" 菜单改名为“RPA 中心 > [计算机管理](./Console/rpa-center/device-management/device-management.md)”
+5. "RPA 中心 > 设备管理" 菜单改名为“RPA 中心 > [计算机管理](./Reference/Console/rpa-center/device-management/device-management.md)”
 
 #### 【ViCode】
 

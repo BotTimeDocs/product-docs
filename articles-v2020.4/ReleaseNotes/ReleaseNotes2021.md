@@ -4,7 +4,7 @@
 
 > **提示：**
 >
-> 关于社区版与企业版的差异说明，请参见 [常见问题](./FAQ/QA.md)。
+> 关于社区版与企业版的差异说明，请参见 [常见问题](./../FAQ/QA.md)。
 
 ## 2021.12.31 发版说明
 
@@ -27,16 +27,16 @@
 
 #### 【组件库】
 
-1. 代码工具 > JSON > [获取节点值（字符串）](./Activities/CodeExecuter/JSON/json-get-node-string.md)，用于获取 json 文件中的指定的字符串的节点值。
-2. 代码工具 > JSON > [获取节点值（数组）](./Activities/CodeExecuter/JSON/json-get-node-array.md)，用于获取 json 文件中的指定的数组的节点值。
-3. 软件自动化 > Office Excel > [删除区域](./Activities/AppAutomation/OfficeExcel/delete-range.md)，用于对指定工作表的单元格区域进行删除操作。
-4. 软件自动化 > Office Excel > [删除单元格](./Activities/AppAutomation/OfficeExcel/delete-cell.md)，用于对指定工作表的单元格进行删除操作。
-5. 软件自动化 > Office Excel > [删除工作表](./Activities/AppAutomation/OfficeExcel/delete-sheet.md)，用于对指定工作表进行删除操作。
-6. 软件自动化 > Office Excel > [删除行](./Activities/AppAutomation/OfficeExcel/delete-row.md)，用于对指定工作表的行进行删除操作。
-7. 系统 > [获取计算机信息](./Activities/System/get-pc-info.md)，用于获取当前计算机的用户名和设备名称。
-8. 系统 > 屏幕 > [锁屏运行](./Activities/System/Screen/lock-screen-running.md)，用于实现锁屏的状态下运行流程。
-9. 界面自动化 > [鼠标滚动（中键）](./Activities/UIAutomation/rotate-wheel.md)，用于模拟滚动鼠标（中键）的效果。
-10. 数据库 > [表是否存在](./Activities/Database/is-table-exist.md)，用于验证某数据库中的指定表名称是否存在。
+1. 代码工具 > JSON > [获取节点值（字符串）](./../Activities/CodeExecuter/JSON/json-get-node-string.md)，用于获取 json 文件中的指定的字符串的节点值。
+2. 代码工具 > JSON > [获取节点值（数组）](./../Activities/CodeExecuter/JSON/json-get-node-array.md)，用于获取 json 文件中的指定的数组的节点值。
+3. 软件自动化 > Office Excel > [删除区域](./../Activities/AppAutomation/OfficeExcel/delete-range.md)，用于对指定工作表的单元格区域进行删除操作。
+4. 软件自动化 > Office Excel > [删除单元格](./../Activities/AppAutomation/OfficeExcel/delete-cell.md)，用于对指定工作表的单元格进行删除操作。
+5. 软件自动化 > Office Excel > [删除工作表](./../Activities/AppAutomation/OfficeExcel/delete-sheet.md)，用于对指定工作表进行删除操作。
+6. 软件自动化 > Office Excel > [删除行](./../Activities/AppAutomation/OfficeExcel/delete-row.md)，用于对指定工作表的行进行删除操作。
+7. 系统 > [获取计算机信息](./../Activities/System/get-pc-info.md)，用于获取当前计算机的用户名和设备名称。
+8. 系统 > 屏幕 > [锁屏运行](./../Activities/System/Screen/lock-screen-running.md)，用于实现锁屏的状态下运行流程。
+9. 界面自动化 > [鼠标滚动（中键）](./../Activities/UIAutomation/rotate-wheel.md)，用于模拟滚动鼠标（中键）的效果。
+10. 数据库 > [表是否存在](./../Activities/Database/is-table-exist.md)，用于验证某数据库中的指定表名称是否存在。
 
 #### 【机器人】
 
@@ -155,44 +155,44 @@
 1. 新增云扩浏览器，支持所有 Web 自动化功能并可以监听 HTTP 传输内容
 2. 在容器类组件内部，支持粘贴一个或多个非序列化的组件
 3. 支持设置 "启用实时编译" 功能，以帮助发现项目中可能存在的错误
-4. 支持创建 [元素项目](./Studio/process/CreateProject/create-element-project.md)，支持将元素项目发布到元素市场，流程项目支持使用元素项目
+4. 支持创建 [元素项目](./../Studio/process/CreateProject/create-element-project.md)，支持将元素项目发布到元素市场，流程项目支持使用元素项目
 5. 在项目的“属性”中或在流程发布时，支持设置项目图标
 6. 支持根据编辑器的运行身份自动设置是否以管理员运行流程
 7. 支持在“开始主页”中“导入项目”
 
 #### 【组件库】
 
-1. 数据库 > [更新数据](./Activities/Database/update-data.md)，用于更新已有数据表中的数据。
-2. 数据库 > [删除数据](./Activities/Database/delete-data.md)，用于删除已有数据表中的数据。
-3. 软件自动化 > Office Excel > [重命名工作表](./Activities/AppAutomation/OfficeExcel/rename-worksheet.md)，用于修改 Excel 的指定工作表名称。
-4. 软件自动化 > Office Excel > [清除格式](./Activities/AppAutomation/OfficeExcel/clear-format.md)，用于清除 Excel 单元格或区域中的内容格式。
-5. 控制台 > [设置资产](./Activities/Console/set-assets.md)，用于设置控制台中的资产的值。
-6. 控制台 > 数据队列 > [获取消息](./Activities/Console/data-queue/get-message.md)，用于获取控制台中的数据队列中的消息。
-7. 控制台 > 数据队列 > [写入消息](./Activities/Console/data-queue/add-message.md)，用于写入消息至控制台中的指定的数据队列中。
-8. 控制台 > 数据队列 > [处理消息](./Activities/Console/data-queue/handle-message.md)，用于对指定的数据队列中的消息进行处理。
-9. 控制台 > 数据队列 > [移除消息](./Activities/Console/data-queue/remove-message.md)，将指定的数据队列中的消息移除。
-10. 代码工具 > 字典 > [打印字典](./Activities/CodeExecuter/Dictionary/print-dictionary.md)，将字典内容以键值对的方式输出至“输出面板”。
-11. 代码工具 > 字典 > [获取值](./Activities/CodeExecuter/Dictionary/get-dictionary-value.md)，用于获取字典中 key 对应的 value 的值。
-12. 计算机视觉 > [指定 CV 窗口](./Activities/ComputerVision/assign-cv-window.md)，用于对指定的窗口执行分析并为所有后续计算机视觉组件提供范围。
-13. 计算机视觉 > [CV 点击](./Activities/ComputerVision/cv-click.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，点击该区域中的某个用户界面元素。
-14. 计算机视觉 > [CV 悬停](./Activities/ComputerVision/cv-hover.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将鼠标悬停于该区域中的某个用户界面元素上。
-15. 计算机视觉 > [CV 输入文本](./Activities/ComputerVision/cv-input-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，向该区域中的某个用户界面元素发送需要输入的文本内容。
-16. 计算机视觉 > [CV 获取文本](./Activities/ComputerVision/cv-get-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，从该区域中的某个用户界面元素上提取文本内容。
-17. 计算机视觉 > [CV 发送快捷键](./Activities/ComputerVision/cv-send-shortcut.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将键盘快捷方式发送至该区域中的某个用户界面元素上。
-18. 计算机视觉 > [CV 等待元素出现](./Activities/ComputerVision/cv-wait-element-appear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素出现。
-19. 计算机视觉 > [CV 等待元素消失](./Activities/ComputerVision/cv-wait-element-disappear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素消失。
+1. 数据库 > [更新数据](./../Activities/Database/update-data.md)，用于更新已有数据表中的数据。
+2. 数据库 > [删除数据](./../Activities/Database/delete-data.md)，用于删除已有数据表中的数据。
+3. 软件自动化 > Office Excel > [重命名工作表](./../Activities/AppAutomation/OfficeExcel/rename-worksheet.md)，用于修改 Excel 的指定工作表名称。
+4. 软件自动化 > Office Excel > [清除格式](./../Activities/AppAutomation/OfficeExcel/clear-format.md)，用于清除 Excel 单元格或区域中的内容格式。
+5. 控制台 > [设置资产](./../Activities/Console/set-assets.md)，用于设置控制台中的资产的值。
+6. 控制台 > 数据队列 > [获取消息](./../Activities/Console/data-queue/get-message.md)，用于获取控制台中的数据队列中的消息。
+7. 控制台 > 数据队列 > [写入消息](./../Activities/Console/data-queue/add-message.md)，用于写入消息至控制台中的指定的数据队列中。
+8. 控制台 > 数据队列 > [处理消息](./../Activities/Console/data-queue/handle-message.md)，用于对指定的数据队列中的消息进行处理。
+9. 控制台 > 数据队列 > [移除消息](./../Activities/Console/data-queue/remove-message.md)，将指定的数据队列中的消息移除。
+10. 代码工具 > 字典 > [打印字典](./../Activities/CodeExecuter/Dictionary/print-dictionary.md)，将字典内容以键值对的方式输出至“输出面板”。
+11. 代码工具 > 字典 > [获取值](./../Activities/CodeExecuter/Dictionary/get-dictionary-value.md)，用于获取字典中 key 对应的 value 的值。
+12. 计算机视觉 > [指定 CV 窗口](./../Activities/ComputerVision/assign-cv-window.md)，用于对指定的窗口执行分析并为所有后续计算机视觉组件提供范围。
+13. 计算机视觉 > [CV 点击](./../Activities/ComputerVision/cv-click.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，点击该区域中的某个用户界面元素。
+14. 计算机视觉 > [CV 悬停](./../Activities/ComputerVision/cv-hover.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将鼠标悬停于该区域中的某个用户界面元素上。
+15. 计算机视觉 > [CV 输入文本](./../Activities/ComputerVision/cv-input-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，向该区域中的某个用户界面元素发送需要输入的文本内容。
+16. 计算机视觉 > [CV 获取文本](./../Activities/ComputerVision/cv-get-text.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，从该区域中的某个用户界面元素上提取文本内容。
+17. 计算机视觉 > [CV 发送快捷键](./../Activities/ComputerVision/cv-send-shortcut.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，将键盘快捷方式发送至该区域中的某个用户界面元素上。
+18. 计算机视觉 > [CV 等待元素出现](./../Activities/ComputerVision/cv-wait-element-appear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素出现。
+19. 计算机视觉 > [CV 等待元素消失](./../Activities/ComputerVision/cv-wait-element-disappear.md)，用于在使用“指定 CV 窗口”组件指定特定的区域中，等待该区域中的某个用户界面元素消失。
 
 #### 【机器人】
 
-1. 支持创建指定流程执行的 [快捷方式](./Robot/localworkflow.md) 至桌面
+1. 支持创建指定流程执行的 [快捷方式](./../Reference/Robot/localworkflow.md) 至桌面
 2. 在“正在执行”界面，支持以流程目录树的形式查看流程的执行进度
 3. 支持对正在执行流程进行暂停/继续操作
 
 #### 【控制台】
 
-1. 在“数据中心”中，新增 [数据队列](./Console/datacentor/data-queue.md) 模块，用于存储大量的消息，通常用于可积压可异步处理的工作场景
-2. 在“机器人管理详情”页的“计算机监控”选项页中，支持 [远程控制](./Console/robot/manageRobot.md) 单个或多个机器人桌面
-3. 在“机器人管理”页，支持 [远程升级](./Console/robot/manageRobot.md) 单个和多个机器人软件的版本
+1. 在“数据中心”中，新增 [数据队列](./../Reference/Console/datacentor/data-queue.md) 模块，用于存储大量的消息，通常用于可积压可异步处理的工作场景
+2. 在“机器人管理详情”页的“计算机监控”选项页中，支持 [远程控制](./../Reference/Console/rpa-center/robot/manageRobot.md) 单个或多个机器人桌面
+3. 在“机器人管理”页，支持 [远程升级](./../Reference/Console/rpa-center/robot/manageRobot.md) 单个和多个机器人软件的版本
 4. 在“任务记录”页中，支持流程大纲方式查看流程执行进度
 5. 在“任务记录详情”页中，支持自动加载显示视频字幕
 6. 在“机器人管理”页，支持批量分配/解除许可证
@@ -314,8 +314,8 @@
 
 #### 【编辑器】
 
-1. 支持 [静默并行流程](./Studio/process/developProject/TypeOfWorkflow/Parallel.md)，实现无需用户界面，也无需用户干预即可与前台流程并行执行。
-2. 企业版编辑器支持 [在线更新](./Studio/quickStart/Installation.md) 升级，无需用户手动下载安装包更新。
+1. 支持 [静默并行流程](./../Studio/process/developProject/TypeOfWorkflow/Parallel.md)，实现无需用户界面，也无需用户干预即可与前台流程并行执行。
+2. 企业版编辑器支持 [在线更新](./../Studio/quickStart/Installation.md) 升级，无需用户手动下载安装包更新。
 3. 支持鼠标双击添加组件至设计面板中，提升用户体验。
 4. 支持在“项目面板”中，移动、复制/粘贴文件，提升用户体验。
 5. 支持在变量/参数面板中变更变量/参数时，自动关联变更已引用的变量/参数。
@@ -339,25 +339,25 @@
 
 #### 【组件】
 
-1. 控制台 > [获取账号](./Activities/Console/GetAccount.md)：用于获取控制台的个人用户信息。
-2. 控制台 > [执行流程部署](./Activities/Console/ExecuteFlowDeployment.md)：用于执行控制台中已创建的“流程部署”。
-3. 数据库 > [创建表](./Activities/Database/CreateTable.md)：用于在已连接的数据库中创建数据表。
-4. 数据库 > [删除表](./Activities/Database/Droptable.md)：删除已连接的数据库内已创建的数据表。
-5. 数据库 > [插入数据](./Activities/Database/InsertData.md)：在已有的数据表中插入数据。
-6. 数据库 > [查询](./Activities/Database/QueryData.md)：根据指定的筛选条件，查询已连接的数据库内已创建的数据表中的数据。
-7. 系统 > 应用程序 > [进程是否存在](./Activities/System/Application/ProcessExists.md)：根据指定的进程名，判断本地电脑上的进程名是否存在。
-8. 系统 > 应用程序 > [关闭进程](./Activities/System/Application/CloseProcess.md)：关闭指定的正在运行中的进程。
-9. 软件自动化 > Office Excel > [取消筛选](./Activities/AppAutomation/OfficeExcel/CancelFilter.md)：取消筛选指定工作表中的已设定筛选的指定列。
-10. 界面自动化 > [判断元素是否存在](./Activities/UIAutomation/WhetherElementExists.md)：用于判断指定的元素是否存在。
+1. 控制台 > [获取账号](./../Activities/Console/GetAccount.md)：用于获取控制台的个人用户信息。
+2. 控制台 > [执行流程部署](./../Activities/Console/ExecuteFlowDeployment.md)：用于执行控制台中已创建的“流程部署”。
+3. 数据库 > [创建表](./../Activities/Database/CreateTable.md)：用于在已连接的数据库中创建数据表。
+4. 数据库 > [删除表](./../Activities/Database/Droptable.md)：删除已连接的数据库内已创建的数据表。
+5. 数据库 > [插入数据](./../Activities/Database/InsertData.md)：在已有的数据表中插入数据。
+6. 数据库 > [查询](./../Activities/Database/QueryData.md)：根据指定的筛选条件，查询已连接的数据库内已创建的数据表中的数据。
+7. 系统 > 应用程序 > [进程是否存在](./../Activities/System/Application/ProcessExists.md)：根据指定的进程名，判断本地电脑上的进程名是否存在。
+8. 系统 > 应用程序 > [关闭进程](./../Activities/System/Application/CloseProcess.md)：关闭指定的正在运行中的进程。
+9. 软件自动化 > Office Excel > [取消筛选](./../Activities/AppAutomation/OfficeExcel/CancelFilter.md)：取消筛选指定工作表中的已设定筛选的指定列。
+10. 界面自动化 > [判断元素是否存在](./../Activities/UIAutomation/WhetherElementExists.md)：用于判断指定的元素是否存在。
 
 #### 【机器人】
 
-1. 企业版机器人支持 [在线更新](./Robot/updateRobot.md) 升级，无需用户手动下载安装包更新。
-2. 支持 [“本地自动解锁运行流程”和“RDP 远程会话保持”](./Robot/Settings/Basic.md)，保证流程执行的稳定性。
+1. 企业版机器人支持 [在线更新](./../Reference/Robot/updateRobot.md) 升级，无需用户手动下载安装包更新。
+2. 支持 [“本地自动解锁运行流程”和“RDP 远程会话保持”](./../Reference/Robot/Settings/Basic.md)，保证流程执行的稳定性。
 
     ![执行流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/executeflow20211014.png)
 
-3. 支持在新建 [定时任务](./Robot/CronJob.md) 时，设置“是否启用”定时任务以及机器人忙碌时的处理方式，满足特定的用户场景。
+3. 支持在新建 [定时任务](./../Reference/Robot/CronJob.md) 时，设置“是否启用”定时任务以及机器人忙碌时的处理方式，满足特定的用户场景。
 
     ![定时任务](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/cronjob20211014.png)
 
@@ -449,12 +449,12 @@
 
 #### 【组件库】
 
-1. 数据表 > [设置数据表的值](./Activities/DataTable/DataTableSetValue.md)，设置已有非空数据表的指定单元格的值。
-2. 数据表 > [设置数据行的值](./Activities/DataTable/DataRowSetValue.md)，设置已有非空数据表的指定数据行所在单元格的值。
+1. 数据表 > [设置数据表的值](./../Activities/DataTable/DataTableSetValue.md)，设置已有非空数据表的指定单元格的值。
+2. 数据表 > [设置数据行的值](./../Activities/DataTable/DataRowSetValue.md)，设置已有非空数据表的指定数据行所在单元格的值。
 
 #### 【机器人】
 
-1. 支持手动执行流程时选择用“[独立运行](./BestPractices/RunAlone.md)”的方式执行，避免影响当前用户正在进行的工作，提高工作效率。
+1. 支持手动执行流程时选择用“[独立运行](./../BestPractices/RunAlone.md)”的方式执行，避免影响当前用户正在进行的工作，提高工作效率。
 
 ### 改进与增强
 
@@ -469,7 +469,7 @@
 
 #### 【组件库】
 
-1. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)，支持连接 PostgreSQL 数据库。
+1. 数据库 > [连接数据库](./../Activities/Database/ConnectDatabase.md)，支持连接 PostgreSQL 数据库。
 2. 优化组件，支持默认变量，提升用户体验。
 3. 优化组件的文件/文件夹路径/目录的展现形式，支持选择的方式，提升用户体验。
 
@@ -531,16 +531,16 @@
 
 #### 【ViCode】
 
-1. 新增布局组件 > [动态组件](./Apps/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
+1. 新增布局组件 > [动态组件](./../Reference/Apps/devApps/appsedit/component/LayoutComponents/dynamic.md)，用于实现应用页面内的交互动画，提升用户体验。
 2. 在组件的“事件”中，新增“运行流程”的事件行为，用于运行控制台中当前部门下的“流程部署”中的流程。
 3. 在组件的“事件”中，新增“打开/关闭弹窗”的事件行为，用于打开/关闭 "对话框" 组件。
-4. 新增 [Excel 数据源](./Apps/devApps/appsedit/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
+4. 新增 [Excel 数据源](./../Reference/Apps/devApps/appsedit/datamodel/datasource.md)，用于关联控制台的“文件服务”中 Excel 类文件，并对其进行增删改查操作。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
+1. 优化输入组件 > [文件上传](./../Reference/Apps/devApps/appsedit/component/InputComponents/Fileupload.md) 组件，允许用户设置上传文件数量、上传方法、文件命名处理方式等，增强组件功能，提升用户使用体验。
 2. 优化 Echarts 社区组件库，丰富组件库数量，提升用户使用体验。
 
 ### 问题修复
@@ -592,7 +592,7 @@
 1. 在编辑器登录激活页面，支持选择浮动许可，提高系统灵活性。
 2. 支持自动排版流程图容器内的组件，以帮助整理流程图的排序，减少手动整理组件及连接线的时间成本。
 3. 支持在“开始主页 > 设置 > 项目”中，自定义是否需弹窗填写属性，满足不同用户使用偏好。
-4. 支持在项目中新建不同类型的 [代码文件](./Studio/process/developProject/TypeOfWorkflow/CodeFile.md)，如，Python、PowerShell 文件，方便用户管理项目文件。
+4. 支持在项目中新建不同类型的 [代码文件](./../Studio/process/developProject/TypeOfWorkflow/CodeFile.md)，如，Python、PowerShell 文件，方便用户管理项目文件。
 5. 支持搜索本地项目列表，以便快速查找到需要的本地项目并对其进行操作。
 6. 支持在组件面板中收藏组件，方便用户在组件面板中快速查找已收藏的组件以便再次使用。
 7. 在变量类型中新增了一些默认类型，如，DateTime、List、Dictionary、Double，方便用户快速查找和使用。
@@ -600,9 +600,9 @@
 
 #### 【组件库】
 
-1. 软件自动化 > Office Excel > [设置单元格格式](./Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)，支持设置单元格默认格式，以代替手动设置单元格格式，减少用户手动重复工作。
-2. 流程控制 > 循环操作 > [循环操作](./Activities/WorkflowControl/Loop/For.md)，支持根据指定的循环次数进行循环操作，方便新手用户使用。
-3. 界面自动化 > 桌面控件专有 > [获取进程窗口信息](./Activities/UIAutomation/DesktopOnly/GetProcessWinInfo.md)，支持获取指定进程下指定的属性，满足用户需求。
+1. 软件自动化 > Office Excel > [设置单元格格式](./../Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)，支持设置单元格默认格式，以代替手动设置单元格格式，减少用户手动重复工作。
+2. 流程控制 > 循环操作 > [循环操作](./../Activities/WorkflowControl/Loop/For.md)，支持根据指定的循环次数进行循环操作，方便新手用户使用。
+3. 界面自动化 > 桌面控件专有 > [获取进程窗口信息](./../Activities/UIAutomation/DesktopOnly/GetProcessWinInfo.md)，支持获取指定进程下指定的属性，满足用户需求。
 
 #### 【机器人】
 
@@ -622,13 +622,13 @@
 
 #### 【组件库】
 
-1. 软件自动化 > 邮件 > [获取邮件（IMAP）](./Activities/AppAutomation/Mail/GetMailIMAP.md)，支持将获取到的未读邮件标记为“已读”，提升用户使用体验。
+1. 软件自动化 > 邮件 > [获取邮件（IMAP）](./../Activities/AppAutomation/Mail/GetMailIMAP.md)，支持将获取到的未读邮件标记为“已读”，提升用户使用体验。
 2. 软件自动化 > WPS 表格，增强 WPS 表格系列组件的稳定性，提升用户使用体验。
-3. 代码工具 > 文本 > [分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)，支持移除空字符，解决数组越界的问题，满足用户需求。
-4. 软件自动化 > Office Excel > [读取区域](./Activities/AppAutomation/OfficeExcel/ReadRange.md)，支持列名重复，满足用户需求。
-5. 数据表 > [读取 CSV 文件](./Activities/DataTable/ReadCSV.md)，支持列名重复，满足用户需求。
-6. 代码工具 > HTTP > [HTTP 请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，新增“application/x-www-form-urlencoded”和“multipart/form-data”的内容类型，并改名为“HTTP(S)请求”组件，以支持简单的 HTTPS 请求，满足用户需求。
-7. 代码工具 > Python > [执行 Python 代码](./Activities/CodeExecuter/Python/PythonExcuteFile.md)，支持代码中使用基本类型的流程参数，提升用户使用体验。
+3. 代码工具 > 文本 > [分割文本](./../Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)，支持移除空字符，解决数组越界的问题，满足用户需求。
+4. 软件自动化 > Office Excel > [读取区域](./../Activities/AppAutomation/OfficeExcel/ReadRange.md)，支持列名重复，满足用户需求。
+5. 数据表 > [读取 CSV 文件](./../Activities/DataTable/ReadCSV.md)，支持列名重复，满足用户需求。
+6. 代码工具 > HTTP > [HTTP 请求](./../Activities/CodeExecuter/HTTP/HTTPRequest.md)，新增“application/x-www-form-urlencoded”和“multipart/form-data”的内容类型，并改名为“HTTP(S)请求”组件，以支持简单的 HTTPS 请求，满足用户需求。
+7. 代码工具 > Python > [执行 Python 代码](./../Activities/CodeExecuter/Python/PythonExcuteFile.md)，支持代码中使用基本类型的流程参数，提升用户使用体验。
 8. 界面自动化系列组件，支持设置窗口是否置顶，解决因窗口置顶导致无法获取窗口内容的问题，提升用户使用体验。
 
 ## 2021.06.30 发版说明
@@ -644,13 +644,13 @@
 
 1. 上线控制台 V4 版本，提供全新的组织架构及权限系统，方便管理员管理公司组织架构权限等信息，主要包括如下：
 
-    - [组织架构管理](./Console/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
+    - [组织架构管理](./../Reference/Console/management/organizationalstructure.md)：支持多层组织架构管理，满足企业复杂的组织架构管理需求。
     - 部门权限配置：支持自定义当前部门的用户、机器人、API KEY 访问等不同模式的数据权限。
     - 单个资源权限配置：支持在“角色管理”中设置“权限管理”权限，在对应资源列表详情页中可配置该资源的数据权限。
-    - [用户管理](./Console/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
-    - [角色管理](./Console/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
+    - [用户管理](./../Reference/Console/management/usersmanagement.md)：支持邀请新用户进入，同时对用户进行启用、停用、编辑、权限查看等操作。
+    - [角色管理](./../Reference/Console/management/rolesmanagement.md)：可根据实际需要配置各角色访问及操作权限。
 
-2. 通过是否激活 [许可证](./Console/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
+2. 通过是否激活 [许可证](./../Reference/Console/management/license/useLicense.md) 来控制左侧菜单显示与隐藏，提高系统安全性。
 3. 控制台 V4 版本支持社区版，方便用户试用。
 4. 机器人创建之后，默认内置“部门功能管理员” 角色，可在”组织架构管理 > 数据权限配置 > 机器人权限 > 查看当前部门机器人权限“中查看，便于管理部门机器人权限。
 
@@ -661,7 +661,7 @@
 3. 在“全局管理 > 许可证”中，新增“应用发布数量”，方便用户查看已发布的 ViCode 应用的数量。
 4. 与企业微信集成，支持企业微信扫码登录控制台，并能够在企业微信中查看并使用“我的应用”，方便用户一键登录并管理“我的应用”。
 5. 在应用开发页面中的“数据”模块中，支持与控制台全新权限系统集成，方便管理数据源权限。
-6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./Apps/devApps/appsedit/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
+6. 在应用开发页面中的“数据”模块中，支持新建 [文件类连接](./../Reference/Apps/devApps/appsedit/datamodel/datasource.md)，如，MiniO、AzureBlob、EncooStorage，满足用户使用场景。
 7. 在应用管理页面中，支持新建“组合应用”，使之可以关联多个本部门下的基本应用，满足用户使用场景。
 8. 支持跨租户进行应用拷贝，便于给用户提供初始化应用。
 
@@ -729,8 +729,8 @@
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [散点图](./Apps/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
-2. 模态视图 > [对话框](./Apps/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [散点图](./../Reference/Apps/devApps/appsedit/component/ChartComponents/ChartScatter.md)，用于比较跨类别的聚合数据，方便开发人员开发出形象直观地 ViCode 应用。
+2. 模态视图 > [对话框](./../Reference/Apps/devApps/appsedit/component/ModalView/dialog.md)，用于弹出一个有标题的的内容框，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -765,18 +765,18 @@
 4. 使用”组件项目“发布生成的组件，支持复杂数据类型的变量，方便开发人员开发出适用于复杂数据类型场景的流程。
 5. 在项目面板中，支持对文件进行批量操作（包括批量删除、批量包括在项目中/批量从项目中排除），方便实施人员统一管理项目面板中的文件。
 6. 支持拖拽代码文件至流程编辑区域时，自动生成相应的代码调用组件，提升开发人员使用体验。
-7. 新增 [断点管理](./Studio/Introduction/TheUserInterface.md) 功能，当流程运行时，支持断点的批量启用/禁用、批量删除等操作，满足基本的断点管理，提升开发人员调试运行时使用体验。
+7. 新增 [断点管理](./../Studio/Introduction/TheUserInterface.md) 功能，当流程运行时，支持断点的批量启用/禁用、批量删除等操作，满足基本的断点管理，提升开发人员调试运行时使用体验。
 
 #### 【组件库】
 
-1. 界面自动化 > 窗口 > [绑定远程窗口](./Activities/UIAutomation/Window/attachremotewindow.md)，通过指定窗口来绑定 Citrix 环境，实现在该组件中运行 Citrix 环境中的自动化操作。
-2. 触发器 > 系统触发器 > [键盘触发器](./Activities/Triggers/SystemTrigger/keyboardtrigger.md)，用于监听系统范围键盘事件，提升流程开发效率。
-3. 触发器 > 系统触发器 > [鼠标触发器](./Activities/Triggers/SystemTrigger/mousetrigger.md)，用于监听系统范围鼠标事件，提升流程开发效率。
-4. 触发器 > 元素触发器 > [点击触发器](Activities/Triggers/ElementTrigger/clicktrigger.md)，用于在指定时间内等待点击触发事件，提升流程开发效率。
+1. 界面自动化 > 窗口 > [绑定远程窗口](./../Activities/UIAutomation/Window/attachremotewindow.md)，通过指定窗口来绑定 Citrix 环境，实现在该组件中运行 Citrix 环境中的自动化操作。
+2. 触发器 > 系统触发器 > [键盘触发器](./../Activities/Triggers/SystemTrigger/keyboardtrigger.md)，用于监听系统范围键盘事件，提升流程开发效率。
+3. 触发器 > 系统触发器 > [鼠标触发器](./../Activities/Triggers/SystemTrigger/mousetrigger.md)，用于监听系统范围鼠标事件，提升流程开发效率。
+4. 触发器 > 元素触发器 > [点击触发器](./../Activities/Triggers/ElementTrigger/clicktrigger.md)，用于在指定时间内等待点击触发事件，提升流程开发效率。
 
 #### 【机器人】
 
-1. 在企业版的”设置 > 扩展“页面，新增 [Citrix 扩展](./Robot/Settings/extensions/Citrix.md) 和 [Windows 远程桌面扩展](./Robot/Settings/extensions/windowsrdpextension.md)，与编辑器企业版中的扩展保持一致，提升用户使用体验。
+1. 在企业版的”设置 > 扩展“页面，新增 [Citrix 扩展](./../Reference/Robot/Settings/extensions/Citrix.md) 和 [Windows 远程桌面扩展](./../Reference/Robot/Settings/extensions/windowsrdpextension.md)，与编辑器企业版中的扩展保持一致，提升用户使用体验。
 
 ### 改进与增强
 
@@ -790,8 +790,8 @@
 
 #### 【组件库】
 
-1. 软件自动化 > 邮件 > [发送邮件（Exchange）](./Activities/AppAutomation/Mail/SendExchangeMail.md)，支持设置邮件送达回执和已读回执，提升用户使用体验。
-2. 软件自动化 > 邮件 > [发送邮件（Outlook）](./Activities/AppAutomation/Mail/SendOutlookMail.md)，支持设置邮件送达回执和已读回执，提升用户使用体验。
+1. 软件自动化 > 邮件 > [发送邮件（Exchange）](./../Activities/AppAutomation/Mail/SendExchangeMail.md)，支持设置邮件送达回执和已读回执，提升用户使用体验。
+2. 软件自动化 > 邮件 > [发送邮件（Outlook）](./../Activities/AppAutomation/Mail/SendOutlookMail.md)，支持设置邮件送达回执和已读回执，提升用户使用体验。
 
 ### 问题修复
 
@@ -811,13 +811,13 @@
 
 #### 【ViCode】
 
-1. 新增 [数据表](./Apps/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
-2. 支持在数据源中新增 [数据表类型的数据源](./Apps/devApps/appsedit/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
+1. 新增 [数据表](./../Reference/Apps/devApps/appsedit/datatable.md) 模块，支持对数据表的管理、数据表的权限设置以及对数据表中的数据的编辑和设置，使得用户可以便捷使用数据表。
+2. 支持在数据源中新增 [数据表类型的数据源](./../Reference/Apps/devApps/appsedit/datamodel/datasource.md)，能够关联已创建的数据表，使得开发人员可以快速对数据表中的数据进行相应的数据操作。
 3. 手机端支持使用“我的应用”，方便用户在企业微信中快速查找使用“我的应用”小程序，提升用户体验。
 
 #### 【ViCode 的组件库】
 
-1. 图表组件 > [折线图](./Apps/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 图表组件 > [折线图](./../Reference/Apps/devApps/appsedit/component/ChartComponents/ChartLine.md)，用于包含 x 轴和 y 轴的图显示数据的统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
@@ -837,21 +837,21 @@
 
 1. 在应用的编辑模式中，支持选中组件后进行复制和删除操作，提升开发人员使用体验。
 2. 在应用的编辑模式中，支持画布按 Web 端和移动端进行切换，方便开发人员开发出适应不同平台的应用。
-3. 新增 [主题](./Apps/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
+3. 新增 [主题](./../Reference/Apps/devApps/appsedit/BasicOperation.md) 功能，支持应用的整体风格调整，方便开发人员根据自己喜好开发出不同风格的应用。
 4. 在“我的应用”中，支持收藏应用，方便用户可以在控制台首页中快速查找已收藏的应用。
 
 #### 【ViCode 的组件库】
 
-1. 布局组件 > [分栏布局](./Apps/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
-2. 输入组件 > [文件上传](./Apps/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
-3. 图表组件 > [柱状图](./Apps/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
-4. 图表组件 > [饼状图](./Apps/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
+1. 布局组件 > [分栏布局](./../Reference/Apps/devApps/appsedit/component/LayoutComponents/containerlayout.md)，用于设置各组件在应用页面的相对布局位置，方便开发人员开发出形象直观地 ViCode 应用。
+2. 输入组件 > [文件上传](./../Reference/Apps/devApps/appsedit/component/InputComponents/Fileupload.md)，用于将指定文件上传至控制台中的“文件服务”中，方便开发人员开发出形象直观地 ViCode 应用。
+3. 图表组件 > [柱状图](./../Reference/Apps/devApps/appsedit/component/ChartComponents/histogram.md)，用于显示的多系列对比柱形图，方便开发人员开发出形象直观地 ViCode 应用。
+4. 图表组件 > [饼状图](./../Reference/Apps/devApps/appsedit/component/ChartComponents/pie.md)，用于显示的统计数据占比统计图，方便开发人员开发出形象直观地 ViCode 应用。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [全局变量](./Apps/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
+1. 优化 [全局变量](./../Reference/Apps/devApps/appsedit/variable.md)，修改为在页面左侧菜单显示，并支持 json 格式显示，使得开发人员可以创建复杂变量并应用。
 2. 应用管理与应用开发模块合并，使得管理员和开发人员可以集中管理与开发当前部门下的应用。
 
 #### 【控制台】
@@ -875,26 +875,26 @@
 
 #### 【ViCode 的组件库】
 
-1. 展示组件 > [图标](./apps/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
-2. 展示组件 > [视频](./apps/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
-3. 输入组件 > [多行文本框](./apps/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
-4. 输入组件 > [单选框](./apps/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
+1. 展示组件 > [图标](./../Reference/Apps/devApps/appsedit/component/DisplayComponents/icon.md)，实现指定小图标的展示，方便开发人员开发出形象直观地 ViCode 应用。
+2. 展示组件 > [视频](./../Reference/Apps/devApps/appsedit/component/DisplayComponents/video.md)，实现指定音频或视频的播放，方便开发人员开发出形象直观地 ViCode 应用。
+3. 输入组件 > [多行文本框](./../Reference/Apps/devApps/appsedit/component/InputComponents/textarea.md)，实现输入多行文本的输入框，方便开发人员开发出形象直观地 ViCode 应用。
+4. 输入组件 > [单选框](./../Reference/Apps/devApps/appsedit/component/InputComponents/radiogroup.md)，实现每次仅能从多个选项中选择一个选项，方便开发人员开发出形象直观地 ViCode 应用。
 
 #### 【控制台】
 
-1. 新增 [文件类数据连接器](./Console/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
-2. [多重身份验证配置](./Console/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
+1. 新增 [文件类数据连接器](./../Reference/Console/datacentor/Connector.md)，支持 MiniO、EncooStorage、AzureBlob 文件存储，使管理员可以根据适用场景进行选择数据源类型。
+2. [多重身份验证配置](./../Reference/Console/management/syssetting.md) 中，新增支持虚拟 MFA 验证，提升系统的安全性。
 
 ### 改进与增强
 
 #### 【ViCode】
 
-1. 优化 [连接器映射关系](./Apps/devApps/appsedit/connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
+1. 优化 [连接器映射关系](./../Reference/Console/datacentor/Connector.md) 配置，只支持修改 ViCode 应用中已使用的测试连接器对应的生产连接器，提升管理员开发效率。
 2. 优化组件的默认填充样式，使得所有组件拖拽至画布中默认横向自动扩展占满画布，提升开发人员使用体验。
 
 #### 【控制台】
 
-1. 优化文件服务，支持 [新建根目录文件夹](./Console/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
+1. 优化文件服务，支持 [新建根目录文件夹](./../Reference/Console/datacentor/fileservice/managefileservice.md) 时绑定已创建的文件类连接器，方便管理员管理文件类连接器中的文件夹及文件。
 
 ## 2021.04.02 发版说明
 
@@ -909,24 +909,24 @@
 
 #### 【编辑器】
 
-1. 支持在整个流程中，仅 [调试单个组件](./Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
-2. 支持拖拽流程文件至编辑区域中，自动生成 [调用子流程](./Activities/WorkflowControl/InvokeWorkflow.md) 组件，提升实施人员开发效率。
-3. 企业版支持 [远程 RDP](./Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
-4. 新增 [数据抓取](./Studio/process/CreateProject/ProjectTemplates.md) 流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
-5. 支持在设置页面中，查看 [快捷键](./Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
-6. 支持在 [快速访问](./Studio/Introduction/TheUserInterface.md) 页中，快速访问云扩官网等实用链接，提升用户体验。
-7. 支持在 [帮助 > 关于](./Studio/Introduction/TheUserInterface.md) 页面中，查看当前版本的“更新说明”，提升用户体验。
+1. 支持在整个流程中，仅 [调试单个组件](./../Studio/process/Debugging/partialDebug.md)，提升实施人员开发效率。
+2. 支持拖拽流程文件至编辑区域中，自动生成 [调用子流程](./../Activities/WorkflowControl/InvokeWorkflow.md) 组件，提升实施人员开发效率。
+3. 企业版支持 [远程 RDP](./../Studio/Extensions/windowsrdpextension.md)，使得用户在本地客户端也能操作远程桌面端的界面自动化。
+4. 新增 [数据抓取](./../Studio/process/CreateProject/ProjectTemplates.md) 流程模板，可以根据该模板快速构建抓取数据的流程，提升实施人员开发效率。
+5. 支持在设置页面中，查看 [快捷键](./../Studio/quickStart/KeyboardShortcuts.md)，方便用户查阅快捷键，提升用户体验。
+6. 支持在 [快速访问](./../Studio/Introduction/TheUserInterface.md) 页中，快速访问云扩官网等实用链接，提升用户体验。
+7. 支持在 [帮助 > 关于](./../Studio/Introduction/TheUserInterface.md) 页面中，查看当前版本的“更新说明”，提升用户体验。
 
 #### 【组件库】
 
-1. 手机自动化 > [截屏](./Activities/PhoneAutomation/MobileCrop.md)，方便获取当前手机屏幕的截图。
-2. 手机自动化 > [获取结构化数据](./Activities/PhoneAutomation/MobileStructureData.md)，方便获取移动端的结构化数据。
-3. 手机自动化 > [设置剪贴板文本](./Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
-4. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
-5. 界面自动化 > [设置窗口](./Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
+1. 手机自动化 > [截屏](./../Activities/PhoneAutomation/MobileCrop.md)，方便获取当前手机屏幕的截图。
+2. 手机自动化 > [获取结构化数据](./../Activities/PhoneAutomation/MobileStructureData.md)，方便获取移动端的结构化数据。
+3. 手机自动化 > [设置剪贴板文本](./../Activities/PhoneAutomation/MobileSetClipboardText.md)、[获取剪贴板文本](./../Activities/PhoneAutomation/MobileGetClipboardText.md)，适用于移动端无法获取的文本内容的场景，提升实施人员开发效率。
+4. 界面自动化 > [设置 Web 元素属性值](./../Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。
+5. 界面自动化 > [设置窗口](./../Activities/UIAutomation/Window/SetWindowState.md)，实现设置指定窗体的状态，如，最大/小化、还原操作，提升实施人员开发效率。
 6. 资源 > 数据表 > 创建表、删除表、执行语句、更新表、查询、清空全部数据表，实现在项目创建的内部资源中对数据表的操作，提升实施人员开发效率。
 7. 资源 > 文本 > 文本赋值、读取文本，实现在项目创建的内部资源中对文本的操作，提升实施人员开发效率。
-8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
+8. 软件自动化 > 邮件 > [移动邮件（Outlook）](./../Activities/AppAutomation/Mail/moveoutlookmail.md), 实现将某一邮箱中接收到的邮件移动至指定邮箱收件箱中指定的文件夹中，提升实施人员开发效率。
 
 #### 【AI Hub】
 
@@ -939,18 +939,18 @@
 
 #### 【编辑器】
 
-1. 优化 [打开浏览器](./Activities/AppAutomation/Browser/OpenBrowser.md) 组件，支持浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
+1. 优化 [打开浏览器](./../Activities/AppAutomation/Browser/OpenBrowser.md) 组件，支持浏览器静默运行，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。
 2. 优化浏览器录制技术类型，支持根据浏览器类型适配对应的录制技术，提升用户体验。
 3. 优化手机自动化组件中的选择器编辑器，支持在属性值中填写变量，提升实施人员开发效率。
 4. 优化 XPath 列表，支持相近节点提示且取消 XPath 控件类型限制，提升用户体验。
-5. 优化 [搜索变量](./Studio/process/developProject/Variables/Variables.md) 功能，支持在菜单栏中搜索所有流程文件中的变量并定位，方便用户快速查找并定位变量位置。
-6. 优化 [本地版本控制](./Studio/VersionControl.md)，支持流程文件的树结构与文本两种比较方式切换，提升用户体验。
-7. 优化 [调试部分组件](./Studio/process/Debugging/partialDebug.md) 时的窗口样式并支持设置流程变量或参数，提升用户体验。
+5. 优化 [搜索变量](./../Studio/process/developProject/Variables/Variables.md) 功能，支持在菜单栏中搜索所有流程文件中的变量并定位，方便用户快速查找并定位变量位置。
+6. 优化 [本地版本控制](./../Studio/VersionControl.md)，支持流程文件的树结构与文本两种比较方式切换，提升用户体验。
+7. 优化 [调试部分组件](./../Studio/process/Debugging/partialDebug.md) 时的窗口样式并支持设置流程变量或参数，提升用户体验。
 
 #### 【组件库】
 
-1. 界面自动化 > [获取结构化数据](./Activities/UIAutomation/ExtractStructuredData.md)，优化界面样式和支持获取自定义属性信息，提升用户使用体验。
-2. 代码组件 > [JavaScript](./Activities/CodeExecuter/JavaScript/ExecuteJavaScriptCode.md)，支持指定变量进行传参，替代原本使用所有变量进行执行 JS 代码，提升实施人员开发效率。
+1. 界面自动化 > [获取结构化数据](./../Activities/UIAutomation/ExtractStructuredData.md)，优化界面样式和支持获取自定义属性信息，提升用户使用体验。
+2. 代码组件 > [JavaScript](./../Activities/CodeExecuter/JavaScript/ExecuteJavaScriptCode.md)，支持指定变量进行传参，替代原本使用所有变量进行执行 JS 代码，提升实施人员开发效率。
 
 ## 2021.04.01 发版说明
 
@@ -966,24 +966,24 @@
 
 #### 【小程序】
 
-1. 新增 [数据源管理](./Apps/devApps/appsedit/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
-2. 新增 [代码管理](./Apps/devApps/appsedit/executecode.md)，支持执行 JavaScript 代码，提升开发人员工作效率。
-3. 新增 [连接器映射关系管理](./Apps/devApps/appsedit/connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
+1. 新增 [数据源管理](./../Reference/Apps/devApps/appsedit/datamodel/datasource.md)，支持管理小程序应用内的 SQL 和 Restful API 数据源，提升开发人员工作效率。
+2. 新增 代码管理，支持执行 JavaScript 代码，提升开发人员工作效率。
+3. 新增 [连接器映射关系管理](./../Reference/Console/datacentor/Connector.md)，支持配置连接器映射关系，使小程序发布或停用后可自动切换生产环境与测试环境，提升管理员工作效率。
 4. 在小程序设置页面，支持查看小程序访问模式、调整画布尺寸，提升开发人员使用体验。
 5. 在小程序属性面板中，支持变量及系统自定义参数辅助快捷输入，提升开发人员使用体验。
 6. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
-7. 布局组件 > [列表](./Apps/devApps/appsedit/component/ModuleComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
-8. 模块组件 > [表格](./Apps/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
-9.  模块组件 > [分页](./Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
-10. 展示组件 > [IFrame](./Apps/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
-11. 输入组件 > [密码输入框](./Apps/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
+7. 布局组件 > [列表](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
+8. 模块组件 > [表格](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
+9.  模块组件 > [分页](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
+10. 展示组件 > [IFrame](./../Reference/Apps/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
+11. 输入组件 > [密码输入框](./../Reference/Apps/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
 
 #### 【控制台】
 
-1. 上线全新的 [组织架构及权限系统](./Console/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
+1. 上线全新的 [组织架构及权限系统](./../Reference/Console/management/organizationalstructure.md) 功能，代替原来的用户管理、角色管理与资源组管理的功能，方便管理员更好地管理企业组织架构。
 2. 公司架构管理支持多级部署，方便管理员更好地维护企业上级公司与子公司之间的关系。
-3. 支持 [多重身份验证](./Console/management/syssetting.md) 配置，保证系统安全性。
-4. 支持创建并管理各类 [数据连接器](./Console/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
+3. 支持 [多重身份验证](./../Reference/Console/management/syssetting.md) 配置，保证系统安全性。
+4. 支持创建并管理各类 [数据连接器](./../Reference/Console/datacentor/Connector.md)，建立与各类外部数据之间的连接，便于后续在小程序中进行各类数据操作。
 
 ### 改进与增强
 
@@ -1013,21 +1013,21 @@
 
 #### 【编辑器】
 
-<!--1. 支持流程运行时的[浏览器静默运行](./Activities/AppAutomation/Browser/OpenBrowser.md)，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。-->
+<!--1. 支持流程运行时的[浏览器静默运行](./../Activities/AppAutomation/Browser/OpenBrowser.md)，实现机器人后台工作，不干扰前端业务人员，提升用户使用体验。-->
 1. 支持从选定组件开始调试流程，方便实施人员快速排查定位异常问题，提升实施人员开发效率。
 2. 支持快速搜索当前流程文件中的变量并定位，提升实施人员开发效率。
 3. 支持在开始主页中导出项目和删除项目，以便更好地管理与分享项目。
 
 #### 【组件库】
 
-1. 系统 > 文件 > [压缩文件/文件夹](./Activities/System/File/CompresseFile.md)、[解压缩文件](./Activities/System/File/DeCompresseFile.md)，提升实施人员开发效率。
-2. 代码工具 > PowerShell > [执行 PowerShell 代码](./Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
-3. 软件自动化 > Office Excel > [替换](./Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
-<!--3. 界面自动化 > [设置 Web 元素属性值](./Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。-->
+1. 系统 > 文件 > [压缩文件/文件夹](./../Activities/System/File/CompresseFile.md)、[解压缩文件](./../Activities/System/File/DeCompresseFile.md)，提升实施人员开发效率。
+2. 代码工具 > PowerShell > [执行 PowerShell 代码](./../Activities/CodeExecuter/PowerShell/PowerShell.md)，提升实施人员开发效率。
+3. 软件自动化 > Office Excel > [替换](./../Activities/AppAutomation/OfficeExcel/OfficeExcelReplace.md)，提升实施人员开发效率。
+<!--3. 界面自动化 > [设置 Web 元素属性值](./../Activities/UIAutomation/SetWebElementAttributeValue.md)，提升实施人员开发效率。-->
 
 #### 【机器人】
 
-1. 支持在 [流程执行页面](./Robot/RunningProcess.md) 打开日志文件，提升用户使用体验。
+1. 支持在 [流程执行页面](./../Reference/Robot/RunningProcess.md) 打开日志文件，提升用户使用体验。
 
 ### 改进与增强
 
@@ -1038,8 +1038,8 @@
 
 #### 【组件库】
 
-1. 软件自动化 > Office Excel > [筛选](./Activities/AppAutomation/OfficeExcel/Filter.md)，允许筛选条件中的值为变量类型，扩展了筛选功能的适用范围。
-2. 代码工具 > [HTTP 请求](./Activities/CodeExecuter/HTTP/HTTPRequest.md)，在原有 C#代码模式基础之上，新增支持纯文本输入模式。
+1. 软件自动化 > Office Excel > [筛选](./../Activities/AppAutomation/OfficeExcel/Filter.md)，允许筛选条件中的值为变量类型，扩展了筛选功能的适用范围。
+2. 代码工具 > [HTTP 请求](./../Activities/CodeExecuter/HTTP/HTTPRequest.md)，在原有 C#代码模式基础之上，新增支持纯文本输入模式。
 
 ## 2021.02.23 发版说明
 
@@ -1066,7 +1066,7 @@
 
 1. 新增输入（9 个）、展示（2 个）、布局（1 个）系列组件，开发人员可以更灵活地对小程序页面界面元素进行排版。
 2. 新增组件的通用配置、通用样式、事件与行为，开发人员可以更有效地对组件属性及行为进行配置。
-3. 新增 [变量管理](./Apps/v3.0.x/devApps/appsedit/BasicOperation.md) 功能，使得每个小程序独享一套全局变量，开发人员可以集中管理应用的变量，避免混淆。
+3. 新增 [变量管理](./../Reference/Apps/v3.0.x/devApps/appsedit/BasicOperation.md) 功能，使得每个小程序独享一套全局变量，开发人员可以集中管理应用的变量，避免混淆。
 4. 支持在小程序开发页面，复制小程序功能，开发人员可以快速克隆并创建新的小程序。
 5. 支持在我的小程序页面，复制小程序 URL 功能，方便用户分享“我的小程序”。
 6. 在小程序编辑界面中，支持复制已创建的页面和组件等，开发人员可以快速克隆并创建新的页面或组件。
@@ -1092,27 +1092,27 @@
 
 #### 【编辑器】
 
-1. 企业版支持 [Citrix](./Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App 上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
-2. 新增 [选择器管理器](./Activities/Appendix/SelectorManager.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
-3. 新增 [清理屏幕截图](./Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
-4. 支持 [搜索](./Studio/quickStart/KeyboardShortcuts.md) 当前流程文件中的组件，以快速定位到该组件。
-5. 新增 [快速访问页](./Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
+1. 企业版支持 [Citrix](./../Studio/Extensions/Citrix.md)，使您在 Citrix Desktop 或 Citrix App 上得到和原生自动化方式一样的体验，而无需使用图像识别等自动化技术。
+2. 新增 [选择器管理器](./../Activities/Appendix/Selector.md) ，用于管理带有“控件元素”或“选择器”属性的组件中的指定元素。
+3. 新增 [清理屏幕截图](./../Studio/Introduction/TheUserInterface.md)，支持清理项目中未使用到的屏幕截图，减少因截图过多而占用相当大的存储空间。
+4. 支持 [搜索](./../Studio/quickStart/KeyboardShortcuts.md) 当前流程文件中的组件，以快速定位到该组件。
+5. 新增 [快速访问页](./../Studio/Introduction/TheUserInterface.md)，可快速打开流程文件、快速进行录制和调试、快速打开实用链接。
 6. 新增项目刷新操作，支持刷新当前项目下文件的状态。
 
 #### 【组件库】
 
-1. 软件自动化 > 浏览器 > [关闭浏览器](./Activities/AppAutomation/Browser/BrowserClose.md)，支持关闭所有类型的已打开的浏览器。
-2. 代码工具 > 类型转换 > [文本转数值](./Activities/CodeExecuter/TypeConversion/TextToNumbericActivity.md)，实现将文本转换为数值。
-3. 代码工具 > 文本 ：[分割文本](./Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)、[追加文本](./Activities/CodeExecuter/TextProcessing/AppendTextActivity.md)。
-4. 系统 > [多项选择框](./Activities/System/MultiSelectListBoxActivity.md)：实现以弹框的形式，选择一个或多个选项。
-5. 软件自动化 > Office Excel > [取消单元格合并](./Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
-6. 代码工具 > 字典：[初始化字典](./Activities/CodeExecuter/Dictionary/InitializeDictionaryActivity.md)、[添加键值对](./Activities/CodeExecuter/Dictionary/AddDictionaryActivity.md)、[获取键值对数量](./Activities/CodeExecuter/Dictionary/GetQuantityOfDictionaryActivity.md)、[是否包含键/值](./Activities/CodeExecuter/Dictionary/ContainsKeyValueActivity.md)、[移除键值对](./Activities/CodeExecuter/Dictionary/RemoveKeyValueActivity.md)、[清空字典](./Activities/CodeExecuter/Dictionary/EmptyDictionaryActivity.md)。
-7. 控制台：[上传文件](./Activities/Console/FileUploadActivity.md)、[删除文件/文件夹](./Activities/Console/FileDeleteActivity.md)。
+1. 软件自动化 > 浏览器 > [关闭浏览器](./../Activities/AppAutomation/Browser/BrowserClose.md)，支持关闭所有类型的已打开的浏览器。
+2. 代码工具 > 类型转换 > [文本转数值](./../Activities/CodeExecuter/TypeConversion/TextToNumbericActivity.md)，实现将文本转换为数值。
+3. 代码工具 > 文本 ：[分割文本](./../Activities/CodeExecuter/TextProcessing/SplitTextActivity.md)、[追加文本](./../Activities/CodeExecuter/TextProcessing/AppendTextActivity.md)。
+4. 系统 > [多项选择框](./../Activities/System/MultiSelectListBoxActivity.md)：实现以弹框的形式，选择一个或多个选项。
+5. 软件自动化 > Office Excel > [取消单元格合并](./../Activities/AppAutomation/OfficeExcel/UnMergeCells.md)：实现对指定单元格区域已合并的单元格进行拆分。
+6. 代码工具 > 字典：[初始化字典](./../Activities/CodeExecuter/Dictionary/InitializeDictionaryActivity.md)、[添加键值对](./../Activities/CodeExecuter/Dictionary/AddDictionaryActivity.md)、[获取键值对数量](./../Activities/CodeExecuter/Dictionary/GetQuantityOfDictionaryActivity.md)、[是否包含键/值](./../Activities/CodeExecuter/Dictionary/ContainsKeyValueActivity.md)、[移除键值对](./../Activities/CodeExecuter/Dictionary/RemoveKeyValueActivity.md)、[清空字典](./../Activities/CodeExecuter/Dictionary/EmptyDictionaryActivity.md)。
+7. 控制台：[上传文件](./../Activities/Console/FileUploadActivity.md)、[删除文件/文件夹](./../Activities/Console/FileDeleteActivity.md)。
 
 #### 【机器人】
 
-1. 新增 [IBM DB2 扩展](./Robot/Settings/extensions/DB2Extension.md) 来进行 IBM DB2 数据库的自动化。
-2. 企业版支持配置 [是否接收控制台调度](./Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
+1. 新增 [IBM DB2 扩展](./../Reference/Robot/Settings/extensions/DB2Extension.md) 来进行 IBM DB2 数据库的自动化。
+2. 企业版支持配置 [是否接收控制台调度](./../Reference/Robot/Settings/Basic.md)，使得机器人未执行控制台调度命令时，仍然可以继续使用该机器人。
 
 ### 改进与增强
 
@@ -1125,17 +1125,17 @@
 
 #### 【组件库】
 
-1. 界面自动化 > [发送快捷键](./Activities/UIAutomation/SendHotkey.md)，新增发送前行为属性，支持点击和设置焦点两种行为。
-2. 控制台 > [文档理解](./Activities/Console/DocReader.md)，支持识别图片类型文件。
-3. 流程控制 > [重试](./Activities/WorkflowControl/Retry.md)，将条件属性归类至可选项类别中。
-4. 系统：优化 [确认框](./Activities/System/ConfirmDialog.md)、[输入框](./Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
+1. 界面自动化 > [发送快捷键](./../Activities/UIAutomation/SendHotkey.md)，新增发送前行为属性，支持点击和设置焦点两种行为。
+2. 控制台 > [文档理解](./../Activities/Console/DocReader.md)，支持识别图片类型文件。
+3. 流程控制 > [重试](./../Activities/WorkflowControl/Retry.md)，将条件属性归类至可选项类别中。
+4. 系统：优化 [确认框](./../Activities/System/ConfirmDialog.md)、[输入框](./../Activities/System/InputDialog.md)，支持可以手动复制“描述”信息。
 5. 代码工具 > C# > 执行 C#代码，支持输出出错的具体代码位置（行号）及错误信息。
-6. 软件自动化 > Office Excel > [排序](./Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
-7. 数据库 > [连接数据库](./Activities/Database/ConnectDatabase.md)：优化连接 DB2 数据库界面提示信息。
+6. 软件自动化 > Office Excel > [排序](./../Activities/AppAutomation/OfficeExcel/Sort.md)，支持选择排序方式。
+7. 数据库 > [连接数据库](./../Activities/Database/ConnectDatabase.md)：优化连接 DB2 数据库界面提示信息。
 
 #### 【机器人】
 
-1. 优化 [正在执行](./Robot/RunningProcess.md) 界面，将标题改为“执行日志”并增加“再次执行”按钮。
+1. 优化 [正在执行](./../Reference/Robot/RunningProcess.md) 界面，将标题改为“执行日志”并增加“再次执行”按钮。
 2. 优化执行流程时桌面右下角机器人图标，使得机器人图标闪动效果更明显。
 3. 优化定时任务，在定时任务开始前 30 秒弹窗提示，避免影响用户手头工作。
 
