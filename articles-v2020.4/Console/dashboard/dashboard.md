@@ -1,6 +1,6 @@
 # 总体监控
 
-本页面用于提供各类 RPA 数据统计分析功能，展现企业机器人、流程任务运行及状况，便于快速了解企业 RPA 系统运行现状以及进行各类调度。
+总体监控一般用于提供各类 RPA 数据统计分析功能，展现企业机器人、流程任务运行及状况，便于快速了解企业 RPA 系统运行现状以及进行各类调度。
 
 ![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/HAP/dashboard120211208.png)
 
