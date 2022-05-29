@@ -13,7 +13,7 @@
 
 1. 单击“+新建”
 
-    在流程编排详情页的“定时任务”选项页中，单击“+新建” ，在弹出的新建对话框中，填写定时任务详情配置。新建页面包含 3 个部分：基础、定时计划、高级。
+    在流程编排详情页的“定时任务”选项页中，单击“+新建” ，在弹出的新建对话框中，填写定时任务详情配置。
 
     ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-new.png)
 
