@@ -69,7 +69,9 @@
 ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-info3.png)
 ## 调整任务优先级
 
-调度队列中的任务将会按照任务优先级进行执行（0-5000）, 优先级越高则任务将会被优先执行。若您希望某一任务可以插队执行，则点击该任务的“调整优先级”按钮以调整优先级。
+对于”等待种“的任务，支持调整任务优先级。
+调度队列中的任务将会按照任务优先级进行执行（0-5000）, 优先级越高则任务将会被优先执行。
+若您希望某一任务可以插队执行，则点击该任务的“调整优先级”按钮以调整优先级。
 
   ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3editpriority1.png)
 

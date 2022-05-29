@@ -16,7 +16,7 @@
     {
         "id": null,
         "name": "trigger.md",
-        "localizedName": "管理任务计划",
+        "localizedName": "管理定时任务",
         "uuid": "58257e0f-2bb3-4355-8920-9793b1cec1a4",
         "labels": "计划, 管理, 任务"
     },
