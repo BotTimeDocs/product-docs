@@ -8,15 +8,28 @@
 >
 > 流程指在编辑器新增的自动化项目，一个自动化项目被称为一个流程。
 
-用户可以把编辑好的流程上传到控制台，上传的流程可以用于线上指派机器人运行，也可以生成在线流程库用于机器人本地运行。主要包括以下两种方式：
+## 上传流程包
+
+用户可以把编辑好的流程上传到控制台，上传的流程可以用于线上指派机器人运行，也可以生成在线流程库用于机器人本地运行。
+
+上传流程包到控制台，包含两种方式：
 
 - 通过编辑器发布流程至控制台
-- 手动上传
+- 手动上传到控制台
 
     > **说明：**
     > 手动上传或者编辑器发布流程包到控制台，最大支持 2GB 的流程包。
 
-    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/packageUpload)
+    ![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/packageUpload)
+
+## 下载流程包
+用户可以将流程包从控制台下载到本地。
+
+控制台下载包含2个入口：
+- 流程包管理主列表页面，默认下载最新版本流程包
+![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528packageDown.png)
+- 版本管理页面，用户可以任意选择一个版本下载
+![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528packageDownload2.png)
 
 ## 流程包管理权限说明
 
