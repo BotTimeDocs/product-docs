@@ -16,5 +16,11 @@
         "name": "triggerFlowSequence.md",
         "localizedName": "管理定时任务",
         "labels": "定时, 管理, 任务"
+    },
+    {
+        "id": null,
+        "name": "flowSequenceHistory.md",
+        "localizedName": "执行记录",
+        "labels": "执行，记录"
     }
 ]
