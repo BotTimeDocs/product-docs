@@ -20,6 +20,11 @@
             "localizedName": "流程部署（企业版）"
     },
     {
+                "id": null,
+                "name": "flowSequence",
+                "localizedName": "流程编排（企业版）"
+    },
+    {
             "id": null,
             "name": "taskqueue",
             "localizedName": "任务队列（企业版）"
