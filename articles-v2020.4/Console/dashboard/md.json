@@ -16,9 +16,9 @@
     {
         "id": null,
         "name": "QueueDashboard.md",
-        "localizedName": "队列监控",
+        "localizedName": "机器人组监控",
         "uuid": "9064a2b8-0266-4f92-b2ab-b5e742624057",
-        "labels": "监控, 队列"
+        "labels": "监控, 机器人组"
     },
     {
         "id": null,
