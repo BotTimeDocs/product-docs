@@ -13,13 +13,6 @@
         "localizedName": "页面操作",
         "uuid": "",
         "labels": ""   
-    },
-    {
-        "id": null,
-        "name": "rpa-integration",
-        "localizedName": "RPA集成",
-        "uuid": "",
-        "labels": ""   
     }
 
 ]

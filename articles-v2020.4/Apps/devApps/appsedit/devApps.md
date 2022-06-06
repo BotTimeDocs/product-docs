@@ -1,33 +1,93 @@
-# 应用开发模式
+# 应用编辑器概述
 
-开发者可以在该模式下，通过应用的零代码开发功能设计与开发应用，并对应用进行预览、保存与发布操作。
+开发者可以在应用编辑器内，通过零代码开发功能设计与开发应用，并对应用进行预览、保存与发布操作。
 
-## 应用开发模式入口
+## 应用编辑器入口
 
 打开站点，单击“应用管理”菜单，在进入的应用列表页面的操作栏中，选择“编辑”选项，即可设计与开发当前应用。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/devapp20210426.png)
+![编辑应用](https://docimages.blob.core.chinacloudapi.cn/images/Kris/editapp.jpg)
 
-## 应用开发模式简介
+## 应用编辑器简介
 
-应用编辑器，根据布局分为如下几部分，分别是
+应用编辑器，根据布局分为以下三大部分部分，分别是
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/paneluserinterface20210422.png)
+![布局](https://docimages.blob.core.chinacloudapi.cn/images/Kris/layout.png)
 
-1. 菜单导航栏：ViCode编辑模式由以下几个区域组成。
+1. 顶部导航栏：提供使用应用编辑器的基本功能。
+2. 左侧导航区：支持应用页面、业务逻辑、数据以及权限的新建与管理。
+3. 编辑区：对应用页面、业务逻辑、数据以及权限进行编辑。
 
-    - [大纲页面](./PageSetting.md)：管理应用内的页面、数据源和代码。
-    - [设置页面](./BasicSetting.md)：管理应用的全局设置。
-    - [全局变量页面](./variable.md)：展示和管理应用的变量。
-    - [代码页面](./executecode.md)：管理应用中的代码，包括 JavaScript 代码。
-    - 数据模型页面：配置测试连接器与生产连接器的映射关系以及创建数据源。
-2. 目录树区域：在开发应用过程中用到的页面、数据源、代码等大纲目录。
-3. [组件库区域](./component/aboutComponent.md)：通过选择不同的组件，创建页面元素，开发应用。
-4. 模拟界面（即，画布区域）：用于向用户展示编辑的界面样式，用户可以在模拟界面选中/拖拽移动/删除组件。
+### 顶部导航栏
 
-   >**小技巧：**
-   >
-   >在模拟界面中，键盘按下空格键时，鼠标呈现一只小手形状的手势，可以拖拽画布。
+顶部导航栏提供了使用应用编辑器的基本功能。
 
-5. 属性区域：用于组件对本身的属性进行设置，不同组件拥有不同的属性栏。属性栏将根据模拟界面选中的组件进行切换。
-6. 顶部导航：用于预览、发布、设置主题等全局性的应用的操作。
+![顶部导航栏](https://docimages.blob.core.chinacloudapi.cn/images/Kris/topbar.jpg)
+
+1. 返回：返回控制台。
+2. 预览：开发过程中可快速预览应用。
+3. 保存：将编辑器当前内容进行保存。
+4. 发布：开发并测试完成的应用可发布到控制台-我的应用，供业务人员使用。
+5. [变量管理](./variable.md)：管理应用中的变量。通过将变量与页面组件某个属性进行绑定，可以使该属性动态变化。
+
+
+### 左侧导航区
+
+左侧导航区主要是针对应用页面、业务逻辑、数据以及权限的新建与管理。根据不同的导航可进入到不同的视图。
+
+### 页面
+
+[页面](./PageSetting.md)主要管理应用的页面和页面组件等。
+
+![页面](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pagenavigation.jpg)
+
+1. 页面：管理应用内所有页面，并支持新建、删除和设置为首页等。
+2. 组件：展示官方的页面组件库。
+3. 大纲：展示当前页面完整的组件大纲，便于区分组件层级。
+
+### 动作流
+
+[动作流](./action-flow/action-flow.md)主要管理应用的动作流和动作流组件等，用于处理应用业务逻辑。
+
+![动作流](https://docimages.blob.core.chinacloudapi.cn/images/Kris/actionflownav.jpg)
+
+1. 动作流：管理当前页面关联的动作流，并支持新建、删除等。
+2. 组件：展示官方的动作流组件库。
+
+### 数据源
+
+[数据源](./datamodel/datasource.md)主要管理应用内的所有数据源，用于访问与更新应用数据。
+
+![数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/datasourcenav.jpg)
+
+### 角色权限
+
+[角色权限](./rolepermissions/rolepermissions.md)主要管理应用内角色，用于控制应用页面和数据的访问权限。
+
+![角色权限](https://docimages.blob.core.chinacloudapi.cn/images/Kris/rolenav.jpg)
+
+
+### 编辑区
+
+编辑区用于对应用页面、业务逻辑、数据以及权限进行编辑。根据不同的左侧导航可进入不同的编辑区。
+
+#### 页面设计器
+
+在页面设计器里，通过简单的拖拉拽组件即可快速搭建应用页面。
+
+![页面设计器](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pageeditor.jpg)
+
+1. 设计器：展示页面样式，支持拖拽、删除组件等操作。
+2. 属性设置：对页面组件的数据属性进行静态设置，或与变量、表达式等进行动态绑定。
+3. 事件处理：对页面组件进行事件绑定与监听，实现单击跳转页面、消息通知等操作。
+
+#### 动作流编辑器
+
+在动作流编辑器里，通过简单的拖拉拽组件即可快速搭建应用业务逻辑。
+
+![动作流编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Kris/actionfloweditor.jpg)
+
+1. 编辑器：展示业务逻辑处理，支持拖拽、删除组件等操作。
+2. 属性设置：对动作流、动作流组件的数据属性进行静态设置，或与变量、表达式等进行动态绑定。
+3. 动作流变量：管理动作流内部变量，实现动作流内的数据传递。
+

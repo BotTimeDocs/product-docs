@@ -2,22 +2,15 @@
     {
         "id": null,
         "name": "about-datamodel.md",
-        "localizedName": "关于数据模型",
+        "localizedName": "关于数据源",
         "uuid": "0c3b5df0-c791-40e5-abeb-6c50c76c2872",
-        "labels": "数据模型，ViCode"
+        "labels": "数据源，ViCode"
     },
     {
         "id": null,
-        "name": "datasource.md",
-        "localizedName": "数据源管理",
+        "name": "datatable.md",
+        "localizedName": "数据表",
         "uuid": "ed07f8c4-172b-484c-b63b-2946607517c8",
         "labels": "数据源, ViCode"
-    },
-    {
-        "id": null,
-        "name": "connector.md",
-        "localizedName": "连接器映射关系管理",
-        "uuid": "5b36c49f-214d-4591-8cb7-11ae27a3186b",
-        "labels": "连接器，映射关系，ViCode"
     }
 ]

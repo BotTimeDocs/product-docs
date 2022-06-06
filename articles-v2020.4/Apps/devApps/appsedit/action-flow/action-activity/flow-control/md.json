@@ -10,14 +10,14 @@
     {
         "id": null,
         "name": "if.md",
-        "localizedName": "If",
+        "localizedName": "IF",
         "uuid": "fefaa2f9-7401-4d29-98ba-2f74c9db6922",
         "labels": "If，ViCode"
     },
     {
         "id": null,
         "name": "if-multi-condition.md",
-        "localizedName": "If多条件",
+        "localizedName": "IF多条件",
         "uuid": "700d59cd-bf2f-4cce-8f36-9b74fffd40da",
         "labels": "If多条件，ViCode"
     },
@@ -31,14 +31,14 @@
     {
         "id": null,
         "name": "else-if.md",
-        "localizedName": "Else If",
+        "localizedName": "Else IF",
         "uuid": "70cf950d-1e69-4d8f-a805-ae6d3522a7b1",
         "labels": "Else If，ViCode"
     },
     {
         "id": null,
         "name": "else-if-multi-condition.md",
-        "localizedName": "Else If多条件",
+        "localizedName": "Else IF多条件",
         "uuid": "c274c535-72f9-4a3c-a883-6dd22738b81d",
         "labels": "Else If多条件，ViCode"
     },
@@ -58,17 +58,17 @@
     },
     {
         "id": null,
-        "name": "continue.md",
-        "localizedName": "继续循环",
-        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
-        "labels": "继续循环，ViCode"
-    },
-    {
-        "id": null,
         "name": "loop.md",
         "localizedName": "无限循环",
         "uuid": "3bf0ca74-286f-44d2-866f-c7e514c57e07",
         "labels": "无限循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "continue.md",
+        "localizedName": "继续循环",
+        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
+        "labels": "继续循环，ViCode"
     },
     {
         "id": null,
@@ -93,17 +93,17 @@
     },
     {
         "id": null,
-        "name": "exception.md",
-        "localizedName": "抛出错误",
-        "uuid": "2a9cf9d0-9bd5-4e48-9689-5264b3a09eef",
-        "labels": "抛出错误，ViCode"
-    },
-    {
-        "id": null,
         "name": "finally.md",
         "localizedName": "最终执行",
         "uuid": "71b40a3c-70c7-43e7-937c-4423f85780db",
         "labels": "最终执行，ViCode"
+    },
+    {
+        "id": null,
+        "name": "exception.md",
+        "localizedName": "抛出错误",
+        "uuid": "2a9cf9d0-9bd5-4e48-9689-5264b3a09eef",
+        "labels": "抛出错误，ViCode"
     },
     {
         "id": null,
