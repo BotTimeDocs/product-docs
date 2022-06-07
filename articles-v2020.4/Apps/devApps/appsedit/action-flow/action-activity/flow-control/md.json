@@ -10,14 +10,14 @@
     {
         "id": null,
         "name": "if.md",
-        "localizedName": "IF",
+        "localizedName": "If",
         "uuid": "fefaa2f9-7401-4d29-98ba-2f74c9db6922",
         "labels": "If，ViCode"
     },
     {
         "id": null,
         "name": "if-multi-condition.md",
-        "localizedName": "IF多条件",
+        "localizedName": "If多条件",
         "uuid": "700d59cd-bf2f-4cce-8f36-9b74fffd40da",
         "labels": "If多条件，ViCode"
     },
@@ -31,14 +31,14 @@
     {
         "id": null,
         "name": "else-if.md",
-        "localizedName": "Else IF",
+        "localizedName": "Else If",
         "uuid": "70cf950d-1e69-4d8f-a805-ae6d3522a7b1",
         "labels": "Else If，ViCode"
     },
     {
         "id": null,
         "name": "else-if-multi-condition.md",
-        "localizedName": "Else IF多条件",
+        "localizedName": "Else If多条件",
         "uuid": "c274c535-72f9-4a3c-a883-6dd22738b81d",
         "labels": "Else If多条件，ViCode"
     },

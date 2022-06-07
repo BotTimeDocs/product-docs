@@ -1,12 +1,10 @@
 # ForEach 循环
 
-## 概述
-
-ForEach 循环用于调用数组的每个元素，并将元素传递给回调函数。
+**ForEach 循环**用于调用数组的每个元素，并将元素传递给回调函数。
 
 > **说明：**
 >
-> ForEach 与 End Loop 搭配使用，不可单独删除 End Loop。
+> ForEach循环 与 End Loop 搭配使用，不可单独删除 End Loop。
 
 ## 属性
 
