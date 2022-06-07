@@ -1,8 +1,8 @@
-# 关于我的应用
+# 我的应用
 
 ## 网页端访问“我的应用”
 
-打开云扩 ViCode，点击“我的应用”菜单。你可以在这里看到所有您被授权的应用。
+打开云扩 ViCode，点击“我的应用”菜单。你可以在这里看到所有被授权的应用。
 
 ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/myapp.jpg)
 
