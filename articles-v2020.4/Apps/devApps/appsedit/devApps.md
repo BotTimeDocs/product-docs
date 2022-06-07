@@ -37,7 +37,7 @@
 
 ### 页面
 
-[页面](./PageSetting.md)主要管理应用的页面和页面组件等。
+[页面](./page/PageSetting.md)主要管理应用的页面和页面组件等。
 
 ![页面](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pagenavigation.jpg)
 
@@ -56,13 +56,13 @@
 
 ### 数据源
 
-[数据源](./datamodel/datasource.md)主要管理应用内的所有数据源，用于访问与更新应用数据。
+[数据源](./datamodel/about-datamodel.md)主要管理应用内的所有数据源，用于访问与更新应用数据。
 
 ![数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/datasourcenav.jpg)
 
 ### 角色权限
 
-[角色权限](./rolepermissions/rolepermissions.md)主要管理应用内角色，用于控制应用页面和数据的访问权限。
+[角色权限](./rolepermissions.md)主要管理应用内角色，用于控制应用页面和数据的访问权限。
 
 ![角色权限](https://docimages.blob.core.chinacloudapi.cn/images/Kris/rolenav.jpg)
 

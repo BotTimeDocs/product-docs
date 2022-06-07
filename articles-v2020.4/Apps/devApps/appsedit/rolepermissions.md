@@ -23,7 +23,7 @@
 
 2. 设置角色可访问的页面和数据源权限后，单击“下一步”
 
-    ![权限配置](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newdrole2.jpg)
+    ![权限配置](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newrole2.jpg)
 
 3. 为该角色添加用户后，单击“确定”即可新建角色
 
