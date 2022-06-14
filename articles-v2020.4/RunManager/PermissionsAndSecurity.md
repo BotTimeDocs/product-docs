@@ -114,7 +114,8 @@ SaaS控制台组织架构的创建，基于邀请和激活。
 
 * 集成第三方组织架构
     - 同步企业微信组织架构到控制台
-        1. 企业微信管理员打开企业微信管理后台【https://work.weixin.qq.com/wework_admin/loginpage_wx】，并扫码登录
+        1. 企业微信管理员打开企业微信管理后台[https://work.weixin.qq.com/wework_admin/loginpage_wx]，
+        并扫码登录
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin01.png)
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin02.png)
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin03.png)
@@ -133,6 +134,5 @@ SaaS控制台组织架构的创建，基于邀请和激活。
         场景1：新增一个部门
         首先企业微信管理员将新部门添加到可见范围（见3-修改用户可见范围），然后公司管理员登录云扩控制台刷新组织架构。
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin09.png)
-        场景2：原有部门或人员变动
-        管理员刷新组织架构即可。
+        场景2：原有部门或人员变动，管理员刷新组织架构即可。
      
