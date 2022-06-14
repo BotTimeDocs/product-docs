@@ -114,8 +114,7 @@ SaaS控制台组织架构的创建，基于邀请和激活。
 
 * 集成第三方组织架构
     - 同步企业微信组织架构到控制台
-        1. 企业微信管理员打开企业微信管理后台[https://work.weixin.qq.com/wework_admin/loginpage_wx]，
-        并扫码登录
+        1. 企业微信管理员打开[企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx)，并扫码登录
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin01.png)
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin02.png)
         ![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin03.png)
