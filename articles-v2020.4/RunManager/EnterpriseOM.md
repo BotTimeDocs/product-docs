@@ -56,28 +56,28 @@
     安装文件：[docker-19.03.13.tgz]、[docker.service]、[docker.socket]，[点击此处下载docker安装文件](https://encootech-my.sharepoint.cn/:u:/g/personal/shanglong_encootech_com/EWUBkfwe6_NImMHU2DDJAzgBO1BjbZBtcTK31rL6FOwzDw?e=s1hIUM)
     4. 操作用户：root 
     在CentosA,CentosB,CentosC 三台服务器上进行相同的操作，上传私有化控制台安装包，docker安装文件到服务器指定目录 /app 目录（也可自定义目录）；执行安装docker服务的命令。
-        ````
-            # 创建一个统一存放安装控制台的目录
-            cd  /
-            make  -p  app
-            #进入到该目录，把docker安装文件，控制台安装包通过sftp上传到该目录下面
-            #查看服务器防火墙状态，
-            systemctl status firewalld
-            #如果防火墙状态是running,开启的状态，执行命令，关闭防火墙
-            systemctl stop firewalld
-            #进入到app目录，安装docker服务
-            cd  /app
-            tar xf docker-19.03.13.tgz
-            cp docker/*  /usr/bin/
-            cp docker.socket  /etc/systemd/system/
-            cp docker.service  /etc/systemd/system/
-            systemctl daemon-reload
-            systemctl start docker.service
-            systemctl enable docker.service
-            systemctl status docker.service
-            #退出该状态
-            Ctrl+c
-        ````
+    ```` 
+    # 创建一个统一存放安装控制台的目录
+    cd  /
+    make  -p  app
+    #进入到该目录，把docker安装文件，控制台安装包通过sftp上传到该目录下面
+    #查看服务器防火墙状态，
+    systemctl status firewalld
+    #如果防火墙状态是running,开启的状态，执行命令，关闭防火墙
+    systemctl stop firewalld
+    #进入到app目录，安装docker服务
+    cd  /app
+    tar xf docker-19.03.13.tgz
+    cp docker/*  /usr/bin/
+    cp docker.socket  /etc/systemd/system/
+    cp docker.service  /etc/systemd/system/
+    systemctl daemon-reload
+    systemctl start docker.service
+    systemctl enable docker.service
+    systemctl status docker.service
+    #退出该状态
+    Ctrl+c
+    ````
 ##### Swarm 集群的搭建
 操作用户：root
 
@@ -173,17 +173,17 @@ cd  /app
 举例如下:
     - 第一种多域名访问
     域名:
-    www.consoleweb.com
-    www.appsweb.com
-    www.apigateway.com
-    www.sso.com
-    www.s3storage.com
+    - www.consoleweb.com 
+    - www.appsweb.com
+    - www.apigateway.com
+    - www.sso.com
+    - www.s3storage.com
     服务访问地址:
-    www.consoleweb.com(控制台前端服务域名);
-    www.appsweb.com(小程序web前端服务域名); 
-    www.apigateway.com(API网关接入服务域名); 
-    www.sso.com(授权认证服务域名);
-    www.s3storage.com(S3对象储存服务域名)
+    - www.consoleweb.com(控制台前端服务域名);
+    - www.appsweb.com(小程序web前端服务域名); 
+    - www.apigateway.com(API网关接入服务域名); 
+    - www.sso.com(授权认证服务域名);
+    - www.s3storage.com(S3对象储存服务域名)
         ````
         #控制台初始化， 
         sh  ha-deploy.sh  init
@@ -196,18 +196,18 @@ cd  /app
         **域名**：www.rpadomain.com
 
         **默认端口**： 
-        consolewebport>80
-        ssoport>81
-        appswebport>82
-        apigatewayport>8080
-        s3storageport>需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例)
+        - consolewebport>80
+        - ssoport>81
+        - appswebport>82
+        - apigatewayport>8080
+        - s3storageport>需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例)
         
         **服务访问地址**：
-        www.rpadomain.com(控制台前端服务域名); 
-        www.rpadomain.com:82(小程序web前端服务域名); 
-        www.rpadomain.com:8080(API网关接入服务域名);
-        www.rpadomain.com:81(授权认证服务域名);
-        www.rpadomain.com:$port(S3对象储存服务域名)
+        - www.rpadomain.com(控制台前端服务域名); 
+        - www.rpadomain.com:82(小程序web前端服务域名); 
+        - www.rpadomain.com:8080(API网关接入服务域名);
+        - www.rpadomain.com:81(授权认证服务域名);
+        - www.rpadomain.com:$port(S3对象储存服务域名)
 
         ````
         #控制台初始化
@@ -219,20 +219,20 @@ cd  /app
 
     - 第三种(IP+端口)访问
         **负载均衡IP地址**
-        52.131.87.118
+        - 52.131.87.118
         **默认端口** 
-        consolewebport>80  
-        ssoport>81  
-        appswebport>82  
-        apigatewayport>8080  
-        s3storageport>需要跟客户确认提供的存储服务的端口$port
+        - consolewebport>80  
+        - ssoport>81  
+        - appswebport>82  
+        - apigatewayport>8080  
+        - s3storageport>需要跟客户确认提供的存储服务的端口$port
         
         **服务访问地址**
-        52.131.87.118(控制台前端服务访问地址); 
-        52.131.87.118:82(小程序web前端服务访问地址); 
-        52.131.87.118.82:8080(API网关接入服务地址);
-        52.131.87.118:81(授权认证服务访问地址);
-        52.131.87.118:$prot(S3对象存储服务访问地址。此次以9000端口举例)
+        - 52.131.87.118(控制台前端服务访问地址); 
+        - 52.131.87.118:82(小程序web前端服务访问地址); 
+        - 52.131.87.118.82:8080(API网关接入服务地址);
+        - 52.131.87.118:81(授权认证服务访问地址);
+        - 52.131.87.118:$prot(S3对象存储服务访问地址。此次以9000端口举例)
         ````
         #初始化控制台
         sh ha-deploy.sh init
