@@ -56,7 +56,7 @@
     安装文件：[docker-19.03.13.tgz]、[docker.service]、[docker.socket]，[点击此处下载docker安装文件](https://encootech-my.sharepoint.cn/:u:/g/personal/shanglong_encootech_com/EWUBkfwe6_NImMHU2DDJAzgBO1BjbZBtcTK31rL6FOwzDw?e=s1hIUM)
     4. 操作用户：root 
     在CentosA,CentosB,CentosC 三台服务器上进行相同的操作，上传私有化控制台安装包，docker安装文件到服务器指定目录 /app 目录（也可自定义目录）；执行安装docker服务的命令。
-    ```` 
+```` 
     # 创建一个统一存放安装控制台的目录
     cd  /
     make  -p  app
@@ -77,7 +77,7 @@
     systemctl status docker.service
     #退出该状态
     Ctrl+c
-    ````
+````
 ##### Swarm 集群的搭建
 操作用户：root
 
@@ -171,19 +171,19 @@ cd  /app
 3. S3存储 （可选）(不能提供S3存储服务，需要提供NFS文件共享服务)
 4. 访问方式为http的请求，执行控制台初始化操作
 举例如下:
-    - 第一种多域名访问
-    域名:
-    - www.consoleweb.com 
-    - www.appsweb.com
-    - www.apigateway.com
-    - www.sso.com
-    - www.s3storage.com
-    服务访问地址:
-    - www.consoleweb.com(控制台前端服务域名);
-    - www.appsweb.com(小程序web前端服务域名); 
-    - www.apigateway.com(API网关接入服务域名); 
-    - www.sso.com(授权认证服务域名);
-    - www.s3storage.com(S3对象储存服务域名)
+    - 第一种多域名访问 </br>
+    **域名:** </br>
+    www.consoleweb.com </br>
+    www.appsweb.com </br>
+    www.apigateway.com </br>
+    www.sso.com </br>
+    www.s3storage.com </br>
+    **服务访问地址:** </br>
+    www.consoleweb.com(控制台前端服务域名); </br>
+    www.appsweb.com(小程序web前端服务域名);  </br>
+    www.apigateway.com(API网关接入服务域名);  </br>
+    www.sso.com(授权认证服务域名); </br>
+    www.s3storage.com(S3对象储存服务域名) </br>
         ````
         #控制台初始化， 
         sh  ha-deploy.sh  init
@@ -192,22 +192,23 @@ cd  /app
         > **说明：**
         > 1，注释:红框内容是根据客户提供的资源，选项存储对象和redis信息,此处是客户提供redis和存储服务; 是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
 
-    - 第二种(域名+端口)访问
-        **域名**：www.rpadomain.com
+    - 第二种(域名+端口)访问 </br>
+        **域名:** </br>
+        www.rpadomain.com </br>
 
-        **默认端口**： 
-        - consolewebport>80
-        - ssoport>81
-        - appswebport>82
-        - apigatewayport>8080
-        - s3storageport>需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例)
+        **默认端口:** </br>
+        consolewebport>80 </br>
+        ssoport>81 </br>
+        appswebport>82 </br>
+        apigatewayport>8080 </br>
+        s3storageport>需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例) </br>
         
-        **服务访问地址**：
-        - www.rpadomain.com(控制台前端服务域名); 
-        - www.rpadomain.com:82(小程序web前端服务域名); 
-        - www.rpadomain.com:8080(API网关接入服务域名);
-        - www.rpadomain.com:81(授权认证服务域名);
-        - www.rpadomain.com:$port(S3对象储存服务域名)
+        **服务访问地址:** </br>
+        www.rpadomain.com(控制台前端服务域名);  </br>
+        www.rpadomain.com:82(小程序web前端服务域名);  </br>
+        www.rpadomain.com:8080(API网关接入服务域名); </br>
+        www.rpadomain.com:81(授权认证服务域名); </br>
+        www.rpadomain.com:$port(S3对象储存服务域名) </br>
 
         ````
         #控制台初始化
@@ -217,22 +218,22 @@ cd  /app
         > **说明：**
         > 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户提供了Redis，因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
 
-    - 第三种(IP+端口)访问
-        **负载均衡IP地址**
-        - 52.131.87.118
-        **默认端口** 
-        - consolewebport>80  
-        - ssoport>81  
-        - appswebport>82  
-        - apigatewayport>8080  
-        - s3storageport>需要跟客户确认提供的存储服务的端口$port
+    - 第三种(IP+端口)访问 </br>
+        **负载均衡IP地址** </br>
+        52.131.87.118 </br>
+        **默认端口**  </br>
+        consolewebport>80   </br>
+        ssoport>81   </br>
+        appswebport>82   </br>
+        apigatewayport>8080   </br>
+        s3storageport>需要跟客户确认提供的存储服务的端口$port </br>
         
-        **服务访问地址**
-        - 52.131.87.118(控制台前端服务访问地址); 
-        - 52.131.87.118:82(小程序web前端服务访问地址); 
-        - 52.131.87.118.82:8080(API网关接入服务地址);
-        - 52.131.87.118:81(授权认证服务访问地址);
-        - 52.131.87.118:$prot(S3对象存储服务访问地址。此次以9000端口举例)
+        **服务访问地址** </br>
+        - 52.131.87.118(控制台前端服务访问地址);  </br>
+        - 52.131.87.118:82(小程序web前端服务访问地址);  </br>
+        - 52.131.87.118.82:8080(API网关接入服务地址); </br>
+        - 52.131.87.118:81(授权认证服务访问地址); </br>
+        - 52.131.87.118:$prot(S3对象存储服务访问地址。此次以9000端口举例) </br>
         ````
         #初始化控制台
         sh ha-deploy.sh init
