@@ -124,7 +124,7 @@ XPath运算符
 ![N5](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N5.png)
 文件格式为 request和response区分，其中request字段已经做了序列化处理，而response需要手动序列化，因为有些返回为一串加密string，并不能自动序列化。
 
-## 自定义代码导入
+## 编写代码
 支持在流程中编写代码片段或导入外部的代码。支持C#, Python和Powershell。
 当组件或者简单的表达式无法满足业务需求时，可以使用自定义代码类组件完成一些复杂的功能。
 
