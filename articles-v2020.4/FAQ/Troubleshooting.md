@@ -3,10 +3,11 @@
 ## 一、报错-信息索引
 
 ### 1.1 控制台-报错索引
-|序号|错误代码|可能关联事件|解决办法(编号)
+
+|序号|错误信息&错误代码|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|未知异常|控制台机器人激活|C0001
-2|机器人未授权，请在控制台绑定许可后重新连接|控制台机器人激活|C0002
+2|机器人未授权，请在控制台绑</br>定许可后重新连接  |控制台机器人激活|C0002
 3|服务器内部异常|控制台机器人激活|C0003
 
 ### 1.2 编辑器、机器人-报错索引
@@ -15,26 +16,26 @@
 
 |序号|错误信息&错误代码|可能关联事件|解决办法(编号)
 |---|---|---|---|
-1|此应用无法在你的电脑上运行|编辑器安装|I0001
-2|未将对象引用设置到对象的实例|编辑器安装|I0002
-3|这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新|编辑器安装|I0003
-4|[Installation has failed]There was an error while installing the application.Check the setup log for more information and contact the author|编辑器安装|I0004
-5|[Installation has failed] Failed to install the .NET Framework,try installing the latest version manually|编辑器安装|I0005
-6|Value cannot be null.Parameter name:path1|编辑器安装|I0006
-7|该许可证不能在当前计算机上注册|编辑器本地激活|I0007
-8|Java扩展安装失败!|扩展安装|E0001
-9|检测到Java应用程序,请更新Java插件|扩展安装|E0002
-10|无效许可提示|激活机器人|R0001
-11|尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏|编辑器安装|I0008
+1| 此应用无法在你的电脑上运行 |编辑器安装|I0001
+2| 未将对象引用设置到对象的实例 |编辑器安装|I0002
+3| 这计算机中已经安装了.NET </br>Framework </br>4.6.1(简体中文)或版本更高的更新 |编辑器安装|I0003
+4| [Installation has failed]</br>There was an error while installing the application.Check</br> the setup log for more information </br>and contact the author |编辑器安装|I0004
+5| [Installation has failed]</br> Failed to install</br>the .NET Framework,try installing the</br> latest version manually |编辑器安装|I0005
+6| Value cannot be null.</br>Parameter name:path1|编辑器安装 |I0006
+7| 该许可证不能在当前计算机上注册|编辑器本地激活 |I0007
+8| Java扩展安装失败! |扩展安装|E0001
+9| 检测到Java应用程序,</br>请更新Java插件 |扩展安装|E0002
+10| 无效许可提示 |激活机器人|R0001
+11| 尚未安装.Net Framework 4.6.2,</br>原因是：时间戳签名和/或</br>证书无法验证或已损坏 |编辑器安装|I0008
 
 
 #### (2)Excel/Office自动化
-|序号|错误信息&错误代码|可能关联事件|解决办法(编号)
+|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|0x80070057|环境_三方软件冲突、筛选|AC0001
 2|0x80029C4A|环境_加载类型库/DLL|AC0002
 3|0x80004002 |环境_COM类相关|AC0003
-4|检索 COM 类工厂中 CLSID 为 {00021A20-0000-0000-C000-000000000046} 的组件时失败， 0x80080005|环境_COM类相关|AC0004
+4|检索 COM 类工厂中 CLSID 为</br> {00021A20-0000-0000-C000-000000000046} </br>的组件时失败， 0x80080005|环境_COM类相关|AC0004
 5|0x80040154|环境_COM类相关|AC0005
 6|0x8001010A |运行_可视|AC0006
 7|0x80010105|打开/新建|AC0007
@@ -58,12 +59,12 @@
 25|不信任到Visual Basic Project的程序连接|执行宏|AC0025
 26|类 PivotTable 的 PivotFields 方法无效|筛选|AC0026
 27|不支持给定路径的格式|新建文件/文件夹|AC0027
-28|Your stream was neither an OLE2 stream, nor an OOXML stream.|打开/新建|AC0028
+28|Your stream was neither</br> an OLE2 stream, nor an OOXML stream.|打开/新建|AC0028
 29|指定的参数已超出有效值的范围|排序|AC0040
 
 #### (3)元素定位/(界面&手机)自动化
 
-|序号|错误代码|可能关联事件|解决办法(编号)
+|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|元素不支持通过设置控件的方式点击|点击|AA0001
 2|定位元素超时|点击|AA0002
@@ -79,41 +80,41 @@
 
 #### (4)数据表/数据库自动化
 
-序号|错误代码|可能关联事件|解决办法(编号)
+序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
 |---|---|---|---|
-1|error 0: Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Reading from the stream has failed|Mysql、连接数据库|AC0030
-2|Loading local data is disabled; this must be enabled on both the client and server sides|Mysql、连接数据库|AC0031
-3|无法加载DLL“db2app.dll”：找不到指定的模块（异常来自HRESULT：0x8007007E）|Db2、连接数据库|AC0032
-4|连接已经是本地事务处理或分布式事务处理的一部分|连接数据库|AC0033
+1|error 0: Authentication to host</br> 'localhost' for user 'root' using method</br> 'caching_sha2_password' failed </br>with message: Reading from </br>the stream has failed|Mysql、连接数据库|AC0030
+2|Loading local data is disabled; </br>this must be enabled on both </br>the client and server sides|Mysql、连接数据库|AC0031
+3|无法加载DLL“db2app.dll”：</br>找不到指定的模块</br>（异常来自HRESULT：0x8007007E）|Db2、连接数据库|AC0032
+4|连接已经是本地事务处理</br>或分布式事务处理的一部分|连接数据库|AC0033
 
 #### (5)邮件自动化
 
-|序号|错误代码|可能关联事件|解决办法(编号)
+|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|获取邮件信息失败|获取邮件|AC0034
-2|发送邮件失败。535: Login Fail. Please enter your authorization code to login. |发送邮件|AC0035
+2|发送邮件失败。535: Login Fail. </br>Please enter your authorization code to login. |发送邮件|AC0035
 3|连接服务器失败|发送邮件|AC0036
-4|[错误]Outlook的COM端口被占用，请检查是否有插件占用改端口或者关闭Outlook客户端。|发送邮件|AC0037
+4|[错误]Outlook的COM端口被占用，</br>请检查是否有插件占用改端口</br>或者关闭Outlook客户端。|发送邮件|AC0037
 
 #### (6)其他异常报错(系统组件、远程、流程执行…)
 
-|序号|错误代码|可能关联事件|解决办法(编号)
+|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
 |---|---|---|---|
-1|call remote method timeout,method name : invokeRemoteUiObjectAsync |远程桌面断开|AC0038
+1|call remote method timeout,method name :</br> invokeRemoteUiObjectAsync |远程桌面断开|AC0038
 2|Data descriptor signature not found|解压缩文件|AC0039
 3|请检查是否已安装机器人并处于正常运行状态|流程发布时|I0009
 4|服务未正常启动，请尝试手动启动服务或重启电脑|流程发布时|I0010
 5|未检测到服务，可能被其他软件卸载|流程执行时|R0002
 6|原因：拒绝访问|流程执行时|R0003
 7|[Error] 未能转换部分或所有标识引用|流程执行时|R0004
-8|活动"Encooworkflow.Main"的CacheMetadata引发了"System.Xaml.XmalObjectWriterException":无法设置未知成员…… 请确认相关的组件是否包含在nuget目录下|打开流程包|R0005
-9|“HTTPSConnectionPool(host='digpro.ininin.com', port=443): Max retries exceeded with url: /dpsthird/api/v1/production/save_or_update (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001DAA66E4640>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))”|流程执行时|R0006
+8|活动"Encooworkflow.Main"的CacheMetadata</br>引发了"System.Xaml.</br>XmalObjectWriterException":</br>无法设置未知成员…… 请确认相关的组件</br>是否包含在nuget目录下|打开流程包|R0005
+9|“HTTPSConnectionPool</br>(host='digpro.ininin.com', port=443): </br>Max retries exceeded with url: </br>/dpsthird/api/v1/production/</br>save_or_update (Caused by NewConnectionError</br>('<urllib3.connection.HTTPSConnection object at 0x000001DAA66E4640>: Failed to establish a new connection:</br> [Errno 11001] getaddrinfo failed'))”|流程执行时|R0006
 10|未能生成XXX视图|打开流程包|I0011
 11|此组件缺失，或无法正常加载|打开流程包|I0012
 12|[错误] 类型XXX的对象无法转换为类型XXX|打开流程包|I0013
 13|[错误]  Method not found…|打开流程包|I0014
-14|[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX|打开流程包|I0015
-15|[错误]活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"|打开流程包|I0016
+14|[错误] Main.xaml: “对类型“……”</br>的构造函数执行符合指定的</br>绑定约束的调用时引发了异常。”，</br>行号为“XXX”，行位置为“XXX”。</br> 行：XXX, 列：XX|打开流程包|I0015
+15|[错误]活动“登录”的CacheMeta </br>引发了"System.Xaml.……:</br>无法创建未知类型"{XXX}……"。</br>请确认相关的组件包</br>是否包含在nuget目录下"|打开流程包|I0016
 
 ## 二、具体报错-解决办法
 
@@ -1052,11 +1053,11 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 
-#### 【报错异常】此组件缺失，或无法正常加载,怎么处理
+#### 【报错异常】此组件缺失，或无法正常加载
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-2.png)
 
 <font color=5a6877>
-</br>**【解决办法-I0012】**：同解决办法解决办法-I0011 
+</br>**【解决办法-I0012】**：同解决办法解决办法-I0011
 
 </font>
 </br></br>
@@ -1103,7 +1104,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 #### 【报错异常】[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX
 
 <font color=5a6877>
-</br>**【解决办法-I0015】**：同解决办法-I0014 
+</br>**【解决办法-I0015】**：同解决办法-I0014
 
 </font>
 </br></br>
