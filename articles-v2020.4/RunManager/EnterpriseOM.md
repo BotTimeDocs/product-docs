@@ -45,16 +45,18 @@
 - Mysql5.7及以上版本
 - S3接口对象存储
 - 安装
-    1. 以下为模拟流程提供如下三台服务器:
-    CentosA: 10.10.10.1
-    CentosB: 10.10.10.2
-    CentosC: 10.10.10.3
+    1. 以下为模拟流程提供如下三台服务器: </br>
+    CentosA: 10.10.10.1 </br>
+    CentosB: 10.10.10.2 </br>
+    CentosC: 10.10.10.3 </br>
     2. 云扩控制台安装包：consolev4pvt-4.1.141211
-    3. Docker离线安装
-    安装方式：二进制安装
-    版本：19.03.13
-    安装文件：[docker-19.03.13.tgz]、[docker.service]、[docker.socket]，[点击此处下载docker安装文件](https://pan.baidu.com/s/106Rw-ZWSMTrEWGtTS-ymAQ )
-    4. 操作用户：root 
+    3. Docker离线安装 </br>
+    安装方式：二进制安装 </br>
+    版本：19.03.13 </br>
+    安装文件：[docker-19.03.13.tgz]、[docker.service]、[docker.socket] </br>
+    docker安装文件下载：https://pan.baidu.com/s/106Rw-ZWSMTrEWGtTS-ymAQ </br>
+    提取码：5ct3 </br>
+    4. 操作用户：root </br>
     在CentosA,CentosB,CentosC 三台服务器上进行相同的操作，上传私有化控制台安装包，docker安装文件到服务器指定目录 /app 目录（也可自定义目录）；执行安装docker服务的命令。
 ```` 
     # 创建一个统一存放安装控制台的目录
@@ -164,93 +166,94 @@ cd  /app
 
 
 
-**控制台的初始化操作根据客户提供的资源，进行初始化操作：**
-客户提供的资源：
+**控制台的初始化操作根据客户提供的资源，进行初始化操作：** </br>
+客户提供的资源： </br>
 1. Mysql5.7及以上版本（必要）
 2. Redis4.x及以上版本（可选）
 3. S3存储 （可选）(不能提供S3存储服务，需要提供NFS文件共享服务)
 4. 访问方式为http的请求，执行控制台初始化操作
-举例如下:
-    - 第一种多域名访问 </br>
-        **域名:** </br>
-        www.consoleweb.com </br>
-        www.appsweb.com </br>
-        www.apigateway.com </br>
-        www.sso.com </br>
-        www.s3storage.com </br>
-        **服务访问地址:** </br>
-        www.consoleweb.com (控制台前端服务域名); </br>
-        www.appsweb.com (小程序web前端服务域名);  </br>
-        www.apigateway.com (API网关接入服务域名);  </br>
-        www.sso.com (授权认证服务域名); </br>
-        www.s3storage.com (S3对象储存服务域名) </br>
-        ````
-        #控制台初始化， 
-        sh  ha-deploy.sh  init
-        ````
-        ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console10.png)
-        > **说明：**
-        > 1，注释:红框内容是根据客户提供的资源，选项存储对象和redis信息,此处是客户提供redis和存储服务; 是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
-    - 第二种(域名+端口)访问 </br>
-        **域名:** </br>
-        www.rpadomain.com </br>
-        **默认端口:** </br>
-        consolewebport>80 </br>
-        ssoport>81 </br>
-        appswebport>82 </br>
-        apigatewayport>8080 </br>
-        s3storageport> 需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例) </br>
-        **服务访问地址:** </br>
-        www.rpadomain.com (控制台前端服务域名);  </br>
-        www.rpadomain.com:82 (小程序web前端服务域名);  </br>
-        www.rpadomain.com:8080 (API网关接入服务域名); </br>
-        www.rpadomain.com:81 (授权认证服务域名); </br>
-        www.rpadomain.com:$port (S3对象储存服务域名) </br>
-        ````
-        #控制台初始化
-        sh ha-deploy.sh init
-        ````
-        ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console11.png)
-        > **说明：**
-        > 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户提供了Redis，因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
-    - 第三种(IP+端口)访问 </br>
-        **负载均衡IP地址** </br>
-        52.131.87.118 </br>
-        **默认端口**  </br>
-        consolewebport>80   </br>
-        ssoport>81   </br>
-        appswebport>82   </br>
-        apigatewayport>8080   </br>
-        s3storageport> 需要跟客户确认提供的存储服务的端口$port </br>
-        **服务访问地址** </br>
-        52.131.87.118 (控制台前端服务访问地址);  </br>
-        52.131.87.118:82 (小程序web前端服务访问地址);  </br>
-        52.131.87.118.82:8080 (API网关接入服务地址); </br>
-        52.131.87.118:81 (授权认证服务访问地址); </br>
-        52.131.87.118:$prot (S3对象存储服务访问地址。此次以9000端口举例) </br>
-        ````
-        #初始化控制台
-        sh ha-deploy.sh init
-        ````
-        ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console12.png)
-        > **说明：**
-        > 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户没有提供Redis和对象存储，Redis和对象存储使用的私有化安装包自带的。因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主。
+举例如下: </br>
+- 第一种多域名访问 </br>
+**域名:** </br>
+www.consoleweb.com </br>
+www.appsweb.com </br>
+www.apigateway.com </br>
+www.sso.com </br>
+www.s3storage.com </br>
+**服务访问地址:** </br>
+www.consoleweb.com (控制台前端服务域名); </br>
+www.appsweb.com (小程序web前端服务域名);  </br>
+www.apigateway.com (API网关接入服务域名);  </br>
+www.sso.com (授权认证服务域名); </br>
+www.s3storage.com (S3对象储存服务域名) </br>
+````
+#控制台初始化， 
+sh  ha-deploy.sh  init
+````
+![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console10.png)
+> **说明：**
+> 1，注释:红框内容是根据客户提供的资源，选项存储对象和redis信息,此处是客户提供redis和存储服务; 是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
+
+- 第二种(域名+端口)访问 </br>
+**域名:** </br>
+www.rpadomain.com </br>
+**默认端口:** </br>
+consolewebport>80 </br>
+ssoport>81 </br>
+appswebport>82 </br>
+apigatewayport>8080 </br>
+s3storageport> 需要跟客户确认对方提供的存储服务端口$port(此处以9000端口举例) </br>
+**服务访问地址:** </br>
+www.rpadomain.com (控制台前端服务域名);  </br>
+www.rpadomain.com:82 (小程序web前端服务域名);  </br>
+www.rpadomain.com:8080 (API网关接入服务域名); </br>
+www.rpadomain.com:81 (授权认证服务域名); </br>
+www.rpadomain.com:$port (S3对象储存服务域名) </br>
+````
+#控制台初始化
+sh ha-deploy.sh init
+````
+![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console11.png)
+> **说明：**
+> 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户提供了Redis，因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
+
+- 第三种(IP+端口)访问 </br>
+**负载均衡IP地址：** </br>
+52.131.87.118 </br>
+**默认端口：** </br>
+consolewebport>80 </br>
+ssoport>81 </br>
+appswebport>82 </br>
+apigatewayport>8080 </br>
+s3storageport>需要跟客户确认提供的存储服务的端口$port 
+**服务访问地址** 
+52.131.87.118 (控制台前端服务访问地址);  </br>
+52.131.87.118:82 (小程序web前端服务访问地址);  </br>
+52.131.87.118.82:8080 (API网关接入服务地址); </br>
+52.131.87.118:81 (授权认证服务访问地址); </br>
+52.131.87.118:$prot (S3对象存储服务访问地址。此次以9000端口举例)
+
+````
+#初始化控制台
+sh ha-deploy.sh init
+````
+![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console12.png)
+> **说明：**
+> 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户没有提供Redis和对象存储，Redis和对象存储使用的私有化安装包自带的。因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主。
 
 **查看初始化完成后的信息**
 ````
 #在执行初始化当前的目录，查看初始化完成后生成的信息（看下面红框的内容） 
 cat .userconfig
 ````
-IP+端口访问方式：
+- IP+端口访问方式：
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console15.png)
 
-多域名访问方式：
+- 多域名访问方式：
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console16.png)
 
-单域名访问方式：
+- 单域名访问方式：
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console17.png)
-
-
 > **说明：**
 > 1，注释:红框内容就是生成的访问各种服务的URL地址，实际地址以客户提供为准
 
@@ -285,9 +288,7 @@ sh ha-deploy.sh organizationUserCompanyInit
 
 
 ##### Swarm 高可用验证
-
 CentosA 服务器上进行以下操作，执行查看服务状态的命令
-
 ````
 #进入到app目录
 cd  /app
@@ -754,7 +755,7 @@ kubectl delete -f k8s_pvt/yml/base/installeruploader.yml
 kubectl delete -f k8s_pvt/yml/base/organizationusercompanyinit.yml
 ````
 
-**钉钉集成租户修改租户属性**
+**钉钉集成租户修改租户属性** </br>
 当hosts文件中的变量ENABLEDINTRADINGTALK="true"， 执行05.initINTRADINGTALK="true"， 执行05.initservices.yml，会在k8s_pvt/yml/base目录下生成changecompanyproperties.yml文件services.yml，会在k8s_pvt/yml/base目录下生成changecompanyproperties.yml文件
 部署changecompanyproperties.yml文件
 ````
@@ -821,7 +822,7 @@ kubectl get -n encoo-pvt4 pod,service,configmaps,secret,ingress,job
 Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console43.png)
 
-解决方法:
+**解决方法:**
 对象存储配置跨域规则(一般联系客户配置)，例如
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console44.png)
 
@@ -833,7 +834,7 @@ Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has bee
 或者 文件服务->新建文件夹->绑定连接器-新建文件类连接 显示异常
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console46.png)
 
-解决方法:
+**解决方法:**
 删除dataentity服务pod后让其重新生成pod
 kubectl get pod -n 命名空间 | grep dataentity
 kubectl delete pod  -n 命名空间  pod名称kubectl delete pod  -n 命名空间  pod名称
