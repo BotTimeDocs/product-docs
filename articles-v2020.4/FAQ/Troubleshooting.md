@@ -19,7 +19,7 @@
 1| 此应用无法在你的电脑上运行 |编辑器安装|I0001
 2| 未将对象引用设置到对象的实例 |编辑器安装|I0002
 3| 这计算机中已经安装了.NET </br>Framework </br>4.6.1(简体中文)或版本更高的更新 |编辑器安装|I0003
-4| [Installation has failed]</br>There was an error while installing the application.Check</br> the setup log for more information </br>and contact the author |编辑器安装|I0004
+4| [Installation has failed]</br>There was an error while installing</br> the application.Check</br> the setup log for more information </br>and contact the author |编辑器安装|I0004
 5| [Installation has failed]</br> Failed to install</br>the .NET Framework,try installing the</br> latest version manually |编辑器安装|I0005
 6| Value cannot be null.</br>Parameter name:path1|编辑器安装 |I0006
 7| 该许可证不能在当前计算机上注册|编辑器本地激活 |I0007
