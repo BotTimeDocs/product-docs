@@ -108,7 +108,7 @@
 6|原因：拒绝访问|流程执行时|R0003
 7|[Error] 未能转换部分或所有标识引用|流程执行时|R0004
 8|活动"Encooworkflow.Main"的CacheMetadata</br>引发了"System.Xaml.</br>XmalObjectWriterException":</br>无法设置未知成员…… 请确认相关的组件</br>是否包含在nuget目录下|打开流程包|R0005
-9|“HTTPSConnectionPool</br>(host='digpro.ininin.com', port=443): </br>Max retries exceeded with url: </br>/dpsthird/api/v1/production/</br>save_or_update</br> (Caused by NewConnectionError</br>('<urllib3.connection.HTTPSConnection object at 0x000001DAA66E4640>: Failed to establish a new connection:</br> [Errno 11001] getaddrinfo failed'))”|流程执行时|R0006
+9|“HTTPSConnectionPool</br>(host='digpro.ininin.com', port=443): </br>Max retries exceeded with url: </br>/dpsthird/api/v1/production/</br>save_or_update</br> (Caused by NewConnectionError</br>('<urllib3.connection.HTTPSConnection </br>object at 0x000001DAA66E4640>:</br> Failed to establish a new connection:</br> [Errno 11001] getaddrinfo failed'))”|流程执行时|R0006
 10|未能生成XXX视图|打开流程包|I0011
 11|此组件缺失，或无法正常加载|打开流程包|I0012
 12|[错误] 类型XXX的对象无法转换为类型XXX|打开流程包|I0013
