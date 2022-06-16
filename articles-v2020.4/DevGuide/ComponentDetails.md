@@ -34,7 +34,7 @@
 > - 属性由组件本身定义，一个组件包含一个或多个属性
 > - 数据由开发者在对应的组件属性中输入，数据可以是一段字符串、[变量](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Variables/Variables.md?uuid=0bd627d9-3f75-4c38-b9a2-dbc571686b21)或[参数](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/Arguments.md?uuid=2238c728-efc6-455b-9004-2e22b2a82520)
 > - 字符串类型的数据需包含在英文双引号””中
-> - 示例中的[写入单元格]([../Activities/AppAutomation/OfficeExcel/WriteCell.md](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb))组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
+> - 示例中的[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
 > - 对网页中需要自动化的场景需指定页面元素定位并实现自动化，参考[元素详解](./AutomationPrinciples.md)
 
 ## 组件类型
