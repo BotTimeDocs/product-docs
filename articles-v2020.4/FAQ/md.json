@@ -8,10 +8,10 @@
     },
     {
         "id": null,
-        "name": "RobotFAQ.md",
-        "localizedName": "机器人FAQ",
+        "name": "RPAFAQ.md",
+        "localizedName": "RPA常见问题",
         "uuid": "fd8627ac-191d-4da6-8fe2-97028b8ffd39",
-        "labels": "机器人，FAQ"
+        "labels": "RPA，FAQ"
     },
     {
         "id": null,
