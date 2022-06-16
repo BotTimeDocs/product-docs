@@ -122,8 +122,10 @@
 ### 2.1 控制台
 
 #### 【报错异常】 V3版本控制台，机器人激活显示：未知异常。
+</br>
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/解决办法-C0001.png)</br>
 <font color=5a6877>
+
 </br>**【解决办法-C0001】**：控制台版本有点老，Encoo.Robot.Service.exe.config和Robot.exe.config都加一段<add key="ConsoleVersion" value="V3"/>
 然后把robot.exe和服务都重启了，那两个文件在C:\Program Files (x86)\Encoo Robot\app-1.1.2204.10下，服务名称叫encoo robot service。
 </font>
@@ -267,7 +269,9 @@ cmd 执行 “jabswitch.exe -disable”
 </br>
 
 ####【报错异常】无效许可提示|激活机器人
+</br>
 * 机器人激活许可证时候，之前可以正常激活，重新卸载激活机器人报"无效许可提示"
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0001.png)
 
 <font color=5a6877>
@@ -278,7 +282,7 @@ cmd 执行 “jabswitch.exe -disable”
 ---
 </br>
 
-#### 【报错异常】尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏
+#### 【报错异常】尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏 
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0008.png)
 <font color=5a6877>
 
