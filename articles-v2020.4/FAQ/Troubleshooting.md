@@ -1056,7 +1056,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-2.png)
 
 <font color=5a6877>
-</br>**【解决办法-I0012】**：同解决办法解决办法-I0011
+</br>**【解决办法-I0012】**：同解决办法解决办法-I0011 
 
 </font>
 </br></br>
