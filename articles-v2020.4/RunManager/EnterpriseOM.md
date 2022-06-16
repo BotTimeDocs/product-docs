@@ -225,7 +225,7 @@ consolewebport>80 </br>
 ssoport>81 </br>
 appswebport>82 </br>
 apigatewayport>8080 </br>
-s3storageport>需要跟客户确认提供的存储服务的端口$port 
+s3storageport>需要跟客户确认提供的存储服务的端口$port  </br>
 **服务访问地址** 
 52.131.87.118 (控制台前端服务访问地址);  </br>
 52.131.87.118:82 (小程序web前端服务访问地址);  </br>
