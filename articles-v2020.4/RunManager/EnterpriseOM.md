@@ -20,7 +20,7 @@
     > **说明：**
     > 此种部署方案，需要客户额外提供Mysql，Redis以及兼容S3接口的对象存储服务。
 
-    ![控制台配置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console-swarm.png)
+    ![控制台配置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console-swarm1.png)
 
 - k8s部署
     k8s部署方案适用于客户已存在k8s基础平台的场景，集群需具备通过ingress暴露服务的能力。
