@@ -1052,7 +1052,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 
-#### 【报错异常】此组件缺失，或无法正常加载
+#### 【报错异常】此组件缺失，或无法正常加载,怎么处理
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-2.png)
 
 <font color=5a6877>
@@ -1103,7 +1103,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 #### 【报错异常】[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX
 
 <font color=5a6877>
-</br>**【解决办法-I0015】**：同解决办法-I0014
+</br>**【解决办法-I0015】**：同解决办法-I0014 
 
 </font>
 </br></br>
