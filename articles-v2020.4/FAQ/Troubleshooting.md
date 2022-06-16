@@ -14,7 +14,7 @@
 
 #### （1）编辑器/机器人/插件扩展_安装、激活
 
-|序号|错误信息&错误代码|可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1| 此应用无法在你的电脑上运行 |编辑器安装|I0001
 2| 未将对象引用设置到对象的实例 |编辑器安装|I0002
@@ -30,7 +30,7 @@
 
 
 #### (2)Excel/Office自动化
-|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|0x80070057|环境_三方软件冲突、筛选|AC0001
 2|0x80029C4A|环境_加载类型库/DLL|AC0002
@@ -64,7 +64,7 @@
 
 #### (3)元素定位/(界面&手机)自动化
 
-|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|元素不支持通过设置控件的方式点击|点击|AA0001
 2|定位元素超时|点击|AA0002
@@ -80,7 +80,7 @@
 
 #### (4)数据表/数据库自动化
 
-序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|error 0: Authentication to host</br> 'localhost' for user 'root' using method</br> 'caching_sha2_password' failed </br>with message: Reading from </br>the stream has failed|Mysql、连接数据库|AC0030
 2|Loading local data is disabled; </br>this must be enabled on both </br>the client and server sides|Mysql、连接数据库|AC0031
@@ -89,7 +89,7 @@
 
 #### (5)邮件自动化
 
-|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|获取邮件信息失败|获取邮件|AC0034
 2|发送邮件失败。535: Login Fail. </br>Please enter your authorization code to login. |发送邮件|AC0035
@@ -98,7 +98,7 @@
 
 #### (6)其他异常报错(系统组件、远程、流程执行…)
 
-|序号|<div style="width:500px">错误信息&错误代码 |可能关联事件|解决办法(编号)
+|序号| <img width=100/>错误信息&错误代码<img width=100/>|可能关联事件|解决办法(编号)
 |---|---|---|---|
 1|call remote method timeout,method name :</br> invokeRemoteUiObjectAsync |远程桌面断开|AC0038
 2|Data descriptor signature not found|解压缩文件|AC0039
