@@ -90,7 +90,7 @@ cd  /app
 # swarm集群初始化，创建Swarm集群
 docker swarm init
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console03.png)
+![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console53.png)
 
 2. CentosB,CentosC 服务器中执行以下相同操作，执行节点加入Swarm集群的命令
 ````
@@ -99,19 +99,10 @@ cd  /app
 #执行如下命令，加入到Swarm集群中，以下命令取自上一步执行结果的内容
 docker swarm join --token SWMTKN-1-3qe4y4fz7wyhk6rzkbn3sdsx297ck7lrg0lxt3iqsdoh5y4zz1-0bgesujg10h2tpfzn5kxf69yp 172.18.0.16:2377
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console04.png)
+![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console54.png)
 
 
 3. CentosA 服务器上进入以下操作，查看Swarm 集群状态，执行集群节点加入管理集群节点的命令
-````
-#进入到app目录
-cd  /app
-#执行如下命令，加入到Swarm集群中，以下命令取自上一步执行结果的内容
-docker swarm join --token SWMTKN-1-3qe4y4fz7wyhk6rzkbn3sdsx297ck7lrg0lxt3iqsdoh5y4zz1-0bgesujg10h2tpfzn5kxf69yp 172.18.0.16:2377
-````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console05.png)
-
-4. CentosA 服务器上进入以下操作，查看Swarm 集群状态，执行集群节点加入管理集群节点的命令
 ````
 #进入到app目录下面
 cd  /app
@@ -154,15 +145,15 @@ cd  /app
 
 ###### CentosA 服务器上进行以下操作，执行控制台初始化
 
-根据Swarm高可用部署选择的访问负载均衡方式，初始化控制台访问域名部分的填写可以分为以下三种；
+根据Swarm高可用部署选择的访问负载均衡方式，初始化控制台访问域名部分的填写可以分为以下三种: </br>
 访问负载均衡方式的控制台目前有三种：1.多域名；2.域名+端口; 3.IP+端口 
 
 > **说明：**
-> 1，以上三种访问方式，都需要在负载均衡中配置好转发策略
-> 2，控制台前端服务，授权认证服务，对象存储服务，API网关接入服务，小程序web前端服务
-> 3，第一种域名访问方式，需要申请五个域名
-> 4，第二种域名+端口的访问 方式，至少需要申请一个域名
-> 5，实际域名和访问IP以客户提供为准，以下域名和IP都是举例
+> 1，以上三种访问方式，都需要在负载均衡中配置好转发策略;
+> 2，控制台前端服务，授权认证服务，对象存储服务，API网关接入服务，小程序web前端服务;
+> 3，第一种域名访问方式，需要申请五个域名;
+> 4，第二种域名+端口的访问 方式，至少需要申请一个域名;
+> 5，实际域名和访问IP以客户提供为准，以下域名和IP都是举例;
 
 
 
@@ -647,8 +638,8 @@ kubectl apply -f k8s_pvt/yml/encoo-k8spvt-registry.yaml
 kubectl apply -f k8s_pvt/yml/idsrv4-cer.yaml
 ````
 
-验证：
-kubectl get secrets -n 命名空间
+验证： </br>
+kubectl get secrets -n 命名空间 </br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console34.png)
 
 > **说明：**
@@ -668,8 +659,8 @@ kubectl apply -f k8s_pvt/yml/base/migratev4foundationservicedata.yml
 kubectl apply -f k8s_pvt/yml/base/migratev4vicodeservicedata.yml
 ````
 
-验证数据迁移完成(Completed)
-kubectl get pod -n 命名空间
+验证数据迁移完成(Completed) </br>
+kubectl get pod -n 命名空间 </br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console35.png)
 
 
@@ -696,8 +687,8 @@ ansible-playbook playbooks/03.configs.yml
 kubectl apply -f k8s_pvt/yml/configs
 ````
 
-验证
-kubectl get configmaps -n 命名空间
+验证 </br>
+kubectl get configmaps -n 命名空间 </br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console36.png)
 
 > **说明：**
@@ -737,8 +728,10 @@ kubectl apply -f k8s_pvt/yml/base/installeruploader.yml
 kubectl apply -f k8s_pvt/yml/base/organizationusercompanyinit.ym
 ````
 
-验证任务是否完成(Completed)
+验证任务是否完成(Completed) </br>
+````
 kubectl get pod -n 命名空间 | grep -E "organizationusercompanyinit|installeruploader"
+````
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console38.png)
 
 通过 kubectl -n 命名空间  logs organizationusercompanyinit-xxxx 查看初始化公司及其管理员账户执行结果， 如返回200/201或400则初始化成功 
@@ -763,7 +756,7 @@ kubectl delete -f k8s_pvt/yml/base/organizationusercompanyinit.yml
 kubectl apply -f  k8s_pvt/yml/base/changecompanyproperties.yml
 ````
 
-验证任务是否完成(Completed)
+验证任务是否完成(Completed) </br>
 kubectl get pod -n 命名空间 | grep -E "organizationusercompanyinit|installeruploader"
 ````
 kubectl get pod -n ecnoo-pvt4 | grep -E "changecompanyproperties"
@@ -818,29 +811,31 @@ kubectl get -n encoo-pvt4 pod,service,configmaps,secret,ingress,job
 
 1. 上传流程包出错
 
-上传流程包出错，通过F12调试控制台显示跨域错误
-Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource
+上传流程包出错，通过F12调试控制台显示跨域错误</br>
+Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource 
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console43.png)
 
-**解决方法:**
+**解决方法:**</br>
 对象存储配置跨域规则(一般联系客户配置)，例如
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console44.png)
 
 
 
-2. 新建连接管理显示异常
-数据中心->连接管理->新建 显示异常
+2. 新建连接管理显示异常</br>
+数据中心->连接管理->新建 显示异常</br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console45.png)
-或者 文件服务->新建文件夹->绑定连接器-新建文件类连接 显示异常
+或者 文件服务->新建文件夹->绑定连接器-新建文件类连接 显示异常</br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console46.png)
 
-**解决方法:**
-删除dataentity服务pod后让其重新生成pod
+**解决方法:**</br>
+删除dataentity服务pod后让其重新生成pod</br>
+````
 kubectl get pod -n 命名空间 | grep dataentity
 kubectl delete pod  -n 命名空间  pod名称kubectl delete pod  -n 命名空间  pod名称
+````
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console47.png)
 
-验证：
+验证：</br>
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console48.png)
 ![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console49.png)
 
