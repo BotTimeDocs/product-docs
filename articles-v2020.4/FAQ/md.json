@@ -1,10 +1,10 @@
 [
     {
         "id": null,
-        "name": "StudioFAQ.md",
-        "localizedName": "编辑器FAQ",
+        "name": "Troubleshooting.md",
+        "localizedName": "异常报错排查",
         "uuid": "43f0987f-b4c9-4a1d-884b-6f747e0c7d03",
-        "labels": "编辑器，FAQ"
+        "labels": "报错，FAQ"
     },
     {
         "id": null,
