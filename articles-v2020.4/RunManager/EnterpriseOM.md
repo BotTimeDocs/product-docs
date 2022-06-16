@@ -389,8 +389,8 @@ sh ha-deploy.sh organizationUserCompanyInit
 
 ##### 常规需求
 
-###### 部署控制台非root 账号部署方案解决
-创建的appuser普通用户加入docker组
+###### 部署控制台非root 账号部署方案解决 </br>
+创建的appuser普通用户加入docker组 </br>
 操作用户：root
 在CentosA,CentosB,CentosC 三台服务器上执行以下相同的操作，执行非root账户加入docker组的命令
 
@@ -403,7 +403,7 @@ chmod  a+rw  /var/run/ docker.sock
 ````
 
 ###### 服务器文件根目录空间不够用
-docker根目录修改
+docker根目录修改 </br>
 操作用户：root
 在CentosA,CentosaB,CentosC 三台服务器上进行以下相同的操作，执行转移docker根目录的命令
 
@@ -558,7 +558,7 @@ cp -r hosts playbooks roles /etc/ansible
 docker system prune -a -f
 ````
 
-**smtp服务配置**
+**smtp服务配置** </br>
 如果需要发送邮件则需要配置smtp，需要填写smtp相关配置
 ````
 # Smtp配置
@@ -856,10 +856,11 @@ mv k8s_pvt/yml /tmp/pvtbackupxxxx-xx-xx
 /etc/ansible/目录下如果存在k8spvtpvtv4目录，请重命名为k8s_pvt目录v4目录，请重命名为k8s_pvt目录
 > mv /etc/ansible/k8smv /etc/ansible/k8spvtpvtv4  /etc/ansible/k8s_pvtv4  /etc/ansible/k8s_pvt
 
-2. 执行准备工作 执行准备工作
-hosts文件中相关内容如无更改，需沿用之前部署时填写的内容。hosts文件中相关内容如无更改，需沿用之前部署时填写的内容。
+2. 执行准备工作 
+> **说明：**
+> hosts文件中相关内容如无更改，需沿用之前部署时填写的内容。hosts文件中相关内容如无更改，需沿用之前部署时填写的内容。
 
-3. 依次执行部署步骤2.1-2.4，注意数据库迁移必须在部署service服务之前完成 依次执行部署步骤2.1-2.4，注意数据库迁移必须在部署service服务之前完成。
+3. 依次执行部署步骤2.1-2.4，注意数据库迁移必须在部署service服务之前完成。
 > **说明：**
 > 执行2.1的时候k8s_pvt/yml目录下不会生成idsrv4-cer.yml文件，所以也无需部署identityServer秘钥secret文件， 只需部署docker镜像服务器secret文件执行2.1的时候k8s_pvt/yml目录下不会生成idsrv4-cer.yml文件，所以也无需部署identityServer秘钥secret文件， 只需部署docker镜像服务器secret文件
 
@@ -903,6 +904,9 @@ kubectl version
 1. 单机版本控制台自带Mysql和Minio，用户可按需自行备份控制台部署路径下的Data文件夹，此文件夹中包含了单机版控制台所有所有的数据
 2. swarm和k8s部署方案中，控制台服务依赖客户提供的数据库和对象存储集群。
 
+### 存储空间
+私有化服务器的存储空间主要由流程录屏/截图占用。 对于流程运行频繁且存在大量录屏/截图/日志，建议在控制台【RPA策略配置】中配置相关清理策略。 并考虑只上传流程错误情况下的录屏。
+
 ### 如何做数据迁移
 对于控制台版本升级造成的数据迁移需求，私有化安装包内自带了相关的数据迁移工具。单机版为自动执行，swarm和k8s部署方案文档内均有相关操步骤。
 
@@ -915,9 +919,9 @@ kubectl version
 
 
 ## 企业私有市场
-1. 什么是私有市场
+1. 什么是私有市场 </br>
 控制台（私有化部署和SAAS）的每一个租户默认自带有一个私有市场，无需客户自己安装。它和云扩公有市场类似，提供相同的服务，但其中的内容和工件属于客户私有。
-2. 价值
+2. 价值 </br>
 减少用户使用私有市场路径，无需自己再配置
 
 3. 私有市场包含：组件、流程和元素市场，没有代码市场
