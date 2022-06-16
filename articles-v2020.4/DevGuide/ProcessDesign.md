@@ -52,7 +52,7 @@
 
 ### 输入
 
-通常我们用参数或者配置文件作为流程的输入方式（参数与变量的区别可参考https://c9vrjkv7og.feishu.cn/docs/doccntnNmyPy6dAdgHuQDiarand)，如果流程开发完成之后由业务人员来操作，那么这两种方式都很容易让业务人员学习与接受，即学习成本很低。
+通常我们用参数或者配置文件作为流程的输入方式，如果流程开发完成之后由业务人员来操作，那么这两种方式都很容易让业务人员学习与接受，即学习成本很低。
 
 - 用参数作为输入方式，流程运行时会弹出对话框让业务人员输入对应的值，如下图所示：
     ![processdesignguideimg8](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide8.jpg)
@@ -220,11 +220,12 @@
 
 由于邮件发送服务器或者接收方有可能不稳定，建议放入重试组件中，可以多重试几次，降低失败率。
 
-![processdesignguideimg24]https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide24.jpg)
+![processdesignguideimg24](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide24.jpg)
 
 #### 钉钉/企业微信
 
 **安装消息推送组件**
+
 通过组件市场搜索【消息推送】并进行安装
 
 ![processdesignguideimg25](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide25.jpg)

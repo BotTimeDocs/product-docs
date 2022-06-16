@@ -34,7 +34,7 @@
 > - 属性由组件本身定义，一个组件包含一个或多个属性
 > - 数据由开发者在对应的组件属性中输入，数据可以是一段字符串、[变量](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Variables/Variables.md?uuid=0bd627d9-3f75-4c38-b9a2-dbc571686b21)或[参数](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/Arguments.md?uuid=2238c728-efc6-455b-9004-2e22b2a82520)
 > - 字符串类型的数据需包含在英文双引号””中
-> - 示例中的[写入单元格]([../Activities/AppAutomation/OfficeExcel/WriteCell.md](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb))组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
+> - 示例中的[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
 > - 对网页中需要自动化的场景需指定页面元素定位并实现自动化，参考[元素详解](./AutomationPrinciples.md)
 
 ## 组件类型
@@ -62,7 +62,7 @@
 
 - **浏览器**：实现对浏览器的基本操作，例如：在百度页面输入关键字查询，需要先使用[打开浏览器](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Browser/OpenBrowser.md?uuid=5a4db7ca-d742-4081-9a83-52cb54eeb6bf)组件把百度页面打开，再把[输入文本](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/TypeInto.md?uuid=6f8ef618-c9ba-4c03-afc9-1f397282c4e7)组件拖入到其内部，对搜索框定位和填写关键字。
 
-- **表格/Excel/WPS**：实现对常用办公软件 Office Excel 和 WPS自动化操作，例如：使用[打开/新建]](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件自动创建新文件或打开已有文件，使用[写入区域](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteRange.md?uuid=967a43d8-af97-482b-ac04-610fe81511f2)或[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)等组件向Excel文件填写数据，还可以使用[插入公式](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/InsertFormula.md?uuid=124a7b04-9abf-4ae2-a220-4285be345d57)组件对数据处理等。其他对Excel/WPS的一些常用操作都可以在此目录找到相应组件。
+- **表格/Excel/WPS**：实现对常用办公软件 Office Excel 和 WPS自动化操作，例如：使用[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件自动创建新文件或打开已有文件，使用[写入区域](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteRange.md?uuid=967a43d8-af97-482b-ac04-610fe81511f2)或[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)等组件向Excel文件填写数据，还可以使用[插入公式](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/InsertFormula.md?uuid=124a7b04-9abf-4ae2-a220-4285be345d57)组件对数据处理等。其他对Excel/WPS的一些常用操作都可以在此目录找到相应组件。
 
 - **邮件**：实现对常用邮箱服务Outlook、Exchange以及IMAP、POP3、SMTP协议的操作，例如：使用[发送邮件(Outlook)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendOutlookMail.md?uuid=e9578822-8a59-4f6d-bf84-c62718f5b6b3)或[发送邮件(SMTP)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendMailSMTP.md?uuid=e1aa7ef2-ec9a-4eda-ac77-4a45a70119f6)组件对指定人发送邮件，使用[获取邮件(Outlook)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/GetOutlookMail.md?uuid=f678a928-bc21-41a1-8ea5-822f799cabd8)或[获取邮件(POP3)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/GetMailPOP3.md?uuid=31d6e188-260a-4371-869f-d78f8a3f4417)获取收件人邮箱中的邮件。
 
