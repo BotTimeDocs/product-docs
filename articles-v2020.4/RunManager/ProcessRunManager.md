@@ -3,9 +3,9 @@
 ## 控制台流程调度
 控制台可以灵活实现对自动化流程的调度、管理，支持各种策略可以实现大规模流程调度，集群式机器人协同。理解控制台对自动化流程的调度主要有三个概念组成： 1. 触发器；2.自动化流程；3. 执行资源。
 
-* 触发器-触发器即使自动化流程运行的触发条件，控制台支持人工方式触发执行、定时任务触发执行、监听数据队列消息触发;
-* 自动化流程-流程包;
-* 执行资源-自动化流程的运行环境，主要有机器人、机器人组；
+* 触发器：即使自动化流程运行的触发条件，控制台支持人工方式触发执行、定时任务触发执行、监听数据队列消息触发;
+* 自动化流程：即流程包;
+* 执行资源：即自动化流程的运行环境，主要有机器人、机器人组；
 
 </br>
 
@@ -42,10 +42,10 @@
 
 ![按天](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-11.png)
 
-* 按月：
-   - 可以设置每间隔x月，在当月的第xx天的第xx小时xx分执行调度一次；
-   - 可以设置每间隔x月，在当月的倒数第xx天的第xx小时xx分执行调度一次；
-   - 可以设置每间隔x月，在当月的第x个周x执行调度一次；
+* 按月：</br>
+   1，可以设置每间隔x月，在当月的第xx天的第xx小时xx分执行调度一次；</br>
+   2，可以设置每间隔x月，在当月的倒数第xx天的第xx小时xx分执行调度一次；</br>
+   3，可以设置每间隔x月，在当月的第x个周x执行调度一次；</br>
 
 ![按月](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-12.png)
 
@@ -75,19 +75,17 @@
 
 **指定到多个机器人**
 </br>
-创建流程部署，可以指定到多个机器人来执行，调度时候，可以根据指定的机器人列表寻找一个可用机器人来执行自动化流程；
+创建流程部署，可以指定到多个机器人来执行，调度时候，可以根据指定的机器人列表寻找一个可用机器人来执行自动化流程；</br>
 </br>指定多个机器人执行，当执行资源被占用时，可灵活设置以下调度策略：
 
 1. 等待可用资源ready后，执行；
 2. 放弃本次调度
 
-**指定到机器人组**
-</br>
-创建流程部署，可以指定到一个机器人组，调度时候，可以根据指定的机器人组中寻找一个可用机器人来执行自动化流程；
-</br>指定一个机器人组，当所有执行资源被占用时，可灵活设置以下调度策略：
-
-3. 等待可用资源ready后，执行；
-4. 放弃本次调度
+**指定到机器人组**</br>
+创建流程部署，可以指定到一个机器人组，调度时候，可以根据指定的机器人组中寻找一个可用机器人来执行自动化流程；</br>
+指定一个机器人组，当所有执行资源被占用时，可灵活设置以下调度策略：</br>
+1. 等待可用资源ready后，执行；
+2. 放弃本次调度
 
 
 
@@ -95,11 +93,11 @@
 运行权限可以分为以下三类
 * 以管理员执行：即执行时会使用管理员权限
 * 以非管理员执行：即执行时不使用管理员权限
-* 与编辑器启动权限一致
-    - 如果是控制台下发的流程，默认是非管理员（即选择更安全的方式）
-    - 如果是在机器人上执行，则取决于Robot.exe进程的权限，通常的以管理员权限执行的
+* 与编辑器启动权限一致</br>
+    1，如果是控制台下发的流程，默认是非管理员（即选择更安全的方式）</br>
+    2，如果是在机器人上执行，则取决于Robot.exe进程的权限，通常的以管理员权限执行的</br>
 
-流程执行权限，取决于编辑器中对于流程包的设置，编辑器中设置项目的运行权限位置在，项目名右键->项目设置->常规->运行权限
+流程执行权限，取决于编辑器中对于流程包的设置，编辑器中设置项目的运行权限位置在，项目名右键->项目设置->常规->运行权限</br>
 
 ![项目设置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-15.png)
 
@@ -128,21 +126,20 @@
 
 在进入计算机详情页后，有三个选项卡，能够分别从不同的维度来查看该计算机当前的情况
 
-* 基本信息：包含以下计算机信息
-   - 硬件规格（CPU型号、内存容量、硬盘容量）
-   - 软件状态（操作系统、系统运行时长、内存使用量、硬盘使用量）
-
+* 基本信息：包含以下计算机信息</br>
+   1，硬件规格（CPU型号、内存容量、硬盘容量）</br>
+   2，软件状态（操作系统、系统运行时长、内存使用量、硬盘使用量）</br>
 ![计算机基本信息](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-18.png)
 
 * 机器人：当前部门下已连接到当前控制台的机器人列表
 
 ![计算机基本信息](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-19.png)
 
-* 实时监控：当前计算机的实时信息图表，包含以下内容
-   - CPU使用率
-   - 内存使用率
-   - 磁盘读写
-   - 网络传输
+* 实时监控：当前计算机的实时信息图表，包含以下内容：</br>
+   1，CPU使用率</br>
+   2，内存使用率</br>
+   3，磁盘读写</br>
+   4，网络传输</br>
 
 ![计算机基本信息](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-20.png)
 
@@ -151,13 +148,12 @@
 同时，用户亦可在”许可证管理“下移除应用，进而收回一个许可。
 </br>
 
+关于总体监控，详见[总体监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard.md?_v=v2020.4) </br>
 
-关于总体监控，详见[总体监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard.md?_v=v2020.4)
+关于机器人监控，详见[机器人监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/RobotDashboard.md?_v=v2020.4) </br>
 
-关于机器人监控，详见[机器人监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/RobotDashboard.md?_v=v2020.4)
+关于机器人组监控，详见[机器人组监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/QueueDashboard.md?_v=v2020.4) </br>
 
-关于机器人组监控，详见[机器人组监控产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/QueueDashboard.md?_v=v2020.4)
+关于机器人运行统计表，详见[机器人运行统计表产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard2.md?_v=v2020.4) </br>
 
-关于机器人运行统计表，详见[机器人运行统计表产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard2.md?_v=v2020.4)
-
-关于用户流程统计表，详见[用户流程统计表产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard3.md?_v=v2020.4)
+关于用户流程统计表，详见[用户流程统计表产品说明](https://academy.encoo.com/zh-cn/wiki/Console/dashboard/dashboard3.md?_v=v2020.4) </br>
