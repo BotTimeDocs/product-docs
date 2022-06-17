@@ -8,7 +8,7 @@
 
 > **说明：**
 >
-> - 使用此组件之前请确保手机安装了 “云扩手机验证码监听器.apk” 应用，并授予相关短信权限，可参见 [安装 App 应用](../../Studio/process/developProject/MobileDevicesManage/AutomationConfiguration.md)。
+> - 使用此组件之前请确保手机安装了 “云扩手机验证码监听器.apk” 应用，并授予相关短信权限，可参见 [安装 App 应用](../../../Studio/process/developProject/MobileDevicesManage/AutomationConfiguration.md)。
 > - 目前仅支持 Andriod 手机。
 
 ## 属性
@@ -37,7 +37,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](./../MobileConnect.md)
 
 **此流程执行逻辑**：接收到手机中发送的手机验证码信息。
 
@@ -67,4 +67,4 @@
 
 2. **Q：获取手机验证码只能通过组件的方式吗？**
 
-   **A：** 不是，目前有四种方式。具体可参见[安卓手机获取短信验证码](../../BestPractices/GetAndroidSMSCode.md)。
+   **A：** 不是，目前有四种方式。具体可参见[安卓手机获取短信验证码](../../../BestPractices/GetAndroidSMSCode.md)。

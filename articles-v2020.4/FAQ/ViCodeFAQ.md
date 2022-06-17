@@ -1,1 +1,0 @@
-# ViCode FAQ

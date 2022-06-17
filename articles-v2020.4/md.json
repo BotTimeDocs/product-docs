@@ -1,78 +1,68 @@
 [
     {
+        "id": null,
         "name": "Index.md",
         "localizedName": "概览",
-        "uuid": "dd2b79a8-5dc9-46ff-b2f6-06da49a4db0f",
-        "labels": "产品介绍"
+        "uuid": "27aa12b3-1fb1-42a8-85ce-3bb2729ff06c",
+        "labels": "概览"
     },
     {
+        "id": null,
         "name": "ReleaseNotes.md",
-        "localizedName": "最新发版说明",
-        "uuid": "4d3fd93f-a9a1-41e5-abad-63aad543c919",
-        "labels": "发版"
+        "localizedName": "近期更新",
+        "uuid": "2e59c438-a50e-4e01-b5b8-c9b72eaa6886",
+        "labels": "发版说明"
     },
     {
-        "name": "ReleaseNotes",
-        "localizedName": "历史发版说明"
+        "name": "DevGuide",
+        "localizedName": "RPA开发指南"
     },
     {
+        "id": null,
         "name": "Studio",
-        "localizedName": "云扩RPA编辑器"
+        "localizedName": "云扩编辑器"
     },
     {
         "id": null,
         "name": "Activities",
-        "localizedName": "云扩组件库"
+        "localizedName": "组件库"
     },
     {
-        "id": null,
-        "name": "Robot",
-        "localizedName": "云扩RPA机器人"
+        "name": "RunManager",
+        "localizedName": "RPA运行与管理"
     },
     {
-        "id": null,
-        "name": "Console",
-        "localizedName": "云扩RPA控制台"
-    },
-    {
-        "id": null,
-        "name": "AIHub",
-        "localizedName": "云扩AIHub智能应用中心"
-    },
-    {
-        "id": null,
-        "name": "DocReader",
-        "localizedName": "云扩DocReader文档理解"
-    },
-    {
-        "id": null,
-        "name": "Apps",
-        "localizedName": "云扩ViCode云码"
-    },
-    {
-        "id": null,
-        "name": "Spark",
-        "localizedName": "云扩Spark"
-    },
-    {
-        "id": null,
         "name": "BestPractices",
-        "localizedName": "专题文档"
+        "localizedName": "特殊场景指南"
     },
     {
-        "name": "FAQ",
-        "localizedName": "常见问题",
-        "uuid": "896f04dd-fd5d-4c2f-ab08-3e6e848477fa",
-        "labels": "常见问题，FAQ"
+        "name": "COE",
+        "localizedName": "COE"
     },
     {
-        "name": "Glossary.md",
-        "localizedName": "术语解释",
-        "uuid": "713e94b4-4a6e-4364-a38e-f028790123bd",
-        "labels": "术语，名词"
+        "name": "Reference",
+        "localizedName": "产品参考"
     },
     {
         "id": null,
+        "name": "Troubleshooting.md",
+        "localizedName": "错误速查",
+        "uuid": "43f0987f-b4c9-4a1d-884b-6f747e0c7d03",
+        "labels": "报错，FAQ"
+    },
+    {
+        "id": null,
+        "name": "RPAFAQ.md",
+        "localizedName": "常见问题排查集锦",
+        "uuid": "fd8627ac-191d-4da6-8fe2-97028b8ffd39",
+        "labels": "RPA，FAQ"
+    },
+    {
+        "id": null,
+        "name": "ReleaseNotes",
+        "localizedName": "历史发版说明"
+    },
+    {
         "name": "Legal",
         "localizedName": "法律申明"
     }

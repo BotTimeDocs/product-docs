@@ -4,7 +4,28 @@
 
 > **提示：**
 >
-> 关于社区版与企业版的差异说明，请参见 [常见问题](./FAQ/QA.md)。
+> 关于社区版与企业版的差异说明，请参见 [RPA常见问题](./RPAFAQ.md)。
+
+
+## 2022.05.27 发版说明
+
+2022.05.27 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 控制台   |V 4.1.76096|
+
+
+### 【控制台】
+
+1. [流程编排](./Console/rpa-center/flowSequence/aboutFlowSequence.md)，可自动执行多个流程部署，支持顺序调整和定时开始
+2. SaaS控制台社区版开放vicode V2版
+3. [流程状态](./Console/rpa-center/job/manageJob.md)优化，同时状态文案处增加tooltip效果，以及仪表盘状态统计同步
+4. [流程包管理](./Console/rpa-center/packages/aboutPackages.md)，主列表新增下载入口，默认下载最新版本
+5. [机器人管理](./Console/rpa-center/robot/manageRobot.md)，创建机器人时，关闭弹框，老用户可在详情页面获取连接字符串
+6. [定时任务](./Console/rpa-center/workflow/trigger.md)，Cron表达式限制不低于10分钟
+7. 数据队列，支持批量删除
+8. 任务队列，交互优化，插入不合法的消息时，提示用户
 
 
 ## 2022.05.27 发版说明
@@ -59,10 +80,10 @@
 
 ### 【控制台】
 
-1. [定时任务](./Console/rpa-center/workflow/trigger.md)，支持时区、指定一个时间、动态提示
+1. [定时任务](./Reference/Console/rpa-center/workflow/trigger.md)，支持时区、指定一个时间、动态提示
 2. 审计日志，支持“操作模块”过滤
 3. 文件服务，支持列表排序和分页
-4. [流程包](./Console/rpa-center/packages/aboutPackages.md)，支持批量上传，最大 2G 的文件
+4. [流程包](./Reference/Console/rpa-center/packages/aboutPackages.md)，支持批量上传，最大 2G 的文件
 
 ## 2022.02.25 发版说明
 
@@ -111,7 +132,7 @@
 2. 注册社区版控制台时，“公司”字段支持重名
 3. 支持在流程包的“版本信息”选项页中，查看当前流程是否以管理员运行
 4. 支持单击“机器人管理”列表中的“计算机”，查看该计算机的基本信息
-5. "RPA 中心 > 设备管理" 菜单改名为“RPA 中心 > [计算机管理](./Console/rpa-center/device-management/device-management.md)”
+5. "RPA 中心 > 设备管理" 菜单改名为“RPA 中心 > [计算机管理](./Reference/Console/rpa-center/device-management/device-management.md)”
 
 #### 【ViCode】
 

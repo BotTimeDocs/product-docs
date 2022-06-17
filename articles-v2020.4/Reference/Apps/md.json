@@ -1,0 +1,26 @@
+[
+    {
+        "id": null,
+        "name": "README.md",
+        "localizedName": "关于云扩 ViCode 云码",
+        "uuid": "b0209e2f-1e0a-46cb-8903-60719654430e",
+        "labels": "关于, 云码，ViCode"
+    },
+    {
+        "id": null,
+        "name": "run-environment.md",
+        "localizedName": "硬件和软件要求",
+        "uuid": "dc3cf784-2328-4edb-b35f-aefa015a5f50",
+        "labels": "软件要求，硬件要求，ViCode"
+    },
+    {
+        "id": null,
+        "name": "devApps",
+        "localizedName": "应用管理"
+    },
+    {
+        "id": null,
+        "name": "userApps.md",
+        "localizedName": "我的应用"
+    }
+]
