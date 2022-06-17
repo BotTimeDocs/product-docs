@@ -39,7 +39,7 @@
 
 ## 组件类型
 
-在[云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://academy.encoo.com/zh-cn/wiki/Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到[内部组件库](https://academy.encoo.com/zh-cn/wiki/Studio/market/Market.md?uuid=f1777edd-af4e-4308-94d0-2493bc479ff4)。
+在[云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://academy.encoo.com/zh-cn/wiki/Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到团队市场。
 
 - 内置组件：由云扩开发团队提供并内置在编辑器[组件库](https://academy.encoo.com/zh-cn/wiki/Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中，直接拖拽至流程设计面板即可使用。
 - 市场组件：由开发者提供的公开组件库，从[组件市场下载](https://academy.encoo.com/zh-cn/wiki/Studio/market/activityMarket.md?uuid=7d9c6072-145b-4cb0-b27b-46184368b390)后即可使用。
