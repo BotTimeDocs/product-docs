@@ -36,6 +36,7 @@ XPath是一种强大、复杂的查询语言； XPath与编辑器中内置的选
 
 #### 如何直接从网页获取XPath
 XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开浏览器开发者模式->右键点击需要生成XPath的元素代码->选择Copy->Copy XPath->将复制过来的XPath粘贴到编辑器中使用即可：
+</br>
 ![获取xpath](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana09.png)
 
 #### XPath的语法
@@ -183,6 +184,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 **1.准备**
 
 在[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5) 组件中开启宏功能：
+</br>
 ![E2](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E2.png)
 </br>
 打开Excel，在Excel选项-信任中心， 开启宏权限：
