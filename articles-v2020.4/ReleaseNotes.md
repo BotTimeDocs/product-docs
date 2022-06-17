@@ -27,27 +27,6 @@
 7. 数据队列，支持批量删除
 8. 任务队列，交互优化，插入不合法的消息时，提示用户
 
-
-## 2022.05.27 发版说明
-
-2022.05.27 发布了云扩 RPA , 本次发布的产品及版本号为：
-
-|         | 版本号      |
-| -----:  | -----:     |
-| 控制台   |V 4.1.76096|
-
-
-### 【控制台】
-
-1. [流程编排](./Console/rpa-center/flowSequence/aboutFlowSequence.md)，可自动执行多个流程部署，支持顺序调整和定时开始
-2. SaaS控制台社区版开放vicode V2版
-3. [流程状态](./Console/rpa-center/job/manageJob.md)优化，同时状态文案处增加tooltip效果，以及仪表盘状态统计同步
-4. [流程包管理](./Console/rpa-center/packages/aboutPackages.md)，主列表新增下载入口，默认下载最新版本
-5. [机器人管理](./Console/rpa-center/robot/manageRobot.md)，创建机器人时，关闭弹框，老用户可在详情页面获取连接字符串
-6. [定时任务](./Console/rpa-center/workflow/trigger.md)，Cron表达式限制不低于10分钟
-7. 数据队列，支持批量删除
-8. 任务队列，交互优化，插入不合法的消息时，提示用户
-
 ## 2022.04.10 发版说明
 
 2022.04.10 发布了云扩 RPA , 本次发布的产品及版本号为：
