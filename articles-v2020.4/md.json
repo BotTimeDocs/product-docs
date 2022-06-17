@@ -40,24 +40,20 @@
         "localizedName": "COE"
     },
     {
-        "name": "FAQ",
-        "localizedName": "常见问题"
-    },
-    {
         "name": "Reference",
         "localizedName": "产品参考"
     },
     {
         "id": null,
         "name": "Troubleshooting.md",
-        "localizedName": "异常报错排查",
+        "localizedName": "错误速查",
         "uuid": "43f0987f-b4c9-4a1d-884b-6f747e0c7d03",
         "labels": "报错，FAQ"
     },
     {
         "id": null,
         "name": "RPAFAQ.md",
-        "localizedName": "RPA常见问题",
+        "localizedName": "常见问题排查集锦",
         "uuid": "fd8627ac-191d-4da6-8fe2-97028b8ffd39",
         "labels": "RPA，FAQ"
     },
