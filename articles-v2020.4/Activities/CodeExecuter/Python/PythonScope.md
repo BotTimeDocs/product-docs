@@ -30,4 +30,4 @@
 
 ## 使用示例
 
-一般与**执行Python代码**组件搭配使用，操作样例可参见[执行Python代码](./PythonExcuteFile.md)。
+一般与**执行Python代码**组件搭配使用，操作样例可参见[执行Python代码](../../CodeExecuter/Python/PythonExcuteFile.md)。
