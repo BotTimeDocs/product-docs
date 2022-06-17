@@ -6,32 +6,46 @@
 
 ![job](https://docimages.blob.core.chinacloudapi.cn/images/HAP/viewtaskrecord20211208.png)
 
-+ **任务（job）**：被任务计划或手动执行方式创建出来需要完成的流程任务。
-  
-  任务状态说明如下：
+### 状态说明
+*详见名词解释*：[任务job与执行实例runinstance](./../../../Glossary.md)
+**任务（job）状态**：
 
-  - 等待：任务在队列中排队，机器人当前正 **忙碌** 或 **无响应**，等待分配机器人执行该任务
-  - 已分配：已经分配机器人执行该任务 (创建出 runinstance)
-  - 运行中： 机器人正在执行该任务
-  - 成功：任务执行成功
-  - 失败：任务执行失败
-  - 取消：该任务被取消
+- 等待：若任务没有可用的机器人资源，则任务状态处于”等待中“；
+- 运行中：
+         情况1：若任务有可用的机器人资源，且正在执行流程，则任务状态处于“运行中”；
+         情况2：若任务还有重试机会(如执行次序2或3)，但是此时机器人被占用，正在等待机器人时，则任务状态处于”运行中“；
+- 已暂停：若用户在控制台或机器人端对”运行中“的任务操作”暂停“，则任务状态处于“已暂停”；
+- 已取消： 
+         一次流程任务的最终状态。
+         情况1:用户在控制台端或机器人端，对”运行中/等待中/已暂停“的任务操作“取消”后，则任务状态处于“已取消”；
+         情况2:根据设置的冲突处理策略，当机器人忙碌时，系统自动取消后续下发到此机器人的任务，则任务状态处于“已取消”；
+- 成功：
+          一次流程任务的最终状态。
+          一次任务，可能包含多次重试执行（如执行次序1、2、3），任务的最终状态基于最后一次重试执行结果。
+- 失败：
+         一次流程任务的最终状态。
+         一次任务，可能包含多次重试执行（如执行次序1、2、3），任务的最终状态基于最后一次重试执行结果。
+    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-job-status.png)
 
-+ **执行实例（runinstance）**：流程任务会创建出具体的执行执行实例以完成任务，一个任务有可能创建多个执行实例。例如，一个任务被创建出来之后会生成具体的执行实例去完成该任务，若第一次执行失败之后且配置了失败重试机制，任务会自动再创建出一个执行实例进行失败重试。
 
-  执行实例状态说明如下：
+**执行实例（runinstance）状态**：
 
-  - 创建：runinstance 已经创建出来
-  - 运行: 该 runinstance 正在运行
-  - 失败：该 runinstance 运行失败
-  - 成功：该 runinstance 运行成功
-  - 取消：该 runinstance 被取消
+- 运行中：若任务有可用的机器人资源，且正在执行流程，则任务状态处于“运行中”；
+- 已暂停：若用户在控制台或机器人端对”运行中“的任务操作”暂停“，则任务状态处于“已暂停”；
+- 已取消：
+         一次流程任务的执行结果，如执行次序1。
+         情况1:用户在控制台端或机器人端，对”运行中/等待中/已暂停“的任务操作“取消”后，则任务状态处于“已取消”；
+         情况2:根据设置的冲突处理策略，当机器人忙碌时，系统自动取消后续下发到此机器人的任务，则任务状态处于“已取消”； 
+- 成功：机器人的一次流程任务执行结果为”成功“，如执行次序1；
+- 失败：机器人的一次流程任务执行结果为“失败”，如执行次序1；
+    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-runinstance-status.png)
+
 
 ### 查看任务下的执行实例
 
 单击某一任务下的“展开”图标，可展开对应的执行实例列表，默认展示 3 条，如果超过 3 条，点击“展开更多”按钮可以展开全部。主要包括具体的执行机器人、开始时间、结束时间、状态等。
 
-![查看任务下的执行实例](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3joblist2.png)
+![查看任务下的执行实例](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-info1.png)
 
 ### 查看实例的日志详情
 
@@ -39,7 +53,7 @@
 
 1. 在任务列表页面中点击任务下某一具体执行实例的“日志”按钮即可查看任务在该机器人上执行的具体日志。
 
-    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow18.png)
+    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-excute-history-info2.png)
 
 2. 也可在“任务详情”页面中点击“查看日志”按钮查看任务在该机器人上执行的具体日志。
 
@@ -47,17 +61,17 @@
     >
     > 日志主要包含日志时间、日志类型、日志级别、日志内容、日志截图等内容。可以在左上角的“日志切换”中快速切换该任务在其他机器人上的执行日志。
 
-    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/viewlog20210413.png)
+    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-info2.png)
 
 ## 查看任务记录详情
 
-单击某一任务后的“查看”按钮即可查看该任务的执行详情，任务详情主要包括执行基本信息、参数信息等内容。
-
-  ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/V3workflow17.png)
-
+单击某一job任务后的“查看”按钮即可查看该任务的执行详情，任务详情主要包括执行基本信息、参数信息等内容。
+![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528history-info3.png)
 ## 调整任务优先级
 
-调度队列中的任务将会按照任务优先级进行执行（0-5000）, 优先级越高则任务将会被优先执行。若您希望某一任务可以插队执行，则点击该任务的“调整优先级”按钮以调整优先级。
+对于”等待种“的任务，支持调整任务优先级。
+调度队列中的任务将会按照任务优先级进行执行（0-5000）, 优先级越高则任务将会被优先执行。
+若您希望某一任务可以插队执行，则点击该任务的“调整优先级”按钮以调整优先级。
 
   ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/job/V3editpriority1.png)
 

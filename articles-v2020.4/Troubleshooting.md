@@ -877,9 +877,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 #### 【报错异常】error 0: Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Reading from the stream has failed.
 
 <font color=5a6877>
-
-</br>
-**【解决办法-AC0030】**：
+</br>**【解决办法-AC0030】**：C0030
 
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0030.jpg)
 

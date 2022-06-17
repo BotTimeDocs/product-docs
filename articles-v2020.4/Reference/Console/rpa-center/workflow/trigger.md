@@ -1,6 +1,7 @@
 # 管理定时任务
 
-**定时任务**，用户通过配置定时计划、时区等，让业务流程按照既定的时间策略调度运行。
+## 定时任务
+用户通过配置定时计划、时区等，让业务流程按照既定的时间策略调度运行。
 
 ## 查看定时任务列表
 
@@ -46,47 +47,49 @@
         >
         > 按分钟，限制间隔需大于等于 10 分钟。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerMin.jpg)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMin.png)
 
         - **按小时**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerHour.jpg)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerHour.png)
 
         - **按天**：以开始时间的天为基准，并按照计划时间，循环触发任务执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerDay.png)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerDay.png)
 
         - **按周**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerWeek.png)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerWeek.png)
 
-        - **按月**：以开始时间的月为基准，并按照计划时间，循环触发任务执行。支持“在当前月的正数第几天的几时几分”、“在当前月的倒数第几天的几时几分”、“在当前月的第几个星期几的几时几分”。
+        - **按月**：以开始时间的月为基准，并按照计划时间，循环触发任务执行。
+        支持“在当前月的正数第几天的几时几分”、“在当前月的倒数第几天的几时几分”、“在当前月的第几个星期几的几时几分”。
 
-        在当前月的正数第几天的几时几分:
+            *在当前月的正数第几天的几时几分*:
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerMonth1.jpg)
+            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth1.png)
 
-        在当前月的倒数第几天的几时几分:
+            *在当前月的倒数第几天的几时几分*:
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerMonth2.png)
+            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth2.png)
 
-        在当前月的第几个星期几的几时几分:
+            *在当前月的第几个星期几的几时几分*:
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerMonth3.png)
+            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth3.png)
 
         - **指定一个时间**：任务将在指定时间执行一次。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerOneTime.jpg)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerOneTime.png)
 
         - **按表达式**：根据 cron 表达式执行。
 
-            > **说明：**
-            >
-            > 对于按照 cron 表达式执行定时计划任务，若了解 cron 表达式可自行根据规则编写，或通过云扩提供的 cron 表达式生成网站进行生成。
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerCron.png)
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerCron.png)
+        > **说明：**
+        >
+        > 1，cron表达式，限制间隔需大于等于 10 分钟。
+        > 2，对于按照 cron 表达式执行定时计划任务，若了解 cron 表达式可自行根据规则编写，或通过云扩提供的 cron 表达式生成网站进行生成。
 
-        - **高级**
+    - **高级**
 
         定时任务的其他配置参数，机器人运行时的策略点，如时区等。
 
@@ -96,7 +99,7 @@
         >
         > 时区，一般用于跨国公司场景，如 IT 运维在美国总部工作，可以设置中国子公司的业务流程按照时区 [(UTC+08: 00) 北京，重庆，香港特别行政区，乌鲁木齐] 执行，也可以设置日本子公司的业务流程照时区 [(UTC+09: 00) 大阪，札幌，东京] 执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerUTC.png)
+        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerUTC.png)
 
 2. 单击“下一步”，进行执行目标及参数确认
 
@@ -119,7 +122,7 @@
 
 点击某一定时任务的“查看”按钮，即可查看对应的定时任务详情。点击“编辑”按钮后即可开始对定时任务进行编辑，完成后点击“保存”按钮即可。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerEdit.png)
+![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528Trigger-view.png)
 
 ## 查看定时任务的操作日志
 
