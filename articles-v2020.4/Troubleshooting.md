@@ -261,7 +261,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 </br>**【解决办法-E0001】**
 - 有网络情况 —— 登录编辑器之后再按照 
-- 无网络离线情况 —— 参考手动安装扩展，具体参考链接:(待补充)
+- 无网络离线情况 —— 参考手动安装扩展，具体参考链接:(https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
 
 </font></br></br>
 ---
@@ -724,8 +724,8 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 <font color=5a6877>
 </br>**【解决办法-AA0002】**：定位元素超时可能存在一下几个原因，请注意排查确认
-1. 选择器是否能验证到对应的元素？不会请先学习了解选择器：[入门006-选择器进阶课程](待补充)
-2. 如果以上都没问题，可能是网络加载慢问题，请加长匹配超时的时间，具体参考点击组件使用说明文档：[点击组件](待补充)
+1. 选择器是否能验证到对应的元素？不会请先学习了解选择器
+2. 如果以上都没问题，可能是网络加载慢问题，请加长匹配超时的时间。
 3. 是否安装了对应的浏览器插件或其它扩展插件并启用？（安装过程关掉杀毒软件）
 
 </font>
@@ -736,7 +736,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 #### 【报错异常】打开浏览器失败。the operation has timed out
 
 <font color=5a6877>
-</br>**【解决办法-AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](待补充)
+</br>**【解决办法-AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
 (若排除以上情况之后，可具体查看下方“打开浏览器失败”的异常排错思路办法)
 
 </font>
@@ -1084,7 +1084,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 - 可能1、是市场组件，说明当前流程运行的编辑器或机器人上缺少这个组件，那就去云扩市场上下载一下
 - 可能2、是内置编辑器组件：而且编辑器运行没问题，上传控制台，然后机器人执行就出错，说明这个地方是高版本流程在低版本机器人上运行导致的，需要升级一下机器人
 【解决思路】：
-可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](待补充）
+可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](https://academy.bottime.com/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080）
 可能2、去升级机器人版本至对应的新版本 然后清空下%userprofile%\.nuget\packages再安装
 </font>
 </br></br>
