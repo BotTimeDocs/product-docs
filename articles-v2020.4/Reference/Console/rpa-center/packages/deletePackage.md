@@ -8,7 +8,7 @@
 
 进入流程包管理页面，找到要删除的流程包，点击删除，二次确认后即可删除流程包。
 
-![package](https://docimages.blob.core.chinacloudapi.cn/images/Console/packages/V3package1.png)
+![package](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528package-delete2.png)
 
 删除流程包需满足流程包内所有版本均为”未使用”状态。
 
@@ -18,8 +18,8 @@
 点击查看，弹出流程包版本详情页面。
 找到要删除的版本，点击删除，即可删除。
 
-![package](https://docimages.blob.core.chinacloudapi.cn/images/Console/packages/V3package2.png)
+![package](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528package-delete.png)
 
 >**说明：**
 >
->仅当前版本为“未使用”状态时，才可删除。
+>仅版本未被引用时，才可删除。
