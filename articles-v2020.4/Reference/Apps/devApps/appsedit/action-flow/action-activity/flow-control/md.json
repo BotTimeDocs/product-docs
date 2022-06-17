@@ -58,17 +58,17 @@
     },
     {
         "id": null,
-        "name": "continue.md",
-        "localizedName": "继续循环",
-        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
-        "labels": "继续循环，ViCode"
-    },
-    {
-        "id": null,
         "name": "loop.md",
         "localizedName": "无限循环",
         "uuid": "3bf0ca74-286f-44d2-866f-c7e514c57e07",
         "labels": "无限循环，ViCode"
+    },
+    {
+        "id": null,
+        "name": "continue.md",
+        "localizedName": "继续循环",
+        "uuid": "58143d51-88ed-4c84-b49b-4973e1f78b3a",
+        "labels": "继续循环，ViCode"
     },
     {
         "id": null,
@@ -93,17 +93,17 @@
     },
     {
         "id": null,
-        "name": "exception.md",
-        "localizedName": "抛出错误",
-        "uuid": "2a9cf9d0-9bd5-4e48-9689-5264b3a09eef",
-        "labels": "抛出错误，ViCode"
-    },
-    {
-        "id": null,
         "name": "finally.md",
         "localizedName": "最终执行",
         "uuid": "71b40a3c-70c7-43e7-937c-4423f85780db",
         "labels": "最终执行，ViCode"
+    },
+    {
+        "id": null,
+        "name": "exception.md",
+        "localizedName": "抛出错误",
+        "uuid": "2a9cf9d0-9bd5-4e48-9689-5264b3a09eef",
+        "labels": "抛出错误，ViCode"
     },
     {
         "id": null,

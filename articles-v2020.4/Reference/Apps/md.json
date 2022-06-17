@@ -20,14 +20,7 @@
     },
     {
         "id": null,
-        "name": "userApps",
+        "name": "userApps.md",
         "localizedName": "我的应用"
-    },
-    {
-        "id": null,
-        "name": "v3.0.x",
-        "localizedName": "V3版本",
-        "uuid": "",
-        "labels": ""
     }
 ]

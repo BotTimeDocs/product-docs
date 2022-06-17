@@ -2,21 +2,21 @@
     {
         "id": null,
         "name": "devApps.md",
-        "localizedName": "应用开发模式",
+        "localizedName": "应用编辑器概述",
         "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8",
         "labels": "应用开发"
     },
     {
         "id": null,
         "name": "BasicOperation.md",
-        "localizedName": "基本操作",
+        "localizedName": "应用基本操作",
         "uuid": "cdf3e9e9-d2ce-412c-b7bf-f0e9a8e9fc65",
         "labels": "基本操作"
     },
     {
         "id": null,
-        "name": "PageSetting.md",
-        "localizedName": "大纲页面",
+        "name": "page",
+        "localizedName": "页面",
         "uuid": "bc4a3f42-d2ab-4610-ba97-1c22d3bb2a0a",
         "labels": "配置, 资源，页面"
     },
@@ -30,7 +30,14 @@
     {
         "id": null,
         "name": "datamodel",
-        "localizedName": "数据模型",
+        "localizedName": "数据源",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "id": null,
+        "name": "rolepermissions.md",
+        "localizedName": "角色权限",
         "uuid": "",
         "labels": ""
     },
@@ -40,18 +47,5 @@
         "localizedName": "变量管理",
         "uuid": "1106d4e9-8436-424c-b93c-e74530ff8ef7",
         "labels": "变量，全局变量"
-    },
-    {
-        "id": null,
-        "name": "BasicSetting.md",
-        "localizedName": "设置页面",
-        "uuid": "bc8c11ba-57f5-4504-ad99-ec8242180e73",
-        "labels": "设置, 基本, 应用"
-    },
-    {
-        "id": null,
-        "name": "component",
-        "localizedName": "组件",
-        "uuid": ""
     }
 ]

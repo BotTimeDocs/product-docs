@@ -36,12 +36,6 @@
         "labels": ""
     },
     {
-        "name": "TroubleShoot",
-        "localizedName": "故障排查指南",
-        "uuid": "",
-        "labels": ""
-    },
-    {
         "name": "RDP.md",
         "localizedName": "Windows远程桌面专题(企业版)",
         "uuid": "",
