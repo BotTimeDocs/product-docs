@@ -43,29 +43,30 @@
 
 
 ## Java自动化
-同本地Java自动化一样，远程桌面自动化Java应用前也需要安装扩展，步骤如下：</br> 
+同本地Java自动化一样，远程桌面自动化Java应用前也需要安装扩展，步骤如下：
+</br></br> 
 
 1. 找到 RemoteRuntime 安装目录下的 Java 扩展安装程序(EncooJavaExtensionInstaller.exe)，路径为："C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\EncooJavaExtensionInstaller.exe"
 </br></br>
  ![Java扩展](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm008.png)
-</br></br>
+</br>
 
 2. 以**管理员权限**打开命令行，执行命令：
-</br></br>
+</br>
 `cd C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\`
-</br></br>
+</br>
 切换到安装程序所在目录</br></br>
  ![cmd-Java](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm009.png)
-</br></br>
+</br>
 
 3. 执行以下命令执行安装：
 </br> 
 `EncooJavaExtensionInstaller.exe -install -a`
 </br></br>
  ![JavaDone](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0010.png)
-</br></br>
+</br>
 完成安装后即可自动化Java应用程序。
-</br></br>
+</br>
 
 >远程桌面安装新的Java应用后需要重新安装Java扩展
 
@@ -76,12 +77,12 @@
 1. 找到 Remote Runtime 安装目录下的 Web 扩展安装程序(Encoo.Web.ExtensionInstall.exe)，路径为：
 </br>
 `C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Web\Encoo.Web.ExtensionInstall.exe`
-</br></br>
+</br>
 
 2. 打开命令行，执行如下命令以切换到安装程序所在目录：
 </br>
 `cd C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Web\`
-</br></br>
+</br>
 
 3. 根据需要安装的浏览器扩展，执行下方命令执行安装：
 </br>
