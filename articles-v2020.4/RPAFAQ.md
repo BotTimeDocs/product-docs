@@ -6,7 +6,7 @@
 ### FAQ：安装编辑器或机器人的硬件和软件要求是什么？
 
 <font color=5a6877> 【解决方法A1_00001】
-在安装编辑器或机器人之前，建议您先查看[硬件和软件要求](待补充)。为了避免安装失败，建议安装时：
+在安装编辑器或机器人之前，建议您先查看[硬件和软件要求](https://academy.bottime.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)。为了避免安装失败，建议安装时：
 * 关闭杀毒软件
 * 使用管理员权限安装
 
