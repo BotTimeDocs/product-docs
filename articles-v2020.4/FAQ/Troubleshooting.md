@@ -123,7 +123,10 @@
 
 #### 【报错异常】 V3版本控制台，机器人激活显示：未知异常。
 </br>
-![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/解决办法-C0001.png)</br>
+
+![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/解决办法-C0001.png)
+
+</br>
 <font color=5a6877>
 
 </br>**【解决办法-C0001】**：控制台版本有点老，Encoo.Robot.Service.exe.config和Robot.exe.config都加一段<add key="ConsoleVersion" value="V3"/>
@@ -136,11 +139,14 @@
 </br>
 
 #### 【报错异常】 使用控制台账号激活机器人时报错“机器人未授权，请在控制台绑定许可后重新连接”</br>
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/C0002.png)</br>
 
 <font color=5a6877>
 </br>**【解决办法-C0002】**：确认该连接字符串是否为控制台“机器人管理”中创建的机器人对应的“机器人连接字符串”。</br>
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/C0002-2.png)
+
 </font>
 
 </br></br>
@@ -148,6 +154,7 @@
 </br>
 
 #### 【报错异常】使用控制台账号激活机器人时，报错“服务器内部异常”
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/C0003.png)
 
 <font color=5a6877>
@@ -163,11 +170,13 @@
 ### 2.2 编辑器/机器人/插件扩展_安装、激活
 
 ####【报错异常】此应用无法在你的电脑上运行
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-1.png)
 
 <font color=5a6877>
 </br>**【解决办法-I0001】**
 * Step1、确认一下【计算机配置】—【Windows设置】—【安全设置】—【本地策略】—【安全选项】 已经启用了用户账户控制：以管理员批准模式运行所有管理员…… 
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-3.png)
 
 </br>
@@ -196,6 +205,7 @@
 
 
 ####【报错异常】这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0003.png)
 
 <font color=5a6877>
@@ -245,6 +255,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 </br>
 
 ####【报错异常】Java扩展安装失败!
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/E0001.png)
 
 <font color=5a6877>
@@ -283,7 +294,9 @@ cmd 执行 “jabswitch.exe -disable”
 </br>
 
 #### 【报错异常】尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏 
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0008.png)
+
 <font color=5a6877>
 
 【原因分析】
@@ -320,9 +333,13 @@ cmd 执行 “jabswitch.exe -disable”
 
 <font color=5a6877>
 </br>**【解决办法-AC0018-1】**：如下 
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-1.png)
+
 </br>**【解决办法-AC0018-2】**：从[官方下载](https://support.microsoft.com/zh-cn/office/%E4%BB%8E-pc-%E5%8D%B8%E8%BD%BD-office-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)Office完全卸载工具
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-2.png)
+
 </br>**【解决办法-AC0018-3】**：使用Office Tool工具卸载，链接：[Office Tool Plus 官方网站](https://otp.landian.vip/zh-cn/)
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-3.png)
 </font></br></br>
@@ -342,6 +359,7 @@ cmd 执行 “jabswitch.exe -disable”
 
 <font color=5a6877>
 </br>**【解决办法-AC0004】**：除用工具彻底卸载wps或Office外,如果下图所示注册表,也整个删除
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0004.png)
 
 
@@ -363,7 +381,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 在其子项中，删除与当前Excel版本不一致的选项即可。
 注意：删除注册表选项前，请先备份删除的选项。
 如下图所示：
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0003.png)
+
 </font></br></br>
 ---
 </br>
@@ -380,12 +400,14 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>【解决办法】：解决方式如下，即用修复工具修复一下 ，WPS用对应WPS的配置工具，WPS修复示意图：</br>
 
 ![-w300](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS-修复.png)![-w300](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS修复-1.png)
+
 </br></br>
 * Office 365 如何修复？
 
 </br>【解决办法】：解决方式如下，即用修复工具修复一下 ，Office 365用自带修复方案 </br>
 
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365修复-1.png)
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365-2.png)
 
 </font></br></br>
@@ -401,6 +423,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>**【解决办法-AC0019】**：
 * 可能是wps安装的问题，你可以试下打开新建组件，切换运行环境为无依赖。
 </br>
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0019-2.png)
 
 </br>
@@ -415,7 +438,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】WPS“打开/新建”-打开.xlsm文件报错，[错误]文件扩展名不正确
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0020.png)
+
 <font color=5a6877>
 【原因分析】：
 ● .xlsm格式是只支持在excel里面打开，wps不支持
@@ -477,6 +502,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 【原因分析】：如果许多 COM+ 应用程序在 This User 属性中指定的不同用户帐户下运行，则计算机无法分配内存以创建新用户的新桌面堆。 因此，进程无法启动。
 
 <font color=5a6877>
+
 </br>**【解决办法-AC0010】**：具体解决办法,详见链接：[启动多个 COM+ 应用程序时出错：错误代码80080005 -- 服务器执行失败](https://docs.microsoft.com/zh-cn/troubleshoot/windows-server/application-management/error-8008005-when-start-complus-applications)
 
 </font></br></br>
@@ -498,7 +524,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 ### 2.3 Excel-读取写入
 
 #### 【报错异常】excel 超出当前范围。 (异常来自 HRESULT:0x8002000A (DISP_E_OVERFLOW))，excel 某些单元格格式有问题，读取就会有异常
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0013.png)
+
 <font color=5a6877>
 </br>**【解决办法-AC0013】**：定位不到错误行的情况下，可以全选把单元格格式都设为文本
 
@@ -542,7 +570,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】工作表筛选_筛选出错，[错误]类Range的AutoFilter方法无效
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0023.png)
+
 <font color=5a6877>
 </br>**【解决办法-AC0023】**：报错与组件的全局筛选冲突  解决办法:在excel里先取消筛选
 
@@ -635,7 +665,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】新建文件/文件夹失败，详细错误信息：不支持给定路径的格式。
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0027.png)
+
 <font color=5a6877>
 </br>**【解决办法-AC0027】**：
 系统-文件下的组件，如果出现报错"不支持给定路径的格式"时，一般是传入的路径的字符串开头存在一个不可见的字符，可以通过string.TrimStart(string[0])的方式来移除掉
@@ -713,7 +745,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】所请求的剪贴板操作失败。
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0004.png)
+
 </br>【原因分析】：剪贴板调用和实时的运行环境有关，实现上是和命令行一致的。当剪贴板被占用，或者内存不足时就会失败。
 
 <font color=5a6877>
@@ -750,9 +784,11 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 #### 【报错异常】云扩录制器奔溃了
 
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0007.jpg)
+
 <font color=5a6877>
 【原因分析】：环境权限问题导致，偶发异常
 </br>**【解决办法-AA0007】**：管理员权限执行
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0007-1.png)
 
 </font>
@@ -802,7 +838,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】手机自动化，Poco Service服务启动异常
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0011.png)
+
 <font color=5a6877>
 </br>**【解决办法-AA0011】**：如果用过旧版本的服务端?在“设置”--“应用”里面找到pocoservice的两个软件、Yosemite、Applistmanager软件都卸载删除，重启服务端，再重新连接，其中pocoservice有两个应用，在设置-应用中找到都删载掉。
 
@@ -813,13 +851,17 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】手机自动化，请确保移动设备管理器已打开，已有设备连接
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0012.png)
 <font color=5a6877>
 </br>**【解决办法-AA0012】**：
 1. 确认编辑器菜单栏中”工具 > 移动设备管理器“ 是否已打开。
 2. 如果已打开仍未解决，重启移动端服务管理器。
 
-* 移动端服务包无法打开：Failed to execute script EncooAndroidAutomation![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0012-1.png)
+* 移动端服务包无法打开：Failed to execute script EncooAndroidAutomation
+
+![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0012-1.png)
+
 1. 确认该服务包的版本是否最新，如果非最新，需要重新下载最新版本的服务包。
 2. 确认该计算机网络是否正常，如果没有网络则无法获取到网络地址无法打开该应用。
 
@@ -854,6 +896,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】无法加载DLL“db2app.dll”：找不到指定的模块（异常来自HRESULT：0x8007007E）
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0032-1.png)
 
 <font color=5a6877>
@@ -895,7 +938,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】发送邮件失败。535: Login Fail. Please enter your authorization code to login.
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0035.png)
+
 <font color=5a6877>
 【原因分析】：
 - 可能1：账密填写错误，注意此处的密码不是填写登入密码，而是授权码，详见链接：[QQ邮箱授权码如何获取？](https://jingyan.baidu.com/article/ac6a9a5eb439f36b653eacc0.html)
@@ -922,7 +967,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】[错误]Outlook的COM端口被占用，请检查是否有插件占用改端口或者关闭Outlook客户端。
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0037.png)
+
 <font color=5a6877>
 </br>**【解决办法-AC0037】**：Outlook的配置信息截个图，提示端口被占用（环境问题）客户关闭客户端重启就好）。
 
@@ -935,7 +982,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 ### 2.7 其他异常报错(系统组件、远程、流程执行…)
 
 #### 【报错异常】call remote method timeout,method name : invokeRemoteUiObjectAsync
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038-1.png)
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038-2.png)
 
 <font color=5a6877>
@@ -957,10 +1006,14 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】请检查是否已安装机器人并处于正常运行状态
+
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0009.jpg)
+
 <font color=5a6877>
+
 【原因分析】：机器人服务未开启
 </br>**【解决办法-I0009】**：在任务管理器中，将机器人的服务开启，具体操作图示如下
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0009-1.png)
 
 
@@ -982,7 +1035,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】未检测到服务，可能被其他软件卸载
+
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0002.png)
+
 <font color=5a6877>
 </br>**【解决办法-R0002】**：关闭杀毒软件重装一下
 
@@ -992,18 +1047,24 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】机器人执行时报错，错误：无法终止进程……原因：拒绝访问
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0003.png)
+
 <font color=5a6877>
 【原因分析】：类似拒绝访问的，大多是部署流程的时候 权限配置问题 。
 </br>**【解决办法-R0003】**：除了以管理员权限运行机器人外，还需要在执行流程的时候，勾选“以管理员权限执行”。
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0003-1.png)
+
 </font>
 </br></br>
 ---
 </br>
 
 #### 【报错异常】[Error] 未能转换部分或所有标识引用
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0004.png)
+
 <font color=5a6877>
 【原因分析】：
 确认当前登录的windows用户是不是新建出来的 或登录激活的别的windows用户
@@ -1041,6 +1102,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 </br>
 
 #### 【报错异常】未能生成XXX视图
+
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-1.png)
 
 <font color=5a6877>
@@ -1058,6 +1120,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】此组件缺失，或无法正常加载
+
 ![](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-2.png)
 
 <font color=5a6877>
@@ -1084,6 +1147,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】[错误] Method not found…
+
 ![-w500](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0014-1.png)
 
 
@@ -1117,7 +1181,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 
 #### 【报错异常】活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"
+
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0016.png)
+
 <font color=5a6877>
 </br>**【解决办法-I0016】**：导入的流程在导出时需要选择包含对应的依赖项
 
