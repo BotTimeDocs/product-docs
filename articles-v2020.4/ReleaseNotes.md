@@ -18,12 +18,12 @@
 
 ### 【控制台】
 
-1. [流程编排](./Console/rpa-center/flowSequence/aboutFlowSequence.md)，可自动执行多个流程部署，支持顺序调整和定时开始
+1. [流程编排](./Reference/Console/rpa-center/flowSequence/aboutFlowSequence.md)，可自动执行多个流程部署，支持顺序调整和定时开始
 2. SaaS控制台社区版开放vicode V2版
-3. [流程状态](./Console/rpa-center/job/manageJob.md)优化，同时状态文案处增加tooltip效果，以及仪表盘状态统计同步
-4. [流程包管理](./Console/rpa-center/packages/aboutPackages.md)，主列表新增下载入口，默认下载最新版本
-5. [机器人管理](./Console/rpa-center/robot/manageRobot.md)，创建机器人时，关闭弹框，老用户可在详情页面获取连接字符串
-6. [定时任务](./Console/rpa-center/workflow/trigger.md)，Cron表达式限制不低于10分钟
+3. [流程状态](./Reference/Console/rpa-center/job/manageJob.md)优化，同时状态文案处增加tooltip效果，以及仪表盘状态统计同步
+4. [流程包管理](./Reference/Console/rpa-center/packages/aboutPackages.md)，主列表新增下载入口，默认下载最新版本
+5. [机器人管理](./Reference/Console/rpa-center/robot/manageRobot.md)，创建机器人时，关闭弹框，老用户可在详情页面获取连接字符串
+6. [定时任务](./Reference/Console/rpa-center/workflow/trigger.md)，Cron表达式限制不低于10分钟
 7. 数据队列，支持批量删除
 8. 任务队列，交互优化，插入不合法的消息时，提示用户
 
