@@ -24,9 +24,9 @@
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputPasswordDialogActivity",
         "name": "InputPasswordDialogActivity.md",
-        "localizedName": "输入密码",
+        "localizedName": "密码输入框",
         "uuid": "dba40cce-0e8d-4f42-a871-5e23050e2730",
-        "labels": "输入, 密码"
+        "labels": "输入框, 密码"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.InputDialogActivity",

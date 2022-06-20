@@ -9,8 +9,8 @@
     {
         "id": "Encootech.AutomationActivity.WindowActivity.AttachRemoteWindow",
         "name": "attachremotewindow.md",
-        "localizedName": "绑定远程窗口",
+        "localizedName": "绑定远程桌面",
         "uuid": "47aa43ac-2e1f-4f5b-8304-40b661699788",
-        "labels": "绑定远程窗口, 窗口"
+        "labels": "绑定远程桌面, 窗口，远程窗口"
     }
 ]

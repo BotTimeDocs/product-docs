@@ -167,10 +167,10 @@
 3. 软件自动化 > Office Excel > [重命名工作表](./../Activities/AppAutomation/OfficeExcel/rename-worksheet.md)，用于修改 Excel 的指定工作表名称。
 4. 软件自动化 > Office Excel > [清除格式](./../Activities/AppAutomation/OfficeExcel/clear-format.md)，用于清除 Excel 单元格或区域中的内容格式。
 5. 控制台 > [设置资产](./../Activities/Console/set-assets.md)，用于设置控制台中的资产的值。
-6. 控制台 > 数据队列 > [获取消息](./../Activities/Console/data-queue/get-message.md)，用于获取控制台中的数据队列中的消息。
-7. 控制台 > 数据队列 > [写入消息](./../Activities/Console/data-queue/add-message.md)，用于写入消息至控制台中的指定的数据队列中。
-8. 控制台 > 数据队列 > [处理消息](./../Activities/Console/data-queue/handle-message.md)，用于对指定的数据队列中的消息进行处理。
-9. 控制台 > 数据队列 > [移除消息](./../Activities/Console/data-queue/remove-message.md)，将指定的数据队列中的消息移除。
+6. 控制台 > 数据队列 > [从数据队列获取消息](./../Activities/Console/data-queue/get-message.md)，用于获取控制台中的数据队列中的消息。
+7. 控制台 > 数据队列 > [写入消息至数据队列](./../Activities/Console/data-queue/add-message.md)，用于写入消息至控制台中的指定的数据队列中。
+8. 控制台 > 数据队列 > [处理数据队列消息](./../Activities/Console/data-queue/handle-message.md)，用于对指定的数据队列中的消息进行处理。
+9. 控制台 > 数据队列 > [从数据队列移除消息](./../Activities/Console/data-queue/remove-message.md)，将指定的数据队列中的消息移除。
 10. 代码工具 > 字典 > [打印字典](./../Activities/CodeExecuter/Dictionary/print-dictionary.md)，将字典内容以键值对的方式输出至“输出面板”。
 11. 代码工具 > 字典 > [获取值](./../Activities/CodeExecuter/Dictionary/get-dictionary-value.md)，用于获取字典中 key 对应的 value 的值。
 12. 计算机视觉 > [指定 CV 窗口](./../Activities/ComputerVision/assign-cv-window.md)，用于对指定的窗口执行分析并为所有后续计算机视觉组件提供范围。

@@ -128,16 +128,16 @@
     {
         "id": "Encootech.AutomationActivity.SelectItemActivity",
         "name": "SelectItem.md",
-        "localizedName": "选择项目",
+        "localizedName": "选择单选下拉框",
         "uuid": "089bcf7f-b628-4421-980d-b52b3b9bf17f",
-        "labels": "选择, 项目"
+        "labels": "选择, 单选下拉框"
     },
     {
         "id": "Encootech.AutomationActivity.SelectMultipleItemActivity",
         "name": "SelectMultipleItems.md",
-        "localizedName": "选择多个项目",
+        "localizedName": "选择多选下拉框",
         "uuid": "06e49c23-671a-418c-b468-9f469961e3e3",
-        "labels": "选择, 项目, 多个"
+        "labels": "选择, 多选下拉框"
     },
     {
         "id": "Encootech.AutomationActivity.ScreenshotActivity",
