@@ -31,20 +31,16 @@ UIA/UIA3利用了微软的的UI Automation技术，相比MSAA暴露更多的控�
 >注意：UIA和UIA3是不兼容的，也就是说，不能在同一流程里同时使用这两种录制技术。
 
 Web自动化采用注入javascript的方式，在浏览器对应网页的内部注入对应的JavaScript可执行脚本，通过JavaScript脚本对web元素的控制，从而实现自动化。
-
-![自动化工具]( https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png)
+![自动化工具](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png)
 
 
 Web自动化依赖云扩开发的 Web Extension 作为通讯媒介，从而实现控制对应的JavaScript脚本到指定Web页面。 所以要使用Web自动化，除IE外其他浏览器均需要提前安装对应的Web Extension扩展。
-
 ![现行架构](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/现行web自动化架构-Yolanda.png)
 
 JAB 以官方的Java Access Bridge为基础，对其部署方式做了增强。以及对AWT组件和自定义组件的可访问性做了一定的扩充。支持录制Java应用，如EAS，NC等，使用前需要安装Java扩展。
-
 ![java运行时](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/java运行时-Yolanda.png)
 
 SAP面向SAP Logon客户端，基于sap gui scripting技术。通过对已有接口的封装，SAP录制技术向用户提供更灵活丰富的录制执行功能，使用前，需进行一系列配置已启用SAP的脚本执行功能。
-
 ![SAP](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/SAP脚本执行功能-Yolanda.png)
 
 [如何配置SAP](SAP：https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/SAP/SAP%20Configuration.md?_v=v2020.1&uuid=087d07a5-2a4d-5d5b-9622-53fefb2f74e7)
