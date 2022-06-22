@@ -1,11 +1,5 @@
 [
     {
-        "name": "README.md",
-        "localizedName": "机器人概述",
-        "uuid": "6c5611b8-8a57-412b-8fd5-79b7f8d26e4c",
-        "labels": "机器人，概述"
-    },
-    {
         "name": "aboutRobot.md",
         "localizedName": "关于云扩RPA机器人",
         "uuid": "2d7394e2-3be3-4661-8c12-1af740746e34",
