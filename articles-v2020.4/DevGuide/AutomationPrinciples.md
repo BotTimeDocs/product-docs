@@ -1,5 +1,5 @@
 
-# <font color=036cd6>指南一《自动化原理》</font>
+# 指南一《自动化原理》
 
 <br> 
 
@@ -11,7 +11,7 @@
 > 重点请在后续实际RPA流程项目开发过程中熟悉与掌握。
 <br> <br> 
 
-## <font color=036cd6>1.1 什么是自动化， 为什么要自动化？
+## 1.1 什么是自动化， 为什么要自动化？
 
 RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用程序去模拟人操作计算机的过程。在没有人为介入的情况下，自动地完成一系列软件操作。其核心是对目标控件的查找定位。
 
@@ -29,7 +29,7 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
 
 因此，我们需要通过控件查找的方式去定位要操作的界面元素，以便实时地获取到它的准确信息并进行交互。
 
-## <font color=036cd6>1.2 自动化的底层原理</font>
+## 1.2 自动化的底层原理
 
 目前云扩RPA支持的自动化技术有UIA/UIA3，IA，Java，浏览器（IE，Chrome等）。对于一些企业常用的软件，我们还有专门为此定制优化的自动化技术，比如SAP等大型企业办公软件。
 
@@ -46,6 +46,7 @@ UIA/UIA3利用了微软的的UI Automation技术，相比MSAA暴露更多的控�
 >注意：UIA和UIA3是不兼容的，也就是说，不能在同一流程里同时使用这两种录制技术。
 
 Web自动化采用注入javascript的方式，在浏览器对应网页的内部注入对应的JavaScript可执行脚本，通过JavaScript脚本对web元素的控制，从而实现自动化。
+
 ![自动化工具](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png)
 
 
@@ -53,9 +54,13 @@ Web自动化依赖云扩开发的 Web Extension 作为通讯媒介，从而实�
 ![现行架构](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/现行web自动化架构-Yolanda.png)
 
 JAB 以官方的Java Access Bridge为基础，对其部署方式做了增强。以及对AWT组件和自定义组件的可访问性做了一定的扩充。支持录制Java应用，如EAS，NC等，使用前需要安装Java扩展。
+
 ![java运行时](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/java运行时-Yolanda.png)
 
+
+
 SAP面向SAP Logon客户端，基于sap gui scripting技术。通过对已有接口的封装，SAP录制技术向用户提供更灵活丰富的录制执行功能，使用前，需进行一系列配置已启用SAP的脚本执行功能。
+
 ![SAP](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/SAP脚本执行功能-Yolanda.png)
 
 [如何配置SAP](SAP：https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/SAP/SAP%20Configuration.md?_v=v2020.1&uuid=087d07a5-2a4d-5d5b-9622-53fefb2f74e7)
@@ -132,7 +137,7 @@ Accuracy指明相似度最低为多少时，认为两张图片是相同的。 �
 
 录制web元素时，如果默认的选择器格式无法满足需求，或者使用者更熟悉**XPath**，那么也可以用XPath来定位web元素。只需要打开选择器编辑器界面，在设置里勾选上“生成XPath”选项，下一次录制便会使用XPath格式来定位元素。
 
-关于XPATH的更详细介绍可参考：[高级开发技巧](https://dev-academy.bottime.com/zh-cn/wiki/DevGuide/AdvancedDevelopment.md)
+关于XPATH的更详细介绍可参考：[高级开发技巧](https://academy.encoo.com/wiki/DevGuide/AdvancedDevelopment.md)
 
 ## 执行元素动作
 
@@ -166,26 +171,61 @@ Accuracy指明相似度最低为多少时，认为两张图片是相同的。 �
 
 云扩RPA提供的自动化驱动以插件的形式安装到我们的终端电脑上，目前支持的驱动有：
 
-1. WEB
-   - Chrome扩展-------录制chrome浏览器的必要插件
-   - Firefox扩展 --------录制firefox浏览器的必要插件
-   -  Microsoft Edge扩展 ---录制edge浏览器的必要插件
-   - 360安全浏览器扩展---录制360安全浏览器的必要插件
-2. 远程自动化（除了插件，还有配套的远程运行时需要在远程安装）
-   - Citrix --------通过citrix连接到远程机器上时，在本地机器上录制远程机器界面的必要插件
-   - Windows远程桌面(RDP)----通过RDP连接到远程机器上时，在本地机器上录制远程机器界面的必要插件
-3. 数据库
-   - IBM DB2扩展--------操纵IBM DB2数据库的必要插件
-4. 桌面自动化
-   - Java扩展 -------录制java应用的必要插件
+1、 **WEB**
+
+
+扩展名称|对应用途
+---|---|
+&nbsp; Chrome扩展|&nbsp; <br>录制hrome浏览器，必须插件<br>&nbsp; |
+&nbsp;  Firefox扩展|&nbsp; <br>录制Firefox浏览器，必须插件 <br>&nbsp;|
+&nbsp; Microsoft Edge扩展| <br> &nbsp;录制dge浏览器，必须插件 <br>&nbsp;
+&nbsp;  360安全浏览器扩展|&nbsp; <br>录制360安全浏览器，必须插件<br>&nbsp; |
+```
+备注：若您试用IE浏览器进行WEB自动化，此处不需要安装对应的插件
+``` 
+   
+<br>
+   
+  
+2、 **远程自动化**
+
+ 扩展名称|对应用途
+---|---|
+&nbsp; Citrix&nbsp; |<br><br>通过citrix连接到远程机器上时，<br><br>通过本地机器录制远程机器界面的必要插件 <br><br>
+&nbsp; Windows远程桌面(RDP)&nbsp; |<br><br>通过RDP连接到远程机器上时，<br><br>通过本地机器录制远程机器界面的必要插件<br><br>
+```
+备注：除了插件外，另需安装配套上方插件的exe程序，安装在远程的虚拟机或服务器上，需要请联系官方社区技术支持获取
+``` 
+<br>
+
+3、数据库
+
+扩展名称|对应用途
+---|---|
+&nbsp; IBM DB2扩展&nbsp; |&nbsp; <br>操纵IBM DB2数据库的必要插件<br>&nbsp; 
+
+<br>
+
+4、桌面自动化
+
+&nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+---|---|
+&nbsp; Java扩展&nbsp; |&nbsp; <br>录制java应用的必要插件<br>&nbsp; 
+   
+<br>
+
 5. 系统
-   - Windows屏幕解锁扩展-----流程自动执行屏幕解锁的必要插件 
 
+扩展名称|对应用途
+---|---|
+Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插件<br>&nbsp;
 
->为什么有的录制技术要安装驱动，有的却不用？
+```
+补充：为什么有的录制技术要安装驱动，有的却不用？
 
->目前UIA、UIA3、IA、SAP录制不需要驱动，其他都需要。这是因为它们所依赖的运行库在Windows里已经自带了，而且跟是否安装了特定应用无关。
->然而像web，java录制这些，它们需要在特定应用或系统目录配置额外的文件或服务，做成插件的形式可以让用户按需选择，减少捆绑安装。
+● 目前UIA、UIA3、IA、SAP录制不需要驱动，其他都需要。这是因为它们所依赖的运行库在Windows里已经自带了，而且跟是否安装了特定应用无关。
+● 然而像web，java录制这些，它们需要在特定应用或系统目录配置额外的文件或服务，做成插件的形式可以让用户按需选择，减少捆绑安装。
+ ```
 
 ## 自动化环境
 
