@@ -303,7 +303,7 @@
     {
         "id": "BotTime.Office.Activity.OfficeExcelResetPasswordActivity",
         "name": "OfficeExcelResetPassword.md",
-        "localizedName": "重置密码",
+        "localizedName": "设置或重置密码",
         "uuid": "6bec567e-3ce5-473f-958d-8021bc0788a4",
         "labels": "密码, Excel"
     },

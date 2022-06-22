@@ -53,7 +53,7 @@
 
 优先级设置？
  
->更多关于流程调度的细节， 请参见：[流程运行管理](https://dev-academy.bottime.com/zh-cn/wiki/RunManager/ProcessRunManager.md)
+>更多关于流程调度的细节， 请参见：[流程运行管理](./ProcessRunManager.md)
 
 ## 流程运行监控和报警
 流程运行时，一方面控制台可实时监控流程日志，另一方面机器人所在的计算机情况，控制台也会实时监控，并根据预警策略发出邮件警报。 
@@ -69,7 +69,7 @@
 - 监控机器人所在计算机性能
 ![consoleintroduction7](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction7.jpg)
 
->更多运行监控细节， 请参考[流程运行管理](https://dev-academy.bottime.com/zh-cn/wiki/RunManager/ProcessRunManager.md)
+>更多运行监控细节， 请参考[流程运行管理](./ProcessRunManager.md)
 
 ## 开发服务
 ### 文件
@@ -131,4 +131,4 @@
 2. 业务有一定体量、复杂度，但客户无IT部门，只有业务部门，如零售业；
 3. 对数据安全的等级要求不高，同时数据存储方式灵活，支持公有云和私有云；
 
->了解更多， 请参见[私有化指南](https://dev-academy.bottime.com/zh-cn/wiki/RunManager/EnterpriseOM.md)
+>了解更多， 请参见[私有化指南](./EnterpriseOM.md)

@@ -240,11 +240,11 @@
 
 ![processdesignguideimg27](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide27.jpg)
 
-如果需要比较复杂的操作，比如需要先接收到用户的消息，根据用户的消息进行流程的处理，最终反馈到钉钉群里。 或者需要反馈到钉钉群里的不单单是文本，还需要有图片或者附件。可以参考完整教程[【案例17】案例详解：钉钉机器人群控&RPA机器人调研](https://www.encoo.com/resource_center/detail/53)
+如果需要比较复杂的操作，比如需要先接收到用户的消息，根据用户的消息进行流程的处理，最终反馈到钉钉群里。 或者需要反馈到钉钉群里的不单单是文本，还需要有图片或者附件。可以参考完整教程[【案例17】案例详解：钉钉机器人群控&RPA机器人调研](https://www.encoo.com/product-detail/Bg2XkQJb)
 
 **企业微信消息推送**
 
-与钉钉消息推送类似，企业微信也需要先新建一个群机器人，再把WebHook拷贝到组件，这样就可以把对应的文本推送给企业微信群了。具体可参考[【案例16】企业微信自动对话机器人](https://www.encoo.com/resource_center/detail/59)
+与钉钉消息推送类似，企业微信也需要先新建一个群机器人，再把WebHook拷贝到组件，这样就可以把对应的文本推送给企业微信群了。具体可参考[【案例16】企业微信自动对话机器人](https://www.encoo.com/product-detail/BQagyZOB)
 
 
 ![processdesignguideimg28](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide28.jpg)
