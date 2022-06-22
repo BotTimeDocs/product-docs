@@ -39,19 +39,39 @@ IA基于微软早期的可访问技术-Microsoft Active Accessibility(MSAA)。�
 
 UIA/UIA3利用了微软的的UI Automation技术，相比MSAA暴露更多的控件信息和动作，特别对于WPF开发的应用，它做到了原生支持，是比IA更好的选择。
 
-![UIA&IA](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/UIA&IA-yolanda.png)
+<br><br><br>
 
->UIA与UIA3的区别是：UIA3是UIA的加强，暴露了更多的接口，并且一般来说，UIA3的控件查找速度会比UIA快。
+<img width = '800'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/UIA&IA-yolanda.png"/>
 
->注意：UIA和UIA3是不兼容的，也就是说，不能在同一流程里同时使用这两种录制技术。
+<br><br>
+
+
+```
+Tips:
+
+UIA与UIA3的区别是：UIA3是UIA的加强，暴露了更多的接口，并且一般来说，UIA3的控件查找速度会比UIA快。
+
+此外，UIA和UIA3是不兼容的，即不能在同一流程里同时使用这两种录制技术。
+```
+
+<br><br>
 
 Web自动化采用注入javascript的方式，在浏览器对应网页的内部注入对应的JavaScript可执行脚本，通过JavaScript脚本对web元素的控制，从而实现自动化。
 
-![自动化工具](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png)
+<br><br>
+
+<img width = '300'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png"/>
+
+
+<br><br>
 
 
 Web自动化依赖云扩开发的 Web Extension 作为通讯媒介，从而实现控制对应的JavaScript脚本到指定Web页面。 所以要使用Web自动化，除IE外其他浏览器均需要提前安装对应的Web Extension扩展。
-![现行架构](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/现行web自动化架构-Yolanda.png)
+<br><br>
+
+<img width = '800'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/现行web自动化架构-Yolanda.png"/>
+
+<br><br>
 
 JAB 以官方的Java Access Bridge为基础，对其部署方式做了增强。以及对AWT组件和自定义组件的可访问性做了一定的扩充。支持录制Java应用，如EAS，NC等，使用前需要安装Java扩展。
 
