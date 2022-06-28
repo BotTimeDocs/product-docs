@@ -38,7 +38,7 @@
          情况2:根据设置的冲突处理策略，当机器人忙碌时，系统自动取消后续下发到此机器人的任务，则任务状态处于“已取消”； 
 - 成功：机器人的一次流程任务执行结果为”成功“，如执行次序1；
 - 失败：机器人的一次流程任务执行结果为“失败”，如执行次序1；
-    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-runinstance-status.png)
+    ![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console05.png)
 
 ## 查看流程部署任务
 
@@ -51,8 +51,27 @@
 ## 查看任务详情
 
 点击某一任务操作栏中的“查看详情”选项，即可查看该任务的执行详情，任务详情主要包括执行基本信息、参数信息等内容。
+根据不同的[启动方式、启动来源](./../job/aboutJob.md)，任务的基本信息显示不同，包含如下几种情况：
 
-![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-excute-history-info1.png)
+1. 控制台-流程部署-手动执行
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console06.png)
+
+2. 控制台-流程部署-定时任务
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console07.png)
+3. 控制台-流程部署-任务队列
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console08.png)
+4. 控制台-vicode-流程部署-手动执行
+
+5. 控制台-流程编排-手动执行
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console09.png)
+6. 控制台-流程编排-定时任务
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console10.png)
+7. 机器人-手动执行
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console11.png)
+8. 机器人-定时任务
+![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console12.png)
+9. 外部系统-api接口-手动执行
+
 
 ## 查看日志详情
 
