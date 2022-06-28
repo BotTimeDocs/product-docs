@@ -1,0 +1,30 @@
+[
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.SerializeObjectActivity",
+        "name": "SerializeObject.md",
+        "localizedName": "序列化",
+        "uuid": "24f30a0d-0637-41da-af8c-8d5d7b5c5ad8",
+        "labels": "序列化, Json"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.DeserializeObjectActivity",
+        "name": "DeserializeObject.md",
+        "localizedName": "反序列化",
+        "uuid": "18c51f72-2f79-4f08-841a-c185ffd92032",
+        "labels": "反序列化, Json"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.JsonGetNodeStringValueActivity",
+        "name": "json-get-node-string.md",
+        "localizedName": "获取节点值（字符串）",
+        "uuid": "1371c759-bb64-407f-aa4d-8bbf42e20bf9",
+        "labels": "节点值, 字符串， Json"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.Json.JsonGetNodeArrayValueActivity",
+        "name": "json-get-node-array.md",
+        "localizedName": "获取节点值（数组）",
+        "uuid": "0dcfb5a7-7491-4dcd-a0e7-d44696dc2c31",
+        "labels": "节点值, 数组，Json"
+    }
+]

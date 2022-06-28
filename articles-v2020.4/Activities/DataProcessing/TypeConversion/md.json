@@ -1,0 +1,30 @@
+[
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.TextToDateActivity",
+        "name": "TextToDateActivity.md",
+        "localizedName": "文本转日期和时间",
+        "uuid": "7ee8a0b3-108c-44b5-8083-e030bd203b21",
+        "labels": "日期, 文本, 时间, 数据类型转换"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.TextToNumbericActivity",
+        "name": "TextToNumbericActivity.md",
+        "localizedName": "文本转数值",
+        "uuid": "7ede9827-ccf5-46e8-9025-ee4a73a72763",
+        "labels": "文本，数值，转换"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.ArrayToCollectionActivity",
+        "name": "ArrayToCollectionActivity.md",
+        "localizedName": "数组转集合",
+        "uuid": "6aaae2e5-adca-453d-8cea-9d611be157bb",
+        "labels": "数组, 集合, 数据类型转换"
+    },
+    {
+        "id": "Encoo.CodeTool.Activity.Activities.TypeConversion.CollectionToArrayActivity",
+        "name": "CollectionToArrayActivity.md",
+        "localizedName": "集合转数组",
+        "uuid": "9ca4d204-7515-4142-8e1d-110fbc3a9ac5",
+        "labels": "数组, 集合, 数据类型转换"
+    }
+]
