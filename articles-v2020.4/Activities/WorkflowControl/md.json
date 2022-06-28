@@ -1,58 +1,24 @@
 [
     {
-        "id": null,
-        "name": "Flowchart",
-        "localizedName": "流程图"
+        "id": "System.Activities.Statements.Flowchart",
+        "name": "Flowchart.md",
+        "localizedName": "流程图",
+        "uuid": "06ebeccf-5af5-42f2-8226-03d48453a063",
+        "labels": "流程图"
     },
     {
-        "id": null,
-        "name": "StateMachine",
-        "localizedName": "状态机"
-    },
-    {
-        "id": null,
-        "name": "Determine",
-        "localizedName": "判断"
-    },
-    {
-        "id": null,
-        "name": "Loop",
-        "localizedName": "循环操作"
-    },
- /*{
         "id": "System.Activities.Statements.Sequence",
         "name": "Sequence.md",
         "localizedName": "序列",
         "uuid": "bb60c573-1c45-4304-adfe-fa700fc92210",
         "labels": "序列"
-    },*/
+    },
     {
         "id": "BotTime.Flow.Activities.Parallel",
         "name": "Parallel.md",
         "localizedName": "并行",
         "uuid": "7b1d8e9c-1b38-4017-a25d-f369deb644bf",
         "labels": "并行"
-    },
-    {
-        "id": "BotTime.Flow.Activities.TryCatch",
-        "name": "TryCatch.md",
-        "localizedName": "错误捕捉(Try Catch)",
-        "uuid": "48b2d381-2ebc-4611-85eb-5b6ea87ae5aa",
-        "labels": "Catch, Try, 捕捉, 错误"
-    },
-    {
-        "id": "BotTime.Flow.Activities.Assign",
-        "name": "Assign.md",
-        "localizedName": "赋值",
-        "uuid": "f3357989-015c-4a1b-8087-d1fd90a8511b",
-        "labels": "赋值"
-    },
-    {
-        "id": "BotTime.Flow.Activities.MultipleAssign",
-        "name": "MultipleAssign.md",
-        "localizedName": "赋值(多个)",
-        "uuid": "216356ac-79a8-4d9c-8907-b5bd24c36a07",
-        "labels": "赋值, 多个"
     },
     {
         "id": "BotTime.Flow.Activities.Delay",
@@ -88,13 +54,6 @@
         "localizedName": "调用子流程",
         "uuid": "979ab9aa-e5ae-4663-a5af-b8b7c5be7579",
         "labels": "调用, 流程"
-    },
-    {
-        "id": "BotTime.Flow.Activities.InvokeReferencedWorkflowActivity",
-        "name": "InvokeReferencedWorkflow.md",
-        "localizedName": "调用流程（引用项目）",
-        "uuid": "15783178-2ce7-440d-b4ad-49b3827cbfab",
-        "labels": "项目, 引用, 调用, 流程"
     },
     {
         "id": "BotTime.Flow.Activities.Abort",

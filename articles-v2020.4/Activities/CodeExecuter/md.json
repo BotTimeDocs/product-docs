@@ -1,6 +1,11 @@
 [
     {
         "id": null,
+        "name": "JavaScript",
+        "localizedName": "JavaScript"
+    },
+    {
+        "id": null,
         "name": "CSharp",
         "localizedName": "C#"
     },
@@ -8,11 +13,6 @@
         "id": null,
         "name": "Python",
         "localizedName": "Python"
-    },    
-    {
-        "id": null,
-        "name": "JavaScript",
-        "localizedName": "JavaScript"
     },
     {
         "id": null,
@@ -23,40 +23,5 @@
         "id": null,
         "name": "HTTP",
         "localizedName": "HTTP"
-    },
-    {
-        "id": null,
-        "name": "JSON",
-        "localizedName": "JSON"
-    },
-    {
-        "id": null,
-        "name": "TextProcessing",
-        "localizedName": "文本"
-    },
-    {
-        "id": null,
-        "name": "CollectionProcessing",
-        "localizedName": "集合"
-    },
-    {
-        "id": null,
-        "name": "ArrayProcessing",
-        "localizedName": "数组"
-    },
-    {
-        "id": null,
-        "name": "Dictionary",
-        "localizedName": "字典"
-    },
-    {
-        "id": null,
-        "name": "DataProcessing",
-        "localizedName": "格式"
-    },
-    {
-        "id": null,
-        "name": "TypeConversion",
-        "localizedName": "类型转换"
     }
 ]

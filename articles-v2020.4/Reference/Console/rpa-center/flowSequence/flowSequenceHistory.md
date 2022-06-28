@@ -59,12 +59,10 @@
 
 在执行记录页面中点击任务下某一具体执行实例的“日志”链接，可查看任务的具体日志
 ![runinstance](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-exctuehistory-runinstance2.png)
-![runinstance](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-excute-history-info2.png)
+![runinstance](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console01.png)
 
 
 ## 取消任务
-
-
 对于”等待中/运行中/已暂停“的任务，可以操作”取消“。
 
 取消编排任务，包含2个入口:
