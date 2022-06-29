@@ -1,8 +1,16 @@
-# 组件详解
+# 指南二、《组件详解》
 
-## 什么是组件
+<br>
 
-组件是模拟人们在计算机上操作软件的某个行为或动作，把实际工作中的业务场景以[自动化](./AutomationPrinciples.md)的方式实现。
+>导读: 
+> 
+>重在带大家了解云扩编辑器流程编辑中，会使用到的组件概念、不同组件类型及使用用途。
+
+<br><br>
+
+## 一、什么是组件
+
+组件是模拟人们在计算机上操作软件的某个行为或动作，把实际工作中的业务场景以[自动化](../AutomationPrinciples.md)的方式实现。
 
 例如：登录某页面时，需要输入【用户名】和【密码】并点击【登录】按钮，这其中包含三个操作，分别为：
 1. 在用户名输入框中输入账号信息
@@ -25,7 +33,7 @@
 
 如下图示：
 
-在流程设计面板中添加了一个名称[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)的组件，并在此组件的属性“工作表”、“单元格”、“数据”中分别填写了数据“Sheet1”、“A1”和“Hello RPA”，用于实现在excel文件中的工作表“Sheet1”和单元格“A1”位置，写入了一段文本“Hello RPA”
+在流程设计面板中添加了一个名称[写入单元格](../academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)的组件，并在此组件的属性“工作表”、“单元格”、“数据”中分别填写了数据“Sheet1”、“A1”和“Hello RPA”，用于实现在excel文件中的工作表“Sheet1”和单元格“A1”位置，写入了一段文本“Hello RPA”
 
 ![示例](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/componentsexample.png)
  
