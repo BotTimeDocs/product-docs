@@ -7,27 +7,6 @@
         "labels": "数据库, 连接"
     },
     {
-        "id": "BotTime.DataBase.Activity.ExecuteTransactionActivity",
-        "name": "StartTransaction.md",
-        "localizedName": "执行事务",
-        "uuid": "5a0689c2-239a-4d76-acdd-b197c5d055a5",
-        "labels": "数据库, 执行, 事务"
-    },
-    {
-        "id": "BotTime.DataBase.Activity.ExecuteSqlActivity",
-        "name": "ExecuteNonQuery.md",
-        "localizedName": "执行语句",
-        "uuid": "bda101e7-b730-4640-9648-0d70fcc48344",
-        "labels": "数据库, 执行, 语句"
-    },
-    {
-        "id": "BotTime.DataBase.Activity.QueryTableActivity",
-        "name": "Select.md",
-        "localizedName": "查询语句",
-        "uuid": "a638f17b-405b-4d9e-9ba1-50ced2521862",
-        "labels": "查询语句, 数据库, SELECT"
-    },
-    {
         "id": "BotTime.DataBase.Activity.DatabaseCreateTableActivity",
         "name": "CreateTable.md",
         "localizedName": "创建表",
@@ -47,7 +26,7 @@
         "localizedName": "表是否存在",
         "uuid": "152b961d-9ba1-4dc7-a5f8-51fdc22d408d",
         "labels": "表是否存在, 数据库 "
-    },    
+    },
     {
         "id": "BotTime.DataBase.Activity.DatabaseQueryDataActivity",
         "name": "QueryData.md",
