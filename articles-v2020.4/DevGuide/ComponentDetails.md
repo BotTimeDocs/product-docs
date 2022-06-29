@@ -1,4 +1,4 @@
-# 指南二、《组件详解》
+# 指南二 《组件详解》
 
 <br>
 
@@ -8,42 +8,59 @@
 
 <br><br>
 
-## 一、什么是组件
+## 一、什么是组件？
+
+<br>
 
 组件是模拟人们在计算机上操作软件的某个行为或动作，把实际工作中的业务场景以[自动化](../AutomationPrinciples.md)的方式实现。
 
 例如：登录某页面时，需要输入【用户名】和【密码】并点击【登录】按钮，这其中包含三个操作，分别为：
-1. 在用户名输入框中输入账号信息
-2. 在密码输入框中输入密码
-3. 鼠标点击登录按钮
+1. 在用户名输入框中输入账号信息；
+2. 在密码输入框中输入密码；
+3. 鼠标点击登录按钮。
 
 这三个动作在页面上可以分别使用三个组件来完成。
 
 那么多个组件串联后便形成了**流程**。例如在成功登录软件后，继续点击某个页面控件，那么在流程设计工具中再加入操作这个控件的组件就可以完成后续操作了。
- 
 
-## 组件的组成部分
+<br><br>
+
+## 二、组件的组成部分
 
 单个组件是由组件名称、组件面板、弹窗和属性栏构成。用于表达使用什么组件在什么位置和条件下做什么操作。
 
+<br>
+
 - **组件名称**：通常可以理解为是某个“操作”行为的步骤名称。在开发过程中也可以自定义，达到更符合业务逻辑和更容易被理解的名字
+
+
+
 - **组件面板**：在开发工具的流程设计面板中展示当前组件的属性，以便于在属性中填写数据
+
+
 - **弹窗**：以弹窗的方式展示当前组件的属性，以便于在属性中填写数据
+
+
 - **属性栏**：在开发工具中以独立模块展示组件所有属性，以便于在属性中填写数据
 
+<br>
 如下图示：
 
-在流程设计面板中添加了一个名称[写入单元格](../academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)的组件，并在此组件的属性“工作表”、“单元格”、“数据”中分别填写了数据“Sheet1”、“A1”和“Hello RPA”，用于实现在excel文件中的工作表“Sheet1”和单元格“A1”位置，写入了一段文本“Hello RPA”
+在流程设计面板中添加了一个名称[写入单元格](../academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)的组件，并在此组件的属性“工作表”、“单元格”、“数据”中分别填写了数据“Sheet1”、“A1”和“Hello RPA”，
 
-![示例](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/componentsexample.png)
+用于实现在excel文件中的工作表“Sheet1”和单元格“A1”位置，写入了一段文本“Hello RPA”
+
+<img width='600' src="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/componentsexample.png"/>
  
 > **注意**：
 > 
 > - 属性由组件本身定义，一个组件包含一个或多个属性
-> - 数据由开发者在对应的组件属性中输入，数据可以是一段字符串、[变量](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Variables/Variables.md?uuid=0bd627d9-3f75-4c38-b9a2-dbc571686b21)或[参数](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/Arguments.md?uuid=2238c728-efc6-455b-9004-2e22b2a82520)
+> - 数据由开发者在对应的组件属性中输入，数据可以是一段字符串、[变量](../academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Variables/Variables.md?uuid=0bd627d9-3f75-4c38-b9a2-dbc571686b21)或[参数](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/Arguments.md?uuid=2238c728-efc6-455b-9004-2e22b2a82520)
 > - 字符串类型的数据需包含在英文双引号””中
-> - 示例中的[写入单元格](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
-> - 对网页中需要自动化的场景需指定页面元素定位并实现自动化，参考[元素详解](./AutomationPrinciples.md)
+> - 示例中的[写入单元格](../academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/WriteCell.md?uuid=dadb9ee9-042b-4455-8ceb-c691af8699eb)组件需要包含在容器类组件类别的[打开/新建Excel](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)组件中使用
+> - 对网页中需要自动化的场景需指定页面元素定位并实现自动化，参考[元素详解](../AutomationPrinciples.md)
+
+<br>
 
 ## 组件类型
 
