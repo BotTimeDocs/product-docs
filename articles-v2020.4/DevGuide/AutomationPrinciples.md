@@ -337,22 +337,31 @@ B. 对于web元素：
 > * **情况3：** 运行流程时页面上不存在“百度一下”按钮，在第5000毫秒时出现该按钮，之后在第10000毫秒时该按钮消失。
 > * 运行结果：此时组件会在5000毫秒时匹配到元素，之后会触发等待元素消失的逻辑，在等到10000毫秒时元素消失后组件就会运行成功。
 
+<br>
 
-## 自动化驱动
+---
+
+<br>
+
+## 1.3 自动化驱动
+
+<br>
 
 云扩RPA提供的自动化驱动以插件的形式安装到我们的终端电脑上，目前支持的驱动有：
+
+<br>
 
 1、 **WEB**
 
 
-扩展名称|对应用途
+&nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ---|---|
 &nbsp; Chrome扩展|&nbsp; <br>录制hrome浏览器，必须插件<br>&nbsp; |
 &nbsp;  Firefox扩展|&nbsp; <br>录制Firefox浏览器，必须插件 <br>&nbsp;|
 &nbsp; Microsoft Edge扩展| <br> &nbsp;录制dge浏览器，必须插件 <br>&nbsp;
 &nbsp;  360安全浏览器扩展|&nbsp; <br>录制360安全浏览器，必须插件<br>&nbsp; |
 ```
-Tips：若您试用IE浏览器进行WEB自动化，此处不需要安装对应的插件
+<Tips> 若您试用IE浏览器进行WEB自动化，此处不需要安装对应的插件
 ``` 
    
 <br>
@@ -360,24 +369,28 @@ Tips：若您试用IE浏览器进行WEB自动化，此处不需要安装对应�
   
 2、 **远程自动化**
 
- 扩展名称|对应用途
+&nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ---|---|
 &nbsp; Citrix&nbsp; |<br><br>通过citrix连接到远程机器上时，<br><br>通过本地机器录制远程机器界面的必要插件 <br><br>
 &nbsp; Windows远程桌面(RDP)&nbsp; |<br><br>通过RDP连接到远程机器上时，<br><br>通过本地机器录制远程机器界面的必要插件<br><br>
 ```
-Tips：除了插件外，另需安装配套上方插件的exe程序，安装在远程的虚拟机或服务器上，需要请联系官方社区技术支持获取
+<Tips>
+
+除了插件外，另需安装配套上方插件的exe程序，安装在远程的虚拟机或服务器上，
+
+需要请联系官方社区技术支持获取
 ``` 
 <br>
 
-3、数据库
+**3、数据库**
 
-扩展名称|对应用途
+&nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ---|---|
 &nbsp; IBM DB2扩展&nbsp; |&nbsp; <br>操纵IBM DB2数据库的必要插件<br>&nbsp; 
 
 <br>
 
-4、桌面自动化
+**4、桌面自动化**
 
 &nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ---|---|
@@ -385,27 +398,35 @@ Tips：除了插件外，另需安装配套上方插件的exe程序，安装在�
    
 <br>
 
-5、系统
+**5、系统**
 
 扩展名称|对应用途
 ---|---|
 Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插件<br>&nbsp;
 
 ```
-Tips：为什么有的录制技术要安装驱动，有的却不用？
+<Tips> 为什么有的录制技术要安装驱动，有的却不用？
 
-● 目前UIA、UIA3、IA、SAP录制不需要驱动，其他都需要。这是因为它们所依赖的运行库在Windows里已经自带了，而且跟是否安装了特定应用无关。
-● 然而像web，java录制这些，它们需要在特定应用或系统目录配置额外的文件或服务，做成插件的形式可以让用户按需选择，减少捆绑安装。
+● 目前UIA、UIA3、IA、SAP录制不需要驱动，其他都需要。
+这是因为它们所依赖的运行库在Windows里已经自带了，而且跟是否安装了特定应用无关。
+
+● 然而像web，java录制这些，它们需要在特定应用或系统目录配置额外的文件或服务，
+做成插件的形式可以让用户按需选择，减少捆绑安装。
  ```
+<br>
 
-## 自动化环境
+---
+
+<br>
+
+## 1.4 自动化环境
 
 大部分的自动化场景都可以运行在我们日常使用的windows环境中即可，对运行环境没有特别的要求。 具体要求请见[硬件和软件要求](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)
 
 
 下面列出一些云扩提供的一些高级好用的自动化功能。
 
-### 独立桌面 
+### 独立桌面
 
 ![独立桌面](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/独立桌面-Yolanda.png)
 
