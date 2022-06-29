@@ -104,7 +104,9 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
         ③ SAP录制技术，主要针对SAP客户端 ：
 SAP面向SAP Logon客户端，基于SAP GUI Scripting技术。通过对已有接口的封装，SAP录制技术向用户提供更灵活丰富的录制执行功能，使用前，需进行一系列配置已启用SAP的脚本执行功能。
 
+
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/SAP脚本执行功能-Yolanda.png"/>
+
 
 * [如何配置SAP ？](../Activities/UIAutomation/SAP/SAP%20Configuration.md)
 
