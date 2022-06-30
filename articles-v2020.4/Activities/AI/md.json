@@ -1,30 +1,128 @@
 [
     {
-        "id": "Encoo.AIHub.Activity.AIHubIdentificationOfCredentialsActivity",
-        "name": "IdentificationOfCredentials.md",
-        "localizedName": "证照识别",
-        "uuid": "a544158c-ab9c-4fd5-8151-cb4379f90dd8",
-        "labels": "证照, 识别, AI Hub"
-    },
-    {
-        "id": "Encoo.AIHub.Activity.AIHubBillIdentificationActivity",
-        "name": "BillIdentification.md",
-        "localizedName": "票据识别",
-        "uuid": "a48976ff-3fff-42c6-827f-746ca4500aa0",
-        "labels": "识别, 票据, AI Hub"
-    },
-    {
-        "id": "Encoo.AIHub.Activity.AIHubGeneralCharacterRecognitionActivity",
-        "name": "GeneralCharacterRecognition.md",
-        "localizedName": "通用文字识别",
-        "uuid": "0051d972-680c-429f-844c-467cb046939e",
-        "labels": "识别, 文字, AI Hub, 手写文字, 通用文字"
-    },
-    {
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
         "localizedName": "文档理解",
         "uuid": "e1681ddc-b289-4ad8-b215-0a2486e69f57",
-        "labels": "文档, 理解, 控制台"
+        "labels": "文档理解,AI,控制台"
     },
+    {
+        "id": "Encoo.Cnosole.Activity.AIHubIdCardIdentificationActivity",
+        "name": "IdCardIdentification.md",
+        "localizedName": "身份证识别",
+        "uuid": "2a25162a-0836-40f2-9ca6-9431156cad33",
+        "labels": "身份证识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubDrivingLicenseIdentificationActivity",
+        "name": "DrivingLicenseIdentification.md",
+        "localizedName": "行驶证识别",
+        "uuid": "5f1c421d-b15e-4db5-b52c-1088cda80f13",
+        "labels": "行驶证识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubBusinessLicenseIdentificationActivity",
+        "name": "BusinessLicenseIdentification.md",
+        "localizedName": "营业执照识别",
+        "uuid": "ccb4f87a-b55b-42ac-8950-a9ab4dc455a4",
+        "labels": "营业执照识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubBankCardIdentificationActivity",
+        "name": "BankCardIdentification.md",
+        "localizedName": "银行卡识别",
+        "uuid": "27a0aa04-9f6b-4a09-94dc-71440df600fc",
+        "labels": "银行卡识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubLicensePlateIdentificationActivity",
+        "name": "LicensePlateIdentification.md",
+        "localizedName": "车牌识别",
+        "uuid": "d29e3e54-42d0-482d-9c2f-ff1959bf7e51",
+        "labels": "车牌识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubVehicleCertificateIdentificationActivity",
+        "name": "VehicleCertificateIdentification.md",
+        "localizedName": "车辆合格证识别",
+        "uuid": "71ea20d5-55bc-48d9-98b2-bdef1998d18f",
+        "labels": "车辆合格证识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubVATInvoiceIdentificationActivity",
+        "name": "VATInvoiceIdentification.md",
+        "localizedName": "增值税发票识别",
+        "uuid": "74dd7758-9a7e-4385-b728-8fa5f83be05a",
+        "labels": "增值税发票识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubRollTicketIdentificationActivity",
+        "name": "RollTicketIdentification.md",
+        "localizedName": "卷票识别",
+        "uuid": "b765398b-34ff-4859-b415-ed408e3226bc",
+        "labels": "卷票识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubQuotaInvoiceIdentificationActivity",
+        "name": "QuotaInvoiceIdentification.md",
+        "localizedName": "定额发票识别",
+        "uuid": "89345df1-8111-4b19-8472-d3bbbb3acb1f",
+        "labels": "定额发票识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubBankReceiptIdentificationActivity",
+        "name": "BankReceiptIdentification.md",
+        "localizedName": "银行回单识别",
+        "uuid": "9c889da5-4a12-4614-a4bd-d674ead6a5ef",
+        "labels": "银行回单识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubTaxiTicketIdentificationActivity",
+        "name": "TaxiTicketIdentification.md",
+        "localizedName": "出租车发票识别",
+        "uuid": "09135638-357e-4c08-a28e-8c1b9941fd06",
+        "labels": "出租车发票识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubVATInvoiceVerificationActivity",
+        "name": "VATInvoiceVerification.md",
+        "localizedName": "增值税发票验真",
+        "uuid": "345c4cd1-ccd4-43c4-a19b-b6864eb79679",
+        "labels": "增值税发票验真，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubVehiclePurchaseInvoiceIdentificationActivity",
+        "name": "VehiclePurchaseInvoiceIdentification.md",
+        "localizedName": "购车发票识别",
+        "uuid": "a69e4ae1-ba11-4b8c-9101-0095d0f6ab59",
+        "labels": "购车发票识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubUniversalCharacterIdentificationActivity",
+        "name": "UniversalCharacterIdentification.md",
+        "localizedName": "通用文字识别",
+        "uuid": "107d4d96-939a-4c2b-9f9b-8003d8a08f55",
+        "labels": "通用文字识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubHandwrittenNumeralIdentificationActivity",
+        "name": "HandwrittenNumeralIdentification.md",
+        "localizedName": "手写数字识别",
+        "uuid": "2c6b0fd9-22ce-47da-ae7a-9163935aa8c4",
+        "labels": "手写数字识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubHandwrittenTextIdentificationActivity",
+        "name": "HandwrittenTextIdentification.md",
+        "localizedName": "手写文字识别",
+        "uuid": "33ab534c-e78d-43a1-9d93-4f0ef62271b3",
+        "labels": "手写文字识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.AIHubTableIdentificationActivity",
+        "name": "TableIdentification.md",
+        "localizedName": "表格识别",
+        "uuid": "7df69d31-ecac-436a-a017-a6eb2d659ab0",
+        "labels": "表格识别，AI,控制台"
+    }
 ]
