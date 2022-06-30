@@ -101,8 +101,8 @@
         "id": "BotTime.Office.Activity.OfficeExcelDeleteColumnActivity",
         "name": "delete-column.md",
         "localizedName": "删除列",
-        "uuid": "",
-        "labels": "行, 删除, Excel"
+        "uuid": "bd682a03-7811-4ba4-889e-52c08fbe4b81",
+        "labels": "列, 删除, Excel"
     },
     {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteSheetActivity",
