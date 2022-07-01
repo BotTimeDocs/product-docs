@@ -1,0 +1,58 @@
+[
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseConnectActivity",
+        "name": "ConnectDatabase.md",
+        "localizedName": "连接数据库",
+        "uuid": "15796251-0ca5-4e33-ba9a-d5ccd5a9752b",
+        "labels": "数据库, 连接"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseCreateTableActivity",
+        "name": "CreateTable.md",
+        "localizedName": "创建表",
+        "uuid": "ff5e0d0c-0fe5-4af7-b5aa-9f236c2d7ee9",
+        "labels": "创建表, 数据库, Create"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseDropTableActivity",
+        "name": "Droptable.md",
+        "localizedName": "删除表",
+        "uuid": "4773eb1e-6635-4418-a59c-b6ac9de2b708",
+        "labels": "删除表, 数据库, Drop"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseIsTableExistActivity",
+        "name": "is-table-exist.md",
+        "localizedName": "表是否存在",
+        "uuid": "152b961d-9ba1-4dc7-a5f8-51fdc22d408d",
+        "labels": "表是否存在, 数据库 "
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseQueryDataActivity",
+        "name": "QueryData.md",
+        "localizedName": "查询",
+        "uuid": "b26b9ee5-2b43-4295-b347-cbc4fda391a3",
+        "labels": "查询, 数据库"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseUpdateDataActivity",
+        "name": "update-data.md",
+        "localizedName": "更新数据",
+        "uuid": "0c370971-1c6c-4882-8701-d48ea815386d",
+        "labels": "更新数据, 数据库"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseInsertDataActivity",
+        "name": "InsertData.md",
+        "localizedName": "插入数据",
+        "uuid": "8c6992d8-8ce5-48c8-93fd-34c8037f1545",
+        "labels": "插入数据, 数据库, InsertData"
+    },
+    {
+        "id": "BotTime.DataBase.Activity.DatabaseDeleteDataActivity",
+        "name": "delete-data.md",
+        "localizedName": "删除数据",
+        "uuid": "3fe7b55e-bc52-4236-9ce7-8e784c0e8a1a",
+        "labels": "删除数据, 数据库"
+    }
+]

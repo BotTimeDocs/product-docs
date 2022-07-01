@@ -1,0 +1,9 @@
+[
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Data.FormatDataActivity",
+        "name": "FormatData.md",
+        "localizedName": "数据格式化",
+        "uuid": "16598c29-750e-48c3-95eb-e884b752b3de",
+        "labels": "数据, 格式转换"
+    }
+]

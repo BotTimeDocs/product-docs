@@ -2,8 +2,22 @@
     {
         "id": null,
         "name": "aboutdocreader.md",
-        "localizedName": "关于文档理解",
+        "localizedName": "文档理解",
         "uuid": "3d1c7c2d-857e-4791-b738-9ff9455d85bd",
         "labels": "文档理解"
+    },
+    {
+        "id": null,
+        "name": "OCR.md",
+        "localizedName": "OCR",
+        "uuid": "a6401df9-a6a0-4508-807a-1c27f5f85707",
+        "labels": "OCR"
+    },
+    {
+        "id": null,
+        "name": "AIServiceManagement.md",
+        "localizedName": "AI服务管理",
+        "uuid": "c71312c5-a087-47ea-9aa8-63c75e36b7c6",
+        "labels": "AI服务管理"
     }
 ]

@@ -9,6 +9,7 @@
 1|未知异常|控制台机器人激活|C0001
 2|机器人未授权，请在控制台绑</br>定许可后重新连接  |控制台机器人激活|C0002
 3|服务器内部异常|控制台机器人激活|C0003
+<br>
 
 ### 1.2 编辑器、机器人-报错索引
 
@@ -28,6 +29,7 @@
 10| 无效许可提示 |激活机器人|R0001
 11| 尚未安装.Net Framework 4.6.2,</br>原因是：时间戳签名和/或</br>证书无法验证或已损坏 |编辑器安装|I0008
 
+<br>
 
 #### (2)Excel/Office自动化
 |序号|  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;错误信息&错误代码 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|可能关联事件|解决办法(编号)
@@ -1054,7 +1056,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 <font color=5a6877>
 【原因分析】：类似拒绝访问的，大多是部署流程的时候 权限配置问题 。
-</br>**【解决办法-R0003】**：除了以管理员权限运行机器人外，还需要在执行流程的时候，勾选“以管理员权限执行”。
+
+</br>
+**【解决办法-R0003】**：除了以管理员权限运行机器人外，还需要在执行流程的时候，勾选“以管理员权限执行”。
 
 ![-w800](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0003-1.png)
 
@@ -1070,7 +1074,10 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <font color=5a6877>
 【原因分析】：
 确认当前登录的windows用户是不是新建出来的 或登录激活的别的windows用户
-</br>**【解决办法-R0004】**：如果是的话，注销一下无用的windows session 或者重启一下电脑用正确的用户信息登录。
+
+</br>
+
+【解决办法-R0004】 ：如果是的话，注销一下无用的windows session 或者重启一下电脑用正确的用户信息登录。
 
 </font>
 </br></br>
@@ -1085,7 +1092,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 - 可能2、是内置编辑器组件：而且编辑器运行没问题，上传控制台，然后机器人执行就出错，说明这个地方是高版本流程在低版本机器人上运行导致的，需要升级一下机器人
 【解决思路】：
 可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](https://academy.bottime.com/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080）
-可能2、去升级机器人版本至对应的新版本 然后清空下%userprofile%\.nuget\packages再安装
+可能2、去升级机器人版本至对应的新版本 然后清空下`%userprofile%\.nuget\packages`再安装
 </font>
 </br></br>
 ---
@@ -1110,10 +1117,10 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <font color=5a6877>
 </br>**【解决办法-I0011】**：
 第一步 ：新建项目，拖一个之前组件缺失的组件
-如果报错，清空%UserProfile%\.nuget\packages， 重新打开编辑器，新建项目，如果还报错，找小R
+如果报错，清空`%UserProfile%\.nuget\packages`， 重新打开编辑器，新建项目，如果还报错，找小R
 
 第二步：查看处理项目的project.json文件
-做完以后，新建项目可以，但是错误的项目还是有组件缺失，查看项目的project.json,如果project.json里面的settings属性为空，关闭项目，把1里面新建项目的project.json里面的settings复制过来，再打开项目。 如果不为空，清空%UserProfile%\.nuget\packages， 重新打开编辑器，还是报错，找官方技术支持
+做完以后，新建项目可以，但是错误的项目还是有组件缺失，查看项目的project.json,如果project.json里面的settings属性为空，关闭项目，把1里面新建项目的project.json里面的settings复制过来，再打开项目。 如果不为空，清空`%UserProfile%\.nuget\packages`， 重新打开编辑器，还是报错，找官方技术支持
 
 </font>
 </br></br>
@@ -1140,7 +1147,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 [错误] 类型“System.Action`2[System.Activities.Presentation.Model.ModelItem,BotTimeUI.Common.Mobile.MobileRecordType]”的对象无法转换为类型“System.Action`2[System.Activities.Presentation.Model.ModelItem,BotTimeUI.Common.Mobile.MobileRecordType]”。
 
 <font color=5a6877>
-</br>**【解决办法-I0013】**：%userprofile%\.nuget\packages 把这个地址下的文件都删除,然后重装
+</br>**【解决办法-I0013】**：`%userprofile%\.nuget\packages` 把这个地址下的文件都删除,然后重装
 
 </font>
 </br></br>

@@ -1,0 +1,51 @@
+[
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsLockActivity",
+        "name": "WindowsLockActivity.md",
+        "localizedName": "锁屏",
+        "uuid": "916e1fa7-5b1e-4903-85c0-2912fff7c6c9",
+        "labels": "锁屏, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsUnlockActivity",
+        "name": "WindowsUnlockActivity.md",
+        "localizedName": "解锁",
+        "uuid": "33d6edb3-cdd1-4dfb-a766-5a46c8730340",
+        "labels": "解锁, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsLockScreenRunningActivity",
+        "name": "lock-screen-running.md",
+        "localizedName": "锁屏运行",
+        "uuid": "c9c0b00a-1a83-4a58-a042-f7ad04731201",
+        "labels": "锁屏运行, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Windows.WindowsScreensaverActivity",
+        "name": "screensaver.md",
+        "localizedName": "屏保运行",
+        "uuid": "91412788-9f37-4790-bf92-0bf98f309065",
+        "labels": "屏保运行, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetLogLevelActivity",
+        "name": "SetLogLevel.md",
+        "localizedName": "设置日志级别",
+        "uuid": "2484000c-d3f6-4cc6-8e9c-f2df2aa6d1a8",
+        "labels": "日志, 设置, 级别"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetWindowsCredential",
+        "name": "GetWindowsCredential.md",
+        "localizedName": "获取Windows凭据",
+        "uuid": "1d9d79be-39fc-47a3-807b-e227940b0c8e",
+        "labels": "凭据, 获取, Windows"
+    },
+    {
+        "id": "BotTime.ActivityLibrary.Activities.System.Tool.GetPcInfoActivity",
+        "name": "get-pc-info.md",
+        "localizedName": "获取计算机信息",
+        "uuid": "8f68f3a9-0102-46e1-98da-4180162637ff",
+        "labels": "计算机信息, 获取，Windows"
+    }
+]

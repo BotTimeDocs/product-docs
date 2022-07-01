@@ -1,0 +1,37 @@
+[
+    {
+        "id": "Encootech.AutomationActivity.MouseMoveActivity",
+        "name": "MoveMouse.md",
+        "localizedName": "移动鼠标",
+        "uuid": "4a035cc6-9d2e-4056-ab0f-30be0ba8015f",
+        "labels": "鼠标, 移动"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetMousePointActivity",
+        "name": "GetMousePosition.md",
+        "localizedName": "获取鼠标位置",
+        "uuid": "1f332002-9624-49ae-b64a-126ee3476045",
+        "labels": "获取, 鼠标, 位置"
+    },
+    {
+        "id": "Encootech.AutomationActivity.DragDropActivity",
+        "name": "DragDrop.md",
+        "localizedName": "鼠标拖动",
+        "uuid": "40264f26-9432-44c9-83cc-0bfcdaad9d19",
+        "labels": "拖动, 鼠标"
+    },
+    {
+        "id": "Encootech.AutomationActivity.SendHotKeyActivity",
+        "name": "SendHotkey.md",
+        "localizedName": "发送快捷键",
+        "uuid": "c0f37191-286f-4517-98f2-f5b820ce85eb",
+        "labels": "快捷键, 发送"
+    },
+    {
+        "id": "Encootech.AutomationActivity.RotateWheelActivity",
+        "name": "rotate-wheel.md",
+        "localizedName": "鼠标滚动（中键）",
+        "uuid": "afa6d12e-1653-4118-9a0a-e3cda61a529c",
+        "labels": "鼠标滚动，中键"
+    }
+]

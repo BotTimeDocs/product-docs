@@ -1,0 +1,27 @@
+[
+    {
+        "id": null,
+        "name": "JavaScript",
+        "localizedName": "JavaScript"
+    },
+    {
+        "id": null,
+        "name": "CSharp",
+        "localizedName": "C#"
+    },
+    {
+        "id": null,
+        "name": "Python",
+        "localizedName": "Python"
+    },
+    {
+        "id": null,
+        "name": "PowerShell",
+        "localizedName": "PowerShell"
+    },
+    {
+        "id": null,
+        "name": "HTTP",
+        "localizedName": "HTTP"
+    }
+]
