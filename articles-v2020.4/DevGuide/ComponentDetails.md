@@ -152,6 +152,7 @@
 
 **（23）手机自动化**：用于实现在手机端的自动化操作，支持iphone与android，例如：先使用[连接设备](../academy.encoo.com/zh-cn/wiki/Activities/PhoneAutomation/MobileConnect.md?uuid=788fb5aa-7457-4158-a090-426134bae5d2)组件连接到手机，使用此目录下的[点击](../academy.encoo.com/zh-cn/wiki/Activities/PhoneAutomation/MobileTap.md?uuid=d9cff8d1-5d8a-4c6f-8048-2e572705f976)组件完成在手机界面的点击操作。
 
+<br><br>
 
 ### 2.2 容器类组件
 
