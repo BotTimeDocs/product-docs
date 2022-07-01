@@ -18,7 +18,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)、[设置剪贴板文本](../PhoneAutomation/MobileSetClipboardText.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md)、[设置剪贴板文本](../PhoneAutomation/MobileSetClipboardText.md)
 
 **此流程执行逻辑**：获取移动端剪贴板上的已存在的内容。
 

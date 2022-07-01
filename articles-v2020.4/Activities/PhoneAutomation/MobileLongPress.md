@@ -18,7 +18,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：长按手机端“京东金融”APP应用。
 

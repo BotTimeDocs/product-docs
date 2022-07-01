@@ -12,7 +12,7 @@
 
 ## 属性
 
-### 基本
+### 基本 
 
 参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 

@@ -37,7 +37,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md) 
 
 **此流程执行逻辑**：接收到手机中发送的手机验证码信息。
 

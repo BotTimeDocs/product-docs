@@ -21,6 +21,6 @@
 
 **前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
-**此流程执行逻辑**：关闭已打开的指定的 APP 软件。
+**此流程执行逻辑**：关闭已打开的指定的 APP 软件。 
 
 ![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcloseapp20201222.png)
