@@ -1,0 +1,142 @@
+[
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileConnectActivity",
+        "name": "MobileConnect.md",
+        "localizedName": "连接设备",
+        "uuid": "788fb5aa-7457-4158-a090-426134bae5d2",
+        "labels": "连接, 设备, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileTapActivity",
+        "name": "MobileTap.md",
+        "localizedName": "点击",
+        "uuid": "d9cff8d1-5d8a-4c6f-8048-2e572705f976",
+        "labels": "点击, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobilePointTapActivity",
+        "name": "point-tap.md",
+        "localizedName": "坐标点击",
+        "uuid": "50c5c049-8cd5-4bb9-a61e-29c5d176eac7",
+        "labels": "坐标点击, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileLongPressActivity",
+        "name": "MobileLongPress.md",
+        "localizedName": "长按屏幕",
+        "uuid": "dcf48e64-76b5-4b3b-b26d-c1e1e55dea9a",
+        "labels": "屏幕, 移动端, 长按"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSwipeActivity",
+        "name": "MobileSwipe.md",
+        "localizedName": "滑动屏幕",
+        "uuid": "f22151c2-662f-4dd0-8613-421c2c65ea73",
+        "labels": "滑动, 屏幕, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileHomeActivity",
+        "name": "MobileHome.md",
+        "localizedName": "触发按键",
+        "uuid": "1aa0c400-6c49-4655-8ae8-8d77b9869a0a",
+        "labels": "触发按键, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileCropActivity",
+        "name": "MobileCrop.md",
+        "localizedName": "截屏",
+        "uuid": "6edd8f91-e7e1-4b46-bead-71a857e93930",
+        "labels": "截屏, 截图, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetTextActivity",
+        "name": "MobileGetText.md",
+        "localizedName": "获取文本",
+        "uuid": "008ff794-d307-43d7-80c1-5d9ba6375398",
+        "labels": "获取, 文本, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSendTextActivity",
+        "name": "MobileSendText.md",
+        "localizedName": "发送文本",
+        "uuid": "c32dfabf-65e1-49f6-a447-897da1a96134",
+        "labels": "文本, 发送, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileClearElementInputActivity",
+        "name": "MobileClearElementInput.md",
+        "localizedName": "清空文本",
+        "uuid": "22567fe7-f39f-4cf4-aed9-34c56204d0e7",
+        "labels": "文本, 清空, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetClipboardTextActivity",
+        "name": "MobileGetClipboardText.md",
+        "localizedName": "获取剪贴板文本",
+        "uuid": "37d3e974-f4c5-4031-9486-fd83f912d694",
+        "labels": "获取, 剪贴板文本, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSetClipboardTextActivity",
+        "name": "MobileSetClipboardText.md",
+        "localizedName": "设置剪贴板文本",
+        "uuid": "cbb0b4e5-ff68-4186-98ae-e04fc319be2c",
+        "labels": "设置, 剪贴板文本, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileWaitElementAppearActivity",
+        "name": "MobileWaitElementAppear.md",
+        "localizedName": "等待元素出现",
+        "uuid": "10049341-62d2-4715-9c9e-298caf00c67b",
+        "labels": "等待, 出现, 元素, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileWaitElementVanishActivity",
+        "name": "MobileWaitElementVanish.md",
+        "localizedName": "等待元素消失",
+        "uuid": "022305d1-6c31-4350-ac45-3e6e3ca4dc07",
+        "labels": "等待, 消失, 元素, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetAttributeActivity",
+        "name": "MobileGetAttribute.md",
+        "localizedName": "获取元素属性值",
+        "uuid": "d354acde-3f48-4101-8c0c-f3cad616f9c5",
+        "labels": "属性, 获取, 元素, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileStructureDataActivity",
+        "name": "MobileStructureData.md",
+        "localizedName": "获取结构化数据",
+        "uuid": "64b3d6c1-867d-4294-a9a7-e3e7ea51f3ae",
+        "labels": "获取, 结构化, 数据， 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileGetScreenOrientationActivity",
+        "name": "get-screen-orientation.md",
+        "localizedName": "获取屏幕方向",
+        "uuid": "69727ba1-29fe-4059-9ebf-e96ee18b14dd",
+        "labels": "获取, 屏幕方向, 移动端"
+    },
+    {
+        "id": "Encoo.Automation.MobileActivity.Activities.MobileSetScreenOrientationActivity",
+        "name": "set-screen-orientation.md",
+        "localizedName": "设置屏幕方向",
+        "uuid": "1c344857-9247-4a43-9a6c-689576478b52",
+        "labels": "设置, 屏幕方向, 移动端"
+    },
+    {
+        "id": "",
+        "name": "AndroidProprietary",
+        "localizedName": "安卓专有控件",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "id": "",
+        "name": "AppSoftware",
+        "localizedName": "应用软件",
+        "uuid": "",
+        "labels": ""
+    }
+]
