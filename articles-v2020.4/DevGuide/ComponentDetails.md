@@ -67,19 +67,19 @@
 
 ### 1.3 组件类型
 
-在[云扩RPA编辑器](https://Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到团队市场。
+在[云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到团队市场。
 
-- 内置组件：由云扩开发团队提供并内置在编辑器[组件库](../Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中，直接拖拽至流程设计面板即可使用。
+- 内置组件：由云扩开发团队提供并内置在编辑器[组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)中，直接拖拽至流程设计面板即可使用。
 - 市场组件：由开发者提供的公开组件库，从[组件市场下载](../Studio/market/activityMarket.md?uuid=7d9c6072-145b-4cb0-b27b-46184368b390)后即可使用。
 - 团队市场组件：**云扩为开发者默认提供团队市场空间，无需开发者再自己配置，可直接将开发好的组件上传到团队市场，实现团队内部共享**。
 
-另外，如果需要自定义配置市场，详见[自定义配置](../Studio/market/Market.md?uuid=f1777edd-af4e-4308-94d0-2493bc479ff4)。
+另外，如果需要自定义配置市场，详见[自定义配置](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080)。
 
 <br>
 
 ### 1.4 如何找到组件？
 
-可以通过关键字(中文、英文、拼音、别名)在编辑器[组件库](../Activities/README.md)或[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中查找。
+可以通过关键字(中文、英文、拼音、别名)在编辑器[组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)或[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中查找。
 
 <br><br>
 
