@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 目标
 
@@ -33,4 +33,4 @@
 
 1. **Q：如何在 Excel 中将两张表的内容，整合到第三张表中？**
 
-    **A：** 可先读取前两张表的数据，一起写到第三个表。若前两张表结构一样，可使用 [合并数据表](../../DataTable/MergeDataTable.md)。
+    **A：** 可先读取前两张表的数据，一起写到第三个表。若前两张表结构一样，可使用 [合并数据表](../DataProcessing/DataTable//MergeDataTable.md)。

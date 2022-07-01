@@ -18,7 +18,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[初始化字典](../Dictionary/InitializeDictionaryActivity.md)、 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+**前置必要组件**：[初始化字典](../../DataProcessing/Dictionary/InitializeDictionaryActivity.md)、 [添加键值对](../../DataProcessing/Dictionary/AddDictionaryActivity.md)
 
 **此流程执行逻辑**：将已有字典 D 内的内容打印至“输出面板”中。
 

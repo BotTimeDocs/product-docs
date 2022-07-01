@@ -24,7 +24,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：给指定路径下的 Excel 文件设置密码。
 

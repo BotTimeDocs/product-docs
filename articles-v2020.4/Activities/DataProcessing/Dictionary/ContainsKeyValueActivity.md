@@ -26,7 +26,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[初始化字典](../Dictionary/InitializeDictionaryActivity.md)
+**前置必要组件**：[初始化字典](../../DataProcessing/Dictionary/InitializeDictionaryActivity.md)
 **此流程执行逻辑**：判断已有的字典`D`中是否包含键`"key3"`，返回结果存储至变量`R`中。
 
 ![配置是否包含键/值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/containtskeyvalue20210111.png)

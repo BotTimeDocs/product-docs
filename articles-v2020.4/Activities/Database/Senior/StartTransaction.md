@@ -15,11 +15,11 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ## 使用示例
 
-**前置必要组件**：[连接数据库](../Database/ConnectDatabase.md)
+**前置必要组件**：[连接数据库](../../Database/ConnectDatabase.md)
 
 **此流程执行逻辑**：在执行事务中，使用**执行语句**组件更新数据库中`test.testconnect`数据表中`C`列的数据。
 

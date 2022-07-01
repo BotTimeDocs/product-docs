@@ -20,4 +20,4 @@
 
 ## 使用示例
 
-一般与**坐标点击**组件搭配使用，操作样例可参见[坐标点击](activity/../Coordinate.md)。
+一般与**坐标点击**组件搭配使用，操作样例可参见[坐标点击](../PageAction/Senior/Coordinate.md)。

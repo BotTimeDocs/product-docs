@@ -16,7 +16,7 @@
 
 ## 使用示例
 
-**前置可选组件**：[循环操作(While)](../WorkflowControl/Loop/While.md)
+**前置可选组件**：[循环操作(While)](../JudgeLoop/While.md)
 
 **此流程执行逻辑**：当流程出现异常时，重新抛出异常信息。
 

@@ -10,13 +10,13 @@
 
 ## 浏览器版本要求
 
-参见 [浏览器版本要求](../Browser/browser-version.md)。
+参见 [浏览器版本要求](../WebBrowser/browser-version.md)。
 
 ## 属性
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 目标
 

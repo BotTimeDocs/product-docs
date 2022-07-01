@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -33,7 +33,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：在“Sheet1”工作表的 A2 单元格中插入公式“SUM(A1: D1)”。
 

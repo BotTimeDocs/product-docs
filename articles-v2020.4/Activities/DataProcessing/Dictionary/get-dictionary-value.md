@@ -23,7 +23,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[初始化字典](../Dictionary/InitializeDictionaryActivity.md)、 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+**前置必要组件**：[初始化字典](../../DataProcessing/Dictionary/InitializeDictionaryActivity.md)、 [添加键值对](../../DataProcessing/Dictionary/AddDictionaryActivity.md)
 
 **此流程执行逻辑**：获取字典 `D` 中对应的键 `"key1"` 的值。
 

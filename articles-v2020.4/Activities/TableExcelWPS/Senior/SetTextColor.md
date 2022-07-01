@@ -26,7 +26,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：设置指定工作表“Sheet1”中“A1”单元格中文字的颜色为红色。
 

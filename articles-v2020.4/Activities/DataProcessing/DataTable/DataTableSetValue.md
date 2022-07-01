@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -23,7 +23,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：向已创建的 `dt` 数据表的第 3 行第 3 列所在的单元格中添加一个值为 `23`。
 

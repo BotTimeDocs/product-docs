@@ -23,7 +23,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。
 
@@ -37,4 +37,4 @@
 
 1. **Q：Excel复制粘贴组件，是否能在复制的时候转换格式？**
 
-    **A：** 复制粘贴的时候不可以，可以复制粘贴完成后，通过[设置单元格格式](../OfficeExcel/OfficeExcelFormatCells.md)组件来调整目标位置的格式。
+    **A：** 复制粘贴的时候不可以，可以复制粘贴完成后，通过[设置单元格格式](../../TableExcelWPS/Senior/OfficeExcelFormatCells.md)组件来调整目标位置的格式。
