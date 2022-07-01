@@ -67,19 +67,19 @@
 
 ### 1.3 组件类型
 
-在[云扩RPA编辑器](https://Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到团队市场。
+在[云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/README.md?uuid=bbb7017f-4558-4729-aee4-a7e8aa78764a)的[内置组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)中包含300+组件，可直接拖拽到设计面板使用，也可以直接从云扩[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中下载。另外也支持开发者自研发的组件发布到团队市场。
 
-- 内置组件：由云扩开发团队提供并内置在编辑器[组件库](../Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)中，直接拖拽至流程设计面板即可使用。
+- 内置组件：由云扩开发团队提供并内置在编辑器[组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)中，直接拖拽至流程设计面板即可使用。
 - 市场组件：由开发者提供的公开组件库，从[组件市场下载](../Studio/market/activityMarket.md?uuid=7d9c6072-145b-4cb0-b27b-46184368b390)后即可使用。
 - 团队市场组件：**云扩为开发者默认提供团队市场空间，无需开发者再自己配置，可直接将开发好的组件上传到团队市场，实现团队内部共享**。
 
-另外，如果需要自定义配置市场，详见[自定义配置](../Studio/market/Market.md?uuid=f1777edd-af4e-4308-94d0-2493bc479ff4)。
+另外，如果需要自定义配置市场，详见[自定义配置](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080)。
 
 <br>
 
 ### 1.4 如何找到组件？
 
-可以通过关键字(中文、英文、拼音、别名)在编辑器[组件库](../Activities/README.md)或[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中查找。
+可以通过关键字(中文、英文、拼音、别名)在编辑器[组件库](https://academy.encoo.com/zh-cn/wiki/Activities/PageAction/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)或[组件市场](https://marketplace.encoo.com/#/activity?lang=zh-cn)中查找。
 
 <br><br>
 
@@ -97,7 +97,7 @@
 
 **（2）鼠标/键盘**：
 
-模拟我们在计算机上的鼠标或键盘上的常用操作，例如：使用[发送快捷键](../academy.encoo.com/wiki/Activities/UIAutomation/SendHotkey.md?uuid=c0f37191-286f-4517-98f2-f5b820ce85eb)组件实现快捷键操作；使用[移动鼠标](../Activities/UIAutomation/MoveMouse.md?uuid=4a035cc6-9d2e-4056-ab0f-30be0ba8015f)组件将鼠标焦点移动到屏幕某个位置；使用[滚动鼠标](../Activities/UIAutomation/rotate-wheel.md)组件滑动页面上的滚动条，查看页面下方的内容。
+模拟我们在计算机上的鼠标或键盘上的常用操作，例如：使用[发送快捷键](../academy.encoo.com/wiki/Activities/UIAutomation/SendHotkey.md?uuid=c0f37191-286f-4517-98f2-f5b820ce85eb)组件实现快捷键操作；使用[移动鼠标](../Activities/UIAutomation/MoveMouse.md?uuid=4a035cc6-9d2e-4056-ab0f-30be0ba8015f)组件将鼠标焦点移动到屏幕某个位置；使用[滚动鼠标](https://academy.encoo.com/wiki/Activities/MouseKeyboard/rotate-wheel.md)组件滑动页面上的滚动条，查看页面下方的内容。
 
 
 **（3）浏览器**：实现对浏览器的基本操作，例如：在百度页面输入关键字查询，需要先使用[打开浏览器](../Activities/AppAutomation/Browser/OpenBrowser.md?uuid=5a4db7ca-d742-4081-9a83-52cb54eeb6bf)组件把百度页面打开，再把[输入文本](../Activities/UIAutomation/TypeInto.md?uuid=6f8ef618-c9ba-4c03-afc9-1f397282c4e7)组件拖入到其内部，对搜索框定位和填写关键字。
@@ -115,7 +115,7 @@
 **（7）文件/文件夹**：实现对计算机上的文件夹或文件的常用操作，例如：使用[遍历文件夹](../Activities/System/File/ForeachFolder.md?uuid=6aa69ad1-7816-48a0-9b38-4d9d08b49fc9)组件循环拿到指定文件夹下的所有类型或特定类型的文件路径，再使用[复制/移动文件](../Activities/System/File/CopyOrMoveFile.md?uuid=fc027810-28ca-43af-ab31-9ed75f6b32f7)组件把需要挪动位置的文件移动到其他文件夹；
 
 
-**（8）判断/循环**：用于对特定数据做判断或循环处理， 例如：使用[循环操作(For Each)](../Activities/WorkflowControl/Loop/ForEach.md?uuid=fa55282c-def5-4639-a36e-157189b60df7)循环数组变量数据，使用[条件(if)](../Activities/WorkflowControl/Determine/If.md?uuid=a6b0cfc4-4aeb-41e8-ab47-04804a3906af)组件判断变量 FileName = ABC 时，把变量 FileName 更改值为 ABCD；
+**（8）判断/循环**：用于对特定数据做判断或循环处理，例如：使用[循环操作(For Each)](../Activities/WorkflowControl/Loop/ForEach.md?uuid=fa55282c-def5-4639-a36e-157189b60df7)循环数组变量数据，使用[条件(if)](../Activities/WorkflowControl/Determine/If.md?uuid=a6b0cfc4-4aeb-41e8-ab47-04804a3906af)组件判断变量 FileName = ABC 时，把变量 FileName 更改值为 ABCD；
 
 
 **（10）应用程序**：用于操作计算机软件程序或进程，例如：使用[打开程序](../Activities/System/Application/OpenApplication.md?uuid=0747e2f9-edeb-4040-963c-a67a48d40068)组件打开记事本程序或使用[关闭进程](../Activities/System/Application/CloseProcess.md?uuid=5385ae94-fcf7-4a0f-94d7-8a0f1aa7fad8)关闭记事本程序的进程；
@@ -127,7 +127,7 @@
 **（12）AI**：此目录下包含云扩自研和常用AI平台（阿里云、百度AI等）及服务（身份证识别、发票识别等）封装的组件，可以直接拖拽至流程中使用，无需再写代码开发。例如：使用增值税发票识别组件或身份证识别对图片文件进行OCR识别；
 
 
-**（13）开发服务**：建立了开发者与[云扩超自动化平台](https://Console/README.md?uuid=731e27d0-adf7-4658-9987-b43b277b229f)在线服务的关联，可以在流程中直接操作云扩超自动化平台中的[资产](../Console/datacentor/asset/AboutAsset.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)、[文件](../Console/datacentor/fileservice/Aboutfileservice.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)等服务。例如：使用[设置资产](../Activities/Console/set-assets.md?uuid=ec9873a4-5a88-41c7-91ce-b8bddb59538f)组件对指定的资产设置数据，使用[下载文件](../Activities/Console/FileDownloadActivity.md?uuid=846221b4-b781-436a-adb1-9e4f84547c65)组件从文件服务中下载指定的文件到本地；
+**（13）开发服务**：建立了开发者与[云扩超自动化平台](https://academy.encoo.com/zh-cn/wiki/Reference/Console/README.md?uuid=731e27d0-adf7-4658-9987-b43b277b229f)在线服务的关联，可以在流程中直接操作云扩超自动化平台中的[资产](../Console/datacentor/asset/AboutAsset.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)、[文件](../Console/datacentor/fileservice/Aboutfileservice.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)等服务。例如：使用[设置资产](../Activities/Console/set-assets.md?uuid=ec9873a4-5a88-41c7-91ce-b8bddb59538f)组件对指定的资产设置数据，使用[下载文件](../Activities/Console/FileDownloadActivity.md?uuid=846221b4-b781-436a-adb1-9e4f84547c65)组件从文件服务中下载指定的文件到本地；
 
 **（14）代码编程**：为开发者提供了在流程开发过程中编写C#、Python等代码的功能，例如：可以使用[执行C#代码](../Activities/CodeExecuter/CSharp/ExecuteCSharp.md?uuid=8146b6ce-e8a8-41f9-b3fb-f47ad2ca6611)或[执行Python代码](../Activities/CodeExecuter/Python/PythonExcuteFile.md?uuid=568dc641-15e0-41fc-a8ed-b2ac92f1e45b)组件编写C#或Python代码；
 
@@ -147,7 +147,7 @@
 **（19）SAP**：此目录下是为SAP软件定制化的组件，实现对SAP的常用操作。例如：使用[登录应用](../Activities/UIAutomation/SAP/SAP_Login.md?uuid=3942ef5a-ea23-5049-b7bd-01c166dc0b60)组件登录SAP，使用[执行事务](../Activities/UIAutomation/SAP/SAP_Transaction.md?uuid=d21d3ec4-1f84-58ea-baa4-ce3ae462b00e)组件在SAP中执行事务代码；
 
 
-**（22）高级自动化**：此目录为中高级开发者提供了高级自动化的操作，例如：使用[绑定远程桌面](../Activities/UIAutomation/Window/SetWindowState.md?uuid=3722877d-886a-45ee-8f38-c0711405f8bd)组件实现远程桌面操作，使用[获取屏幕文本](../academy.encoo.com/wiki/Activities/UIAutomation/ScreenText/GetScreenText.md?uuid=f99e44c7-cab2-4faf-9785-57008e0ff2c0)组件获取特殊界面难以读取的文本数据；
+**（22）高级自动化**：此目录为中高级开发者提供了高级自动化的操作，例如：使用[绑定远程桌面](../Activities/UIAutomation/Window/SetWindowState.md?uuid=3722877d-886a-45ee-8f38-c0711405f8bd)组件实现远程桌面操作，使用[获取屏幕文本](https://academy.encoo.com/wiki/Activities/PageAction/Screenshot.md?uuid=c7a700ee-ac6d-11ea-87d8-02fcdc4e7412)组件获取特殊界面难以读取的文本数据；
 
 
 **（23）手机自动化**：用于实现在手机端的自动化操作，支持iphone与android，例如：先使用[连接设备](../Activities/PhoneAutomation/MobileConnect.md?uuid=788fb5aa-7457-4158-a090-426134bae5d2)组件连接到手机，使用此目录下的[点击](../Activities/PhoneAutomation/MobileTap.md?uuid=d9cff8d1-5d8a-4c6f-8048-2e572705f976)组件完成在手机界面的点击操作。
