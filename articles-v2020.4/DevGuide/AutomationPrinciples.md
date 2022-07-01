@@ -429,7 +429,7 @@ Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插�
 
 ## 1.4 自动化环境
 
-大部分的自动化场景都可以运行在我们日常使用的windows环境中即可，对运行环境没有特别的要求,具体要求请见[硬件和软件要求.](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)
+大部分的自动化场景都可以运行在我们日常使用的windows环境中即可，对运行环境没有特别的要求,具体要求请见[硬件和软件要求.](https://Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)
 
 <br>
 下面列出一些云扩提供的一些高级好用的自动化功能:
