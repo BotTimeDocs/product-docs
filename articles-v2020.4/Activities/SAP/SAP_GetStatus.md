@@ -16,11 +16,11 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 目标
 
-- **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：用于指示 SAP 状态栏。可通过点击 **指定元素** 自动生成。
+- **[选择器](../Appendix/Selector.md?_v=v2020.4)** ：用于指示 SAP 状态栏。可通过点击 **指定元素** 自动生成。
 - **匹配超时(毫秒)** ：限定查找目标选择器的时间，超出指定时间后将不再等待，1000ms = 1s。
 
 ### 输出

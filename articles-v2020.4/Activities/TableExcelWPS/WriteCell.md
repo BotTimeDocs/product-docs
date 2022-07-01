@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -29,7 +29,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[读取单元格](../OfficeExcel/ReadCell.md)
+**前置必要组件**：[读取单元格](../TableExcelWPS//ReadCell.md)
 
 **此流程执行逻辑**：将读取到的Excel的"Sheet1"工作表中"A1"单元格的内容写入到"Sheet2"工作表中"A1"单元格中。
 

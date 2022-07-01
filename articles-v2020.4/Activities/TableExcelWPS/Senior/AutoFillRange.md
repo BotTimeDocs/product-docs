@@ -26,7 +26,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：将“Sheet1”工作表中“A1:C3”区域的数据填充至“A1:I3”中。
 

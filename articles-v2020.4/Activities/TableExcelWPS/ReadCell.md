@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -29,10 +29,10 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：读取EXCEL“sheet1”中的“A1”单元格中的内容至“sheet1”中的“A2”单元格中。
 
 ![配置读取单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
 
-**后置必要组件**：[写入单元格](../OfficeExcel/WriteCell.md)
+**后置必要组件**：[写入单元格](../TableExcelWPS/WriteCell.md)

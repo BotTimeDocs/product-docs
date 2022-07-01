@@ -14,13 +14,13 @@
 
 ## 浏览器版本要求
 
-参见 [浏览器版本要求](../Browser/browser-version.md)。
+参见 [浏览器版本要求](../WebBrowser/browser-version.md)。
 
 ## 属性
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 可选项
 
@@ -28,7 +28,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[绑定浏览器](../Browser/AttachBrowser.md)
+**前置必要组件**：[绑定浏览器](../WebBrowser/AttachBrowser.md)
 
 **此流程执行逻辑**：刷新指定的网页页面。
 

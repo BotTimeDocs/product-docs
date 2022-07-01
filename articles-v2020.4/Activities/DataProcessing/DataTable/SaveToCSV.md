@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -22,11 +22,11 @@
 ### 可选项
 
 - **分隔符** ：指定CSV文件的分隔符。此属性可不填写，默认使用逗号。
-- **编码方式** ：文件的编码方式。可以在 [此处](../Appendix/Encoding.md) 找到每个字符编码的完整代码列表。要指定要使用的编码类型，请使用“名称”字段中的值。如果未指定编码类型，则默认为UTF-8。
+- **编码方式** ：文件的编码方式。可以在 [此处](../../Appendix/Encoding.md) 找到每个字符编码的完整代码列表。要指定要使用的编码类型，请使用“名称”字段中的值。如果未指定编码类型，则默认为UTF-8。
 
 ## 使用示例
 
-**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：将已搭建的数据表`table`保存为"C:\云扩科技\savetable.csv"。
 

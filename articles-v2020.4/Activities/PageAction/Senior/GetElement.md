@@ -12,11 +12,11 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输出
 
-- **控件元素** ：将取到的元素存储在此变量，可用于其他组件的输入。此输出所支持的获取属性值请点击[此处](../Appendix/SupportedAttribute.md?_v=v2020.4)查看。
+- **控件元素** ：将取到的元素存储在此变量，可用于其他组件的输入。此输出所支持的获取属性值请点击[此处](../../Appendix/SupportedAttribute.md?_v=v2020.4)查看。
 
   >**说明：**
   >
@@ -24,7 +24,7 @@
 
 ### 目标
 
-- **[选择器](../Appendix/Selector.md?_v=v2020.4)** ：要获取的特定UI元素。可通过点击**指定元素**自动生成。
+- **[选择器](../../Appendix/Selector.md?_v=v2020.4)** ：要获取的特定UI元素。可通过点击**指定元素**自动生成。
 - **匹配超时(毫秒)** ：限定查找目标元素时间，超出指定时间后将不再等待，1000ms = 1s。
 
 ### 可选项

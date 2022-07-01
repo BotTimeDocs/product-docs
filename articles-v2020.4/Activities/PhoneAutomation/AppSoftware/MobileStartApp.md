@@ -10,7 +10,7 @@
 
 ### 基本
 
-参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 目标
 
@@ -19,7 +19,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./../MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：打开指定的手机端APP应用软件。
 

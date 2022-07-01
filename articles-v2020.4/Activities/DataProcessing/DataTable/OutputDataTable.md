@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -28,7 +28,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：将已搭建的数据表`table`,以`CSV`形式输出至`csvstring`变量中。
 

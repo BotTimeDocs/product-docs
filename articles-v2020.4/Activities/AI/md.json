@@ -7,7 +7,7 @@
         "labels": "文档理解,AI,控制台"
     },
     {
-        "id": "Encoo.Cnosole.Activity.AIHubIdCardIdentificationActivity",
+        "id": "Encoo.Console.Activity.AIHubIdCardIdentificationActivity",
         "name": "IdCardIdentification.md",
         "localizedName": "身份证识别",
         "uuid": "2a25162a-0836-40f2-9ca6-9431156cad33",

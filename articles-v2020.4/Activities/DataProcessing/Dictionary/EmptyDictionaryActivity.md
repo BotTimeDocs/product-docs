@@ -20,7 +20,7 @@
 
 ## 使用示例
 
-**前置必要条件**：已有添加键值对的字典，参见 [添加键值对](../Dictionary/AddDictionaryActivity.md)
+**前置必要条件**：已有添加键值对的字典，参见 [添加键值对](../../DataProcessing/Dictionary/AddDictionaryActivity.md)
 
 **此流程执行逻辑**：清空已添加键值对的字典 `D` 中的内容。
 

@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 点击
 
@@ -26,7 +26,7 @@
 
 ## 使用示例
 
-- **前置必要组件**：[获取鼠标位置](../UIAutomation/GetMousePosition.md)
+- **前置必要组件**：[获取鼠标位置](../../MouseKeyboard/GetMousePosition.md)
 
 - **此流程执行逻辑**：在获取到的鼠标位置处点击，查看界面元素。
 

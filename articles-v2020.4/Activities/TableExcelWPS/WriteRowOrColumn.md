@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -23,7 +23,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：读取 Excel 中“sheet1”工作表中“A1”行“A1”列的内容写入至“sheet2”工作表中的“A1”行“A1”列中。
 

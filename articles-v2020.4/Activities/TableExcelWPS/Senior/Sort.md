@@ -33,7 +33,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：对指定工作表“Sheet2”中的第 1 列数据进行升序排序。
 

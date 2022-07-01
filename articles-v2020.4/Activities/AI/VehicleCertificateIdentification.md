@@ -6,7 +6,7 @@
 
 > **说明:**
 >
-> 每个账号每天都会有免费试用额度。若试用额度不足，可在**控制台-AI中心**配置AI平台账号继续使用，具体参见 [AI服务管理](../../Reference/Console/ai-center/AIServiceManagement.md)。
+> 每个账号每天都会有免费试用额度。若试用额度不足，可在**控制台-AI中心**配置AI平台账号继续使用，具体参见 [AI服务管理](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/AIServiceManagement.md)。
 
 ## 属性
 

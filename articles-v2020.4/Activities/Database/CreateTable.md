@@ -29,7 +29,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../DataProcessing/DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：根据已有的数据表结构`outtable`在数据库`test`中创建表`testdemo`。
 

@@ -32,7 +32,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：将指定工作表 Sheet1 中 A 列的数据以空格分割后，存放于“B1：B100”区域。
 

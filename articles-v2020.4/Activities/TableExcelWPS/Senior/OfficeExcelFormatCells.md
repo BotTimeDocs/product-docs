@@ -25,7 +25,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[打开/新建](../OfficeExcel/OpenExcel.md)
+**前置必要组件**：[打开/新建](../../TableExcelWPS/OpenExcel.md)
 
 **此流程执行逻辑**：将 Sheet1 中的 A1 至 C7 单元格区域中的数据，设置为保留 2 位小数的数值类型。
 

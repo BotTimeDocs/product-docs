@@ -21,7 +21,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[初始化字典](../Dictionary/InitializeDictionaryActivity.md)
+**前置必要组件**：[初始化字典](../../DataProcessing/Dictionary/InitializeDictionaryActivity.md)
 **此流程执行逻辑**：向一个已初始化的字典中添加键值对`"key3"="value3"`。
 
 ![配置添加键值对组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/addkeyvalue20210111.png)

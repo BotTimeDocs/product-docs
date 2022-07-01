@@ -16,7 +16,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -30,7 +30,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[搭建数据表](../DataTable/BuildDataTable.md)
+**前置必要组件**：[搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)
 
 **此流程执行逻辑**：从已搭建的数据表`table`中获取第二行第二列单元格的值，存放至`cellvalue`变量中。
 

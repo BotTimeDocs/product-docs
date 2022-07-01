@@ -12,7 +12,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -28,7 +28,7 @@
 
 ## 使用示例
 
-**前置必要组件**：已有一个已搭建的数据表，可参见 [搭建数据表](../DataTable/BuildDataTable.md)。
+**前置必要组件**：已有一个已搭建的数据表，可参见 [搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)。
 
 **此流程执行逻辑**：将数据表`table`中的`"年龄"`列进行升序排序。
 
