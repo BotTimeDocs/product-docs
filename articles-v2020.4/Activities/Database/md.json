@@ -1,5 +1,10 @@
 [
     {
+        "id": null,
+        "name": "Senior",
+        "localizedName": "高级"
+    },
+    {
         "id": "BotTime.DataBase.Activity.DatabaseConnectActivity",
         "name": "ConnectDatabase.md",
         "localizedName": "连接数据库",
