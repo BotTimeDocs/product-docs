@@ -65,7 +65,7 @@
                 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth2.png)
                 *在当前月的第几个星期几的几时几分*:
                 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth3.png)
-            - **按工作日历**：按工作日历，触发任务执行。也可以在[日历管理](../calendar-management/calendar.management.md)中自定义日历，并运用在定时任务中。
+            - **按工作日历**：按工作日历，触发任务执行。也可以在[日历管理](../calendar-management/calendar-management.md)中自定义日历，并运用在定时任务中。
                 ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console03.png)
 
             - **指定一个时间**：任务将在指定时间执行一次。
