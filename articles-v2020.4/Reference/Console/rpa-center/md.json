@@ -1,42 +1,47 @@
 [
     {
-            "id": null,
-            "name": "packages",
-            "localizedName": "流程包管理"
+        "id": null,
+        "name": "packages",
+        "localizedName": "流程包管理"
     },
     {
-            "id": null,
-            "name": "robot",
-            "localizedName": "机器人管理"
+        "id": null,
+        "name": "robot",
+        "localizedName": "机器人管理"
     },
     {
-            "id": null,
-            "name": "queue",
-            "localizedName": "机器人组（企业版）"
+        "id": null,
+        "name": "queue",
+        "localizedName": "机器人组（企业版）"
     },
     {
-            "id": null,
-            "name": "workflow",
-            "localizedName": "流程部署（企业版）"
+        "id": null,
+        "name": "workflow",
+        "localizedName": "流程部署（企业版）"
     },
     {
-                "id": null,
-                "name": "flowSequence",
-                "localizedName": "流程编排（企业版）"
+        "id": null,
+        "name": "flowSequence",
+        "localizedName": "流程编排（企业版）"
     },
     {
-            "id": null,
-            "name": "taskqueue",
-            "localizedName": "任务队列（企业版）"
+        "id": null,
+        "name": "taskqueue",
+        "localizedName": "任务队列（企业版）"
     },
     {
-            "id": null,
-            "name": "job",
-            "localizedName": "执行记录（企业版）"
+        "id": null,
+        "name": "job",
+        "localizedName": "执行记录（企业版）"
     },
     {
-            "id": null,
-            "name": "device-management",
-            "localizedName": "计算机管理（企业版）"
-    }    
-]   
+        "id": null,
+        "name": "device-management",
+        "localizedName": "计算机管理（企业版）"
+    },
+    {
+        "id": null,
+        "name": "calendar-management",
+        "localizedName": "日历管理（企业版）"
+    }
+]
