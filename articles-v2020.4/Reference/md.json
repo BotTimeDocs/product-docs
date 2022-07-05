@@ -40,5 +40,11 @@
         "localizedName": "术语解释",
         "uuid": "",
         "labels": ""
+    },
+    {
+        "name": "API.md",
+        "localizedName": "接口文档",
+        "uuid": "",
+        "labels": ""
     }
 ]
