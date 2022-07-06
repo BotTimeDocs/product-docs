@@ -14,4 +14,4 @@
 
 ## 产品试用
 
-**云扩 RPA 试用地址**：你可以通过注册登录 [云扩 RPA 控制台](https://console.encoo.com/) 下载并体验相关产品的社区版。
+**云扩 RPA 试用地址**：你可以通过注册登录 [云扩 RPA 控制台](https://console.encoo.com/) 下载并体验相关产品的社区版。 
