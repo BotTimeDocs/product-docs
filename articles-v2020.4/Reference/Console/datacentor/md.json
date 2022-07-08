@@ -6,6 +6,13 @@
     },
     {
         "id": null,
+        "name": "DataTableManagement.md",
+        "localizedName": "数据表管理",
+        "uuid": "d608fafc-e43f-406b-8f4e-142a110a073f",
+        "labels": "数据表管理"
+    },
+    {
+        "id": null,
         "name": "fileservice",
         "localizedName": "文件服务"
     },
