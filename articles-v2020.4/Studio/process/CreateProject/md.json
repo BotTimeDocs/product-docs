@@ -19,6 +19,13 @@
         "labels": "创建, 元素项目"
     },
     {
+        "id": null,
+        "name": "CreateDataTable.md",
+        "localizedName": "创建数据表",
+        "uuid": "",
+        "labels": "数据表"
+    },
+    {
         "name": "ProjectTemplates.md",
         "localizedName": "从模板新建项目",
         "uuid": "676af9fd-9723-4423-a833-0bb7aeaa26a7",
