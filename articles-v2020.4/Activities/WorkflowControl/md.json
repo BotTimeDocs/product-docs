@@ -1,5 +1,10 @@
 [
     {
+        "id": null,
+        "name": "StateMachine",
+        "localizedName": "状态机"
+    },
+    {
         "id": "System.Activities.Statements.Flowchart",
         "name": "Flowchart.md",
         "localizedName": "流程图",
