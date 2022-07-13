@@ -177,6 +177,7 @@
 
 `实时日志监控_界面图示，如下`
 
+
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction5.jpg"/>
 
 
