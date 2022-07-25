@@ -138,5 +138,47 @@
         "localizedName": "追加到CSV文件",
         "uuid": "8d2b5294-b537-4865-a78f-0ae790d8bfcb",
         "labels": "文件, CSV, 追加"
+    },
+    {
+        "id": "BotTime.Office.Activity.ReadFromExcelActivity",
+        "name": "ReadFromExcel.md",
+        "localizedName": "读取Excel文件",
+        "uuid": "a4f6e38a-8c74-4d5e-a4c3-5d5f6d86088a",
+        "labels": "excel, 读取"
+    },
+    {
+        "id": "BotTime.Office.Activity.SaveToExcelActivity",
+        "name": "SaveToExcel.md",
+        "localizedName": "保存为Excel文件",
+        "uuid": "46c1005d-5084-4e49-b6c2-b56fa4e6c8c9",
+        "labels": "excel, 保存"
+    },
+    {
+        "id": "BotTime.Office.Activity.AppendToExcelActivity",
+        "name": "AppendToExcel.md",
+        "localizedName": "追加到Excel文件",
+        "uuid": "4e0291f5-f668-4479-a86b-afa1b7ebd1c6",
+        "labels": "excel, 追加"
+    },
+    {
+        "id": "Encoo.Console.Activity.ReadDataTableFromConsoleActivity",
+        "name": "ReadConsoleDT.md",
+        "localizedName": "读取控制台数据表",
+        "uuid": "7bad78bc-264a-46d8-8d5e-bf84b63fb281",
+        "labels": "读取, 控制台, 数据表"
+    },
+    {
+        "id": "Encoo.Console.Activity.WriteDataTableToConsoleActivity",
+        "name": "SaveConsoleDT",
+        "localizedName": "保存至控制台数据表",
+        "uuid": "5241b930-a0a7-4713-ab36-02650dc109d9",
+        "labels": "保存, 控制台, 数据表"
+    },
+    {
+        "id": "Encoo.Console.Activity.AppendDataTableToConsoleActivity",
+        "name": "AppendConsoleDT",
+        "localizedName": "追加到控制台数据表",
+        "uuid": "6d634e60-ed37-4b3e-afe1-a36d4ffd4b04",
+        "labels": "追加, 控制台, 数据表"
     }
 ]
