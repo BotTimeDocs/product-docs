@@ -32,8 +32,10 @@
     > 在组件的可视化界面中，请求正文对应的内容支持文本模式（默认）和代码模式。
     >
     > - 文本模式（默认）：输入纯文本内容。
+    > 
     > ![纯文本](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https001.png)
     > - 代码模式：支持输入C#代码（双引号需要转义），或是直接使用变量。
+    > 
     > ![变量](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https002.png)
   
 ### 输出
