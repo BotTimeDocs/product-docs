@@ -169,14 +169,14 @@
     },
     {
         "id": "Encoo.Console.Activity.WriteDataTableToConsoleActivity",
-        "name": "SaveConsoleDT",
+        "name": "SaveConsoleDT.md",
         "localizedName": "保存至控制台数据表",
         "uuid": "5241b930-a0a7-4713-ab36-02650dc109d9",
         "labels": "保存, 控制台, 数据表"
     },
     {
         "id": "Encoo.Console.Activity.AppendDataTableToConsoleActivity",
-        "name": "AppendConsoleDT",
+        "name": "AppendConsoleDT.md",
         "localizedName": "追加到控制台数据表",
         "uuid": "6d634e60-ed37-4b3e-afe1-a36d4ffd4b04",
         "labels": "追加, 控制台, 数据表"
