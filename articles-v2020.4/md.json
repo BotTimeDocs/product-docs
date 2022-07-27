@@ -44,6 +44,10 @@
         "localizedName": "产品参考"
     },
     {
+        "name": "LocalDeploy",
+        "localizedName": "私有化部署"
+    },
+    {
         "id": null,
         "name": "Troubleshooting.md",
         "localizedName": "错误速查",

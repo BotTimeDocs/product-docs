@@ -1,0 +1,32 @@
+[
+    {
+        "name": "StandaloneDeployment",
+        "localizedName": "单机部署",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "MultiNodeDeployment",
+        "localizedName": "多节点部署",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "K8SDeployment",
+        "localizedName": "K8S部署",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "UpdateRobotandStudio",
+        "localizedName": "编辑器和机器人升级",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "FAQ",
+        "localizedName": "常见问题",
+        "uuid": "",
+        "labels": ""
+    }
+]
