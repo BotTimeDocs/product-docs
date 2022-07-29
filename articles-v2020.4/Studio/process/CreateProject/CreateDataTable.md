@@ -145,60 +145,60 @@
 3. 需要将数据保存到控制台中可以使用组件[保存到控制台数据表]()或[追加到控制台数据表]()
 
 ## 数据表组件
-[搭建数据表](../../DataProcessing/DataTable/BuildDataTable.md)
+[搭建数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/BuildDataTable.md?_v=v2020.1&uuid=747738d1-4a94-48ac-ad8b-1d903efd67c8)
 </br>
-[预览数据表](../../DataProcessing/DataTable/PreviewDataTable.md)
+[预览数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/PreviewDataTable.md?_v=v2020.1&uuid=b355b4e8-be6a-4214-a779-9557ae3a3bb1)
 </br>
-[输出数据表](../../DataProcessing/DataTable/OutputDataTable.md)
+[输出数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/OutputDataTable.md?_v=v2020.1&uuid=c17676a3-6db8-4c7d-bae7-578a50df9719)
 </br>
-[清空数据表](../../DataProcessing/DataTable/ClearDataTable.md)
+[清空数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/ClearDataTable.md?_v=v2020.1&uuid=f2253483-a529-4e81-849b-6a8b6b57cbf0)
 </br>
-[合并数据表](../../DataProcessing/DataTable/MergeDataTable.md)
+[合并数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/MergeDataTable.md?_v=v2020.1&uuid=2fb561fb-f484-463d-a5ff-12dafb44b42a)
 </br>
-[联结数据表](../../DataProcessing/DataTable/JoinDataTable.md)
+[联结数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/JoinDataTable.md?_v=v2020.1&uuid=a8e2e914-6ac2-4d77-8727-995a2f2b886c)
 </br>
-[添加数据行](../../DataProcessing/DataTable/AddRow.md)
+[添加数据行](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/AddRow.md?_v=v2020.1&uuid=4bed7d43-3747-438b-959a-2f8ac84f5567)
 </br>
-[添加数据列](../../DataProcessing/DataTable/AddColumn.md)
+[添加数据列](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/AddColumn.md?_v=v2020.1&uuid=715476d5-5971-45b6-a52e-2d87ac7fb1ae)
 </br>
-[移除行](../../DataProcessing/DataTable/RemoveRow.md)
+[移除行](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/RemoveRow.md?_v=v2020.1&uuid=4b0cad72-7315-4410-9aeb-7893ed11357d)
 </br>
-[移除列](../../DataProcessing/DataTable/RemoveColumn.md)
+[移除列](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/RemoveColumn.md?_v=v2020.1)
 </br>
-[移除重复行](../../DataProcessing/DataTable/RemoveDuplicateRow.md)
+[移除重复行](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/RemoveDuplicateRow.md?_v=v2020.1)
 </br>
-[遍历行](../../DataProcessing/DataTable/ForEachRow.md)
+[遍历行](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/ForEachRow.md?_v=v2020.1)
 </br>
-[排序](../../DataProcessing/DataTable/SortDataTable.md)
+[排序](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/SortDataTable.md?_v=v2020.1&uuid=eb3a5abd-45b8-4739-93ac-5789520b0f4f)
 </br>
-[筛选](../../DataProcessing/DataTable/FilterDataTable.md)
+[筛选](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/FilterDataTable.md?_v=v2020.1&uuid=e876bd35-05bd-4e8f-8e5d-6ac7409101e9)
 </br>
-[获取单元格的值](../../DataProcessing/DataTable/GetValue.md)
+[获取单元格的值](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/GetValue.md?_v=v2020.1&uuid=e477bdfa-5d65-4ebb-b523-3390e9622f52)
 </br>
-[设置数据表的值](../../DataProcessing/DataTable/DataTableSetValue.md)
+[设置数据表的值](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/DataTableSetValue.md?_v=v2020.1&uuid=bfdae03d-47fc-4ba5-8409-1fc562f787b2)
 </br>
-[设置数据行的值](../../DataProcessing/DataTable/DataRowSetValue.md)
+[设置数据行的值](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/DataRowSetValue.md?_v=v2020.1&uuid=0a05b22c-b2a8-4b9d-b7d2-e2e09a32dcef)
 </br>
-[保存为CSV文件](../../DataProcessing/DataTable/ReadCSV.md)
+[保存为CSV文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/SaveToCSV.md?_v=v2020.1)
 </br>
-[读取CSV文件](../../DataProcessing/DataTable/SaveToCSV.md)
+[读取CSV文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/ReadCSV.md?_v=v2020.1&uuid=d72e8b2c-3ea6-4523-a351-49571ffbb178)
 </br>
-[追加到CSV文件](../../DataProcessing/DataTable/AppendToCSV.md)
+[追加到CSV文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/AppendToCSV.md?_v=v2020.1)
 </br>
-[读取Excel文件](../../DataProcessing/DataTable/ReadFromExcel.md)
+[读取Excel文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/ReadFromExcel.md?_v=v2020.1)
 </br>
-[保存为Excel文件](../../DataProcessing/DataTable/SaveToExcel.md)
+[保存为Excel文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/AppendToCSV.md?_v=v2020.1&uuid=8d2b5294-b537-4865-a78f-0ae790d8bfcb)
 </br>
-[追加到Excel文件](../../DataProcessing/DataTable/AppendToExcel.md)
+[追加到Excel文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/SaveToExcel.md?_v=v2020.1&uuid=46c1005d-5084-4e49-b6c2-b56fa4e6c8c9)
 </br>
-[读取控制台数据表](../../DataProcessing/DataTable/ReadConsoleDT.md)
+[读取控制台数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/ReadConsoleDT.md?_v=v2020.1&uuid=7bad78bc-264a-46d8-8d5e-bf84b63fb281)
 </br>
-[保存至控制台数据表](../../DataProcessing/DataTable/SaveConsoleDT.md)
+[保存至控制台数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/SaveConsoleDT.md?_v=v2020.1)
 </br>
-[追加到控制台数据表](../../DataProcessing/DataTable/AppendConsoleDT.md)
+[追加到控制台数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/DataTable/AppendConsoleDT.md?_v=v2020.1&uuid=6d634e60-ed37-4b3e-afe1-a36d4ffd4b04)
 
 ## 常见问题
 1. **运行流程后流程中操作的数据表数据为什么没有了**</br>
-   数据表保存的是临时数据，在流程终止后销毁，如需保存相关数据，可参见[怎样保存数据表中的数据](#怎样保存数据表中的数据)
+   数据表保存的是临时数据，在流程终止后销毁，如需保存相关数据，可参见[怎样保存数据表中的数据](##怎样保存数据表中的数据)
 2. **数据表处理数据的限制是什么**</br>
    在流程中处理数据时无限制，当需要进行存储时会受到文件本身的规则限制，如Excel只能打开小于65537行的CSV文件，上传到控制台数据表时限制为必须小于**20M**，并且要小于**65537**行和**128**列。
