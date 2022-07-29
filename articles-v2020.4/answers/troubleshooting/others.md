@@ -1,6 +1,6 @@
 
 
-#### 其他异常报错(系统组件、远程、流程执行…)
+### 一、其他(报错索引)
 
 |序号|  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;错误信息&错误代码 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|可能关联事件|解决办法(编号)
 |---|---|---|---|
@@ -21,7 +21,10 @@
 15|[错误]活动“登录”的CacheMeta </br>引发了"System.Xaml.……:</br>无法创建未知类型"{XXX}……"。</br>请确认相关的组件包</br>是否包含在nuget目录下"|打开流程包|I0016
 
 
-###  其他异常报错(系统组件、远程、流程执行…)
+
+<br><br><br>
+
+###  二、具体解决办法
 
 #### 【报错异常】call remote method timeout,method name : invokeRemoteUiObjectAsync
 
