@@ -47,6 +47,10 @@
         "name": "LocalDeploy",
         "localizedName": "私有化部署"
     },
+     {
+        "name": "answers",
+        "localizedName": "RPA帮助中心"
+    },
     {
         "id": null,
         "name": "Troubleshooting.md",
