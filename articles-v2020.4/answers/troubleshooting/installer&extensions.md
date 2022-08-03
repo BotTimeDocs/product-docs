@@ -313,6 +313,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <br>
 
 **【解决办法-I0006】**  开启杀毒软件导致的，关闭后重新安装就好了
+
 </font><br><br>
 ---
 <br>
