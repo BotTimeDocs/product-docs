@@ -2,7 +2,7 @@
 
 点击**选择器**属性右侧的按钮，弹出下述界面。用户可在此窗口查看所指定元素的详细信息，同时提供编辑功能，用户可以自定义指定元素信息
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/%E9%80%89%E6%8B%A9%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8.png)
+![img](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector001.png)
 
 ## 图像预览页
 
@@ -24,9 +24,11 @@
       >**说明：**
       >
       >- 当属性值为变量时，格式为：{VariableName}或{{VariableName}}，即将变量写在花括号里面。
+      >- 在index属性中使用
       >- 当属性值为常量、变量混合时，常量的格式为:{VariableName}，变量的格式为：{{VariableName}}且变量需要在编辑器中定义，否则为常量。如，/html/body/div[4]/div/div/div[2]/table/tbody//td[@data-value="**{{dateddd}}**"]，这一串常量变量混合的情况，加粗字体为变量的写法。
   
 - 删除节点或属性：将节点或属性前的复选框状态改为不选即可
+- 选择器支持的属性列表请参考[支持的属性列表](https://academy.encoo.com/zh-cn/wiki/Activities/Appendix/SupportedAttribute.md?uuid=b1d2d88d-5322-469b-9df0-939db05d256a)
 
 ## 指定元素按钮
 
@@ -46,7 +48,7 @@
 
 指定完成后，你可以获得对应元素的 XPath 表达式。编辑器提供了多种表达式的写法，包含在 XPath 列表中：
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xpathlist20210316.png)
+![img](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector002.png)
 
 >**说明：**
 >
