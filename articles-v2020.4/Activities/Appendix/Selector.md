@@ -18,7 +18,7 @@
 - 当使用图片识别的方式指定元素时，**Image** 标签会固定于最后一行，其上的节点信息用来定位锚点元素。
 - 属性：通过下拉框可以更改属性名，同时下拉框右侧的文本框可以填写属性值。
   
-    - 属性名：指定元素后，优先生成和使用页面Title来定位元素，如果页面Title未设定，则使用URL来定位页面，并且可以在属性列表中选择Name、Title、Role、URL等属性进行更换。
+    - 属性名：指定元素后，优先生成和使用页面Title来定位元素，如果页面Title未设定，则使用URL来定位页面，并且可以在属性列表中选择Name、Title、Role、URL等属性进行更换。选择器支持的属性列表请参考[支持的属性列表](https://academy.encoo.com/zh-cn/wiki/Activities/Appendix/SupportedAttribute.md?uuid=b1d2d88d-5322-469b-9df0-939db05d256a)
     - 属性值：支持填写变量（参见[支持变量的属性](Activities/../SupportedVariableName.md)）和常量，并且AutomationId/ClassName/Name这些属性的值支持通配符。
       
       >**说明：**
@@ -28,7 +28,6 @@
       >- 当属性值为常量、变量混合时，常量的格式为:{VariableName}，变量的格式为：{{VariableName}}且变量需要在编辑器中定义，否则为常量。如，/html/body/div[4]/div/div/div[2]/table/tbody//td[@data-value="**{{dateddd}}**"]，这一串常量变量混合的情况，加粗字体为变量的写法。
   
 - 删除节点或属性：将节点或属性前的复选框状态改为不选即可
-- 选择器支持的属性列表请参考[支持的属性列表](https://academy.encoo.com/zh-cn/wiki/Activities/Appendix/SupportedAttribute.md?uuid=b1d2d88d-5322-469b-9df0-939db05d256a)
 
 ## 指定元素按钮
 
