@@ -483,6 +483,7 @@ DISM.exe /Online /Cleanup-image /Restorehealth
 关闭命令提示符并重新启动 PC 并检查它是否正常工作。
 
 参考链接：[《The application has failed to start because the side by side configuration is incorrect Windows 10》](https://answers.microsoft.com/en-us/windows/forum/all/the-application-has-failed-to-start-because-the/5c6a015e-4162-491d-b7d9-f3b13612e304)
+
 </font>
 <br><br>
 ---
