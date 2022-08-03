@@ -39,7 +39,7 @@
 ---
 </br>
 
-### FAQ：机器人控制台激活时，提示：机器人内部异常，请稍后重试
+### Q4：机器人控制台激活时，提示：机器人内部异常，请稍后重试
 
 <font color=5a6877> 【解决方法A1_00004】:情况排查：
 已知两个情况：
@@ -53,7 +53,7 @@
 
 ## 二、插件/扩展
 
-### FAQ：安装扩展时已经关闭所有浏览器窗口，但仍提示关闭浏览器
+### Q1：安装扩展时已经关闭所有浏览器窗口，但仍提示关闭浏览器
 
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-1.png)
 
@@ -65,7 +65,7 @@
  ---
  </br>
 
-### FAQ：Chrome 录制失败，无法与 Chrome 扩展通信？
+### Q2：Chrome 录制失败，无法与 Chrome 扩展通信？
 <font color=5a6877> 【解决方法A2_00002】:若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
 1. 检查 chrome 浏览器扩展，是否安装了 chrome 扩展并且启用，如果未安装“云扩录制器”扩展，需要 通过 Studio 进行自动安装。
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/3-1.png)
