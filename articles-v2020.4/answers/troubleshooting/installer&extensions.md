@@ -325,6 +325,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 **【解决办法-I0007】**
 请联系商务确认是否许可证不对，若不对重新购买或申请许可证
+
 </font><br><br>
 ---
 <br>
