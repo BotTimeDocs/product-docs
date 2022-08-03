@@ -175,10 +175,7 @@
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001.png"/>
 
 
-<font color=5a6877> 
-
-【解决方法C0005】:
-
+<font color=5a6877> 【解决方法C0005】:
 1. 确认是否为云扩商务提供的正确有效的许可证。
 2. 如果许可证过期或无效
     * **过期时：**请在云扩控制台的“管理中心 > 许可证管理”中重新申请许可证。
@@ -220,11 +217,9 @@
 
 
 <font color=5a6877>
-
 <br>
 
 **【解决办法-I0001】**
-
 * Step1、确认一下【计算机配置】—【Windows设置】—【安全设置】—【本地策略】—【安全选项】 已经启用了用户账户控制：以管理员批准模式运行所有管理员…… 
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-3.png"/>
@@ -241,6 +236,7 @@
 <br>
 
 #### Q：未将对象引用设置到对象的实例
+
 * 编辑器安装时，显示发生了以下错误，错误信息：未将对象引用设置到对象的实例
 
 <br>
@@ -266,7 +262,6 @@
 <font color=5a6877>
 <br>
 
-
 **【解决办法-I0003】**
 * 如果重新安装.NET Framework依然失败提示同样错误信息，那么需要清理注册表
 Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 Client Profile CHS Language Pack
@@ -282,9 +277,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 <br>
 
-**【解决办法-I0021】**
-
-我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
+**【解决办法-I0021】** 我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
 
 </font><br><br>
 ---
@@ -293,7 +286,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 #### Q：[Installation has failed]There was an error while installing the application.Check the setup log for more information and contact the author
 
 <font color=5a6877>
-<br>**【解决办法-I0004】**编辑器安装失败确认排查步骤如下 ：
+<br>
+
+**【解决办法-I0004】** 编辑器安装失败确认排查步骤如下 ：
 * Step1：检查杀毒软件是否正在运行，关闭杀毒软件(如，360 软件)后重新安装。
 * Step2：检查当前用户在安装目录的读写权限，如果当前用户在安装路径没有读写权限，则要用管理员账号登录，在安装目录右键，点击属性，点击安全标签，添加目标账户，并添加完全控制权限，最后点击确定，然后退出管理员账号，用目标用户登录进行安装。
 
@@ -304,7 +299,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 #### Q：[Installation has failed] Failed to install the .NET Framework,try installing the latest version manually
 
 <font color=5a6877>
-<br>**【解决办法-I0005】**robot运行是基于.net环境的，如果是win7操作系统，则需要手动安装下.net插件，可以通过离线包安装
+<br>
+
+**【解决办法-I0005】** robot运行是基于.net环境的，如果是win7操作系统，则需要手动安装下.net插件，可以通过离线包安装
 
 </font><br><br>
 ---
@@ -313,7 +310,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 #### Q：Value cannot be null.Parameter name:path1
 
 <font color=5a6877>
-<br>**【解决办法-I0006】**开启杀毒软件导致的，关闭后重新安装就好了
+<br>
+
+**【解决办法-I0006】**  开启杀毒软件导致的，关闭后重新安装就好了
 </font><br><br>
 ---
 <br>
@@ -321,7 +320,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 #### Q：该许可证不能在当前计算机上注册|本地许可证激活
 
 <font color=5a6877>
-<br>**【解决办法-I0007】**
+<br>
+
+**【解决办法-I0007】**
 请联系商务确认是否许可证不对，若不对重新购买或申请许可证
 </font><br><br>
 ---
@@ -333,7 +334,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 
 <font color=5a6877>
-<br>**【解决办法-E0001】**
+<br>
+
+**【解决办法-E0001】**
 - 有网络情况 —— 登录编辑器之后再按照 
 - 无网络离线情况 —— 参考手动安装扩展，具体参考链接:(https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
 
@@ -344,7 +347,9 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 #### Q：检测到Java应用程序,请更新Java插件
 
 <font color=5a6877>
-<br>**【解决办法-E0002】**
+<br>
+
+**【解决办法-E0002】**
 - 第一步 ：更新Java拓展 
 - 第二步：若还是不行，继续弹这个提示，禁用默认jab, jre bin目录下有个jabswitch.exe.
 cmd 执行 “jabswitch.exe -disable”
@@ -360,7 +365,9 @@ cmd 执行 “jabswitch.exe -disable”
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0001.png"/>
 
 <font color=5a6877>
-<br>**【解决办法-R0001】**
+<br>
+
+**【解决办法-R0001】**
 * 首先确认电脑系统无重装，且无更换电脑或服务器后确认。
 * 然后确认前后使用许可的机器人安装包版本是否一致 。
 </font><br><br>
@@ -445,7 +452,9 @@ There was an error while installing the application.Check the setup log for more
 
 原因分析：由于系统文件损坏或 Visual C++ 可再发行包损坏，可能会发生此错误。
 
-<br>**【解决办法-I0019】**：
+<br>
+
+**【解决办法-I0019】**：
 
 * **方法一：**
 
