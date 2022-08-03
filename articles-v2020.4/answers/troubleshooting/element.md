@@ -1,7 +1,5 @@
-
 # Error<表2>：元素定位/识别
 
-<br> <br> 
 
 ### 一、元素定位/(界面&手机)自动化(报错索引表)
 
@@ -127,7 +125,9 @@
 #### Q：使用图像识别定位的元素不支持通过设置控件的方式点击。
 
 <font color=5a6877>
-<br>**【解决办法-AA0001】**：图像识别方式定位元素的，点击方式选择模拟鼠标。
+<br>
+
+**【解决办法--AA0001】**：图像识别方式定位元素的，点击方式选择模拟鼠标。
 
 </font>
 <br><br>
@@ -137,7 +137,9 @@
 #### Q：定位元素超时
 
 <font color=5a6877>
-<br>**【解决办法-AA0002】**：定位元素超时可能存在一下几个原因，请注意排查确认
+<br>
+
+**【解决办法--AA0002】**：定位元素超时可能存在一下几个原因，请注意排查确认
 1. 选择器是否能验证到对应的元素？不会请先学习了解选择器
 2. 如果以上都没问题，可能是网络加载慢问题，请加长匹配超时的时间。
 3. 是否安装了对应的浏览器插件或其它扩展插件并启用？（安装过程关掉杀毒软件）
@@ -150,7 +152,9 @@
 #### Q：打开浏览器失败。the operation has timed out
 
 <font color=5a6877>
-<br>**【解决办法-AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
+<br>
+
+**【解决办法--AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
 (若排除以上情况之后，可具体查看下方“打开浏览器失败”的异常排错思路办法)
 
 </font>
@@ -193,7 +197,9 @@
 * 请检查异常堆栈和内部异常，以确定失败的回调。回调异常的root cause，或者“使用模拟键盘组件会导致流程随机中断，并且可能会伴随“句柄无效”日志”
 
 <font color=5a6877>
-<br>**【解决办法-AA0005】**：淘宝上买 幽灵键鼠 硬件,然后用[模拟键盘合集](https://marketplace.encoo.com/?entry_url=https%3A%2F%2Fwww.encoo.com%2F#/activity/detail?lang=zh-cn&packageId=Automation.KeyboardActivity)里的那个组件 
+<br>
+
+**【解决办法--AA0005】**：淘宝上买 幽灵键鼠 硬件,然后用[模拟键盘合集](https://marketplace.encoo.com/?entry_url=https%3A%2F%2Fwww.encoo.com%2F#/activity/detail?lang=zh-cn&packageId=Automation.KeyboardActivity)里的那个组件 
 
 </font>
 <br><br>
@@ -204,7 +210,9 @@
 #### Q：句柄无效
 
 <font color=5a6877>
-<br>**【解决办法-AA0006】**：同解决办法-AA0005
+<br>
+
+**【解决办法--AA0006】**：同解决办法-AA0005
 
 </font>
 <br><br>
@@ -219,7 +227,9 @@
 
 <font color=5a6877>
 【原因分析】：环境权限问题导致，偶发异常
-<br>**【解决办法-AA0007】**：
+<br>
+
+**【解决办法--AA0007】**：
 
 设置对应客户端执行项目的权限为管理员权限执行
 
@@ -267,7 +277,9 @@
 - 可能1. 运行时，可能系统进入锁屏状态了
 - 可能2. 运行时，窗口最小化就会出现这个问题
 
-<br>**【解决办法-AA0009】**：如果是企业版机器人的话，自带了rdp会话保持功能，如果是远程的话勾选下就好了。
+<br>
+
+**【解决办法--AA0009】**：如果是企业版机器人的话，自带了rdp会话保持功能，如果是远程的话勾选下就好了。
 
 </font>
 <br><br>
@@ -279,7 +291,9 @@
 #### Q：打开浏览器失败
 
 <font color=5a6877>
-<br>**【解决办法-AA0010】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接：[Chrome 扩展](https://academy.encoo.com/wiki/Studio/Extensions/ChromeExtension.md?uuid=2b67286f-eb39-48ce-8706-f2355167215f)
+<br>
+
+**【解决办法--AA0010】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接：[Chrome 扩展](https://academy.encoo.com/wiki/Studio/Extensions/ChromeExtension.md?uuid=2b67286f-eb39-48ce-8706-f2355167215f)
 
 </font>
 <br><br>
@@ -292,7 +306,9 @@
 
 
 <font color=5a6877>
-<br>**【解决办法-AA0011】**：如果用过旧版本的服务端?在“设置”--“应用”里面找到pocoservice的两个软件、Yosemite、Applistmanager软件都卸载删除，重启服务端，再重新连接，其中pocoservice有两个应用，在设置-应用中找到都删载掉。
+<br>
+
+**【解决办法--AA0011】**：如果用过旧版本的服务端?在“设置”--“应用”里面找到pocoservice的两个软件、Yosemite、Applistmanager软件都卸载删除，重启服务端，再重新连接，其中pocoservice有两个应用，在设置-应用中找到都删载掉。
 
 </font>
 <br><br>
@@ -305,7 +321,9 @@
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0012.png"/>
 
 <font color=5a6877>
-<br>**【解决办法-AA0012】**：
+<br>
+
+**【解决办法--AA0012】**：
 1. 确认编辑器菜单栏中”工具 > 移动设备管理器“ 是否已打开。
 2. 如果已打开仍未解决，重启移动端服务管理器。
 
@@ -353,7 +371,9 @@
 
 
 <font color=5a6877>
-<br>**【解决办法-AA0014】**：这个是手动打开不会出现，机器人和编辑器运行都会出现，需要设置：
+<br>
+
+**【解决办法--AA0014】**：这个是手动打开不会出现，机器人和编辑器运行都会出现，需要设置：
 https://www.iefans.net/a/v760321.html
 
 </font>
@@ -368,7 +388,9 @@ https://www.iefans.net/a/v760321.html
 
 
 <font color=5a6877>
-<br>**【解决办法-AA0015】**：使用“键盘模拟”组件 
+<br>
+
+**【解决办法--AA0015】**：使用“键盘模拟”组件 
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AA0015.png"/>
 
@@ -387,7 +409,9 @@ https://www.iefans.net/a/v760321.html
 
 
 <font color=5a6877>
-<br>**【解决办法-AA0016】**：确认服务包版本同开发版本是否一直 ，不一致的话更换安卓服务包。 
+<br>
+
+**【解决办法--AA0016】**：确认服务包版本同开发版本是否一直 ，不一致的话更换安卓服务包。 
 
 
 

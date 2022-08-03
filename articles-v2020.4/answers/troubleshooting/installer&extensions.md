@@ -161,7 +161,9 @@
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/C0004.png"/>
 
 <font color=5a6877>
-<br>**【解决办法-C0004】**：V3升级V4 可解决对应问题，升级请联系商务。
+<br>
+
+**【解决办法-C0004】** ：V3升级V4 可解决对应问题，升级请联系商务。
 
 </font>
 <br><br>
@@ -173,7 +175,10 @@
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001.png"/>
 
 
-<font color=5a6877> 【解决方法C0005】:
+<font color=5a6877> 
+
+【解决方法C0005】:
+
 1. 确认是否为云扩商务提供的正确有效的许可证。
 2. 如果许可证过期或无效
     * **过期时：**请在云扩控制台的“管理中心 > 许可证管理”中重新申请许可证。
@@ -215,7 +220,11 @@
 
 
 <font color=5a6877>
-<br>**【解决办法-I0001】**
+
+<br>
+
+**【解决办法-I0001】**
+
 * Step1、确认一下【计算机配置】—【Windows设置】—【安全设置】—【本地策略】—【安全选项】 已经启用了用户账户控制：以管理员批准模式运行所有管理员…… 
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-3.png"/>
@@ -237,7 +246,10 @@
 <br>
 
 <font color=5a6877>
-**【解决办法-I0002】**编辑器安装失败确认排查步骤如下 ：
+
+**【解决办法-I0002】**
+
+编辑器安装失败确认排查步骤如下 ：
 - Step1：检查杀毒软件是否正在运行，关闭杀毒软件(如，360 软件)后重新安装。
 - Step2：可在控制面板中，检查是否安装“.net 中文语言包”，如果安装了，可以卸载后再尝试，如果没有安装，可检查日志。卸载后若没安装.net去下载安装一下对应的的英文版安装包，具体选项示例如下方所示
 
@@ -252,7 +264,10 @@
 
 
 <font color=5a6877>
-<br>**【解决办法-I0003】**
+<br>
+
+
+**【解决办法-I0003】**
 * 如果重新安装.NET Framework依然失败提示同样错误信息，那么需要清理注册表
 Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 Client Profile CHS Language Pack
 
@@ -265,7 +280,11 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0021.png"/>
 
 <font color=5a6877>
-<br>**【解决办法-I0021】**我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
+<br>
+
+**【解决办法-I0021】**
+
+我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
 
 </font><br><br>
 ---
