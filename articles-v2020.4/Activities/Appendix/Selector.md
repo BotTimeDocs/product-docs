@@ -51,5 +51,5 @@
 
 >**说明：**
 >
->XPath 选项只支持 Web 元素。
+>XPath 选项只支持 Web 元素。</br>
 >更多选择器的高级用法请参见[高级开发技巧](https://academy.encoo.com/zh-cn/wiki/DevGuide/AdvancedDevelopment.md)
