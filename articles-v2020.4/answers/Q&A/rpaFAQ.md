@@ -256,15 +256,41 @@
 
  </br>
 
+### Q1：2022年7月 新版本发布后 为什么没有引用项目 这个选项？
+
+ </br>
+
+<font color=5a6877> 【解决办法A_500001】: 
+
+至2022年7月 新版本发布
+7月新版本编辑器，合并了组件项目及前期引用项目的用法，通过创建一个组件项目，并将其发布到组件市场，在其他项目中进行使用(而不是仅限于单个项目引用) ，具体详见文档：[《创建组件项目》](https://academy.encoo.com/zh-cn/wiki/Studio/process/CreateProject/CreateLibrary.md?uuid=4f2d5853-ffb5-45e0-85e2-4decc0dd15d7)
+
+
+如何将流程发布成组件 可以看文档：[《如何将流程发布成组件》](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?_v=v2020.4&uuid=1b1ab067-7487-4efe-b35a-5dfdc6638847)
+
+2022年7月之后的版本 界面上目前不支持，已开发的流程 若想要引用，具体操作步骤可见文档：[《【技术方案】(旧版本创建好的流程项目) "引用项目"在 2206.10之后的编辑器使用》](https://c9vrjkv7og.feishu.cn/docx/doxcnd7y9aDxQNC9RI2Uzxj78Wg)
+
+
+ </font></br></br>
+ ---
+ </br>
+ </br>
+
 
 ## 四、流程运行与维护
 
 ### Q1：机器人运行时黑屏，如何排查与解决？
+
+<br>
+
 机器人开启录屏执行流程，流程结束后，本地或控制台上看到的录屏视频画面是黑屏，但视频里面还是有字幕的。
 
-![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/13-1.png)
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/13-1.png"/>
 
-<font color=5a6877> 【解决方法A5_00001】:
+ </br> </br> </br>
+
+<font color=5a6877> 【解决方法A6_00001】:
+
 * 如果已使用mstsc远程桌面连接到了该机器人环境，并且mstsc没有断开，而是将窗口最小化了。只需断掉mstsc或保持mstsc窗口不被最小化即可
 * 如果在流程执行前、或执行过程中，通过RDP会话保持功能，使当前session进入了“远程连接已断开，但session仍在活动中”的状态。但此时因为一些客户的环境设置了“自动锁屏”，使得当前session进入了锁屏状态，也就无法录制到任何画面了。即, 出现此类问题时，运行环境满足以下几个特点：
     ○ 机器人所在的环境是通过远程桌面访问的
@@ -291,19 +317,13 @@
  </br>
 
 
-### Q2：2022年7月 新版本发布后 为什么没有引用项目 这个选项
-
-
- </font></br></br>
- ---
- </br>
 
 
 ## 五、私有化部署
 
 ### Q1：如何清理私有化部署中的日志文件？
 
-<font color=5a6877> 【解决方法A6_00001】:如果控制台的系统设置中没有流程日志清理功能，可升级至最新版控制台。如暂时无法升级，但日志文件过大，可手动执行以下脚本处理：
+<font color=5a6877> 【解决方法A7_00001】:如果控制台的系统设置中没有流程日志清理功能，可升级至最新版控制台。如暂时无法升级，但日志文件过大，可手动执行以下脚本处理：
 cd  {控制台安装目录} #例如在/usr/console/consolev4pvt-4.1.118351
 rm -rf data/minio/.minio.sys/multipart/*
 rm -rf data/minio/.minio.sys/tmp/*
