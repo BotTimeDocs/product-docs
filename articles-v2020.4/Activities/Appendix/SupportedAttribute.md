@@ -35,7 +35,7 @@
 | TableRow       | Encoo自定义的属性，在 table 中的第几行                                            |
 | TableCol       | Encoo自定义的属性，在 table 中的第几列                                            |
 | IsLeaf         | Encoo自定义的属性，是否叶子节点，即该节点没有子节点                                                |
-|Index|Encoo自定义的属性，用于匹配集合索引下标，默认为1； 当匹配到多个元素时，可以通过调整index的值，来精确定位目标元素，索引从1开始计算，默认是第一个元素|
+|Index|Encoo自定义的属性，用于匹配集合索引下标，默认为1； 当匹配到多个元素时，可以通过调整index的值，来精确定位目标元素，索引从1开始计算，默认是第一个元素。使用-1来选择最后一个元素|
 | RowName        | 同行中第一个的 Text                                           |
 | ColName        | 同列中第一个的 Text                                           |
 | ColumnCount    | 所在 table 的总列数                                            |
