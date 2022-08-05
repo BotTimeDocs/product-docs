@@ -1,6 +1,6 @@
 ## 一、安装、激活&登录
 
-### FAQ：安装编辑器或机器人的硬件和软件要求是什么？
+### Q1：安装编辑器或机器人的硬件和软件要求是什么？
 
 <font color=5a6877> 【解决方法A1_00001】
 在安装编辑器或机器人之前，建议您先查看[硬件和软件要求](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)。为了避免安装失败，建议安装时：
@@ -11,7 +11,7 @@
  ---
  </br>
 
-### FAQ：使用许可证本地激活编辑器/机器人时，报错：“该许可证不能在当前计算机上注册。”
+### Q2：使用许可证本地激活编辑器/机器人时，报错：“该许可证不能在当前计算机上注册。”
 
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001.png)
 
@@ -20,13 +20,15 @@
 2. 如果许可证过期或无效
     * **过期时：**请在云扩控制台的“管理中心 > 许可证管理”中重新申请许可证。
     
-    * **无效时：**将许可证复制粘贴至记事本中，确认是否有多余的空格导致，尤其是许可证字符串的开头或结尾处。
+
+    无效时：将许可证复制粘贴至记事本中，确认是否有多余的空格导致，尤其是许可证字符串的开头或结尾处。
+
 
  </font></br></br>
 ---
 </br>
 
-### FAQ：使用控制台账号登录机器人时，报错：“连接字符串无效”。
+### Q3：使用控制台账号登录机器人时，报错：“连接字符串无效”。
 
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001-1.png)
 
@@ -37,7 +39,7 @@
 ---
 </br>
 
-### FAQ：机器人控制台激活时，提示：机器人内部异常，请稍后重试
+### Q4：机器人控制台激活时，提示：机器人内部异常，请稍后重试
 
 <font color=5a6877> 【解决方法A1_00004】:情况排查：
 已知两个情况：
@@ -51,7 +53,7 @@
 
 ## 二、插件/扩展
 
-### FAQ：安装扩展时已经关闭所有浏览器窗口，但仍提示关闭浏览器
+### Q1：安装扩展时已经关闭所有浏览器窗口，但仍提示关闭浏览器
 
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-1.png)
 
@@ -63,7 +65,7 @@
  ---
  </br>
 
-### FAQ：Chrome 录制失败，无法与 Chrome 扩展通信？
+### Q2：Chrome 录制失败，无法与 Chrome 扩展通信？
 <font color=5a6877> 【解决方法A2_00002】:若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
 1. 检查 chrome 浏览器扩展，是否安装了 chrome 扩展并且启用，如果未安装“云扩录制器”扩展，需要 通过 Studio 进行自动安装。
 ![-w400](https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/3-1.png)
