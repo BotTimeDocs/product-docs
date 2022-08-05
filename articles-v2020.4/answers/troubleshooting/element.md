@@ -3,7 +3,7 @@
 
 ### 一、元素定位/(界面&手机)自动化(报错索引表)
 
-<table width="756.70" border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
+<table  border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
    <colgroup><col width="308.65" style="mso-width-source:userset;mso-width-alt:15049;">
    <col width="149.35" span="3" style="mso-width-source:userset;mso-width-alt:7282;">
    </colgroup><tbody><tr height="17" style="height:17.00pt;">
