@@ -1,7 +1,7 @@
 # Error<表1>：常见安装激活(扩展)
 
 ### 一、报错索引1
-<table width="639.10" border="0" cellpadding="0" cellspacing="0" style="width:639.10pt;border-collapse:collapse;table-layout:fixed;">
+<table border="0" cellpadding="0" cellspacing="0" style="width:639.10pt;border-collapse:collapse;table-layout:fixed;">
    <colgroup><col width="281.65" style="mso-width-source:userset;mso-width-alt:13733;">
    <col width="119.15" span="3" style="mso-width-source:userset;mso-width-alt:5809;">
    </colgroup><tbody><tr height="22" style="height:22.00pt;mso-height-source:userset;mso-height-alt:440;">
