@@ -5,9 +5,21 @@
         "uuid": "",
         "labels": ""
     },
+        {
+        "name": "element.md",
+        "localizedName": "元素定位/识别",
+        "uuid": "",
+        "labels": ""
+    },
     {
         "name": "Office&Excel.md",
         "localizedName": "Offcie&Excel自动化",
+        "labels": ""
+    },
+        {
+        "name": "datatable&database.md",
+        "localizedName": "数据表/数据库",
+        "uuid": "",
         "labels": ""
     },
     {
@@ -16,18 +28,8 @@
         "uuid": "",
         "labels": ""
     },
-    {
-        "name": "element.md",
-        "localizedName": "元素定位/识别",
-        "uuid": "",
-        "labels": ""
-    },
-    {
-        "name": "datatable&database.md",
-        "localizedName": "数据表/数据库",
-        "uuid": "",
-        "labels": ""
-    },
+
+
     {
         "name": "others.md",
         "localizedName": "其他报错",
