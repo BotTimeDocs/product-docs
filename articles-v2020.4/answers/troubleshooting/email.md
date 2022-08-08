@@ -6,46 +6,59 @@
 
 ### 一、邮件相关(报错索引)
 
-<table  border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="308.65" style="mso-width-source:userset;mso-width-alt:15049;">
-   <col width="149.35" span="3" style="mso-width-source:userset;mso-width-alt:7282;">
-   </colgroup><tbody><tr height="17" style="height:17.00pt;">
-    <td class="xl65" height="17" width="308.65" x:autofilter="all" x:autofilterrange="$A$1:D5" style="height:17.00pt;width:308.65pt;" x:str="">错误信息/错误代码</td>
-    <td class="xl66" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引表</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">可能关联事件</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引编号</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">获取邮件信息失败</td>
-    <td class="xl67" x:str="">Error&lt;表5&gt;</td>
-    <td class="xl67" x:str="">获取邮件</td>
-    <td class="xl67" x:str="">AC0034</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">发送邮件失败。535: Login Fail. Please enter your authorization code to login.</td>
-    <td class="xl67" x:str="">Error&lt;表5&gt;</td>
-    <td class="xl67" x:str="">发送邮件</td>
-    <td class="xl67" x:str="">AC0035</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">连接服务器失败</td>
-    <td class="xl67" x:str="">Error&lt;表5&gt;</td>
-    <td class="xl67" x:str="">获取邮件</td>
-    <td class="xl67" x:str="">AC0036</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">[错误]Outlook的COM端口被占用，请检查是否有插件占用改端口或者关闭Outlook客户端。</td>
-    <td class="xl67" x:str="">Error&lt;表5&gt;</td>
-    <td class="xl67" x:str="">获取邮件</td>
-    <td class="xl67" x:str="">AC0037</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="309" style="width:309;"></td>
-     <td width="149" style="width:149;"></td>
-    </tr>
-   <!--[endif]-->
-  </tbody></table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-bzb2{color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 425px">
+<colgroup>
+<col style="width: 253px">
+<col style="width: 96px">
+<col style="width: 76px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-bzb2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">获取邮件信息失败</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">获取邮件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0034</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">发送邮件失败。535: Login Fail. Please enter your authorization code to login.</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">发送邮件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0035</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">连接服务器失败</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">获取邮件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0036</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]Outlook的COM端口被占用，请检查是否有插件占用改端口或者关闭Outlook客户端。</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">获取邮件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0037</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] 执行语句调用去重函数失败。详细错误信息：Fatal error encountered during command execution 少量数据不会报错，六千以上的数据会报错</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal">获取邮件</span></td>
+    <td class="tg-0lax"><br>AC0034<br></td>
+  </tr>
+</tbody>
+</table>
   
 <br>
 

@@ -7,124 +7,119 @@
 
 <br>
 
-<table border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="308.65" style="mso-width-source:userset;mso-width-alt:15049;">
-   <col width="149.35" span="3" style="mso-width-source:userset;mso-width-alt:7282;">
-   </colgroup><tbody><tr height="17" style="height:17.00pt;">
-    <td class="xl65" height="17" width="308.65" x:autofilter="all" x:autofilterrange="$A$1:D18" style="height:17.00pt;width:308.65pt;" x:str="">错误信息/错误代码</td>
-    <td class="xl66" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引表</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">可能关联事件</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引编号</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">call remote method timeout,method name : invokeRemoteUiObjectAsync</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">远程桌面断开</td>
-    <td class="xl67" x:str="">AC0038</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Data descriptor signature not found</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">解压缩文件</td>
-    <td class="xl67" x:str="">AC0039</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">[错误]循环操作失败，详细信息：Specified cast is not valid.</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">循环操作(For Each)</td>
-    <td class="xl67" x:str="">AC0044</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">服务未正常启动，请尝试手动启动服务或重启电脑</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程发布时</td>
-    <td class="xl67" x:str="">I0010</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">未能生成XXX视图</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0011</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">此组件缺失，或无法正常加载</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0012</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">[错误] 类型XXX的对象无法转换为类型XXX</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0013</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">[错误] Method not found…</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0014</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0015</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">[错误]活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">I0016</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">编辑器发布到机器人失败，错误原因：Database corrupted</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程发布时</td>
-    <td class="xl67" x:str="">I0017</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">请检查是否已安装机器人并处于正常运行状态</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程发布时</td>
-    <td class="xl67" x:str="">I0020</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">未检测到服务，可能被其他软件卸载</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程执行时</td>
-    <td class="xl67" x:str="">R0002</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">原因：拒绝访问</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程执行时</td>
-    <td class="xl67" x:str="">R0003</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">[Error] 未能转换部分或所有标识引用</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程执行时</td>
-    <td class="xl67" x:str="">R0004</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">活动"Encooworkflow.Main"的CacheMetadata引发了"System.Xaml.XmalObjectWriterException":无法设置未知成员…… 请确认相关的组件是否包含在nuget目录下</td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">打开流程包</td>
-    <td class="xl67" x:str="">R0005</td>
-   </tr>
-   <tr height="84" style="height:84.00pt;">
-    <td class="xl68" height="84" style="height:84.00pt;" x:str=""><a href="http://digpro.ininin.com/" target="_parent" title="http://digpro.ininin.com">“HTTPSConnectionPool(host='digpro.ininin.com', port=443): Max retries exceeded with url: /dpsthird/api/v1/production/save_or_update (Caused by NewConnectionError(': Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))”</a></td>
-    <td class="xl67" x:str="">Error&lt;表6&gt;</td>
-    <td class="xl67" x:str="">流程执行时</td>
-    <td class="xl67" x:str="">R0006</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="309" style="width:309;"></td>
-     <td width="149" style="width:149;"></td>
-    </tr>
-   <!--[endif]-->
-  </tbody></table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-bzb2{color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-7h26{color:#00E;text-align:left;text-decoration:underline;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 541px">
+<colgroup>
+<col style="width: 284px">
+<col style="width: 168px">
+<col style="width: 89px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-bzb2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">call remote method timeout,method name : invokeRemoteUiObjectAsync</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">远程桌面断开</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0038</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Data descriptor signature not found</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">解压缩文件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0039</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]循环操作失败，详细信息：Specified cast is not valid.</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">循环操作(For Each)</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0044</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">服务未正常启动，请尝试手动启动服务或重启电脑</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0010</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未能生成XXX视图</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0011</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">此组件缺失，或无法正常加载</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0012</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] 类型XXX的对象无法转换为类型XXX</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0013</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] Method not found…</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0014</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0015</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0016</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器发布到机器人失败，错误原因：Database corrupted</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0017</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">请检查是否已安装机器人并处于正常运行状态</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0020</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未检测到服务，可能被其他软件卸载</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">原因：拒绝访问</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0003</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[Error] 未能转换部分或所有标识引用</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0004</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">活动"Encooworkflow.Main"的CacheMetadata引发了"System.Xaml.XmalObjectWriterException":无法设置未知成员…… 请确认相关的组件是否包含在nuget目录下</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0005</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7h26"><a href="http://digpro.ininin.com/">“HTTPSConnectionPool(host='digpro.ininin.com', port=443): Max retries exceeded with url: /dpsthird/api/v1/production/save_or_update (Caused by NewConnectionError(': Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))”</a></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0006</span></td>
+  </tr>
+</tbody>
+</table>
 
 <br><br>
 

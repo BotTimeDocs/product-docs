@@ -1,154 +1,167 @@
 # Error<表1>：常见安装激活(扩展)
 
 ### 一、报错索引1
-<table border="0" cellpadding="0" cellspacing="0" style="width:639.10pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="281.65" style="mso-width-source:userset;mso-width-alt:13733;">
-   <col width="119.15" span="3" style="mso-width-source:userset;mso-width-alt:5809;">
-   </colgroup><tbody><tr height="22" style="height:22.00pt;mso-height-source:userset;mso-height-alt:440;">
-    <td class="xl65" height="22" width="281.65" style="height:22.00pt;width:281.65pt;" x:str="">错误信息/错误代码</td>
-    <td class="xl66" width="119.15" style="width:119.15pt;" x:str="">索引表</td>
-    <td class="xl65" width="119.15" style="width:119.15pt;" x:str="">可能关联事件</td>
-    <td class="xl65" width="119.15" style="width:119.15pt;" x:str="">索引编号</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">未知异常</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台机器人激活</td>
-    <td class="xl68" x:str="">C0001</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">机器人未授权，请在控制台绑定许可后重新连接</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台机器人激活</td>
-    <td class="xl68" x:str="">C0002</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">服务器内部异常</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台机器人激活</td>
-    <td class="xl68" x:str="">C0003</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">V3控制台许可证激活，只能激活部分，剩余部分无法激活。报“服务器内部异常”</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台激活</td>
-    <td class="xl68" x:str="">C0004</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">使用许可证本地激活编辑器/机器人时，报错：“该许可证不能在当前计算机上注册。”</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台激活</td>
-    <td class="xl68" x:str="">C0005</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">使用控制台账号登录机器人时，报错：“连接字符串无效”。</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台激活</td>
-    <td class="xl68" x:str="">C0006</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">机器人控制台激活时，提示：机器人内部异常，请稍后重试</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">控制台激活</td>
-    <td class="xl68" x:str="">C0007</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Java扩展安装失败!</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">扩展安装</td>
-    <td class="xl68" x:str="">E0001</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">检测到Java应用程序,请更新Java插件</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">扩展安装</td>
-    <td class="xl68" x:str="">E0002</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">此应用无法在你的电脑上运行</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0001</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">未将对象引用设置到对象的实例</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0002</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0003</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">[Installation has failed]There was an error while installing the application.Check the setup log for more information and contact the author</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0004</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">[Installation has failed] Failed to install the .NET Framework,try installing the latest version manually</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0005</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Value cannot be null.Parameter name:path1</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0006</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">该许可证不能在当前计算机上注册</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器本地激活</td>
-    <td class="xl68" x:str="">I0007</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0008</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">应用程序发送异常 未知的软件异常（0xe0434352），位置为0x76f7c5af。</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">/</td>
-    <td class="xl68" x:str="">I0009</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">[Installation has failed ]There was an error while installing the application.Check the setup log for more information and contact the author.</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0018</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">弹窗错误提示“应用程序无法启动，因为应用程序的并行配置不正确。有关详细信息，请参阅应用程序事件日志，或使用命令行sxstrace.exe 工具”</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">/</td>
-    <td class="xl68" x:str="">I0019</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Install .Net 4.6.2</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">编辑器安装</td>
-    <td class="xl68" x:str="">I0021</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">无效许可提示</td>
-    <td class="xl68" x:str="">Error&lt;表1&gt;</td>
-    <td class="xl68" x:str="">激活机器人</td>
-    <td class="xl68" x:str="">R0001</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="282" style="width:282;"></td>
-     <td width="119" style="width:119;"></td>
-    </tr>
-   <!--[endif]-->
-  </tbody></table>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 549px">
+<colgroup>
+<col style="width: 236px">
+<col style="width: 101px">
+<col style="width: 131px">
+<col style="width: 81px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引表</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未知异常</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台机器人激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0001</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">机器人未授权，请在控制台绑定许可后重新连接</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台机器人激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">服务器内部异常</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台机器人激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0003</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">V3控制台许可证激活，只能激活部分，剩余部分无法激活。报“服务器内部异常”</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0004</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">使用许可证本地激活编辑器/机器人时，报错：“该许可证不能在当前计算机上注册。”</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0005</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">使用控制台账号登录机器人时，报错：“连接字符串无效”。</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0006</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">机器人控制台激活时，提示：机器人内部异常，请稍后重试</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">控制台激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">C0007</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Java扩展安装失败!</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">扩展安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">E0001</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">检测到Java应用程序,请更新Java插件</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">扩展安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">E0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">此应用无法在你的电脑上运行</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0001</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未将对象引用设置到对象的实例</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0003</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[Installation has failed]There was an error while installing the application.Check the setup log for more information and contact the author</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0004</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[Installation has failed] Failed to install the .NET Framework,try installing the latest version manually</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0005</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Value cannot be null.Parameter name:path1</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0006</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">该许可证不能在当前计算机上注册</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器本地激活</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0007</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0008</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">应用程序发送异常 未知的软件异常（0xe0434352），位置为0x76f7c5af。</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">/</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0009</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[Installation has failed ]There was an error while installing the application.Check the setup log for more information and contact the author.</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0018</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">弹窗错误提示“应用程序无法启动，因为应用程序的并行配置不正确。有关详细信息，请参阅应用程序事件日志，或使用命令行sxstrace.exe 工具”</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">/</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0019</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Install .Net 4.6.2</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0021</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">无效许可提示</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Error&lt;表1&gt;</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">激活机器人</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0001</span></td>
+  </tr>
+</tbody>
+</table>
 
 <br><br><br>
   
@@ -163,7 +176,7 @@
 <font color=5a6877>
 <br>
 
-**【解决办法-C0004】** ：V3升级V4 可解决对应问题，升级请联系商务。
+**【解决办法-C0004】**：V3升级V4 可解决对应问题，升级请联系商务。
 
 </font>
 <br><br>
@@ -236,7 +249,6 @@
 <br>
 
 #### Q：未将对象引用设置到对象的实例
-
 * 编辑器安装时，显示发生了以下错误，错误信息：未将对象引用设置到对象的实例
 
 <br>
@@ -277,7 +289,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 <br>
 
-**【解决办法-I0021】** 我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
+**【解决办法-I0021】**我们安装包自带.net 4.6.2的，如果系统没有.net 4.6.2，安装我们产品时也会自动安装4.6.2。那其实最终原因还是之前电脑的net坏了，不是版本问题。或者之
 
 </font><br><br>
 ---
@@ -288,7 +300,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 <br>
 
-**【解决办法-I0004】** 编辑器安装失败确认排查步骤如下 ：
+**【解决办法-I0004】**编辑器安装失败确认排查步骤如下 ：
 * Step1：检查杀毒软件是否正在运行，关闭杀毒软件(如，360 软件)后重新安装。
 * Step2：检查当前用户在安装目录的读写权限，如果当前用户在安装路径没有读写权限，则要用管理员账号登录，在安装目录右键，点击属性，点击安全标签，添加目标账户，并添加完全控制权限，最后点击确定，然后退出管理员账号，用目标用户登录进行安装。
 
@@ -301,7 +313,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 <br>
 
-**【解决办法-I0005】** robot运行是基于.net环境的，如果是win7操作系统，则需要手动安装下.net插件，可以通过离线包安装
+**【解决办法-I0005】**robot运行是基于.net环境的，如果是win7操作系统，则需要手动安装下.net插件，可以通过离线包安装
 
 </font><br><br>
 ---
@@ -312,8 +324,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 <font color=5a6877>
 <br>
 
-**【解决办法-I0006】**  开启杀毒软件导致的，关闭后重新安装就好了
-
+**【解决办法-I0006】**开启杀毒软件导致的，关闭后重新安装就好了
 </font><br><br>
 ---
 <br>
@@ -325,7 +336,6 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 **【解决办法-I0007】**
 请联系商务确认是否许可证不对，若不对重新购买或申请许可证
-
 </font><br><br>
 ---
 <br>
@@ -485,7 +495,6 @@ DISM.exe /Online /Cleanup-image /Restorehealth
 关闭命令提示符并重新启动 PC 并检查它是否正常工作。
 
 参考链接：[《The application has failed to start because the side by side configuration is incorrect Windows 10》](https://answers.microsoft.com/en-us/windows/forum/all/the-application-has-failed-to-start-because-the/5c6a015e-4162-491d-b7d9-f3b13612e304)
-
 </font>
 <br><br>
 ---
