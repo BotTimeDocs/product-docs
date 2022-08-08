@@ -4,227 +4,203 @@
 
 ### 一、Excel/Office自动化 (报错索引)
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 503px">
+<colgroup>
+<col style="width: 283px">
+<col style="width: 105px">
+<col style="width: 115px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x80070057</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">环境_三方软件冲突、筛选</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0001</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x80029C4A</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">环境_加载类型库/DLL</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x80004002</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">环境_COM类相关</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0003</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">检索 COM 类工厂中 CLSID 为 {00021A20-0000-0000-C000-000000000046} 的组件时失败，原因是出现以下错误: 0x80080005</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">环境_COM类相关</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0004</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x80040154</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">环境_COM类相关</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0005</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x8001010A</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">运行_可视</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0006</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x80010105</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0007</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x800A03EC</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0008</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x8002801D</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0009</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">定时任务，打开/新建失败，HRESULT:0x80080005</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0010</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x8007065E</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0011</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x800A03EC</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">写入单元格</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0012</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x8002000A</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">写入单元格</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0013</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x800A01A8</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">读取区域</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0014</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x800706BA</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">执行宏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0015</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x800A03EC</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">执行宏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0016</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">0x8FE3301F</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0017</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">加载类型库/DLL 时出错</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0018</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Excel尚未安装</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0019</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">文件扩展名不正确</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0020</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">OPC Compliance error [M4.3]</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">读取单元格、读取区域</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0021</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">输入区域无效</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">读取区域</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0022</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">类Range的AutoFilter方法无效</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">筛选</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0023</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">RPC 服务器不可用</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">执行宏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0024</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">不信任到Visual Basic Project的程序连接</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">执行宏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0025</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">类 PivotTable 的 PivotFields 方法无效</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">筛选</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0026</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">不支持给定路径的格式</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">新建文件/文件夹</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0027</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Your stream was neither an OLE2 stream, nor an OOXML stream.</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0028</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">无法对多重选择区域执行此操作</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">写入区域</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0029</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">指定的参数已超出有效值的范围</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">排序</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0040</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">详细错误信息：无法保存。(异常来自HRESULT:0x80030103(STG_E_CANTSAVE))</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">删除列</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0041</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">详细错误信息：灾难性故障(异常来自 HRESULT:0x8000FFFF(_UNEXPECTED))</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">/</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0042</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">800A0023</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">执行宏</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0043</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建失败。详细错误信息：The document cannot be opened because there is an invalid part with an unexpected content type.</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开/新建</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0045</span></td>
+  </tr>
+</tbody>
+</table>
 
-<table  border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="308.65" style="mso-width-source:userset;mso-width-alt:15049;">
-   <col width="149.35" span="3" style="mso-width-source:userset;mso-width-alt:7282;">
-   </colgroup><tbody><tr height="17" style="height:17.00pt;">
-    <td class="xl65" height="17" width="308.65" x:autofilter="all" x:autofilterrange="$A$1:D35" style="height:17.00pt;width:308.65pt;" x:str="">错误信息/错误代码</td>
-    <td class="xl66" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引表</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">可能关联事件</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引编号</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x80070057</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">环境_三方软件冲突、筛选</td>
-    <td class="xl67" x:str="">AC0001</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x80029C4A</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">环境_加载类型库/DLL</td>
-    <td class="xl67" x:str="">AC0002</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x80004002</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">环境_COM类相关</td>
-    <td class="xl67" x:str="">AC0003</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">检索 COM 类工厂中 CLSID 为 {00021A20-0000-0000-C000-000000000046} 的组件时失败，原因是出现以下错误: 0x80080005</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">环境_COM类相关</td>
-    <td class="xl67" x:str="">AC0004</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x80040154</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">环境_COM类相关</td>
-    <td class="xl67" x:str="">AC0005</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x8001010A</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">运行_可视</td>
-    <td class="xl67" x:str="">AC0006</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x80010105</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0007</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x800A03EC</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0008</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x8002801D</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0009</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">定时任务，打开/新建失败，HRESULT:0x80080005</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0010</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x8007065E</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0011</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x800A03EC</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">写入单元格</td>
-    <td class="xl67" x:str="">AC0012</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x8002000A</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">写入单元格</td>
-    <td class="xl67" x:str="">AC0013</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x800A01A8</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">读取区域</td>
-    <td class="xl67" x:str="">AC0014</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x800706BA</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">执行宏</td>
-    <td class="xl67" x:str="">AC0015</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x800A03EC</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">执行宏</td>
-    <td class="xl67" x:str="">AC0016</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">0x8FE3301F</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">创建透视表</td>
-    <td class="xl67" x:str="">AC0017</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">加载类型库/DLL 时出错</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0018</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Excel尚未安装</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0019</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">文件扩展名不正确</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0020</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">OPC Compliance error [M4.3]</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">读取单元格、读取区域</td>
-    <td class="xl67" x:str="">AC0021</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">输入区域无效</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">读取区域</td>
-    <td class="xl67" x:str="">AC0022</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">类Range的AutoFilter方法无效</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">筛选</td>
-    <td class="xl67" x:str="">AC0023</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">RPC 服务器不可用</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">执行宏</td>
-    <td class="xl67" x:str="">AC0024</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">不信任到Visual Basic Project的程序连接</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">执行宏</td>
-    <td class="xl67" x:str="">AC0025</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">类 PivotTable 的 PivotFields 方法无效</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">筛选</td>
-    <td class="xl67" x:str="">AC0026</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">不支持给定路径的格式</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">新建文件/文件夹</td>
-    <td class="xl67" x:str="">AC0027</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">Your stream was neither an OLE2 stream, nor an OOXML stream.</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0028</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">无法对多重选择区域执行此操作</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">写入区域</td>
-    <td class="xl67" x:str="">AC0029</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">指定的参数已超出有效值的范围</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">排序</td>
-    <td class="xl67" x:str="">AC0040</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">详细错误信息：无法保存。(异常来自HRESULT:0x80030103(STG_E_CANTSAVE))</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">删除列</td>
-    <td class="xl67" x:str="">AC0041</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">详细错误信息：灾难性故障(异常来自 HRESULT:0x8000FFFF(_UNEXPECTED))</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">/</td>
-    <td class="xl67" x:str="">AC0042</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">800A0023</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">执行宏</td>
-    <td class="xl67" x:str="">AC0043</td>
-   </tr>
-   <tr height="51" style="height:51.00pt;">
-    <td class="xl67" height="51" style="height:51.00pt;" x:str="">打开/新建失败。详细错误信息：The document cannot be opened because there is an invalid part with an unexpected content type.</td>
-    <td class="xl67" x:str="">Error&lt;表3&gt;</td>
-    <td class="xl67" x:str="">打开/新建</td>
-    <td class="xl67" x:str="">AC0045</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="309" style="width:309;"></td>
-     <td width="149" style="width:149;"></td>
-    </tr>
-   <!--[endif]-->
-  </tbody></table>
+<br><br><br>
 
 
 
