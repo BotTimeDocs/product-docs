@@ -2,119 +2,115 @@
 
 
 ### 一、元素定位/(界面&手机)自动化(报错索引表)
-
-<table  border="0" cellpadding="0" cellspacing="0" style="width:756.70pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="308.65" style="mso-width-source:userset;mso-width-alt:15049;">
-   <col width="149.35" span="3" style="mso-width-source:userset;mso-width-alt:7282;">
-   </colgroup><tbody><tr height="17" style="height:17.00pt;">
-    <td class="xl65" height="17" width="308.65" x:autofilter="all" x:autofilterrange="$A$1:D17" style="height:17.00pt;width:308.65pt;" x:str="">错误信息/错误代码</td>
-    <td class="xl66" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引表</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">可能关联事件</td>
-    <td class="xl65" width="149.35" x:autofilter="all" style="width:149.35pt;" x:str="">索引编号</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">元素不支持通过设置控件的方式点击</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">点击</td>
-    <td class="xl67" x:str="">AA0001</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">定位元素超时</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">点击</td>
-    <td class="xl67" x:str="">AA0002</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">打开浏览器失败。the operation has timed out</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">打开浏览器</td>
-    <td class="xl67" x:str="">AA0003</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">所请求的剪贴板操作失败。</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">设置剪贴板</td>
-    <td class="xl67" x:str="">AA0004</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">用户回调引发异常</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">网银登录界面</td>
-    <td class="xl67" x:str="">AA0005</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">句柄无效</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">网银登录界面</td>
-    <td class="xl67" x:str="">AA0006</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">云扩录制器奔溃了</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">私有化环境、权限问题</td>
-    <td class="xl67" x:str="">AA0007</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">不能根据选择器获取窗体</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">指定元素</td>
-    <td class="xl67" x:str="">AA0008</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Bitblt调用失败Error:6</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">截屏、远程桌面</td>
-    <td class="xl67" x:str="">AA0009</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">打开浏览器失败</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">打开浏览器</td>
-    <td class="xl67" x:str="">AA0010</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">Poco Service服务启动异常</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">手机自动化</td>
-    <td class="xl67" x:str="">AA0011</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">手机自动化时，提示“请确保移动设备管理器已打开，已有设备连接”</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">手机自动化</td>
-    <td class="xl67" x:str="">AA0012</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">IE浏览器 弹窗提示 “停止运行此脚本”</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">获取结构化数据</td>
-    <td class="xl67" x:str="">AA0013</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">一个或多个ActiveX控件无法显示……</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">IE浏览器</td>
-    <td class="xl67" x:str="">AA0014</td>
-   </tr>
-   <tr height="17" style="height:17.00pt;">
-    <td class="xl67" height="17" style="height:17.00pt;" x:str="">(幽灵键鼠)第三方组件会报这个异常"[错误]设备无效"</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">网银界面登录</td>
-    <td class="xl67" x:str="">AA0015</td>
-   </tr>
-   <tr height="34" style="height:34.00pt;">
-    <td class="xl67" height="34" style="height:34.00pt;" x:str="">[错误]推送文件到手机失败。详细错误信息：指令类型不存在。推送文件到手机，服务管理器里面这么显示的</td>
-    <td class="xl67" x:str="">Error&lt;表2&gt;</td>
-    <td class="xl67" x:str="">手机自动化</td>
-    <td class="xl67" x:str="">AA0016</td>
-   </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="309" style="width:309;"></td>
-     <td width="149" style="width:149;"></td>
-    </tr>
-   <!--[endif]-->
-  </tbody></table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 438px">
+<colgroup>
+<col style="width: 208px">
+<col style="width: 133px">
+<col style="width: 97px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
+    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">元素不支持通过设置控件的方式点击</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">点击</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0001</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">定位元素超时</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">点击</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0002</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开浏览器失败。the operation has timed out</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开浏览器</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0003</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">所请求的剪贴板操作失败。</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">设置剪贴板</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0004</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">用户回调引发异常</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">网银登录界面</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0005</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">句柄无效</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">网银登录界面</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0006</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">云扩录制器奔溃了</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">私有化环境、权限问题</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0007</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">不能根据选择器获取窗体</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">指定元素</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0008</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Bitblt调用失败Error:6</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">截屏、远程桌面</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0009</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开浏览器失败</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开浏览器</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0010</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Poco Service服务启动异常</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">手机自动化</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0011</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">手机自动化时，提示“请确保移动设备管理器已打开，已有设备连接”</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">手机自动化</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0012</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">IE浏览器 弹窗提示 “停止运行此脚本”</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">获取结构化数据</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0013</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">一个或多个ActiveX控件无法显示……</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">IE浏览器</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0014</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">(幽灵键鼠)第三方组件会报这个异常"[错误]设备无效"</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">网银界面登录</span></td>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0015</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]推送文件到手机失败。详细错误信息：指令类型不存在。</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">手机自动化</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AA0016</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">推送文件到手机，服务管理器里面这么显示的</span></td>
+  </tr>
+</tbody>
+</table>
   
   <br> <br> <br>
   
