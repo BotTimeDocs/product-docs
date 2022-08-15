@@ -29,134 +29,134 @@
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl66" height="266" rowspan="14" style="height:266.00pt;border-right:.5pt solid windowtext;border-right-style:hairline;border-bottom:.5pt solid windowtext;border-bottom-style:hairline;" x:str="">一、元素识别定位</td>
     <td class="xl67" x:str="">无法识别到指定的元素，怎么办？</td>
-    <td class="xl68" x:str=""><br>A_300001</td>
+    <td class="xl68" x:str=""><br>A3_00001</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">用循环重复做同样的操作获取网页结构化数据，为何每次获取的数据都缺少一列？</td>
-    <td class="xl68" x:str=""><br>A_300002</td>
+    <td class="xl68" x:str=""><br>A3_00002</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">如何使用用友U8获取结构化数据？</td>
-    <td class="xl68" x:str=""><br>A_300003</td>
+    <td class="xl68" x:str=""><br>A3_00003</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">如何获取表格内的其他属性，比如Web文本上的超链接？</td>
-    <td class="xl68" x:str=""><br>A_300004</td>
+    <td class="xl68" x:str=""><br>A3_00004</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">指定元素时报错“无法识别您所指定元素的规律，无法获取……”该如何处理？</td>
-    <td class="xl68" x:str=""><br>A_300005</td>
+    <td class="xl68" x:str=""><br>A3_00005</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">指定元素成功，但获取到的表格为空是什么原因？</td>
-    <td class="xl68" x:str=""><br>A_300006</td>
+    <td class="xl68" x:str=""><br>A3_00006</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">Chrome打印页面元素验证失败，如何处理？</td>
-    <td class="xl68" x:str=""><br>A_300007</td>
+    <td class="xl68" x:str=""><br>A3_00007</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">使用鼠标系列组件拖动窗口滚动条时无法定位或运行成功但未成功滚动，如何处理？</td>
-    <td class="xl68" x:str=""><br>A_300008</td>
+    <td class="xl68" x:str=""><br>A3_00008</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">鼠标拖动成功但滚动条只滚动了一点，是怎么回事？</td>
-    <td class="xl68" x:str=""><br>A_300009</td>
+    <td class="xl68" x:str=""><br>A3_00009</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">输入文本时被输入法拦截导致输入内容发送变化，怎么办？</td>
-    <td class="xl68" x:str=""><br>A_300010</td>
+    <td class="xl68" x:str=""><br>A3_00010</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">输入文本组件：运行成功但文本未被成功输入，如何解决？</td>
-    <td class="xl68" x:str=""><br>A_300011</td>
+    <td class="xl68" x:str=""><br>A3_00011</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">输入文本组件：提示“元素无法输入文本”或不能指定的元素时如何处理？</td>
-    <td class="xl68" x:str=""><br>A_300012</td>
+    <td class="xl68" x:str=""><br>A3_00012</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">自动化过程中提示需要“管理员权限”时如何处理？</td>
-    <td class="xl68" x:str=""><br>A_300013</td>
+    <td class="xl68" x:str=""><br>A3_00013</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str=""><br>市场的模拟键盘输入组件输入长字符串会被吞掉一些内容，比如输入123456，运行时变成了23456</td>
-    <td class="xl68" x:str=""><br>A_300014</td>
+    <td class="xl68" x:str=""><br>A3_00014</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl66" height="133" rowspan="7" style="height:133.00pt;border-right:.5pt solid windowtext;border-right-style:hairline;border-bottom:.5pt solid windowtext;border-bottom-style:hairline;" x:str="">二、Excel自动化</td>
     <td class="xl67" x:str="">删除失败或写入组件失败，一直卡在删除或写入组件</td>
-    <td class="xl68" x:str=""><br>A_400001</td>
+    <td class="xl68" x:str=""><br>A4_00001</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">写入公式,单元格的格式是文本(其实是带了'),导致需要双击下单元格确认格式才能生效</td>
-    <td class="xl68" x:str=""><br>A_400002</td>
+    <td class="xl68" x:str=""><br>A4_00002</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">写入区域卡死</td>
-    <td class="xl68" x:str=""><br>A_400003</td>
+    <td class="xl68" x:str=""><br>A4_00003</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">Excel/WPS组件：读取单元格内容，出现换行？</td>
-    <td class="xl68" x:str=""><br>A_400004</td>
+    <td class="xl68" x:str=""><br>A4_00004</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">Excel/WPS组件：写入单元格怎么换行？</td>
-    <td class="xl68" x:str=""><br>A_400005</td>
+    <td class="xl68" x:str=""><br>A4_00005</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">Excel/WPS组件：如何取消工作表密码保护</td>
-    <td class="xl68" x:str=""><br>A_400006</td>
+    <td class="xl68" x:str=""><br>A4_00006</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">Excel/WPS组件：如何关闭数据链接更新提示弹窗？</td>
-    <td class="xl68" x:str=""><br>A_400007</td>
+    <td class="xl68" x:str=""><br>A4_00007</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl66" height="171" rowspan="9" style="height:171.00pt;border-right:.5pt solid windowtext;border-right-style:hairline;border-bottom:.5pt solid windowtext;border-bottom-style:hairline;" x:str="">三、（其他）流程开发问题</td>
     <td class="xl67" x:str="">2022年7月 新版本发布后 为什么没有引用项目 这个选项？</td>
-    <td class="xl68" x:str=""><br>A_500001</td>
+    <td class="xl68" x:str=""><br>A5_00001</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">屏幕解锁，设置了对应的解锁组件，但是不生效 ？</td>
-    <td class="xl68" x:str="">A_500002</td>
+    <td class="xl68" x:str="">A5_00002</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">市场组件如何重命名？</td>
-    <td class="xl68" x:str="">A_500003</td>
+    <td class="xl68" x:str="">A5_00003</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">如何设置编辑器成英文版本</td>
-    <td class="xl68" x:str="">A_500004</td>
+    <td class="xl68" x:str="">A5_00004</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">元素录制的时候，xpath录制会不会相对来说比较稳定？</td>
-    <td class="xl68" x:str="">A_500005</td>
+    <td class="xl68" x:str="">A5_00005</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">文本框中自动输入时间的时候出现乱码</td>
-    <td class="xl68" x:str="">A_500006</td>
+    <td class="xl68" x:str="">A5_00006</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">当选择器指定元素 同时找到多个元素时候的处理办法<span style="mso-spacerun:yes;">&nbsp;</span></td>
-    <td class="xl68" x:str="">A_500007</td>
+    <td class="xl68" x:str="">A5_00007</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">用远程桌面跑流程，我远程桌面最小化后，就获取不到元素了</td>
-    <td class="xl68" x:str="">A_500008</td>
+    <td class="xl68" x:str="">A5_00008</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">查询sql，查询语句如何传参？</td>
-    <td class="xl68" x:str="">A_500009</td>
+    <td class="xl68" x:str="">A5_00009</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl66" height="57" rowspan="3" style="height:57.00pt;border-right:.5pt solid windowtext;border-right-style:hairline;border-bottom:.5pt solid windowtext;border-bottom-style:hairline;" x:str="">四、流程运行与维护</td>
     <td class="xl67" x:str="">机器人运行时黑屏，如何排查与解决？<span style="mso-spacerun:yes;">&nbsp;</span></td>
-    <td class="xl68" x:str="">A_600001</td>
+    <td class="xl68" x:str="">A6_00001</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">日志文件 可以更改存放路径吗 ？</td>
-    <td class="xl68" x:str="">A_600002</td>
+    <td class="xl68" x:str="">A6_00002</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">机器人的流程视频日志存放路径是什么？</td>
@@ -165,11 +165,11 @@
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl66" height="38" rowspan="2" style="height:38.00pt;border-right:.5pt solid windowtext;border-right-style:hairline;border-bottom:.5pt solid windowtext;border-bottom-style:hairline;" x:str="">五、私有化部署</td>
     <td class="xl67" x:str="">如何清理私有化部署中的日志文件？</td>
-    <td class="xl68" x:str="">A_700001</td>
+    <td class="xl68" x:str="">A7_00001</td>
    </tr>
    <tr height="19" style="height:19.00pt;mso-height-source:userset;mso-height-alt:380;">
     <td class="xl67" x:str="">控制台存放日志和机器人上传的视频的目录在服务器什么位置？</td>
-    <td class="xl68" x:str="">A_700002</td>
+    <td class="xl68" x:str="">A7_00002</td>
    </tr>
    <!--[if supportMisalignedColumns]-->
     <tr width="0" style="display:none;">
