@@ -4,12 +4,12 @@
 ### 一、异常报错
 
 
-Error1：常见安装激活(扩展)
-Error2：元素定位/识别
-Error3：Office & Excel自动化
-Error4：数据表/数据库
-Error5：邮件相关
-Error6：其他报错
+Error1：常见安装激活(扩展) <br>
+Error2：元素定位/识别<br>
+Error3：Office & Excel自动化<br>
+Error4：数据表/数据库<br>
+Error5：邮件相关<br>
+Error6：其他报错<br>
 
 ---
 
@@ -31,12 +31,12 @@ Error6：其他报错
 ### 二、RPA常见_使用问题
 
 
-FAQ1：安装、激活&登录
-FAQ2：元素识别定位
-FAQ3：Excel自动化
-FAQ4：其它_流程开发问题
-FAQ5：流程运行与维护
-FAQ6：私有化部署
+FAQ1：安装、激活&登录<br>
+FAQ2：元素识别定位<br>
+FAQ3：Excel自动化<br>
+FAQ4：其它_流程开发问题<br>
+FAQ5：流程运行与维护<br>
+FAQ6：私有化部署<br>
 
 ---
 
