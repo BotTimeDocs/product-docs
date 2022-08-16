@@ -2,11 +2,11 @@
 
     {
         "name": "troubleshooting",
-        "localizedName": "错误索引速查"
+        "localizedName": "RPA异常报错--速查"
     },
     {
         "id": null,
         "name": "Q&A",
-        "localizedName": "常见RPA使用问题"
+        "localizedName": "RPA开发常见问题"
     }
 ]
