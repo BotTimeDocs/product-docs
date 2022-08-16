@@ -46,5 +46,11 @@
         "localizedName": "接口文档",
         "uuid": "",
         "labels": ""
+    },
+    {
+        "name": "PrivateDeployment",
+        "localizedName": "私有化部署",
+        "uuid": "",
+        "labels": ""
     }
 ]
