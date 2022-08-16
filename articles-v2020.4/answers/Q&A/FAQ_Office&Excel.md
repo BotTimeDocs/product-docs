@@ -5,7 +5,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400001】：去掉保护
+<font color=5a6877> 【解决办法A4_00001】：去掉保护
 
  </font><br><br>
  ---
@@ -15,7 +15,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400002】：可以先设置格式在插入,或者把插入的那一列改为数值格式,或者用执行宏
+<font color=5a6877> 【解决办法A4_00002】：可以先设置格式在插入,或者把插入的那一列改为数值格式,或者用执行宏
 
  </font><br><br>
  ---
@@ -25,7 +25,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400003】:某些数据含有特殊字符,比如CSV转excel的情况下
+<font color=5a6877> 【解决办法A4_00003】:某些数据含有特殊字符,比如CSV转excel的情况下
 
 
  </font><br><br>
@@ -36,7 +36,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400004】:str.Trim('\n')
+<font color=5a6877> 【解决办法A4_00004】:str.Trim('\n')
 
  </font><br><br>
  ---
@@ -46,7 +46,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400005】:写入内容输入 +'\n' 就可以换行了
+<font color=5a6877> 【解决办法A4_00005】:写入内容输入 +'\n' 就可以换行了
 
  </font><br><br>
  ---
@@ -56,7 +56,7 @@
 
 <br>
 
-<font color=5a6877> 【解决办法A_400006】:如下所示
+<font color=5a6877> 【解决办法A4_00006】:如下所示
 
 <br>
 
@@ -73,7 +73,9 @@
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/7-2.png"/>
 
-<font color=5a6877> <br><br><br>【解决办法A_400007】: 选择 Excel选项>> 高级>> 常规>>请求自动更新<br>
+<font color=5a6877> <br><br><br>【解决办法A4_00007】: 选择 Excel选项>> 高级>> 常规>>请求自动更新<br>
+
+<br>
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/7-3.png"/>
 

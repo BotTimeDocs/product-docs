@@ -4,7 +4,10 @@
 
 ### Q：安装编辑器或机器人的硬件和软件要求是什么？
 
-<font color=5a6877> 【解决方法A1_00001】
+<font color=5a6877> 
+
+【解决方法A1_00001】
+
 在安装编辑器或机器人之前，建议您先查看[硬件和软件要求](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)。为了避免安装失败，建议安装时：
 * 关闭杀毒软件
 * 使用管理员权限安装
@@ -24,7 +27,14 @@
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-1.png"/>
 
 
-<font color=5a6877> 【解决方法A2_00001】:出现该提示时可打开“任务管理器”找到提示的浏览器进程，选中后点击“结束任务”之后重新安装浏览器扩展即可。
+<font color=5a6877> 
+
+<br>
+<br>
+
+**【解决方法A2_00001】**:
+
+出现该提示时可打开“任务管理器”找到提示的浏览器进程，选中后点击“结束任务”之后重新安装浏览器扩展即可。
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-2.png"/>
 
@@ -33,13 +43,19 @@
  <br>
 
 ### Q：Chrome 录制失败，无法与 Chrome 扩展通信？
-<font color=5a6877> 【解决方法A2_00002】:若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
+<font color=5a6877> 
+
+
+**【解决方法A2_00002】**:若出现无法与浏览器扩展通讯的提示，可按照如下步骤排查：
+
 1. 检查 chrome 浏览器扩展，是否安装了 chrome 扩展并且启用，如果未安装“云扩录制器”扩展，需要 通过 Studio 进行自动安装。
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/3-1.png"/>
 
 
+
 2. 当打开 chrome 后，检查“任务管理器”中是否存在 EncooNativeMessageHost.exe 进程：，该进程是 RPA 与 chrome 浏览器的通信进程，如果不存在，则检查(1)。
+
 
 **<说明>**
 * 如果 EncooNativeMessageHost.exe 进程未启动，需暂时关闭杀毒软件的防护功能，然后 通过 Studio 进行自动安装。
