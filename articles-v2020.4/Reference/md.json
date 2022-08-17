@@ -36,8 +36,8 @@
         "labels": ""
     },
     {
-        "name": "Glossary.md",
-        "localizedName": "术语解释",
+        "name": "PrivateDeployment",
+        "localizedName": "私有化部署",
         "uuid": "",
         "labels": ""
     },
@@ -48,8 +48,8 @@
         "labels": ""
     },
     {
-        "name": "PrivateDeployment",
-        "localizedName": "私有化部署",
+        "name": "Glossary.md",
+        "localizedName": "术语解释",
         "uuid": "",
         "labels": ""
     }
