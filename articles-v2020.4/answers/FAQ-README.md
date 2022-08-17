@@ -592,7 +592,6 @@ FAQ6：私有化部署<br>
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-cly1{text-align:left;vertical-align:middle}
 .tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-8d8j{text-align:center;vertical-align:bottom}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 712px">
@@ -612,7 +611,7 @@ FAQ6：私有化部署<br>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-8d8j" rowspan="3">FAQ1：安装、激活&amp;登录</td>
+    <td class="tg-nrix" rowspan="3">FAQ1：安装、激活&amp;登录</td>
     <td class="tg-cly1">安装编辑器或机器人的硬件和软件要求是什么？</td>
     <td class="tg-cly1">硬件和软件要求</td>
     <td class="tg-0lax">A1_00001</td>
@@ -628,7 +627,7 @@ FAQ6：私有化部署<br>
     <td class="tg-0lax">A2_00002</td>
   </tr>
   <tr>
-    <td class="tg-8d8j" rowspan="14">FAQ2：元素识别定位</td>
+    <td class="tg-nrix" rowspan="14">FAQ2：元素识别定位</td>
     <td class="tg-cly1">无法识别到指定的元素，怎么办？</td>
     <td class="tg-cly1">指定元素</td>
     <td class="tg-0lax">A3_00001</td>
@@ -699,7 +698,7 @@ FAQ6：私有化部署<br>
     <td class="tg-0lax">A3_00014</td>
   </tr>
   <tr>
-    <td class="tg-8d8j" rowspan="7">FAQ3：Excel自动化</td>
+    <td class="tg-nrix" rowspan="7">FAQ3：Excel自动化</td>
     <td class="tg-cly1">删除失败或写入组件失败，一直卡在删除或写入区域组件</td>
     <td class="tg-cly1">写入区域</td>
     <td class="tg-0lax">A4_00001</td>
@@ -735,7 +734,7 @@ FAQ6：私有化部署<br>
     <td class="tg-0lax">A4_00007</td>
   </tr>
   <tr>
-    <td class="tg-8d8j" rowspan="10">FAQ4：其它_流程开发问题</td>
+    <td class="tg-nrix" rowspan="10">FAQ4：其它_流程开发问题</td>
     <td class="tg-cly1">2022年7月 新版本发布后 为什么没有引用项目 这个选项？</td>
     <td class="tg-cly1">引用组件项目</td>
     <td class="tg-0lax">A5_00001</td>
@@ -786,7 +785,7 @@ FAQ6：私有化部署<br>
     <td class="tg-cly1">A5_00010</td>
   </tr>
   <tr>
-    <td class="tg-8d8j" rowspan="4">FAQ5：流程运行与维护</td>
+    <td class="tg-nrix" rowspan="4">FAQ5：流程运行与维护</td>
     <td class="tg-cly1">机器人运行时黑屏，如何排查与解决？ </td>
     <td class="tg-cly1">机器人日志</td>
     <td class="tg-cly1">A6_00001</td>
@@ -807,7 +806,7 @@ FAQ6：私有化部署<br>
     <td class="tg-cly1">A6_00004</td>
   </tr>
   <tr>
-    <td class="tg-8d8j" rowspan="2">FAQ6：私有化部署</td>
+    <td class="tg-nrix" rowspan="2">FAQ6：私有化部署</td>
     <td class="tg-cly1">如何清理私有化部署中的日志文件？</td>
     <td class="tg-cly1">日志管理</td>
     <td class="tg-cly1">A7_00001</td>
