@@ -1,25 +1,11 @@
 [
     {
-        "name": "",
-        "localizedName": "常见安装问题",
-        "uuid": "",
-        "labels": "常见安装问题"
-    },
-    {
-        "name": "rpaFAQ.md",
-        "localizedName": "常见使用问题",
-        "uuid": "",
-        "labels": "常见使用问题"
-    }
-
-    [
-    {
         "name": "FAQ_install&login.md",
         "localizedName": "FAQ1：安装、激活&登录",
         "uuid": "",
         "labels": ""
     },
-        {
+    {
         "name": "FAQ_element.md",
         "localizedName": "FAQ2：元素识别定位",
         "uuid": "",
@@ -30,7 +16,7 @@
         "localizedName": "FAQ3：Excel自动化",
         "labels": ""
     },
-        {
+    {
         "name": "FAQ_OthersRPA.md",
         "localizedName": "FAQ4：其它_流程开发问题",
         "uuid": "",
@@ -42,14 +28,10 @@
         "uuid": "",
         "labels": ""
     },
-
-
     {
         "name": "Privatization deployment.md",
         "localizedName": "FAQ6：私有化部署",
         "uuid": "",
         "labels": ""
     }
-]
-
 ]
