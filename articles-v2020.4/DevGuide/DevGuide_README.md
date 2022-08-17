@@ -1,7 +1,6 @@
 # 关于RPA开发指南
 
 <br>
-
 ## 一、指南概述：
 
 #### 第一部分 ：“7”大RPA开发指南，带你上手企业级流程开发
@@ -22,14 +21,14 @@
 [管理5、《企业级运维》](https://academy.encoo.com/zh-cn/wiki/RunManager/EnterpriseOM.md)
 
 #### 第三部分 ：RPA特殊开发场景技术指引
-[如何让流程在独立桌面中运行?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RunAlone.md?uuid=77b8684e-98a6-4869-8f39-d493261e8fe9)
-[安卓手机获取短信验证码](https://academy.encoo.com/zh-cn/wiki/BestPractices/GetAndroidSMSCode.md?uuid=17f29a0a-44f9-4499-b3ee-7992d5dbc22f)
-[如何查看机器人的日志?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
-[将企业微信组织架构同步至控制台](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
-[使用 ViCode 运行并展示 RPA 流程结果](https://academy.encoo.com/zh-cn/wiki/BestPractices/rpa-and-vicode.md?uuid=b06fe832-b1a1-447e-9f28-bd4a9df9b986)
-[离线使用组件市场中的组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080)
-[离线安装 IBM DB2 扩展](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-install-dbextension.md?uuid=e2accc71-0ff3-4241-b7f4-b39101693ca6)
-[如何将流程发布成组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?uuid=1b1ab067-7487-4efe-b35a-5dfdc6638847)
+[1、如何让流程在独立桌面中运行?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RunAlone.md?uuid=77b8684e-98a6-4869-8f39-d493261e8fe9)
+[2、安卓手机获取短信验证码](https://academy.encoo.com/zh-cn/wiki/BestPractices/GetAndroidSMSCode.md?uuid=17f29a0a-44f9-4499-b3ee-7992d5dbc22f)
+[3、如何查看机器人的日志?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
+[4、将企业微信组织架构同步至控制台](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
+[5、使用 ViCode 运行并展示 RPA 流程结果](https://academy.encoo.com/zh-cn/wiki/BestPractices/rpa-and-vicode.md?uuid=b06fe832-b1a1-447e-9f28-bd4a9df9b986)
+[6、离线使用组件市场中的组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080)
+[7、离线安装 IBM DB2 扩展](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-install-dbextension.md?uuid=e2accc71-0ff3-4241-b7f4-b39101693ca6)
+[8、如何将流程发布成组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?uuid=1b1ab067-7487-4efe-b35a-5dfdc6638847)
 
 
 #### 第四部分 COE介绍
@@ -38,7 +37,9 @@
 
 <br><br><br><br>
 
-## 二、正文知识提炼
+## 二、正文<知识提炼>
+
+#### 第一部分 ：“7”大RPA开发指南，带你上手企业级流程开发
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -328,6 +329,160 @@
   </tr>
   <tr>
     <td class="tg-pwyt" colspan="2">本章主要 : <br>重在介绍企业开发过程中，经常遇见的远程场景开发、交付、运维过程的远程自动化配置及使用办法。</td>
+  </tr>
+</tbody>
+</table>
+
+<br><br><br>
+
+#### 第二部分 ：RPA运行与管理--控制台进阶
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-pwyt{color:#808080;text-align:left;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 631px">
+<colgroup>
+<col style="width: 130px">
+<col style="width: 501px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="2">管理1、《流程运行概述》</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i">主要内容</td>
+    <td class="tg-wa1i">涉及知识点</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1.1 机器人</td>
+    <td class="tg-cly1">（1）什么是机器人?<br>（2）机器人结构;<br>（3）机器人执行多个任务的方式是什么?<br>（4）机器人部署类型</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1.2 流程运行环境</td>
+    <td class="tg-cly1">（1）离线<br>（2）独立桌面<br>（3）锁屏/解锁<br>（4）静默运行</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1.3 流程运行监控 - 机器人</td>
+    <td class="tg-cly1">日志有：实时日志、历史日志；<br><br>日志从类型看，可分为：<br>（1）系统日志<br>（2）业务日志<br><br>日志从级别看，可分为：<br>（1）Debug<br>（2）Info<br>（3）Error</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1.4 其他流程监控形式：录屏、截图</td>
+    <td class="tg-cly1"></td>
+  </tr>
+  <tr>
+    <td class="tg-pwyt" colspan="2">本章主要 : <br>重在介绍流程运行环节，需要知道的基础流程运行概念：机器人、运行环节环境；具体的监控形式：日志、录屏、截屏</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" colspan="2">管理2、《控制台入门》</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">主要内容</td>
+    <td class="tg-wa1i">涉及知识点</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">2.1 什么是控制台？</td>
+    <td class="tg-cly1">（1）流程库<br>（2）机器人管理<br>（3）流程调度<br>（4）流程运行监控和报警<br>（5）开发服务<br>（6）文件<br>（7）资产<br>（8）连接器：主要用以实现数据互联互通，如：MySql、SqlServer、AzureBlob等。<br>（9）组织与权限</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">2.2 控制台的组成：</td>
+    <td class="tg-cly1">（1）离线<br>（2）独立桌面<br>（3）锁屏/解锁<br>（4）静默运行</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">2.3 私有化控制台</td>
+    <td class="tg-cly1"></td>
+  </tr>
+  <tr>
+    <td class="tg-pwyt" colspan="2">本章主要 : <br>重在介绍云扩控制台的基本构成、对应模块支持的功能。以及何种情况下，建议私有化部署控制台。</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" colspan="2">管理3、《流程运行管理》</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">主要内容</td>
+    <td class="tg-wa1i">涉及知识点</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">3.1 触发器</td>
+    <td class="tg-cly1">即自动化流程运行的触发条件，控制台支持：<br>（1）人工方式(手动)触发执行<br>（2）定时任务触发执行<br>（3）监听数据队列消息触发;</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">3.2 执行资源调度（运行环境）</td>
+    <td class="tg-cly1">（1）指定到多个机器人<br>（2）指定到机器人组</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">3.3 流程运行权限</td>
+    <td class="tg-cly1"></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">3.4 运行监控入门</td>
+    <td class="tg-cly1">（1）机器人与计算机<br>（2）监控计算机性能</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">3.5 流程监控</td>
+    <td class="tg-cly1">（1）关于总体监控，详见总体监控产品说明<br>（2）关于机器人监控，详见机器人监控产品说明<br>（3）关于机器人组监控，详见机器人组监控产品说明<br>（4）关于机器人运行统计表，详见机器人运行统计表产品说明<br>（5）关于用户流程统计表，详见用户流程统计表产品说明</td>
+  </tr>
+  <tr>
+    <td class="tg-pwyt" colspan="2">本章主要 : <br>重在介绍云扩控制台流程调度三个概念组成： 1. 触发器；2.自动化流程；3. 执行资源。</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" colspan="2">管理4、《权限与安全》</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">主要内容</td>
+    <td class="tg-wa1i">涉及知识点</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">4.1 许可证主要分为：</td>
+    <td class="tg-cly1">（1）编辑器/机器人许可(固定许可VS浮动许可）<br>（2）Vicode应用许可<br>（3）文档理解模板许可<br>（4）社区版许可证</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">4.2 组织架构管理</td>
+    <td class="tg-cly1">（1）3个概念：租户、部门、用户<br>（2）如何邀请与激活？</td>
+  </tr>
+  <tr>
+    <td class="tg-pwyt" colspan="2">本章主要 : 主要介绍许可证在控制台的<br>（1）几个不同存在形式，及对应的产品许可类型；<br>（2）对应的组织架构管理概念及具体的权限邀请激活方式。</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" colspan="2">管理5、《企业级运维》</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">主要内容</td>
+    <td class="tg-nrix">涉及知识点</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" rowspan="3">5.1 私有化部署指南</td>
+    <td class="tg-cly1">为什么需要私有化部署？私有化环境需求</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">高可用指南</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">企业私有市场</td>
+  </tr>
+  <tr>
+    <td class="tg-pwyt" colspan="2">本章主要 : <br>主要介绍企业级运维——私有化部署相关模块的部署环境要求及具体部署办法，及企业私有市场的运用与管理。</td>
   </tr>
 </tbody>
 </table>
