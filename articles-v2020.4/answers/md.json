@@ -3,12 +3,12 @@
         "id": null,
         "name": "FAQ-README.md",
         "localizedName": "FAQ使用说明",
-        "uuid": "27aa12b3-1fb1-42a8-85ce-3bb2729ff06c",
+        "uuid": "c",
         "labels": "FAQ"
     },
     {
         "name": "troubleshooting",
-        "localizedName": "RPA异常报错--速查"
+        "localizedName": "报错信息检索"
     },
     {
         "id": null,
