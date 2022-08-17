@@ -584,7 +584,6 @@ FAQ6：私有化部署<br>
 
 ### 第2部分：RPA常见_使用问题
 
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -596,10 +595,10 @@ FAQ6：私有化部署<br>
 .tg .tg-8d8j{text-align:center;vertical-align:bottom}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 776px">
+<table class="tg" style="undefined;table-layout: fixed; width: 712px">
 <colgroup>
-<col style="width: 198px">
-<col style="width: 337px">
+<col style="width: 199px">
+<col style="width: 272px">
 <col style="width: 109px">
 <col style="width: 132px">
 </colgroup>
