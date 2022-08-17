@@ -1,30 +1,30 @@
 [
     {
         "name": "installer&extensions.md",
-        "localizedName": "产品安装激活(扩展)",
+        "localizedName": "Error1：常见安装激活(扩展)",
         "uuid": "",
         "labels": ""
     },
         {
         "name": "element.md",
-        "localizedName": "元素定位/识别",
+        "localizedName": "Error2：元素定位/识别",
         "uuid": "",
         "labels": ""
     },
     {
         "name": "Office&Excel.md",
-        "localizedName": "Offcie&Excel自动化",
+        "localizedName": "Error3：Office & Excel自动化",
         "labels": ""
     },
         {
         "name": "datatable&database.md",
-        "localizedName": "数据表/数据库",
+        "localizedName": "Error4：数据表/数据库",
         "uuid": "",
         "labels": ""
     },
     {
         "name": "email.md",
-        "localizedName": "邮件自动化",
+        "localizedName": "Error5：邮件相关",
         "uuid": "",
         "labels": ""
     },
@@ -32,7 +32,7 @@
 
     {
         "name": "others.md",
-        "localizedName": "其他报错",
+        "localizedName": "Error6：其他报错",
         "uuid": "",
         "labels": ""
     }

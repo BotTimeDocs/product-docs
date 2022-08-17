@@ -1,129 +1,4 @@
-# Error<表6>：其他报错
-
-<br><br>
-
-
-### 一、其他(报错索引)
-
-<br>
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-bzb2{color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
-.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-7h26{color:#00E;text-align:left;text-decoration:underline;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 541px">
-<colgroup>
-<col style="width: 284px">
-<col style="width: 168px">
-<col style="width: 89px">
-</colgroup>
-<thead>
-  <tr>
-    <th class="tg-uzvj"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">错误信息/错误代码</span></th>
-    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">可能关联事件</span></th>
-    <th class="tg-wa1i"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000">索引编号</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-bzb2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">call remote method timeout,method name : invokeRemoteUiObjectAsync</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">远程桌面断开</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0038</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">Data descriptor signature not found</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">解压缩文件</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0039</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]循环操作失败，详细信息：Specified cast is not valid.</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">循环操作(For Each)</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">AC0044</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">服务未正常启动，请尝试手动启动服务或重启电脑</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0010</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未能生成XXX视图</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0011</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">此组件缺失，或无法正常加载</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0012</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] 类型XXX的对象无法转换为类型XXX</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0013</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] Method not found…</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0014</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误] Main.xaml: “对类型“……”的构造函数执行符合指定的绑定约束的调用时引发了异常。”，行号为“XXX”，行位置为“XXX”。 行：XXX, 列：XX</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0015</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[错误]活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0016</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">编辑器发布到机器人失败，错误原因：Database corrupted</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0017</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">请检查是否已安装机器人并处于正常运行状态</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程发布时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">I0020</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">未检测到服务，可能被其他软件卸载</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0002</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">原因：拒绝访问</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0003</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">[Error] 未能转换部分或所有标识引用</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0004</span></td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">活动"Encooworkflow.Main"的CacheMetadata引发了"System.Xaml.XmalObjectWriterException":无法设置未知成员…… 请确认相关的组件是否包含在nuget目录下</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">打开流程包</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0005</span></td>
-  </tr>
-  <tr>
-    <td class="tg-7h26"><a href="http://digpro.ininin.com/">“HTTPSConnectionPool(host='digpro.ininin.com', port=443): Max retries exceeded with url: /dpsthird/api/v1/production/save_or_update (Caused by NewConnectionError(': Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))”</a></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">流程执行时</span></td>
-    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000">R0006</span></td>
-  </tr>
-</tbody>
-</table>
-
-<br><br>
-
-###  二、具体解决办法
+# Error6：其他报错
 
 <br>
 
@@ -264,6 +139,7 @@
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0004.png"/>
 <br>
 <font color=5a6877>
+
 【原因分析】：
 确认当前登录的windows用户是不是新建出来的 或登录激活的别的windows用户
 
@@ -282,7 +158,7 @@
 
 <font color=5a6877>
 <br>
-<br> 
+<br>
 
 **【解决办法-R0005】** ：首先看下，这个里面的提示的相关组件，属于内置编辑器组件还是市场组件？
 - 可能1、是市场组件，说明当前流程运行的编辑器或机器人上缺少这个组件，那就去云扩市场上下载一下
@@ -302,7 +178,6 @@
 
 <br>
 <font color=5a6877>
-
 【原因分析】：
 具体原因参考链接《解决python爬虫requests.exceptions.SSLError: HTTPSConnectionPool(host=‘XXX‘, port=443)问题》https://blog.csdn.net/weixin_44683255/article/details/123706686
 <br>
@@ -320,7 +195,7 @@
 
 
 <font color=5a6877>
-<br> 
+<br>
 
 **【解决办法-I0011】** ：
 
@@ -374,10 +249,9 @@
 
 
 <font color=5a6877>
-<br>
+<br> 
 
 **【解决办法-I0014】** ：
-
 * Step1：复制` %UserProfile%\.nuget\packages\automationactivity`路径至资源管理器中，查看该路径下最高版本是多少
 
 * Step2：复制`%UserProfile%\AppData\Local\EncooStudio\{version}\buildinActivities`路径至资源管理器中，查看该路径下的`automationactivity`版本号是多少
@@ -412,9 +286,7 @@
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0016.png"/>
 
 <font color=5a6877>
-<br> 
-
-**【解决办法-I0016】** ：导入的流程在导出时需要选择包含对应的依赖项
+<br> **【解决办法-I0016】** ：导入的流程在导出时需要选择包含对应的依赖项
 
 </font>
 <br><br>

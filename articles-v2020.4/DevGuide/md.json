@@ -1,5 +1,11 @@
 [
     {
+        "name": "DevGuide_README.md",
+        "localizedName": "关于RPA开发指南",
+        "uuid": "",
+        "labels": ""
+    },
+    {
         "name": "AutomationPrinciples.md",
         "localizedName": "自动化原理",
         "uuid": "",
