@@ -14,12 +14,12 @@
 *   [指南七、《Windows远程桌面专题(企业版)》](https://academy.encoo.com/zh-cn/wiki/DevGuide/RDP.md)
 
 #### 第二部分 ：RPA运行与管理--控制台进阶
-[管理1、《流程运行概述》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunOverview.md)
-[管理2、《控制台入门》](https://academy.encoo.com/zh-cn/wiki/RunManager/ConsoleQuickStart.md)
-[管理3、《流程运行管理》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunManager.md)
-[管理4、《权限与安全》](https://academy.encoo.com/zh-cn/wiki/RunManager/PermissionsAndSecurity.md)
-[管理5、《企业级运维》](https://academy.encoo.com/zh-cn/wiki/RunManager/EnterpriseOM.md)
-
+[管理1、《流程运行概述》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunOverview.md) <br>
+[管理2、《控制台入门》](https://academy.encoo.com/zh-cn/wiki/RunManager/ConsoleQuickStart.md) <br>
+[管理3、《流程运行管理》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunManager.md) <br>
+[管理4、《权限与安全》](https://academy.encoo.com/zh-cn/wiki/RunManager/PermissionsAndSecurity.md) <br>
+[管理5、《企业级运维》](https://academy.encoo.com/zh-cn/wiki/RunManager/EnterpriseOM.md) <br>
+ 
 #### 第三部分 ：RPA特殊开发场景技术指引
 [1、如何让流程在独立桌面中运行?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RunAlone.md?uuid=77b8684e-98a6-4869-8f39-d493261e8fe9)
 [2、安卓手机获取短信验证码](https://academy.encoo.com/zh-cn/wiki/BestPractices/GetAndroidSMSCode.md?uuid=17f29a0a-44f9-4499-b3ee-7992d5dbc22f)
