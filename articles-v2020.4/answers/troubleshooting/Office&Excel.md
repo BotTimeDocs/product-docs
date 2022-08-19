@@ -446,11 +446,26 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 <font color=5a6877>
 
-【原因分析】：写入单元格超出合法excel范围了
+<br>
+
+【原因分析】：
+
+* （1）先装的office 然后再装的wps，wps会默认把excel改成wps打开，然后wps的执行宏是要收费的，所以会报错；
+<br>
+* （2）写入单元格超出合法excel范围了
 
 <br>
 
-**【解决办法-AC0012】** ：需要确认一下是不是行号或者列号是不是有错误，也有可能是宏文件本身无法打开
+**【解决办法-AC0012】** ：
+
+**解决办法一：** 把wps这几项取消勾选
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/0x800A03EC.png"/>
+
+
+<br>
+
+**解决办法二：**需要确认一下是不是行号或者列号是不是有错误，也有可能是宏文件本身无法打开
 
 </font><br><br>
 ---
