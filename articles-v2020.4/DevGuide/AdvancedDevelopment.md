@@ -316,6 +316,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 </br>
 
 **如何点击无法录制的元素**
+
 部分元素无法直接录制（如SAP表格），此时可以通过使用“点击”组件指定可以录制的元素，之后设置属性“偏移”，即可点击无法录制的元素：
 ![R9](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/gjkfjq-0001001.png)
 
