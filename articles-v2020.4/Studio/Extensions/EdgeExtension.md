@@ -28,3 +28,12 @@
 5. 点击该扩展右下角的“启用”按钮。
 
     ![启用扩展程序](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Extension/Edge/InstalledInBrowser.png)
+
+## 常见问题
+
+1. **Q：为什么关闭Edge浏览器后仍提示需关闭浏览器？**
+
+
+    **A：** 原因是Edge关闭后仍有可能会有后台进程运行，是因为如果用户的Edge启用了后台预加载插件功能，进程会在强制关闭Edge进程后仍然Loop启动加载Edge插件进程；除非在Edge“设置”中的“系统和性能”中关闭如下两个功能：
+
+    ![扩展](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/edgekz-0001.png)
