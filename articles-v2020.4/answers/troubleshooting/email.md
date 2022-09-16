@@ -2,6 +2,34 @@
 
 <br>
 
+
+#### Q：Outlook邮件登录，错误代码CAA20002 
+
+<br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0048】**:
+
+1、停止使用VPN 
+2、更改MS团队密码
+3.在Windows中添加MS团队帐户
+4、要求改变政策
+5.清除MS团队的缓存文件
+卸载并重新安装MS团队
+
+Teams caa20002, Outlook autodiscover bonks. Where to look, what to do?
+https://www.reddit.com/r/Office365/comments/pl1kkf/teams_caa20002_outlook_autodiscover_bonks_where/
+
+So, What is Microsoft Team’s error code caa20002?https://10scopes.com/fix-microsoft-teams-error-code-caa20002/
+
+</font>
+<br><br>
+---
+<br> 
+ 
+
 #### Q：获取邮件信息失败。
 
 <font color=5a6877>
