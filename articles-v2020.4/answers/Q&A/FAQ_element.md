@@ -1,5 +1,20 @@
 # FAQ2：元素识别定位
 
+#### Q：验证sap客户端，有地方识别不到怎么办?
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A3_00019】**: 请确认编辑器权限要跟SAP保持一致
+
+</font>
+<br><br>
+---
+<br> 
+
 #### Q：无法识别到指定的元素，怎么办？
 
 <br>
@@ -19,6 +34,78 @@
  </font><br><br>
 ---
 <br>
+
+#### Q：元素录制的时候，xpath录制会不会相对来说比较稳定？
+<br>
+
+<font color=5a6877>
+<br>
+
+**【解决办法-A3_00015】**：
+
+xpath和自动生成的选择器的区别其实只是定位的“标准”不同，xpath是通过元素的位置，自动生成的选择器一般是元素的属性。如果要避免因元素变化导致的识别失败的话，这时候要去分析元素变得是什么，如果是位置经常变化，那xpath就不一定适用了。如果位置不变，但属性经常变化，那可能xpath会更适合一些
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：文本框中自动输入时间的时候出现乱码
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A_500006.png"/>
+
+
+
+<br>
+
+<font color=5a6877>
+<br>**【解决办法A3_00016】**：
+
+输入法是中文的话换成英文再试试，输入法换成英文 模拟键盘输入汉字依然可以输汉字。
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：当选择器指定元素 同时找到多个元素时候的处理办法 
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/500007.png"/>
+
+
+<br>
+
+<font color=5a6877>
+<br>
+
+【解决办法-A3_00017】
+
+用网页属性来定位到元素后，然后再判断是否需要Index。
+
+需要根据中间元素的一些属性来写XPath，这个需要了解下XPath的一些基础语法，[参考链接](https://www.w3school.com.cn/xpath/xpath_syntax.asp)
+
+这个是通过元素属性定位的，如果是模糊匹配就需要用到Contain之类的语法,[参考链接](https://blog.csdn.net/qq_37635275/article/details/123486341)
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：用远程桌面跑流程，我远程桌面最小化后，就获取不到元素了
+
+<br>
+
+<font color=5a6877>
+<br>
+
+【解决办法-A1_00018】：远程桌面不能最小化必须窗口化
+
+</font>
+<br><br>
+---
+<br> 
+
 
 #### Q：用循环重复做同样的操作获取网页结构化数据，为何每次获取的数据都缺少一列？
 
