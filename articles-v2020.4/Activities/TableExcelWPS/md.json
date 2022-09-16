@@ -105,6 +105,20 @@
         "labels": "列, 删除, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelHideSheetActivity",
+        "name": "HideWorksheets.md",
+        "localizedName": "隐藏工作表",
+        "uuid": "530d8eb7-547d-40f5-8001-a3d7ebc89fb6",
+        "labels": "工作表, 隐藏, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelInsertSheetActivity",
+        "name": "InsertWorksheets.md",
+        "localizedName": "插入工作表",
+        "uuid": "64a7cebb-1a96-4611-a2fc-d51792b056ad",
+        "labels": "工作表, 插入, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelDeleteSheetActivity",
         "name": "delete-sheet.md",
         "localizedName": "删除工作表",

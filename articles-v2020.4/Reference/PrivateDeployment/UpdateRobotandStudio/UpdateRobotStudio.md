@@ -5,15 +5,10 @@
 
 选择需要的版本号，分别下载需要升级的编辑器安装程序文件和机器人安装程序文件， 这里以1.1.2109.17为例，下载机器人安装程序文件和编辑器安装程序文件
 
-下载地址为 <https://beta.bottime.com/tree>
+- [最新版编辑器](https://encoorpabuild.blob.core.chinacloudapi.cn/bottimeinstallers/release-lts/lts/enterprise/1.1.2206.12/ide/Encoo.Studio.Setup.exe?sv=2018-03-28&sr=b&sig=Fh6rNhDJh0B3E8VcLSpGMO4ymkqCKk4QFdKBUjuX08c%3D&se=2022-08-24T04%3A59%3A55Z&sp=r)
 
-需要下载的编辑器安装程序文件
+- [最新版机器人](https://encoorpabuild.blob.core.chinacloudapi.cn/bottimeinstallers/release-lts/lts/enterprise/1.1.2206.12/robot/Encoo.Robot.Setup.exe?sv=2018-03-28&sr=b&sig=JHwLsUAV%2B%2FGDz888yHT2VHnPqhMEjcnu5bylVxi1%2BwM%3D&se=2022-08-24T04%3A59%3A57Z&sp=r)
 
-[![需要下载的编辑器安装程序文件](https://docimages.blob.core.chinacloudapi.cn/images/653bd61f-d9b0-4dbc-8b25-a38f445741dd.png)]()
-
-需要下载的机器人安装程序文件
-
-[![需要下载的机器人安装程序文件](https://docimages.blob.core.chinacloudapi.cn/images/2a80db6a-9c28-46a3-b1c9-4c0964dfda9c.png)]()
 
 ### 2. 上传安装程序文件
 
