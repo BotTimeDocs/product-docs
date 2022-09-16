@@ -1,5 +1,87 @@
 # Error6：其他报错
 
+
+#### Q：执行JavaScript代码组件失败。详细错误信息：调用JavaScript业务函数返回失败：test_demo is not define 
+
+<br>
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633117867946.jpg"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0052】**: 如下所示 ，字符串类型的值要双引号转义
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633118022222.jpg"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：机器人导入dgs报错 “Database was not shutdown cleanly. Revocery must first be run to properly compelete database operations for the previous shutdown ”
+
+<br>
+
+
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633073662017.jpg"/>
+ 
+<font color=5a6877>
+<br><br>
+
+**【解决办法-R0009】**: 尝试将data（%localappdata%\encoo\encoo robot\data 删除前提醒备份）文件删除，再重新导入。
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：点击选择器会弹窗未响应，弹窗提示“Encoo Studio 未响应”，点击选择器会弹窗未响应，等待卡顿好几秒，每次都出现。
+
+<br>
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632954820060.jpg"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-R0008】**:
+
+有几种可能
+1、杀毒软件没关
+2、 net framework有问题，缺少一些库，重新安装一下.net framework
+
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632955890051.jpg"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：[错误]在"System.Windows.StaticResourceExtension"上提供值时引发了异常。导入dgs的时候出现的报错.且流程包导入导出的版本都一致。
+* 导出dgs的编辑器版本：2206.14 
+* 导入dgs的编辑器版本：2206.14 
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0007_1.jpg"/>
+
+<br>
+
+<font color=5a6877>
+<br>
+
+**【解决办法-R0007】**:
+先查看当前环境用的是哪个.net版本
+编辑器安装目录下有对应.net版本的中文语言包，找到并安装
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0007_2.png"/>
+
+
+</font>
+<br><br>
+---
+<br> 
+
 <br>
 
 #### Q：[错误]循环操作失败，详细信息：Specified cast is not valid.
@@ -8,7 +90,7 @@
 
 
 <font color=5a6877>
-<br>
+<br><br>
 
 **【解决办法-AC0044】** ：把循环的参数重新填一下。把foreach组件那里使用这个变量的那个属性，删掉，然后鼠标移出来，让它失去焦点，然后再移进去重新输入下
 
@@ -25,7 +107,7 @@
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038-2.png"/>
 
 <font color=5a6877>
-<br>
+<br><br>
 
 **【解决办法-AC0038】** ：远程桌面断开后 需要保持RDP会话得，企业版机器人选择里面有保持RDP会话选项。
 
@@ -169,6 +251,7 @@
 【解决思路】：
 可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](https://academy.bottime.com/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080）
 可能2、去升级机器人版本至对应的新版本 然后清空下`%userprofile%\.nuget\packages`再安装
+
 </font>
 <br><br>
 ---

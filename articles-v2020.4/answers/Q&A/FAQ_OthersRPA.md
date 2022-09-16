@@ -1,5 +1,382 @@
 # FAQ4：其它_流程开发问题
 
+<br><br>
+
+#### Q：机器人上是管理员启动的，如何让流程在控制台定时启动时候也管理员身份运行？
+
+<br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00030】**:编辑器右键“项目”，然后点项目设置-常规-执行权限，可以选择“以管理员权限执行”。另外机器人客户端单独执行一个流程的时候 可以勾选 
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633121945762.jpg"/>
+
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：使用outlook出现弹窗“有一个程序正试图访问储存在Outlook中的电子邮件地址信息……”，这种情况改怎么处理？
+
+<br>
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633120247825.jpg"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00029】**:管理员启动，然后按下图设置一下。outlook有个机制，一个月后应该还会出现，因为一个月后它会自动开启防护，到时候再同样设置一下
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633120598818.jpg"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：获取邮件时需要获取到名称才能判断该文件是否存在，该如何获取附件名称？
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633119283860.jpg"/>
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00028】**: 如图所示
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633119364546.jpg"/>
+
+</font>
+<br><br>
+---
+
+<br> 
+
+#### Q：运行流程时，对于一些不定时出现的弹框，怎么解决？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00027】**: 思路是使用组件“等待元素出现”，结合“trycatc”组件。发现了就关闭，没有就正常执行
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：获取结构化数据选择器下一页是否支持变量？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00026】**: 目前获取结构化数据的下一页，暂不支持变量
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：RPA流程中Excel如何实现自适应列宽？
+
+<br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00024】** :需要写C#代码，点击查看[具体参考链接](https://stackoverflow.com/questions/2884356/how-do-i-auto-size-columns-through-the-excel-interop-objects)
+
+
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633095322605.jpg"/>
+ 
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：1.1.2204.10升级1.1.2206.14 出现插件扩展报错。升级到版本后有插件扩展报错的问题，退到10版本又好了，为什么会这样？
+
+
+<br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00023】**:
+
+可能存在以下原因，导致了如上的问题。安装的谷歌浏览器(32位）跟系统位数（64位）不匹配，导致出现插件异常，安装64位的谷歌浏览器就没问题了
+
+</font>
+<br><br>
+---
+<br> 
+
+ 
+#### Q：老版本流程发布的时候市场显示为空
+ 
+ 
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632974314156.jpg"/>
+ 
+ <br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00022】**: 检查下本地管理市场有没有可用的组件市场
+
+
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632974500283.jpg"/>
+ 
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：手机自动化，poco一直显示连接中，如何处理？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00021】**:
+
+卸载完再重新连接。手机的“设置”-“应用和服务”-“应用管理”里面找到pocoservice的两个应用卸载删除掉，Applistmanager、Yosemite也卸载删除掉。一个叫“PocoService”，一个叫“com...pocoservice....”类似的都卸载掉
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：使用机器人打开网页登录会经常白屏，打不开网页。但是手动复制网址打开就正常的，会是什么原因？
+
+<br> 
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00020】** : 试下先打开一个其他网页如“百度”，然后用当前页跳转跳转过去
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：qq截图手动执行好的定时任务触发截图不全，怎么办？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00019】**: 大可能是分辨率问题，调整一下电脑显示器的分辨率即可。
+
+</font>
+<br><br>
+---
+<br> 
+
+<br>
+
+#### Q：远程时复制组件的时候界面会卡住动不了，过一会才会正常是为什么？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00018】**: 向日葵的剪切板关掉就不卡了
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：验证sap sap有的地方识别不到怎么办？SAP是普通权限，编辑器用管理员权限启动的
+
+<br>
+
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00017】**:
+
+确认好配置对应[SAP自动化配置步骤_rz11权限](https://academy.encoo.com/wiki/Activities/SAP/SAP%20Configuration.md?uuid=087d07a5-2a4d-5d5b-9622-53fefb2f74e7)并确认编辑器权限要跟SAP保持一致
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/08/29/16617462104801.jpg"/>
+
+
+    
+</font>
+<br><br>
+---
+<br> 
+ 
+<br>
+
+#### Q：独立桌面情况下如何打开扩展[报错]：打开浏览器失败。不用独立桌面的时候是成功的
+
+<br>
+
+ <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00016.png"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法A5_00016】**: 
+
+同样需要在远程的浏览器中”扩展程序“中安装启用一下插件
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：RPA有ssh组件吗？
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法A5_00015】**: 
+
+试一下 市场的运维组件 
+
+ <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00015.png"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：写入文件组件，换行符如何写入 ？
+
+<br>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00014.jpg"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法A5_00014】**:
+
+`"Start"+'\n'+"End"`   
+
+或者 
+
+`  "Start"+System.Environment.NewLine+"End"`
+
+两种都可以
+    
+</font>
+<br><br>
+---
+<br> 
+ 
+
+<br>
+
+#### Q：赋值，double计算结果小数点后面很多位，如何只保留2位 
+
+<br>
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00013】**: 
+
+以下方示例 ： `c2 = double.Parse(c1.ToString("0.00"));`
+    
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00012.png"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+
+
+#### Q：执行C#代码把行赋值后导入克隆表，为什么预览克隆表是空的？kl是克隆的表，我对行赋值后，将这一行导入的克隆表，不是把克隆表直接导入
+
+<br>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00012.png"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00012】**:克隆表只复制结构，不复制内容。要用复制表才行
+    
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：一个子流程中创建的变量如何在其他流程中调用？
+
+<br>
+
+<font color=5a6877>
+<br>
+
+**【解决办法-A5_00010】**:
+
+<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00010.png"/>
+
+
+子流程中不用定义变量直接设置参数 ，然后把它改成输出，就可以在外部主流程调用或者子流程。再调用的时候去接受这个子流程传出来的值。
+
+如果是想要把外部变量，在子流程中调用就写输入；
+如果是想要外部变量输入进去，再里面更新又反馈出来，就改成输入/输出。
+
+跟 python的class继承类似，具体查看文档[《使用参数》](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/UseArguments.md?uuid=a5e38ade-2d9a-4409-babb-46fa26fd86aa)
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：DateTIme.now 拿到当前时间之后怎么输出格式化文本 比如“yyyy/MM/dd”“MM/dd hh:mm:ss”这样？
+
+<br>
+
+<font color=5a6877>
+<br>
+
+**【解决办法-A5_00011】**：
+
+//格式化日期为“年年年年-月月-日日”： DateTime.Now.ToString("yyyy-MM-dd"); //格式化日期为“年年年年-月月-日日 时时:分分:秒秒”： DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+编辑器都是用C# 做的，之后有这种格式问题都可以用C# 去做，可以参考这个连接。更多日期数据格式类型 参考链接：
+https://blog.csdn.net/banzhenfei/article/details/114010195?ops_request_misc=%257B%2522r+scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165837215716781432938224&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-114010195-null-null.142^v33^experiment_28w_v1,185^v2^control&utm_term=C%23%20%E6%97%B6%E9%97%B4&spm=1018.2226.3001.4187
+
+</font>
+<br><br>
+---
+<br> 
+
 #### Q：2022年7月 新版本发布后 为什么没有引用项目 这个选项？
 
  <br>
@@ -59,74 +436,6 @@ zh-CN 改成 en-US
 ---
 <br> 
 
-#### Q：元素录制的时候，xpath录制会不会相对来说比较稳定？
-<br>
-
-<font color=5a6877>
-<br>**【解决办法-A5_00005】**：
-
-xpath和自动生成的选择器的区别其实只是定位的“标准”不同，xpath是通过元素的位置，自动生成的选择器一般是元素的属性。如果要避免因元素变化导致的识别失败的话，这时候要去分析元素变得是什么，如果是位置经常变化，那xpath就不一定适用了。如果位置不变，但属性经常变化，那可能xpath会更适合一些
-</font>
-<br><br>
----
-<br> 
-
-#### Q：文本框中自动输入时间的时候出现乱码
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A_500006.png"/>
-
-
-
-<br>
-
-<font color=5a6877>
-<br>**【解决办法-A5_00006】**：
-
-输入法是中文的话换成英文再试试，输入法换成英文 模拟键盘输入汉字依然可以输汉字。
-
-</font>
-<br><br>
----
-<br> 
-
-
-#### Q：当选择器指定元素 同时找到多个元素时候的处理办法 
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/500007.png"/>
-
-
-<br>
-
-<font color=5a6877>
-<br>
-
-【解决办法-A5_00007】
-
-用网页属性来定位到元素后，然后再判断是否需要Index。
-
-需要根据中间元素的一些属性来写XPath，这个需要了解下XPath的一些基础语法，[参考链接](https://www.w3school.com.cn/xpath/xpath_syntax.asp)
-
-这个是通过元素属性定位的，如果是模糊匹配就需要用到Contain之类的语法,[参考链接](https://blog.csdn.net/qq_37635275/article/details/123486341)
-
-</font>
-<br><br>
----
-<br> 
-
-
-#### Q：用远程桌面跑流程，我远程桌面最小化后，就获取不到元素了
-
-<br>
-
-<font color=5a6877>
-<br>
-
-【解决办法-A5_00008】：远程桌面不能最小化必须窗口化
-
-</font>
-<br><br>
----
-<br> 
 
 #### Q：查询sql，查询语句如何传参？
 请问数据库连接操作里，union的查询sql应该怎么配置？查询条件要外面传入的。我看查询语句组件好像不支持传参。

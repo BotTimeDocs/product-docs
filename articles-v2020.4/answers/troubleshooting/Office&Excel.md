@@ -11,9 +11,159 @@
 > 另外WPS或Office未安装好、或者Office或WPS版本冲突导致现象导致的异常,
 > 需要对Office/WPS软件进行修复。
 > </font>
+**补充：如何修复对应的WPS和office365？**<br>
+
+* (1) WPS COM 如何修复？<br>
+
+<br>【解决办法】：解决方式如下，即用修复工具修复一下 ，WPS用对应WPS的配置工具，WPS修复示意图：<br>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS-修复.png"/>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS修复-1.png"/>
+
+<br><br>
+
+* (2) Office 365 如何修复？
+
+<br>【解决办法】：解决方式如下，即用修复工具修复一下 ，Office 365用自带修复方案 <br>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365修复-1.png"/>
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365-2.png"/>
+
+
+</font><br><br>
+---
+<br>
+
 
 <br><br>
 <br>
+
+
+#### Q：取消筛选时，一直报类Range的xxxx方法无效，先是AutoFilter方法无效，按文档说的在运行之前取消筛选了，又报错类Range的TextToColumns方法无效
+
+<br>
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16633115236279.jpg"/>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0051】**: 或三方接口波动导致，尝试保存流程后重启。
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：详细错误信息：对 COM 组件的调用返回了错误 HRESULT E_FAIL。
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0050】**: 以管理员权限启动编辑器
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：打开excel组件报错：“Excel尚未安装”，选择无依赖项也不行，报错：“检索COM类工厂中CLSID为xxxx”
+ 
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632970807442.jpg"/>
+ 
+ <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632970977506.jpg"/>
+ 
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0049】**: 
+* 如果当前使用的是office客户端 但是之前安装过WPS ，把WPS安装回去
+* 或者现在使用的是WPS，请安装对应的Office 
+
+一般是三方环境的注册表乱了，环境问题。
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：[错误]RPC服务不可用
+
+<br>
+
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-AC0048】**:
+
+这个是Excel那边 发出来的报错,参考解决办法：
+
+*  [链接1(点击跳转)](https://academy.encoo.com/zh-cn/wiki/Troubleshooting.md?uuid=43f0987f-b4c9-4a1d-884b-6f747e0c7d03)
+
+* [链接2(点击跳转)](https://blog.csdn.net/weixin_30566063/article/details/97516683?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2)
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632964564413.jpg"/>
+
+</font>
+<br><br>
+---
+<br> 
+
+
+#### Q：详细错误信息:筛选操作'='不支持复杂类型
+
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/筛选复杂类型.jpg "/>
+<br>
+<font color=5a6877>
+<br>
+
+**【解决办法-AC0047】**:
+
+办法一：表格内数据量不大时可以在读表的时候勾选“保留格式”即可满足筛选条件
+
+办法二：表格内数据量大时，勾选“保留格式”会比较慢，
+1. 可以用C#代码进行格式转换，然后再使用筛选组件：`*.Tostring()`可以将内容转换为string类型，从而满足筛选条件（`*`代表待筛选的object类型的列）。
+2. 可以直接用C#代码筛选：将读到的数据表存到DataTable变量中，然后用C#代码的for循环和if判断进行筛选，筛选结果存入另一张表中。 //删除不符合条件的列
+
+```
+ if(!= ）
+         {
+             *.Rows[i].Delete();
+             *.AcceptChanges();
+         }
+```
+
+
+
+</font>
+<br><br>
+---
+<br> 
+
+#### Q：[错误]插入公式失败。详细错误信息：对COM组件的调用返回了错误HRESULT E_FAIL 
+
+<br>
+
+
+<font color=5a6877>
+<br>
+
+**【解决办法-AC0046】**: 尝试以管理员权限启动编辑器
+
+</font>
+<br><br>
+---
+<br> 
 
 #### Q：加载类型库/DLL 时出错。 (Exception from HRESULT: 0x80029C4A (TYPE_E_CANTLOADLIBRARY)) 
 
@@ -110,30 +260,6 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 **【解决办法-AC0005】** ：[点击查看链接：COM类错误80040154](https://blog.csdn.net/cxygs5788/article/details/106351373?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&utm_relevant_index=5)
 <br><br>
 
-**补充：如何修复对应的WPS和office365？**<br>
-
-* (1) WPS COM 如何修复？<br>
-
-<br>【解决办法】：解决方式如下，即用修复工具修复一下 ，WPS用对应WPS的配置工具，WPS修复示意图：<br>
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS-修复.png"/>
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS修复-1.png"/>
-
-<br><br>
-
-* (2) Office 365 如何修复？
-
-<br>【解决办法】：解决方式如下，即用修复工具修复一下 ，Office 365用自带修复方案 <br>
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365修复-1.png"/>
-
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365-2.png"/>
-
-
-</font><br><br>
----
-<br>
 
 
 ### 2.2 EXCEL-打开新建
@@ -310,7 +436,9 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <font color=5a6877>
 <br>
 
-**【解决办法-AC0014】** ：获取文件夹类别，一个个打开excel处理完关闭的时候，前面excel还没关闭好，进程被占用，前面打开加一个延时
+**【解决办法-AC0014】** ：获取文件夹类别，一个个打开excel处理完关闭的时候，前面excel还没关闭好，进程被占用，前面打开加一个延时。
+
+如果上面的方法还是不行就修复一下WPS或Excel
 
 </font><br><br>
 ---
@@ -446,11 +574,26 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 <font color=5a6877>
 
-【原因分析】：写入单元格超出合法excel范围了
+<br>
+
+【原因分析】：
+
+* （1）先装的office 然后再装的wps，wps会默认把excel改成wps打开，然后wps的执行宏是要收费的，所以会报错；
+<br>
+* （2）写入单元格超出合法excel范围了
 
 <br>
 
-**【解决办法-AC0012】** ：需要确认一下是不是行号或者列号是不是有错误，也有可能是宏文件本身无法打开
+**【解决办法-AC0012】** ：
+
+**解决办法一：** 把wps这几项取消勾选
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/0x800A03EC.png"/>
+
+
+<br>
+
+**解决办法二：**需要确认一下是不是行号或者列号是不是有错误，也有可能是宏文件本身无法打开
 
 </font><br><br>
 ---
