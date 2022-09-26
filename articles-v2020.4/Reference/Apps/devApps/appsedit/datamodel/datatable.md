@@ -5,10 +5,11 @@
 ## 新建数据表
 
 1. 数据源视图顶部栏单击“+”按钮，在菜单中选择“数据表”将会打开新建弹窗
-2. 在弹窗内输入数据表名称
-3. 单击“确定”，即可在应用内添加一个空白数据表
+2. 选择“数据表”并点击“下一步”
+3. 在弹窗内输入数据表名称；如果需要关联到控制台数据中心，则从下拉框中选择一个已有“数据表”
+4. 单击“确定”，即可在应用内添加一个空白数据表
 
-    ![新建数据表](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newdatatable.jpg)
+    ![新建数据表](https://docimages.blob.core.chinacloudapi.cn/images/Kris/createnewdatatable.png)
 
 >**说明：**
 >
