@@ -253,6 +253,10 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 可以通过[鼠标滚动(中键)](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/rotate-wheel.md?uuid=afa6d12e-1653-4118-9a0a-e3cda61a529c)组件或[发送快捷键](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/SendHotkey.md?uuid=c0f37191-286f-4517-98f2-f5b820ce85eb)PgDn来滚动页面。</br>
 
+**如何操作名称相同的标签页**
+
+打开多个同名标签页定位元素时会默认在第一个标签页定位，如果需要定位到其他标签页元素，可以在选择器中不适用“Title”定位，改为使用“URL”或其他关键字进行定位。
+
 **如何操作日期类元素**
 
 通常日期选择的元素均支持以标准格式输入文本，可以使用“输入文本”组件尝试输入“2022-05-13”，“2022/05/13”或“13-05-2022”等格式输入；如果页面不支持输入文本，可通过组件“设置Web元素属性值”直接对页面上日期元素的属性进行设置；
