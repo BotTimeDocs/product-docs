@@ -12,7 +12,7 @@
 3. 在弹窗内输入数据源名称等信息
 4. 单击“确定”，即可在应用内添加一个空白数据源
 
-    ![新建数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newdatasource.jpg)
+    ![新建数据源](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newdatasource-2.png)
 
 ## 修改数据源信息
 
