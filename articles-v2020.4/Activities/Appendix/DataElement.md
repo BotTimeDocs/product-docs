@@ -29,7 +29,7 @@
 </br>
 [IEnumerable](https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN&view=net-6.0)
 </br>
-[List<String<String>>](https://docs.microsoft.com/zh-cn/previous-versions/gg433715(v=vs.140) )
+[List&lt;String&gt;](https://docs.microsoft.com/zh-cn/previous-versions/gg433715(v=vs.140) )
 </br>
 [System.Collections.ObjectModel.Collection](https://docs.microsoft.com/zh-cn/dotnet/api/system.collections.objectmodel.collection-1.-ctor?redirectedfrom=MSDN&view=net-6.0#System_Collections_ObjectModel_Collection_1__ctor_System_Collections_Generic_IList__0__)
 </br>
