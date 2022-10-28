@@ -53,5 +53,11 @@
         "localizedName": "Windows远程桌面扩展（企业版）",
         "uuid": "f156bc0e-fe3e-4af6-a1b7-0d88f0d609af",
         "labels": "Windows, RDP, 远程桌面，扩展"
+    },
+    {
+        "name": "offlineOCR.md",
+        "localizedName": "离线识别",
+        "uuid": "3d499442-eda8-4fb9-8d95-d7d3b0dd3f9f",
+        "labels": "OCR, offline, 离线，扩展"
     }
 ]
