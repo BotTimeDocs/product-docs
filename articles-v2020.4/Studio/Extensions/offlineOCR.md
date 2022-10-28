@@ -27,7 +27,7 @@
 
 ![3]()
 
-之后将下载文件拷贝到路径`C:\Users\username\AppData\Local\Encoo Studio\app-1.1.*.*\Extensions\Ocr`下:
+之后将下载文件拷贝到路径`C:\Users\username\AppData\Local\Encoo\Ocr`下:
 
 ![路4]()
 
