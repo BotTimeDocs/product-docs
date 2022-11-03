@@ -124,5 +124,12 @@
         "localizedName": "表格识别",
         "uuid": "7df69d31-ecac-436a-a017-a6eb2d659ab0",
         "labels": "表格识别，AI,控制台"
+    },
+    {
+        "id": "Encoo.Console.Activity.OneLineCharacterTecognitionActivity",
+        "name": "onelineOCR.md",
+        "localizedName": "单行文本识别",
+        "uuid": "d77797f3-c00c-4d4e-bf78-7249e8bed7b7",
+        "labels": "文本识别,AI,单行"
     }
 ]
