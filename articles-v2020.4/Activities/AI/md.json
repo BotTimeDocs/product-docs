@@ -3,7 +3,7 @@
         "id": "null",
         "name": "LocalAI",
         "localizedName": "离线识别"
-    }
+    },
     {
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
