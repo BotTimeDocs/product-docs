@@ -1,5 +1,10 @@
 [
     {
+        "id": "null",
+        "name": "LocalAI",
+        "localizedName": "离线识别"
+    }
+    {
         "id": "Encoo.Console.Activity.PdfExtractActivity",
         "name": "DocReader.md",
         "localizedName": "文档理解",
@@ -124,10 +129,5 @@
         "localizedName": "表格识别",
         "uuid": "7df69d31-ecac-436a-a017-a6eb2d659ab0",
         "labels": "表格识别,AI,控制台"
-    },
-    {
-        "id": "null",
-        "name": "LocalAI",
-        "localizedName": "离线识别"
     }
 ]
