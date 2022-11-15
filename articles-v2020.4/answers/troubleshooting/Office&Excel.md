@@ -107,9 +107,7 @@
 
 这个是Excel那边 发出来的报错,参考解决办法：
 
-*  [链接1(点击跳转)](https://academy.encoo.com/zh-cn/wiki/Troubleshooting.md?uuid=43f0987f-b4c9-4a1d-884b-6f747e0c7d03)
-
-* [链接2(点击跳转)](https://blog.csdn.net/weixin_30566063/article/details/97516683?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2)
+* [链接1(点击跳转)](https://blog.csdn.net/weixin_30566063/article/details/97516683?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-97516683-blog-119409301.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2)
 
 <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/09/16/16632964564413.jpg"/>
 
