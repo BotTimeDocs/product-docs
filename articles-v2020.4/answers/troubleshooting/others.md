@@ -380,10 +380,11 @@
 
 #### Q："执行Python代码报错GBK错误：“UnicodeEncodeError:'gbk' codec can't encode character '\xa5' in position 0:illegal multibyte sequence” "
 
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/error06-00001.png)
 
 **【解决办法-I0017】** 主要原因是python自身编码与Windows控制台编码不一致。需要python做编码处理才行。
 
-**第一种方法** 直接替换出错的内容
+**第一种方法:** 直接替换出错的内容
 
 ```
 import requests 
@@ -391,7 +392,7 @@ url = 'https://blog.csdn.net/jianhong1990/article/details/17349537'
 print(requests.get(url).text.replace('\xa0', ' '))
 ```
 
-**第二种方法** 再解码
+**第二种方法:** 再解码
 
 先用 GBK 编码，加个 ignore 丢弃错误的字符，然后再解码。
 
@@ -402,7 +403,7 @@ print(requests.get(url).text.encode('gbk', 'ignore').decode('gbk')
 ```
 
 
-**第三种方法** 修改控制台编码
+**第三种方法:** 修改控制台编码
 
 新建一个 cmd.reg, 输入代码：
 
