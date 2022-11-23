@@ -369,10 +369,59 @@
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0016.png"/>
 
 <font color=5a6877>
-<br> **【解决办法-I0016】** ：导入的流程在导出时需要选择包含对应的依赖项
+<br> 
+
+**【解决办法-I0016】** ：导入的流程在导出时需要选择包含对应的依赖项
 
 </font>
 <br><br>
 ---
 <br>
 
+#### Q："执行Python代码报错GBK错误：“UnicodeEncodeError:'gbk' codec can't encode character '\xa5' in position 0:illegal multibyte sequence” "
+
+
+**【解决办法-I0017】** 主要原因是python自身编码与Windows控制台编码不一致。需要python做编码处理才行。
+
+**第一种方法** 直接替换出错的内容
+
+```
+import requests 
+url = 'https://blog.csdn.net/jianhong1990/article/details/17349537'
+print(requests.get(url).text.replace('\xa0', ' '))
+```
+
+**第二种方法** 再解码
+
+先用 GBK 编码，加个 ignore 丢弃错误的字符，然后再解码。
+
+```
+import requests
+url = 'https://blog.csdn.net/jianhong1990/article/details/17349537'
+print(requests.get(url).text.encode('gbk', 'ignore').decode('gbk')
+```
+
+
+**第三种方法** 修改控制台编码
+
+新建一个 cmd.reg, 输入代码：
+
+```
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]
+"CodePage"=dword:0000fde9
+"FontFamily"=dword:00000036
+"FontWeight"=dword:00000190
+"FaceName"="Consolas"
+"ScreenBufferSize"=dword:232900d2
+"WindowSize"=dword:002b00d2
+```
+
+保存后运行。如果 Ctrl+B 无效，用 python.exe 打开.py程序后再试一次。
+
+> 解决办法转自：https://www.jb51.net/article/143722.htm
+
+</font>
+<br><br>
+---
+<br>
