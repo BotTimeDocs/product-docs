@@ -29,5 +29,10 @@
         "name": "MobileDevicesManage",
         "localizedName": "移动设备管理(企业版)",
         "uuid": ""
+    },
+    {
+        "name": "designer.md",
+        "localizedName": "表达式编辑器",
+        "uuid": ""
     }
 ]
