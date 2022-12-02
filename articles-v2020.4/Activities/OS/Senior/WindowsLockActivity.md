@@ -8,6 +8,10 @@
 
 锁住系统屏幕，确保后续流程能在锁屏状态下正常运行。
 
+>**说明：**
+>
+> 使用锁屏组件锁屏后不能通过[解锁](https://academy.encoo.com/wiki/Activities/OS/Senior/WindowsUnlockActivity.md)组件解锁，这样做会没有效果。因为锁屏和解锁采用的技术原理不同，不支持这样操作。
+
 ## 属性
 
 ### 基本
