@@ -1,7 +1,8 @@
-# 关于RPA开发指南
+# 《RPA入门指南》【云扩科技】
 
 <br>
-## 一、指南概述：
+
+## 一、指南目录：
 
 #### 第一部分 ：“7”大RPA开发指南，带你上手企业级流程开发
 
@@ -13,31 +14,40 @@
 *   [指南六、《高级开发技巧》](https://academy.encoo.com/zh-cn/wiki/DevGuide/AdvancedDevelopment.md)
 *   [指南七、《Windows远程桌面专题(企业版)》](https://academy.encoo.com/zh-cn/wiki/DevGuide/RDP.md)
 
+<br><br>
+
 #### 第二部分 ：RPA运行与管理--控制台进阶
-[管理1、《流程运行概述》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunOverview.md) <br>
-[管理2、《控制台入门》](https://academy.encoo.com/zh-cn/wiki/RunManager/ConsoleQuickStart.md) <br>
-[管理3、《流程运行管理》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunManager.md) <br>
-[管理4、《权限与安全》](https://academy.encoo.com/zh-cn/wiki/RunManager/PermissionsAndSecurity.md) <br>
-[管理5、《企业级运维》](https://academy.encoo.com/zh-cn/wiki/RunManager/EnterpriseOM.md) <br>
+* [管理1、《流程运行概述》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunOverview.md) 
+* [管理2、《控制台入门》](https://academy.encoo.com/zh-cn/wiki/RunManager/ConsoleQuickStart.md) 
+* [管理3、《流程运行管理》](https://academy.encoo.com/zh-cn/wiki/RunManager/ProcessRunManager.md) 
+* [管理4、《权限与安全》](https://academy.encoo.com/zh-cn/wiki/RunManager/PermissionsAndSecurity.md) 
+* [管理5、《企业级运维》](https://academy.encoo.com/zh-cn/wiki/RunManager/EnterpriseOM.md) 
  
-#### 第三部分 ：RPA特殊开发场景技术指引
-[1、如何让流程在独立桌面中运行?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RunAlone.md?uuid=77b8684e-98a6-4869-8f39-d493261e8fe9)
-[2、安卓手机获取短信验证码](https://academy.encoo.com/zh-cn/wiki/BestPractices/GetAndroidSMSCode.md?uuid=17f29a0a-44f9-4499-b3ee-7992d5dbc22f)
-[3、如何查看机器人的日志?](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
-[4、将企业微信组织架构同步至控制台](https://academy.encoo.com/zh-cn/wiki/BestPractices/RobotLog.md?uuid=4c8a0db2-a293-427d-9136-c6b1b8a27705)
-[5、使用 ViCode 运行并展示 RPA 流程结果](https://academy.encoo.com/zh-cn/wiki/BestPractices/rpa-and-vicode.md?uuid=b06fe832-b1a1-447e-9f28-bd4a9df9b986)
-[6、离线使用组件市场中的组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080)
-[7、离线安装 IBM DB2 扩展](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-install-dbextension.md?uuid=e2accc71-0ff3-4241-b7f4-b39101693ca6)
-[8、如何将流程发布成组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?uuid=1b1ab067-7487-4efe-b35a-5dfdc6638847)
+ <br><br>
+ 
+
+#### 第三部分 COE介绍
+
+[RPA在企业内部落地最佳的推动方式是建立COE卓越中心。](https://academy.encoo.com/zh-cn/wiki/COE/coe.md)
+
+<br><br>
+
+#### 附： 云扩社区--免费官方技术支持&RPA学习交流
+
+<img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/21/16716261706592.jpg"/>
+
+<font color = 5a6877 size=2 >
 
 
-#### 第四部分 COE介绍
-
-[RPA在企业内部落地最佳的推动方式是建立COE卓越中心。](https://academy.encoo.com/zh-cn/wiki/COE/coe.md)卓越中心COE（Center of Excellence）是一个跨职能的虚拟组织结构，能够促进协作支持企业内部的RPA专业部署和落地实现；COE将RPA深入有效地嵌入组织，并在未来部署中重新分配累积的知识和资源。
+[说明] 
+* 官方支持时间：工作日 10:00-19:00
+* 技术支持老师：云简、云智、云能、云易
+* 温馨提示：若同时间问题排队、请稍作等待
+ </font>
 
 <br><br><br><br>
 
-## 二、正文<知识提炼>
+## 二、正文<内容导读>
 
 #### 第一部分 ：“7”大RPA开发指南，带你上手企业级流程开发
 
@@ -262,7 +272,7 @@
     <td class="tg-cly1" colspan="2"></td>
   </tr>
   <tr>
-    <td class="tg-nrix" colspan="2">指南六、《高级开发技巧》</td>
+    <td class="tg-nrix" colspan="2"> 指南六、《高级开发技巧》</td>
   </tr>
   <tr>
     <td class="tg-nrix">主要内容</td>
@@ -486,3 +496,8 @@
   </tr>
 </tbody>
 </table>
+
+<br><br><br>
+
+#### 第三部分  COE-RPA卓越中心介绍
+[RPA在企业内部落地最佳的推动方式是建立COE卓越中心。](https://academy.encoo.com/zh-cn/wiki/COE/coe.md)卓越中心COE（Center of Excellence）是一个跨职能的虚拟组织结构，能够促进协作支持企业内部的RPA专业部署和落地实现；COE将RPA深入有效地嵌入组织，并在未来部署中重新分配累积的知识和资源。
