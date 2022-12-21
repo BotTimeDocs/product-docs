@@ -373,6 +373,7 @@
 <br>
 
 - Try中放入整体流程，若try中出现异常，则会进入Catch（可以多个catch 同时存在），在此可以打印日志并通知提示用户出错了，打印消息可参考：exception.Message+exception.StackTrace
+
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide29.jpg"/>
 
 <br><br>
