@@ -94,7 +94,7 @@
   </tr>
   <tr>
     <td>SAP功能组件</td>
-    <td></td>
+    <td>—</td>
     <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
     <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
     <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
