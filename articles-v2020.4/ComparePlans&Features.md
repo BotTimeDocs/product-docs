@@ -26,7 +26,7 @@
     <td>价格</td>
     <td>￥0</td>
     <td>￥?0000/年</td>
-    <td>获取报价</td>
+    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">获取报价</a></td>
     <td rowspan="4">私有化部署<br>可选择私有化托管服务<br>支持定制</td>
   </tr>
   <tr>
