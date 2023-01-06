@@ -68,5 +68,13 @@
         "localizedName": "分割文本",
         "uuid": "7c000016-3b91-4626-bbaa-e3f4786c3e2a",
         "labels": "分割, 文本, 字符串"
+    },
+    {
+        "id": "Encoo.Text.Activity.Activities.RemoveWhitespaceActivity",
+        "name": "RemoveWhitespace.md",
+        "localizedName": "移除空格",
+        "uuid": "6534f4b4-bb5b-440d-94e9-b93a09f1031c",
+        "labels": "移除, 文本, 空格"
     }
+
 ]
