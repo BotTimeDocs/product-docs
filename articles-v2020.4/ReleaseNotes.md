@@ -14,7 +14,7 @@
 
 ### 【编辑器】
 
-1. 增加Excel组件[设置边框](https://academy.encoo.com/zh-cn/wiki/Activities/TableExcelWPS/SetRangeBorder.md?uuid=cb01b070-1dc9-418f-b46b-22538f343576)，支持对单元格或区域设置字体；
+1. 增加Excel组件[设置边框](https://academy.encoo.com/zh-cn/wiki/Activities/TableExcelWPS/SetRangeBorder.md?uuid=cb01b070-1dc9-418f-b46b-22538f343576)，支持对单元格或区域设置边框；
 2. 增加文本组件[移除空格](https://academy.encoo.com/zh-cn/wiki/Activities/DataProcessing/TextProcessing/RemoveWhitespace.md?uuid=6534f4b4-bb5b-440d-94e9-b93a09f1031c)，支持去除字符串中的空格；
 3. 更新邮件组件以支持OAuth2.0协议；
 4. 优化编辑器性能，提升项目文件打开速度；
