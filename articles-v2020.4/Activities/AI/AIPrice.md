@@ -15,5 +15,6 @@
 | 云扩AI     | 通用文字识别  | 0.01元/次 |
 
 ### 购买
-如需购买云扩AI服务，请使用微信扫下方二维码添加客服人员。
+如需购买云扩AI服务，请使用微信扫下方二维码添加客服人员。<br/>
+
 ![AIContact](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AI/AIContact.png)
