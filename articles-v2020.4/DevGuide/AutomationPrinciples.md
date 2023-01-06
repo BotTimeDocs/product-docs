@@ -365,9 +365,9 @@ B. 对于web元素：
 
 &nbsp; &nbsp; 扩展名称&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对应用途&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ---|---|
-&nbsp; Chrome扩展|&nbsp; <br>录制hrome浏览器，必须插件<br>&nbsp; |
+&nbsp; Chrome扩展|&nbsp; <br>录制Chrome浏览器，必须插件<br>&nbsp; |
 &nbsp;  Firefox扩展|&nbsp; <br>录制Firefox浏览器，必须插件 <br>&nbsp;|
-&nbsp; Microsoft Edge扩展| <br> &nbsp;录制dge浏览器，必须插件 <br>&nbsp;
+&nbsp; Microsoft Edge扩展| <br> &nbsp;录制Edge浏览器，必须插件 <br>&nbsp;
 &nbsp;  360安全浏览器扩展|&nbsp; <br>录制360安全浏览器，必须插件<br>&nbsp; |
 ```
 <Tips> 若您试用IE浏览器进行WEB自动化，此处不需要安装对应的插件
