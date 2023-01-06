@@ -1,6 +1,12 @@
 [
     {
         "id": "null",
+        "name": "AIPrice.md",
+        "localizedName": "云扩AI服务价格",
+        "labels": "云扩AI服务价格"
+    },
+    {
+        "id": "null",
         "name": "LocalAI",
         "localizedName": "离线识别"
     },
