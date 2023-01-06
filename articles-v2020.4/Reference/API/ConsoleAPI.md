@@ -9,7 +9,7 @@
 
 本文档描述了控制台产品对外提供的API接口的详细描述，包括接口用途、请求格式、返回格式和请求实例等。
   
-Open API：https://consoleapi-rpadev.bottime.com/openapi/static/consoleapi.html
+Open API：https://api.encoo.com/openapi/static/consoleapi.html
 
 ## 面向对象<span id="面向对象"><span>
 

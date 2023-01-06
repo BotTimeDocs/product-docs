@@ -175,6 +175,13 @@
         "labels": "单元格, 合并, Excel"
     },
     {
+        "id": "BotTime.Office.Activity.OfficeExcelSetRangeBorderActivity",
+        "name": "SetRangeBorder.md",
+        "localizedName": "设置边框",
+        "uuid": "cb01b070-1dc9-418f-b46b-22538f343576",
+        "labels": "边框, Excel"
+    },
+    {
         "id": "BotTime.Office.Activity.OfficeExcelSaveActivity",
         "name": "Save.md",
         "localizedName": "保存",
