@@ -124,7 +124,7 @@
 **（11）操作系统**：用于对计算机操作系统上的基础操作，例如：使用[解锁](../Activities/System/Screen/WindowsUnlockActivity.md?uuid=33d6edb3-cdd1-4dfb-a766-5a46c8730340)组件对屏幕解锁，使用[输入框](../Activities/System/InputDialog.md?uuid=f9cd10c0-90af-4f6c-a823-b2faa0daa98a)组件在流程运行时弹窗接收用户在弹窗中输入的数据，也可使用[执行命令行](../Activities/System/ExecuteCMD.md?uuid=ff449f85-ae4a-4e53-aad3-0a1edbca5804)组件在cmd中执行命令。
 
 
-**（12）AI**：此目录下包含云扩自研和常用AI平台（阿里云、百度AI等）及服务（身份证识别、发票识别等）封装的组件，可以直接拖拽至流程中使用，无需再写代码开发。例如：使用增值税发票识别组件或身份证识别对图片文件进行OCR识别；
+**（12）AI**：此目录下包含云扩自研和常用AI平台（阿里云、百度AI等）及服务（[身份证识别](../Activities/AI/IdCardIdentification.md)、[发票识别](../Activities/AI/VATInvoiceIdentification.md)等）封装的组件，可以直接拖拽至流程中使用，无需再写代码开发。例如：使用增值税发票识别组件或身份证识别对图片文件进行OCR识别, 参考示例课程[批量提取发票数据](../ExampleCourse/OCRInvoice.md)。
 
 
 **（13）开发服务**：建立了开发者与[云扩超自动化平台](https://academy.encoo.com/zh-cn/wiki/Reference/Console/README.md?uuid=731e27d0-adf7-4658-9987-b43b277b229f)在线服务的关联，可以在流程中直接操作云扩超自动化平台中的[资产](../Console/datacentor/asset/AboutAsset.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)、[文件](../Console/datacentor/fileservice/Aboutfileservice.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)等服务。例如：使用[设置资产](../Activities/Console/set-assets.md?uuid=ec9873a4-5a88-41c7-91ce-b8bddb59538f)组件对指定的资产设置数据，使用[下载文件](../Activities/Console/FileDownloadActivity.md?uuid=846221b4-b781-436a-adb1-9e4f84547c65)组件从文件服务中下载指定的文件到本地；
