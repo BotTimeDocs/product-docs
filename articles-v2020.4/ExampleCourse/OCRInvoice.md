@@ -27,30 +27,34 @@
 ## 初始化
 
 1. **创建发票文件夹，用于存放发票和保存发票数据**
-       * 右键单击项目名称，并创建名为【发票】的相对目录，如下图示： 
-       <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票相对目录.png"/></div>
+- 右键单击项目名称，并创建名为【发票】的相对目录，如下图示:
+![](https://docimages.blob.core.chinacloudapi.cn/images/COE/发票相对目录.png)
 
-       * 右键【发票】文件夹并打开，创建【发票图片】和【发票数据】的文件夹，分别用于存放发票和保存发票数据。在【发票数据】文件夹创建Excel文件 Data.xlsx
-       <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票数据文件夹.png"/></div> 
-     
-1. **定义变量用于指定发票所在文件夹、发票数据保存到Excel的路径**
+- 右键【发票】文件夹并打开，创建【发票图片】和【发票数据】的文件夹，分别用于存放发票和保存发票数据。在【发票数据】文件夹创建Excel文件 Data.xlsx 
+![](https://docimages.blob.core.chinacloudapi.cn/images/COE/发票数据文件夹.png)
+
+2. **定义变量用于指定发票所在文件夹、发票数据保存到Excel的路径**
 在编辑器中打开Main.xaml文件并在变量面板中并以变量：
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/变量面板.png"/></div>
+
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/变量面板.png"/></div>
 
 3. **定义数据表，用于存储发票信息**
       * 在左侧组件库搜索框输入【流程图】找到流程图组件，并拖拽至设计面板，点击其名称并更名为【初始化】。
       * 右键组件并在菜单中点击【批注 - 添加批注】，填写这个步骤要做的内容。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/添加批注.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/添加批注.png"/></div>
         
-      **注意**：更改组件名称和为组件添加批注非必须，是为了帮助我们更清晰的理解每一步在做什么，养成这个习惯会让我们开发的流程阅读性更高。特别是在需要多人协作的复杂流程中，会让协作效率有很大提高。
+        **注意**：更改组件名称和为组件添加批注非必须，是为了帮助我们更清晰的理解每一步在做什么，养成这个习惯会让我们开发的流程阅读性更高。特别是在需要多人协作的复杂流程中，会让协作效率有很大提高。 <br/>
+
     * 双击流程图（初始化）组件并在其内部拖入【搭建数据表】组件，构建一个空的数据表，用于在后续步骤中存储提取的发票数据。
-  <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/搭建数据表.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/搭建数据表.png"/></div>
   
-    * 双击【搭建数据表】组件后，并点击【数据表搭建器】在弹窗中定义列名即要提取的发票关键数据名称（发票代码、发票号码等），并在【输出数据表】属性中输入 invoiceData , 选中后按快捷键 CTRL+B快速生成此变量。完成后如下图示：
-   <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/输出数据表.png"/></div>
+      * 双击【搭建数据表】组件后，并点击【数据表搭建器】在弹窗中定义列名即要提取的发票关键数据名称（发票代码、发票号码等），并在【输出数据表】属性中输入 invoiceData , 选中后按快捷键 CTRL+B快速生成此变量。完成后如下图示：
+      <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/输出数据表.png"/>
+    </div> 
  
+
     * 最后需要把刚自动生成的变量 invoiceData的范围更改为根目录【流程图_Root】下，因为接下来要在外层逻辑中使用此变量存储数据。更多关于变量的知识可以在变量及类型介绍课程中学习。
-  <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/变量范围修改.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/变量范围修改.png"/></div>
      
      **小结**：
     在上述步骤中我们:
@@ -64,55 +68,55 @@
 4. **使用内置发票识别组件提取出发票关键数据，并保存到临时DataTable变量**
     
     * 在【初始化】下方拖入新的流程图组件，并连接在下方。更名为【提取发票数据】并添加相应批注。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/初始化.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/初始化.png"/></div>
     
     * 双击此组件并在其内部设计面板中拖入【遍历文件夹】组件更名为【遍历发票所在文件夹】，用于从发票图片目录循环获取发票路径。
-     <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/遍历发票所在文件夹.png"/></div>
+     <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/遍历发票所在文件夹.png"/></div>
     
     * 双击此组件展开，在此组件右侧点击【fx】从变量列表中选中之前定义的变量【发票文件夹】。并在此组件内容拖入组件【写入日志】，用于在流程日志中方便查看当前读取的是哪张发票，如果流程执行过程中出现问题，也会快速帮助我们定位问题。具体写法如下图示：
       图中变量filePath 指当前处理的发票完整路径，由【遍历文件夹】组件自动生成。
-   <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/遍历发票所在文件夹.png"/></div>
+   <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/遍历发票所在文件夹.png"/></div>
       
     * 在组件库【AI】目录下找到组件【增值税发票】并拖拽到【写入日志】组件下方。
-    <div align=center><img width = '600' height ='' src ="hhttps://docimages.blob.core.chinacloudapi.cn/images/COE/遍历文件夹具体写法.png"/></div>
+    <div align=left><img width = '600' height ='' src ="hhttps://docimages.blob.core.chinacloudapi.cn/images/COE/遍历文件夹具体写法.png"/></div>
     
     * 在组件库【AI】目录下找到组件【增值税发票】并拖拽到【写入日志】组件下方。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/拖拽写入日志组件.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/拖拽写入日志组件.png"/></div>
     
     * 点击【设置参数】并完成以下配置：
         * 在【平台】属性中从列表选择【云扩AI】。当然也可选择其他平台（阿里云、百度AI等），云扩为每位开发者提供了试用额度，进行体验各个平台的识别效果。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/设置ai参数"/></div>
+        <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/设置ai参数"/></div>
         
         * 在【图片文件】属性右侧点击【fx】选择 filePath变量
         * 在【识别结果】属性右侧点击【fx】选择使用建议的变量 result
 此组件完成配置如下图示：
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/设置ai参数2.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/设置ai参数2.png"/></div>
     
     * 在【增值税发票识别】组件下方拖入【写入日志】组件，用于在日志中拿到识别结果，帮助我们在接下来的【获取节点值】组件中分析JSON数据，定位关键数据节点。
       拼接字符串：filePath+"的提取结果为："+result
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票识别写入日志.png"/></div>
+      <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票识别写入日志.png"/></div>
       
       到这步时，我们先暂停流程编写，在编辑器工具栏点击【运行】来查看下是否能够成功提取了发票数据。运行后会在日志面板中成功输出了发票数据。
-      <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/识别json数据.png"/></div>
+      <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/识别json数据.png"/></div>
       
       在输出面板中单击识别出来的JSON格式的发票数据，右键复制到剪贴板，用于接下来分析这段JSON数据。
       
       继续接下来的步骤。
     * 拖入【获取节点值（字符串）】组件并更名为【获取节点值（发票代码）】，点击【选择节点】打开弹窗并在弹窗中将刚才复制的JSON数据粘贴到文本框，并在字符串最开始位置去除日志产生的非发票信息。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/json复制文本框.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/json复制文本框.png"/></div>
     
     * 点击【生成结构树】将JSON数据格式化为树状结构，便于查看。
-    <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/生成结构树.png"/></div>
+    <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/生成结构树.png"/></div>
     
     * 从树状结构中展开【data】节点并找到关键节点【发票代码】，并会在弹窗左下角【节点路径】中自动生成此JSON结构的【发票代码】节点路径。
-     <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票代码节点路径.png"/></div>
+     <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票代码节点路径.png"/></div>
     
     * 点击【确定】回到设计面板：
         * 属性【节点路径】属性上自动填写上了 “发票代码” 所在的节点。
         * 属性【JSON字符串】选择变量 result
         * 属性【值】，点击右侧【fx】生成变量 发票代码
         ![blockchain](https://docimages.blob.core.chinacloudapi.cn/images/COE/发票代码.png "")
-         <div align=center><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票代码节点路径.png"/></div>
+         <div align=left><img width = '600' height ='' src ="https://docimages.blob.core.chinacloudapi.cn/images/COE/发票代码节点路径.png"/></div>
         
     * 同样的做法，在下方依次拖入【获取节点值（字符串）】组件分别获取发票数据中的发票号码、开票日期、税额、销方名称、销方税号和金额。
     ![blockchain](https://docimages.blob.core.chinacloudapi.cn/images/COE/节点值.png "")
@@ -148,13 +152,12 @@
     
 ## 运行流程
 
-    到这里我们就已完成了整个流程【提取发票数据并保存至Excel】的编写，让我们来运行下流程看下结果吧。
-    ![blockchain](https://docimages.blob.core.chinacloudapi.cn/images/COE/运行.png "")
+到这里我们就已完成了整个流程【提取发票数据并保存至Excel】的编写，让我们来运行下流程看下结果吧。
     
 1. 运行
 在编辑器工具栏中点击【运行】，在输出面板中可以看到整个运行过程。
 
-2. 查看结果
+1. 查看结果
 回到项目结构位置，右键 发票 并打开文件夹。
 ![blockchain](https://docimages.blob.core.chinacloudapi.cn/images/COE/项目位置.png "")
 
@@ -171,7 +174,8 @@
     * 把提取的发票数据成功写入了excel文件
     * 在流程执行时如何使用不同账号和关键字搜索商品
 
-    **更多自动化开发课程在这里**
 
-* AI专题
-* 抓取电商平台数据
+**更多自动化开发课程在这里**
+
+* [AI专题](../DevGuide/ForAI.md)
+* [抓取电商平台数据](GetProductDataFromJD.md)
