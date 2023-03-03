@@ -22,6 +22,11 @@
     },
     {
         "id": null,
+        "name": "COECenter",
+        "localizedName": "自动化卓越中心（企业版）"
+    },
+    {
+        "id": null,
         "name": "dashboard",
         "localizedName": "仪表盘（企业版）"
     },
@@ -38,7 +43,7 @@
     {
         "id": null,
         "name": "ai-center",
-        "localizedName": "AI中心（企业版）"
+        "localizedName": "AI中心"
     },
     {
         "id": null,
@@ -48,7 +53,7 @@
     {
         "id": null,
         "name": "management",
-        "localizedName": "管理中心"
+        "localizedName": "管理中心（企业版）"
     },
     {
         "id": null,
