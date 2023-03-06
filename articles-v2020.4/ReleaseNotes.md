@@ -12,7 +12,7 @@
 
 ### 【控制台】 
 
-1. 新增云扩RPA[自动化卓越中心](../articles-v2020.4/Reference/Console/COECenter/COEOverview.md)解决方案，优化企业内部的需求发起、跟进、流程开发进度追踪的协作效率，并根据实际数据分析、挖掘RPA产生的价值。
+1. 新增云扩RPA[自动化卓越中心](./Reference/Console/COECenter/COEOverview.md)解决方案，优化企业内部的需求发起、跟进、流程开发进度追踪的协作效率，并根据实际数据分析、挖掘RPA产生的价值。
 2. 优化对已有流程部署更改机器人/机器人组的体验。
 
 
