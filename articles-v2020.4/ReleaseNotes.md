@@ -2,6 +2,31 @@
 
 本文介绍了云扩产品的的功能发布和对应的文档动态，欢迎体验。
 
+## 2023.3.23 发版说明
+
+2023.3.3 发布了云扩 RPA , 本次发布的产品及版本号为：
+
+|         | 版本号      |
+| -----:  | -----:     |
+| 编辑器   |V 1.1.2303.3|
+| 机器人   |V 1.1.2303.3|
+
+### 【编辑器】 
+
+1. 将选择器从xaml文件中分离，提升项目加载速度，详见文档[选择器改动](https://academy.encoo.com/wiki/Activities/Appendix/selectorup.md)；
+2. 优化Office组件[打开新建](https://academy.encoo.com/wiki/Activities/TableExcelWPS/OpenExcel.md)“无依赖”的功能，提升组件稳定性；
+3. Excel组件[读取区域](https://academy.encoo.com/wiki/Activities/TableExcelWPS/ReadRange.md)支持使用下标做为工作表；
+4. 文件/文件夹组件[写入文件](https://academy.encoo.com/wiki/Activities/FileFolder/WriteFile.md)支持UTF8编码；
+5. 修复了已知BUG，提升编辑器稳定性。
+
+### 【机器人】
+
+1. 优化流程包加载效率，提升加载速度；
+2. 优化与控制台的通信频次，减少资源占用；
+3. 支持使用快捷键执行/暂停流程；
+4. 修复了已知BUG，提升机器人稳定性。
+
+
 ## 2023.3.3 发版说明
 
 2023.3.3 发布了云扩 RPA , 本次发布的产品及版本号为：
