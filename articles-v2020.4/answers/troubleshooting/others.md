@@ -249,7 +249,7 @@
 <br>
 
 【解决思路】：
-可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](https://academy.bottime.com/wiki/BestPractices/offline-use-activitymarket.md?uuid=e6870ddb-2bee-427e-bf93-7f39c0288080）
+可能1、编辑器或者机器人里面点击安装一下 对应市场上面的组件，如果是内网，参考以下文档[离线使用组件市场中的组件](https://academy.encoo.com/zh-cn/wiki/BestPractices/offline-use-activitymarket.md)
 可能2、去升级机器人版本至对应的新版本 然后清空下`%userprofile%\.nuget\packages`再安装
 
 </font>
