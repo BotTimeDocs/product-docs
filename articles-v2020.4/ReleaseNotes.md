@@ -13,7 +13,7 @@
 
 ### 【编辑器】 
 
-1. 将选择器从xaml文件中分离，提升项目加载速度，详见文档[选择器改动](https://academy.encoo.com/wiki/Activities/Appendix/selectorup.md)；
+1. 将选择器从xaml文件中分离，提升项目加载速度，详见文档[选择器改动](https://academy.encoo.com/wiki/Activities/Appendix/SelectorUp.md)；
 2. 优化Office组件[打开新建](https://academy.encoo.com/wiki/Activities/TableExcelWPS/OpenExcel.md)“无依赖”的功能，提升组件稳定性；
 3. Excel组件[读取区域](https://academy.encoo.com/wiki/Activities/TableExcelWPS/ReadRange.md)支持使用下标做为工作表；
 4. 文件/文件夹组件[写入文件](https://academy.encoo.com/wiki/Activities/FileFolder/WriteFile.md)支持UTF8编码；
