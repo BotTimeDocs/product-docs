@@ -17,7 +17,7 @@ Citrix 广义上指 Citrix Desktop 和 Citrix App 两种虚拟化资源交付方
 
 ### 前提条件
 
-在本地计算机上安装 Citrix 客户端（即，[Citrix Receiver](https://www.citrix.com/downloads/citrix-receiver/) 或 [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/)）。
+在本地计算机上安装与编辑器相同版本的 Citrix 客户端，需企业版用户联系我司工作人员获取。
 
 ### 配置本地客户端
 

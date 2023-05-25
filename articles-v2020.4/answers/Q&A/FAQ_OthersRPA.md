@@ -455,3 +455,27 @@ zh-CN 改成 en-US
 <br><br>
 ---
 <br> 
+
+#### Q：exe文件放在项目路径下，执行命令行的命令该怎么写？
+
+
+<br>
+
+<font color=5a6877>
+<br>
+
+【解决办法-A5_00010】：可以直接运行当前项目文件的exe文件（相对路径）
+
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005230001.png"/>
+
+或定义个变量使用 
+```Environment.GetEnvironmentVariable("CurrentProjectSourcePath", EnvironmentVariableTarget.Process) ``` 
+获取当前项目路径，然后再在组件中拼接：
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005230002.png"/>
+
+</font>
+<br><br>
+---
+<br> 
