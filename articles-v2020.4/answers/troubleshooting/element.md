@@ -144,11 +144,16 @@
 
 **【解决办法-AA0008】**：
 * 第一步、将这个窗口设置成不拦截，后面可以点击到了
-* 第二步、若第一步中可能1排查不存在则验证下元素，进一步排查卡在第一层窗体的哪里 
 
 > 修改弹窗拦截需进入浏览器中设置的“启动弹窗组织程序”中添加例外：
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005250001.png"/>
+
+* 第二步、若第一步中可能1排查不存在则验证下元素，进一步排查卡在第一层窗体的哪里 
+
+> 进入选择器查看元素类型，如元素为非浏览器类型（如UIA3）则说明录制元素时未安装或启用浏览器扩展，安装扩展后重新录制即可（录制的元素类型应与浏览器一致，如Chrome）。
+
+<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005260001.png"/>
 
 </font>
 <br><br>
