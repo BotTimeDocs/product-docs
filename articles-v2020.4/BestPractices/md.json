@@ -6,6 +6,12 @@
         "labels": "独立桌面"
     },
     {
+        "name": "RDPmini.md",
+        "localizedName": "如何在远程桌面最小化时运行流程",
+        "uuid": "22b95ad8-7096-4a01-b117-69630462549a",
+        "labels": "RDP，远程桌面"
+    },    
+    {
         "name": "GetAndroidSMSCode.md",
         "localizedName": "安卓手机获取短信验证码",
         "uuid": "17f29a0a-44f9-4499-b3ee-7992d5dbc22f",

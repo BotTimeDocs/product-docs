@@ -37,3 +37,11 @@
 **此流程执行逻辑**：查询数据表 `testdemo` 中 "sex" 列为 "女" 的数据，结果保存至 `quertyresult` 变量中。
 
 ![查询](https://docimages.blob.core.chinacloudapi.cn/images/Activities/queryfilterdata20210924.png)
+
+
+## 常见问题
+
+
+1.**Q：查询是否支持参数化**
+
+**A：** 暂不支持支持参数化，可以在查询条件中拼接变量/参数

@@ -426,3 +426,37 @@ Windows Registry Editor Version 5.00
 <br><br>
 ---
 <br>
+
+
+#### Q：更新机器人客户端为最新版后有两个流程出现异常，编辑器和旧版机器人运行都没问题，有解决方案吗?
+
+
+<font color=5a6877>
+<br> 
+
+**【解决办法-I0018】** ：打开文件资源管理器，进入 ```C:\Users\UserName``` 下，删除“```.nuget```”文件夹，之后重启机器人
+
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005240001.png)
+
+
+</font>
+<br><br>
+---
+<br>
+
+#### Q：配置python环境报错，“xxxx.exe不是有效的python环境路径”，但本地py是有这个exe
+
+
+<font color=5a6877>
+<br> 
+
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006020001.png)
+
+
+**【解决办法-I0019】** ：把lib目录复制到Scripts里面去，让python.exe和lib在同一层目录。
+
+
+</font>
+<br><br>
+---
+<br>

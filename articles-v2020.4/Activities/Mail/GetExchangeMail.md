@@ -44,3 +44,15 @@
 **此流程执行逻辑**：获取 Exchange 服务账号中“收件箱”中的邮件。
 
 ![配置获取 Exchange 邮件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailExchange2020122302.png)
+
+## 常见问题
+
+1. **Q：如何获取邮件的发送时间？**
+
+    **A：** 可以使用 ```MailMessages.Headers[]``` 来获取，如:
+    
+    ```MailMessages.Headers["DateCreated"];  ```
+
+    ```MailMessages.Headers["DateReceived"];```
+    
+    ```MailMessages.Headers["Date"];```
