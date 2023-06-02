@@ -443,3 +443,20 @@ Windows Registry Editor Version 5.00
 <br><br>
 ---
 <br>
+
+#### Q：配置python环境报错，“xxxx.exe不是有效的python环境路径”，但本地py是有这个exe
+
+
+<font color=5a6877>
+<br> 
+
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006020001.png)
+
+
+**【解决办法-I0019】** ：把lib目录复制到Scripts里面去，让python.exe和lib在同一层目录。
+
+
+</font>
+<br><br>
+---
+<br>
