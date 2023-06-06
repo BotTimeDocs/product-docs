@@ -345,3 +345,18 @@ Windows下操作很多应用时需要更高级别的应用时需要管理员权�
  ---
  <br>
 
+
+#### Q：打开两个同名标签页时，验证的都是第一个标签页的元素，怎样切换倒第二个标签页
+
+<br>
+ 
+<font color=5a6877> 【解决办法A3_00015】:
+把选择器里面的 title属性 换成 url属性 ，标签页相同时可以使用url来区分页面：
+
+<img src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006060002.png"/>
+
+
+ 
+ </font><br><br>
+ ---
+ <br>
