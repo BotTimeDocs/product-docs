@@ -56,3 +56,15 @@
 1. **Q：现需将抓取的数据通过HTTP协议Post请求发送给其它系统，编辑器中哪个组件可以实现？**
 
     **A：**“HTTP(S)请求”、 “执行C#代码”、“执行Python代码”等组件均可实现。
+
+
+2. **Q：网页和ApiPost工具可以正常请求并返回，为什么用HTTP(S)请求组件直接报错？**
+
+![https1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130001.png)
+
+
+**A：** 可以使用代码关掉Expect。
+
+![https2](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130002.png)
+    
+![https3](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130003.png)

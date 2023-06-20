@@ -34,3 +34,9 @@
 **此流程执行逻辑**：将读取到的Excel的"Sheet1"工作表中"A1"单元格的内容写入到"Sheet2"工作表中"A1"单元格中。
 
 ![配置写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
+
+## 常见问题
+
+1. **Q：将获取的DataTable写入单元格失败，报错0x800A03EC，请问这个要怎么处理呢？**
+
+    **A：** 要将DataTable写入到Excel文件，需要使用[写入区域](../TableExcelWPS/WriteEange.md)组件，或是读取该DataTable的所有行，再遍历行将行中的值写入到单元格中。

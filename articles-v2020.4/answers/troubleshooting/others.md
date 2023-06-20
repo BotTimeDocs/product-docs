@@ -460,3 +460,22 @@ Windows Registry Editor Version 5.00
 <br><br>
 ---
 <br>
+
+#### Q：频繁导出某个文件名相同的文件 再打开 报资源占用这种有没有解决办法呢
+
+
+<font color=5a6877>
+<br> 
+
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006020001.png)
+
+
+**【解决办法-I0020】** ：这种情况一般都是文件的handle还开着，需要强制close file handle或者等待系统回收handle。可以使用sysinternal的handle第三方工具：
+https://jeffgraves.me/2008/05/29/closing-open-file-handles/
+
+![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006060001.png)
+
+</font>
+<br><br>
+---
+<br>
