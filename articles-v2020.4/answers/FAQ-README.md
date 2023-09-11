@@ -1086,6 +1086,12 @@ FAQ6：私有化部署 <br>
     <td>流程运行</td>
     <td>A5_00030</td>
   </tr>
+      <tr>
+    <td>编辑器卡顿，偶然报错：out of memory</td>
+    <td><a href="https://academy.encoo.com/zh-cn/wiki/answers/Q&A/FAQ_OthersRPA.md">FAQ4：其它_流程开发问题</a></td>
+    <td>编辑器卡顿</td>
+    <td>A5_00031</td>
+  </tr>
   <tr>
     <td>机器人运行时黑屏，如何排查与解决？ </td>
     <td><a href="https://academy.encoo.com/zh-cn/wiki/answers/Q&A/ProcessRunManager.md">FAQ5：流程运行与维护</a></td>
