@@ -1,0 +1,58 @@
+[
+  {
+    "id": null,
+    "name": "mouse.md",
+    "localizedName": "clicknium.mouse",
+    "uuid": "054a50c3-0e94-4b16-a9c5-8dc154fcd5b0",
+    "labels": "mouse"
+  },
+  {
+    "id": null,
+    "name": "click.md",
+    "localizedName": "clicknium.mouse.click",
+    "uuid": "48e012ab-3a02-462c-bdfb-28243c7d9412",
+    "labels": "click"
+  },
+  {
+    "id": null,
+    "name": "double_click.md",
+    "localizedName": "clicknium.mouse.double_click",
+    "uuid": "00694417-561d-4251-b6df-c4cf418111e9",
+    "labels": "double click"
+  },
+  {
+    "id": null,
+    "name": "down.md",
+    "localizedName": "clicknium.mouse.down",
+    "uuid": "96af9331-6d6f-4f69-a53a-514cbeaa42d8",
+    "labels": "down"
+  },
+  {
+    "id": null,
+    "name": "move.md",
+    "localizedName": "clicknium.mouse.move",
+    "uuid": "9cffcfb2-a306-49de-b5e9-450f42cf2c67",
+    "labels": "move"
+  },
+  {
+    "id": null,
+    "name": "position.md",
+    "localizedName": "clicknium.mouse.position",
+    "uuid": "be63eb56-83fa-4662-a7c0-fbd459cc4269",
+    "labels": "position"
+  },
+  {
+    "id": null,
+    "name": "scroll.md",
+    "localizedName": "clicknium.mouse.scroll",
+    "uuid": "58a61838-947d-4142-a897-2253803f6204",
+    "labels": "scroll"
+  },
+  {
+    "id": null,
+    "name": "up.md",
+    "localizedName": "clicknium.mouse.up",
+    "uuid": "741e6c6a-27c9-4ca9-932f-ffc5bf716052",
+    "labels": "up"
+  }
+]

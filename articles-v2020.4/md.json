@@ -11,8 +11,8 @@
         "name": "ComparePlans&Features.md",
         "localizedName": "社区VS企业版-产品介绍",
         "uuid": "20c471b3-c9e4-4e1f-8f1b-69494d6b1fad",
-        "labels": "付费",
-            },
+        "labels": "付费"
+    },
     {
         "id": null,
         "name": "pro.md",
@@ -57,6 +57,10 @@
     {
         "name": "LocalDeploy",
         "localizedName": "私有化部署"
+    },
+    {
+        "name": "Crossplatform",
+        "localizedName": "信创"
     },
     {
         "name": "answers",

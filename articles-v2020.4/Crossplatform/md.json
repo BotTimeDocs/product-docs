@@ -1,0 +1,13 @@
+[
+  {
+    "id": null,
+    "name": "README.md",
+    "localizedName": "关于ENCOO RPA 扩展",
+    "uuid": "fe51e2de-86ee-4e89-9ba2-bc5d94065432",
+    "labels": "VS Code ENCOO RPA 扩展，信创，跨平台"
+  },
+  {
+    "name": "python",
+    "localizedName": "EncooRPA Python API"
+  }
+]

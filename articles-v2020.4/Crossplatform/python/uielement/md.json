@@ -1,0 +1,156 @@
+[
+  {
+    "id": null,
+    "name": "uielement.md",
+    "localizedName": "UiElement",
+    "uuid": "cd7202eb-175f-40dd-a95b-c3bd81cd3f3e",
+    "labels": "uielement"
+  },
+  {
+    "id": null,
+    "name": "child.md",
+    "localizedName": "child",
+    "uuid": "03e4e30c-6bb7-4722-a03e-e9ef8b78871f",
+    "labels": "child"
+  },
+  {
+    "id": null,
+    "name": "clear_text.md",
+    "localizedName": "clear_text",
+    "uuid": "56ff06a6-01d5-4be5-ad9a-c76ffba2bf07",
+    "labels": "clear text"
+  },
+  {
+    "id": null,
+    "name": "click.md",
+    "localizedName": "click",
+    "uuid": "1ea889a8-14e6-4f0f-9745-5ee5c8286dd7",
+    "labels": "click"
+  },
+  {
+    "id": null,
+    "name": "double_click.md",
+    "localizedName": "double_click",
+    "uuid": "82643c7e-e796-4656-a80f-a7e9917c5d88",
+    "labels": "double click"
+  },
+  {
+    "id": null,
+    "name": "drag_drop.md",
+    "localizedName": "drag_drop",
+    "uuid": "e772753d-8e2a-4148-8007-0c4712b22c1d",
+    "labels": "drag drop"
+  },
+  {
+    "id": null,
+    "name": "get_position.md",
+    "localizedName": "get_position",
+    "uuid": "275a4624-d47e-4d52-b901-47361c30c5de",
+    "labels": "get_position"
+  },
+  {
+    "id": null,
+    "name": "get_property.md",
+    "localizedName": "get_property",
+    "uuid": "f3bcb93a-0ca1-40d7-8c7f-1d25c833a141",
+    "labels": "get property"
+  },
+  {
+    "id": null,
+    "name": "get_size.md",
+    "localizedName": "get_size",
+    "uuid": "fa9c45b3-44ac-4fb5-98ca-c10924e82eb0",
+    "labels": "get size"
+  },
+  {
+    "id": null,
+    "name": "get_text.md",
+    "localizedName": "get_text",
+    "uuid": "0e3d1602-ecf5-452a-9548-29aaad6aac24",
+    "labels": "get_text"
+  },
+  {
+    "id": null,
+    "name": "hover.md",
+    "localizedName": "hover",
+    "uuid": "5cccb48c-a725-48ab-a715-d9a4d612b081",
+    "labels": "hover"
+  },
+  {
+    "id": null,
+    "name": "mouse_down.md",
+    "localizedName": "mouse_down",
+    "uuid": "562db5c1-0031-4a88-97cb-0052a9041951",
+    "labels": "mouse down"
+  },
+  {
+    "id": null,
+    "name": "mouse_up.md",
+    "localizedName": "mouse_up",
+    "uuid": "9fa10c07-4214-4a95-ade2-d2d2a231ba1b",
+    "labels": "mouse up"
+  },
+  {
+    "id": null,
+    "name": "mouselocation.md",
+    "localizedName": "mouselocation",
+    "uuid": "1618bac9-1530-4299-8a02-6401c0fbc3eb",
+    "labels": "mouselocation"
+  },
+  {
+    "id": null,
+    "name": "save_to_image.md",
+    "localizedName": "save_to_image",
+    "uuid": "74c66b35-9589-467a-bb34-aca4cd595da1",
+    "labels": "save to image"
+  },
+  {
+    "id": null,
+    "name": "select_item.md",
+    "localizedName": "select_item",
+    "uuid": "85aa1873-02d2-440f-b39a-8db59d4e8885",
+    "labels": "select item"
+  },
+  {
+    "id": null,
+    "name": "select_items.md",
+    "localizedName": "select_items",
+    "uuid": "ce2a48c5-6ea6-4f52-93da-e6e4e8464aa8",
+    "labels": "select items"
+  },
+  {
+    "id": null,
+    "name": "send_hotkey.md",
+    "localizedName": "send_hotkey",
+    "uuid": "b3477d16-e41e-40c7-8f57-05597991e435",
+    "labels": "send hotkey"
+  },
+  {
+    "id": null,
+    "name": "set_checkbox.md",
+    "localizedName": "set_checkbox",
+    "uuid": "c475fa7c-f0ab-4745-bcd2-9c70d59142ab",
+    "labels": "set checkbox"
+  },
+  {
+    "id": null,
+    "name": "set_focus.md",
+    "localizedName": "set_focus",
+    "uuid": "d7e4233d-e1be-4496-af29-aa4a2804b307",
+    "labels": "set focus"
+  },
+  {
+    "id": null,
+    "name": "set_text.md",
+    "localizedName": "set_text",
+    "uuid": "70ede454-ef0e-4ebe-b1a5-23736395acda",
+    "labels": "set_text"
+  },
+  {
+    "id": null,
+    "name": "wait_property.md",
+    "localizedName": "wait_property",
+    "uuid": "a3696e87-5d78-4e5a-8de1-e77db2809ef5",
+    "labels": "wait property"
+  }
+]
