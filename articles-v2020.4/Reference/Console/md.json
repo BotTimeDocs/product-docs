@@ -47,6 +47,11 @@
     },
     {
         "id": null,
+        "name": "LLMKB",
+        "localizedName": "智能知识库"
+    },
+    {
+        "id": null,
         "name": "datacentor",
         "localizedName": "数据中心（企业版）"
     },
