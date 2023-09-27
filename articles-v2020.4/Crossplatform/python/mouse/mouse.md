@@ -1,8 +1,9 @@
-# Mouse 
+# Mouse
 
 clicknium.mouse类提供了像真实用户一样模拟鼠标事件的方法。
 
 `clicknium.mouse` : 鼠标驱动程序实例。
+
 ## 方法
 
 - [click](click.md): 使用指定的鼠标按钮执行单击操作
