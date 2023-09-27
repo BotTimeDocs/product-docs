@@ -1,5 +1,6 @@
 # save_to_image
-````python 
+
+```python
 def save_to_image(
         self,
         image_file: str,
@@ -11,26 +12,28 @@ def save_to_image(
     ) -> None
 ```
 
-Save target element's screenshot to file with the specified size and offset.
+将目标元素的屏幕截图保存到具有指定大小和偏移量的文件。
 
-**Parameters:**   
+
+**参数：**   
+
 - **image_file[Required]**: str  
-    - File path of saved image.  
+    - 保存图像的文件路径。  
 - **img_width**: int  
-    - Specify the screenshot width. Default is the target element's width.  
+    - 指定屏幕截图宽度。默认值为目标元素的宽度。 
 - **img_height**: int  
-    - Speficy the screenshot height. Default is the target element's height.  
+    - 特别的截图高度。默认值为目标元素的高度。 
 - **xoffset**:  int  
-    - Offset of X-Axis from the target element's left-top corner.  
+    - X 轴与目标元素左上角的偏移。
 - **yoffset**: int  
-    - Offset of Y-Axis from the target element's left-top corner.  
+    - Y 轴与目标元素左上角的偏移。 
 - **timeout**: int  
-    - Timeout for the operation, the unit is second, and the default value is 30 seconds.  
+    - 操作超时，单位为秒，默认值为 30 秒。 
 
-**Returns:**  
+**返回：**  
     &emsp;None
 
-**Example:**
+**例：**
 ***
 ```python
 from clicknium import clicknium as cc, locator, ui
