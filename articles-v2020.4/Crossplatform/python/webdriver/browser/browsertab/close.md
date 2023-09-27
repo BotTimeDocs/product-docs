@@ -1,7 +1,4 @@
----
-sidebar_position: 23
-sidebar_label: close
----
+
 # BrowserTab.close
 
 ```python

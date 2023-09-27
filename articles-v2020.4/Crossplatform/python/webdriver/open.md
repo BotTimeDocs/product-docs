@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: open
----
+
 # WebDriver.open
 
 ```python

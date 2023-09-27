@@ -1,7 +1,4 @@
----
-sidebar_position: 12
-sidebar_label: wait_appear_by_xpath
----
+
 # BrowserTab.wait_appear_by_xpath
 ```python
 def wait_appear_by_xpath(

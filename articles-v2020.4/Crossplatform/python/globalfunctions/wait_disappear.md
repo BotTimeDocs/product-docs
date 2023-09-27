@@ -1,6 +1,4 @@
----
-sidebar_position: 5
----
+
 # clicknium.wait_disappear
 ```python 
 def wait_disappear(

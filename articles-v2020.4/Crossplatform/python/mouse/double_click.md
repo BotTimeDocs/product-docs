@@ -1,7 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: double_click
----
 
 # clicknium.mouse.double_click
 

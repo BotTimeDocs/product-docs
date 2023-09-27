@@ -1,7 +1,4 @@
----
-sidebar_position: 3
-sidebar_label: attach_by_title_url
----
+
 # WebDriver.attach_by_title_url
 
 ```python

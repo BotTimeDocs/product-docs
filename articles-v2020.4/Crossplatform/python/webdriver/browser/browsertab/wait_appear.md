@@ -1,7 +1,4 @@
----
-sidebar_position: 11
-sidebar_label: wait_appear
----
+
 # BrowserTab.wait_appear
 ```python
 def wait_appear(

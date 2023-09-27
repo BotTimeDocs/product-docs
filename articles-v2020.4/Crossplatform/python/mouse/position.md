@@ -1,7 +1,4 @@
----
-sidebar_position: 7
-sidebar_label: position
----
+
 
 # clicknium.mouse.position
 

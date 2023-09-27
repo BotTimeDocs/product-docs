@@ -1,7 +1,4 @@
----
-sidebar_position: 11
-sidebar_label: execute_js_file
----
+
 # WebElement.execute_js_file
 
 ```python

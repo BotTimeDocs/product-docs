@@ -1,7 +1,4 @@
----
-sidebar_position: 9
-sidebar_label: is_existing_by_xpath
----
+
 # BrowserTab.is_existing_by_xpath
 ```python
 def is_existing_by_xpath(

@@ -1,7 +1,4 @@
----
-sidebar_position: 5
-sidebar_label: close
----
+
 # browser.close
 
 ```python

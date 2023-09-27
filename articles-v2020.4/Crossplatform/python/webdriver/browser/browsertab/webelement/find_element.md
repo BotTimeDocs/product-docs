@@ -1,7 +1,4 @@
----
-sidebar_position: 3
-sidebar_label: find_element
----
+
 # WebElement.find_element
 ```python
 def find_element(

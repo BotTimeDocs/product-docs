@@ -1,6 +1,4 @@
----
-sidebar_position: 4
----
+
 # clicknium.wait_appear
 ```python
 def wait_appear(

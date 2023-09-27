@@ -1,7 +1,4 @@
----
-sidebar_position: 8
-sidebar_label: is_existing
----
+
 # BrowserTab.is_existing
 ```python
 def is_existing(

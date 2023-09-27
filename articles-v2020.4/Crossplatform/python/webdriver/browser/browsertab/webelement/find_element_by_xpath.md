@@ -1,7 +1,4 @@
----
-sidebar_position: 4
-sidebar_label: find_element_by_xpath
----
+
 # WebElement.find_element_by_xpath
 ```python
 def find_element_by_xpath(

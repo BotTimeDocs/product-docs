@@ -1,7 +1,4 @@
----
-sidebar_position: 6
-sidebar_label: scroll
----
+
 
 # clicknium.mouse.scroll
 

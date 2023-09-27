@@ -1,6 +1,4 @@
----
-sidebar_position: 1
----
+
 # clicknium.find_element
 ```python
 def find_element(

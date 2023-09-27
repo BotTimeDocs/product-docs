@@ -1,6 +1,4 @@
----
-sidebar_position: 7
----
+
 # clicknium.send_text
 ```python
 def send_text(

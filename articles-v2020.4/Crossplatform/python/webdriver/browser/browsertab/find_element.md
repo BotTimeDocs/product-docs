@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: find_element
----
+
 # BrowserTab.find_element
 ```python
 def find_element(

@@ -1,7 +1,4 @@
----
-sidebar_position: 13
-sidebar_label: scroll
----
+
 # WebElement.scroll
 
 ```python

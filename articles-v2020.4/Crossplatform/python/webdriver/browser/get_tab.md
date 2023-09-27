@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: get_tab
----
+
 # browser.get_tab
 
 ```python

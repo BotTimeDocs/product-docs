@@ -1,7 +1,4 @@
----
-sidebar_position: 13
-sidebar_label: wait_appear_by_css_selector
----
+
 # BrowserTab.wait_appear_by_css_selector
 ```python
 def wait_appear_by_css_selector(

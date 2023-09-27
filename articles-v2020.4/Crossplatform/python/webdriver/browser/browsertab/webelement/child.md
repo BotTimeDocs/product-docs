@@ -1,6 +1,4 @@
----
-sidebar_position: 1
----
+
 # child
 ```python
 def child(self, index: int)

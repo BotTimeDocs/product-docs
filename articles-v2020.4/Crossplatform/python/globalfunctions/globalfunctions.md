@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: Global Functions
----
+
 # 函数列表 
 
 ## UI 元素操作 

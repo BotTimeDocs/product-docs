@@ -1,7 +1,4 @@
----
-sidebar_position: 7
-sidebar_label: find_elements_by_css_selector
----
+
 # BrowserTab.find_elements_by_css_selector
 ```python
 def find_elements_by_css_selector(

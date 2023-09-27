@@ -1,7 +1,4 @@
----
-sidebar_position: 10
-sidebar_label: is_existing_by_css_selector
----
+
 # BrowserTab.is_existing_by_css_selector
 ```python
 def is_existing_by_css_selector(

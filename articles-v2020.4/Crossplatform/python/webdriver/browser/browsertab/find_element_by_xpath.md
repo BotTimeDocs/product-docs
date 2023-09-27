@@ -1,7 +1,4 @@
----
-sidebar_position: 3
-sidebar_label: find_element_by_xpath
----
+
 # BrowserTab.find_element_by_xpath
 ```python
 def find_element_by_xpath(

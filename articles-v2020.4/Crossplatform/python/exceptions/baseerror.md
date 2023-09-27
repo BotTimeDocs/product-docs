@@ -1,7 +1,4 @@
----
-sidebar_position: 1
-sidebar_label: BaseError
----
+
 # 基本错误
 
 - 扩展: [Exception](https://docs.python.org/3/library/exceptions.html#Exception "Python Built-in Exception")

@@ -1,6 +1,4 @@
----
-sidebar_position: 3
----
+
 # clicknium.is_existing
 ```python
  def is_existing(

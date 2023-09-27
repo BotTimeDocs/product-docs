@@ -1,7 +1,4 @@
----
-sidebar_position: 16
-sidebar_label: wait_disappear_by_css_selector
----
+
 # BrowserTab.wait_disappear_by_css_selector
 ```python
 def wait_disappear_by_css_selector(
