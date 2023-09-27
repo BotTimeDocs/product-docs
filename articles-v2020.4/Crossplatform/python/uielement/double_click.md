@@ -1,4 +1,5 @@
 # double_click
+
 ```python
 def double_click(
         self,
