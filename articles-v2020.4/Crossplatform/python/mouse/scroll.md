@@ -10,13 +10,15 @@ def scroll(
     ) -> None
 ```  
 
-做鼠标滚轮。
+鼠标滚轮。
 
 **参数:**  
     &emsp;**times**: int  
         &emsp;&emsp; 滚动的整数次数，默认值为 1。当值大于零表示向上滚动时，其他值表示向下滚动。 
+        <br/>
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; 修改键（“Alt”、“Ctrl”、“Shift”、“Win”）要随单击一起按下，默认值为 None。
+        <br/>
 
 **返回:**  
     &emsp;None

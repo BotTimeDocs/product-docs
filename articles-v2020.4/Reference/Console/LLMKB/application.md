@@ -10,6 +10,7 @@
 ## 新建应用
 
 1. 基本配置
+<br/>
 ![新建基本](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/app2.png)
 
 - 应用名称：根据应用场景为该应用输入一个合适的名称。
@@ -17,12 +18,14 @@
 - 状态：控制该应用是否立刻开始使用或禁用。
   
 2. 设置交互方式
+<br/>
 ![新建设置交互](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/app3.png)
 
 - 交互方式：为该应用配置合适的交互方式。选项：网页/移动端、钉钉、企微、API等。
 - 有效期：设置该应用的有效期范围。
 
 3. 获取二维码和网页地址
+<br/>
 ![获取二维码和网页地址](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/app4.png)
 
 - 网页链接：复制该网页链接直接在浏览器端打开即可开启与知识库对话。

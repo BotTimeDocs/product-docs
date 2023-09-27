@@ -4,8 +4,12 @@
     "localizedName": "全局函数"
   },
   {
+    "name": "mouse",
+    "localizedName": "鼠标"
+  },
+  {
     "name": "uielement",
-    "localizedName": "界面元素操作"
+    "localizedName": "界面元素"
   },
   {
     "name": "webdriver",

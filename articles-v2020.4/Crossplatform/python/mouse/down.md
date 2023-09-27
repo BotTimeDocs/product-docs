@@ -16,8 +16,10 @@ def down(
 **参数:**  
     &emsp;**x[Required]**: int  
         &emsp;&emsp; 定义 X 整数坐标。
+        <br/>
     &emsp;**y[Required]**: int  
         &emsp;&emsp; 定义 Y 整数坐标。
+        <br/>
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; 定义鼠标按钮的位置，默认值为左按钮。 
 

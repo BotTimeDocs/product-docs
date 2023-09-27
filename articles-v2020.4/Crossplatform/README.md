@@ -1,25 +1,21 @@
-# Visual Studio Code 的 ENCOO RPA 扩展
+# ENCOO RPA 信创版
 
-ENCOO RPA 扩展帮助您使用Python快速实现自动化脚本。
+ENCOO RPA 扩展信创版集成在VS Code中，帮助您使用Python快速实现自动化脚本。
 - 捕获UI元素并通过简单的点击轻松抓取数据;
 - 支持具有多种自动化技术的 Web 和桌面应用程序;
-- 对 Chrome 浏览器的全面支持;
-
-## 自动化
-- Chrome浏览器
-- Windows应用程序，JAVA GUI应用程序，SAP WinGUI。
-- 图像识别
+- 对 Chrome、奇安信等浏览器全面支持;
 
 ## 快速设置
 安装后通过“ENCOO RPA：欢迎（快速设置）”转到扩展程序的欢迎页面，或按照以下步骤操作：
 - **系统要求**
-  - 建议使用 Windows 7 SP1 或更高版本(建议使用 Windows 10 或 11)、统信UOS、麒麟。 
-  - 安装了 Python 3.7 或更高版本。 
-  - .Net 7.0 
+  - 操作系统：统信UOS、麒麟
+  - 安装Python 3.7 或更高版本
+  - 安装.Net 7.0 
 
 ## 创建自动化项目
-● 在vscode中按 ctrl+shift+p ，选择Clicknium:Create Project. 等待python虚拟环境安装完成。
-● 在虚拟环境中安装clicknium python库。
+
+- 在vscode中按 ctrl+shift+p ，选择Clicknium:Create Project. 等待python虚拟环境安装完成。
+- 在虚拟环境中安装clicknium python库。
 
 ## 通过示例项目学习
 
@@ -88,9 +84,6 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 - 项目编写完成后，按ctrl+shift+p 选择CLicknium:Package Project 等待打包完成。
 - 在机器人将打包后的zip格式流程包导入即可运行。
 
-## 在线文档
-
-更多内容，详见 [在线文档](https://academy.encoo.com/wiki/Index.md?uuid=27aa12b3-1fb1-42a8-85ce-3bb2729ff06c).
 
 ## 联系我们
 
