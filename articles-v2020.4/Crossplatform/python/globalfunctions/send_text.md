@@ -1,5 +1,6 @@
 
 # clicknium.send_text
+
 ```python
 def send_text(
         self,

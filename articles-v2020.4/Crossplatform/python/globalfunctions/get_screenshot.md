@@ -1,5 +1,6 @@
 
 # clicknium.get_screenshot
+
 ```python
 def get_screenshot(image_file: str) -> None
 ```

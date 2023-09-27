@@ -1,5 +1,6 @@
 
 # clicknium.send_hotkey
+
 ```python
 def send_hotkey(hotkey: str) -> None
 ```
