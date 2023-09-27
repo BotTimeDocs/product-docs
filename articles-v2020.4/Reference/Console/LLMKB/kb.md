@@ -2,6 +2,8 @@
 
 支持上传多种类型文件（PDF，WORD，图片，TXT等），构建您的专属专属知识库。
 
+**注意：** 拥有智能知识库管理员角色才可对整个功能操作，若无权限请联系公司管理员开通。
+
 ## 知识库列表
 浏览所有知识库列表，并支持对知识库名称模糊查询；
 ![知识库列表](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/kb1.png)
