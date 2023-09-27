@@ -15,7 +15,8 @@ def find_element(
 >别名方法 `ui()` 相当于 `clicknium.find_element()`. 
 
 **参数:**  
-	&emsp;**locator[Required]**: str | _Locator   
+<br/>
+    &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp;定位器字符串，目标 UI 元素的定位器的访问路径，, 例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 Chrome，定位器名称为 &emsp;&emsp;search_sb_form_q
 <br/>
     &emsp;**locator_variables**: dict  
@@ -23,8 +24,11 @@ def find_element(
 <br/>
     &emsp;**window_mode**: WindowMode  
          &emsp;&emsp;它定义在调用操作之前是否将 UI 元素的父窗口设置为最顶层。
+<br/>
          &emsp;&emsp;`auto`: 默认值，默认情况下将窗口设置为最顶层。
+<br/>
          &emsp;&emsp;`topmost`: 始终将窗口设置为最顶层
+<br/>
          &emsp;&emsp;`noaction`: 对最顶层模式不执行任何操作
 <br/>
 

@@ -1,4 +1,5 @@
 # clear_text
+
 ```python
 def clear_text(
         self,
