@@ -11,9 +11,9 @@ def find_elements_by_xpath(
 在活动浏览器中，通过给定的 XPath 查找元素。
 
 **参数:**
-    &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; 要查找的元素的 XPath。
-    &emsp;**timeout**: int  
+- **xpath[Required]**: str     
+    - 要查找的元素的 XPath。
+- **timeout**: int  
         &emsp;&emsp;操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  

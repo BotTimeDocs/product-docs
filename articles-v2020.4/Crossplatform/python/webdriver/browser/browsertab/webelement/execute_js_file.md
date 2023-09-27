@@ -16,12 +16,12 @@ def execute_js_file(
 >在参数 `javascript_file`, 中指定的要执行的 Javascript 文件中，使用“_context$.currentElement.”作为目标元素。
 
 **参数:**  
-    &emsp;**javascript_file[Required]**: str    
-        &emsp;&emsp;  Javascript 文件路径，例如："c:\\test\test.js".  
-    &emsp;**method**: str    
-        &emsp;&emsp; 要调用的方法应该在 Javascript 文件中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 要调用的方法应该在 Javascript 文件中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
+- **javascript_file[Required]**: str    
+    -  Javascript 文件路径，例如："c:\\test\test.js".  
+- **method**: str    
+    - 要调用的方法应该在 Javascript 文件中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
+- **timeout**: int  
+    - 要调用的方法应该在 Javascript 文件中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
 
 **返回:**  
     &emsp;Str,  执行结果。

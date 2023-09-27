@@ -17,10 +17,10 @@ def find_element(
 >- `clicknium.chrome.open("https://bing.com").find_element()` 将在其父网页中找到该元素。
 
 **参数:**  
-    &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string,  定位器字符串，目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q。
-    &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables,  定位器变量，设置为在定位器中初始化参数，例如：`{ "row": 1,  "column": 1}`
+- **locator[Required]**: str | _Locator   
+    - locator string,  定位器字符串，目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q。
+- **locator_variables**: dict  
+    - locator variables,  定位器变量，设置为在定位器中初始化参数，例如：`{ "row": 1,  "column": 1}`
 
 **返回:**  
     &emsp;[WebElement](webelement.md) 对象。

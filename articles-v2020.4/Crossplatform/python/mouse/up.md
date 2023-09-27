@@ -14,14 +14,14 @@ def up(
 将鼠标放在所需位置，然后重新释放鼠标按钮。
 
 **参数:**  
-    &emsp;**x[Required]**: int  
-        &emsp;&emsp;  定义 X 整数坐标。
+- **x[Required]**: int  
+    -  定义 X 整数坐标。
 <br/>
-    &emsp;**y[Required]**: int  
-        &emsp;&emsp; 定义 Y 整数坐标。
+- **y[Required]**: int  
+    - 定义 Y 整数坐标。
 <br/>
-    &emsp;**mouse_button**: MouseButton  
-        &emsp;&emsp; 定义鼠标按钮的位置，默认值为左按钮。
+- **mouse_button**: MouseButton  
+    - 定义鼠标按钮的位置，默认值为左按钮。
 <br/>
 
 **返回:**  

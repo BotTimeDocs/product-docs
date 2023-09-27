@@ -12,12 +12,12 @@ def find_element(
 返回由给定定位器locator定义的 Web 元素。
 
 **参数:**  
-    &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, 目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q。
-    &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, 设置为在定位器中初始化参数，例如：eg: `{ "row": 1,  "column": 1}`
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **locator[Required]**: str | _Locator   
+    - locator string, 目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q。
+- **locator_variables**: dict  
+    - locator variables, 设置为在定位器中初始化参数，例如：eg: `{ "row": 1,  "column": 1}`
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;[WebElement](webelement.md) 对象。

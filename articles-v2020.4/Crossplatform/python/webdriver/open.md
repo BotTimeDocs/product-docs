@@ -22,23 +22,23 @@ Open browser with specified url to get a browser tab. Browser automation extensi
 
 
 **Parameters:**  
-    &emsp;**url[Required]**: str   
-        &emsp;&emsp; Url string, the target site url, eg.: <https://www.bing.com>.     
-    &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize, whether to maximize the browser window, the default value is True.  
-    &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete, whether to wait for the broswser to complete loading, the default value is True.  
-    &emsp;**userdata_folder_mode**: WebUserDataMode  
-        &emsp;&emsp; userdata_folder_mode defines whether using customized user data folder when opening the browser.  
-        &emsp;&emsp; `automatic`：use user data folder automatically.  
-        &emsp;&emsp; `default`：use default folder of the user data.  
-        &emsp;&emsp; `custom`：use the folder specified by parameter 'userdata_folder_path'.  
-    &emsp;**userdata_folder_path**: str  
-        &emsp;&emsp; User data's folder path.  
-    &emsp;**args**: additional arguments to pass to the browser instance. The list of Chromium flags can be found at https://peter.sh/experiments/chromium-command-line-switches/, ex: args=["--profile-directory=Default"]
+- **url[Required]**: str   
+    - Url string, the target site url, eg.: <https://www.bing.com>.     
+- **is_maximize**: bool  
+    - is_maximize, whether to maximize the browser window, the default value is True.  
+- **is_wait_complete**: bool  
+    - is_wait_complete, whether to wait for the broswser to complete loading, the default value is True.  
+- **userdata_folder_mode**: WebUserDataMode  
+    - userdata_folder_mode defines whether using customized user data folder when opening the browser.  
+    - `automatic`：use user data folder automatically.  
+    - `default`：use default folder of the user data.  
+    - `custom`：use the folder specified by parameter 'userdata_folder_path'.  
+- **userdata_folder_path**: str  
+    - User data's folder path.  
+- **args**: additional arguments to pass to the browser instance. The list of Chromium flags can be found at https://peter.sh/experiments/chromium-command-line-switches/, ex: args=["--profile-directory=Default"]
   
-    &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
+- **timeout**: int  
+    - Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;[BrowserTab](browsertab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.

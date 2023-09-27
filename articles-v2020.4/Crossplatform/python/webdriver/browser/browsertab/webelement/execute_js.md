@@ -16,12 +16,12 @@ def execute_js(
 > 在 Javascript 代码中，执行参数 `javascript_code`, 中指定的，方法是使用“_context$.currentElement.”作为目标元素。
 
 **参数:**  
-    &emsp;**javascript_code[Required]**: str    
-        &emsp;&emsp; 中指定的，方法是使用“_context$.currentElement.”作为目标元素。
-    &emsp;**method**: str    
-        &emsp;&emsp; 要调用的方法应该在 Javascript 代码中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **javascript_code[Required]**: str    
+    - 中指定的，方法是使用“_context$.currentElement.”作为目标元素。
+- **method**: str    
+    - 要调用的方法应该在 Javascript 代码中定义。如果任何参数需要传递给方法，它可以包含在此参数值中，例如：SetText（“test”）。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;Str,  执行结果

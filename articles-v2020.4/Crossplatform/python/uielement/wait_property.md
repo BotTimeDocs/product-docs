@@ -11,14 +11,14 @@ def wait_property(
 等待目标元素的属性在指定的超时内成为预期值。
 
 **参数:**  
-    &emsp;**name[Required]**: str  
-        &emsp;&emsp; 属性名称，不同的 UI 元素可能支持不同的属性。
+- **name[Required]**: str  
+    - 属性名称，不同的 UI 元素可能支持不同的属性。
   
 
-    &emsp;**value[Required]**: str  
-        &emsp;&emsp; Expected property value.  
-    &emsp;**timeout**: int  
-        &emsp;&emsp; Wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
+- **value[Required]**: str  
+    - Expected property value.  
+- **timeout**: int  
+    - Wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **返回:**  
     &emsp;bool，如果 UI 元素存在且其属性值为预期值，则返回 True，否则返回 False。

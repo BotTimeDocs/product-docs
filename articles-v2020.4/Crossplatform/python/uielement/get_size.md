@@ -6,8 +6,8 @@ def get_size(self, timeout: int = 30) -> ElementSize
 获取目标元素的大小（高度和宽度）。
 
 **参数:**   
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;ElementSize 对象，类定义如下：

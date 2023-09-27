@@ -13,19 +13,19 @@ def clear_text(
 目标元素的清除文本。
 
 **参数:**  
-     &emsp;**by**: ClearTextBy  
-        &emsp;&emsp; 清除目标元素文本的方法
-        &emsp;&emsp; `set-text`: 通过设置目标元素的属性来清除其文本。
-        &emsp;&emsp; `send-hotkey`: 通过向目标元素发送热键来获取文本。还需要相应地指定“clear_hotkey”和“预操作”参数。 
-    &emsp;**clear_hotkey**: ClearHotKey  
-        &emsp;&emsp; 如果 by 设置为“发送热键”，则使用此参数指定热键，默认值为 `CAD`.  
-        &emsp;&emsp; `CAD` 意思是`{CTRL}{A}-{DELETE}`: 首先发送组合键“{CTRL}{A}”，然后发送“{DELETE}”。
-        &emsp;&emsp; `ESHD` 意思是 `{END}-{SHIFT}{HOME}-{DELETE}`: 首先发送“{END}”，然后发送组合键“{SHIFT}{HOME}，然后发送密钥”{DELETE}”。
-        &emsp;&emsp; `HSED` 意思是 `{HOME}-{SHIFT}{END}-{DELETE}`:首先发送“{HOME}”，然后发送组合键“{SHIFT}{END}，然后发送”{DELETE}”。
-    &emsp;**preaction**: PreAction  
-        &emsp;&emsp; 如果 by 设置为“发送热键”，请为在将热键发送到明文之前要执行的操作指定此参数。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+ - **by**: ClearTextBy  
+    - 清除目标元素文本的方法
+    - `set-text`: 通过设置目标元素的属性来清除其文本。
+    - `send-hotkey`: 通过向目标元素发送热键来获取文本。还需要相应地指定“clear_hotkey”和“预操作”参数。 
+- **clear_hotkey**: ClearHotKey  
+    - 如果 by 设置为“发送热键”，则使用此参数指定热键，默认值为 `CAD`.  
+    - `CAD` 意思是`{CTRL}{A}-{DELETE}`: 首先发送组合键“{CTRL}{A}”，然后发送“{DELETE}”。
+    - `ESHD` 意思是 `{END}-{SHIFT}{HOME}-{DELETE}`: 首先发送“{END}”，然后发送组合键“{SHIFT}{HOME}，然后发送密钥”{DELETE}”。
+    - `HSED` 意思是 `{HOME}-{SHIFT}{END}-{DELETE}`:首先发送“{HOME}”，然后发送组合键“{SHIFT}{END}，然后发送”{DELETE}”。
+- **preaction**: PreAction  
+    - 如果 by 设置为“发送热键”，请为在将热键发送到明文之前要执行的操作指定此参数。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;None

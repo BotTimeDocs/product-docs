@@ -11,10 +11,10 @@ def wait_appear_by_xpath(
 在活动浏览器中，等待元素由给定的 XPath 出现。
 
 **参数:**  
-    &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; 要查找的元素的 XPath。
-    &emsp;**wait_timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **xpath[Required]**: str     
+    - 要查找的元素的 XPath。
+- **wait_timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;[WebElement](webelement.md) 对象，如果元素未显示，则为 None 。

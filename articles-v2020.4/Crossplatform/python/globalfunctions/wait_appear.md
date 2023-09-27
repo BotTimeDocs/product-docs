@@ -12,14 +12,14 @@ def wait_appear(
 等待 UI 元素出现并在指定的超时内返回它。
 
 **参数:**  
-    &emsp;**locator[Required]**: str | _Locator   
+- **locator[Required]**: str | _Locator   
         &emsp;&emsp;定位器字符串，目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q
 <br/>
-    &emsp;**locator_variables**: dict   
+- **locator_variables**: dict   
         定位器变量，设置为在定位器中初始化参数，例如：`{ "row": 1,  "column": 1}`
 <br/>
-    &emsp;**wait_timeout**: int  
-        &emsp;&emsp; 等待出现的超时，单位为秒，默认值为 30 秒。
+- **wait_timeout**: int  
+    - 等待出现的超时，单位为秒，默认值为 30 秒。
 <br/>
 
 **返回:**  

@@ -11,10 +11,10 @@ def wait_disappear_by_xpath(
 在活动浏览器中，等待元素在给定的 XPath 中消失。
 
 **参数:**  
-    &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; 要查找的元素的 XPath。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **xpath[Required]**: str     
+    - 要查找的元素的 XPath。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;bool, 如果元素在给定的超时内消失，则返回 True，否则返回 False。

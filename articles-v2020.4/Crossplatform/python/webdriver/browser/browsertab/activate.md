@@ -11,8 +11,8 @@ def activate(
 激活浏览器选项卡。
 
 **参数:**  
-    &emsp;**is_topmost**: bool    
-        &emsp;&emsp; 它定义是否将浏览器窗口设置在最顶部。
+- **is_topmost**: bool    
+    - 它定义是否将浏览器窗口设置在最顶部。
 
 **返回:**  
     &emsp;None

@@ -10,8 +10,8 @@ def child(self, index: int)
 >- 指数从 0 开始。
 
 **参数:**    
-    &emsp;**index[Required]**: int  
-        &emsp;&emsp;  指定的索引，获取第 n 个子项
+- **index[Required]**: int  
+    -  指定的索引，获取第 n 个子项
 
 
 **返回:**  

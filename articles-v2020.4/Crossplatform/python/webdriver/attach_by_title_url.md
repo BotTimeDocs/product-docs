@@ -14,14 +14,14 @@ def attach_by_title_url(
 Attach to an open browser tab with a specified title and/or url.
 
 **Parameters:**  
-    &emsp;**title**: str   
-        &emsp;&emsp; Title string, target web page's title, supporting wildcard.  
-    &emsp;**url**: str  
-        &emsp;&emsp; Url string, target web page's url, supporting wildcard.  
-    &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window when attaching, and the default value is True.  
-    &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
+- **title**: str   
+    - Title string, target web page's title, supporting wildcard.  
+- **url**: str  
+    - Url string, target web page's url, supporting wildcard.  
+- **is_maximize**: bool  
+    - is_maximize is set to define whether to maximize the browser window when attaching, and the default value is True.  
+- **timeout**: int  
+    - Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;[BrowserTab](browsertab.md) object, you can execute following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.

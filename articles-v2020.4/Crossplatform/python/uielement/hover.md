@@ -6,8 +6,8 @@ def hover(self, timeout: int = 30) -> None
 将鼠标悬停在元素上，鼠标将移动到元素上并停留一段时间。
 
 **参数:**    
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;None

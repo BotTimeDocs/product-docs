@@ -14,23 +14,23 @@ def click(
 单击目标元素。
 
 **参数:**  
-    &emsp;**mouse_button**: MouseButton  
-        &emsp;&emsp; 可用值为：“左”、“右”和“中心”，默认值为“左”。
+- **mouse_button**: MouseButton  
+    - 可用值为：“左”、“右”和“中心”，默认值为“左”。
 <br/>
-    &emsp;**mouse_location**: MouseLocation  
-        &emsp;&emsp; 它设置为定义要单击的元素的位置。默认位置是元素的中心。通过定义 [MouseLocation](./mouselocation.md) 对象来自定义位置.   
+- **mouse_location**: MouseLocation  
+    - 它设置为定义要单击的元素的位置。默认位置是元素的中心。通过定义 [MouseLocation](./mouselocation.md) 对象来自定义位置.   
         <br/>
-    &emsp;**by**: MouseActionBy  
-        &emsp;&emsp; 定义单击 UI 元素的方法。
-        &emsp;&emsp; `mouse-emulation`: 通过模拟鼠标单击目标 UI 元素。
-        &emsp;&emsp; `control-invocation`: 通过调用目标 UI 元素的 UI 方法单击其。如果它是 Windows 桌面元素，则可能不受支持。
-        &emsp;&emsp; `default`: 自动选择每种元素类型的方法。对于 Web 元素，请使用 `control-invocation`; 对于 Window元素, 用 `mouse-emulation`.  
+- **by**: MouseActionBy  
+    - 定义单击 UI 元素的方法。
+    - `mouse-emulation`: 通过模拟鼠标单击目标 UI 元素。
+    - `control-invocation`: 通过调用目标 UI 元素的 UI 方法单击其。如果它是 Windows 桌面元素，则可能不受支持。
+    - `default`: 自动选择每种元素类型的方法。对于 Web 元素，请使用 `control-invocation`; 对于 Window元素, 用 `mouse-emulation`.  
         <br/>
-    &emsp;**modifier_key**: ModifierKey  
-        &emsp;&emsp; 要同时按下的修饰键（“alt”、“ctrl”、“shift”、“win”）和默认值为 none。   
+- **modifier_key**: ModifierKey  
+    - 要同时按下的修饰键（“alt”、“ctrl”、“shift”、“win”）和默认值为 none。   
         <br/>  
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
         <br/>
 
 **返回:**  

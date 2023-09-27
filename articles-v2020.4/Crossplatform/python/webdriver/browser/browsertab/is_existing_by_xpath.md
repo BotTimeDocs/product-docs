@@ -11,10 +11,10 @@ def is_existing_by_xpath(
 在活动浏览器中，检查给定的 XPath 是否存在 UI 元素。
 
 **参数:**  
-    &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; 要查找的元素的 XPath。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **xpath[Required]**: str     
+    - 要查找的元素的 XPath。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;如果 UI 元素存在，则返回 True，否则返回 False

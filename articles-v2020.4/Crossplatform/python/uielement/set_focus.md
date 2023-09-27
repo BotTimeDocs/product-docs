@@ -6,8 +6,8 @@ def set_focus(self, timeout: int = 30) -> None
 将目标元素设置为焦点状态。
 
 **参数:**  
-    &emsp;**timeout**: int  
-        &emsp;&emsp;  操作超时，单位为秒，默认值为 30 秒。
+- **timeout**: int  
+    -  操作超时，单位为秒，默认值为 30 秒。
         
 **返回:**  
     &emsp;None

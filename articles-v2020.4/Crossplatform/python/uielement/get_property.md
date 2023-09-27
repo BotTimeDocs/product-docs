@@ -10,10 +10,10 @@ def get_property(
 获取目标元素的属性值。
 
 **参数:**   
-    &emsp;**name [Required]**: str  
-        &emsp;&emsp; 属性名称，不同的 UI 元素可能支持不同的属性。
-    &emsp;**timeout**: int  
-        &emsp;&emsp;  操作超时，单位为秒，默认值为 30 秒。
+- **name [Required]**: str  
+    - 属性名称，不同的 UI 元素可能支持不同的属性。
+- **timeout**: int  
+    -  操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;str

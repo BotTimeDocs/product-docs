@@ -8,7 +8,7 @@ def close(self, is_force: bool = False) -> None
 关闭浏览器。
 
 **参数:**  
-    &emsp;**is_force**: bool，强制关闭浏览器.    
+- **is_force**: bool，强制关闭浏览器.    
 
 **返回:**  
     &emsp;None

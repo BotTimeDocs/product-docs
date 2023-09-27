@@ -6,8 +6,8 @@ def get_text(self, timeout: int = 30) -> str
 获取目标元素的文本。
 
 **参数:**    
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;str

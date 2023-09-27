@@ -10,8 +10,8 @@ def child(self, index: int)
 >- 索引从 0 开始。
 
 **参数:**    
-    &emsp;**index[Required]**: int  
-        &emsp;&emsp; 指定的索引，获取第 n 个子项
+- **index[Required]**: int  
+    - 指定的索引，获取第 n 个子项
 
 **返回:**  
     &emsp;[WebElement](webelement.md) 对象（如果找到）或 None （如果未找到）

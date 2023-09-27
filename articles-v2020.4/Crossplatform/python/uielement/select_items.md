@@ -11,12 +11,12 @@ def select_items(
 为目标元素选择多个选项，这些选项可以支持多个选择。
 
 **参数:**  
-    &emsp;**items [Required]**: list  
-        &emsp;&emsp; 要选择的选项。
-    &emsp;**clear_selected**: bool  
-        &emsp;&emsp; 是否清除现有选择，默认值为 True。
-    &emsp;**timeout**: int  
-        &emsp;&emsp;  操作超时，单位为秒，默认值为 30 秒。
+- **items [Required]**: list  
+    - 要选择的选项。
+- **clear_selected**: bool  
+    - 是否清除现有选择，默认值为 True。
+- **timeout**: int  
+    -  操作超时，单位为秒，默认值为 30 秒。
 **返回:**  
     &emsp;None
 

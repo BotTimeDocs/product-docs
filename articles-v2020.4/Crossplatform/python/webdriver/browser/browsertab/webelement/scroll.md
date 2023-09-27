@@ -13,12 +13,12 @@ def scroll(
 使用滚动条滚动目标元素。
 
 **参数:**  
-    &emsp;**delta_x**: int   
-        &emsp;&emsp;  要水平滚动的像素。
-    &emsp;**delta_y**: int   
-        &emsp;&emsp; 要垂直滚动的像素。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **delta_x**: int   
+    -  要水平滚动的像素。
+- **delta_y**: int   
+    - 要垂直滚动的像素。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 
 **返回:**  

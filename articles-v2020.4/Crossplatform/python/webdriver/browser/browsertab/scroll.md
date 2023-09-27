@@ -12,10 +12,10 @@ def scroll(
 使用滚动条滚动当前浏览器选项卡。
 
 **参数:**  
-    &emsp;**delta_x**: int   
-        &emsp;&emsp;  像素以水平滚动。.  
-    &emsp;**delta_y**: int   
-        &emsp;&emsp; 像素以垂直滚动。
+- **delta_x**: int   
+    -  像素以水平滚动。.  
+- **delta_y**: int   
+    - 像素以垂直滚动。
 
 **返回:**  
     &emsp;None

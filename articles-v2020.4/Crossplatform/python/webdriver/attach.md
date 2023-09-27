@@ -14,14 +14,14 @@ def attach(
 Attach to an opened browser tab with specified locator.
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str | _Locator  
-        &emsp;&emsp; Locator string, the visit path of locator for a UI element in the target browser tab. 
-    &emsp;**locator_variables**: dict  
-        &emsp;&emsp; Locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`
-    &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window when attaching, and the default value is True.  
-    &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
+- **locator[Required]**: str | _Locator  
+    - Locator string, the visit path of locator for a UI element in the target browser tab. 
+- **locator_variables**: dict  
+    - Locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`
+- **is_maximize**: bool  
+    - is_maximize is set to define whether to maximize the browser window when attaching, and the default value is True.  
+- **timeout**: int  
+    - Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;[BrowserTab](browsertab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.

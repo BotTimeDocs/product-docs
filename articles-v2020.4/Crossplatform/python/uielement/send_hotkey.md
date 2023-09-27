@@ -11,14 +11,14 @@ def send_hotkey(
 将热键发送到目标元素。
 
 **参数:**  
-    &emsp;**hotkey [Required]**: str   
-        &emsp;&emsp;  热键字符串表示一个键或组合键。例如，要表示字母 A，请输入字符串“A”。要表示字母 A、B 和 C，请输入参数表“ABC”。有关特殊键，请参阅 [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).  
-    &emsp;**preaction**: PreAction  
-        &emsp;&emsp; 发送热键之前要执行的操作。 
-        &emsp;&emsp; `setfocus`: 默认值，在发送热键之前将目标元素设置为焦点状态。
-        &emsp;&emsp; `click`: 在发送热键之前单击目标元素。
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 操作超时，单位为秒，默认值为 30 秒。
+- **hotkey [Required]**: str   
+    - 热键字符串表示一个键或组合键。例如，要表示字母 A，请输入字符串“A”。要表示字母 A、B 和 C，请输入参数表“ABC”。有关特殊键，请参阅 [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).  
+- **preaction**: PreAction  
+    - 发送热键之前要执行的操作。 
+    - `setfocus`: 默认值，在发送热键之前将目标元素设置为焦点状态。
+    - `click`: 在发送热键之前单击目标元素。
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
 
 **返回:**  
     &emsp;None

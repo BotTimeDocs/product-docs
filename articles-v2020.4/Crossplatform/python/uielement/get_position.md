@@ -6,8 +6,8 @@ def get_position(self, timeout: int = 30) -> ElementPosition
 获取目标元素的位置。
 
 **参数:**   
-    &emsp;**timeout**: int  
-        &emsp;&emsp; 获取目标元素的位置。
+- **timeout**: int  
+    - 获取目标元素的位置。
 
 **返回:**  
     &emsp;ElementPosition 对象，类定义如下：
