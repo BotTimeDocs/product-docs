@@ -1,7 +1,7 @@
 
 # clicknium.mouse.double_click
 
-``` python 
+```python
 def double_click(
         self, 
         x: int, 
