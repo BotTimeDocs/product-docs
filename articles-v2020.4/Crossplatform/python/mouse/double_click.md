@@ -32,6 +32,7 @@ def double_click(
 **例:**
 ***
 ```python
+
 from clicknium import clicknium as cc
 
 # preform double click on position (100,100)

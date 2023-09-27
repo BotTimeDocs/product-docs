@@ -2,7 +2,7 @@
 
 # clicknium.mouse.position
 
-```python 
+```python
 def position(
         self
     ) -> Tuple[int,int]
@@ -11,8 +11,8 @@ def position(
 获取鼠标光标的位置。
 
 **参数:**  
-    &emsp;None   
-    <br/>
+    &emsp;None
+<br/>
 
 **返回:**  
     &emsp;鼠标光标的当前 X 和 Y 坐标。
