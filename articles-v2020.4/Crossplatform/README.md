@@ -17,6 +17,9 @@ ENCOO RPA 扩展帮助您使用Python快速实现自动化脚本。
   - 安装了 Python 3.7 或更高版本。 
   - .Net 7.0 
 
+## 创建自动化项目
+● 在vscode中按 ctrl+shift+p ，选择Clicknium:Create Project. 等待python虚拟环境安装完成。
+● 在虚拟环境中安装clicknium python库。
 
 ## 通过示例项目学习
 
@@ -52,6 +55,7 @@ if __name__ == "__main__":
 - 安装后，打开Chrome浏览器以启用“点击记录器”扩展。
 
 
+
 ## 运行/调试
 
 - 通过Visual Studio Code内置命令：
@@ -80,6 +84,9 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 ![use locator](https://www.clicknium.com/assets/images/uselocator-34ebf30e615012b2bcb39f117c7e0286.gif)
 
 
+## 打包自动化项目
+- 项目编写完成后，按ctrl+shift+p 选择CLicknium:Package Project 等待打包完成。
+- 在机器人将打包后的zip格式流程包导入即可运行。
 
 ## 在线文档
 
