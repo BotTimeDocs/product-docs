@@ -75,7 +75,7 @@ if __name__ == "__main__":
 ![clicknium Visual Studio code](https://www.clicknium.com/docs/main.png)
 
 ## 在 Python 代码中使用定位器
-Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类，并通过“定位器”引用定位器。{localorStoreName}.{文件夹名称}。{定位器名称}' 通过 Python 代码操作定位器，运行并等待奇迹。
+Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类，并通过“定位器”引用定位器。{localorStoreName}.{文件夹名称}。
 
 ![use locator](https://www.clicknium.com/assets/images/uselocator-34ebf30e615012b2bcb39f117c7e0286.gif)
 
@@ -84,6 +84,13 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 - 项目编写完成后，按ctrl+shift+p 选择CLicknium:Package Project 等待打包完成。
 - 在机器人将打包后的zip格式流程包导入即可运行。
 
+
+## 视频示例
+<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.wmv"> 
+</video>
+
+
+</iframe>
 
 ## 联系我们
 
