@@ -86,7 +86,7 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 
 
 ## 视频示例
-<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.wmv"> 
+<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.mp4"> 
 </video>
 
 
