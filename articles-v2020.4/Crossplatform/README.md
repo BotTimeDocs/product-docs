@@ -85,6 +85,13 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 - 在机器人将打包后的zip格式流程包导入即可运行。
 
 
+## 视频示例
+<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.wmv"> 
+</video>
+
+
+</iframe>
+
 ## 联系我们
 
 发送邮件至 [contact@encootech.com](mailto:contact@encootech.com)
