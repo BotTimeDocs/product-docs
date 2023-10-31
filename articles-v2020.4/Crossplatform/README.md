@@ -82,8 +82,8 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 
 
 ## 打包自动化项目
-- 项目编写完成后，按ctrl+shift+p 选择CLicknium:Package Project 等待打包完成。
-- 在机器人将打包后的zip格式流程包导入即可运行。
+- 项目编写完成后，按ctrl+shift+p 选择CLicknium:Package Project，再选择 zip 类型， 等待打包完成。
+- 在机器人或控制台将打包后的zip格式流程包导入即可运行。
 
 
 ## 视频示例
