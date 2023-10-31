@@ -7,7 +7,8 @@ ENCOO RPA 扩展信创版集成在VS Code中，帮助您使用Python快速实现
 
 ## 快速设置
 安装后通过“ENCOO RPA：欢迎（快速设置）”转到扩展程序的欢迎页面，或按照以下步骤操作：
-- **系统要求**
+
+**系统要求**
   - 操作系统：统信UOS、麒麟
   - 安装Python 3.7 或更高版本
   - 安装.Net 7.0 
@@ -92,4 +93,5 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 
 ## 联系我们
 
-发送邮件至 [contact@encootech.com](mailto:contact@encootech.com)
+- 邮箱：[contact@encootech.com](mailto:contact@encootech.com)
+- 电话：400-639-2198
