@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Robot",
+        "localizedName": "云扩RPA机器人",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "Console",
+        "localizedName": "云扩RPA控制台",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "AIHub",
+        "localizedName": "云扩AIHub智能应用中心",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "DocReader",
+        "localizedName": "云扩DocReader文档理解",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "Apps",
+        "localizedName": "云扩ViCode云码",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "Spark",
+        "localizedName": "云扩Spark",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "PrivateDeployment",
+        "localizedName": "私有化部署",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "API",
+        "localizedName": "接口文档",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "Glossary.md",
+        "localizedName": "术语解释",
+        "uuid": "",
+        "labels": ""
+    }
+]

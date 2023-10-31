@@ -10,7 +10,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。 
 
 ### 输出
 
@@ -18,4 +18,4 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md) 

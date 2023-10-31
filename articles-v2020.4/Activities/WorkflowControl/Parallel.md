@@ -27,3 +27,5 @@
 **执行结果**：
 
 ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pallel-3.png)
+
+> 如需在主流程执行同时并行执行流程，可参考：[并行处理流程](https://academy.encoo.com/wiki/Studio/process/developProject/TypeOfWorkflow/Parallel.md?uuid=2c3e4c1f-1683-4253-8c6d-31e66ac55ac6)

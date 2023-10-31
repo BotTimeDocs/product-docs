@@ -1,0 +1,48 @@
+[
+  {
+    "name": "browsertab",
+    "localizedName": "browsertab"
+  },
+  {
+    "id": null,
+    "name": "browser.md",
+    "localizedName": "Browser",
+    "uuid": "a3b44bf1-50b3-4496-8b32-d4530a452f74",
+    "labels": "browser"
+  },
+  {
+    "id": null,
+    "name": "close.md",
+    "localizedName": "browser.close",
+    "uuid": "787602db-f16b-4b9d-a936-df6517db8cac",
+    "labels": "close"
+  },
+  {
+    "id": null,
+    "name": "get_active_tab.md",
+    "localizedName": "",
+    "uuid": "4cb0f635-8504-4b41-bd52-3b63e47fe4f1",
+    "labels": "get active tab"
+  },
+  {
+    "id": null,
+    "name": "get_tab.md",
+    "localizedName": "browser.get_tab",
+    "uuid": "7779d76c-4011-4a2c-a134-bfa81803d4ab",
+    "labels": "get tab"
+  },
+  {
+    "id": null,
+    "name": "maximize.md",
+    "localizedName": "browser.maximize",
+    "uuid": "9ad2cdc8-8441-40c1-a48e-f8f00801ca8b",
+    "labels": "maximize"
+  },
+  {
+    "id": null,
+    "name": "new_tab.md",
+    "localizedName": "browser.new_tab",
+    "uuid": "ad538b43-f6c1-4c03-81a4-e44db6d170ff",
+    "labels": "new tab"
+  }
+]

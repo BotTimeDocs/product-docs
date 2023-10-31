@@ -1,0 +1,26 @@
+[
+  {
+    "name": "globalfunctions",
+    "localizedName": "全局函数"
+  },
+  {
+    "name": "mouse",
+    "localizedName": "鼠标"
+  },
+  {
+    "name": "uielement",
+    "localizedName": "界面元素"
+  },
+  {
+    "name": "webdriver",
+    "localizedName": "网页"
+  },
+  {
+    "name": "config",
+    "localizedName": "配置"
+  },
+  {
+    "name": "exceptions",
+    "localizedName": "异常"
+  }
+]

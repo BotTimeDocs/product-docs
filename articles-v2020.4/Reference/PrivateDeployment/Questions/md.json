@@ -1,0 +1,20 @@
+[
+    {
+        "name": "InstallCategory.md",
+        "localizedName": "控制台安装包目录结构说明",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "UpdateBasicActivity.md",
+        "localizedName": "云扩私有化控制台(单机版)-升级基础组件",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "SingleMachineUpdateISO.md",
+        "localizedName": "云扩私有化控制台(单机版)-更新服务镜像",
+        "uuid": "",
+        "labels": ""
+    }
+]

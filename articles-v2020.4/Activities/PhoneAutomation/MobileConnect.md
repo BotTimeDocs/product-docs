@@ -25,11 +25,11 @@
 ### 连接配置
 
 - **平台类型**：连接设备的类型，分为 Andriod 和 iOS 。
-- **终端地址**：服务端地址，例如："<sh.encootech.com:28888>"
+- **终端地址**：服务端地址，例如："<sh.encootech.com:28888>" 
 
 ## 使用示例
 
-**前置必要步骤**：[移动设备管理](../../Studio/process/developProject/MobileDevicesManage/Download.md)
+**前置必要步骤**：[移动设备管理](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/MobileDevicesManage/Download.md)
 
 **此流程执行逻辑**：连接指定的手机。
 

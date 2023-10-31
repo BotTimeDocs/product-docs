@@ -39,6 +39,10 @@
 
     ![启用扩展程序](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png)
 
+6. 如需在无痕模式下录制运行，则需在扩展中打开“在无痕模式下启用”，并重启浏览器。
+
+    ![无痕模式](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/chromewhllq00001.png)
+
 ## 手动安装
 
 在部分场景中（如，无法关闭杀毒防护软件）无法自动安装 Chrome 扩展时，可选择手动安装 Chrome 扩展以便完成自动化操作。

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "GetProductDataFromJD.md",
+        "localizedName": "抓取电商平台商品数据",
+        "uuid": "",
+        "labels": ""
+    },
+    {
+        "name": "OCRInvoice.md",
+        "localizedName": "批量提取发票数据",
+        "uuid": "",
+        "labels": ""
+    }
+]

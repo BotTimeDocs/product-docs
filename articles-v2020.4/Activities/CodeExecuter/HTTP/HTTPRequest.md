@@ -32,7 +32,11 @@
     > 在组件的可视化界面中，请求正文对应的内容支持文本模式（默认）和代码模式。
     >
     > - 文本模式（默认）：输入纯文本内容。
-    > - 代码模式：输入 C#代码。
+    > 
+    > ![纯文本](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https001.png)
+    > - 代码模式：支持输入C#代码（双引号需要转义），或是直接使用变量。
+    > 
+    > ![变量](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https002.png)
   
 ### 输出
 
@@ -52,3 +56,15 @@
 1. **Q：现需将抓取的数据通过HTTP协议Post请求发送给其它系统，编辑器中哪个组件可以实现？**
 
     **A：**“HTTP(S)请求”、 “执行C#代码”、“执行Python代码”等组件均可实现。
+
+
+2. **Q：网页和ApiPost工具可以正常请求并返回，为什么用HTTP(S)请求组件直接报错？**
+
+![https1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130001.png)
+
+
+**A：** 可以使用代码关掉Expect。
+
+![https2](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130002.png)
+    
+![https3](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130003.png)

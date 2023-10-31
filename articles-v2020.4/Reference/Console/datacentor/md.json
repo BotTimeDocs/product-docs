@@ -1,0 +1,33 @@
+[
+    {
+        "id": null,
+        "name": "asset",
+        "localizedName": "资产管理"
+    },
+    {
+        "id": null,
+        "name": "DataTableManagement.md",
+        "localizedName": "数据表管理",
+        "uuid": "d608fafc-e43f-406b-8f4e-142a110a073f",
+        "labels": "数据表管理"
+    },
+    {
+        "id": null,
+        "name": "fileservice",
+        "localizedName": "文件服务"
+    },
+    {
+        "id": null,
+        "name": "Connector.md",
+        "localizedName": "连接管理",
+        "uuid": "6c961357-fa70-45bb-a288-8b247f956ad0",
+        "labels": "连接器, 连接，数据连接"
+    },
+    {
+        "id": null,
+        "name": "data-queue.md",
+        "localizedName": "数据队列",
+        "uuid": "62710351-8a9d-4bf8-a36e-7843a87cdcd7",
+        "labels": "数据队列、消息记录"
+    }
+]

@@ -28,10 +28,20 @@
 
 - **超时**：超时时间（时分秒），默认超时时间：00: 00: 30，可接变量。
 
+> 查询向导中部分列的多列需以英文逗号分隔，例如： ```"storename,billid"```
+
 ## 使用示例
 
-**前置必要条件**：数据库中已有一个已有数据的数据表，可通过 [插入数据](./InsertData.md) 组件插入数据。
+**前置必要条件**：数据库中已有一个已有数据的数据表，可通过 [插入数据](../Database/InsertData.md) 组件插入数据。
 
 **此流程执行逻辑**：查询数据表 `testdemo` 中 "sex" 列为 "女" 的数据，结果保存至 `quertyresult` 变量中。
 
 ![查询](https://docimages.blob.core.chinacloudapi.cn/images/Activities/queryfilterdata20210924.png)
+
+
+## 常见问题
+
+
+1.**Q：查询是否支持参数化**
+
+**A：** 暂不支持支持参数化，可以在查询条件中拼接变量/参数

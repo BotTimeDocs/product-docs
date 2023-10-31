@@ -17,7 +17,7 @@
 
 #### 【小程序】
 
-1. 新增全新的 [数据表管理](../Apps/v3.0.x/devApps/appsedit/TableManagement/TableManage.md) 功能：
+1. 新增全新的 [数据表管理](../Reference/Apps/v3.0.x/devApps/appsedit/TableManagement/TableManage.md) 功能：
     - 支持用户通过导入或新建的方式在小程序里创建数据表。
     - 丝滑易用的数据处理：支持即时修改响应，区域复制粘贴，拖拽覆盖等方法帮助用户快速修改数据。
     - 强大的公式系统：支持单元格公式计算及数据引用，构造表数据的多样性。
@@ -25,7 +25,7 @@
     - 快捷查找：提供多样筛选排序功能，快速分析整理数据。
     - 强大的协作功能：支持多用户共同对表的修改，保证数据正确响应与加载。
 2. 构建更强大的交互页面
-    - 新增模块组件：[表格](../Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/Table.md)、[表单](../Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/Form.md)、[描述列表](../Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/DescriptionList.md)、[OCR 结果对比](../Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/CompareOCRResult.md)。
+    - 新增模块组件：[表格](../Reference/Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/Table.md)、[表单](../Reference/Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/Form.md)、[描述列表](../Reference/Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/DescriptionList.md)、[OCR 结果对比](../Reference/Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/CompareOCRResult.md)。
     - 通过组件自定义页面与数据表交互，让终端用户可以轻松地通过界面操作数据表。
 3. 支持在 **关于我们** 页面查看小程序系统的版本号，便于系统版本管理。
 4. 新增进入云扩论坛、云扩学院的快捷入口。
@@ -50,7 +50,7 @@
 
 #### 【控制台】
 
-1. 新增 [队列监控](../Console/v3.0.x/dashboard/QueueDashboard.md) 功能，多维度对队列中机器人、流程任务运行调度情况进行统计监测：
+1. 新增 [队列监控](../Reference/Console/v3.0.x/dashboard/QueueDashboard.md) 功能，多维度对队列中机器人、流程任务运行调度情况进行统计监测：
     - 统计队列数量、队列任务时长、流程部署数量、机器人数量、机器人忙碌比；
     - 统计分析队列成功占比 TOP 10、队列故障占比 TOP 10；
     - 统计调度队列任务状态分布情况；
@@ -107,8 +107,8 @@
 
 #### 【机器人】
 
-1. 支持流程 [执行过程截图](../Robot/localworkflow.md)，方便运维人员排查及追踪异常。
-2. 支持防止流程执行 [超时](../Robot/localworkflow.md)：若运行时间超过设定的时间时则终止流程。如，勾选“超时时间 1 小时”，表示超过 1 小时未执行完流程，则终止流程。
+1. 支持流程 [执行过程截图](../Reference/Robot/localworkflow.md)，方便运维人员排查及追踪异常。
+2. 支持防止流程执行 [超时](../Reference/Robot/localworkflow.md)：若运行时间超过设定的时间时则终止流程。如，勾选“超时时间 1 小时”，表示超过 1 小时未执行完流程，则终止流程。
 
 ### 改进与增强
 
@@ -133,9 +133,9 @@
 
 #### 【机器人】
 
-1. 优化执行流程时 [参数的设置方式](../Robot/localworkflow.md)：新增 **打开文件**、**打开目录**、**日期** 等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
-2. 优化 [流程市场界面](../Robot/ProcessMarket.md)，鼠标悬浮于任意流程时，即可显示“运行”按钮，提升用户使用体验。
-3. 优化 [概览界面](../Robot/Overview.md)：对于无定时任务和无最近执行流程时，支持关联对应的页面，引导用户使用，提升操作体验。
+1. 优化执行流程时 [参数的设置方式](../Reference/Robot/localworkflow.md)：新增 **打开文件**、**打开目录**、**日期** 等参数类型，执行流程时，采用手动选择的方式代替手动输入，提升用户体验。
+2. 优化 [流程市场界面](../Reference/Robot/ProcessMarket.md)，鼠标悬浮于任意流程时，即可显示“运行”按钮，提升用户使用体验。
+3. 优化 [概览界面](../Reference/Robot/Overview.md)：对于无定时任务和无最近执行流程时，支持关联对应的页面，引导用户使用，提升操作体验。
 
 ## 2020.12.10 发版说明
 
@@ -150,9 +150,9 @@
 
 #### 【控制台】
 
-1. 新增 [机器人监控仪表盘](../Console/v3.0.x/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比 TOP/状态分布/忙碌 TOP 等等。
-2. 新增 [机器人运行统计表](../Console/v3.0.x/dashboard/dashboard2.md)，支持自定义时间段查询机器人执行任务数、执行成功数、存在总时长、忙碌总时长、平均忙碌比、平均成功率等明细情况及变化走势。
-3. 新增 [用户流程统计表](../Console/v3.0.x/dashboard/dashboard3.md)，支持自定义时间段查询用户创建流程部署数、创建任务计划数、相应任务运行状态等明细情况及走势。
+1. 新增 [机器人监控仪表盘](../Reference/Console/v3.0.x/dashboard/RobotDashboard.md)：支持自定义时间段查询机器人运行状况，如，可用机器人执行任务总数/忙碌总时长/平均忙碌比/故障占比 TOP/状态分布/忙碌 TOP 等等。
+2. 新增 [机器人运行统计表](../Reference/Console/v3.0.x/dashboard/dashboard2.md)，支持自定义时间段查询机器人执行任务数、执行成功数、存在总时长、忙碌总时长、平均忙碌比、平均成功率等明细情况及变化走势。
+3. 新增 [用户流程统计表](../Reference/Console/v3.0.x/dashboard/dashboard3.md)，支持自定义时间段查询用户创建流程部署数、创建任务计划数、相应任务运行状态等明细情况及走势。
 4. 新增共享机器人，支持各资源组调度队列及流程部署使用共享机器人执行任务，增加机器人利用率。
 5. 流程部署支持下发命令控制机器人录制视频，日志详情页面支持查看视频录制及回放。
 6. 新增控制台埋点开关，便于用户自由选择是否监测系统行为。
@@ -203,18 +203,18 @@
 
 #### 【机器人】
 
-1. 在新建定时任务时支持 [按 Cron 表达式](../Robot/CronJob.md) 配置定时任务，以满足用户自定义定时任务场景。  
+1. 在新建定时任务时支持 [按 Cron 表达式](../Reference/Robot/CronJob.md) 配置定时任务，以满足用户自定义定时任务场景。  
 
 
 #### 【控制台】
 
-1. 在数据中心新增 [文件服务](../Console/v3.0.x/datacentor/fileservice/Aboutfileservice.md) 功能，支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
-2. 在 [文档理解](../Console/v3.0.x/docreader/aboutDocreader.md) 服务中，新增 OCR 抽取模型，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
-3. [许可证](../Console/v3.0.x/management/license/aboutLicense.md) 页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。  
+1. 在数据中心新增 [文件服务](../Reference/Console/v3.0.x/datacentor/fileservice/Aboutfileservice.md) 功能，支持文件夹的增删改以及文件上传、下载等操作，同时向 RPA 流程提供各类文件服务。
+2. 在 [文档理解](../Reference/Console/v3.0.x/docreader/aboutDocreader.md) 服务中，新增 OCR 抽取模型，通过组件调用当前模板服务，从而实现 RPA 流程大量抽取非结构化文本信息。
+3. [许可证](../Reference/Console/v3.0.x/management/license/aboutLicense.md) 页面增加文档理解次数控制，用于对文档理解的模板调用次数进行控制。  
 
 #### 【小程序】
 
-1. [任务记录](../Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
+1. [任务记录](../Reference/Apps/v3.0.x/devApps/appsedit/component/ModuleComponents/TaskLog.md) 模块组件，可以通过任务记录列表查看任务信息、当前状态及日志等信息。
 
 ### 改进与增强
 
@@ -285,8 +285,8 @@
 
 #### 【机器人】
 
-1. 新增 [定时任务](../Robot/CronJob.md) 功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
-2. 支持获取并运行 [云扩流程市场](../Robot/ProcessMarket.md) 中的流程。
+1. 新增 [定时任务](../Reference/Robot/CronJob.md) 功能，使得原本需要采购控制台完成的功能，在机器人中便可完成。
+2. 支持获取并运行 [云扩流程市场](../Reference/Robot/ProcessMarket.md) 中的流程。
 
 ### 改进与增强
 
@@ -334,7 +334,7 @@
 
 #### 【小程序】
 
-关于小程序的详情，请参见 [关于云扩工作台](../Apps/v3.0.x/README.md)。
+关于小程序的详情，请参见 [关于云扩工作台](../Reference/Apps/v3.0.x/README.md)。
 
 1. 新增顶部导航、左侧导航组件，支持应用内多页面跳转。
 2. 新增流程组件，支持一键启动控制台流程。
@@ -343,7 +343,7 @@
 
 #### 【控制台】
 
-1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](../Console/v3.0.x/queue/aboutqueue.md)、[任务记录](../Console/v3.0.x/job/aboutJob.md)、 [文档理解](../Console/v3.0.x/docreader/aboutDocreader.md)、[资产管理](../Console/v3.0.x/datacentor/asset/AboutAsset.md)。
+1. 对控制台整体架构进行升级，同时丰富 RPA 调度功能，上线云端版和私有化版，支持功能包括 [调度队列](../Reference/Console/v3.0.x/queue/aboutqueue.md)、[任务记录](../Reference/Console/v3.0.x/job/aboutJob.md)、 [文档理解](../Reference/Console/v3.0.x/docreader/aboutDocreader.md)、[资产管理](../Reference/Console/v3.0.x/datacentor/asset/AboutAsset.md)。
 
 ### 改进与增强
 
@@ -392,9 +392,9 @@
 
 #### 【机器人】
 
-1. 在 **设置** 页面中新增 [关于页](../Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
-2. 新增 [正在执行](../Robot/RunningProcess.md) 页面，可以查看正在执行的流程相关信息。
-3. 在执行流程时，支持权限配置。具体功能请参见 [流程库](../Robot/localworkflow.md)。
+1. 在 **设置** 页面中新增 [关于页](../Reference/Robot/Settings/About.md)，可查看软件版本、许可证有效期及更改激活方式。
+2. 新增 [正在执行](../Reference/Robot/RunningProcess.md) 页面，可以查看正在执行的流程相关信息。
+3. 在执行流程时，支持权限配置。具体功能请参见 [流程库](../Reference/Robot/localworkflow.md)。
 
 ### 改进与增强
 
@@ -444,9 +444,9 @@
 
 #### 【机器人】
 
-1. 新增机器人 [概览页](../Robot/Overview.md)，可展示当前机器人全局数据。
-2. 新增 [流程执行历史页](../Robot/ProcessHistory.md)，可展示流程执行的历史记录。
-3. 新增 **设置 > 基本** 页面，可 [配置日志与视频文件保留时间](../Robot/Settings/Basic.md)。
+1. 新增机器人 [概览页](../Reference/Robot/Overview.md)，可展示当前机器人全局数据。
+2. 新增 [流程执行历史页](../Reference/Robot/ProcessHistory.md)，可展示流程执行的历史记录。
+3. 新增 **设置 > 基本** 页面，可 [配置日志与视频文件保留时间](../Reference/Robot/Settings/Basic.md)。
 
 ### 改进与增强
 
@@ -551,7 +551,7 @@
 
 #### 【机器人】
 
-执行本地流程时支持填写流程参数，详见 [执行本地流程](../Robot/localworkflow.md)。
+执行本地流程时支持填写流程参数，详见 [执行本地流程](../Reference/Robot/localworkflow.md)。
 
 ### 改进与增强
 

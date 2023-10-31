@@ -10,7 +10,7 @@
 
 ### 基本
 
-参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -23,11 +23,11 @@
 
 ### 输出
 
-- **结果**：将执行的结果存储至此变量中。
+- **结果**：将执行的结果存储至此变量中。 
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./../MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：将下载至计算机本地的指定应用，安装至手机端。
 

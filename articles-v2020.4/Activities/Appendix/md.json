@@ -40,7 +40,26 @@
         "localizedName": "通用配置项",
         "uuid": "013d53e9-3170-4da7-80ac-586f6819bb46",
         "labels": "组件通用配置项, 属性，基本"
+    },
+    {
+        "id": null,
+        "name": "DataElement.md",
+        "localizedName": "数据类型",
+        "uuid": "15:04:35 f7a77e84-853e-42fc-b2bd-47fa37c02318",
+        "labels": "数据类型,类型"
+    },
+    {
+        "id": null,
+        "name": "EncooDataElement.md",
+        "localizedName": "云扩自定义数据类型",
+        "uuid": "f7a77e84-853e-42fc-b2bd-47fa37c02318",
+        "labels": "数据类型,类型"
+    },
+    {
+        "id": null,
+        "name": "SelectorUp.md",
+        "localizedName": "云扩自定义数据类型",
+        "uuid": "4ce9c531-21c2-49f7-89c6-a84d780c00b5",
+        "labels": "选择器"
     }
-
-
 ]

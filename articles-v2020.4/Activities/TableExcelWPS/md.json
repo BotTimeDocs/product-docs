@@ -1,0 +1,196 @@
+[
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelOpenOrCreateActivity",
+        "name": "OpenExcel.md",
+        "localizedName": "打开新建",
+        "uuid": "c4138eee-05ad-4a13-ad96-297c2bc68aa5",
+        "labels": "新建, 打开, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelReadCellActivity",
+        "name": "ReadCell.md",
+        "localizedName": "读取单元格",
+        "uuid": "ceb807c2-691f-47be-aa74-026c789b1fbf",
+        "labels": "读取, 单元格, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelReadRangeActivity",
+        "name": "ReadRange.md",
+        "localizedName": "读取区域",
+        "uuid": "85e879df-c737-4f72-bf45-b56d338046c0",
+        "labels": "读取, 区域, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelReadRowColumnActivity",
+        "name": "ReadRowOrColumn.md",
+        "localizedName": "读取行或列数据",
+        "uuid": "44819169-9d58-4d81-90a8-cb88d5ee5470",
+        "labels": "读取, 数据, Excel, 行, 列"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSetCellActivity",
+        "name": "WriteCell.md",
+        "localizedName": "写入单元格",
+        "uuid": "dadb9ee9-042b-4455-8ceb-c691af8699eb",
+        "labels": "单元格, 写入, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSetRangeActivity",
+        "name": "WriteRange.md",
+        "localizedName": "写入区域",
+        "uuid": "967a43d8-af97-482b-ac04-610fe81511f2",
+        "labels": "写入, 区域, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSetRowColumnActivity",
+        "name": "WriteRowOrColumn.md",
+        "localizedName": "写入行或列数据",
+        "uuid": "83971c47-5b27-4eb7-b6ae-a8abbc6981d3",
+        "labels": "写入, 数据, Excel, 行, 列"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearCellActivity",
+        "name": "clear-cell.md",
+        "localizedName": "清除单元格",
+        "uuid": "68114581-3605-46c6-8c27-895a475b641c",
+        "labels": "清除, 数据, Excel, 单元格"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearRangeActivity",
+        "name": "clear-area.md",
+        "localizedName": "清除区域",
+        "uuid": "344dd330-9146-4b06-afc0-ddea7fa66404",
+        "labels": "清除, 数据, Excel, 区域"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearRowActivity",
+        "name": "clear-row.md",
+        "localizedName": "清除行",
+        "uuid": "f2652fb5-62f3-4b79-9a0c-4a99ecbc3ea9",
+        "labels": "清除, 数据, Excel, 行"
+    },
+    {
+        "id": "BotTime.Office.Activity.ClearColumnActivity",
+        "name": "clear-column.md",
+        "localizedName": "清除列",
+        "uuid": "e5c04e12-0958-47d9-90ce-bf0178140925",
+        "labels": "清除, 数据, Excel, 列"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteCellActivity",
+        "name": "delete-cell.md",
+        "localizedName": "删除单元格",
+        "uuid": "e89aa2fc-e67d-4cf3-b9b7-c2d1547b3c1a",
+        "labels": "单元格, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteRangeActivity",
+        "name": "delete-range.md",
+        "localizedName": "删除区域",
+        "uuid": "d6727665-c33c-4352-8a85-2d2f27a83500",
+        "labels": "区域, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteRowActivity",
+        "name": "delete-row.md",
+        "localizedName": "删除行",
+        "uuid": "692ffb76-a24f-416b-922b-e957127458d7",
+        "labels": "行, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteColumnActivity",
+        "name": "delete-column.md",
+        "localizedName": "删除列",
+        "uuid": "bd682a03-7811-4ba4-889e-52c08fbe4b81",
+        "labels": "列, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelHideSheetActivity",
+        "name": "HideWorksheets.md",
+        "localizedName": "隐藏工作表",
+        "uuid": "530d8eb7-547d-40f5-8001-a3d7ebc89fb6",
+        "labels": "工作表, 隐藏, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelInsertSheetActivity",
+        "name": "InsertWorksheets.md",
+        "localizedName": "插入工作表",
+        "uuid": "64a7cebb-1a96-4611-a2fc-d51792b056ad",
+        "labels": "工作表, 插入, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelDeleteSheetActivity",
+        "name": "delete-sheet.md",
+        "localizedName": "删除工作表",
+        "uuid": "05d1a285-469e-4a76-935e-4e60e4e0c3aa",
+        "labels": "工作表, 删除, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelGetLastRowIndexActivity",
+        "name": "GetLastRow.md",
+        "localizedName": "获取末行号",
+        "uuid": "4a3839bc-c15f-4b00-8953-1e1f803e9a71",
+        "labels": "行号, 获取, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelGetLastColIndexActivity",
+        "name": "GetLastColumn.md",
+        "localizedName": "获取末列号",
+        "uuid": "69e88aec-430b-4434-be21-a42b102adacd",
+        "labels": "获取, 末列, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelGetAllSheetsActivity",
+        "name": "GetWorksheetsName.md",
+        "localizedName": "获取所有工作表名",
+        "uuid": "5c30fc71-cb52-4721-908a-660ef1f99b0b",
+        "labels": "工作表名, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelAddFormulaActivity",
+        "name": "InsertFormula.md",
+        "localizedName": "插入公式",
+        "uuid": "124a7b04-9abf-4ae2-a220-4285be345d57",
+        "labels": "插入公式, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelGetCellBackgroundColorActivity",
+        "name": "GetCellBackcolor.md",
+        "localizedName": "获取单元格背景色",
+        "uuid": "dcbd3b98-747d-4efe-9253-ccc32ca82855",
+        "labels": "背景色, 单元格, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSetCellBackgroundColorActivity",
+        "name": "SetCellBackcolor.md",
+        "localizedName": "设置单元格背景色",
+        "uuid": "494dddca-023c-4863-8e4c-6efd79bc9ce4",
+        "labels": "背景色, 单元格, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelMergeCellsActivity",
+        "name": "MergeCells.md",
+        "localizedName": "合并单元格",
+        "uuid": "ab7a16c2-5f2a-43e7-87e3-a7b4f0e7631b",
+        "labels": "单元格, 合并, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSetRangeBorderActivity",
+        "name": "SetRangeBorder.md",
+        "localizedName": "设置边框",
+        "uuid": "cb01b070-1dc9-418f-b46b-22538f343576",
+        "labels": "边框, Excel"
+    },
+    {
+        "id": "BotTime.Office.Activity.OfficeExcelSaveActivity",
+        "name": "Save.md",
+        "localizedName": "保存",
+        "uuid": "7a3027c5-6676-4720-945c-4a2f58909ae5",
+        "labels": "保存, Excel"
+    },
+    {
+        "id": null,
+        "name": "Senior",
+        "localizedName": "高级"
+    }
+]

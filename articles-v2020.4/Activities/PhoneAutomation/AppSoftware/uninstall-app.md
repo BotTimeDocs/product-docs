@@ -10,7 +10,7 @@
 
 ### 基本
 
-参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
@@ -22,8 +22,8 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./../MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
-**此流程执行逻辑**：卸载指定的手机端中指定的APP应用软件。
+**此流程执行逻辑**：卸载指定的手机端中指定的APP应用软件。 
 
 ![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/uninstallapp20211215.jpg)

@@ -124,7 +124,7 @@
         "localizedName": "设置屏幕方向",
         "uuid": "1c344857-9247-4a43-9a6c-689576478b52",
         "labels": "设置, 屏幕方向, 移动端"
-    },    
+    },
     {
         "id": "",
         "name": "AndroidProprietary",

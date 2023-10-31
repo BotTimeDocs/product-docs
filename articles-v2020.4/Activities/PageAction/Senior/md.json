@@ -1,0 +1,79 @@
+[
+    {
+        "id": "Encootech.AutomationActivity.ClickScreenPointActivity",
+        "name": "Coordinate.md",
+        "localizedName": "坐标点击",
+        "uuid": "1071c33c-636f-4e49-bb9d-dcaa6437529d",
+        "labels": "坐标, 点击"
+    },
+    {
+        "id": "Encootech.AutomationActivity.HoverActivity",
+        "name": "Hover.md",
+        "localizedName": "悬停",
+        "uuid": "f8de87aa-2206-4e6f-95d8-11b299bccf3c",
+        "labels": "悬停"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetElementActivity",
+        "name": "GetElement.md",
+        "localizedName": "获取元素",
+        "uuid": "580eca70-9c1b-4abe-8ba3-1f03a0955ae5",
+        "labels": "获取, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.GetElementPropertyValueActivity",
+        "name": "GetElementAttributeValue.md",
+        "localizedName": "获取元素属性值",
+        "uuid": "172E0D63-B057-4EC2-9F75-8D7B96C953B9",
+        "labels": "属性, 获取, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WebAction.SetWebElementPropertyValue",
+        "name": "SetWebElementAttributeValue.md",
+        "localizedName": "设置Web元素属性值",
+        "uuid": "67a6c50f-b047-4ae8-b2ef-3e262afc07e2",
+        "labels": "属性值, 设置, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WaitElementVanishActivity",
+        "name": "WaitElementVanish.md",
+        "localizedName": "等待元素消失",
+        "uuid": "098c1949-83cf-4d07-a8f5-fb64b10558ae",
+        "labels": "等待, 消失, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WaitElementAppearActivity",
+        "name": "WaitElementAppear.md",
+        "localizedName": "等待元素出现",
+        "uuid": "303626bc-bab2-42c0-b3ea-1ddddc10ac61",
+        "labels": "等待, 出现, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WhetherElementExistsActivity",
+        "name": "WhetherElementExists.md",
+        "localizedName": "判断元素是否存在",
+        "uuid": "3d1841e8-f824-4052-940c-5c6a54a414ef",
+        "labels": "判断, 是否存在, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.WaitElementPropertyActivity",
+        "name": "WaitElementAttributeValue.md",
+        "localizedName": "等待元素属性值",
+        "uuid": "F55DF204-9AE5-4002-9230-9439C0B3D773",
+        "labels": "等待, 属性, 元素"
+    },
+    {
+        "id": "Encootech.AutomationActivity.HighlightActivity",
+        "name": "Highlight.md",
+        "localizedName": "高亮",
+        "uuid": "BF7C5379-A332-46E3-BD66-11EB6913E0D4",
+        "labels": "高亮"
+    },
+    {
+        "id": "Encootech.AutomationActivity.MatchImageActivity",
+        "name": "MatchImage.md",
+        "localizedName": "匹配图片",
+        "uuid": "9038B986-B35A-47A3-BF7D-A3DB2BFA4613",
+        "labels": "图片, 匹配"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": null,
+        "name": "aboutkb.md",
+        "localizedName": "关于智能知识库",
+        "uuid": "d615dec8-349f-45a9-96e1-f7159a6c4ef9",
+        "labels": "智能知识库"
+    },
+    {
+        "id": null,
+        "name": "kb.md",
+        "localizedName": "知识库",
+        "uuid": "b49b3c73-66d8-4cca-b472-d6d9f4c180ed",
+        "labels": "智能知识库"
+    },
+    {
+        "id": null,
+        "name": "application.md",
+        "localizedName": "应用",
+        "uuid": "01b718d1-0bb7-45de-ae6a-432cf6f1c7ec",
+        "labels": "智能知识库"
+    },
+    {
+        "id": null,
+        "name": "managekb.md",
+        "localizedName": "管理",
+        "uuid": "e266598c-646b-4038-bade-973b7b5c757f",
+        "labels": "智能知识库"
+    }
+]

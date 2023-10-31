@@ -14,11 +14,11 @@
 
 ### 基本
 
-参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。
 
 ### 输入
 
-- **路径**：手机端中文件的路径或目录路径地址，如，`"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"`。
+- **路径**：手机端中文件的路径或目录路径地址，如，`"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"`。 
 - **路径类型**：选择文件或目录的路径的类型。
 
 >**说明：**
@@ -31,7 +31,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./../MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：判断手机中的 `"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"` 文件路径是否存在，结果保存至变量 `result` 中。
 

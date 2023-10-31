@@ -1,0 +1,65 @@
+[
+  {
+    "id": null,
+    "name": "globalfunctions.md",
+    "localizedName": "Global functions",
+    "uuid": "07ce2b23-bf12-4189-9d6e-8dc68bb0b5cc",
+    "labels": "globalfunctions"
+  },
+  {
+    "id": null,
+    "name": "find_element.md",
+    "localizedName": "clicknium.find_element",
+    "uuid": "c7343739-fa0a-4919-9d1d-9f15bfbfccb9",
+    "labels": "find element"
+  },
+  {
+    "id": null,
+    "name": "find_elements.md",
+    "localizedName": "clicknium.find_elements",
+    "uuid": "988f5666-3a6a-442a-9756-2027e356a704",
+    "labels": "find elements"
+  },
+  {
+    "id": null,
+    "name": "get_screenshot.md",
+    "localizedName": "clicknium.get_screenshot",
+    "uuid": "c416c49d-d8ea-494c-8d8c-920ba97eeced",
+    "labels": "get screenshot"
+  },
+  {
+    "id": null,
+    "name": "is_existing.md",
+    "localizedName": "clicknium.is_existing",
+    "uuid": "81015ff7-6b80-41e8-bb92-07b2c2c39693",
+    "labels": "is existing"
+  },
+  {
+    "id": null,
+    "name": "send_hotkey.md",
+    "localizedName": "clicknium.send_hotkey",
+    "uuid": "1cc261c8-2cac-48fd-9359-f5ce577a937b",
+    "labels": "send hotkey"
+  },
+  {
+    "id": null,
+    "name": "send_text.md",
+    "localizedName": "clicknium.send_text",
+    "uuid": "223e773c-d8e6-4a38-a201-f73d9dec83e4",
+    "labels": "send text"
+  },
+  {
+    "id": null,
+    "name": "wait_appear.md",
+    "localizedName": "clicknium.wait_appear",
+    "uuid": "56246f05-6f25-40ee-a922-3305ba0ee22a",
+    "labels": "wait appear"
+  },
+  {
+    "id": null,
+    "name": "wait_disappear.md",
+    "localizedName": "clicknium.wait_disappear",
+    "uuid": "ba4e9ac2-41b8-4d70-b073-83731e61223d",
+    "labels": "wait disappear"
+  }
+]

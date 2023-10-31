@@ -10,7 +10,7 @@
 
 ### 基本
 
-参见 [通用配置项](./../../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../../Appendix/CommonConfigurationItems.md)。 
 
 ### 输入
 
@@ -23,7 +23,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./../MobileConnect.md)
+**前置必要组件**：[连接设备](../../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：将本手机中的 `"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"` 文件复制到本地计算机的桌面中 `"C:\Users\wangxin\Desktop"`。
 

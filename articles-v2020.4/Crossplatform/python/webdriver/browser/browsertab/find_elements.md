@@ -1,0 +1,42 @@
+
+# BrowserTab.find_elements
+```python
+def find_elements(
+        self,
+        locator: Union[_Locator, str],
+        locator_variables: dict = {},
+        timeout: int = 30
+    ) -> List[WebElement]
+```  
+
+返回当前网页中给定定位器的所有匹配 Web 元素的列表。
+
+> **附注:**  
+`BrowserTab.find_elements` 与查找 UI 元素时 [clicknium.find_elements](Ma/doc/references/python/globalfunctions/find_elements.md) 的方法不同。 
+>- `clicknium.find_elements()` 适用于 Web 和窗口 UI 元素，不限于特定范围。
+>- `clicknium.chrome.open("https://bing.com").find_elements()` 将在其父网页中查找元素。 
+
+**参数:**  
+- **locator[Required]**: str | _Locator   
+    - Locator string,定位器字符串，目标 UI 元素的定位器的访问路径，例如：“locator.chrome.bing.search_sb_form_q”，定位器存储为 chrome，定位器名称为 search_sb_form_q。
+- **locator_variables**: dict  
+    - Locator variables,  定位器变量，设置为在定位器中初始化参数，例如：`{ "row": 1,  "column": 1}`
+- **timeout**: int  
+    - 操作超时，单位为秒，默认值为 30 秒。
+
+**返回:**  
+    &emsp; [WebElement](webelement.md) 对象列表。
+
+**例:**
+***
+```python
+from clicknium import clicknium as cc, locator, ui
+
+tab = cc.edge.open("https://www.bing.com/")
+tab.find_element(locator.new_store.sample.bing.search_sb_form_q).set_text('clicknium')
+tab.find_element(locator.new_store.sample.bing.svg).click()
+result_elements = tab.find_elements(locator.new_store.sample.bing.a_search_result)
+for elem in result_elements:
+    elem.highlight(duration=1)
+tab.close()
+```

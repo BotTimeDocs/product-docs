@@ -14,11 +14,11 @@
 
 ### 目标
 
-- **[选择器](../../Activities/Appendix/Selector.md)**：要获取的特定UI元素。可通过点击指定元素自动生成。
+- **[选择器](../Appendix/Selector.md)**：要获取的特定UI元素。可通过点击指定元素自动生成。
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md) 
 
 **此流程执行逻辑**：清空屏幕上文本框中的内容。
 

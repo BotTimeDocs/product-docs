@@ -30,4 +30,11 @@
 
 ## 使用示例
 
-一般与**执行Python代码**组件搭配使用，操作样例可参见[执行Python代码](./PythonExcuteFile.md)。
+一般与**执行Python代码**组件搭配使用，操作样例可参见[执行Python代码](../../CodeExecuter/Python/PythonExcuteFile.md)。
+
+
+## 常见问题
+
+1. **Q：配置python环境报错“xxxx.exe不是有效的python环境路径”，但本地py是有这个exe**
+
+  **A：**把lib目录复制到Scripts里面去，让python.exe和lib在同一层目录。

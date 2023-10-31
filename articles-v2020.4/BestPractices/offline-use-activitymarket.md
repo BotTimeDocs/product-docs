@@ -31,7 +31,7 @@
 
     ![复制 packageId](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/packageid20220125.png)
 
-4. 在“C:\%UserProfile%\.nuget\packages”中搜索对应的 packageId 的值，如，“Encootech.OfficeWord”
+4. 在`C:\%UserProfile%\.nuget\packages`中搜索对应的 packageId 的值，如，“Encootech.OfficeWord”
 
     ![搜索 packageId](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/searchpackageid20220125.png)
 

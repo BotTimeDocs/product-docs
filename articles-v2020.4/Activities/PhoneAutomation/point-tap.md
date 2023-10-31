@@ -20,7 +20,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：实现指定坐标点击手机端“学习强国”应用的效果。
 

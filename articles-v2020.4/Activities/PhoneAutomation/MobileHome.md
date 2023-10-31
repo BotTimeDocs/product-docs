@@ -18,7 +18,7 @@
 
 ## 使用示例
 
-**前置必要组件**：[连接设备](./MobileConnect.md)
+**前置必要组件**：[连接设备](../PhoneAutomation/MobileConnect.md)
 
 **此流程执行逻辑**：从打开的指定的“Metro 大都会”APP 软件界面返回至手机主页的界面。
 

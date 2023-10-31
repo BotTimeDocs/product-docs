@@ -1,0 +1,184 @@
+[
+  {
+    "id": null,
+    "name": "exceptions.md",
+    "localizedName": "exceptions",
+    "uuid": "4009f4a4-01b1-4af3-941b-b9ca6cdc02c1",
+    "labels": "exceptions"
+  },
+  {
+    "id": null,
+    "name": "argumenterror.md",
+    "localizedName": "argumenterror",
+    "uuid": "3503458a-d065-4016-a97d-b2768a979b27",
+    "labels": "argumenterror"
+  },
+  {
+    "id": null,
+    "name": "argumentnullerror.md",
+    "localizedName": "argumentnullerror",
+    "uuid": "ccf285f9-f6d8-49f6-9ed8-5e89275bfc5c",
+    "labels": "argumentnullerror"
+  },
+  {
+    "id": null,
+    "name": "argumentoutofrangeerror.md",
+    "localizedName": "argumentoutofrangeerror",
+    "uuid": "0570af82-e47d-44e0-8751-89b53e78ff7e",
+    "labels": "argumentoutofrangeerror"
+  },
+  {
+    "id": null,
+    "name": "baseerror.md",
+    "localizedName": "baseerror",
+    "uuid": "22fe9040-683e-444a-9fd5-aab3a4d9b203",
+    "labels": "baseerror"
+  },
+  {
+    "id": null,
+    "name": "browsernotinstallerror.md",
+    "localizedName": "browsernotinstallerror",
+    "uuid": "bd234887-7e78-4c6c-8c64-a2aa835bdcd6",
+    "labels": "browsernotinstallerror"
+  },
+  {
+    "id": null,
+    "name": "browsernotrunerror.md",
+    "localizedName": "browsernotrunerror",
+    "uuid": "113fe001-f0ea-470f-bdb2-e23864568ac3",
+    "labels": "browsernotrunerror"
+  },
+  {
+    "id": null,
+    "name": "elementcannotfounderror.md",
+    "localizedName": "elementcannotfounderror",
+    "uuid": "eaee53ee-48de-4e0c-8401-d3e7eaa77a50",
+    "labels": "elementcannotfounderror"
+  },
+  {
+    "id": null,
+    "name": "extensionoperationerror.md",
+    "localizedName": "extensionoperationerror",
+    "uuid": "9fa7849a-4d06-4e36-b630-f50826a766c5",
+    "labels": "extensionoperationerror"
+  },
+  {
+    "id": null,
+    "name": "invalidoperationerror.md",
+    "localizedName": "invalidoperationerror",
+    "uuid": "6e34b802-6d69-4ad8-a3ac-7ed8df157afb",
+    "labels": "invalidoperationerror"
+  },
+  {
+    "id": null,
+    "name": "invalidselecteditemerror.md",
+    "localizedName": "invalidselecteditemerror",
+    "uuid": "46e6a19a-b9bb-4bfd-9293-2266d318fd22",
+    "labels": "invalidselecteditemerror"
+  },
+  {
+    "id": null,
+    "name": "locatorrequesterror.md",
+    "localizedName": "locatorrequesterror",
+    "uuid": "47adf371-f486-4024-936b-fe4e53e6b327",
+    "labels": "locatorrequesterror"
+  },
+  {
+    "id": null,
+    "name": "locatorundefinederror.md",
+    "localizedName": "locatorundefinederror",
+    "uuid": "90ec6bc8-2603-4ddc-90b3-451136391ac4",
+    "labels": "locatorundefinederror"
+  },
+  {
+    "id": null,
+    "name": "notsupportederror.md",
+    "localizedName": "notsupportederror",
+    "uuid": "e0121944-6020-4363-ada2-5b126e46632f",
+    "labels": "notsupportederror"
+  },
+  {
+    "id": null,
+    "name": "notsupportedoperationerror.md",
+    "localizedName": "notsupportedoperationerror",
+    "uuid": "887ce312-dd2a-462c-a3f3-fc42a58a0389",
+    "labels": "notsupportedoperationerror"
+  },
+  {
+    "id": null,
+    "name": "notsupportedoperationoptionerror.md",
+    "localizedName": "notsupportedoperationoptionerror",
+    "uuid": "ccef54d4-9169-4291-81da-ebe19c2aa4d5",
+    "labels": "notsupportedoperationoptionerror"
+  },
+  {
+    "id": null,
+    "name": "projectsettingnotfounderror.md",
+    "localizedName": "projectsettingnotfounderror",
+    "uuid": "f77c4f18-8aad-46d9-8e19-d552aac3b90e",
+    "labels": "projectsettingnotfounderror"
+  },
+  {
+    "id": null,
+    "name": "screenoperationerror.md",
+    "localizedName": "screenoperationerror",
+    "uuid": "4d547c76-4751-4761-841d-808c76fe0e06",
+    "labels": "screenoperationerror"
+  },
+  {
+    "id": null,
+    "name": "timeoutoperationerror.md",
+    "localizedName": "timeoutoperationerror",
+    "uuid": "a6d6321c-41bf-4f13-93d1-ad88e15116f3",
+    "labels": "timeoutoperationerror"
+  },
+  {
+    "id": null,
+    "name": "uiapatternnotfounderror.md",
+    "localizedName": "uiapatternnotfounderror",
+    "uuid": "23c43a98-da7c-4c2b-8b11-37b17afda04e",
+    "labels": "uiapatternnotfounderror"
+  },
+  {
+    "id": null,
+    "name": "unauthoriederror.md",
+    "localizedName": "unauthoriederror",
+    "uuid": "f4f1bc2d-db0c-4f6b-ab68-e67930c122b6",
+    "labels": "unauthoriederror"
+  },
+  {
+    "id": null,
+    "name": "unreachablebrowserextensionerror.md",
+    "localizedName": "unreachablebrowserextensionerror",
+    "uuid": "3c5e9638-bb03-4cc0-8a24-a31a6b3f28d1",
+    "labels": "unreachablebrowserextensionerror"
+  },
+  {
+    "id": null,
+    "name": "webelementnotrespondingerror.md",
+    "localizedName": "webelementnotrespondingerror",
+    "uuid": "a1c2a189-6358-49c0-bbcc-2ba92c1811e4",
+    "labels": "webelementnotrespondingerror"
+  },
+  {
+    "id": null,
+    "name": "weberror.md",
+    "localizedName": "weberror",
+    "uuid": "b3170224-304d-4ec5-8bff-ffbbcd206c78",
+    "labels": "weberror"
+  },
+  {
+    "id": null,
+    "name": "windowerror.md",
+    "localizedName": "windowerror",
+    "uuid": "c73a244f-742a-482f-95a2-14029d5954d8",
+    "labels": "windowerror"
+  },
+  {
+    "id": null,
+    "name": "windowsnativeerror.md",
+    "localizedName": "windowsnativeerror",
+    "uuid": "2e5ffaad-f610-47f1-b66a-37dad2865257",
+    "labels": "windowsnativeerror"
+  }
+]

@@ -24,4 +24,4 @@
 
 ## 使用示例
 
-一般与 **状态机** 组件搭配使用，操作样例可参见 [状态机](activity/../StateMachine.md)。
+一般与 **状态机** 组件搭配使用，操作样例可参见 [状态机](../../WorkflowControl/StateMachine/StateMachine.md)。

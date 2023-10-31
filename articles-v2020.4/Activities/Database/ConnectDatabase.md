@@ -19,7 +19,7 @@
 
 ### 基本
 
-参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。
+参见 [通用配置项](../Appendix/CommonConfigurationItems.md)。 
 
 ### 输入
 
@@ -40,7 +40,7 @@
 
 2. **Q：MySQL 的数据库连接字符串格式是什么？**
 
-    **A：** `"Server=localhost;Port=3306;Database=nuget1;Uid=root;Pwd=root;Charset=utf8;"`
+    **A：** `"Server=localhost;Port=3306;Database=nuget1;Uid=root;Pwd=root;"`
 
 3. **Q：SQL Server 的数据库连接字符串格式是什么？**
 

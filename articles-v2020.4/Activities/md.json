@@ -8,43 +8,83 @@
     },
     {
         "id": null,
-        "name": "UIAutomation",
-        "localizedName": "界面自动化"
+        "name": "PageAction",
+        "localizedName": "页面动作"
     },
     {
         "id": null,
-        "name": "ComputerVision",
-        "localizedName": "计算机视觉（企业版）"
-    },    
+        "name": "MouseKeyboard",
+        "localizedName": "鼠标/键盘"
+    },
     {
         "id": null,
-        "name": "AppAutomation",
-        "localizedName": "软件自动化"
+        "name": "WebBrowser",
+        "localizedName": "浏览器"
+    },
+    {
+        "id": null,
+        "name": "TableExcelWPS",
+        "localizedName": "表格/Excel/WPS"
+    },
+    {
+        "id": null,
+        "name": "Mail",
+        "localizedName": "邮件"
+    },
+    {
+        "id": null,
+        "name": "PDF",
+        "localizedName": "PDF"
+    },
+    {
+        "id": null,
+        "name": "FileFolder",
+        "localizedName": "文件/文件夹"
+    },
+    {
+        "id": null,
+        "name": "JudgeLoop",
+        "localizedName": "判断/循环"
+    },
+    {
+        "id": null,
+        "name": "Application",
+        "localizedName": "应用程序"
+    },
+    {
+        "id": null,
+        "name": "OS",
+        "localizedName": "操作系统"
+    },
+    {
+        "id": null,
+        "name": "AI",
+        "localizedName": "AI"
+    },
+    {
+        "id": null,
+        "name": "DevService",
+        "localizedName": "开发服务"
     },
     {
         "id": null,
         "name": "CodeExecuter",
-        "localizedName": "代码工具"
+        "localizedName": "代码编程"
     },
     {
         "id": null,
-        "name": "System",
-        "localizedName": "系统"
+        "name": "DataProcessing",
+        "localizedName": "数据处理"
     },
     {
         "id": null,
-        "name": "Check",
-        "localizedName": "校验"
+        "name": "Triggers",
+        "localizedName": "触发器"
     },
     {
         "id": null,
         "name": "Database",
-        "localizedName": "数据库"
-    },
-    {
-        "id": null,
-        "name": "DataTable",
-        "localizedName": "数据表"
+        "localizedName": "数据库操作"
     },
     {
         "id": null,
@@ -53,23 +93,18 @@
     },
     {
         "id": null,
-        "name": "AIHub",
-        "localizedName": "AI Hub"
+        "name": "SAP",
+        "localizedName": "SAP"
+    },
+    {
+        "id": null,
+        "name": "UIAutomation",
+        "localizedName": "高级自动化"
     },
     {
         "id": null,
         "name": "PhoneAutomation",
-        "localizedName": "手机自动化（企业版）"
-    },
-    {
-        "id": null,
-        "name": "Console",
-        "localizedName": "控制台"
-    },
-    {
-        "id": null,
-        "name": "Triggers",
-        "localizedName": "触发器"
+        "localizedName": "手机自动化"
     },
     {
         "id": null,
