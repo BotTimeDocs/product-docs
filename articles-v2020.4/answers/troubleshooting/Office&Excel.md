@@ -57,7 +57,7 @@
 ---
 <br> 
 
-#### Q：详细错误信息：对 COM 组件的调用返回了错误 HRESULT E_FAIL。
+#### Q：详细错误信息：对 COM 组件的调用返回了错误 HRESULT E\_FAIL。
 
 <br>
 
@@ -148,7 +148,7 @@
 ---
 <br> 
 
-#### Q：[错误]插入公式失败。详细错误信息：对COM组件的调用返回了错误HRESULT E_FAIL 
+#### Q：[错误]插入公式失败。详细错误信息：对COM组件的调用返回了错误HRESULT E\_FAIL 
 
 <br>
 
@@ -163,7 +163,7 @@
 ---
 <br> 
 
-#### Q：加载类型库/DLL 时出错。 (Exception from HRESULT: 0x80029C4A (TYPE_E_CANTLOADLIBRARY)) 
+#### Q：加载类型库/DLL 时出错。 (Exception from HRESULT: 0x80029C4A (TYPE\_E\_CANTLOADLIBRARY)) 
 
 <font color=5a6877>
 <br>
@@ -194,7 +194,7 @@
 ---
 <br>
 
-#### Q：0x80070057 (E_INVALIDARG))
+#### Q：0x80070057 (E\_INVALIDARG))
 
 <font color=5a6877>
 <br>
@@ -223,9 +223,9 @@
 <br>
 
 
-#### Q：环境_COM类相关，报错信息：0x80004002 
+#### Q：环境\_COM类相关，报错信息：0x80004002 
 
-无法将类型为“System.__ComObject”的 COM 对象强制转换为接口类型“Microsoft.Office.Interop.Excel.Worksheet”。此操作失败的原因是对 IID 为“{000208D8-0000-0000-C000-000000000046}”的接口的 COM 组件调用 QueryInterface 因以下错误而失败: 不支持此接口 (异常来自HRESULT:0x80004002 (E_NOINTERFACE))。
+无法将类型为“System.\_\_ComObject”的 COM 对象强制转换为接口类型“Microsoft.Office.Interop.Excel.Worksheet”。此操作失败的原因是对 IID 为“{000208D8-0000-0000-C000-000000000046}”的接口的 COM 组件调用 QueryInterface 因以下错误而失败: 不支持此接口 (异常来自HRESULT:0x80004002 (E\_NOINTERFACE))。
 
 【问题原因】：电脑安装先后多个Office Excel版本，或者安装过WPS。
 
@@ -235,7 +235,7 @@
 **【解决办法-AC0003】** ：
 
 * 在注册表中找到：
-HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
+HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 在其子项中，删除与当前Excel版本不一致的选项即可。
 注意：删除注册表选项前，请先备份删除的选项。
 如下图所示：
@@ -248,7 +248,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <br>
 
 
-#### Q：详细错误信息：检索COM类工厂中CLSID为{00024500-0000-0000-C000-000000000046}的组件失败，原因是出现以下错误：80040154没有注册类（异常来自HRESULT:0x80040154(REGDB_E_CLASSNOTREG))。
+#### Q：详细错误信息：检索COM类工厂中CLSID为{00024500-0000-0000-C000-000000000046}的组件失败，原因是出现以下错误：80040154没有注册类（异常来自HRESULT:0x80040154(REGDB\_E\_CLASSNOTREG))。
 
 <font color=5a6877>
 
@@ -311,7 +311,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <br>
 
 
-#### Q：打开/新建失败，错误代码：0x80010105(RPC_E_SERVERFAULT)
+#### Q：打开/新建失败，错误代码：0x80010105(RPC\_E\_SERVERFAULT)
 
 <font color=5a6877>
 <br>
@@ -324,7 +324,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 ---
 <br>
 
-#### Q：打开/新建 HRESULT E_FAIL，报错信息：0x800A03EC
+#### Q：打开/新建 HRESULT E\_FAIL，报错信息：0x800A03EC
 
 <font color=5a6877>
 <br>
@@ -340,7 +340,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 #### Q：打开/新建失败，报错信息：0x8002801D
 
-详细错误信息：Unable to cast COM object of type 'Microsoft.Office.Interop.Excel.ApplicationClass' to interface type 'Microsoft.Office.Interop.Excel._Application'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{000208D5-0000-0000-C000-000000000046}' failed due to the following error: 库没有注册。 (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED)).
+详细错误信息：Unable to cast COM object of type 'Microsoft.Office.Interop.Excel.ApplicationClass' to interface type 'Microsoft.Office.Interop.Excel.\_Application'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{000208D5-0000-0000-C000-000000000046}' failed due to the following error: 库没有注册。 (Exception from HRESULT: 0x8002801D (TYPE\_E\_LIBNOTREGISTERED)).
 
 <font color=5a6877>
 <br>
@@ -398,7 +398,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 ### 2.3 Excel-读取写入
 
-#### Q：excel 超出当前范围。 (异常来自 HRESULT:0x8002000A (DISP_E_OVERFLOW))，excel 某些单元格格式有问题，读取就会有异常
+#### Q：excel 超出当前范围。 (异常来自 HRESULT:0x8002000A (DISP\_E\_OVERFLOW))，excel 某些单元格格式有问题，读取就会有异常
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0013.png"/>
 
@@ -469,7 +469,7 @@ HKEY_CLASSES_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 <br>
 
 
-#### Q：工作表筛选_筛选出错，[错误]类Range的AutoFilter方法无效
+#### Q：工作表筛选\_筛选出错，[错误]类Range的AutoFilter方法无效
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0023.png"/>
 
@@ -600,12 +600,12 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 ### 2.5 Excel-其他报错
 
-#### Q：环境_COM类相关，报错信息：0x8001010A (RPC_E_SERVERCALL_RETRYLATER)
+#### Q：环境\_COM类相关，报错信息：0x8001010A (RPC\_E\_SERVERCALL\_RETRYLATER)
 
 <font color=5a6877>
 <br>
 
-**【解决办法-AC0006】** ：详见链接，关掉可视 [c# - Error:-(Exception from HRESULT: 0x8001010A (RPC_E_SERVERCALL_RETRYLATER)) - Stack Overflow](https://stackoverflow.com/questions/26073754/error-exception-from-hresult-0x8001010a-rpc-e-servercall-retrylater)
+**【解决办法-AC0006】** ：详见链接，关掉可视 [c# - Error:-(Exception from HRESULT: 0x8001010A (RPC\_E\_SERVERCALL\_RETRYLATER)) - Stack Overflow](https://stackoverflow.com/questions/26073754/error-exception-from-hresult-0x8001010a-rpc-e-servercall-retrylater)
 
 </font><br><br>
 ---
@@ -683,7 +683,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 <br>
 
 
-#### Q：详细错误信息：无法保存。(异常来自HRESULT:0x80030103(STG_E_CANTSAVE))
+#### Q：详细错误信息：无法保存。(异常来自HRESULT:0x80030103(STG\_E\_CANTSAVE))
 
 <br>
 
@@ -701,7 +701,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 <br>
 
 
-#### Q： [错误]写入单元格失败。详细错误信息：详细错误信息：灾难性故障(异常来自 HRESULT:0x8000FFFF(_UNEXPECTED))
+#### Q： [错误]写入单元格失败。详细错误信息：详细错误信息：灾难性故障(异常来自 HRESULT:0x8000FFFF(\_UNEXPECTED))
 
 <br>
 
