@@ -1,4 +1,4 @@
-# 《社区版VS企业版--产品介绍》
+# 《社区版VS企业版》
 
 <br><br>根据你的需求弹性选择配置，[登录注册](https://auth.encoo.com/Account/Register?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dencoo_console_v3%26redirect_uri%3dhttps%253A%252F%252Fconsole.encoo.com%252Fcallback%26response_type%3dcode%26scope%3dopenid%2520profile%2520apigateway%2520offline_access%26state%3d43a4f32cc2fe4b5f906c10e18f5b8d4d%26code_challenge%3dtYhQskRW1PrPByc8_6HdVkUKQ7H8ZnDvmDLXE6QBBIY%26code_challenge_method%3dS256%26response_mode%3dquery)后可直接免费下载社区版产品<br>
 
