@@ -1129,7 +1129,7 @@ FAQ6：私有化部署 <br>
     <td>A6_00006</td>
   </tr>
   <tr>
-    <td>社区版编辑器，会默认使用最新版本的市场流程组件吗？</td>
+    <td>编辑器，会默认使用最新版本的市场流程组件吗？</td>
     <td><a href="https://academy.encoo.com/zh-cn/wiki/answers/Q&A/ProcessRunManager.md">FAQ5：流程运行与维护</a></td>
     <td>市场组件</td>
     <td>A6_00007</td>

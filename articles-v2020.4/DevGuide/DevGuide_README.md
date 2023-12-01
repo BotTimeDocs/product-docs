@@ -464,7 +464,7 @@
   </tr>
   <tr>
     <td class="tg-cly1">4.1 许可证主要分为：</td>
-    <td class="tg-cly1">（1）编辑器/机器人许可(固定许可VS浮动许可）<br>（2）Vicode应用许可<br>（3）文档理解模板许可<br>（4）社区版许可证</td>
+    <td class="tg-cly1">（1）编辑器/机器人许可(固定许可VS浮动许可）<br>（2）Vicode应用许可<br>（3）文档理解模板许可<br>（4）个人版许可证</td>
   </tr>
   <tr>
     <td class="tg-cly1">4.2 组织架构管理</td>

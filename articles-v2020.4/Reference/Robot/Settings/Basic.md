@@ -44,3 +44,142 @@
   >
   >- 企业版，使用控制台激活。
   >- 企业版，本地激活且在“设置 > 绑定”中已绑定控制台。
+
+ ## 版本功能对比 
+
+ <table>
+<thead>
+  <tr>
+    <th colspan="2" rowspan="4"></th>
+    <th></th>
+    <th>个人免费版</th>
+    <th>个人专业版</th>
+    <th>企业SAAS版</th>
+    <th>企业私有定制版</th>
+  </tr>
+  <tr>
+    <th>规格</th>
+    <th>免费</th>
+    <th>付费</th>
+    <th rowspan="3"><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系商务</a></th>
+    <th rowspan="3"><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系商务</a></th>
+  </tr>
+  <tr>
+    <th>原价</th>
+    <th>0</th>
+    <th>联系我们</th>
+  </tr>
+  <tr>
+    <th>折扣价</th>
+    <th>0</th>
+    <th>联系我们</th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td rowspan="16">机器人</td>
+    <td>系统环境</td>
+    <td>系统环境</td>
+    <td>Windows</td>
+    <td>Windows</td>
+    <td>Windows、麒麟、统信等</td>
+  </tr>
+  <tr>
+    <td rowspan="2">流程库</td>
+    <td>本地执行</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>控制台调度</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>定时任务</td>
+    <td>定时任务</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>待执行计划</td>
+    <td>待执行计划</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td rowspan="2">任务记录</td>
+    <td>本地管理</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>上传到控制台并管理</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+     <td rowspan="6">流程执行</td>
+    <td>基本</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>录制视频</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>执行过程截图</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+ <tr>
+    <td>以管理员权限运行</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+  <tr>
+    <td>独立桌面</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>超时设置</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>本地激活</td>
+    <td>本地激活</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td rowspan="2">设置</td>
+    <td>自动解锁</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+ <tr>
+    <td>PDR会话保持</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+  </tbody>
+</table>

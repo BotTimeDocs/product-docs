@@ -4,7 +4,7 @@
 
 1. 获取云扩 RPA 编辑器安装包。
 
-    - **社区版编辑器安装包**：你可以在 [云扩 RPA 控制台页面](https://console.encoo.com/#/user/register) 注册登录并下载。
+    - **个人版编辑器安装包**：你可以在 [云扩 RPA 控制台页面](https://console.encoo.com/#/user/register) 注册登录并下载。
 
     ![下载安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/downloadstudio20210528.png)
 

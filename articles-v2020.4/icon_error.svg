@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="定价页面-个人版" transform="translate(-605.5, -866.5)" stroke="#F05656">
+            <g id="编组" transform="translate(606, 867)">
+                <path d="M6,12 C9.31371,12 12,9.31371 12,6 C12,2.68629 9.31371,0 6,0 C2.68629,0 0,2.68629 0,6 C0,9.31371 2.68629,12 6,12 Z" id="路径"></path>
+                <line x1="7.69701" y1="4.30296" x2="4.3029" y2="7.69707" id="路径" stroke-linecap="round"></line>
+                <line x1="4.30299" y1="4.30296" x2="7.6971" y2="7.69707" id="路径" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

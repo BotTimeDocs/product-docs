@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="定价页面-个人版" transform="translate(-786.5, -668.5)" stroke="#3DB86D">
+            <g id="编组" transform="translate(787, 669)">
+                <path d="M6,12 C7.65684,12 9.15684,11.32842 10.24263,10.24263 C11.32842,9.15684 12,7.65684 12,6 C12,4.34316 11.32842,2.84316 10.24263,1.757358 C9.15684,0.671574 7.65684,0 6,0 C4.34316,0 2.84316,0.671574 1.757358,1.757358 C0.671574,2.84316 0,4.34316 0,6 C0,7.65684 0.671574,9.15684 1.757358,10.24263 C2.84316,11.32842 4.34316,12 6,12 Z" id="路径"></path>
+                <polyline id="路径" stroke-linecap="round" points="4 6 5.66666667 8 9 4"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
