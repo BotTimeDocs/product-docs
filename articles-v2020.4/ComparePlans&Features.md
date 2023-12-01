@@ -1,8 +1,8 @@
-# 《社区版VS企业版》
+# 《个人版VS企业版--产品介绍》
 
-<br><br>根据你的需求弹性选择配置，[登录注册](https://auth.encoo.com/Account/Register?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dencoo_console_v3%26redirect_uri%3dhttps%253A%252F%252Fconsole.encoo.com%252Fcallback%26response_type%3dcode%26scope%3dopenid%2520profile%2520apigateway%2520offline_access%26state%3d43a4f32cc2fe4b5f906c10e18f5b8d4d%26code_challenge%3dtYhQskRW1PrPByc8_6HdVkUKQ7H8ZnDvmDLXE6QBBIY%26code_challenge_method%3dS256%26response_mode%3dquery)后可直接免费下载社区版产品<br>
+<br><br>根据你的需求弹性选择配置，[登录注册](https://auth.encoo.com/Account/Register?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3dencoo_console_v3%26redirect_uri%3dhttps%253A%252F%252Fconsole.encoo.com%252Fcallback%26response_type%3dcode%26scope%3dopenid%2520profile%2520apigateway%2520offline_access%26state%3d43a4f32cc2fe4b5f906c10e18f5b8d4d%26code_challenge%3dtYhQskRW1PrPByc8_6HdVkUKQ7H8ZnDvmDLXE6QBBIY%26code_challenge_method%3dS256%26response_mode%3dquery)后可直接下载个人版产品<br>
 
-<br>社区版永久免费使用，让更多人享受RPA给您带来的便捷与高效<br><br>
+<br>个人版分免费版和专业版，满足不同人群的使用需求，让更多人享受RPA带来的便捷与高效<br><br>
 
 <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/16722140831651.jpg"/>
 
@@ -14,211 +14,540 @@
 <table>
 <thead>
   <tr>
+    <th colspan="2" rowspan="4"></th>
     <th></th>
-    <th>免费社区版本</th>
-    <th>入门-企业版</th>
-    <th>Pro-企业版</th>
-    <th>部署版</th>
+    <th>个人免费版</th>
+    <th>个人专业版</th>
+    <th>企业SAAS版</th>
+    <th>企业私有定制版</th>
+  </tr>
+  <tr>
+    <th>规格</th>
+    <th>免费</th>
+    <th>付费</th>
+    <th rowspan="3"><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系商务</a></th>
+    <th rowspan="3"><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系商务</a></th>
+  </tr>
+  <tr>
+    <th>原价</th>
+    <th>0</th>
+    <th>?</th>
+  </tr>
+  <tr>
+    <th>折扣价</th>
+    <th></th>
+    <th>?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>价格</td>
-    <td>￥0</td>
-    <td>￥?0000/年</td>
-    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">获取报价</a></td>
-    <td rowspan="4">私有化部署<br>可选择私有化托管服务<br>支持定制</td>
+    <td rowspan="17">编辑器</td>
+    <td>系统环境</td>
+    <td>系统环境</td>
+    <td>Windows</td>
+    <td>Windows</td>
+    <td>Windows、麒麟、统信等</td>
+    <td rowspan="76">个人版和企业版功能全部支持；<br>支持产品功能定制；<br>私有化部署；<br>VIP专属在线和现场技术支持等。<br><br>详情请<a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系我们</a></td>
   </tr>
   <tr>
-    <td>机器人(许可数量)</td>
-    <td>1</td>
-    <td>1</td>
-    <td>可弹性选择</td>
+    <td rowspan="8">内置组件库</td>
+    <td>常用组件</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>编辑器数量(许可数量)</td>
-    <td>1</td>
-    <td>1</td>
-    <td>可弹性选择</td>
+    <td>AI组件</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>云扩Vicode-低代开发(许可数量)</td>
-    <td>1</td>
-    <td>1</td>
-    <td>可弹性选择</td>
+    <td>控制台组件</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td></td>
-    <td><a href="https://www.encoo.com/download" target="_blank" rel="noopener noreferrer">免费使用</a></td>
-    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">立即咨询</a></td>
-    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">立即咨询</a></td>
-    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">立即咨询</a></td>
+    <td>SAP</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td colspan="5">业务功能</td>
-  </tr>
-  <tr>
-    <td>基础流程编辑组件</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-  </tr>
-  <tr>
-    <td>基础AI组件</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">需另外部署</a></td>
-  </tr>
-  <tr>
-    <td>CV视觉算法-自动化组件</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-  </tr>
-  <tr>
-    <td>远程桌面</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>CV组件</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
   </tr>
   <tr>
     <td>手机自动化</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>SAP功能组件</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>远程桌面</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>支持版本管理</td>
-    <td>自动更新-最新版本</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>桌面控件专有</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>流程调度管理 (云扩超自动化平台)</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>运行/调试</td>
+    <td>运行/调试</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>数据中心-企业资产管理</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>自定义组件</td>
+    <td>自定义组件</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>企业权限管理 (云扩超自动化平台)</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td rowspan="4">市场</td>
+    <td>组件市场</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>COE-RPA需求管理中心 (云扩超自动化平台)</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>代码市场</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>COE-绩效数据管理 (云扩超自动化平台)</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>流程模板市场</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td colspan="5">服务支持</td>
+    <td>元素市场</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>定期社区公开课</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>Git版本管理</td>
+    <td>Git版本管理</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>在线帮助及咨询(工作日 10:00-19:00)</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>智能录制</td>
+    <td>智能录制</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>线上-业务专题培训活动</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td rowspan="16">机器人</td>
+    <td>系统环境</td>
+    <td>系统环境</td>
+    <td>Windows</td>
+    <td>Windows</td>
+    <td>Windows、麒麟、统信等</td>
   </tr>
   <tr>
-    <td>线下-业务专题培训活动 (企业场景--仅上海地区)</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td rowspan="2">流程库</td>
+    <td>本地执行</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>紧急业务响应</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>控制台调度</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>电话支持</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>定时任务</td>
+    <td>定时任务</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>远程支持</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td>待执行计划</td>
+    <td>待执行计划</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>1VS1 专属顾问</td>
-    <td>—</td>
-    <td>—</td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
-    <td><img src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/28/dui-gou.png" alt="Image" width="15" height="15"></td>
+    <td rowspan="2">任务记录</td>
+    <td>本地管理</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td colspan="5">升级服务支持 (付费服务)</td>
+    <td>上传到控制台并管理</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>业务远程培训</td>
-    <td>—</td>
-    <td colspan="3" rowspan="4"><a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">报价咨询</a></td>
+     <td rowspan="6">流程执行</td>
+    <td>基本</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>现场指导支持</td>
-    <td>—</td>
+    <td>录制视频</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>流程代开发</td>
-    <td>—</td>
+    <td>执行过程截图</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+ <tr>
+    <td>以管理员权限运行</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+  <tr>
+    <td>独立桌面</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
   </tr>
   <tr>
-    <td>流程售后运维</td>
-    <td>—</td>
+    <td>超时设置</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>本地激活</td>
+    <td>本地激活</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td rowspan="2">设置</td>
+    <td>自动解锁</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+ <tr>
+    <td>PDR会话保持</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+<tr>
+    <td rowspan="39">控制台</td>
+    <td rowspan="5">仪表盘</td>
+    <td>总体监控</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td>机器人监控</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+</tr> 
+<tr>
+    <td>机器人组监控</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+<tr>
+    <td>机器人运行统计</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+<tr>
+    <td>用户流程统计</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr> 
+ <tr>
+    <td rowspan="3">自动化卓越中心</td>
+    <td>需求发起</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td>需求跟进</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr> 
+<tr>
+    <td>数据分析</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+</tr> 
+<tr>
+    <td rowspan="9">RPA中心</td>
+    <td>流程包管理</td>
+    <td>数量：1</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>机器人管理</td>
+    <td>数量：1</td>
+    <td>数量：不限</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>机器人组管理</td>
+    <td>不支持</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>流程部署管理</td>
+    <td>不支持</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>流程编排</td>
+    <td>不支持</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>任务队列</td>
+    <td>不支持</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>执行记录</td>
+    <td>不支持</td>
+    <td>数量：不限</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>计算机管理</td>
+    <td>不支持</td>
+    <td>数量：不限</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>日历管理</td>
+    <td>不支持</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td rowspan="2">ViCode</td>
+    <td>未发布应用</td>
+    <td>数量：10</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>发布应用</td>
+    <td>数量：0</td>
+    <td>数量：1（可另外购买）</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td rowspan="4">AI中心</td>
+    <td>文档理解未发布</td>
+    <td>数量：1</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>文档理解已发布</td>
+    <td>数量：1</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>OCR服务</td>
+    <td>每个云扩AI服务免费500次</td>
+    <td>每个云扩AI服务免费2000次</td>
+    <td>每个云扩AI服务免费2000次</td>
+  </tr>
+ <tr>
+    <td>AI服务管理</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td rowspan="4">智能知识库</td>
+    <td>知识库</td>
+    <td>数量：1</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>应用</td>
+    <td>数量：1</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>额度</td>
+    <td>免费调用次数总额度：100</td>
+    <td>免费调用次数总额度：100</td>
+    <td>免费调用次数总额度：100</td>
+  </tr>
+ <tr>
+    <td>管理</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td rowspan="5">数据中心</td>
+    <td>资产管理</td>
+    <td>不支持</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>数据表</td>
+    <td>不支持</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>文件服务</td>
+    <td>不支持</td>
+    <td>数量：100</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>连接管理</td>
+    <td>不支持</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td>数据队列</td>
+    <td>不支持</td>
+    <td>数量：10</td>
+    <td>数量：不限</td>
+  </tr>
+<tr>
+    <td rowspan="6">管理中心</td>
+    <td>组织结构管理</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>角色管理</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>用户管理</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td>审计日志</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td>许可证管理</td>
+    <td>编辑器：1<br>机器人：1</td>
+    <td>编辑器：1<br>机器人：不限</td>
+    <td>不限</td>
+  </tr>
+<tr>
+    <td>系统设置</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+<tr>
+    <td>权限管理</td>
+    <td>权限管理</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td rowspan="7">其他</td>
+    <td rowspan="2">技术支持</td>
+    <td>在线支持</td>
+    <td>社区大群</td>
+    <td>VIP在线技术支持</td>
+    <td>VIP专属技术支持</td>
+  </tr>
+  <tr>
+    <td>现场技术支持</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>产品定制</td>
+    <td>产品定制</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>不支持</td>
+  </tr>
+  <tr>
+    <td>私有化部署</td>
+    <td>私有化部署</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>API集成</td>
+    <td>API集成</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>企微集成</td>
+    <td>企微集成</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>支持</td>
+  </tr>
+  <tr>
+    <td>钉钉集成</td>
+    <td>钉钉集成</td>
+    <td>不支持</td>
+    <td>不支持</td>
+    <td>不支持</td>
   </tr>
 </tbody>
 </table>
