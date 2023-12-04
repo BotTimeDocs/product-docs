@@ -18,9 +18,9 @@
 
 - **控制台登录**：
 
-1. “选择激活方式”窗口单击“登录”，进入账户密码登录窗口，输入已注册的控制台的用户名和密码，单击“登录”。
+1. “选择激活方式”窗口单击“登录”，进入账户密码登录窗口，输入已注册的控制台的用户名和密码，单击“登录”。或者您还可以通过微信、企微扫描二维码的方式进行登录。
 
-    ![登录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/login628.png)
+    ![登录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/编辑器／登录_账号密码登录.png)
 
 2. 选择“公司名称”和“许可证类型”后，单击“激活”，进行授权。
 
@@ -63,4 +63,4 @@
 
 在帮助页面，可修改激活方式。
 
-![更改激活方式](https://docimages.blob.core.chinacloudapi.cn/images/Studio/update628.png)
+![更改激活方式](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Settings/编辑器个人专业版.png)

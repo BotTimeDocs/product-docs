@@ -10,7 +10,7 @@
 >
 >或在登录页面，通过点击页面右下**注册**按钮，进入注册页面。
 
- ![注册](https://docimages.blob.core.chinacloudapi.cn/images/Console/consoleregiste20201204.png)
+ ![注册](https://docimages.blob.core.chinacloudapi.cn/images/Console/登录及注册/注册1.png)
 
 ## 登录
 
@@ -20,11 +20,15 @@
 >
 >或在注册页面，通过点击页面右下**登录**按钮，进入登录页面。
 
-![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelogin20210330.png)
+![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/登录及注册/登录-验证码登录.png)
 
 ### 企业微信登录
 
 使用企业微信登录控制台，一般用于访问ViCode中的“我的应用”，具体可参见[企业微信端访问“我的应用”](../Apps/userApps/userApps.md)。
+
+### 微信登录
+
+您还可以通过使用微信扫描二维码，登录云扩控制台。
 
 ## 忘记密码
 

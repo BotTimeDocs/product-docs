@@ -11,6 +11,34 @@
 
 同一机器人同一时间只能执行一个流程，仅在流程执行结束后，方可执行下一个流程。
 
+<table>
+<thead>
+  <tr>
+    <th colspan="2" rowspan="4"></th>
+    <th>个人免费版</th>
+    <th>个人专业版</th>
+    <th>企业SAAS版</th>
+    <th>企业私有定制版</th>
+     </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">流程库</td>
+    <td>本地执行</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td>支持</td>
+    <td rowspan="2">联系商务</td>
+  </tr>
+  <tr>
+    <td>控制台调度</td>
+    <td>不支持</td>
+    <td>支持</td>
+    <td>支持</td>
+  </tr>
+  </tbody>
+</table>
+
 ## 执行本地流程
 
 1. 在机器人流程库中，打开本地流程库。

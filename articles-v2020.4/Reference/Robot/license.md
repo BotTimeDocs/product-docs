@@ -7,7 +7,7 @@
 - 当你未购买控制台时，通过**许可证激活**。
 
 > **说明**
-> 社区用户，支持账户激活的方式
+> 个人用户，支持账户激活的方式
 > 企业用户，支持账户激活和许可证激活方式，许可证一般为企业级用户采购
 
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot08.png)
@@ -17,15 +17,15 @@
 
 1. 私有化设置，确认机器人连接的控制台环境
 > **说明**
-> 1，若为SaaS控制台，则私有化设置置空即可，默认连接到SaaS控制台环境。</br>
+> 1，若为SaaS控制台，则私有化设置置空即可，默认连接到SaaS控制台环境。<br>
 > 2，若为非SaaS控制台，则需要配置私有化设置，根据设置连接到对应的私有化控制台环境。私有化设置用于识别控制台环境。
 
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console01.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console01.png)<br>
 2. 点击“登录”，输入账户密码或选择第三方登录
-**账户密码**</br>
-![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console02.png)
+**账户密码**<br>
+![robot1](https://docimages.blob.core.chinacloudapi.cn/images/Robot/机器人_登录.png)
 
-**第三方登录**</br>
+**第三方登录**<br>
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console03.png)
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console04.png)
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-console05.png)
@@ -55,6 +55,6 @@
     > 3，机器码会随着硬件的改变而改变，如：重装系统、变更 CPU 的核数。</br>
 
 ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-lic01.png)
-![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot-lic02.png)
+![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/云扩机器人_设置.png)
 
 
