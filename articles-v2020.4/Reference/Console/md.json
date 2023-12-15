@@ -35,7 +35,7 @@
     {
         "id": null,
         "name": "dashboard",
-        "localizedName": "仪表盘（企业版）"
+        "localizedName": "仪表盘"
     },
     {
         "id": null,
@@ -60,12 +60,12 @@
     {
         "id": null,
         "name": "datacentor",
-        "localizedName": "数据中心（企业版）"
+        "localizedName": "数据中心"
     },
     {
         "id": null,
         "name": "management",
-        "localizedName": "管理中心（企业版）"
+        "localizedName": "管理中心"
     },
     {
         "id": null,
