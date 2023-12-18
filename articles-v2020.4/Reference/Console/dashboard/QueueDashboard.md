@@ -2,7 +2,7 @@
 
 机器人组监控，用户可按今日、最近 7 天、最近 30 天或自定义时间段，从多维度对调度队列中机器人、流程任务运行调度情况进行统计监测。
 
-![机器人组监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis3-all1.png)
+![机器人组监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219robotgroup-all.png)
 
 ### 机器人组任务分布
 

@@ -2,7 +2,7 @@
 
 机器人监控，用户可以按今日、最近 7 天、最近 30 天或自定义时间段，从多维度查看机器人运行状况，具体如下图所示。
 
-![机器人监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis2-01.png)
+![机器人监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219robot-all.png)
 
 ### 机器人任务分布
 

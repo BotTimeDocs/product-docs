@@ -2,7 +2,7 @@
 
 用户流程统计表，用户可以查看部门下所有用户的工作情况，例如，创建流程部署数量、创建任务计划数量以及相应的任务的运行情况。默认展示最近 7 天数据，可自由筛选时间段范围内的机器人运行数据。
 
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis4.png)
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219dis3-all.png)
 
 #### 图表
 站在部门下所有用户的视角，统计部门下，指定时间区间内，用户的行为指标情况，并以天为单位，图表的形式呈现。默认统计当前部门，同时也支持[当前部门+包含子部门]的统计方式。

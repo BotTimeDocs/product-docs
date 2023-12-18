@@ -2,7 +2,7 @@
 
 机器人运行统计表，用户可以查看部门下所有机器人的执行任务次数、完成次数、忙碌时长及忙碌比等情况。默认展示最近30天数据，可自由筛选时间段范围内的机器人运行数据。
 
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis4.png)
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219dis2-all.png)
 
 #### 图表
 

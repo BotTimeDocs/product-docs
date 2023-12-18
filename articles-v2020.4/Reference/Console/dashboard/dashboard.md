@@ -2,7 +2,7 @@
 
 总体监控，一般用于提供各类 RPA 数据统计分析功能，展现机器人、流程任务运行及状况，便于快速了解企业 RPA 系统运行现状以及进行各类调度。
 
-![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis1-all.png)
+![dashboard](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219dis1-all.png)
 
 - **流程包数量**：统计在指定时间区间内，当前部门下的用户，发布或上传流程包数量之和。
 
