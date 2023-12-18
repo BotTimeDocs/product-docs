@@ -47,7 +47,7 @@
     <td>Windows</td>
     <td>Windows</td>
     <td>Windows、麒麟、统信等</td>
-    <td rowspan="76">个人版和企业版功能全部支持；<br>支持产品功能定制；<br>私有化部署；<br>VIP专属在线和现场技术支持等。<br><br>详情请<a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系我们</a></td>
+    <td rowspan="78">个人版和企业版功能全部支持；<br>支持产品功能定制；<br>私有化部署；<br>VIP专属在线和现场技术支持等。<br><br>详情请<a href="https://www.encoo.com/contactus" target="_blank" rel="noopener noreferrer">联系我们</a></td>
   </tr>
   <tr>
     <td rowspan="8">内置组件库</td>
