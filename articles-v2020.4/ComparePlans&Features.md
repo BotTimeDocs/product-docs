@@ -251,7 +251,7 @@
     <td>支持</td>
   </tr>
  <tr>
-    <td>PDR会话保持</td>
+    <td>RDP会话保持</td>
     <td>不支持</td>
     <td>支持</td>
     <td>支持</td>
