@@ -2,37 +2,37 @@
     {
         "name": "Sequence.md",
         "localizedName": "序列",
-        "uuid": "55bede38-f49b-4d01-9035-107e3a35a453",
+        "uuid": "",
         "labels": "序列"
     },
     {
         "name": "Flowchart.md",
         "localizedName": "流程图",
-        "uuid": "64aaf6c5-5b86-4b22-bfc2-e988529dbe83",
+        "uuid": "",
         "labels": "流程图"
     },
     {
         "name": "CodeFile.md",
         "localizedName": "脚本",
-        "uuid": "8a4952f5-0fe2-4d9c-a3a1-d0568dc302cd",
+        "uuid": "",
         "labels": "脚本"
     },
     {
         "name": "ErrorHandler.md",
         "localizedName": "异常处理流程",
-        "uuid": "17e7013e-aca2-44e7-92da-ae2879ff6082",
+        "uuid": "",
         "labels": "异常处理流程"
     },
     {
         "name": "CleanUp.md",
         "localizedName": "终止处理流程",
-        "uuid": "934b3872-3116-4078-a6f4-4bf7e28e3637",
+        "uuid": "",
         "labels": "终止处理流程"
     },
     {
         "name": "Parallel.md",
         "localizedName": "并行处理流程",
-        "uuid": "2c3e4c1f-1683-4253-8c6d-31e66ac55ac6",
+        "uuid": "",
         "labels": "并行处理流程"
     }
 ]

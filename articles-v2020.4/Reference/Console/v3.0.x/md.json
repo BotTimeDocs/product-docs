@@ -3,21 +3,21 @@
         "id": null,
         "name": "README.md",
         "localizedName": "关于云扩RPA控制台",
-        "uuid": "6010df12-dbb8-4692-b99f-d48bd7fe7f98",
+        "uuid": "",
         "labels": "云扩, 控制台"
     },
     {
         "id": null,
         "name": "userlogin.md",
         "localizedName": "用户登录",
-        "uuid": "5bdbc7d4-b3de-4b5d-92e0-e2280068a1d4",
+        "uuid": "",
         "labels": "用户, 登录"
     },
     {
         "id": null,
         "name": "homepage.md",
         "localizedName": "首页",
-        "uuid": "8f7fc6f7-3c76-4a6b-96cb-39de9571fd2c",
+        "uuid": "",
         "labels": "首页"
     },
     {
@@ -74,7 +74,7 @@
         "id": null,
         "name": "cancelaccount.md",
         "localizedName": "注销账户",
-        "uuid": "dc6af5dd-49b9-4276-bc56-876e057a30e7",
+        "uuid": "",
         "labels": "账户, 注销"
     }
 ]

@@ -3,56 +3,56 @@
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.AddDictionaryActivity",
         "name": "AddDictionaryActivity.md",
         "localizedName": "添加键值对",
-        "uuid": "33c19bda-06e8-4dbd-89af-0b38753d88fc",
+        "uuid": "",
         "labels": "添加, 键值对"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.InitializeDictionaryActivity",
         "name": "InitializeDictionaryActivity.md",
         "localizedName": "初始化字典",
-        "uuid": "64fd7a1a-187b-44db-8056-32829d39ee6a",
+        "uuid": "",
         "labels": "初始化，字典"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.RemoveKeyValueActivity",
         "name": "RemoveKeyValueActivity.md",
         "localizedName": "移除键值对",
-        "uuid": "3a6e129e-d7a6-4131-93d3-fea716fffe6f",
+        "uuid": "",
         "labels": "移除，键值对"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.ContainsKeyValueActivity",
         "name": "ContainsKeyValueActivity.md",
         "localizedName": "是否包含键或值",
-        "uuid": "432a3035-7931-4d6f-8e2d-154da4d87683",
+        "uuid": "",
         "labels": "是否包含，键，值"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.GetQuantityOfDictionaryActivity",
         "name": "GetQuantityOfDictionaryActivity.md",
         "localizedName": "获取键值对数量",
-        "uuid": "f5a76350-ab70-4156-beba-9681bdb7299f",
+        "uuid": "",
         "labels": "获取，键值对，数量"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.EmptyDictionaryActivity",
         "name": "EmptyDictionaryActivity.md",
         "localizedName": "清空字典",
-        "uuid": "5005763c-e0c6-4e33-8d65-1a54c1287e9b",
+        "uuid": "",
         "labels": "清空，字典"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.PrintDictionaryActivity",
         "name": "print-dictionary.md",
         "localizedName": "打印字典",
-        "uuid": "965b4b54-ffd1-41fd-ae13-8cee3d69ccc2",
+        "uuid": "",
         "labels": "打印字典，字典"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Dictionary.GetDictionaryValueActivity",
         "name": "get-dictionary-value.md",
         "localizedName": "获取值",
-        "uuid": "16cc7d68-2ea8-490a-b4c8-a0ec6d325ff4",
+        "uuid": "",
         "labels": "获取值，字典"
     }
 ]

@@ -7,147 +7,147 @@
     "id": null,
     "name": "browsertab.md",
     "localizedName": "BrowserTab",
-    "uuid": "4b759afe-5282-49a6-8c26-3fcfe12fc4d4",
+    "uuid": "",
     "labels": "browsertab"
   },
   {
     "id": null,
     "name": "activate.md",
     "localizedName": "BrowserTab.activate",
-    "uuid": "d29428ec-9248-4c92-a208-e11f3a234801",
+    "uuid": "",
     "labels": "activate"
   },
   {
     "id": null,
     "name": "close.md",
     "localizedName": "BrowserTab.close",
-    "uuid": "ffa06579-288d-4abb-beda-add9e3e7cb5b",
+    "uuid": "",
     "labels": "close"
   },
   {
     "id": null,
     "name": "find_element_by_css_selector.md",
     "localizedName": "BrowserTab.find_element_by_css_selector",
-    "uuid": "cbf60293-0e9e-4d7b-af97-8893e5d0a138",
+    "uuid": "",
     "labels": "find element by css selector"
   },
   {
     "id": null,
     "name": "find_element_by_xpath.md",
     "localizedName": "BrowserTab.find_element_by_xpath",
-    "uuid": "56ff5cfc-6dff-4471-8bb0-bf1a606bfe68",
+    "uuid": "",
     "labels": "find element by xpath"
   },
   {
     "id": null,
     "name": "find_element.md",
     "localizedName": "BrowserTab.find_element",
-    "uuid": "9138849f-1aad-4f93-b3c7-ce524c812393",
+    "uuid": "",
     "labels": "find element"
   },
   {
     "id": null,
     "name": "find_elements_by_css_selector.md",
     "localizedName": "BrowserTab.find_elements_by_css_selector",
-    "uuid": "c29b23eb-a9bf-4236-bc37-d7d0ed342a43",
+    "uuid": "",
     "labels": "find elements by css selector"
   },
   {
     "id": null,
     "name": "find_elements_by_xpath.md",
     "localizedName": "BrowserTab.find_elements_by_xpath",
-    "uuid": "a84ec978-d6ad-4417-b03c-2476139aa9f6",
+    "uuid": "",
     "labels": "find elements by xpath"
   },
   {
     "id": null,
     "name": "find_elements.md",
     "localizedName": "BrowserTab.find_elements",
-    "uuid": "21f5aeb5-1036-4bbb-8bb9-5812090a8de8",
+    "uuid": "",
     "labels": "find_elements"
   },
   {
     "id": null,
     "name": "goto.md",
     "localizedName": "BrowserTab.goto",
-    "uuid": "be86c399-d6dc-4588-9419-51d3680e3440",
+    "uuid": "",
     "labels": "goto"
   },
   {
     "id": null,
     "name": "is_existing_by_css_selector.md",
     "localizedName": "BrowserTab.is_existing_by_css_selector",
-    "uuid": "712f474f-ee61-4290-8bf7-7f8634ea6796",
+    "uuid": "",
     "labels": "is existing by css selector"
   },
   {
     "id": null,
     "name": "is_existing_by_xpath.md",
     "localizedName": "BrowserTab.is_existing_by_xpath",
-    "uuid": "2f3b1a63-16f7-4792-ac08-e8565eb6cb35",
+    "uuid": "",
     "labels": "is existing by xpath"
   },
   {
     "id": null,
     "name": "is_existing.md",
     "localizedName": "BrowserTab.is_existing",
-    "uuid": "f78f5cc8-fe6f-478e-ab20-9326afa3f40f",
+    "uuid": "",
     "labels": "is existing"
   },
   {
     "id": null,
     "name": "refresh.md",
     "localizedName": "BrowserTab.refresh",
-    "uuid": "6823b931-c87a-40e4-851c-5bc9512ee4c5",
+    "uuid": "",
     "labels": "refresh"
   },
   {
     "id": null,
     "name": "scroll.md",
     "localizedName": "BrowserTab.scroll",
-    "uuid": "4d14f496-1d4a-43e4-b515-dbc113107c50",
+    "uuid": "",
     "labels": "scroll"
   },
   {
     "id": null,
     "name": "wait_appear_by_css_selector.md",
     "localizedName": "BrowserTab.wait_appear_by_css_selector",
-    "uuid": "3611ed7f-d000-44f4-830b-30865874fa30",
+    "uuid": "",
     "labels": "wait appear by css selector"
   },
   {
     "id": null,
     "name": "wait_appear_by_xpath.md",
     "localizedName": "BrowserTab.wait_appear_by_xpath",
-    "uuid": "1f89f2a5-5e10-4e29-ba84-7bd4c3afc838",
+    "uuid": "",
     "labels": "wait appear by xpath"
   },
   {
     "id": null,
     "name": "wait_appear.md",
     "localizedName": "BrowserTab.wait_appear",
-    "uuid": "2b9f8c1e-3a29-4740-8791-2b60ae19d341",
+    "uuid": "",
     "labels": "wait appear"
   },
   {
     "id": null,
     "name": "wait_disappear_by_css_selector.md",
     "localizedName": "BrowserTab.wait_disappear_by_css_selector",
-    "uuid": "8b23b30c-5e63-47df-b24b-593b8f92157b",
+    "uuid": "",
     "labels": "wait disappear by css selector"
   },
   {
     "id": null,
     "name": "wait_disappear_by_xpath.md",
     "localizedName": "BrowserTab.wait_disappear_by_xpath",
-    "uuid": "b919b2e7-869a-4da1-b187-caf2bcbfed8e",
+    "uuid": "",
     "labels": "wait disappear by xpath"
   },
   {
     "id": null,
     "name": "wait_disappear.md",
     "localizedName": "BrowserTab.wait_disappear",
-    "uuid": "59b4e049-f296-40f6-b240-762c97759458",
+    "uuid": "",
     "labels": "wait disappear"
   }
 ]

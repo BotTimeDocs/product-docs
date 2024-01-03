@@ -3,14 +3,14 @@
         "id": null,
         "name": "aboutJob.md",
         "localizedName": "关于任务记录",
-        "uuid": "9a60e6ec-6c25-43a1-8423-a4fc05bf932a",
+        "uuid": "",
         "labels": "任务, 记录"
     },
     {
         "id": null,
         "name": "manageJob.md",
         "localizedName": "查看任务记录",
-        "uuid": "12f3d4bf-a383-43f5-9322-988cf063855e",
+        "uuid": "",
         "labels": "查看, 记录, 任务"
     }
 ]

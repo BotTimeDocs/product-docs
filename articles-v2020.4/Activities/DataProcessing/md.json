@@ -43,28 +43,28 @@
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetPasswordActivity",
         "name": "SetPassword.md",
         "localizedName": "设置密码",
-        "uuid": "2cc94c74-5623-4270-94be-b2dad5c2bcc7",
+        "uuid": "",
         "labels": "设置, 密码"
     },
     {
         "id": "BotTime.ActivityLibrary.Activities.System.Tool.SetDateActivity",
         "name": "SetDateTime.md",
         "localizedName": "设置日期和时间",
-        "uuid": "0fccefc9-5de7-4d35-90fa-af3f46ef194b",
+        "uuid": "",
         "labels": "日期, 设置, 时间"
     },
     {
         "id": "BotTime.Flow.Activities.Assign",
         "name": "Assign.md",
         "localizedName": "赋值",
-        "uuid": "f3357989-015c-4a1b-8087-d1fd90a8511b",
+        "uuid": "",
         "labels": "赋值"
     },
     {
         "id": "BotTime.Flow.Activities.MultipleAssign",
         "name": "MultipleAssign.md",
         "localizedName": "赋值(多个)",
-        "uuid": "216356ac-79a8-4d9c-8907-b5bd24c36a07",
+        "uuid": "",
         "labels": "赋值, 多个"
     }
 ]

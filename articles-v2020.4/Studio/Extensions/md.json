@@ -2,62 +2,62 @@
     {
         "name": "ChromeExtension.md",
         "localizedName": "Chrome扩展",
-        "uuid": "2b67286f-eb39-48ce-8706-f2355167215f",
+        "uuid": "",
         "labels": "Chrome, 扩展"
     },
     {
         "name": "FireFoxExtension.md",
         "localizedName": "FireFox扩展",
-        "uuid": "086c0fb6-e1c2-4487-a22d-7820f7bb0185",
+        "uuid": "",
         "labels": "FireFox, 扩展"
     },
     {
         "name": "JavaExtension.md",
         "localizedName": "Java扩展",
-        "uuid": "8129317e-68e6-4525-b86c-18b1e3fa54f3",
+        "uuid": "",
         "labels": "扩展, Java"
     },
     {
         "name": "360SE.md",
         "localizedName": "360扩展",
-        "uuid": "de1cf2c3-9881-4102-b8af-974284846bf9",
+        "uuid": "",
         "labels": "扩展, 安全, 360, 浏览器"
     },
     {
         "name": "EdgeExtension.md",
         "localizedName": "Microsoft Edge扩展",
-        "uuid": "de87a6c5-b309-478a-811f-fbbcbe3085cc",
+        "uuid": "",
         "labels": "Microsoft, Edge, 扩展"
     },
     {
         "name": "WindowsUnlockService.md",
         "localizedName": "Windows 屏幕解锁服务",
-        "uuid": "ed090e4e-2788-4c56-8494-67fd7e819b43",
+        "uuid": "",
         "labels": "Windows, 解锁, 屏幕"
 
     },
     {
         "name": "Citrix.md",
         "localizedName": "Citrix 扩展（企业版）",
-        "uuid": "92479eaf-bb75-494f-a62c-779ebb0d74f7",
+        "uuid": "",
         "labels": "扩展, Citrix"
     },
     {
         "name": "DB2Extension.md",
         "localizedName": "IBM DB2扩展",
-        "uuid": "0f351027-4d55-4019-a110-a1b2de0cef01",
+        "uuid": "",
         "labels": "IBM, DB2, 扩展"
     },
     {
         "name": "windowsrdpextension.md",
         "localizedName": "Windows远程桌面扩展（企业版）",
-        "uuid": "f156bc0e-fe3e-4af6-a1b7-0d88f0d609af",
+        "uuid": "",
         "labels": "Windows, RDP, 远程桌面，扩展"
     },
     {
         "name": "offlineOCR.md",
         "localizedName": "离线识别",
-        "uuid": "3d499442-eda8-4fb9-8d95-d7d3b0dd3f9f",
+        "uuid": "",
         "labels": "OCR, offline, 离线，扩展"
     }
 ]

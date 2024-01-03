@@ -3,14 +3,14 @@
         "id": null,
         "name": "Aup.md",
         "localizedName": "ENCOO AUP",
-        "uuid": "48f72920-9387-11eb-a8b3-0242ac130003",
+        "uuid": "",
         "labels": "Acceptable Use Policy"
     },
     {
         "id": null,
         "name": "PrivacyDeclaration.md",
         "localizedName": "云扩隐私政策",
-        "uuid": "369ec3c6-9389-11eb-a8b3-0242ac130003",
+        "uuid": "",
         "labels": "Privacy, Declaration"
     }
 ]

@@ -3,28 +3,28 @@
         "id": null,
         "name": "COEOverview.md",
         "localizedName": "自动化卓越中心",
-        "uuid": "53ff2b20-f199-48bc-b46d-31872aa468a4",
+        "uuid": "",
         "labels": "自动化卓越中心，COE"
     },
     {
         "id": null,
         "name": "CreateRequest.md",
         "localizedName": "我发起的",
-        "uuid": "ba908a63-1db0-444e-a94f-725cb0cfcb42",
+        "uuid": "",
         "labels": "自动化卓越中心，COE，我发起的"
     },
     {
         "id": null,
         "name": "ToDoRequests.md",
         "localizedName": "待处理的",
-        "uuid": "cb9c99cb-eec7-45d2-9a43-d3907972d043",
+        "uuid": "",
         "labels": "自动化卓越中心，COE，待处理的"
     },
     {
         "id": null,
         "name": "DataStatistics.md",
         "localizedName": "数据统计",
-        "uuid": "40b2b786-0c6b-494b-8593-3392207d3a6b",
+        "uuid": "",
         "labels": "自动化卓越中心，COE，数据统计"
     }
 ]

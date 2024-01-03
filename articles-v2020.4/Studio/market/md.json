@@ -2,25 +2,25 @@
     {
         "name": "Market.md",
         "localizedName": "关于云扩市场",
-        "uuid": "f1777edd-af4e-4308-94d0-2493bc479ff4",
+        "uuid": "",
         "labels": "市场"
     },
     {
         "name": "activityMarket.md",
         "localizedName": "组件市场",
-        "uuid": "7d9c6072-145b-4cb0-b27b-46184368b390",
+        "uuid": "",
         "labels": "组件, 市场"
     },
     {
         "name": "NuGetMarket.md",
         "localizedName": "代码市场",
-        "uuid": "d5737948-a47f-470a-a59c-aa4a8b851857",
+        "uuid": "",
         "labels": "市场, 代码"
     },
     {
         "name": "processMarket.md",
         "localizedName": "流程模板市场",
-        "uuid": "2404d6c3-5281-49f9-9c10-300417de1dc6",
+        "uuid": "",
         "labels": "市场, 流程"
     }
 ]

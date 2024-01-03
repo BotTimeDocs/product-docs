@@ -3,14 +3,14 @@
         "id": "Encootech.AutomationActivity.CodeTool.InvokeJavaScriptActivityV2",
         "name": "ExecuteJavaScriptCode.md",
         "localizedName": "执行JavaScript代码",
-        "uuid": "ea823025-2653-4288-b6bf-1f78f551e61f",
+        "uuid": "",
         "labels": "JavaScript, 代码"
     },
     {
         "id": "Encootech.AutomationActivity.CodeTool.InvokeJavaScriptFileActivityV2",
         "name": "ExecuteJavaScriptFile.md",
         "localizedName": "执行JavaScript文件",
-        "uuid": "b9fcb153-a16e-4a0c-af61-fb4f6c7a7878",
+        "uuid": "",
         "labels": "JavaScript, 文件"
     }
 ]

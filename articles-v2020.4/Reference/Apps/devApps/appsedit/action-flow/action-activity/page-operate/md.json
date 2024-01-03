@@ -4,28 +4,28 @@
         "id": null,
         "name": "jump-to-new-page.md",
         "localizedName": "跳转到新页面",
-        "uuid": "4bff7bae-3147-443a-b7b9-4d55c071c87e",
+        "uuid": "",
         "labels": "跳转到新页面，ViCode"
     },
     {
         "id": null,
         "name": "jump-to-previous-page.md",
         "localizedName": "跳转到上一页",
-        "uuid": "ec2c29fb-25e5-44fd-b424-d010027f3563",
+        "uuid": "",
         "labels": "跳转到上一页，ViCode"
     },
     {
         "id": null,
         "name": "execute-js.md",
         "localizedName": "执行JS",
-        "uuid": "94ecc5ab-985c-4ed0-8594-3dd808dce9e2",
+        "uuid": "",
         "labels": "执行JS，ViCode"
     },
     {
         "id": null,
         "name": "message-notification.md",
         "localizedName": "消息通知",
-        "uuid": "079ace30-52b4-4edf-a95d-ad6ce95269d1",
+        "uuid": "",
         "labels": "消息通知，ViCode"
     }
 

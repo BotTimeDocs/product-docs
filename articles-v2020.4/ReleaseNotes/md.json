@@ -3,28 +3,28 @@
         "id": null,
         "name": "README.md",
         "localizedName": "关于历史发版说明",
-        "uuid": "3adb9a1c-eead-4735-955b-2775ff56be0c",
+        "uuid": "",
         "labels": "发版, 历史"
     },
     {
         "id": null,
         "name": "ReleaseNotes2020.md",
         "localizedName": "2020年",
-        "uuid": "c7dc811e-21ba-404b-8c45-b710d57a9d33",
+        "uuid": "",
         "labels": "发版, 2020"
     },
     {
         "id": null,
         "name": "ReleaseNotes2021.md",
         "localizedName": "2021年",
-        "uuid": "072610dc-9934-4218-a98d-470681c6fc04",
+        "uuid": "",
         "labels": "发版, 2021"
     },
     {
         "id": null,
         "name": "ReleaseNotes2022.md",
         "localizedName": "2022年",
-        "uuid": "be5c9c1f-9945-7ada-dade-a817b8190e7d",
+        "uuid": "",
         "labels": "发版, 2022"
     }
 ]

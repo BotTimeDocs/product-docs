@@ -3,35 +3,35 @@
         "id": "BotTime.ActivityLibrary.Activities.Assert.ValueCheckActivity",
         "name": "ValueCheck.md",
         "localizedName": "值校验",
-        "uuid": "734e82d5-1ccd-4df3-a255-e4482d35b230",
+        "uuid": "",
         "labels": "校验, 值, 判断"
     },
     {
         "id": "System.Activities.Statements.FlowDecision",
         "name": "Decision.md",
         "localizedName": "流程判断",
-        "uuid": "b7deb2f5-e512-488c-9b29-86a317226e54",
+        "uuid": "",
         "labels": "流程判断, 流程图, 分支"
     },
     {
         "id": "BotTime.Flow.Activities.If",
         "name": "If.md",
         "localizedName": "条件(If)",
-        "uuid": "a6b0cfc4-4aeb-41e8-ab47-04804a3906af",
+        "uuid": "",
         "labels": "条件, If"
     },
     {
         "id": "BotTime.Flow.Activities.ForPro",
         "name": "For.md",
         "localizedName": "重复操作",
-        "uuid": "2f411024-643a-4c96-9cdf-18cf2036621c",
+        "uuid": "",
         "labels": "重复, for, 操作"
     },
     {
         "id": "BotTime.Flow.Activities.While",
         "name": "While.md",
         "localizedName": "循环操作(While)",
-        "uuid": "ddea6f1c-589f-4758-a980-560cb0904b9d",
+        "uuid": "",
         "labels": "循环, While, 操作"
     },
     {

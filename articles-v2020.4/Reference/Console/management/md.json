@@ -3,21 +3,21 @@
         "id": null,
         "name": "organizationalstructure.md",
         "localizedName": "组织架构管理（企业版）",
-        "uuid": "786d5f8e-406c-44b4-833e-c576ac814dec",
+        "uuid": "",
         "labels": "组织架构, 控制台"
     },
     {
         "id": null,
         "name": "rolesmanagement.md",
         "localizedName": "角色管理（企业版）",
-        "uuid": "2b302eae-9c16-4fc2-90a7-ecf49b5937ab",
+        "uuid": "",
         "labels": "角色, 控制台"
     },
     {
         "id": null,
         "name": "usersmanagement.md",
         "localizedName": "用户管理（企业版）",
-        "uuid": "0b889e4f-051b-4679-a4be-0e8ebb057715",
+        "uuid": "",
         "labels": "用户, 控制台"
     },
     {
@@ -34,7 +34,7 @@
         "id": null,
         "name": "syssetting.md",
         "localizedName": "系统设置（企业版）",
-        "uuid": "f28cfe5b-9f50-49fd-b0d8-4505d19b1bd6",
+        "uuid": "",
         "labels": "系统设置, 控制台"
     }
 

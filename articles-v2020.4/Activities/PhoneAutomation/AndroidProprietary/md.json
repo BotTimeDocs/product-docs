@@ -3,28 +3,28 @@
         "id": "Encoo.Automation.MobileActivity.Activities.MobileGetSmsCodeActivity",
         "name": "MobileGetSmsCode.md",
         "localizedName": "获取短信验证码",
-        "uuid": "7ba6f459-4059-4270-bb7e-5ac3f0eee87d",
+        "uuid": "",
         "labels": "获取短信验证码, 移动端"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileCopyFileActivity",
         "name": "copy-file.md",
         "localizedName": "复制手机文件",
-        "uuid": "5116e504-f7a2-4be8-9797-a2b1dbf0a3fe",
+        "uuid": "",
         "labels": "复制手机文件, 移动端"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobilePushFileActivity",
         "name": "push-file.md",
         "localizedName": "推送文件到手机",
-        "uuid": "bd49a74e-1235-4e88-b413-f70a5b2d5803",
+        "uuid": "",
         "labels": "推送文件到手机，移动端"
     },
     {
         "id": "Encoo.Automation.MobileActivity.Activities.MobileFilePathExistsActivity",
         "name": "filepath-exists.md",
         "localizedName": "文件/路径是否存在",
-        "uuid": "e17f7655-fc21-4c9b-8b8d-a0cee3a57b1e",
+        "uuid": "",
         "labels": "文件/路径是否存在，移动端"
     }
 ]

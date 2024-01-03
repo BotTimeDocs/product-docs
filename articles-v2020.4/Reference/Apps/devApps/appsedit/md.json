@@ -3,21 +3,21 @@
         "id": null,
         "name": "devApps.md",
         "localizedName": "应用编辑器概述",
-        "uuid": "9c90aaa3-c179-4b83-b458-d325719a33c8",
+        "uuid": "",
         "labels": "应用开发"
     },
     {
         "id": null,
         "name": "BasicOperation.md",
         "localizedName": "应用基本操作",
-        "uuid": "cdf3e9e9-d2ce-412c-b7bf-f0e9a8e9fc65",
+        "uuid": "",
         "labels": "基本操作"
     },
     {
         "id": null,
         "name": "page",
         "localizedName": "页面",
-        "uuid": "bc4a3f42-d2ab-4610-ba97-1c22d3bb2a0a",
+        "uuid": "",
         "labels": "配置, 资源，页面"
     },
     {
@@ -45,7 +45,7 @@
         "id": null,
         "name": "variable.md",
         "localizedName": "变量管理",
-        "uuid": "1106d4e9-8436-424c-b93c-e74530ff8ef7",
+        "uuid": "",
         "labels": "变量，全局变量"
     }
 ]

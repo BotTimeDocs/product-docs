@@ -8,63 +8,63 @@
         "id": "System.Activities.Statements.Flowchart",
         "name": "Flowchart.md",
         "localizedName": "流程图",
-        "uuid": "06ebeccf-5af5-42f2-8226-03d48453a063",
+        "uuid": "",
         "labels": "流程图"
     },
     {
         "id": "System.Activities.Statements.Sequence",
         "name": "Sequence.md",
         "localizedName": "序列",
-        "uuid": "bb60c573-1c45-4304-adfe-fa700fc92210",
+        "uuid": "",
         "labels": "序列"
     },
     {
         "id": "BotTime.Flow.Activities.Parallel",
         "name": "Parallel.md",
         "localizedName": "并行",
-        "uuid": "7b1d8e9c-1b38-4017-a25d-f369deb644bf",
+        "uuid": "",
         "labels": "并行"
     },
     {
         "id": "BotTime.Flow.Activities.Delay",
         "name": "Delay.md",
         "localizedName": "延迟",
-        "uuid": "74e120e9-1212-4a2b-a134-04644553afec",
+        "uuid": "",
         "labels": "延迟"
     },
     {
         "id": "BotTime.Flow.Activities.Retry",
         "name": "Retry.md",
         "localizedName": "重试",
-        "uuid": "3a5ca6b3-47d9-4e27-b4a0-91abe47b59bb",
+        "uuid": "",
         "labels": "重试"
     },
     {
         "id": "BotTime.Flow.Activities.Throw",
         "name": "Throw.md",
         "localizedName": "抛出异常",
-        "uuid": "5e7a2f51-28b7-4675-84d2-ef9fff67fdb5",
+        "uuid": "",
         "labels": "异常, 抛出"
     },
     {
         "id": "BotTime.Flow.Activities.ReThrow",
         "name": "ReThrow.md",
         "localizedName": "重新抛出异常",
-        "uuid": "e148fedd-8ad2-4db2-ac54-c76a1e15cfa7",
+        "uuid": "",
         "labels": "重新, 异常, 抛出"
     },
     {
         "id": "BotTime.Flow.Activities.InvokeWorkflow",
         "name": "InvokeWorkflow.md",
         "localizedName": "调用子流程",
-        "uuid": "979ab9aa-e5ae-4663-a5af-b8b7c5be7579",
+        "uuid": "",
         "labels": "调用, 流程"
     },
     {
         "id": "BotTime.Flow.Activities.Abort",
         "name": "Abort.md",
         "localizedName": "终止流程",
-        "uuid": "a6d5ad8f-9317-4be4-9c97-b77b919b6af0",
+        "uuid": "",
         "labels": "终止, 流程"
     }
 ]

@@ -10,49 +10,49 @@
         "id": "Encoo.Console.Activity.AcquireAssetsActivity",
         "name": "GetAssets.md",
         "localizedName": "获取资产",
-        "uuid": "a1e8f05f-c662-4b87-aa87-96d67a43d0b8",
+        "uuid": "",
         "labels": "获取, 资产, 数据, 控制台"
     },
     {
         "id": "Encoo.Console.Activity.SetAssetActivity",
         "name": "set-assets.md",
         "localizedName": "设置资产",
-        "uuid": "ec9873a4-5a88-41c7-91ce-b8bddb59538f",
+        "uuid": "",
         "labels": "设置, 资产, 数据, 控制台"
     },
     {
         "id": "Encoo.Console.Activity.FileUploadActivity",
         "name": "FileUploadActivity.md",
         "localizedName": "上传文件",
-        "uuid": "9729842b-6c29-4631-9da8-f7f10ac671e9",
+        "uuid": "",
         "labels": "文件, 上传, 控制台, 文件服务"
     },
     {
         "id": "Encoo.Console.Activity.FileDownloadActivity",
         "name": "FileDownloadActivity.md",
         "localizedName": "下载文件",
-        "uuid": "846221b4-b781-436a-adb1-9e4f84547c65",
+        "uuid": "",
         "labels": "文件, 下载, 控制台, 文件服务"
     },
     {
         "id": "Encoo.Console.Activity.FileDeleteActivity",
         "name": "FileDeleteActivity.md",
         "localizedName": "删除文件或文件夹",
-        "uuid": "cc07bde9-2bda-46a7-9b66-edc7e40a0cf4",
+        "uuid": "",
         "labels": "文件, 文件夹, 删除, 控制台, 文件服务"
     },
     {
         "id": "Encoo.Console.Activity.GetAccountActivity",
         "name": "GetAccount.md",
         "localizedName": "获取帐号",
-        "uuid": "4fb1e3d7-231f-4f5b-abd2-4947493a40b8",
+        "uuid": "",
         "labels": "获取帐号，控制台"
     },
     {
         "id": "Encoo.Console.Activity.ExecuteFlowDeploymentActivity",
         "name": "ExecuteFlowDeployment.md",
         "localizedName": "执行流程部署",
-        "uuid": "1ae7e57f-dd04-47b0-bbac-72308e97c30c",
+        "uuid": "",
         "labels": "执行流程部署，控制台"
     }
 ]

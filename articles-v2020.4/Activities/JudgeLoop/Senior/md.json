@@ -3,49 +3,49 @@
         "id": "Encootech.AutomationActivity.PropertyCheckActivity",
         "name": "AttributeCheck.md",
         "localizedName": "属性校验",
-        "uuid": "74f8deb5-0a0b-4cfd-ad26-5ddfefdcdd89",
+        "uuid": "",
         "labels": "属性, 校验, 判断"
     },
     {
         "id": "BotTime.Flow.Activities.DoWhile",
         "name": "DoWhile.md",
         "localizedName": "循环操作(Do While)",
-        "uuid": "09887bbb-d353-4f6f-96fe-ccee9382daf1",
+        "uuid": "",
         "labels": "循环, While, 操作, Do"
     },
     {
         "id": "BotTime.Flow.Activities.ForEach",
         "name": "ForEach.md",
         "localizedName": "循环操作(For Each)",
-        "uuid": "fa55282c-def5-4639-a36e-157189b60df7",
+        "uuid": "",
         "labels": "循环, Each, For, 遍历"
     },
     {
         "id": "BotTime.Flow.Activities.Continue",
         "name": "Continue.md",
         "localizedName": "继续循环",
-        "uuid": "8e8df4a6-e3d4-463b-bbc7-d5761975f836",
+        "uuid": "",
         "labels": "继续, 循环, Continue"
     },
     {
         "id": "BotTime.Flow.Activities.Break",
         "name": "Break.md",
         "localizedName": "终止循环",
-        "uuid": "348a8aec-e52a-4df0-888b-f3bf62cf1448",
+        "uuid": "",
         "labels": "终止, 循环, Break"
     },
     {
         "id": "BotTime.Flow.Activities.TryCatch",
         "name": "TryCatch.md",
         "localizedName": "错误捕捉(Try Catch)",
-        "uuid": "48b2d381-2ebc-4611-85eb-5b6ea87ae5aa",
+        "uuid": "",
         "labels": "Catch, Try, 捕捉, 错误"
     },
     {
         "id": "BotTime.Flow.Activities.Switch",
         "name": "Switch.md",
         "localizedName": "条件(Switch)",
-        "uuid": "9f9a6862-9eaf-4924-a9cc-3524ba585e64",
+        "uuid": "",
         "labels": "条件, Switch"
     }
 ]

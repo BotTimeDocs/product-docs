@@ -3,21 +3,21 @@
         "id": null,
         "name": "aboutqueue.md",
         "localizedName": "关于调度队列",
-        "uuid": "11b9c0f0-6b0a-4dd8-969e-f54dd96c896a",
+        "uuid": "",
         "labels": "调度, 队列"
     },
     {
         "id": null,
         "name": "managequeue.md",
         "localizedName": "管理调度队列",
-        "uuid": "77ff646c-ae2c-479b-817b-cb4f2473c802",
+        "uuid": "",
         "labels": "调度队列, 查看, 队列"
     },
     {
         "id": null,
         "name": "queuejob.md",
         "localizedName": "查看调度队列任务",
-        "uuid": "b200f47d-9574-4028-a479-f3f9201f3f7d",
+        "uuid": "",
         "labels": "调度队列, 查看, 队列, 任务"
     }
 ]

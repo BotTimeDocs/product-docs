@@ -3,35 +3,35 @@
         "id": null,
         "name": "container.md",
         "localizedName": "容器",
-        "uuid": "e2177e68-1e8c-4d22-a53d-f6087bc0d022",
+        "uuid": "",
         "labels": "容器, 布局组件"
     },
     {
         "id": null,
         "name": "containerlayout.md",
         "localizedName": "分栏",
-        "uuid": "cd398eb7-113d-4daf-9179-a53872ebd519",
+        "uuid": "",
         "labels": "分栏, 布局组件"
     },
     {
         "id": null,
         "name": "tabs.md",
         "localizedName": "选项卡",
-        "uuid": "39bc3427-ff89-4538-bca7-aab532a74530",
+        "uuid": "",
         "labels": "选项卡, 布局组件"
     },
     {
         "id": null,
         "name": "panel.md",
         "localizedName": "面板",
-        "uuid": "39bc3427-ff89-4538-bca7-aab532a74530",
+        "uuid": "",
         "labels": "面板, 布局组件"
     },
     {
         "id": null,
         "name": "collapse.md",
         "localizedName": "折叠面板",
-        "uuid": "39bc3427-ff89-4538-bca7-aab532a74530",
+        "uuid": "",
         "labels": "折叠面板, 布局组件"
     }
 ]

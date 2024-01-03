@@ -2,55 +2,55 @@
     {
         "name": "RunAlone.md",
         "localizedName": "如何让流程在独立桌面中运行",
-        "uuid": "77b8684e-98a6-4869-8f39-d493261e8fe9",
+        "uuid": "",
         "labels": "独立桌面"
     },
     {
         "name": "RDPmini.md",
         "localizedName": "如何在远程桌面最小化时运行流程",
-        "uuid": "22b95ad8-7096-4a01-b117-69630462549a",
+        "uuid": "",
         "labels": "RDP，远程桌面"
     },    
     {
         "name": "GetAndroidSMSCode.md",
         "localizedName": "安卓手机获取短信验证码",
-        "uuid": "17f29a0a-44f9-4499-b3ee-7992d5dbc22f",
+        "uuid": "",
         "labels": "短信验证码，安卓"
     },
     {
         "name": "RobotLog.md",
         "localizedName": "如何查看机器人的日志",
-        "uuid": "4c8a0db2-a293-427d-9136-c6b1b8a27705",
+        "uuid": "",
         "labels": "机器人日志"
     },
     {
         "name": "wechat-to-console.md",
         "localizedName": "将企业微信组织架构同步至控制台",
-        "uuid": "4fd1feed-e8d5-4982-a988-28ce2d176760",
+        "uuid": "",
         "labels": "企业微信，组织架构，控制台"
     },
     {
         "name": "rpa-and-vicode.md",
         "localizedName": "使用 ViCode 运行并展示 RPA 流程结果",
-        "uuid": "b06fe832-b1a1-447e-9f28-bd4a9df9b986",
+        "uuid": "",
         "labels": "RPA，ViCode"
     },
     {
         "name": "offline-use-activitymarket.md",
         "localizedName": "离线使用组件市场中的组件",
-        "uuid": "e6870ddb-2bee-427e-bf93-7f39c0288080",
+        "uuid": "",
         "labels": "离线，无网络，组件市场"
     },
     {
         "name": "offline-install-dbextension.md",
         "localizedName": "离线安装 IBM DB2 扩展",
-        "uuid": "e2accc71-0ff3-4241-b7f4-b39101693ca6",
+        "uuid": "",
         "labels": "离线，无网络，IBM DB2"
     },
     {
         "name": "workflow-activity.md",
         "localizedName": "如何将流程发布成组件",
-        "uuid": "1b1ab067-7487-4efe-b35a-5dfdc6638847",
+        "uuid": "",
         "labels": "组件项目，本地组件市场，组件"
     }    
     

@@ -3,84 +3,84 @@
         "id": null,
         "name": "Button.md",
         "localizedName": "按钮",
-        "uuid": "81c791e2-f011-4e32-8919-1a764207ee5e",
+        "uuid": "",
         "labels": "按钮, 输入组件"
     },
     {
         "id": null,
         "name": "TextBox.md",
         "localizedName": "文本输入框",
-        "uuid": "1c107bf1-bb6b-48da-9fed-6255158a6e9b",
+        "uuid": "",
         "labels": "文本输入框, 输入组件"
     },
     {
         "id": null,
         "name": "textarea.md",
         "localizedName": "多行输入框",
-        "uuid": "7322e175-7c18-4c2e-9d97-19651a956ffb",
+        "uuid": "",
         "labels": "多行输入框, 输入组件"
     },
     {
         "id": null,
         "name": "NumberBox.md",
         "localizedName": "数字输入框",
-        "uuid": "40b58b6c-b65e-4b0f-9a45-07df77084c08",
+        "uuid": "",
         "labels": "数字输入框, 输入组件"
     },
     {
         "id": null,
         "name": "passwordinput.md",
         "localizedName": "密码输入框",
-        "uuid": "8952f05f-afe9-4b50-9659-087641f264ce",
+        "uuid": "",
         "labels": "密码输入框, 输入组件"
     },
     {
         "id": null,
         "name": "radiogroup.md",
         "localizedName": "单选",
-        "uuid": "de16e238-fd5a-43ef-bfcf-539db81a97ec",
+        "uuid": "",
         "labels": "单选, 输入组件"
     },
     {
         "id": null,
         "name": "CheckBox.md",
         "localizedName": "多选",
-        "uuid": "6027e0d3-b9d6-4b1f-a443-85ef4bdc3159",
+        "uuid": "",
         "labels": "多选, 输入组件"
     },
     {
         "id": null,
         "name": "Selector.md",
         "localizedName": "选择器",
-        "uuid": "2ffc6dc5-88b5-4773-875e-7709b8c38eb6",
+        "uuid": "",
         "labels": "选择器, 输入组件"
     },
     {
         "id": null,
         "name": "TimePickerDialog.md",
         "localizedName": "时间选择器",
-        "uuid": "1c56ed3b-fb87-4a71-bd36-f53b27fe006e",
+        "uuid": "",
         "labels": "时间选择器, 输入组件"
     },
     {
         "id": null,
         "name": "DatePickerDialog.md",
         "localizedName": "日期选择器",
-        "uuid": "a511bcc3-2f92-46ec-b87d-f60588630564",
+        "uuid": "",
         "labels": "日期选择器, 输入组件"
     },
     {
         "id": null,
         "name": "datarange.md",
         "localizedName": "日期范围选择",
-        "uuid": "a511bcc3-2f92-46ec-b87d-f60588630564",
+        "uuid": "",
         "labels": "日期范围选择, 输入组件"
     },
     {
         "id": null,
         "name": "Switch.md",
         "localizedName": "开关",
-        "uuid": "7e345393-8164-45b6-80a2-90f34f802361",
+        "uuid": "",
         "labels": "开关, 输入组件"
     }
 ]

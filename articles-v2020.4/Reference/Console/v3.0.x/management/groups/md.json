@@ -2,19 +2,19 @@
     {
         "name": "aboutGroups.md",
         "localizedName": "关于资源组",
-        "uuid": "4a5814c6-893c-427c-9769-1c55a16340a9",
+        "uuid": "",
         "labels": "资源组, 管理"
     },
     {
         "name": "managegroup.md",
         "localizedName": "管理资源组",
-        "uuid": "d4672197-26ba-4d74-811a-1e0751169fdc",
+        "uuid": "",
         "labels": "资源组, 管理"
     },
     {
         "name": "useringroup.md",
         "localizedName": "管理资源组用户",
-        "uuid": "4cb67c72-3e4a-4ba7-b48f-888961b85800",
+        "uuid": "",
         "labels": "资源组, 用户, 管理"
     }
 ]

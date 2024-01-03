@@ -3,21 +3,21 @@
         "id": null,
         "name": "README.md",
         "localizedName": "关于云扩Spark",
-        "uuid": "12477629-f733-4623-8ffd-903225841db7",
+        "uuid": "",
         "labels": "云扩Spark"
     },
     {
         "id": null,
         "name": "user-interface.md",
         "localizedName": "用户界面",
-        "uuid": "15f5f906-82cd-4664-89b7-5410934b5bbb",
+        "uuid": "",
         "labels": "用户界面"
     },
     {
         "id": null,
         "name": "quick-start.md",
         "localizedName": "Spark快速入门",
-        "uuid": "e272e5cb-3e5c-4e0a-accb-b07537137b03",
+        "uuid": "",
         "labels": "Spark，快速入门"
     }
 ]

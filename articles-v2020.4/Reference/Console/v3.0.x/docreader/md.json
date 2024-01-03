@@ -3,14 +3,14 @@
         "id": null,
         "name": "aboutDocreader.md",
         "localizedName": "关于文档理解",
-        "uuid": "bffa45f3-8e79-4c95-bdc2-72d8eab24673",
+        "uuid": "",
         "labels": "文档理解"
     },
     {
         "id": null,
         "name": "manageDocreader.md",
         "localizedName": "管理文档理解模板",
-        "uuid": "b6bb5c88-d1a1-40da-9d5f-cf8a5e8d0a5c",
+        "uuid": "",
         "labels": "文档理解, 管理, 模板"
     }
 ]

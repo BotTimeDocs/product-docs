@@ -2,55 +2,55 @@
     {
         "name": "ChromeExtension.md",
         "localizedName": "Chrome扩展",
-        "uuid": "f63640f7-3a81-46b9-ae53-2ff15e2bc1b8",
+        "uuid": "",
         "labels": "Chrome, 扩展"
     },
     {
         "name": "FirefoxExtension.md",
         "localizedName": "Firefox扩展",
-        "uuid": "f530405b-5827-4d50-903b-90710d08eb48",
+        "uuid": "",
         "labels": "FireFox, 扩展"
     },
     {
         "name": "JavaExtension.md",
         "localizedName": "Java扩展",
-        "uuid": "576624f6-e22b-46ca-8f0f-d65fa215ec06",
+        "uuid": "",
         "labels": "Java, 扩展"
     },
     {
         "name": "360SE.md",
         "localizedName": "360安全浏览器扩展",
-        "uuid": "bb284b19-580e-4907-900f-199449ca16c0",
+        "uuid": "",
         "labels": "扩展, 360, 安全浏览器"
     },
     {
         "name": "WindowsUnlockService.md",
         "localizedName": "Windows 屏幕解锁服务",
-        "uuid": "5317e71d-da30-49f0-b84f-18f018b974db",
+        "uuid": "",
         "labels": "Windows, 解锁, 屏幕"
     },
     {
         "name": "DB2Extension.md",
         "localizedName": "IBM DB2扩展",
-        "uuid": "c9d43f8d-9e74-43c8-9fc8-247fdc4c146a",
+        "uuid": "",
         "labels": "IBM, DB2, 扩展"
     },
     {
         "name": "Citrix.md",
         "localizedName": "Citrix 扩展（企业版）",
-        "uuid": "fa9c2588-0188-417f-8bbe-0c16c772d1c5",
+        "uuid": "",
         "labels": "扩展, Citrix"
     },
     {
         "name": "windowsrdpextension.md",
         "localizedName": "Windows远程桌面扩展（企业版）",
-        "uuid": "b9a0f88a-5b81-44b0-bcab-b4853e20e185",
+        "uuid": "",
         "labels": "Windows, RDP, 远程桌面，扩展"
     },
     {
         "name": "offlineOCR.md",
         "localizedName": "离线识别",
-        "uuid": "91430b05-dfdc-467a-9fe8-d2af32fad081",
+        "uuid": "",
         "labels": "OCR, 离线识别，扩展"
     }
 

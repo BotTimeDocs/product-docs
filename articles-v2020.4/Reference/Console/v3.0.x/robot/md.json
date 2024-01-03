@@ -3,14 +3,14 @@
         "id": null,
         "name": "aboutRobot.md",
         "localizedName": "关于机器人",
-        "uuid": "9067a61a-c1d7-4401-a01e-141691267e1b",
+        "uuid": "",
         "labels": "机器人, 管理"
     },
     {
         "id": null,
         "name": "manageRobot.md",
         "localizedName": "管理机器人",
-        "uuid": "d06d7833-0b99-4f92-88b4-1709f22e1c98",
+        "uuid": "",
         "labels": "机器人, 查看, 列表"
     }
 ]

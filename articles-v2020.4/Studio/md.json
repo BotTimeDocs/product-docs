@@ -2,7 +2,7 @@
     {
         "name": "README.md",
         "localizedName": "关于云扩RPA编辑器",
-        "uuid": "bbb7017f-4558-4729-aee4-a7e8aa78764a",
+        "uuid": "",
         "labels": "编辑器介绍"
     },
     {
@@ -20,7 +20,7 @@
     {
         "name": "VersionControl.md",
         "localizedName": "版本控制",
-        "uuid": "3b7e4427-2af2-48bf-9c06-3f5d4c412eb3",
+        "uuid": "",
         "labels": "版本控制"
     },
     {

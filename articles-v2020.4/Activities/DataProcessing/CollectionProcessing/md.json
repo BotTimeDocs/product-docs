@@ -3,42 +3,42 @@
         "id": "Encoo.CodeTool.Activity.Activities.Collection.ExistsInCollectionActivity",
         "name": "ExistsInCollectionActivity.md",
         "localizedName": "对象是否存在",
-        "uuid": "9b6bac97-cca2-421d-befa-7d4ac52051ea",
+        "uuid": "",
         "labels": "存在, 对象, 集合"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Collection.AddToCollectionActivity",
         "name": "AddToCollectionActivity.md",
         "localizedName": "添加对象",
-        "uuid": "ec2eddfa-7bc9-4875-8899-fb93f254fc86",
+        "uuid": "",
         "labels": "添加, 对象, 集合"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Collection.ClearCollectionActivity",
         "name": "ClearCollectionActivity.md",
         "localizedName": "清空集合",
-        "uuid": "c1dc4f6f-c442-4e40-9875-7b04d6e53f37",
+        "uuid": "",
         "labels": "对象, 清空, 集合"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Collection.RemoveFromCollectionActivity",
         "name": "RemoveFromCollectionActivity.md",
         "localizedName": "移除对象",
-        "uuid": "cf662bdc-bc2b-44c9-973d-0beeb6444c3c",
+        "uuid": "",
         "labels": "对象, 移除, 集合"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Collection.GetLengthOfCollectionActivity",
         "name": "GetLengthOfCollectionActivity.md",
         "localizedName": "获取集合长度",
-        "uuid": "b2843d36-e4ec-49bb-8d8c-650aea8ce830",
+        "uuid": "",
         "labels": "长度, 集合"
     },
     {
         "id": "Encoo.CodeTool.Activity.Activities.Collection.InitializeCollectionActivity",
         "name": "InitializeCollectionActivity.md",
         "localizedName": "初始化集合",
-        "uuid": "f58f802e-fd73-40ac-a83b-ec968bd0e960",
+        "uuid": "",
         "labels": "初始化, 集合"
     }
 ]
