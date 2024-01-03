@@ -2,6 +2,18 @@
 
 <br>
 
+#### Q：流程的参数的默认值中带有c#语句逻辑的场景下，创建为流程部署后，默认参数无法被正确运算
+
+<img width="400" src="https://docimages.blob.core.chinacloudapi.cn/images/Console/240103_faq4_0032_1.png"/>
+
+<br>
+
+<font color=5a6877>
+<br><br>
+
+**【解决办法-A5_00032】**: 流程的参数的默认值在被创建为流程部署时，会被当作字符串填充处理。在流程部署中，点击编辑后删除默认值内容，运行时，即会使用流程包内的正确默认值。
+
+</font>
 <br>
 
 #### Q：编辑器卡顿，偶尔报错：out of memory
