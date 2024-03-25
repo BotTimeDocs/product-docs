@@ -247,7 +247,7 @@
 
 **【解决办法-A5_00017】**:
 
-确认好配置对应[SAP自动化配置步骤_rz11权限](https://academy.encoo.com/wiki/Activities/SAP/SAP%20Configuration.md?uuid=087d07a5-2a4d-5d5b-9622-53fefb2f74e7)并确认编辑器权限要跟SAP保持一致
+确认好配置对应[SAP自动化配置步骤_rz11权限](https://academy.encoo.com/wiki/Activities/SAP/SAP%20Configuration.md)并确认编辑器权限要跟SAP保持一致
 
 <img width = '400'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/08/29/16617462104801.jpg"/>
 
@@ -377,7 +377,7 @@
 如果是想要把外部变量，在子流程中调用就写输入；
 如果是想要外部变量输入进去，再里面更新又反馈出来，就改成输入/输出。
 
-跟 python的class继承类似，具体查看文档[《使用参数》](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/UseArguments.md?uuid=a5e38ade-2d9a-4409-babb-46fa26fd86aa)
+跟 python的class继承类似，具体查看文档[《使用参数》](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/UseArguments.md)
 
 </font>
 <br><br>
@@ -411,10 +411,10 @@ https://blog.csdn.net/banzhenfei/article/details/114010195?ops_request_misc=%257
 <font color=5a6877> 【解决办法A5_00001】: 
 
 至2022年7月 新版本发布
-7月新版本编辑器，合并了组件项目及前期引用项目的用法，通过创建一个组件项目，并将其发布到组件市场，在其他项目中进行使用(而不是仅限于单个项目引用) ，具体详见文档：[《创建组件项目》](https://academy.encoo.com/zh-cn/wiki/Studio/process/CreateProject/CreateLibrary.md?uuid=4f2d5853-ffb5-45e0-85e2-4decc0dd15d7)
+7月新版本编辑器，合并了组件项目及前期引用项目的用法，通过创建一个组件项目，并将其发布到组件市场，在其他项目中进行使用(而不是仅限于单个项目引用) ，具体详见文档：[《创建组件项目》](https://academy.encoo.com/zh-cn/wiki/Studio/process/CreateProject/CreateLibrary.md)
 
 
-如何将流程发布成组件 可以看文档：[《如何将流程发布成组件》](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?_v=v2020.4&uuid=1b1ab067-7487-4efe-b35a-5dfdc6638847)
+如何将流程发布成组件 可以看文档：[《如何将流程发布成组件》](https://academy.encoo.com/zh-cn/wiki/BestPractices/workflow-activity.md?_v=v2020.4)
 
 2022年7月之后的版本 界面上目前不支持，已开发的流程 若想要引用，具体操作步骤可见文档：[《【技术方案】(旧版本创建好的流程项目) "引用项目"在 2206.10之后的编辑器使用》](https://c9vrjkv7og.feishu.cn/docx/doxcnd7y9aDxQNC9RI2Uzxj78Wg)
 

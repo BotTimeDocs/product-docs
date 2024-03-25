@@ -21,7 +21,7 @@
 
 -   已有京东账号（本节课程将使用用户名+密码的方式登录京东并抓取数据，开始前请确保已有账号）
     
--   [安装最新版云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/Installation.md?uuid=b99286da-9595-4c22-9355-f59b1d179c82)
+-   [安装最新版云扩RPA编辑器](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/Installation.md)
     
 
 ## 编写自动化流程

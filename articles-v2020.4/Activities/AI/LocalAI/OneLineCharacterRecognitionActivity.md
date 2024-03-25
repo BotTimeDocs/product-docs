@@ -6,7 +6,7 @@
 
 > **说明:**
 >
-> 本组件需依赖“离线识别”扩展，并配置许可证才能正确运行，具体参见 [离线识别](https://academy.encoo.com/wiki/Studio/Extensions/offlineOCR.md?uuid=3d499442-eda8-4fb9-8d95-d7d3b0dd3f9f)。
+> 本组件需依赖“离线识别”扩展，并配置许可证才能正确运行，具体参见 [离线识别](https://academy.encoo.com/wiki/Studio/Extensions/offlineOCR.md)。
 
 ## 属性
 

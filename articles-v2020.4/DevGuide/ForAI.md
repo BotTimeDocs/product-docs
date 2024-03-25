@@ -42,19 +42,19 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 ![AI02](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI02.png)
 
-例如：使用[增值税发票识别](https://academy.encoo.com/zh-cn/wiki/Activities/AI/VATInvoiceIdentification.md?uuid=74dd7758-9a7e-4385-b728-8fa5f83be05a)组件对发票进行OCR识别
+例如：使用[增值税发票识别](https://academy.encoo.com/zh-cn/wiki/Activities/AI/VATInvoiceIdentification.md)组件对发票进行OCR识别
 
 <br/>
 
 ![AI03](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI03.gif)
 
-更多OCR服务快速试用请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/OCR.md?uuid=a6401df9-a6a0-4508-807a-1c27f5f85707)。
+更多OCR服务快速试用请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/OCR.md)。
 
 另外，云扩也提供了使用图像识别技术自动识别界面元素，具体详见[自动化原理](https://academy.encoo.com/zh-cn/wiki/DevGuide/AutomationPrinciples.md)专题。
 
 ## 四、自定义AI模型
 
-云扩自研[文档理解](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/aboutdocreader.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)技术可通过简单的框选标记，快速定制文档理解模型，让机器人具备文档理解能力，实现文档处理自动化。
+云扩自研[文档理解](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/aboutdocreader.md)技术可通过简单的框选标记，快速定制文档理解模型，让机器人具备文档理解能力，实现文档处理自动化。
 
 - 您可以自定义上传图片，PDF 等格式模板文件，通过框选方式确定需要拖动的文本区域来快速配置模板。
 - 您可以根据需要选择适合的内置模型进行模板配置，并使用通用的 OCR 识别、表格 OCR 识别、电子版 PDF 票据证照等多种模型。
@@ -64,7 +64,7 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 ![AI04](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI04.png)
 
-具体文档理解技术使用方法，请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/aboutdocreader.md?uuid=3d1c7c2d-857e-4791-b738-9ff9455d85bd)。
+具体文档理解技术使用方法，请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/aboutdocreader.md)。
 
 ## 五、管理AI服务
 

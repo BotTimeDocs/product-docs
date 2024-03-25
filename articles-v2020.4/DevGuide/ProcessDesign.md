@@ -59,7 +59,7 @@
 
 ### 1.3 什么是状态机？
 
-接下来我们聊聊**状态机**，当一个业务中按同一种逻辑操作后，结果包含两个以上的状态或者多个业务分支情况时，通常用状态机来实现（状态机的具体使用方法可参考[状态机](https://academy.encoo.com/wiki/Activities/WorkflowControl/StateMachine/StateMachine.md?uuid=9ffda030-b74b-4d4f-8bdb-ce5ec251bd07)）,当然我们也可以用流程图及流程决策等组件多次判断来开发流程，但这从实现方式及实现后的流程显示方面要比使用状态机复杂且麻烦。
+接下来我们聊聊**状态机**，当一个业务中按同一种逻辑操作后，结果包含两个以上的状态或者多个业务分支情况时，通常用状态机来实现（状态机的具体使用方法可参考[状态机](https://academy.encoo.com/wiki/Activities/WorkflowControl/StateMachine/StateMachine.md)）,当然我们也可以用流程图及流程决策等组件多次判断来开发流程，但这从实现方式及实现后的流程显示方面要比使用状态机复杂且麻烦。
 
 <br>
 
@@ -154,19 +154,19 @@
 
 <br>
 
-- 存入文件服务方式流程设计：用“上传文件”组件：（组件具体用法可参考文档[《上传文件》](https://academy.encoo.com/wiki/Activities/Console/FileUploadActivity.md?uuid=9729842b-6c29-4631-9da8-f7f10ac671e9)
+- 存入文件服务方式流程设计：用“上传文件”组件：（组件具体用法可参考文档[《上传文件》](https://academy.encoo.com/wiki/Activities/Console/FileUploadActivity.md)
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide12.jpg"/>
 
 <br><br>
 
-- 存入本地Excel方式流程设计：用组件“打开/新建“、”写入区域“等（组件具体用法可参考[《写入区域》](https://academy.encoo.com/wiki/Activities/AppAutomation/OfficeExcel/WriteRange.md?uuid=967a43d8-af97-482b-ac04-610fe81511f2))
+- 存入本地Excel方式流程设计：用组件“打开/新建“、”写入区域“等（组件具体用法可参考[《写入区域》](https://academy.encoo.com/wiki/Activities/AppAutomation/OfficeExcel/WriteRange.md))
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide13.jpg"/>
 
 <br><br>
 
-- 存入数据库方式流程设计：用组件”连接数据库“、”执行语句“、”插入语句“等（组件具体用法可参考[连接数据库](https://academy.encoo.com/wiki/Activities/Database/ConnectDatabase.md?uuid=15796251-0ca5-4e33-ba9a-d5ccd5a9752b))
+- 存入数据库方式流程设计：用组件”连接数据库“、”执行语句“、”插入语句“等（组件具体用法可参考[连接数据库](https://academy.encoo.com/wiki/Activities/Database/ConnectDatabase.md))
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide14.jpg"/>
 
@@ -190,11 +190,11 @@
 
 （2）使用控制台”资产管理“功能进行加密，操作步骤如下：
 
-第1步、从编辑器发布流程至控制台（具体操作方式可参考：[发布自动化项目](https://academy.encoo.com/zh-cn/wiki/Studio/process/PublishProject.md?uuid=6c8d9220-3c6b-4597-ae3a-4f0b1d47fa16)）
+第1步、从编辑器发布流程至控制台（具体操作方式可参考：[发布自动化项目](https://academy.encoo.com/zh-cn/wiki/Studio/process/PublishProject.md)）
  
-第2步、新建资产(具体操作方式可参考:[管理资产](https://academy.encoo.com/zh-cn/wiki/Console/v3.0.x/datacentor/asset/manageAsset.md?uuid=495cb5c0-d2dd-4fbb-a30a-344de946d855))
+第2步、新建资产(具体操作方式可参考:[管理资产](https://academy.encoo.com/zh-cn/wiki/Console/v3.0.x/datacentor/asset/manageAsset.md))
 
-第3步、流程部署（具体操作方式可参考：[流程部署](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/workflow/manageworkflow.md?uuid=7d5482f3-ccac-4283-9900-64040030a346))
+第3步、流程部署（具体操作方式可参考：[流程部署](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/workflow/manageworkflow.md))
 
 <br><br>
 

@@ -34,7 +34,7 @@
 <font color=5a6877>
 <br>
 
-**【解决办法--AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
+**【解决办法--AA0003】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接[Chrome 扩展](https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md)
 (若排除以上情况之后，可具体查看下方“打开浏览器失败”的异常排错思路办法)
 
 </font>
@@ -183,7 +183,7 @@
 <font color=5a6877>
 <br>
 
-**【解决办法--AA0010】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接：[Chrome 扩展](https://academy.encoo.com/wiki/Studio/Extensions/ChromeExtension.md?uuid=2b67286f-eb39-48ce-8706-f2355167215f)
+**【解决办法--AA0010】**：一般情况下 ，首先请确认是否安装了对应的浏览器插件并启用 ，具体参考链接：[Chrome 扩展](https://academy.encoo.com/wiki/Studio/Extensions/ChromeExtension.md)
 
 </font>
 <br><br>

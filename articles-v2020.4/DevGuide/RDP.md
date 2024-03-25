@@ -19,7 +19,7 @@
 ## 二、(使用前)安装准备工作
 
 ### （1）安装Windows远程桌面扩展
-远程桌面支持的系统版本与编辑器一致，推荐使用Windows 10，详情可见[软硬件要求](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)
+远程桌面支持的系统版本与编辑器一致，推荐使用Windows 10，详情可见[软硬件要求](https://academy.encoo.com/zh-cn/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md)
 </br>
 
 **第一步：** 在确认系统支持后，需要在编辑器所在的本地PC安装远程桌面扩展，安装前先退出本地所有的远程桌面连接，之后进入 开始->工具->点击“Windows远程桌面扩展”：

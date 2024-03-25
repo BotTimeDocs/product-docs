@@ -29,4 +29,4 @@
 
     ![结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/result20210916.png)
 
-> 需要在单个流程中并行任务的请参考组件：[并行](https://academy.encoo.com/wiki/Activities/WorkflowControl/Parallel.md?uuid=7b1d8e9c-1b38-4017-a25d-f369deb644bf)
+> 需要在单个流程中并行任务的请参考组件：[并行](https://academy.encoo.com/wiki/Activities/WorkflowControl/Parallel.md)

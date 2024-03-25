@@ -58,7 +58,7 @@ RPA项目的工程文件主要包括XAML（流程文件）、Json（配置文件
 
 - 在子流程文件中的参数列表需要与调用子流程组件设置的参数对应，以接收主流程传递的参数。
 
-- 同理，主流程在接收子流程返回值时，也需要在变量列表中定义变量接收子流程返回的参数并映射到主流程的变量中。具体调用示例可见[《使用参数》-子流程调用参数填写示例](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/UseArguments.md?uuid=a5e38ade-2d9a-4409-babb-46fa26fd86aa)
+- 同理，主流程在接收子流程返回值时，也需要在变量列表中定义变量接收子流程返回的参数并映射到主流程的变量中。具体调用示例可见[《使用参数》-子流程调用参数填写示例](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Arguments/UseArguments.md)
 
 
 
@@ -131,7 +131,7 @@ RPA流程因其代替人工操作的特点，影响运行稳定性的因素较�
 此时往往需要通过一些机制保证多流程之间的通知机制和数据传递，以实现多流程协作。<br><br>
 
 最主要的实现形式主要有以下两种：<br>
-1. 利用控制台的[数据队列](https://academy.encoo.com/wiki/Activities/DevService/Queue/add-message.md?uuid=27867a4a-fab9-4fe5-ba1b-8552850dfde8)功能，将获取数据和后续业务处理从流程上解耦，以生产者-消费者方式对RPA流程进行切分。这类场景适合获取数据简单但后续业务流程执行耗时长的情况，通过一个获取数据机器人配多个业务处理机器人的形式提升整体的流程执行效率。<br><br>
+1. 利用控制台的[数据队列](https://academy.encoo.com/wiki/Activities/DevService/Queue/add-message.md)功能，将获取数据和后续业务处理从流程上解耦，以生产者-消费者方式对RPA流程进行切分。这类场景适合获取数据简单但后续业务流程执行耗时长的情况，通过一个获取数据机器人配多个业务处理机器人的形式提升整体的流程执行效率。<br><br>
 2. 利用数据库的中间表、FTP监听文件夹或监听邮箱等形式，将RPA任务进行切分，适合无法在单一环境下完成全部任务的场景。通过数据库或文件实现流程间的数据传输和事件触发的监听，实现多流程间的任务协作能力
 
 > **提示**：FTP组件从云扩组件市场组件下载，可用于流程的文件传输 

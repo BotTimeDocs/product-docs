@@ -37,7 +37,7 @@
 
 + （1）基础使用：一个流程包在通过编辑器进行发布后，机器人就可以执行这个流程包，此时可以完成一些最基础的、需要手动触发的业务场景自动化。
 
-+ （2）进阶使用：结合机器人自身提供的功能，来独立完成一些较复杂的、基础无人值守的业务场景自动化。比如[定时任务](https://academy.encoo.com/zh-cn/wiki/Reference/Robot/CronJob.md?uuid=872537dd-00fe-4bc3-8226-c23d560ae50e)，可以定时的去执行流程。
++ （2）进阶使用：结合机器人自身提供的功能，来独立完成一些较复杂的、基础无人值守的业务场景自动化。比如[定时任务](https://academy.encoo.com/zh-cn/wiki/Reference/Robot/CronJob.md)，可以定时的去执行流程。
 
 + （2）高阶使用：通过配合控制台来完成一些非常复杂的、多机器人配合、无人值守的业务场景，尤其是一些跨环境的、工作量大的场景。
 
@@ -140,7 +140,7 @@
 
 ### 环境2：独立桌面
 
-流程在执行前，勾选独立桌面，流程就可以在独立桌面中运行。关于独立桌面介绍可见文档[《如何让流程在独立桌面中运行?》](https://academy.encoo.com/wiki/BestPractices/RunAlone.md?uuid=77b8684e-98a6-4869-8f39-d493261e8fe9)
+流程在执行前，勾选独立桌面，流程就可以在独立桌面中运行。关于独立桌面介绍可见文档[《如何让流程在独立桌面中运行?》](https://academy.encoo.com/wiki/BestPractices/RunAlone.md)
 
 </br>
 
@@ -171,7 +171,7 @@
 
 </br>当流程中界面操作的部分只有浏览器的时候，可以开启静默运行， 即在流程运行时后台打开独立浏览器且不可视，即使用户手动操作浏览器也互不干扰。实现机器人和人同时操作。</br>
 
-</br>在打开浏览器组件的属性里，当打开方式勾选“Selenium”，同时勾选“静默运行”选项，即可静默运行。具体可以参照[打开浏览器组件](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Browser/OpenBrowser.md?uuid=5a4db7ca-d742-4081-9a83-52cb54eeb6bf)</br>
+</br>在打开浏览器组件的属性里，当打开方式勾选“Selenium”，同时勾选“静默运行”选项，即可静默运行。具体可以参照[打开浏览器组件](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Browser/OpenBrowser.md)</br>
 
 </br></br>
 

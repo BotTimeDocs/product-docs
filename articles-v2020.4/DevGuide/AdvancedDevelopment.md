@@ -232,7 +232,7 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 </br></br>
 
 ### (1) C#代码
-C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行C#代码](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/CSharp/ExecuteCSharp.md?_v=v2020.1&uuid=8146b6ce-e8a8-41f9-b3fb-f47ad2ca6611)组件和一个C#代码文件。这里介绍一下几种使用方式。
+C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行C#代码](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/CSharp/ExecuteCSharp.md?_v=v2020.1)组件和一个C#代码文件。这里介绍一下几种使用方式。
 
 </br>
 
@@ -257,15 +257,15 @@ C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行
 ### （2）Python代码
 流程中也可以使用python进行代码编写。Python相关的组件在组件库->代码编程->Python这个目录中。注意，使用执行Python代码组件的时候，该组件必须要在Python环境这个组件的范围内。
 
-- [安装Python](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonInstall.md?_v=v2020.1&uuid=78030805-3727-4f62-b477-70c8501d8edd)
+- [安装Python](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonInstall.md?_v=v2020.1)
 
-- [Python环境](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonScope.md?_v=v2020.1&uuid=463bb7cb-1adf-4dd3-a242-3158dfd7af58)
+- [Python环境](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonScope.md?_v=v2020.1)
 
-- [执行Python组件](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonExcuteFile.md?_v=v2020.1&uuid=568dc641-15e0-41fc-a8ed-b2ac92f1e45b)
+- [执行Python组件](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/Python/PythonExcuteFile.md?_v=v2020.1)
 </br>
 
 ### （3）Powershell
-如果你对Powershell非常熟悉，也可以使用执行[Powershell组件](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/PowerShell/PowerShell.md?_v=v2020.1&uuid=dde2d411-3fc1-4400-92fc-1b1e2757c367)，可参考微软官方文档：[什么是PowerShell？](https://docs.microsoft.com/zh-cn/powershell/scripting/overview?view=powershell-7.2)
+如果你对Powershell非常熟悉，也可以使用执行[Powershell组件](https://academy.encoo.com/zh-cn/wiki/Activities/CodeExecuter/PowerShell/PowerShell.md?_v=v2020.1)，可参考微软官方文档：[什么是PowerShell？](https://docs.microsoft.com/zh-cn/powershell/scripting/overview?view=powershell-7.2)
 </br></br></br>
 
 ## 技巧5：管理外部代码
@@ -279,13 +279,13 @@ C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行
 
 </br></br>
 
-> **注意：** 安装或者卸载完，会提示是否要重新打开项目。重新打开以后更改才会生效。具体使用细节可以参照 [代码市场](https://academy.encoo.com/zh-cn/wiki/Studio/market/NuGetMarket.md?uuid=d5737948-a47f-470a-a59c-aa4a8b851857)
+> **注意：** 安装或者卸载完，会提示是否要重新打开项目。重新打开以后更改才会生效。具体使用细节可以参照 [代码市场](https://academy.encoo.com/zh-cn/wiki/Studio/market/NuGetMarket.md)
 </br>
 
 </br></br>
 
 ### （2）私有代码市场
-我们可以通过管理市场来创建私有的代码市场，这样我们可以通过这个私有市场共享和使用我们自己开发的Nuget包。关于如何配置私有代码市场，请参照 [管理市场](https://academy.encoo.com/zh-cn/wiki/Studio/market/Market.md?uuid=f1777edd-af4e-4308-94d0-2493bc479ff4)
+我们可以通过管理市场来创建私有的代码市场，这样我们可以通过这个私有市场共享和使用我们自己开发的Nuget包。关于如何配置私有代码市场，请参照 [管理市场](https://academy.encoo.com/zh-cn/wiki/Studio/market/Market.md)
 </br></br>
 
 ### （3）外部代码的Package更新
@@ -299,9 +299,9 @@ Nuget包的版本不是由编辑器控制的，编辑器中可以看到的包的
 
 ## 技巧5：Excel高级技巧
 云扩支持用同一批组件操作WPS和EXCEL，无需区分。 
-详情请见组件帮助：[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5)
+详情请见组件帮助：[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md)
 
-### （1）[执行宏](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/ExecuteMacro.md?uuid=0c9398c4-a260-4df8-9d2c-a96bbf7d1e56)
+### （1）[执行宏](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/ExecuteMacro.md)
 Excel宏是一些指令集，每个人在制作表格的过程中也许会有多种功能，而一直重复做的话会非常繁琐，因此就可以通过宏录制来节约时间简化步骤，对于提高工作效率是非常有好处的。对于经常使用excel表格来工作的话，能有效地提高工作，让自己变得更轻松。
 
 一些Excel组件里未曾覆盖到的功能,比如调整单元格的宽度,高度就可以由执行宏组件完成，参考如下示例：
@@ -309,7 +309,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 **第1步.准备工作**
 
-在[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md?uuid=c4138eee-05ad-4a13-ad96-297c2bc68aa5) 组件中开启宏功能：
+在[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md) 组件中开启宏功能：
 </br>
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E2.png"/>
@@ -367,7 +367,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 </br></br>
 
-### (2) [自动填充](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/AutoFillRange.md?uuid=3692ae92-1b5d-4d6a-bcd2-a1b80ca920b2)
+### (2) [自动填充](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/AutoFillRange.md)
 
 </br>自动填充组件，等同于我们在Excel选中一个单元格，下拉拖拽的过程；</br>
 
@@ -378,7 +378,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 </br>如果EXCEL内置有大量的序列(星期、日期、序列等），通过填充功能可以方便、快捷地输入这些内置序列。
 </br>
 
-### (3) [设置单元格格式](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md?uuid=dead9817-c8e5-4286-8892-98d8759da683)
+### (3) [设置单元格格式](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)
 </br>这个组件包括日常涉及到数值，货币，日期，时间等等，用户体验几乎和Office Excel设置单元格效果。</br></br>
 
 <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E9.png"/>
@@ -386,7 +386,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 </br></br></br>
 
-### (4) [复制粘贴](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md?uuid=8d321071-2381-420a-9894-da2c456b5a02)
+### (4) [复制粘贴](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelCopyAndPasteArea.md)
 </br>可以跨工作表或者当前工作表内进行区域复制粘贴，等同于在Office Excel选中一块区域复制粘贴效果。
 
 </br></br></br>
@@ -397,7 +397,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 </br></br></br>
 
-### (5) [分列](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md?uuid=3b7fc6fa-3881-4420-81c6-62d541a2487e)
+### (5) [分列](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelTextToColumns.md)
 </br>分列就是将一列的数据按照既定分割规则填充到指定区域；</br>
 
 
@@ -410,17 +410,17 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 **（1）如何获取页面元素的特定属性 ？**
 
-可以使用[获取元素属性值](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetElementAttributeValue.md?uuid=172E0D63-B057-4EC2-9F75-8D7B96C953B9)组件来获取元素属性，支持自定义元素属性，只要目标元素上有对应的属性名称，都可以获取；
+可以使用[获取元素属性值](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetElementAttributeValue.md)组件来获取元素属性，支持自定义元素属性，只要目标元素上有对应的属性名称，都可以获取；
 
 在浏览器中按F12快捷键，找到对应的目标元素节点，查看元素节点上是否有想要的属性值，比如索引、链接、title、以及其他属性都可以直接使用获取元素属性获取。</br></br></br>
 
 **（2）如何批量获取元素属性？**
 
-可以通过循环和[获取文本](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetText.md?uuid=5214f089-3dd9-4222-991f-9abf9c4887c5)、[获取元素属性值](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetElementAttributeValue.md?uuid=172E0D63-B057-4EC2-9F75-8D7B96C953B9)等组件获取。也可以使用[获取结构化数据](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/ExtractStructuredData.md?uuid=4585a5ec-7386-4438-a083-dc345e6e94f7)组件获取，使用自定义规则获取可以批量获取指定节点上的节点属性。</br></br></br>
+可以通过循环和[获取文本](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetText.md)、[获取元素属性值](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/GetElementAttributeValue.md)等组件获取。也可以使用[获取结构化数据](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/ExtractStructuredData.md)组件获取，使用自定义规则获取可以批量获取指定节点上的节点属性。</br></br></br>
 
 **（3）如何滚动页面？**
 
-可以通过[鼠标滚动(中键)](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/rotate-wheel.md?uuid=afa6d12e-1653-4118-9a0a-e3cda61a529c)组件或[发送快捷键](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/SendHotkey.md?uuid=c0f37191-286f-4517-98f2-f5b820ce85eb)PgDn来滚动页面。</br></br></br>
+可以通过[鼠标滚动(中键)](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/rotate-wheel.md)组件或[发送快捷键](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/SendHotkey.md)PgDn来滚动页面。</br></br></br>
 
 **（4）如何操作名称相同的标签页？**
 
@@ -453,7 +453,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 </br></br>
 
 - 如果使用[打开浏览器](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Browser/OpenBrowser.md)组件时可以勾选“等待加载完成”属性来帮助等待页面状态。
-- 如果页面始终处于加载状态，可以增加[等待元素出现](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/WaitElementAppear.md?uuid=303626bc-bab2-42c0-b3ea-1ddddc10ac61)组件指定一个页面加载完成后才会出现的元素来判断页面的加载或打开的状态。
+- 如果页面始终处于加载状态，可以增加[等待元素出现](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/WaitElementAppear.md)组件指定一个页面加载完成后才会出现的元素来判断页面的加载或打开的状态。
 </br></br></br>
 
 **（7）如何获取下拉框中的选项的内容？**
@@ -482,7 +482,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 **（8）如何使用浏览器上“右键”菜单项？**
 
-使用组件[点击](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/Click.md?uuid=31689d52-c142-4a6e-a969-1d081c2fdbb2)指定要右键的元素，把属性“鼠标键”设置为“右键”即可。
+使用组件[点击](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/Click.md)指定要右键的元素，把属性“鼠标键”设置为“右键”即可。
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R7.png"/>
 

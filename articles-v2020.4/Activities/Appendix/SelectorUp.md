@@ -57,7 +57,7 @@
 ### 修改
 
 
-支持点击“选择器”属性在选择器窗口中修改,详见[选择器](https://academy.encoo.com/wiki/Activities/Appendix/Selector.md?uuid=3b7fa33e-041d-49dd-bd80-5876b7971019)
+支持点击“选择器”属性在选择器窗口中修改,详见[选择器](https://academy.encoo.com/wiki/Activities/Appendix/Selector.md)
     
 
 ![选择器窗口](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0006.png)

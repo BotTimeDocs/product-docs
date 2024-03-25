@@ -186,7 +186,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 **【解决办法-E0001】**
 - 有网络情况 —— 登录编辑器之后再按照 
-- 无网络离线情况 —— 参考手动安装扩展，具体参考链接:(https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md?uuid=f63640f7-3a81-46b9-ae53-2ff15e2bc1b8)
+- 无网络离线情况 —— 参考手动安装扩展，具体参考链接:(https://academy.encoo.com/wiki/Robot/Settings/extensions/ChromeExtension.md)
 
 </font><br><br>
 ---

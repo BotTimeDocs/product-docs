@@ -140,8 +140,8 @@
 <br>
 
 
-补充：关于进一步功能细节，您可阅读 [定时任务](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/workflow/trigger.md?uuid=58257e0f-2bb3-4355-8920-9793b1cec1a4)、
-[任务队列](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/taskqueue/taskqueue.md?uuid=2f5cce8e-5bc7-4da3-bd09-9e950dd481d6)、
+补充：关于进一步功能细节，您可阅读 [定时任务](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/workflow/trigger.md)、
+[任务队列](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/taskqueue/taskqueue.md)、
 [流程编排](https://academy.encoo.com/zh-cn/wiki/Console/rpa-center/flowSequence/aboutFlowSequence.md)
 [流程运行管理](./ProcessRunManager.md) 等更多内容。
 

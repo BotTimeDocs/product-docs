@@ -165,7 +165,7 @@ SAP面向SAP Logon客户端，基于SAP GUI Scripting技术。通过对已有接
 
 匹配时，如果控件类型（上图的Text）和文本（上图的20）无法唯一限定某一元素，便需要用到辅助元素。**辅助元素**会通过与目标元素的相对位置来对目标进行限制。
 
-[CV组件使用链接(点击查看)](../Activities/ComputerVision/assign-cv-window.md?_v=v2020.1&uuid=11acb9ad-2005-472f-a2ad-3072e07f0614)
+[CV组件使用链接(点击查看)](../Activities/ComputerVision/assign-cv-window.md?_v=v2020.1)
  
 <br><br>
 
@@ -429,7 +429,7 @@ Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插�
 
 ## 1.4 自动化环境
 
-大部分的自动化场景都可以运行在我们日常使用的windows环境中即可，对运行环境没有特别的要求,具体要求请见[硬件和软件要求.](https://Studio/quickStart/HarewareAndSoftwareRequirements.md?uuid=1bb922bd-c25d-4921-9241-f13ee45d295f)
+大部分的自动化场景都可以运行在我们日常使用的windows环境中即可，对运行环境没有特别的要求,具体要求请见[硬件和软件要求.](https://Studio/quickStart/HarewareAndSoftwareRequirements.md)
 
 <br>
 下面列出一些云扩提供的一些高级好用的自动化功能:
