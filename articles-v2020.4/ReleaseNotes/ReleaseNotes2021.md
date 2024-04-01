@@ -2,10 +2,6 @@
 
 本文介绍了云扩产品的的功能发布和对应的文档动态，欢迎体验。
 
-> **提示：**
->
-> 关于个人版与企业版的差异说明，请参见 [常见问题](./../FAQ/QA.md)。
-
 ## 2021.12.31 发版说明
 
 2021.12.31 发布了云扩 RPA , 本次发布的产品及版本号为：
@@ -333,7 +329,7 @@
 
     ![大纲文件](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outline20211014.png)
 
-9.  自动化录制技术 UIA3 支持更多的属性，如，AccessKey、AcceleratorKey、 HelpText、 ItemType、 ItemStatus、 Orientation。
+9. 自动化录制技术 UIA3 支持更多的属性，如，AccessKey、AcceleratorKey、 HelpText、 ItemType、 ItemStatus、 Orientation。
 
     ![UIA3](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/UIA320211014.png)
 
@@ -587,6 +583,7 @@
 | 机器人   | 1.1.2106.10 |
 
 ### 新增功能
+
 #### 【编辑器】
 
 1. 在编辑器登录激活页面，支持选择浮动许可，提高系统灵活性。
@@ -640,6 +637,7 @@
 | ViCode   | - |
 
 ### 新增功能
+
 #### 【控制台】
 
 1. 上线控制台 V4 版本，提供全新的组织架构及权限系统，方便管理员管理公司组织架构权限等信息，主要包括如下：
@@ -721,6 +719,7 @@
 | ViCode   | - |
 
 ### 新增功能
+
 #### 【ViCode】
 
 1. 支持新增在控制台中自定义的 Restful API 模板数据源，满足用户使用场景，提升用户使用体验。
@@ -743,6 +742,7 @@
 
 1. 优化“我的应用”分享体验，支持通过链接分享当前在线版本的应用，提升用户体验。
 2. 优化 ViCode 的编辑模式下的左侧页面导航，最多支持三级菜单，满足不同的场景需求，提升开发者使用体验。
+
 #### 【ViCode 的组件库】
 
 1. 优化左侧导航组件在移动端的展现形式，通过导航图标进行展开显示，提升开发者使用体验。
@@ -974,7 +974,7 @@
 6. 在小程序组件面板中，支持搜索组件，方便开发人员查找组件。
 7. 布局组件 > [列表](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/list.md)，可实现自定义并查看该列表中的所有列表项，方便开发人员开发出形象直观地小程序应用。
 8. 模块组件 > [表格](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/Table.md)，可实现展示和操作数据列表，方便开发人员开发出形象直观地小程序应用。
-9.  模块组件 > [分页](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
+9. 模块组件 > [分页](./../Reference/Apps/devApps/appsedit/component/ModuleComponents/pagination.md)，可实现多个页面分页跳转，方便开发人员开发出形象直观地小程序应用。
 10. 展示组件 > [IFrame](./../Reference/Apps/devApps/appsedit/component/DisplayComponents/iframe.md)，可实现引入外部网页页面，方便开发人员开发出形象直观地小程序应用。
 11. 输入组件 > [密码输入框](./../Reference/Apps/devApps/appsedit/component/InputComponents/passwordinput.md)，可实现输入密码，方便开发人员开发出形象直观地小程序应用。
 

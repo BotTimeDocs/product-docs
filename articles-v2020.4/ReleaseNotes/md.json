@@ -26,5 +26,12 @@
         "localizedName": "2022年",
         "uuid": "",
         "labels": "发版, 2022"
+    },
+    {
+        "id": null,
+        "name": "ReleaseNotes2023.md",
+        "localizedName": "2023年",
+        "uuid": "",
+        "labels": "发版, 2023"
     }
 ]

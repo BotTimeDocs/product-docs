@@ -2,10 +2,6 @@
 
 本文介绍了云扩产品的的功能发布和对应的文档动态，欢迎体验。
 
-> **提示：**
->
-> 关于个人版与企业版的差异说明及离线文档下载 ，请参见 [常见问题](./../FAQ/QA.md)。
-
 ## 2020.12.28 发版说明
 
 2020.12.28 发布了云扩 RPA , 本次发布的产品及版本号为：
@@ -196,7 +192,7 @@
 
 1. 系统 > [日期和时间选择框](../Activities/System/TimePickerDialogActivity.md) 组件：实现流程运行时弹窗让用户选择日期和时间并输出。
 2. AI Hub 系列组件：[证照识别](../Activities/AIHub/IdentificationOfCredentials.md)、[票据识别](../Activities/AIHub/BillIdentification.md)、[通用文字识别](../Activities/AIHub/GeneralCharacterRecognition.md)。
-3. 代码工具 > 文本处理 > [生成 GUID ](../Activities/CodeExecuter/TextProcessing/GenerateGUIDActivity.md) 组件，实现生成一个新的 GUID。
+3. 代码工具 > 文本处理 > [生成 GUID](../Activities/CodeExecuter/TextProcessing/GenerateGUIDActivity.md) 组件，实现生成一个新的 GUID。
 4. 流程控制 > [终止流程](../Activities/WorkflowControl/Abort.md) 组件，实现当执行到此组件时立即结束当前流程，不再执行后续流程。
 5. 界面自动化 > [坐标点击](../Activities/UIAutomation/Coordinate.md) 组件：根据绝对坐标点击指定的用户界面元素。
 6. 界面自动化 > [移动鼠标](../Activities/UIAutomation/MoveMouse.md) 组件：移动鼠标光标位置。
@@ -206,7 +202,6 @@
 #### 【机器人】
 
 1. 在新建定时任务时支持 [按 Cron 表达式](../Reference/Robot/CronJob.md) 配置定时任务，以满足用户自定义定时任务场景。  
-
 
 #### 【控制台】
 
@@ -438,7 +433,7 @@
 9. **界面自动化 > OCR > [判断 OCR 文本是否存在](../Activities/UIAutomation/OCR/IdentifyOCRTextExist.md)（企业版）**：实现对指定元素或图片进行 OCR ，并判断指定文本是否存在，将其结果存储在输出属性 OCR 元素内。
 10. **软件自动化 > 邮件**：[获取邮件(Exchange)](../Activities/AppAutomation/Mail/GetExchangeMail.md) 、 [发送邮件(Exchange)](../Activities/AppAutomation/Mail/SendExchangeMail.md)
 11. **代码工具 > 文本处理**: [验证文本有效性](../Activities/CodeExecuter/TextProcessing/VerifyTextActivity.md)、[提取文本](../Activities/CodeExecuter/TextProcessing/ExtractTextActivity.md)、 [替换文本](../Activities/CodeExecuter/TextProcessing/ReplaceTextActivity.md)、[截取文本](../Activities/CodeExecuter/TextProcessing/GetSubstringActivity.md)、[获取文本长度](../Activities/CodeExecuter/TextProcessing/GetLengthOfTextActivity.md)、[获取文本索引](../Activities/CodeExecuter/TextProcessing/GetIndexOfTextActivity.md)
-12. **流程控制 > [赋值（多个） ](../Activities/WorkflowControl/MultipleAssign.md)**
+12. **流程控制 > [赋值（多个）](../Activities/WorkflowControl/MultipleAssign.md)**
 13. **软件自动化 > Office Excel > [插入图片](../Activities/AppAutomation/OfficeExcel/InsertPicture.md)**：实现指定单元格插入图片。
 14. **流程控制 > 判断 > [条件( Switch )](../Activities/WorkflowControl/Determine/Switch.md)**：实现指定 C# 表达式，并根据每个 Case 判断执行符合条件的流程。
 15. **系统 > 文件 > [遍历文件夹](../Activities/System/File/ForeachFolder.md)**
