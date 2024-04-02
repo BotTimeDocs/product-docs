@@ -102,7 +102,7 @@
 <br>
 
 
-#### Q：这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新
+#### Q：这计算机中已经安装了.NET Framework 4.6.2(简体中文)或版本更高的更新
 
 <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0003.png"/>
 

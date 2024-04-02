@@ -142,7 +142,7 @@ FAQ6：私有化部署 <br>
     <td>I0002</td>
   </tr>
   <tr>
-    <td>这计算机中已经安装了.NET Framework 4.6.1(简体中文)或版本更高的更新</td>
+    <td>这计算机中已经安装了.NET Framework 4.6.2(简体中文)或版本更高的更新</td>
     <td><a href="https://academy.encoo.com/zh-cn/wiki/answers/troubleshooting/installer&extensions.md">Error1：常见安装激活(扩展)</a></td>
     <td>编辑器安装</td>
     <td>I0003</td>
