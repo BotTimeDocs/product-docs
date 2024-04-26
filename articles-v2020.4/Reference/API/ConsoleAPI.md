@@ -1,12 +1,11 @@
 # 云扩控制台API文档<span id="云扩控制台API文档"><span>
 
-最低支持版本：V4.1.78728
+云扩控制台API最新版本可以在云扩SaaS控制台的“API文档”页面查看。
 
-更新日期：2022-07-28
+![api engry](https://docimages.blob.core.chinacloudapi.cn/images/Console/api%20entry.png)
 
+快捷入口：<https://api.encoo.com/openapi/static/consoleapi.html>
 
-## 文档概述<span id="文档概述"><span>
+> - 云扩控制台API最低支持控制台版本：V4.1.78728
+> - 私有化部署的控制台API文档，可在私有化控制台中相同位置查看。
 
-本文档描述了控制台产品对外提供的API接口的详细描述，包括接口用途、请求格式、返回格式和请求实例等。
-  
-Open API：https://api.encoo.com/openapi/static/consoleapi.html
