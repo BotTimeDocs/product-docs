@@ -28,7 +28,7 @@
 
 - 登录云扩超自动化平台，在首页下载“SkillNinja VS Code扩展”，如下图所示：
 
-![下载插件]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//image.png)
+![下载插件](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/image.png)
 
 ### 从VSCode安装
 
@@ -38,11 +38,11 @@
 
 **步骤 3**：下拉菜单中点击"Install from VSIX...",浏览选中你下载的SKillNinja插件
 
-![alt text]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//image2.png)
+![alt text](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/image2.png)
 
 ### 自动化组件安装
 安装好插件后，VSCode左侧栏会多一个"SkillNinja Explorer", 点击切换过去，你会看到如图所示：
-![alt text]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//24b2e501-1abf-4d77-8c88-1323f4eae9e4.png)
+![alt text](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/24b2e501-1abf-4d77-8c88-1323f4eae9e4.png)
 
 **步骤 1**：切换到"SkillNinja Explorer"
 
@@ -64,7 +64,7 @@
 ### **1. 设置示例项目**
 
 - 按"Ctrl+F6"创建新的SkillNinja项目，我们选择目录D:\SkillNinjaDEMO，确定后，一个sample项目将被创建在所选择的目录之下，包含如下所示内
-![sample]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//ffa012ec-8b26-4749-ae1a-ec3d91fe97f6.png)
+![sample](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/ffa012ec-8b26-4749-ae1a-ec3d91fe97f6.png)
 
     插件会帮你自动生成项目文件：
     - app.py 项目代码入口文件
@@ -134,11 +134,11 @@
 - 结果页右键点击你要的结果，选择GetText,录制获取结果文本，如图：
 ![getText](images/457b1826e71ee640ed5325428ab8eeea210c0f2c69cf7859e7c9ab7e9b16b176.png)
 - 此时你能看到你录制的三个步骤列在右侧，如下图:
-![recordingSteps]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//steps.png)
+![recordingSteps](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/steps.png)
 - 确定之后，在右侧"Locators"页面，会列出刚才步骤中用到的locators，你可以鼠标移上去进行查看、验证和编辑：
-![locators]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//locators.png)
+![locators](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/locators.png)
 - 这时，你可以点击上方"Capture Locators"进行抓取更多的界面元素，捕获的元素后面都可以用于后续的自动化（点击、读写、输入等）
-![captureLocators]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//captureLocators.png)
+![captureLocators](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/captureLocators.png)
 - 查看你的项目文件，你会发现你多了一个msedge.py的项目文件，内容如下：
     ```python
     import time
@@ -195,7 +195,7 @@
             return captured_results
     ```
 - 然后你在Chat里，输入"在main中打开edge浏览器，调用录制的操作", Agent自动会帮你生成代码，接受所生成代码，如下图所示：
-![codeGen]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//codeGen.png)
+![codeGen](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/codeGen.png)
 
 ### **3. 运行示例**
 
@@ -204,23 +204,23 @@
 - 打开搜索引擎页面
 - 输入关键字"encoo"并点击搜索按钮
 - 输出encoo官网的Title，如下图所示：
-![runresult]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//runresult.png)
+![runresult](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/runresult.png)
 
 ### **4. 生成Skill**
 
 在项目的Chat中，输入"生成项目Skill", Agent会根据你的项目内容生成一个SKILL.md在项目根目录，并更新clicknium.yaml中的参数和返回值。如下图所示：
-![skill]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//d378cc52-b845-43a5-9508-61586248728f.png)
+![skill](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/d378cc52-b845-43a5-9508-61586248728f.png)
 
 
 ### **5. 打包SKill并发布**
 在SkillNinja的Quick Actions中选择"Publish to Console", 此时，插件会把分析你的项目，安装需要的包，一起整体打包成控制台可识别的SKILL流程，上传到控制台。登录控制台，在流程包管理页面可看到我们刚上传的：
-![skillflow]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//bfc5f5e0-04e9-418a-9df8-7643131c31d7.png)
+![skillflow](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/bfc5f5e0-04e9-418a-9df8-7643131c31d7.png)
 
 ### **6. 在NinjaFlow里使用Skill**
 - 登录NinjaFlow站点：https://ninjaflow.encoo.com/workspace/chats/new， 在右上角选择要运行你的SKILL的机器人，如下图所示：
-![RobotSelect]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//2D8F76E4-21D2-4b6a-BD82-7B03A679E376.png)
+![RobotSelect](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/2D8F76E4-21D2-4b6a-BD82-7B03A679E376.png)
 - 打开"设置和更多"-->技能-->RPA页面，找到我们上传的SKILL "SkillNinjaDEMO"， 勾选如下：
-![SKILLNinjaDEMO]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//A9B9387A-21CE-45fc-8086-A374B105CBDC.png)
+![SKILLNinjaDEMO](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/A9B9387A-21CE-45fc-8086-A374B105CBDC.png)
 - 回到"新任务"界面，在对话中随时使用你的自动化技能，如下图所示：
-![机器人执行]((https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja//image3.png)
+![机器人执行](https://docimages.blob.core.chinacloudapi.cn/images/SkillNinja/image3.png)
 
