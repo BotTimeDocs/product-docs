@@ -76,7 +76,7 @@
     * 双击此组件展开，在此组件右侧点击【fx】从变量列表中选中之前定义的变量【发票文件夹】。并在此组件内容拖入组件【写入日志】，用于在流程日志中方便查看当前读取的是哪张发票，如果流程执行过程中出现问题，也会快速帮助我们定位问题。具体写法如下图示：
       图中变量filePath 指当前处理的发票完整路径，由【遍历文件夹】组件自动生成。<div align=left><img width = '600' height ='' src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/COE/遍历发票所在文件夹.png"/></div>
       
-    * 在组件库【AI】目录下找到组件【增值税发票】并拖拽到【写入日志】组件下方。<div align=left><img width = '600' height ='' src ="hhttps://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/COE/遍历文件夹具体写法.png"/></div>
+    * 在组件库【AI】目录下找到组件【增值税发票】并拖拽到【写入日志】组件下方。<div align=left><img width = '600' height ='' src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/COE/遍历文件夹具体写法.png"/></div>
     
     * 在组件库【AI】目录下找到组件【增值税发票】并拖拽到【写入日志】组件下方。<div align=left><img width = '600' height ='' src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/COE/拖拽写入日志组件.png"/></div>
     
