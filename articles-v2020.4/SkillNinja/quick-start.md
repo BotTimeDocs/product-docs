@@ -54,7 +54,7 @@
 
 ### 登录你的云扩超自动化平台测试账号
 登录你的云扩账号并选择许可后，如下图所示，至此，你可以使用SkillNinja插件编写自动化流程了。
-![许可](images/B50C8235-17A8-44a0-9698-20BFCC28E44B.png)
+![许可](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/B50C8235-17A8-44a0-9698-20BFCC28E44B.png)
 
 
 ## 4. 自动化示例
@@ -125,14 +125,14 @@
 ### **2. 录制应用locator**
 - 打开你要录制的应用，这里我们选择Edge,
 - 在SkillNinja的"Quick Actions"中，点击"Open Virtual Screen"，打开虚拟录制屏，选择你刚刚打开的应用，点击"OK"确定，在你的VSCode中央，会出现如下图所示的虚拟显示，你选择的应用则被移到虚拟显示屏中：
-![VDisplay](images/17B3E60E-D4A8-4239-AD03-AC301CE54F1B.png)
+![VDisplay](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/17B3E60E-D4A8-4239-AD03-AC301CE54F1B.png)
 - 点击红点开始录制步骤
-![flowRecording](images/flowRecording.png)
+![flowRecording](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/flowRecording.png)
 - 鼠标左键点击搜索框，输入encoo，点击OK，如图：
-![inputText](images/EF95328A-D11D-495e-8F4F-3895376268A7.png)
+![inputText](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/EF95328A-D11D-495e-8F4F-3895376268A7.png)
 - 左键点击"搜索"按钮，录制搜索
 - 结果页右键点击你要的结果，选择GetText,录制获取结果文本，如图：
-![getText](images/457b1826e71ee640ed5325428ab8eeea210c0f2c69cf7859e7c9ab7e9b16b176.png)
+![getText](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/457b1826e71ee640ed5325428ab8eeea210c0f2c69cf7859e7c9ab7e9b16b176.png)
 - 此时你能看到你录制的三个步骤列在右侧，如下图:
 ![recordingSteps](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/SkillNinja/steps.png)
 - 确定之后，在右侧"Locators"页面，会列出刚才步骤中用到的locators，你可以鼠标移上去进行查看、验证和编辑：
