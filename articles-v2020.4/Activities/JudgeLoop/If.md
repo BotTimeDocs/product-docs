@@ -24,8 +24,8 @@
 
 **此流程执行逻辑**：在 **条件（if）** 组件中设置判断条件，如果条件成立或不成立时，分别输出不同的日志。
 
-![配置条件 IF 组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-3.png)
+![配置条件 IF 组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/if-3.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/if-4.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/if-4.png)

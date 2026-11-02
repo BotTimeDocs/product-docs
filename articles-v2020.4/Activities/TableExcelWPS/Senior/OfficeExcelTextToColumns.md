@@ -36,8 +36,8 @@
 
 **此流程执行逻辑**：将指定工作表 Sheet1 中 A 列的数据以空格分割后，存放于“B1：B100”区域。
 
-![配置分列属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumn20201217.png)
+![配置分列属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/excelcolumn20201217.png)
 
 **执行结果**：
 
-![查看分列后的数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelcolumndataresult20201217.png)
+![查看分列后的数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/excelcolumndataresult20201217.png)

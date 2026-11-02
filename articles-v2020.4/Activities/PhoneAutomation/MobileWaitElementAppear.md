@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：指定等待出现的元素，将 **等待元素出现** 组件返回的结果输出至“输出面板”中。
 
-![配置等待元素出现](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingwaitelementappear20201224.png)
+![配置等待元素出现](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingwaitelementappear20201224.png)

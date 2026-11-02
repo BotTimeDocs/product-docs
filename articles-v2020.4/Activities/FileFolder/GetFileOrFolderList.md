@@ -29,8 +29,8 @@
 
 **此流程执行逻辑**：获取D盘中Shirley文件夹中的文件列表。
 
-![配置获取文件/文件夹列表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-2.png)
+![配置获取文件/文件夹列表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/fileList-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/fileList-5.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/fileList-5.png)

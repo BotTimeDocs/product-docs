@@ -15,7 +15,7 @@
 1. 进入“全局管理 > 角色管理”页面，单击页面右上角的“+新建”。
 2. 在弹出的“新建”对话框中，填写基本信息。
 
-   ![新建角色](https://docimages.blob.core.chinacloudapi.cn/images/Console/newroles120210629.png)
+   ![新建角色](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/newroles120210629.png)
 
 3. 单击“下一步”，配置部门级或公司级权限。
 
@@ -24,7 +24,7 @@
     >- 部门级功能仅在该角色被分配的部门中生效。
     >- 公司级功能将在公司所有部门中生效。
 
-    ![权限配置](https://docimages.blob.core.chinacloudapi.cn/images/Console/priviage20210629.png)
+    ![权限配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/priviage20210629.png)
 
 4. 单击“确定”，完成角色的创建。
 
@@ -40,11 +40,11 @@
 
 系统中会内置一些特有的角色类型，如，公司管理员、组织架构管理员等，可在“全局管理 > 角色管理”页面，根据角色类型来查看。
 
-![系统内置角色](https://docimages.blob.core.chinacloudapi.cn/images/HAP/innerrole20211208.png)
+![系统内置角色](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/HAP/innerrole20211208.png)
 
 “内置角色”类型的角色，仅可查看，不支持对其编辑和删除操作。
 
-![查看内置角色](https://docimages.blob.core.chinacloudapi.cn/images/Console/viewroles20210923.png)
+![查看内置角色](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/viewroles20210923.png)
 
 > **说明：**
 >

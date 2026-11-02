@@ -23,11 +23,11 @@
 
 **此流程执行逻辑**：选择日志级别并填写日志内容后将在“输出面板”中显示日志内容。
 
-   ![写入日志配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writelogsetting20201221.png)  
+   ![写入日志配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/writelogsetting20201221.png)  
 
    - 日志级别：下拉选择日志级别，如，Info
    - 日志内容：输入日志内容，如，"这里是写入的日志内容"
   
 **执行结果**：
 
-   ![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writelogoutput20201221.png)
+   ![查看运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/writelogoutput20201221.png)

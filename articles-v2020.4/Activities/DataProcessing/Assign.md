@@ -24,8 +24,8 @@
 
 **此流程执行逻辑**：在 **循环操作（Do While）** 组件内，拖入 **赋值** 组件，设置 count 递增，使每一次循环都给 count 变量赋一次值。
 
-![赋值组件配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-2.png)
+![赋值组件配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dowhile-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dowhile-3.png)

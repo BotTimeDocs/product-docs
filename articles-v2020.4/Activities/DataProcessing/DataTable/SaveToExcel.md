@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将编辑器创建的数据表保存到项目路径下。
 
-![保存Excel](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtsaveexcel001.png)
+![保存Excel](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtsaveexcel001.png)

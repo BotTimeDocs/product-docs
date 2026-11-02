@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：在指定的列表中遍历循环，执行循环体。
 
-![配置遍历循环组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forEach-3.png)
+![配置遍历循环组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/forEach-3.png)

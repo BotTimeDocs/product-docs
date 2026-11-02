@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：在D盘中新建一个“新建DOC文档.doc”文件。
 
-![配置新建文件/文件夹组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/newFile-2.png)
+![配置新建文件/文件夹组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/newFile-2.png)

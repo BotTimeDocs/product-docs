@@ -22,8 +22,8 @@
 
 **前置必要操作**：复制一段文本至剪贴板。
 
-![复制一段文本至剪贴板](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getClipboard-4.png)
+![复制一段文本至剪贴板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getClipboard-4.png)
 
 **此流程执行逻辑**：获取剪贴板上已存在的文本内容，并输出至“输出面板”中。
 
-![配置获取剪贴板文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getClipboard-2.png)
+![配置获取剪贴板文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getClipboard-2.png)

@@ -36,8 +36,8 @@
 
 **此流程执行逻辑**：创建一个销售统计表，将“Sheet1”工作表的“A1：D11”区域的数据筛选后展示于“F1: H11”区域中。
 
-![配置创建透视表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable3.png)
+![配置创建透视表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/CreatePivotTable3.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CreatePivotTable4.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/CreatePivotTable4.png)

@@ -51,8 +51,8 @@
    >
    >该流程在很多场景中可代替“输入文本”组件使用，运行效率高、输入文本不易出错。
 
-![发送快捷键](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-2.png)
+![发送快捷键](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sendHotkey-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendHotkey-3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sendHotkey-3.png)

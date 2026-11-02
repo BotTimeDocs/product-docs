@@ -36,4 +36,4 @@ switch 语句的一般形式为：
 
 **此流程执行逻辑**：当满足表达式值时，输出对应的提示信息，当不满足表达式值时，输出另外的对应的提示信息。
 
-![配置条件(Switch)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/switch-3.png)
+![配置条件(Switch)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/switch-3.png)

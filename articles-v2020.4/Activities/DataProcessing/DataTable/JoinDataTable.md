@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：将数据表 1 `table` 和数据表 2 `table2` 中的 `姓名` 字段以左连接的方式关联起来。
 
-![配置联结数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/JoinDataTable2020122502.png)
+![配置联结数据表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/JoinDataTable2020122502.png)

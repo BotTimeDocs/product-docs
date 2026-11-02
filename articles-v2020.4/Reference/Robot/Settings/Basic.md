@@ -1,6 +1,6 @@
 # 基本
 
-![基本设置界面](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotbasic20211231.png)
+![基本设置界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotbasic20211231.png)
 
 ## 基本设置
 

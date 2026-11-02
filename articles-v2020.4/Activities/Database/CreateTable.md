@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：根据已有的数据表结构`outtable`在数据库`test`中创建表`testdemo`。
 
-![创建表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/createtable20210924.png)
+![创建表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/createtable20210924.png)

@@ -31,7 +31,7 @@
 
 **此流程执行逻辑**：执行 cmd 命令，并将执行结果保存至“result”变量中。
 
-![配置执行命令行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeCmd-2.png)
+![配置执行命令行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/executeCmd-2.png)
 
 ## 常见问题
 

@@ -7,16 +7,16 @@
 1. 打开项目。
 2. 打开组件市场窗口。
 
-   ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/activitymarket20201214.png)
+   ![组件市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/activitymarket20201214.png)
 
 3. 搜索找到需要安装的组件。
 4. 鼠标悬浮于组件包上，单击“安装”，安装组件。
 
-    ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installactivity20201214.png)
+    ![组件市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/installactivity20201214.png)
 
 5. 安装完成后，可在组件列表中找到刚刚安装的组件，拖拽即可使用。
 
-    ![组件市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/instalactivitytool20201214.png)
+    ![组件市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/instalactivitytool20201214.png)
 
     > **说明：**
     >
@@ -29,7 +29,7 @@
 
 **已安装组件** 仅针对当前项目存在，仅显示当前项目已安装的组件包，通过该页面可以管理项目中的依赖项。
 
-![已安装组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/installactivitydone20201214.png)
+![已安装组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/installactivitydone20201214.png)
 
 ## 管理依赖项
 

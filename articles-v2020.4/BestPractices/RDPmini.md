@@ -23,7 +23,7 @@
 
 2. 按快捷键 ```Win+R``` 呼出运行窗口，在窗口中输入 ```regedit``` ，点击确定后进入注册表编辑器：
 
-    <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005270001.png"/>
+    <img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005270001.png"/>
 
 3. 进入如下注册表项：
 
@@ -33,10 +33,10 @@
 
 4. 右键“Terminal Server Client”文件夹新建一个“选择DWORD(32位)值”
 
-    <img src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005270002.png"/>
+    <img src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005270002.png"/>
 
 5. 双击修改该值，数值名称改为```RemoteDesktop_SuppressWhenMinimized``` ，数值数据修改为 ```2``` 点击确定保存
 
-    <img src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005270003.png"/>
+    <img src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005270003.png"/>
 
 6. 关闭注册表后重启远程桌面，即可在最小化远程桌面时正确运行自动化流程。

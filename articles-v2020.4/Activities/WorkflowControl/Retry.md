@@ -22,7 +22,7 @@
 
 **此流程执行逻辑**：在重试组件内部拖入一个需要重新执行的组件，当符合重试条件时，可以执行该组件。
 
-![配置重试组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Retry-2.png)
+![配置重试组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Retry-2.png)
 
 ## 常见问题
 

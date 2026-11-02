@@ -41,11 +41,11 @@
 
 **此流程执行逻辑**：接收到手机中发送的手机验证码信息。
 
-![配置获取短信验证码](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smscodevarials20201230.png)
+![配置获取短信验证码](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/smscodevarials20201230.png)
 
 **执行结果**：
 
-![手机端效果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/runprocesssmscode20201230.png)
+![手机端效果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/runprocesssmscode20201230.png)
 
 ## 常见问题
 
@@ -59,11 +59,11 @@
 
    - 华为手机，在“信息”的右上角的“设置”中设置“验证码安全保护”为“不勾选”状态。
 
-    ![华为手机短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/smssetting20201230.png)
+    ![华为手机短信安全设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/smssetting20201230.png)
 
    - OPPO 手机，在“设置 > 信息”中设置“验证码安全保护”为“不勾选”状态。
 
-    ![OPPO 手机短信安全设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/opposetting20210618.png)
+    ![OPPO 手机短信安全设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/opposetting20210618.png)
 
 2. **Q：获取手机验证码只能通过组件的方式吗？**
 

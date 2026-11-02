@@ -69,4 +69,4 @@
 
 ## 与云扩其他产品之间的关系
 
-![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studioproduct20211102.png)
+![与云扩其他产品之间的关系](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/studioproduct20211102.png)

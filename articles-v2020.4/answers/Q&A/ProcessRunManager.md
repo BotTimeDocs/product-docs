@@ -136,7 +136,7 @@
 
 机器人开启录屏执行流程，流程结束后，本地或控制台上看到的录屏视频画面是黑屏，但视频里面还是有字幕的。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/13-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/13-1.png"/>
 
  <br> <br> <br>
 
@@ -158,14 +158,14 @@
 
 * Step1、进入secpol.msc，找到如图设置并双击
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/13-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/13-2.png"/>
 
 
 <br>
 
 * Step2、删除下图中的数值（即不锁屏），点击确定
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/14-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/14-1.png"/>
 
 
 <br><br>
@@ -212,7 +212,7 @@
 
 #### Q：控制台视频文件显示上传完成，但是视频展示“当前任务无视频记录”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A6_00004.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A6_00004.png"/>
 
 <br><br>
 

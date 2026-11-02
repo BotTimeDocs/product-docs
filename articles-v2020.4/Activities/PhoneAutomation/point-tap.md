@@ -28,4 +28,4 @@
 >
 > 当单击组件中的“指定位置”时，自动生成横/纵坐标百分比。
 
-![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tap20201222.png)
+![指定元素](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/tap20201222.png)

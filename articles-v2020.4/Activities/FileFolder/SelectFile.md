@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：在选择文件弹框中选择任一文件，并将其路径输出至“输出面板”中。
 
-![配置选择文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectFile-1.png)
+![配置选择文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/selectFile-1.png)

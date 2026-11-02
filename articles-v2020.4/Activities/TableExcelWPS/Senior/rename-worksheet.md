@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：将已存在于桌面中的 `研发记录清单.xlsx` 文件的 `Sheet1` 工作表，重命名为 `NewSheet` 工作表。
 
-![配置重命名工作表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameworksheet20211110.png)
+![配置重命名工作表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/renameworksheet20211110.png)

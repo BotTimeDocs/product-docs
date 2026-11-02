@@ -11,14 +11,14 @@
 或者
 `curl -o docker-ce.repo  https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo`  </br>
 4. 执行yum makecache fast 生成缓存 并 执行yum repolist 查看docker源是否已经在其中</br>
-![syh001](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0001.png)
+![syh001](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0001.png)
 </br>
 
 #### 1.1.1.2安装docker-ce
 
 命令行执行：`yum install docker-ce -y`，完成后执行`docker --version` 查看docker是否已经成功安装已经所安装的版本
 </br>
-![syh002](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0002.png)
+![syh002](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0002.png)
 
 #### 1.1.1.3启动docker并设置为开机自动启动
 
@@ -32,7 +32,7 @@
 
 验证 Docker CE 安装是否正确，可以运行 hello-world 镜像:`docker run hello-world`，出现红框中的文字说明docker 的环境以及就绪:
 
-![syh003](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0003.png)
+![syh003](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0003.png)
 
 #### 1.1.1.5安装docker-compose
 
@@ -50,7 +50,7 @@
 
 `docker-compose  --version`
 
-![syh004](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0004.png)
+![syh004](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0004.png)
 
 ### 1.1.2 离线安装(断网环境)
 
@@ -130,7 +130,7 @@ software-properties-common`
 
 `cat /proc/version`
 
-![syh005](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0005.png)
+![syh005](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0005.png)
 
 再下载对应版本的deb包https://download.docker.com/linux/ubuntu/dists/
 以18.04为例https://download.docker.com/linux/ubuntu/dists/bionic/pool/stable/amd64/
@@ -155,7 +155,7 @@ software-properties-common`
 
 `tar -zxvf consolev4pvt-4.0.87971.tar.gz`
 
-![syh006](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0006.png)
+![syh006](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0006.png)
 
 ### 2.1.2 关闭防火墙和SELINUX，并重启docker服务
 `systemctl stop firewalld`
@@ -169,17 +169,17 @@ software-properties-common`
 
 `chmod +x deploy.sh`
 
-![syh007](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0007.png)
+![syh007](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0007.png)
 
 ### 2.1.4初始化配置
 `sh deploy.sh init`
 
-![syh008](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0008.png)
+![syh008](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0008.png)
 
 ### 2.1.5 加载镜像并启动（这一步可能会等待超过10分钟）
 `sh deploy.sh start`
 
-![syh009](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh0009.png)
+![syh009](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh0009.png)
 
 ### 2.1.6 使用默认管理员账号登录 
 用户名:admin@encootech.com
@@ -194,7 +194,7 @@ redis密码:Encoo123!@#
 
 MINIOAccessKey:encoouser,MINIOSecretKey:Encoo123!@#
 
-![syh0010](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00010.png)
+![syh0010](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00010.png)
 
 ## 3.1常用命令
 
@@ -202,13 +202,13 @@ MINIOAccessKey:encoouser,MINIOSecretKey:Encoo123!@#
 
 `docker ps`
 
-![syh0011](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00011.png)
+![syh0011](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00011.png)
 
 ### 3.1.2结束正在运行的docker容器
 
 `docker kill 8c814735ccc9`
 
-![syh0012](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00012.png)
+![syh0012](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00012.png)
 
 ### 3.1.3 docker-compose启动/停止容器
 `docker-compose start/stop`
@@ -217,7 +217,7 @@ MINIOAccessKey:encoouser,MINIOSecretKey:Encoo123!@#
 使用条件：项目start过至少1次之后
 `./deplay.sh logConfig`
 
-![syh0013](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00013.png)
+![syh0013](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00013.png)
 
 修改之后使用命令重启服务：
 `./deplay.sh restart`
@@ -235,7 +235,7 @@ MINIOAccessKey:encoouser,MINIOSecretKey:Encoo123!@#
 
 1. 老版本目录结构
    
-   ![syh0014](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00014.png)
+   ![syh0014](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00014.png)
    
    ● dbdata：MySql持久化数据
    
@@ -243,7 +243,7 @@ MINIOAccessKey:encoouser,MINIOSecretKey:Encoo123!@#
    
 2. 新版结构目录
    
-   ![syh0015](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00015.png)
+   ![syh0015](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00015.png)
 
    ● data/mysql/dbdata：MySql持久化数据
    
@@ -275,17 +275,17 @@ cd到新版本控制台目录下，执行以下命令将mysql/minio数据拷贝�
 
 `sh deploy.sh init`
 
-![syh0016](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00016.png)
+![syh0016](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00016.png)
 
 ### 4.1.5启动服务
 `sh deploy.sh start`
 
-![syh0017](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00017.png)
+![syh0017](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00017.png)
 
 ### 4.1.6 清除localstorage
 浏览器打开旧地址，使用F12开发者工具，找到旧登录地址的localstorage，右键清除localstorage（两个都要清）
 
-![syh0018](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/syh00018.png)
+![syh0018](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/syh00018.png)
 
 ### 4.1.7 重新登陆
 重新刷新旧登录地址，用旧控制台账号登录（忽略部署完成后linux的提示，账号和流程都是和旧控制台一致）

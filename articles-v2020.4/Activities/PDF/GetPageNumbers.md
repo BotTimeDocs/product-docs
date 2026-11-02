@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：获取"D:\\滴滴电子发票 (1).pdf"文件的总页数，保存至变量`page_num`中。
 
-![配置获取页数组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetPageNumbers_2.png)
+![配置获取页数组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetPageNumbers_2.png)

@@ -7,7 +7,7 @@
 - **租户**：即公司，一个公司通常为一个租户。 
 - **资源组**：RPA 资源的分组，每个用户对不同的资源组拥有不同的访问权限，在 V4 版本的控制台中一个部门默认为一个资源组。
 
-![控制台租户关联关系](https://docimages.blob.core.chinacloudapi.cn/images/Console/oragination20210629.png)
+![控制台租户关联关系](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/oragination20210629.png)
 
 - **租户与资源组相关说明：**
     - 控制台管理后台可以创建多个公司（租户），公司与公司之间可以设定上级公司与子公司的关系
@@ -34,7 +34,7 @@
 
 1. 在云扩 RPA 控制台的 **全局管理 > 组织架构管理** 中，单击“+”，新建部门。
 
-    ![创建部门](https://docimages.blob.core.chinacloudapi.cn/images/Console/createdepartment20210329.png)
+    ![创建部门](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/createdepartment20210329.png)
 
 2. 单击“确定”按钮后，完成部门或子部门的创建。
 
@@ -48,12 +48,12 @@
 
 1. 在“用户管理”选项页，单击“**+邀请用户**”，为选择的部门添加用户信息。
 
-   ![添加用户](https://docimages.blob.core.chinacloudapi.cn/images/Console/saveuser20210329.png)
+   ![添加用户](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/saveuser20210329.png)
 
 2. (可选)单击“**保存并继续添加**”按钮，将保存已添加的用户并继续添加新的用户信息。
 3. 单击“**保存**”按钮，在用户信息列表页面可看到已添加的用户信息。
 
-   ![用户信息列表](https://docimages.blob.core.chinacloudapi.cn/images/Console/userlist20210329.png)
+   ![用户信息列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/userlist20210329.png)
 
 ## 配置部门数据权限
 
@@ -61,7 +61,7 @@
 
 1. 单击页面右上角的“编辑”按钮，可配置部门数据权限。
 
-    ![配置部门数据权限](https://docimages.blob.core.chinacloudapi.cn/images/Console/settingdataprivige20210630.png)
+    ![配置部门数据权限](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/settingdataprivige20210630.png)
 
     - **是否继承上级权限**：若选择“继承上级权限”，系统将会根据自定义权限及继承来的上级权限综合计算得出最终权限。
     - **用户权限**：配置部门中用户对资源的访问权限。

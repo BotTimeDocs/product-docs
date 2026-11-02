@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将数据`1234560.789`以数值类型且保留两位小数输出至变量`变量b`中。
 
-![配置数据格式化组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FormatData2.png)
+![配置数据格式化组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/FormatData2.png)

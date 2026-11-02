@@ -164,7 +164,7 @@
     <td class="tg-nrix">涉及知识点</td>
   </tr>
   <tr>
-    <td class="tg-nrix" colspan="2" rowspan="9"><img src="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/%E6%8C%87%E5%8D%97%E4%B8%89pic.png" width="620" height="150"></td>
+    <td class="tg-nrix" colspan="2" rowspan="9"><img src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/%E6%8C%87%E5%8D%97%E4%B8%89pic.png" width="620" height="150"></td>
   </tr>
   <tr>
   </tr>

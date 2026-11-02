@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：通过单击该组件的“指定元素”，获取界面元素存储到输出变量的“控件元素”属性中。
 
-![配置获取元素组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElement1.png)
+![配置获取元素组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getElement1.png)

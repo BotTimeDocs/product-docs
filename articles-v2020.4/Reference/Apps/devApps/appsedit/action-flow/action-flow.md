@@ -8,7 +8,7 @@
 2. 在弹窗内输入动作流名称，并选择动作流所属页面
 3. 单击“确定”，即可在应用内添加一个空白动作流
 
-    ![新建动作流](https://docimages.blob.core.chinacloudapi.cn/images/Kris/addactionflow.jpg)
+    ![新建动作流](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/addactionflow.jpg)
 
 >**说明：**
 >
@@ -23,13 +23,13 @@
 2. 从动作流组件视图拖入动作流组件到动作流编辑器
 3. 配置动作流组件属性
 
-    ![编辑动作流](https://docimages.blob.core.chinacloudapi.cn/images/Kris/editactionflow.jpg)
+    ![编辑动作流](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/editactionflow.jpg)
 
 ## 运行动作流
 
 当动作流开发完成后，你可以通过在动作流编辑器顶部栏单击“运行”来运行动作流，查看运行结果。
 
-![运行动作流](https://docimages.blob.core.chinacloudapi.cn/images/Kris/runactionflow.jpg)
+![运行动作流](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/runactionflow.jpg)
 
 ## 调用动作流
 
@@ -37,4 +37,4 @@
 2. 选择需要触发动作流的组件，在“事件”属性中，单击“添加事件”，添加相应事件
 3. 单击“添加动作”，选择“执行动作流”并关联已创建完成的动作流
 
-    ![调用动作流](https://docimages.blob.core.chinacloudapi.cn/images/Kris/invokeactionflow.jpg)
+    ![调用动作流](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/invokeactionflow.jpg)

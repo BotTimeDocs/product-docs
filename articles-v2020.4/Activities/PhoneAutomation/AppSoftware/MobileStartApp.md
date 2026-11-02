@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：打开指定的手机端APP应用软件。 
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingopenapp20201222.png)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingopenapp20201222.png)

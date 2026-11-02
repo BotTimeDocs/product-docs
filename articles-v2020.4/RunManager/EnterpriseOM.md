@@ -64,21 +64,21 @@
     > **说明：**
     > 如下表格中，除标注【非必须】的条目，其他须由客户提供。
 
-    ![控制台配置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console-one.png)
+    ![控制台配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console-one.png)
 
 - Docker Swarm多节点部署
     多节点部署方案最少需要三台机器组成Docker Swarm集群，控制台相关服务以容器化的方式部署于三节点Swarm集群中。
     > **说明：**
     > 此种部署方案，需要客户额外提供Mysql，Redis以及兼容S3接口的对象存储服务。
 
-    ![控制台配置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console-swarm1.png)
+    ![控制台配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console-swarm1.png)
 
 - k8s部署
     k8s部署方案适用于客户已存在k8s基础平台的场景，集群需具备通过ingress暴露服务的能力。
     > **说明：**
     > 云扩不提供k8s集群的搭建和运维。与多节点部署类似，此种部署方案，需要客户额外提供Mysql，Redis以及兼容S3接口的对象存储服务。
 
-    ![控制台配置](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console-K8S.png)
+    ![控制台配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console-K8S.png)
 
 
 
@@ -141,7 +141,7 @@ cd  /app
 # swarm集群初始化，创建Swarm集群
 docker swarm init
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console53.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console53.png)
 
 2. CentosB,CentosC 服务器中执行以下相同操作，执行节点加入Swarm集群的命令
 ````
@@ -150,7 +150,7 @@ cd  /app
 #执行如下命令，加入到Swarm集群中，以下命令取自上一步执行结果的内容
 docker swarm join --token SWMTKN-1-3qe4y4fz7wyhk6rzkbn3sdsx297ck7lrg0lxt3iqsdoh5y4zz1-0bgesujg10h2tpfzn5kxf69yp 172.18.0.16:2377
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console54.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console54.png)
 
 
 3. CentosA 服务器上进入以下操作，查看Swarm 集群状态，执行集群节点加入管理集群节点的命令
@@ -160,23 +160,23 @@ cd  /app
 #查看Swarm集群状态
 docker  node  ls
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console06.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console06.png)
 
 ````
 #设置集群管理节点，节点id取自上一步操作执行结果的id
   docker  node  promote  mdvemqwhj9sj04w0zmazans7i
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console07.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console07.png)
 
 ````
 docker  node  promote  6uxufag8ihz9fx86bwl35zf6f
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console08.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console08.png)
 
 ````
 #设置完成后，类似于如下图  
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console09.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console09.png)
 
 
 
@@ -232,7 +232,7 @@ www.s3storage.com (S3对象储存服务域名) </br>
 #控制台初始化， 
 sh  ha-deploy.sh  init
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console10.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console10.png)
 > **说明：**
 > 1，注释:红框内容是根据客户提供的资源，选项存储对象和redis信息,此处是客户提供redis和存储服务; 是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
 
@@ -255,7 +255,7 @@ www.rpadomain.com:$port (S3对象储存服务域名) </br>
 #控制台初始化
 sh ha-deploy.sh init
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console11.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console11.png)
 > **说明：**
 > 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户提供了Redis，因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)。
 
@@ -279,7 +279,7 @@ s3storageport>需要跟客户确认提供的存储服务的端口$port  </br>
 #初始化控制台
 sh ha-deploy.sh init
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console12.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console12.png)
 > **说明：**
 > 1，注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户没有提供Redis和对象存储，Redis和对象存储使用的私有化安装包自带的。因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主。
 
@@ -289,13 +289,13 @@ sh ha-deploy.sh init
 cat .userconfig
 ````
 - IP+端口访问方式：
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console15.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console15.png)
 
 - 多域名访问方式：
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console16.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console16.png)
 
 - 单域名访问方式：
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console17.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console17.png)
 > **说明：**
 > 1，注释:红框内容就是生成的访问各种服务的URL地址，实际地址以客户提供为准
 
@@ -305,7 +305,7 @@ cat .userconfig
 #执行部署服务操作
 sh ha-deploy.sh start
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console18.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console18.png)
 
 
 ###### 公司初始化，上传安装包命令操作
@@ -313,7 +313,7 @@ sh ha-deploy.sh start
 #查看服务是否全部启动，
 docker service ls
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console19.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console19.png)
 > **说明：**
 > 1，注释：上图中 REPLICAS 列对应的副本数，斜杠左右两边数字一致，表明服务已全部启动)
 
@@ -321,12 +321,12 @@ docker service ls
 #等服务全部启动成功之后，才能进行公司初始化操作命令
 sh ha-deploy.sh organizationUserCompanyInit
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console20.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console20.png)
 
 ````
 #执行上传安装包操作命令
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console21.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console21.png)
 
 
 ##### Swarm 高可用验证
@@ -337,16 +337,16 @@ cd  /app
 # 查看Swarm服务状态
 docker  service  ls
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console22.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console22.png)
 
 > **说明：**
 > 1，REPLICAS 对应列，左右边的数值都保持相同了，说明服务已全部启动。
 
 ##### 客户端浏览器访问控制台
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console23.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console23.png)
 
 在浏览器中输入登录地址
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console24.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console24.png)
 
 
 ##### 高可用控制台的升级
@@ -394,12 +394,12 @@ cd  /app/ consolev4pvt-4.1.118041/swarm
 #执行数据迁移操作
 sh ha-deploy.sh dataMigrationFoundation
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console25.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console25.png)
 
 ````
 sh ha-deploy.sh dataMigrationVicode
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console26.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console26.png)
 
 ###### CentosA 服务器上进行启动控制台服务操作
 ````
@@ -408,14 +408,14 @@ cd  /app/ consolev4pvt-4.1.118041/swarm
 #控制台开始部署,执行部署命令操作
 sh ha-deploy.sh start
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console27.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console27.png)
 
 ###### 公司初始化，上传安装包命令操作
 ````
 #查看服务是否全部启动，
 docker service ls
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console28.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console28.png)
 > **说明：**
 > 1，上图中 REPLICAS 列对应的副本数，斜杠左右两边数字一致，表明服务已全部启动
 
@@ -423,20 +423,20 @@ docker service ls
 #等服务全部启动成功之后，才能进行公司初始化操作命令
 sh ha-deploy.sh organizationUserCompanyInit
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console29.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console29.png)
 
 ````
 #执行上传安装包操作命令
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console30.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console30.png)
 
 
 ###### 客户端浏览器访问控制台
 ````
 #打开浏览器输入登录地址
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console31.png)
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console32.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console31.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console32.png)
 
 ##### 常规需求
 
@@ -494,7 +494,7 @@ apt-get install ansible -y
 # 版本验证
 ansible --version
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console33.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console33.png)
 
 
 **离线环境运行ansible容器**
@@ -691,7 +691,7 @@ kubectl apply -f k8s_pvt/yml/idsrv4-cer.yaml
 
 验证： </br>
 kubectl get secrets -n 命名空间 </br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console34.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console34.png)
 
 > **说明：**
 > 1，当host文件中配置 IS_DEPLOY="true"，则执行ansible-playbook命令时自动部署yml文件，下同。
@@ -712,7 +712,7 @@ kubectl apply -f k8s_pvt/yml/base/migratev4vicodeservicedata.yml
 
 验证数据迁移完成(Completed) </br>
 kubectl get pod -n 命名空间 </br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console35.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console35.png)
 
 
 如需重新执行某项数据迁移任务， 则需先删除之前的任务：
@@ -740,7 +740,7 @@ kubectl apply -f k8s_pvt/yml/configs
 
 验证 </br>
 kubectl get configmaps -n 命名空间 </br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console36.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console36.png)
 
 > **说明：**
 > 1，如果对象存储使用的是阿里云oss，则修改 roles/configs/templates/console如果对象存储使用的是阿里云oss，则修改 roles/configs/templates/consoleconfigs/appsettingsconfigs/appsettingsstorage.json.j2中间的S3Type，修改为 "S3Type": "Aliyun" 后再执行ansible-playbook命令。storage.json.j2中间的S3Type，修改为 "S3Type": "Aliyun" 后再执行ansible-playbook命令。
@@ -761,7 +761,7 @@ kubectl apply -f k8s_pvt/yml/configs
 
 部署完成， 等待命名空间下所有pod status 为 Running 并且 ready 为1/1
 kubectl get pod -n 命名空间
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console37.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console37.png)
 
 ###### 初始化公司及其管理员账户/上传安装包
 
@@ -783,13 +783,13 @@ kubectl apply -f k8s_pvt/yml/base/organizationusercompanyinit.ym
 ````
 kubectl get pod -n 命名空间 | grep -E "organizationusercompanyinit|installeruploader"
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console38.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console38.png)
 
 通过 kubectl -n 命名空间  logs organizationusercompanyinit-xxxx 查看初始化公司及其管理员账户执行结果， 如返回200/201或400则初始化成功 
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console39.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console39.png)
 
 通过 kubectl logs  -n 命名空间 installeruploader-xxxxx | tail  查看上传安装包执行结果， 如日志最后提示为completed 上传安装包完成则上传安装包成功
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console40.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console40.png)
 
 如需重新执行初始化公司及其管理员账户或者上传安装包任务， 则需先删除之前的任务
 ````
@@ -836,8 +836,8 @@ apigateway-websocket-ingress   <none>  gateway.pvttest.com   IP地址       80  
 ````
 
 所有域名添加记录解析， 客户端浏览器访问控制台前端站点URL:
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console41.png)
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console42.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console41.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console42.png)
 
 部署完成后可备份部署相关文件并保存至本地
 ````
@@ -864,19 +864,19 @@ kubectl get -n encoo-pvt4 pod,service,configmaps,secret,ingress,job
 
 上传流程包出错，通过F12调试控制台显示跨域错误</br>
 Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource 
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console43.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console43.png)
 
 **解决方法:**</br>
 对象存储配置跨域规则(一般联系客户配置)，例如
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console44.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console44.png)
 
 
 
 2. 新建连接管理显示异常</br>
 数据中心->连接管理->新建 显示异常</br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console45.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console45.png)
 或者 文件服务->新建文件夹->绑定连接器-新建文件类连接 显示异常</br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console46.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console46.png)
 
 **解决方法:**</br>
 删除dataentity服务pod后让其重新生成pod</br>
@@ -884,11 +884,11 @@ Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has bee
 kubectl get pod -n 命名空间 | grep dataentity
 kubectl delete pod  -n 命名空间  pod名称kubectl delete pod  -n 命名空间  pod名称
 ````
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console47.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console47.png)
 
 验证：</br>
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console48.png)
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console49.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console48.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console49.png)
 
 
 ##### 升级
@@ -964,7 +964,7 @@ kubectl version
 ### 跨数据中心部署架构
 多数据中心部署架构示意如下， 主要模式为主从备份和主主多活。
 
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console50.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console50.png)
 
 **如需详细讲解请联系我们：400-639-2198**
 
@@ -981,9 +981,9 @@ kubectl version
 在编辑器登录控制台账号后就可使用，可以发布和新建/打开私有市场中的组件、流程和元素项目。
 
 - 发布
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console51.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console51.png)
 - 新建/打开
-![info](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-console52.png)
+![info](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-console52.png)
 - 权限如何设置
 目前所有人都可使用私有市场，暂无权限设置。
 

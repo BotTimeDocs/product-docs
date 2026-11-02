@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：向数据库中已有的数据表 `testdemo` 中插入已搭建的数据表 `outtable` 中的数据。
 
-![插入数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/insertdata20210924.png)
+![插入数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/insertdata20210924.png)

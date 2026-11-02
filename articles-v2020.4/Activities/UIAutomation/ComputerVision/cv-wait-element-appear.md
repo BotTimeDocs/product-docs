@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，指定该区域中的某一个界面元素，当该元素出现时，将结果输出到输出面板中。
 
-![配置 CV 等待元素出现](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvwaitelementappear20211109.png)
+![配置 CV 等待元素出现](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvwaitelementappear20211109.png)

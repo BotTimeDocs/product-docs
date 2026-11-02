@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：在执行完“打开浏览器”组件后，等待5秒后，再执行“输入文本”组件。
 
-![配置延迟组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/delay-2.png)
+![配置延迟组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/delay-2.png)

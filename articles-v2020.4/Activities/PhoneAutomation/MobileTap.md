@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：实现点击手机端“学习强国”应用并打开该应用的效果。
 
-![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tap20201222.png)
+![指定元素](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/tap20201222.png)

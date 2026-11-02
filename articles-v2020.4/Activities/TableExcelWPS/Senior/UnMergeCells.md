@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：取消合并指定工作表“Sheet1”中待取消合并的数据所在单元格“A14”。
 
-![配置取消单元格合并组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SettingUnMergeCells20210722.png)
+![配置取消单元格合并组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SettingUnMergeCells20210722.png)

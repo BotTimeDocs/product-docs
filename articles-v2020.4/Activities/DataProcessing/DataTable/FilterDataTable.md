@@ -38,7 +38,7 @@
 
 **此流程执行逻辑**：在已搭建的数据表中筛选“姓名”列中包含“张三”的数据。
 
-![配置筛选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FilterDataTable20201229.png)
+![配置筛选组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/FilterDataTable20201229.png)
 
 >**说明：**
 >

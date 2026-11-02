@@ -37,4 +37,4 @@
 
 **此流程执行逻辑**：获取指定的部门`"默认资源组"`下的资产`"测试字符串"`，结果保存至`result`变量中。
 
-![配置获取资产组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetAssets_3.png)
+![配置获取资产组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetAssets_3.png)

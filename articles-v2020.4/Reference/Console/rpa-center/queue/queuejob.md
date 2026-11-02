@@ -2,11 +2,11 @@
 
 若需要查看某一机器人组当前或历史的任务执行情况，在机器人组详情页面，单击“查看任务”选项页，可进入“机器人组任务列表”页面。
 
-![查看机器人组任务](https://docimages.blob.core.chinacloudapi.cn/images/Console/viewqueuejob20210629.png)
+![查看机器人组任务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/viewqueuejob20210629.png)
 
 你可以查看所有被指派到机器人组执行的流程任务的执行状况。你也可以在该页面中查看任务详情、任务日志，同时进行组任务优先级调整、终止等操作。
 
-![job](https://docimages.blob.core.chinacloudapi.cn/images/Console/queue/V3queue8.png)
+![job](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/queue/V3queue8.png)
 
 >**说明：**
 >

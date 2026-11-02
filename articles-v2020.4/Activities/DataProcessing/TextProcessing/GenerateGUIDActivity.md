@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：生成一个随机的 GUID 字符串。
 
-![配置生成 GUID 组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GenerateGUIDActivity2021010501.png)
+![配置生成 GUID 组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GenerateGUIDActivity2021010501.png)

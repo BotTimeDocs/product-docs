@@ -53,11 +53,11 @@
    6 docker load -i ./console-web-v4-pvt-4.1.76383.tar
    ```
 
-   ![加载镜像](https://docimages.blob.core.chinacloudapi.cn/images/8db01643-b388-44f2-9f7a-c563b68d75d9.png)
+   ![加载镜像](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/8db01643-b388-44f2-9f7a-c563b68d75d9.png)
 
 2. 修改系统配置文件.systemconfig中，对应镜像版本号（**<font color="red">若更新的为低代码相关镜像，则需修改vicode文件夹下的.systemconfig文件</font>**）
 
-   ![修改系统配置文件](https://docimages.blob.core.chinacloudapi.cn/images/2dadc55b-6328-46a8-a0be-448321728d4c.png)
+   ![修改系统配置文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/2dadc55b-6328-46a8-a0be-448321728d4c.png)
 
    > 请务必更新.systemconfig中的镜像版本号，否则有可能导致后续重启控制台后，镜像更新失效
 
@@ -67,7 +67,7 @@
 
    ​		  i. 修改docker-compose.service.yml文件中，对应服务image字段为需要更新的镜像版本名称。（**<font color="red">一般此处需要跟相关开发确认替换哪几个服务的镜像。当然也可将文件中相同的镜像名全部更新为新的tag</font>**）。例如，此处需要更新控制台前端服务，其镜像名为encoo/console-web-v4-pvt，则修改文件中的同名镜像的tag为上一步load命令显示的tag。
 
-   ![新版本](https://docimages.blob.core.chinacloudapi.cn/images/c5a8519d-2e98-4a0c-9481-a900a521dc1e.png)
+   ![新版本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/c5a8519d-2e98-4a0c-9481-a900a521dc1e.png)
 
    > 若更新低代码服务镜像，则需要修改vicode文件夹下的docker-compose.yml文件
 
@@ -75,7 +75,7 @@
 
    ​		  i. 修改docker-compose.yml文件中，对应服务image字段为需要更新的镜像版本名称。
 
-   ![老版本](https://docimages.blob.core.chinacloudapi.cn/images/21ad7a41-3579-48fc-a25f-e70f3f03d857.png)
+   ![老版本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/21ad7a41-3579-48fc-a25f-e70f3f03d857.png)
 
 4. 应用修改之后的yml
 
@@ -87,5 +87,5 @@
    5 ./deploy.sh restart
    ```
 
-5. 执行docker ps -a，查看IMAGE列，服务是否已更新为新镜像![查看IMAGE列](https://docimages.blob.core.chinacloudapi.cn/images/cb90e061-f97e-42d7-8ccd-5778487b7c39.png)
+5. 执行docker ps -a，查看IMAGE列，服务是否已更新为新镜像![查看IMAGE列](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cb90e061-f97e-42d7-8ccd-5778487b7c39.png)
 

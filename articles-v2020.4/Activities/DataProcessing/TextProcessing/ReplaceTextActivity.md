@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将源文本 `text` 变量中的需替换的 `oldText` 变量中的内容，替换为 `newTeXT` 变量中的内容，结果保存至变量 `result` 中。
 
-![配置替换文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReplaceTextActivity2021010502.png)
+![配置替换文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReplaceTextActivity2021010502.png)

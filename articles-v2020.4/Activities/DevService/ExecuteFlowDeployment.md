@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：以组件的形式，选择企业版控制台中“RPA 管理 > 流程部署”中已创建的“流程部署”并在编辑器中直接执行。
 
-![执行流程部署](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executeflowdeployment20210914.png)
+![执行流程部署](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/executeflowdeployment20210914.png)

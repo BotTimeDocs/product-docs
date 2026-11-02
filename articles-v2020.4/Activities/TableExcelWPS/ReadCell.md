@@ -33,6 +33,6 @@
 
 **此流程执行逻辑**：读取EXCEL“sheet1”中的“A1”单元格中的内容至“sheet1”中的“A2”单元格中。
 
-![配置读取单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell1.png)
+![配置读取单元格组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadCell1.png)
 
 **后置必要组件**：[写入单元格](../TableExcelWPS/WriteCell.md)

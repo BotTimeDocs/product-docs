@@ -4,7 +4,7 @@
 
 组件在页面内可以叠加多次使用，新添加的组件将自动添加在页面已有组件下方。
 
-![页面组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/uicomponent.jpg)
+![页面组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/uicomponent.jpg)
 
 页面组件主要分为以下几类：
     
@@ -18,18 +18,18 @@
 
 你可以选中页面，从组件视图拖拽组件至页面内，或双击组件，组件将自动添加至当前选中页面。
 
-![添加组件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/addcomptents20210608.png)
+![添加组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/Apps/addcomptents20210608.png)
 
 ## 删除页面组件
 
 在应用的编辑界面，有如下几种方式可删除组件：
 - 方式一：选中组件，单击组件导航中的“删除”图标。
 
-    ![删除组件方式一](https://docimages.blob.core.chinacloudapi.cn/images/Kris/deletepagecomponent1.jpg)
+    ![删除组件方式一](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/deletepagecomponent1.jpg)
 
 - 方式二：在大纲视图中，选中组件名称，右击选择“删除”选项。
 
-    ![删除组件方式二](https://docimages.blob.core.chinacloudapi.cn/images/Kris/deletepagecomponent2.jpg)
+    ![删除组件方式二](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/deletepagecomponent2.jpg)
 
 >**说明：**
 >

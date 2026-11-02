@@ -39,7 +39,7 @@
 
 **此流程执行逻辑**：在某个有右侧滚动条的网页中，向下滚动20次，到达指定位置。
 
-![配置鼠标滚动（中键）](https://docimages.blob.core.chinacloudapi.cn/images/Activities/wheel20211231.png)
+![配置鼠标滚动（中键）](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/wheel20211231.png)
 ## 常见问题
 
 1. **Q：滚动触发不稳定，经常失效怎么办**</br>

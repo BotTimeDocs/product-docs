@@ -23,11 +23,11 @@
 **前置必要组件**：[Python 环境](../Python/PythonScope.md)
 **此流程执行逻辑**：执行本地 Python 文件中的 Python 代码段。
 
-![Python 代码编辑器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/python120210902.jpg)
+![Python 代码编辑器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/python120210902.jpg)
 
 设置参数：在设置参数对话框中创建参数，用于 Python 代码中传递参数。
 
-![Python 设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/python220210902.jpg)
+![Python 设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/python220210902.jpg)
 
 > **说明：**
 >
@@ -41,16 +41,16 @@
 
 **A：** 使用本地的 python 编译环境，不使用 Pycharm 里虚拟的编译环境。
 
-![python1](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pythonscript20210819.png)
+![python1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/pythonscript20210819.png)
 
 **2. Python 环境失败， xxx 不是有效的环境路径**
 
 **A：** 正确的环境路径是 python 的安装路径，找到正确的安装路径（目录下有 python.exe，和 Lib 文件夹）。
 
-![python2](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pythonenvironment20210819.png)
+![python2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/pythonenvironment20210819.png)
 
 **3. 缩进中 Tab/空格使用不一致**
 
 **A：**  删除出错行，统一使用 Tab 作为缩进。
 
-![python3](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pythonerror20210819.png)
+![python3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/pythonerror20210819.png)

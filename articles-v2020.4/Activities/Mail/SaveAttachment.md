@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：将获取到的收件箱中的第 1 封邮件中的附件，保存至本地计算机指定路径中。
 
-![配置保存附件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetOutlookMail2020122203.png)
+![配置保存附件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetOutlookMail2020122203.png)

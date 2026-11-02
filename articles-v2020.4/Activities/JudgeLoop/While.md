@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：直到满足循环条件时，才停止执行循环体。
 
-![设置while循环组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/While-3.png)
+![设置while循环组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/While-3.png)

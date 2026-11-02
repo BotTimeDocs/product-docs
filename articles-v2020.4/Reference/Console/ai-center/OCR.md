@@ -35,6 +35,6 @@
 > - 每个账号每天都会有免费试用额度。若试用额度不足，可在**控制台-AI中心**配置AI平台账号继续使用，具体参见 [AI服务管理](AIServiceManagement.md)。
 > - 在云扩RPA编辑器端使用控制台账号登录后，从组件库AI目录拖拽相应组件到设计面板即可使用
 
-![示例](https://docimages.blob.core.chinacloudapi.cn/images/Console/AICenter/AICompare.png)
+![示例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/AICenter/AICompare.png)
 
 

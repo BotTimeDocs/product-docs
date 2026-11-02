@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：指定等待消失的元素，将 **等待元素消失** 组件返回的结果输出至“输出面板”中。
 
-![配置等待元素消失](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingwaitelementvanish20201224.png)
+![配置等待元素消失](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingwaitelementvanish20201224.png)

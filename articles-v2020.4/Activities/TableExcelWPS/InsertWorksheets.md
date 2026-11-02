@@ -38,8 +38,8 @@
 **此流程执行逻辑**：在Excel工作簿中的指定工作表位置插入
 新的工作表“sheetNew”并复制工作表“Sheet1”的内容填充。
 
-![配置插入工作表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertWorksheets1.png)
+![配置插入工作表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InsertWorksheets1.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertWorksheets2.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InsertWorksheets2.png)

@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：将下载至计算机本地的指定应用，安装至手机端。
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/installapp20211215.jpg)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/installapp20211215.jpg)

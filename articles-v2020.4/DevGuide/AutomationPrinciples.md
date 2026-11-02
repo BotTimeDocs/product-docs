@@ -61,7 +61,7 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
 
 <br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/UIA&IA-yolanda.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/UIA&IA-yolanda.png"/>
 
 <br>
 
@@ -83,14 +83,14 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/自动化工具-Yolanda.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/自动化工具-Yolanda.png"/>
 
 <br><br>
 
 
 * Web自动化依赖云扩开发的 Web Extension(插件/扩展) 作为通讯媒介，从而实现控制对应的JavaScript脚本到指定Web页面。 所以要使用Web自动化浏览器均需要提前安装对应的Web Extension扩展（IE除外）。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/现行web自动化架构-Yolanda.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/现行web自动化架构-Yolanda.png"/>
 
 <br><br>
 
@@ -101,7 +101,7 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
 
 * JAB 以官方的Java Access Bridge为基础，对其部署方式做了增强。以及对AWT组件和自定义组件的可访问性做了一定的扩充。支持录制Java应用，如EAS，NC等，使用前需要安装Java扩展。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/java运行时-Yolanda.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/java运行时-Yolanda.png"/>
 
 <br><br>
 
@@ -110,7 +110,7 @@ RPA中的自动化指的是"**软件自动化**"，是指在计算机上，用�
 SAP面向SAP Logon客户端，基于SAP GUI Scripting技术。通过对已有接口的封装，SAP录制技术向用户提供更灵活丰富的录制执行功能，使用前，需进行一系列配置已启用SAP的脚本执行功能。
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/SAP脚本执行功能-Yolanda.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/SAP脚本执行功能-Yolanda.png"/>
 
 
 * [如何配置SAP ？](../Activities/UIAutomation/SAP/SAP%20Configuration.md)
@@ -156,7 +156,7 @@ SAP面向SAP Logon客户端，基于SAP GUI Scripting技术。通过对已有接
 
 描述符仅适用于CV元素，结构如图：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/表达式编辑器-Yolanda.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/表达式编辑器-Yolanda.png"/>
  
 **描述符内容说明：**
 1. 每条关键信息由+号隔开；
@@ -174,7 +174,7 @@ SAP面向SAP Logon客户端，基于SAP GUI Scripting技术。通过对已有接
 选择器是一个支持查看所指定元素的详细信息的窗口，同时提供编辑功能，用户可以自定义指定元素信息。
 **选择器**结构--如图所示：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/选择器结构图-Yolanda.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/选择器结构图-Yolanda.png"/>
 
 **选择器内容说明：**
 
@@ -437,7 +437,7 @@ Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插�
 
 ### (1) 独立桌面
 
-![独立桌面](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/独立桌面-Yolanda.png)
+![独立桌面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/独立桌面-Yolanda.png)
 
 独立桌面功能使您可以与机器人协作运行有人值守的流程。以“独立桌面”模式启动的流程在独立的 Windows 会话中运行。
 
@@ -453,7 +453,7 @@ Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插�
 
 ### (2) Session保持
 
-![session保持](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/session保持-Yolanda.png)
+![session保持](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/session保持-Yolanda.png)
 
 这个选项是为了让这个会话在断开后立马创建一个新的会话，这样远程的VM就可以始终保持有一个会话连接，流程就不会因为会话中断而执行失败了。
 
@@ -472,7 +472,7 @@ Windows屏幕解锁扩展|&nbsp; <br>流程自动执行屏幕解锁的必要插�
 
 使用方式是在流程中添加”锁屏运行“，再在该组件之后添加的流程就会在锁屏后运行：
 
-![锁屏运行](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/锁屏运行-Yolanda.png)
+![锁屏运行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/锁屏运行-Yolanda.png)
 
 
 也可使用”屏保运行“组件来达到类似的效果而无需强制锁屏，使用方法与”锁屏运行“一致。

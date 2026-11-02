@@ -4,7 +4,7 @@
 #### Q：单机部署文档里面，Docker-compose 软件包 是哪里下载的 ？
 
 <br>
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A7_00003.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A7_00003.png"/>
 
 
 <font color=5a6877> 【解决方法A7_00003】:
@@ -29,7 +29,7 @@ rm -rf data/minio/v2-robot*
 ```
 控制台目录结构
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/15-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/15-1.png"/>
 
 
  </font><br><br>

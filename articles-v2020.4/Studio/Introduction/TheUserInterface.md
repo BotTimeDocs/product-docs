@@ -4,14 +4,14 @@
 
 ## 开始主页
 
-![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/start20211124.png)
+![开始主界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/start20211124.png)
 
 1. **常用** — 新建流程项目和导入项目。
 2. **最近** — 打开您最近处理过的项目。可以进行 **打开项目所在的文件夹**、**导出项目**、**删除项目** 和 **从最近使用列表中删除** 操作；单击 **更多项目** 链接，展开更多的最近处理过的项目，且可模糊搜索 **最近使用** 列表。
 
 ### 新建
 
-![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/new20211124.png)
+![新建](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/new20211124.png)
 
 1. **新建** — 新建流程项目、组件项目、元素项目。
 2. **从模板新建** — 从预定义的模板开始一个新项目。
@@ -19,7 +19,7 @@
 
 ### 打开
 
-![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/indexopen20201118.png)
+![打开](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/indexopen20201118.png)
 
 1. **最近使用** — 打开您最近处理过的项目。
 2. **本地项目** — 本地电脑中已有的项目。
@@ -33,7 +33,7 @@
 
 ### 工具
 
-![工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/tool20211124.png)
+![工具](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/tool20211124.png)
 
 1. **应用** — 支持 **元素探测器** 应用小工具、移动设备管理器、云扩浏览器工具。
 2. **扩展** — 可以快速安装各种扩展程序，以对不同的应用进行自动化。
@@ -56,14 +56,14 @@
 
 **帮助** 可将您定向到在线课程、产品文档、发行说明、在线资源，社区论坛和官网。您还可以在 **帮助** 页面中找到有关产品版本等信息。
 
-![帮助信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/help20210317.png)
+![帮助信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/help20210317.png)
 
 - **更新说明**：单击“更新说明”链接，可查看当前版本的编辑器已新增或优化的功能点。
 - **修改**：单击“修改”链接，可进行登录激活方式（个人版、企业版）切换。
 
 ## 编辑器主页
 
-![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Activities/studiooverview20211231.png)
+![编辑器主界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/studiooverview20211231.png)
 
 1. **导航栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。
 2. **菜单栏** — 一种树形结构，为编辑器提供一些功能入口。
@@ -79,7 +79,7 @@
 
 **项目面板** 以树形结构的方式显示你创建的全部的项目内容。
 
-![项目面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/projectpanel20211231.png)
+![项目面板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/projectpanel20211231.png)
 
 项目面板提供一些按钮，对项目进行保存操作，来帮助你完成自动化流程的快速实现。
 
@@ -123,7 +123,7 @@
 
 **大纲面板** 用于显示当前流程文件的层级结构。通过在大纲中选中某一组件来定位到编辑区域的组件，也可以通过在编辑区域选择组件来显示大纲中的组件。
 
-![大纲面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/guideline20201019.png)
+![大纲面板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/guideline20201019.png)
 
 ### 组件面板
 
@@ -135,27 +135,27 @@
 >
 > - 对于最近常用、已收藏的组件，将在组件面板上的“最近使用”或“我的收藏”列表中展示，方便快速查找和使用。
 
-![组件面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/activitypanel20210701.png)
+![组件面板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/activitypanel20210701.png)
 
 ### 调试面板
 
 - **调试面板** 主要显示与运行和调试有关的所有信息。
 
-  ![运行时](https://docimages.blob.core.chinacloudapi.cn/images/Studio/debug20211231.png)
+  ![运行时](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/debug20211231.png)
 
     - **调试** 主要通过对流程设置断点，进而识别并清除流程中的错误，完善该流程并提高其正确性。当调试时，将会同时打开变量面板和输出面板，显示相关调试信息。有关调试的详细信息，请查看 [调试](../process/Debugging/Debugging.md?_v=v2020.4)。
 
-      ![调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-debug.png)
+      ![调试](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/toolbar-debug.png)
 
 - **断点管理面板** 主要用于集中对流程中的断点进行管理，包括启用断点、禁用断点、删除断点操作。
 
-  ![断点管理](https://docimages.blob.core.chinacloudapi.cn/images/Studio/breakpointmanagement20210508.png)
+  ![断点管理](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/breakpointmanagement20210508.png)
 
 ### 版本控制面板
 
 **版本控制面板** 用于记录项目中文件内容的变化，以便将来查看指定版本的修订情况。单击“启用”，开启版本控制功能。
 
-![版本控制](https://docimages.blob.core.chinacloudapi.cn/images/Studio/versioncontrol20210701.png)
+![版本控制](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/versioncontrol20210701.png)
 
 ### 市场面板
 
@@ -169,13 +169,13 @@
 
 有关市场的详细信息，请查看 [云扩市场](../market/Market.md?_v=v2020.4)。
 
-![市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/marketpanel20201019.png)
+![市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/marketpanel20201019.png)
 
 ### 个人信息
 
-通过点击菜单栏右侧的 ![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-user.PNG) 打开 **个人信息** 以及退出登录。
+通过点击菜单栏右侧的 ![个人信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/toolbar-user.PNG) 打开 **个人信息** 以及退出登录。
 
-![个人信息](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/toolbar-usersetting.png)
+![个人信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/toolbar-usersetting.png)
 
 ### 快速访问页
 
@@ -185,7 +185,7 @@
 >
 > 若不希望在打开项目时打开此页面，可在“开始 > 设置 > 项目”中设置为不勾选“打开项目时显示快速访问页”选项。
 
-![快速访问页](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/quickstart20210317.png)
+![快速访问页](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/quickstart20210317.png)
 
 - **快速打开**：从项目面板中拖拽需要快速打开的流程文件(xaml 类型)至“添加文件”区域。单击该文件，即可快速打开。
 
@@ -207,21 +207,21 @@
 
 **编辑区域** 显示你正在进行的项目，你可以对其进行更改。而在编辑区域的底部导航栏能够让你快速访问变量、参数以及导入命名空间。
 
-![设计](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/design.png)
+![设计](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/design.png)
 
 - 通过双击某一个组件，可以查看此组件的具体内容，也可以对其进行属性的添加和更改。
 
-- 通过点击 ![移动画布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/movethecanvas.png) 图标，按住空格键或按鼠标中键来激活平移模式。
+- 通过点击 ![移动画布](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/movethecanvas.png) 图标，按住空格键或按鼠标中键来激活平移模式。
 
-- 通过按住 Ctrl+鼠标滚动方式更改缩放级别，然后点击 ![重置为 100%](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/100%25.png) 图标将其重置为 100%。
+- 通过按住 Ctrl+鼠标滚动方式更改缩放级别，然后点击 ![重置为 100%](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/100%25.png) 图标将其重置为 100%。
 
-- 通过点击 ![自适应](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/self-adaption.png) 图标，使整个自动化项目按照编辑区域的大小进行自适应。
+- 通过点击 ![自适应](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/self-adaption.png) 图标，使整个自动化项目按照编辑区域的大小进行自适应。
 
 ### 上下文菜单
 
 通过上下文菜单，你可以对当前组件进行多种操作，例如复制、粘贴、删除等。在当前组件区域点击鼠标右键即可打开上下文菜单。
 
-![编辑区域菜单](https://docimages.blob.core.chinacloudapi.cn/images/Studio/rightmenu20210701.png)
+![编辑区域菜单](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/rightmenu20210701.png)
 
    |选项         |描述|
    |----------------|---------------------------------------|
@@ -257,7 +257,7 @@
 >
 > 输入属性值时，若属性值为字符串，需要将字符串放在英文双引号中。
 
-![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/properties.png)
+![属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/properties.png)
 
 ### 输出面板
 
@@ -271,4 +271,4 @@
 >
 > 每次运行或调试项目时，将会自动清除此面板中存储的日志信息。
 
-![属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/outputPanel.png)
+![属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/outputPanel.png)

@@ -33,8 +33,8 @@
 
 **此流程执行逻辑**：指定 SAP 应用中的“SAP 菜单”元素，然后从返回的详细菜单条目下拉框中选择所需要打开的页面选项。
 
-![配置选择 SAP 项组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-2.png)
+![配置选择 SAP 项组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sapSelectItem-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapSelectItem-3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sapSelectItem-3.png)

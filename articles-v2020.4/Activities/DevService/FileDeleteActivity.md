@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：选择需要删除的控制台文件服务中的文件或文件夹路径`"Test_demo/执行CSharp代码.xaml"`。
 
-![选择需要删除的文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletefile20210105.png)
+![选择需要删除的文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deletefile20210105.png)

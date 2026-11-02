@@ -6,7 +6,7 @@
 >
 > 一个组件可以定义多个不同事件，一个事件可以包含多个相同或不同的动作，多个动作组成一个动作流并按顺序自上而下依次运行。
 
-![事件](https://docimages.blob.core.chinacloudapi.cn/images/Kris/event.jpg)
+![事件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/event.jpg)
 
 - 跳转到新页面：跳转至指定的页面。
 - 跳转到上一页：返回上一个页面。

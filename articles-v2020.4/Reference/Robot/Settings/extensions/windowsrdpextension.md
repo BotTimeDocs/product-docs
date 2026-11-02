@@ -15,13 +15,13 @@
 1. 在 Studio 的 **开始 > 工具 > 扩展** 页面中， 找到“Windows 远程桌面扩展”。
 2. 单击“Windows 远程桌面扩展”图标，以安装云扩 Windows 远程扩展程序，根据向导提示进行安装。
 
-    ![Windows 远程桌面扩展入口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/windowsrdp20210324.png)
+    ![Windows 远程桌面扩展入口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/windowsrdp20210324.png)
 
 ### 设置远程桌面计算机
 
 Encoo Remote Runtime 为运行在 RDP 远程端上的组件，可以使 RDP 远程桌面或远程应用程序与 RDP 本地扩展进行通信，从而可以在本地产生选择器并执行自动化操作。
 
-1. 下载远程服务端 [Encoo Remote Runtime 安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Encoo.RemoteRuntime.Setup.exe)。
+1. 下载远程服务端 [Encoo Remote Runtime 安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Encoo.RemoteRuntime.Setup.exe)。
 2. 在需要自动化的 RDP 应用程序服务器上安装 Encoo Remote Runtime 安装包。
 3. （可选）当您需要在远程机器上自动化浏览器或者 Java 应用程序时，需要在服务器上安装对应的扩展，以取得更好的自动化支持。
 

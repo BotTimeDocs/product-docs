@@ -33,10 +33,10 @@
     >
     > - 文本模式（默认）：输入纯文本内容。
     > 
-    > ![纯文本](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https001.png)
+    > ![纯文本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/https001.png)
     > - 代码模式：支持输入C#代码（双引号需要转义），或是直接使用变量。
     > 
-    > ![变量](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/https002.png)
+    > ![变量](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/https002.png)
   
 ### 输出
 
@@ -46,7 +46,7 @@
 
 **此流程执行逻辑**：使用阿里云 **身份证识别** 接口，接口说明：[身份证识别](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.12901015.0.i12901015.6416525cpTr5NW&innerSource=search#sku=yuncode440100000)验证HTTP请求结果。
 
-![配置HTTP(S)请求组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/httprequestid.jpg)
+![配置HTTP(S)请求组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/httprequestid.jpg)
 
 **更多 HTTP 操作链接**：
 [HTTP 抓包](https://mp.weixin.qq.com/s/Vo7QVfucAyHhEbHJZWeZXw)
@@ -60,11 +60,11 @@
 
 2. **Q：网页和ApiPost工具可以正常请求并返回，为什么用HTTP(S)请求组件直接报错？**
 
-![https1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130001.png)
+![https1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006130001.png)
 
 
 **A：** 可以使用代码关掉Expect。
 
-![https2](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130002.png)
+![https2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006130002.png)
     
-![https3](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006130003.png)
+![https3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006130003.png)

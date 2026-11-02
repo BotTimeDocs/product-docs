@@ -18,7 +18,7 @@
 1 cd consolev4pvt-4.0.103661/tools/InstallerUploadTool/Program/InstallerUploader/package
 ```
 
-![安装程序上传目录](https://docimages.blob.core.chinacloudapi.cn/images/7173e159-ead9-4966-a508-9e63a9da977f.png)
+![安装程序上传目录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/7173e159-ead9-4966-a508-9e63a9da977f.png)
 
 
 
@@ -29,7 +29,7 @@
 2 rm * -rf
 ```
 
-![robot目录](https://docimages.blob.core.chinacloudapi.cn/images/34248f63-0eca-4741-88d6-df62ca38d5a3.png)
+![robot目录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/34248f63-0eca-4741-88d6-df62ca38d5a3.png)
 
 进入studio目录，清空目录，上传之前下载的编辑器安装程序文件到此目录
 
@@ -38,7 +38,7 @@
 2 rm * -rf 
 ```
 
-![studio目录](https://docimages.blob.core.chinacloudapi.cn/images/1ecca17d-d7a7-4fca-a4ef-98815036c75e.png)
+![studio目录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/1ecca17d-d7a7-4fca-a4ef-98815036c75e.png)
 
 
 
@@ -46,7 +46,7 @@
 
 返回私有化部署安装包目
 
-![返回私有化部署安装包目](https://docimages.blob.core.chinacloudapi.cn/images/6c046025-74c6-4a48-aac2-18ba3bcec432.png)
+![返回私有化部署安装包目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/6c046025-74c6-4a48-aac2-18ba3bcec432.png)
 
 
 
@@ -79,13 +79,13 @@
 
 当linux控制台输出 "上传安装包完成 " 则代表升级安装程序成功
 
-![上传安装包完成](https://docimages.blob.core.chinacloudapi.cn/images/330f9267-b8b9-4aac-91e3-a38eaecc08ef.png)
+![上传安装包完成](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/330f9267-b8b9-4aac-91e3-a38eaecc08ef.png)
 
 
 
 登录控制台，下载升级后的编辑器和机器人安装程序
 
-![安装包下载](https://docimages.blob.core.chinacloudapi.cn/images/28d45579-f178-4409-b37c-e5e51eca6b2e.png)
+![安装包下载](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/28d45579-f178-4409-b37c-e5e51eca6b2e.png)
 
 
 
@@ -128,5 +128,5 @@
 
 登录控制台，下载升级后的编辑器和机器人安装程序
 
-![安装包下载](https://docimages.blob.core.chinacloudapi.cn/images/bbae7bdc-0048-4f91-b261-41ddff6f260a.png)
+![安装包下载](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/bbae7bdc-0048-4f91-b261-41ddff6f260a.png)
 

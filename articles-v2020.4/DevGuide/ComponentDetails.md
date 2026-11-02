@@ -53,7 +53,7 @@
 
 用于实现在excel文件中的工作表“Sheet1”和单元格“A1”位置，写入了一段文本“Hello RPA”
 
-<img width='600' src="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/componentsexample.png"/>
+<img width='600' src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/componentsexample.png"/>
  
 > **注意**：
 > 

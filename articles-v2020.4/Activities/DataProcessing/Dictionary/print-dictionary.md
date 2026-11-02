@@ -22,8 +22,8 @@
 
 **此流程执行逻辑**：将已有字典 D 内的内容打印至“输出面板”中。
 
-![配置打印字典](https://docimages.blob.core.chinacloudapi.cn/images/Activities/printdictionary20211115.png)
+![配置打印字典](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/printdictionary20211115.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/printdictionaryresult20211115.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/printdictionaryresult20211115.png)

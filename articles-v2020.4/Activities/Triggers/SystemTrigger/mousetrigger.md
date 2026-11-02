@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：指定鼠标键及点击类型后，触发弹出“提示框”操作。
 
-![鼠标触发器](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mousetrigger20210508.png)
+![鼠标触发器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/mousetrigger20210508.png)

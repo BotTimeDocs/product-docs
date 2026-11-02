@@ -32,7 +32,7 @@
 
 **此流程执行逻辑**：将从桌面端或浏览器端获取到的文本输出。
 
-![配置获取文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getText-3.png)
+![配置获取文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getText-3.png)
 
 ## 常见问题
 

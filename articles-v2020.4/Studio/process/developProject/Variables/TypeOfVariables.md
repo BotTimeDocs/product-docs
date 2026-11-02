@@ -2,7 +2,7 @@
 
 如下介绍部分常用的变量类型及使用方法，更多变量的类型及使用可参见[官方文档](https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netframework-4.6.2)。
 
-![变量类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/datatype20210908.png)
+![变量类型](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/datatype20210908.png)
 
 ## 布尔型变量
 
@@ -59,7 +59,7 @@ DataTable 型变量表示的是一种可以存储大量信息，并充当数据�
 
 如下为云扩在针对特定场景专门定制的变量类型，一般用于 [参数](./../Arguments/Arguments.md) 中：
 
-![参数类型](https://docimages.blob.core.chinacloudapi.cn/images/Studio/arguments20210909.png)
+![参数类型](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/arguments20210909.png)
 
 - **Encoo.DataType.FoderPath**：文件夹路径，可视化界面选择文件夹路径，无需手动填写。
 - **Encoo.DataType.FilePath**：文件路径，可视化界面选择文件路径，无需手动填写。

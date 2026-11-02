@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：取消筛选指定工作表“新建 Microsoft Excel 工作表.xlsx”中的 Sheet1 工作簿中的 G 列数据。
 
-![配置取消筛选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cancelfilter20210927.png)
+![配置取消筛选组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cancelfilter20210927.png)

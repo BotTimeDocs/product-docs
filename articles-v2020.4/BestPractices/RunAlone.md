@@ -6,7 +6,7 @@
 
 您可以通过单击编辑器 Studio“工具栏”中的“独立桌面”，或通过勾选机器人 Robot“执行流程”弹窗中的“独立桌面”项。
 
-![编辑器独立桌面](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/runalone20220125.png)
+![编辑器独立桌面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/runalone20220125.png)
 
 在“独立桌面”模式下启动流程后，预览窗口将显示在桌面上，并提供来自流程执行时的实时反馈。可以调整显示窗口的大小、移动窗口、全屏放置窗口或将其放置在其他窗口的顶部。您可以随时通过预览窗口右上角的“关闭”图标来退出“独立桌面”模式。出现确认对话框，选择关闭预览窗口将停止正在运行的流程。
 
@@ -47,11 +47,11 @@
 2. 在弹出的“执行”弹窗中，勾选“独立桌面”，单击“确认”。
 3. 在弹出的“Windows 安全中心”弹窗中，输入本地 Windows 计算机的用户名和密码，单击“确定”。
 
-    ![Windows 凭据](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/inputcredentials20210805.png)
+    ![Windows 凭据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/inputcredentials20210805.png)
 
 4. 在“独立窗口”中自动运行流程。
 
-    ![独立桌面结果](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/runaloneresult20210805.png)
+    ![独立桌面结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/runaloneresult20210805.png)
 
 ### 后续操作
 
@@ -66,4 +66,4 @@
 
     **A：** 使用 windows+R 组合键，进入运行界面输入 gpedit.msc，进入“本地组策略编辑器”，将如下选项启用即可。
 
-    ![本地组策略编辑器](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/runalone20210928.png)
+    ![本地组策略编辑器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/runalone20210928.png)

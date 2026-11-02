@@ -30,7 +30,7 @@
 ### 方式1：手动
 通过控制台点击立即执行， 或通过控制台API调取执行。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-07.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-07.png"/>
 
 </br></br>
 
@@ -60,23 +60,23 @@
 
 * 按分钟： 可以设置每间隔 x分钟调度执行一次；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-08.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-08.png"/>
 
 
 
 * 按小时： 可以设置每间隔x小时，在该小时对应的第x分钟调度执行一次；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-09.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-09.png"/>
 
 
 * 按天： 可以设置每间隔x天，在当天的xx小时xx分执行调度一次；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-10.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-10.png"/>
 
 
 * 按周： 可以设置每间隔x周，在当周的周x的第xx小时xx分执行调度一次；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-11.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-11.png"/>
 
 
 * 按月：</br>
@@ -84,14 +84,14 @@
    2，可以设置每间隔x月，在当月的倒数第xx天的第xx小时xx分执行调度一次；</br>
    3，可以设置每间隔x月，在当月的第x个周x执行调度一次；</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-12.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-12.png"/>
 
 
 * 指定一个时间：指定一个时间点，执行一次；
 
 * 按表达式： 可以设置Linux Cron表达式，实现基于Cron表达式的执行调度；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-13.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-13.png"/>
 
 <br><br><br>
 
@@ -105,7 +105,7 @@
 2. 多个消息排队时，排队等待流程上一个流程部署执行结束；
 3. 多个消息排队时，如已有对应部署在执行，则抛弃排队的消息；
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-14.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-14.png"/>
 
 
 <br><br><br>
@@ -158,7 +158,7 @@
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-15.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-15.png"/>
 
 
 <br><br><br>
@@ -179,7 +179,7 @@
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-16.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-16.png"/>
 
 
 </br></br>
@@ -196,7 +196,7 @@
 * 途径2：根据计算机去寻找
 </br>在已知需要监控的计算机信息时，可以直接前往计算机管理页面进行查询，找到要监控的计算机
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-17.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-17.png"/>
 
 
 </br></br>
@@ -212,7 +212,7 @@
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-18.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-18.png"/>
 
 
 
@@ -220,7 +220,7 @@
 
 * 维度2：机器人，当前部门下已连接到当前控制台的机器人列表
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-19.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-19.png"/>
 
 </br></br>
 
@@ -230,7 +230,7 @@
 3. 磁盘读写
 4. 网络传输
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/lmx-20.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/lmx-20.png"/>
 
 
 <br><br><br>

@@ -36,4 +36,4 @@
 
 **此流程执行逻辑**：搭建一个数据表，保存至 `table` 变量中。
 
-![配置搭建数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/BulidDataTable2020122402.png)
+![配置搭建数据表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/BulidDataTable2020122402.png)

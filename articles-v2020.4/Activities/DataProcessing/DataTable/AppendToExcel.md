@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将编辑器创建的数据表追加到项目路径下的excel文件中。
 
-![追加到excel](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtzjexcel001.png)
+![追加到excel](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtzjexcel001.png)

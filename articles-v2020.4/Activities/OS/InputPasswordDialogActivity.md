@@ -25,8 +25,8 @@
 
 **此流程执行逻辑**：事先配置弹窗内容，在弹出的“输入密码”框中输入密码。
 
-![配置输入密码组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-2.png)
+![配置输入密码组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/inputPassword-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputPassword-4.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/inputPassword-4.png)

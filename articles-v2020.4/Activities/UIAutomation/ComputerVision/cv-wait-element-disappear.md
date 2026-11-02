@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，指定该区域中的某一个界面元素，当该元素消失时，将结果输出到输出面板中。
 
-![配置 CV 等待元素消失](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvwaitelementdisappear20211110.png)
+![配置 CV 等待元素消失](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvwaitelementdisappear20211110.png)

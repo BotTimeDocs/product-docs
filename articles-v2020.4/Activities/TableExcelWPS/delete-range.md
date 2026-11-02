@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：删除 Sheet1 工作表的 `"F2:F6"` 区域的数据，同时右侧单元格左移。
 
-![配置删除区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Delete2.png)
+![配置删除区域组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Delete2.png)

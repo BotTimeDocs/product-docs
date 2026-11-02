@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：将“Sheet1”工作表中“A1:C3”区域的数据填充至“A1:I3”中。
 
-![配置自动填充组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AutoFillRange1.png)
+![配置自动填充组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AutoFillRange1.png)

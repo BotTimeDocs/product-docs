@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：指定固定窗口，实现其最小化。
 
-![配置设置窗口组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setwindowstate20210723.png)
+![配置设置窗口组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setwindowstate20210723.png)

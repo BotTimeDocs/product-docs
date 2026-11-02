@@ -20,4 +20,4 @@
 
 **此流程执行逻辑**：当流程出现异常时，重新抛出异常信息。
 
-![配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Rethrow-3.png)
+![配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Rethrow-3.png)

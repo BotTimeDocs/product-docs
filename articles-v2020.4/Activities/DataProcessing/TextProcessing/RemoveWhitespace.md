@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：移除源文本 `" Hello World! "` 的首尾空格，将追加结果保存至变量 `String1` 中并打印。
 
-![移除空格](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yckg-00001.png)
+![移除空格](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yckg-00001.png)

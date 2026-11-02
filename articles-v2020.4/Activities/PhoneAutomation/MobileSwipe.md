@@ -26,7 +26,7 @@
 
 **此流程执行逻辑**：实现手机屏幕左滑或右滑的效果。
 
-![滑动屏幕](https://docimages.blob.core.chinacloudapi.cn/images/Activities/swipescreen20201223.png)
+![滑动屏幕](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/swipescreen20201223.png)
 
 ## 常见问题
 

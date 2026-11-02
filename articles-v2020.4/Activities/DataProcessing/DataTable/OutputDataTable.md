@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：将已搭建的数据表`table`,以`CSV`形式输出至`csvstring`变量中。
 
-![配置输出数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OutputDataTable20201224.png)
+![配置输出数据表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/OutputDataTable20201224.png)

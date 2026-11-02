@@ -27,11 +27,11 @@
 
 **此流程执行逻辑**：通过配置确认框中显示的内容，最终显示真实的确认对话框，供用户确认结果。
 
-![确认框配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/comfirmsetting20201221.png)  
+![确认框配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/comfirmsetting20201221.png)  
 
 **运行结果**：
 
-![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showresult20201221.png)
+![查看运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/showresult20201221.png)
 
 >**说明：**
 >

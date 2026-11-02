@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将集合`CL`转成数组，并保存至变量`array`中。
 
-![配置集合转数组组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/assigncollect20201218.png)
+![配置集合转数组组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/assigncollect20201218.png)

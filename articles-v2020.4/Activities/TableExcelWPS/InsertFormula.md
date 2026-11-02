@@ -37,8 +37,8 @@
 
 **此流程执行逻辑**：在“Sheet1”工作表的 A2 单元格中插入公式“SUM(A1: D1)”。
 
-![配置插入公式组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula2.png)
+![配置插入公式组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InertFormula2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InertFormula3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InertFormula3.png)

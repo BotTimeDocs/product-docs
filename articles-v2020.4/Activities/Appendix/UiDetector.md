@@ -2,7 +2,7 @@
 
 获取Windows桌面上所有进程的UI树元素信息，在树形节点展开的同时智能根据对应的自动化框架获取下一级的元素信息，并且可以生成对应的选择器，同时支持对选择器的编辑，验证及保存回传操作。 
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/uidetector20201208.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/uidetector20201208.png)
 
 ## 组成
 
@@ -17,7 +17,7 @@
 >
 >支持验证多个相同的元素，并提示“找到X个。此时高亮的为第Y个”,且支持上下箭头切换，并自动更新 index 和选中当前高亮的元素。
 
-![验证多个相同元素](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/check20201208.png)
+![验证多个相同元素](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/check20201208.png)
 
 ### 3. 进程树
 
@@ -39,7 +39,7 @@
 
 如果你希望使用 XPath 的形式对元素进行描述，而非使用默认的节点和属性的方式，你可以勾选“生成 XPath ” 选项，然后使用指定元素按钮，重新指定元素。
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/%E5%85%83%E7%B4%A0%E6%8E%A2%E6%B5%8B%E5%99%A8XPath.jpg)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/%E5%85%83%E7%B4%A0%E6%8E%A2%E6%B5%8B%E5%99%A8XPath.jpg)
 
 指定完成后，你可以获得对应元素的 XPath 表达式。
 

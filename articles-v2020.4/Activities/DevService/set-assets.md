@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：设置指定的部门`"产品设计与测试组"`下的资产`"test_demo"`的值为`false`。
 
-![设置资产](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setassets20211122.png)
+![设置资产](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setassets20211122.png)

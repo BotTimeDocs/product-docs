@@ -4,7 +4,7 @@
 
 #### Q：流程的参数的默认值中带有c#语句逻辑的场景下，创建为流程部署后，默认参数无法被正确运算
 
-<img width="400" src="https://docimages.blob.core.chinacloudapi.cn/images/Console/240103_faq4_0032_1.png"/>
+<img width="400" src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/240103_faq4_0032_1.png"/>
 
 <br>
 
@@ -264,7 +264,7 @@
 
 <br>
 
- <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00016.png"/>
+ <img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00016.png"/>
 
 <font color=5a6877>
 <br><br>
@@ -290,7 +290,7 @@
 
 试一下 市场的运维组件 
 
- <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00015.png"/>
+ <img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00015.png"/>
 
 </font>
 <br><br>
@@ -301,7 +301,7 @@
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00014.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00014.jpg"/>
 
 <font color=5a6877>
 <br><br>
@@ -334,7 +334,7 @@
 
 以下方示例 ： `c2 = double.Parse(c1.ToString("0.00"));`
     
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00012.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00012.png"/>
 
 </font>
 <br><br>
@@ -347,7 +347,7 @@
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00012.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00012.png"/>
 
 <font color=5a6877>
 <br><br>
@@ -369,7 +369,7 @@
 
 **【解决办法-A5_00010】**:
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A5_00010.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A5_00010.png"/>
 
 
 子流程中不用定义变量直接设置参数 ，然后把它改成输出，就可以在外部主流程调用或者子流程。再调用的时候去接受这个子流程传出来的值。
@@ -475,7 +475,7 @@ zh-CN 改成 en-US
 
 【解决办法-A5_00009】：支持填写参数/变量的 ，以拼接的方式实现
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A_500009.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A_500009.png"/>
 
 
 </font>
@@ -494,13 +494,13 @@ zh-CN 改成 en-US
 【解决办法-A5_00010】：可以直接运行当前项目文件的exe文件（相对路径）
 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005230001.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005230001.png"/>
 
 或定义个变量使用 
 ```Environment.GetEnvironmentVariable("CurrentProjectSourcePath", EnvironmentVariableTarget.Process) ``` 
 获取当前项目路径，然后再在组件中拼接：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005230002.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005230002.png"/>
 
 </font>
 <br><br>

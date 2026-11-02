@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将 "云扩 RPA 正在运行中" 设为屏保后继续执行写入日志。
 
-![屏保运行](https://docimages.blob.core.chinacloudapi.cn/images/Activities/screensaver20220408.png)
+![屏保运行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/screensaver20220408.png)

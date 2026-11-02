@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：删除 Sheet1 工作表的 "C3" 单元格中的数据，删除后，下方单元格上移。
 
-![配置删除单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletecell20211220.png)
+![配置删除单元格组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deletecell20211220.png)

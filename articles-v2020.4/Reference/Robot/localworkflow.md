@@ -46,7 +46,7 @@
 3. 选择你想要执行的流程，你可以输入流程名点击搜索进行查询。
 4. 点击“执行”时，将会弹窗确认信息。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/flowofexecution20201201.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/flowofexecution20201201.png)
 
     - 流程：显示当前需要执行流程的流程名称和版本号。
     - 参数：若当前流程需要传入参数信息，点击执行后会弹窗提示输入参数。
@@ -67,7 +67,7 @@
 
 5. 点击确认，流程在快速准备后将自动执行。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/running20201230.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/running20201230.png)
 
 ## 执行控制台流程
 
@@ -76,7 +76,7 @@
 3. 你可以通过流程包名搜索找到你想要执行的流程包。
 4. 选择要执行的版本，点击执行。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotprocessconsole20211125.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotprocessconsole20211125.png)
 
 ## 取消流程
 
@@ -91,7 +91,7 @@
 
 3. 确认 **取消** 后，机器人将强制取消正在运行的流程，无论流程运行到哪一步。**取消** 操作无法撤回，无法删除。请谨慎操作
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot01.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/0626-robot01.png)
 
 ## 查看日志
 
@@ -100,7 +100,7 @@
 1. 打开本地/控制台流程库，找到已运行的流程。
 2. 点击 **日志** 打开此流程执行记录的日志文件夹，包括视频文件。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/Robot-Process-Log-0.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/Robot-Process-Log-0.png)
 
 ## 删除流程
 
@@ -109,7 +109,7 @@
 1. 打开本地流程库，选中将要删除的流程及版本号。
 2. 在“操作”栏中，点击 **删除** ，弹窗确认是否删除当前版本。点击“确定”则把此版本流程删除。
 
-    ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robot-deleteflow-1.png)
+    ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robot-deleteflow-1.png)
 
 ## 创建快捷方式
 
@@ -117,14 +117,14 @@
 
 1. 在“本地流程库”或“控制台流程库”页面，单击“操作栏”中的“快捷方式”。
 
-    ![单击快捷方式](https://docimages.blob.core.chinacloudapi.cn/images/Robot/shortcut20211125.png)
+    ![单击快捷方式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/shortcut20211125.png)
 
 2. 在弹出的“创建快捷方式”界面中，设置相应的选项后，单击“添加至桌面快捷方式”。
 3. 指定快捷方式的创建位置。
 4. 单击创建完成的快捷方式图标，可执行流程。
 
-    ![创建完成的快捷方式](https://docimages.blob.core.chinacloudapi.cn/images/Robot/shortcutdone20211125.png)
+    ![创建完成的快捷方式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/shortcutdone20211125.png)
 
 5. 在弹出的“执行日志”界面，可查看当前流程执行的日志过程。
 
-    ![执行日志](https://docimages.blob.core.chinacloudapi.cn/images/Robot/autoexecuteworkflow20211125.png)
+    ![执行日志](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/autoexecuteworkflow20211125.png)

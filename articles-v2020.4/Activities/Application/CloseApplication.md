@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：用选择器指定关闭新的记事本程序
 
-![配置关闭程序组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/closeApp-2.png)
+![配置关闭程序组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/closeApp-2.png)

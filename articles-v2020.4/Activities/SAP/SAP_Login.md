@@ -21,11 +21,11 @@
 - **SAP Logon路径** ：SAP Logon的安装路径。
 - **连接名** ：指定要登录的连接名 （Connection Name）。
   
-  ![连接名样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connectionname20210325.png)
+  ![连接名样例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/connectionname20210325.png)
 
 - **客户端** ：登录连接界面时要输入的客户端 （Client)。仅支持字符串变量和字符串
 
-  ![客户端名样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/client20210325.png)
+  ![客户端名样例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/client20210325.png)
 
 - **用户** ：登录连接界面时要输入的用户 （User)。
 - **口令** ：登录连接界面时要输入的口令 （Password)。
@@ -35,11 +35,11 @@
 
 **此流程执行逻辑**：当有多登录时，停止此次登录SAP应用。
 
-![配置登录应用组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-1.png)
+![配置登录应用组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SAPlogin-1.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPlogin-2.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SAPlogin-2.png)
 
 ## 常见问题
 

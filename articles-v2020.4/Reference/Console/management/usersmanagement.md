@@ -14,7 +14,7 @@
 
 1. 进入“全局管理 > 用户管理”页面，单击页面右上角的“+邀请用户”，在“邀请用户”弹窗中，填写邀请用户信息。
 
-    ![邀请用户](https://docimages.blob.core.chinacloudapi.cn/images/Console/inviteusers20210630.png)
+    ![邀请用户](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/inviteusers20210630.png)
 
 2. 单击“保存”，系统会通过发送邮件的方式邀请该用户，用户只需通过接收到的邮件中的链接进行注册激活对应的账户。
 

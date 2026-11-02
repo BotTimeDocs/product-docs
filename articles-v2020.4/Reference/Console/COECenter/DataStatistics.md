@@ -6,7 +6,7 @@
 
 默认展示最近一年的数据（截止到昨天），您可自行调整时间范围查看周期内产生的数据。
 
-![数据](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/DATA1.png)
+![数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/DATA1.png)
 
 ### 总体回报
 
@@ -44,10 +44,10 @@
 - 平均人工成本/月：默认为10000元/月，您可根据实际情况更改为合理值。
 - RPA投入成本/年：指平均RPA每年投入成本，包括：流程开发费用、云扩RPA产品费用和服务器费用等。默认为39800元/年，您可根据实际情况更改为合理值。
 
-![数据](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/DATA2.png)
+![数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/DATA2.png)
 
 #### 流程成本
 
 - 单次人工工时：默认单个流程人工工时为1小时，您可根据实际情况更改为合理值。
 
-![数据](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/DATA3.png)
+![数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/DATA3.png)

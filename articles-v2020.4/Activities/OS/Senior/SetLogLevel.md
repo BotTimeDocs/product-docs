@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：设置日志级别为 `Debug`, 运行流程后，“输出面板”中输出 Debug，Info，Error 等级的日志信息。
 
-![配置设置日志级别组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setLoglevel-3.png)
+![配置设置日志级别组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setLoglevel-3.png)

@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：安装从 [Python 官网](https://www.python.org/downloads/)下载的 python 安装包至指定路径中。
 
-![配置安装路径](https://docimages.blob.core.chinacloudapi.cn/images/Activities/installpython20201216.png)
+![配置安装路径](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/installpython20201216.png)

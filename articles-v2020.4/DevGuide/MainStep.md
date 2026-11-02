@@ -5,7 +5,7 @@
 >导读: 
 > RPA 流程开发主要有设计、开发、测试、试运行、部署五个阶段和运维的长期过程。具体内容参考下图。
 
-![流程开发主要步骤](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/mainstep.png)
+![流程开发主要步骤](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/mainstep.png)
  
 ## 一、设计阶段
 

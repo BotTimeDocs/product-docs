@@ -34,7 +34,7 @@
 
 <br> <br> 
 
-![编辑器之固定许可](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-permit01.png)
+![编辑器之固定许可](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-permit01.png)
 
 
 <br> <br> 
@@ -80,7 +80,7 @@
 > **说明：**
 >当占用的名额到达许可上限时，则无法再新增该类型的机器人，已经新增的机器人可以正常使用。
 
-![机器人之固定许可](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-permit02.png)
+![机器人之固定许可](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-permit02.png)
 
 
 <br> <br> <br> 
@@ -112,14 +112,14 @@
 开发并上架 一个ViCode 应用，“已上架”的ViCode 应用，会占用许可，即当上架一个应用，则”许可证管理“下许可的“已绑定量”会+1。
 同时，用户亦可在”许可证管理“下移除应用，进而收回一个许可。
 
-![vicode应用许可](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-permit03.png)
+![vicode应用许可](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-permit03.png)
 
 <br> <br> <br> 
 
 ### 1.3 文档理解模板许可
 许可证主要用于控制文档理解模板的可调用次数, 目前按照内置模型种类进行控制。
 
-![AI文档理解许可](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-permit04.png)
+![AI文档理解许可](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-permit04.png)
 
 <br> <br> <br> 
 
@@ -181,28 +181,28 @@ SaaS控制台组织架构的创建，基于邀请和激活。
 
 第1步：企业微信管理员打开[企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx)，并扫码登录
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin01.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin01.png)
     
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin02.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin02.png)
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin03.png) 
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin03.png) 
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin04.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin04.png)
        
 <br><br><br>
 
 第2步：打开应用管理-应用-云扩低代码
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin05.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin05.png)
   
   <br><br><br>              
 
 第3步：修改用户可见范围，此处当企微组织架构发生变动，控制台组织架构同步变动
         
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin06.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin06.png)
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin07.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin07.png)
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin08.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin08.png)
                 
 
 <br><br><br>
@@ -214,7 +214,7 @@ SaaS控制台组织架构的创建，基于邀请和激活。
 
 当原有部门或人员变动，管理员刷新组织架构即可。
 
-![企业微信](https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0614-weixin09.png)
+![企业微信](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0614-weixin09.png)
         
         
 

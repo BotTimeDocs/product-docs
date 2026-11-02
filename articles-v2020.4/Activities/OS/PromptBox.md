@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：以提示框的形式弹出，显示指定的信息。
 
-![配置提示框组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/promptBox-1.png)
+![配置提示框组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/promptBox-1.png)

@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：判断手机中的 `"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"` 文件路径是否存在，结果保存至变量 `result` 中。
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/filepathexists20211215.jpg)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/filepathexists20211215.jpg)

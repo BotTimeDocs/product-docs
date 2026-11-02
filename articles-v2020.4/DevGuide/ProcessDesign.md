@@ -30,7 +30,7 @@
 
 举例如下（序列也是编辑器默认选择和在容器性组件内添加多个组件时自动生成的组件）：
 
-<img width = '300'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide1.jpg"/>
+<img width = '300'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide1.jpg"/>
 
 <br>
 
@@ -41,14 +41,14 @@
 举例网页登录场景：通常我们在登录之前需要判断网页是否已登录，如果已登录状态，则不需要输入用户名及密码，即登录模块功能的流程可运行结束，如果还未登录，则需要输入用户名、验证码及点击登录按钮，然后再进行判断是否登录成功，流程示例如下：
 <br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide2.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide2.jpg"/>
 
 <br><br>
 
 附登录功能流程如下（序列方式）：
 <br>
 
-<img width = '200'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide3.jpg"/>
+<img width = '200'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide3.jpg"/>
 
 <br><br>
 
@@ -72,13 +72,13 @@
 
 使用状态机的登录流程如下所示：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide4.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide4.jpg"/>
 
 <br><br>
  
 从上图可见，不同的状态设置在不同的转换中，并在该转换下设置对应的登录操作，“未登录”转换如下图所示：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide5.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide5.jpg"/>
 
 
 <br><br><br>
@@ -87,11 +87,11 @@
 
 云扩编辑器内置多种流程模板，通常我们在新建项目时选择 “企业流程模板”，该模板已包含了一个完整流程的基本模块：创建日志、环境初始化、数据初始化、主业务处理及结束处理，如下图所示：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide6.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide6.jpg"/>
 
 <br><br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide7.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide7.jpg"/>
 
 <br><br><br>
 
@@ -107,7 +107,7 @@
 
 - 用参数作为输入方式，流程运行时会弹出对话框让业务人员输入对应的值，如下图所示：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide8.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide8.jpg"/>
 
 
 <br>
@@ -120,7 +120,7 @@
 
 <br>
     
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide9.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide9.jpg"/>
 
 - 配置文件作为参数输入，通常推荐用Excel，在Excel中写入一些可能会变化的信息，如上面例子中的用户名、密码、文件路径等，在流程中需要设计读取Excel中输入信息的流程模块。当然具体需要填入哪些信息还要看实际的业务场景，我们只要掌握一个规律：**一些可能会变化的信息**用参数或者配置文件的方式输入，这不仅仅是指在本地会发生变化，也可能因为流程的迁移而导致的变化。
 
@@ -128,7 +128,7 @@
 
 配置文件格式举例如下（Excel）：
     
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide10.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide10.jpg"/>
 
 <br><br>
 
@@ -140,7 +140,7 @@
 
 <br>
     
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide11.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide11.jpg"/>
 
 <br><br>
 
@@ -156,19 +156,19 @@
 
 - 存入文件服务方式流程设计：用“上传文件”组件：（组件具体用法可参考文档[《上传文件》](https://academy.encoo.com/wiki/Activities/Console/FileUploadActivity.md)
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide12.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide12.jpg"/>
 
 <br><br>
 
 - 存入本地Excel方式流程设计：用组件“打开/新建“、”写入区域“等（组件具体用法可参考[《写入区域》](https://academy.encoo.com/wiki/Activities/AppAutomation/OfficeExcel/WriteRange.md))
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide13.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide13.jpg"/>
 
 <br><br>
 
 - 存入数据库方式流程设计：用组件”连接数据库“、”执行语句“、”插入语句“等（组件具体用法可参考[连接数据库](https://academy.encoo.com/wiki/Activities/Database/ConnectDatabase.md))
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide14.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide14.jpg"/>
 
 <br><br><br>
 
@@ -178,13 +178,13 @@
 
 - 参数类型设置为Password：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide15.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide15.jpg"/>
 
 <br><br>
 
 （1）使用”输入密码“组件：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide16.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide16.jpg"/>
 
 <br><br>
 
@@ -228,7 +228,7 @@
 流程的最开始建议调用【设置日志级别】组件，通过输入参数【日志级别】控制流程输出的日志信息，一般情况下，针对RPA开发者建议使用Debug级别。针对流程用户建议使用Info或Error级别。
 <br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide17.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide17.jpg"/>
 
 <br><br>
 
@@ -236,12 +236,12 @@
 
 - 正常的业务记录日志建议使用Info，针对某些已知的问题（不需要抛出错误），例如没有数据时下载按钮不可见，可以写入日志，以方便后续业务核对。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide18.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide18.jpg"/>
 
 
 - 异常的错误建议使用Error，针对某些未知的错误，例如Catches中的异常，可以把异常日志exception.Message+exception.StackTrace进行输出
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide19.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide19.jpg"/>
 
 
 <br><br>
@@ -252,13 +252,13 @@
 
 **方法1**：流程运行后输出窗口可见日志，可根据界面上的错误、信息、调试进行筛选
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide20.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide20.jpg"/>
 
 <br><br>
 
 **方法2**：开始 - 设置 - 项目，勾选【保存运行、调试日志】，打开目录下的日志文件夹
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide21.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide21.jpg"/>
 
 <br><br>
 
@@ -266,14 +266,14 @@
 
 打开流程库 - 流程包 - 日志
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide22.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide22.jpg"/>
 
 
 <br><br>
 
 点击日志打开文件夹：
 
-<img width = '200'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide22-1.png"/>
+<img width = '200'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide22-1.png"/>
 
 
 
@@ -285,7 +285,7 @@
 （3）**控制台日志**
 
 打开控制台-RPA中心-执行记录，查看日志，也可以在此页面的日志级别中筛选对应的级别，例如一般会筛选错误级别的日志，以方便查看流程报错情况。
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide23.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide23.jpg"/>
 
 
 <br><br>
@@ -325,7 +325,7 @@
 邮件通知需要配置邮件发送方的服务器、代理、端口、密码、地址，还需要配置接收方的邮箱、内容、附件。
 
 由于邮件发送服务器或者接收方有可能不稳定，建议放入重试组件中，可以多重试几次，降低失败率。、
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide24.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide24.jpg"/>
 
 <br><br>
 
@@ -336,19 +336,19 @@
 * 第1步、通过组件市场搜索【消息推送】并进行安装
 * 第2步、重新加载项目后，在编辑器组件库消息推送中查看【钉钉消息推送】和【企业微信消息推送】
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide25.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide25.jpg"/>
 
 
 
 
-<img width = '300'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide26.jpg"/>
+<img width = '300'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide26.jpg"/>
 
 <br><br>
 
 **（4）钉钉消息推送**
 
 简单来说，如果只需要进行消息推送，首先新建一个钉钉群机器人，配置关键词，再把WebHook拷贝到组件，文本里需要包含机器人关键词，这样就可以把对应的文本推送给钉钉群了
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide27.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide27.jpg"/>
 
 
 如果需要比较复杂的操作，比如需要先接收到用户的消息，根据用户的消息进行流程的处理，最终反馈到钉钉群里。 或者需要反馈到钉钉群里的不单单是文本，还需要有图片或者附件。可以参考完整教程[【案例17】案例详解：钉钉机器人群控&RPA机器人调研](https://www.encoo.com/product-detail/Bg2XkQJb)
@@ -359,7 +359,7 @@
 
 与钉钉消息推送类似，企业微信也需要先新建一个群机器人，再把WebHook拷贝到组件，这样就可以把对应的文本推送给企业微信群了。具体可参考[【案例16】企业微信自动对话机器人](https://www.encoo.com/product-detail/BQagyZOB)
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide28.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide28.jpg"/>
 
 <br><br><br>
 
@@ -374,12 +374,12 @@
 
 - Try中放入整体流程，若try中出现异常，则会进入Catch（可以多个catch 同时存在），在此可以打印日志并通知提示用户出错了，打印消息可参考：exception.Message+exception.StackTrace
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide29.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide29.jpg"/>
 
 <br><br>
 
 - Finally可选，若需要可在Finally中释放资源
-  <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/processondesignguide30.jpg"/>  
+  <img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/processondesignguide30.jpg"/>  
 
  
 

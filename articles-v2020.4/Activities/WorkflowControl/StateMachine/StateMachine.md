@@ -21,6 +21,6 @@
 
 **此流程执行逻辑**：在状态机容器中，编制登录钉钉成功状态的流程。
 
-![配置状态机组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/stateMachine-3.png)
+![配置状态机组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/stateMachine-3.png)
 
-你还可以参考 [*GuessNumber*](https://docimages.blob.core.chinacloudapi.cn/images/dgsSample/GuessNumber.dgs) 流程，了解状态机相关组件的其他用法。
+你还可以参考 [*GuessNumber*](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/dgsSample/GuessNumber.dgs) 流程，了解状态机相关组件的其他用法。

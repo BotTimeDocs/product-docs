@@ -41,13 +41,13 @@
 
 （1）编辑器发布：由开发者从编辑器端发布流程
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction1.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction1.jpg"/>
 
 <br><br>
 
 （2）本地上传：由开发者或IT运维上传本地流程
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction2.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction2.jpg"/>
 
 <br><br>
 
@@ -147,13 +147,13 @@
 
 `任务队列_界面图示，如下`
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction4.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction4.jpg"/>
 
 <br>
 
 `定时任务_界面图示，如下`
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction3.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction3.jpg"/>
 
 <br><br><br>
 
@@ -175,16 +175,16 @@
 `实时日志监控_界面图示，如下`
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction5.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction5.jpg"/>
 
 
 `机器人预警配置_界面图示，如下`
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction6.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction6.jpg"/>
 
 `机监控机器人所在计算机性能_界面图示，如下`
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction7.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction7.jpg"/>
 
 补充：关于运行监控功能细节，请参考[流程运行管理](./ProcessRunManager.md)
 
@@ -210,7 +210,7 @@
 
 此外，通过数据权限配置可以来控制用户对这些文件/文件夹的访问，使之仅限所需要的用户使用。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction8.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction8.jpg"/>
 
 
 <br><br>
@@ -234,7 +234,7 @@
 
 5. 浮点型: 仅存储小数
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction9.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction9.jpg"/>
  
 <br><br>
 
@@ -246,7 +246,7 @@
 
 开发者只需要对连接器完成授权或少量填写一些配置信息，即可与对应产品建立连接，从而进行各类数据操作，轻松实现数据互联互通。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/introduction10.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/introduction10.jpg"/>
 
 
 <br><br><br>

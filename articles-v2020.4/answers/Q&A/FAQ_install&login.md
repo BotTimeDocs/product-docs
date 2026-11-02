@@ -28,7 +28,7 @@
 
 扩展更新提示，“检测到浏览器插件版本与编辑器不一致，请更新至一致。为完成此更新，请关闭一下所有浏览器后点击确定”。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/2-1.png"/>
 
 
 <font color=5a6877> 
@@ -40,7 +40,7 @@
 
 出现该提示时可打开“任务管理器”找到提示的浏览器进程，选中后点击“结束任务”之后重新安装浏览器扩展即可。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/2-2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/2-2.png"/>
 
  </font><br><br>
  ---
@@ -54,7 +54,7 @@
 
 1. 检查 chrome 浏览器扩展，是否安装了 chrome 扩展并且启用，如果未安装“云扩录制器”扩展，需要 通过 Studio 进行自动安装。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/3-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/3-1.png"/>
 
 
 
@@ -66,7 +66,7 @@
 * 如果 EncooNativeMessageHost.exe 进程未启动且已经关闭杀毒软件并安装了扩展，需暂时关闭杀毒软件的防护功能并删除“C:\Users\当前用户\AppData\Local\Encoo\messagehost”文件夹，然后再次通过 Studio 进行安装扩展。
 * 如果杀毒软件暂时无法关闭，需要公司超级管理员授权才可关闭时，请用可修改注册表的用户登录，手动修改注册表，手动安装 Chrome 扩展。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/3-2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/3-2.png"/>
 
 
  </font><br><br>

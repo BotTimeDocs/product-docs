@@ -13,7 +13,7 @@
 
 在线安装可以进入**编辑器 > 工具 > 扩展 > 离线识别**
 
-![2](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00002.png)
+![2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00002.png)
 
 > **说明：**
 >
@@ -21,19 +21,19 @@
 
 点击下载图标即可安装
 
-![1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00001.png)
+![1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00001.png)
 
 如需离线安装可进入[超自动化平台](https://console.encoo.com)首页下载
 
-![3](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00003.png)
+![3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00003.png)
 
 之后将下载文件拷贝到路径`C:\Users\username\AppData\Local\Encoo\Ocr`下:
 
-![4](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00004.png)
+![4](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00004.png)
 
 点击下载图标即可安装
 
-![1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00001.png)
+![1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00001.png)
 
 ## 激活
 
@@ -41,15 +41,15 @@
 
 2. 获取许可证后，单击离线识别，在弹出的对话框中，点击“启动”按钮来激活服务，启动服务后才可以进行激活操作。
 
-![6](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00006.png)
+![6](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00006.png)
 
 3. 点击“设置”按钮
 
-![5](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00005.png)
+![5](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00005.png)
 
 在新弹窗“配置许可证”中输入许可证，之后点击“激活按钮”，完成激活。
 
-![7](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00007.png)
+![7](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00007.png)
 
 > **说明：**
 >
@@ -59,25 +59,25 @@
 
 1. 点击“启动”按钮启用扩展，之后组件运行就会自动调用该服务。
 
-![6](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00006.png)
+![6](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00006.png)
 
 启动后点击“停止”按钮终止扩展运行
 
-![10](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00010.png)
+![10](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00010.png)
 
 > 如果已完成扩展安装，组件运行时会自动调用服务，无需手动开启。
 
 2. 点击“更新”能够检测当前扩展版本是否需要更新，如需更新则会自动进行下载
    
-![9](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00009.png)
+![9](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00009.png)
    
 3. 如果需要安装或使用新的许可证，可以点击“设置”按钮进行设置
 
-![5](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00005.png)
+![5](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00005.png)
 
 ## 卸载
 
 点击“卸载”按钮完成扩展卸载
 
-![8](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lxsbkg-00008.png)
+![8](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lxsbkg-00008.png)
 

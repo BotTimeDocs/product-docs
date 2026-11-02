@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：验证某数据库中的指定数据表 `test20211231` 是否存在。
 
-![配置表是否存在](https://docimages.blob.core.chinacloudapi.cn/images/Activities/tableexists20211231.png)
+![配置表是否存在](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/tableexists20211231.png)

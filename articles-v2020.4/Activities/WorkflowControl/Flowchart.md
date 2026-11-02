@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：在流程图组件中拖入任一组件，以便开发出新的流程。
 
-![流程图组件配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/flowchart-2.png)
+![流程图组件配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/flowchart-2.png)

@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：将本地文件"执行CSharp代码.xaml"上传至控制台文件服务中的文件夹"Test_demo"路径下。
 
-![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/uploadfile20210105.png)
+![配置属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/uploadfile20210105.png)

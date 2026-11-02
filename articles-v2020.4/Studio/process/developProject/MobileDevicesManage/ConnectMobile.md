@@ -20,7 +20,7 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
 2. 创建 adb 系统环境变量。在 PC 端操作系统的“高级系统设置 > 高级 > 环境变量”中，为“Path”变量追加赋值。例如：`D:\workspace\Encoo\Encoo.Android.Automation\airtest\core\android\static\adb\windows`。
 
-    ![环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/environment20201104.png)
+    ![环境变量](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/environment20201104.png)
 
     > **注意：**
     >
@@ -29,7 +29,7 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
 3. 验证 ADB 环境变量是否已配置成功。打开“命令提示符”窗口，输入 `adb` 命令后回车，显示如下信息，则表示配置成功。
 
-    ![验证 ADB 环境变量](https://docimages.blob.core.chinacloudapi.cn/images/Studio/confirmadb20210617.png)
+    ![验证 ADB 环境变量](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/confirmadb20210617.png)
 
 ### 方式一：Android 模拟器
 
@@ -37,11 +37,11 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
 1. 目前测试或者使用 APP 的模拟器有很多种，比如 雷电、MuMu 、逍遥、夜神模拟器等，根据自己需求在 PC 端下载并安装安卓模拟器。
 
-    ![安卓模拟器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/leidian20220104.png)
+    ![安卓模拟器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/leidian20220104.png)
 
 2. 与手机类似，需要打开模拟器的 **开发者选项-允许 USB 调试** 。
 
-    ![开发者选项](https://docimages.blob.core.chinacloudapi.cn/images/Studio/leidiansetting20220104.png)
+    ![开发者选项](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/leidiansetting20220104.png)
 
     > **说明：**
     >
@@ -60,7 +60,7 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
 3. 在 PC 端的 **命令行提示符** 界面中，通过模拟器对应的 ADB 连接代码连接 Android 终端设备与 PC 端。
 
-    ![命令行提示符](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cmd20201104.png)
+    ![命令行提示符](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/cmd20201104.png)
 
 ### 方式二：Android 真机 USB 连接
 
@@ -73,11 +73,11 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
    a. 进入手机的“设置 > 关于手机 > 版本信息”, 多次点击“版本号”以开启开发者模式。
 
-    ![开启开发者模式](https://docimages.blob.core.chinacloudapi.cn/images/Studio/enabledeveloper20210618.png)
+    ![开启开发者模式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/enabledeveloper20210618.png)
 
    b. 在“开发者选项”中，开启“USB 调试”。
 
-    ![开启 USB 调试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/enableusb20210618.png)
+    ![开启 USB 调试](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/enableusb20210618.png)
 
     > **说明：**
     >
@@ -87,7 +87,7 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
    通过 USB 数据线连接 PC 与手机时，可能需要安装手机的驱动程序，这样电脑才可以识别打开手机。
 
-    ![PC 与手机建立连接](https://docimages.blob.core.chinacloudapi.cn/images/Studio/allowusbdebug20210618.png)
+    ![PC 与手机建立连接](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/allowusbdebug20210618.png)
 
     > **说明：**
     > 一般情况下数据线连接 PC 端 USB 接口时，会自动安装手机驱动，除非 PC 端弹出“安装驱动失败”等提示才需手动安装。
@@ -96,7 +96,7 @@ PC 端在连接 Android 设备之前需配置 ADB 环境。**ADB** 是 Google �
 
    在 PC 端的 **命令行提示符** 界面中，输入 `adb devices` 命令，连接成功示例如下:
 
-    ![连接成功示例](https://docimages.blob.core.chinacloudapi.cn/images/Studio/deviceconnect20210129.png)
+    ![连接成功示例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/deviceconnect20210129.png)
 
     > **说明：**
     >
@@ -122,7 +122,7 @@ Xcode 是运行在操作系统 Mac OS X 上的集成开发工具（IDE）, 自�
 
    下载链接：`https://developer.apple.com/download/all`, 搜索 `xcode`, 建议选择最新不带 `beta` 后缀的 xcode 版本进行下载。
 
-    ![安装 Xcode](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xcodedownload20210618.png)
+    ![安装 Xcode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/xcodedownload20210618.png)
 
 2. 安装依赖
 
@@ -181,24 +181,24 @@ Xcode 是运行在操作系统 Mac OS X 上的集成开发工具（IDE）, 自�
 
     在 Xcode 工具中， 选择 **Window - Devices** 里查看设备的 identifier ，复制粘贴，联系开发人员（云扩的开发人员）进行配置可调试证书。
 
-    ![获取真机 UDID](https://docimages.blob.core.chinacloudapi.cn/images/Studio/getudid20201104.png)
+    ![获取真机 UDID](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/getudid20201104.png)
 
     > **说明：**
     >
     > Xcode 自带模拟器界面如下图所示。
 
-    ![iOS 模拟器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/iosmonitor20201104.png)
+    ![iOS 模拟器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/iosmonitor20201104.png)
 
 4. 将配置完的证书下载至 Xcode 工具中
 
     a. 打开 Xcode 工具
 
-    ![xcode 图标](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xcodeicon20201104.png)
+    ![xcode 图标](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/xcodeicon20201104.png)
 
     b. 打开 **Xcode 首选项 > Accounts**，点击界面左下角的“+”，输入 Apple ID 中的账号（开发者）和密码后保存。
 
-    ![Xcode 账号配置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xcodeaccount20201104.png)
+    ![Xcode 账号配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/xcodeaccount20201104.png)
 
     c. 选择已配置的证书后，单击 **Download Manual Profiles** 下载。
 
-    ![下载证书](https://docimages.blob.core.chinacloudapi.cn/images/Studio/downloadprofiles20201104.png)
+    ![下载证书](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/downloadprofiles20201104.png)

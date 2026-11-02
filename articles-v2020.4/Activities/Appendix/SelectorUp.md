@@ -13,19 +13,19 @@
 自动化组件录制元素，完成录制后“选择元素”状态会发生变化，自动创建并关联选择器：
 
 
-![按钮状态](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0001.png)
+![按钮状态](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0001.png)
 
     
 录制的选择器内容存储在项目路径下的 project.selector中：
 
 
-![文件路径](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0002.png)
+![文件路径](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0002.png)
 
 
 通过选择器ID绑定组件和选择器：
 
 
-![选择器ID](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0003.png)
+![选择器ID](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0003.png)
 
 
 
@@ -34,24 +34,24 @@
 之后其他想使用相同元素的选择器时，只许点击组件右侧的“选择元素”按钮：
 
 
-![选择元素按钮](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0004.png)
+![选择元素按钮](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0004.png)
 
 
 即可在弹窗中选择使用已有元素，使用方法与使用导入的元素市场一致：
 
 
-![选择元素弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0005.png)
+![选择元素弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0005.png)
 
 
 同时也支持编辑选择器中的ID直接切换选择器：
 
 
-![选择器ID](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0003.png)
+![选择器ID](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0003.png)
 
 
 如已安装其他元素项目，可先点击下拉框切换至“项目元素”后再选择需要使用的元素：
 
-![选择器ID](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector00011.png)
+![选择器ID](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector00011.png)
 
 
 ### 修改
@@ -60,13 +60,13 @@
 支持点击“选择器”属性在选择器窗口中修改,详见[选择器](https://academy.encoo.com/wiki/Activities/Appendix/Selector.md)
     
 
-![选择器窗口](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0006.png)
+![选择器窗口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0006.png)
 
     
 修改完成后可选择是否新建选择器：
 
 
-![选择器窗口弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0007.png)
+![选择器窗口弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0007.png)
 
 
 选择“是”时会新建一个选择器，对应一个新的ID；
@@ -80,12 +80,12 @@
 此外也支持直接编辑project.selector文件，双击或右键打开项目路径下的project.selector文件：
 
 
-![右键项目](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0008.png)
+![右键项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0008.png)
 
 
 即可进入到选择器编辑状态，使用方法详见元素市场：
 
-![元素市场窗口](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector0009.png)
+![元素市场窗口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector0009.png)
 
 
 ### 删除
@@ -94,7 +94,7 @@
 双击或右键打开project.selector文件，在新标签页中右键点击选择器或文件夹即可删除，使用方法与元素市场一致：
 
 
-![元素市场删除](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/selector00010.png)
+![元素市场删除](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/selector00010.png)
 
 
 > 删除已被组件引用的选择器会导致相关组件无法运行，请谨慎操作。

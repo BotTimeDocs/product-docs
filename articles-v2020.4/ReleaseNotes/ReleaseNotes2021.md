@@ -317,21 +317,21 @@
 5. 支持在变量/参数面板中变更变量/参数时，自动关联变更已引用的变量/参数。
 6. 支持输出面板浮动显示，方便查看设计面板中的流程。
 
-    ![输出面板浮动](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outputpanel20211014.png)
+    ![输出面板浮动](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/outputpanel20211014.png)
 
 7. 流程发布到控制台时，支持自定义流程图标，方便在“控制台流程”中查找已发布的流程。
 
-    ![控制台流程库](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/publishlogo20211014.png)
+    ![控制台流程库](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/publishlogo20211014.png)
 
 8. 导出或发布流程时，支持依赖项可选择，同时支持导出每个流程文件对应的大纲，满足特定的用户场景。
 
-    ![导出流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/importproject20211014.png)
+    ![导出流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/importproject20211014.png)
 
-    ![大纲文件](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/outline20211014.png)
+    ![大纲文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/outline20211014.png)
 
 9. 自动化录制技术 UIA3 支持更多的属性，如，AccessKey、AcceleratorKey、 HelpText、 ItemType、 ItemStatus、 Orientation。
 
-    ![UIA3](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/UIA320211014.png)
+    ![UIA3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/UIA320211014.png)
 
 #### 【组件】
 
@@ -351,11 +351,11 @@
 1. 企业版机器人支持 [在线更新](./../Reference/Robot/updateRobot.md) 升级，无需用户手动下载安装包更新。
 2. 支持 [“本地自动解锁运行流程”和“RDP 远程会话保持”](./../Reference/Robot/Settings/Basic.md)，保证流程执行的稳定性。
 
-    ![执行流程](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/executeflow20211014.png)
+    ![执行流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/executeflow20211014.png)
 
 3. 支持在新建 [定时任务](./../Reference/Robot/CronJob.md) 时，设置“是否启用”定时任务以及机器人忙碌时的处理方式，满足特定的用户场景。
 
-    ![定时任务](https://docimages.blob.core.chinacloudapi.cn/images/ReleaseNote/cronjob20211014.png)
+    ![定时任务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ReleaseNote/cronjob20211014.png)
 
 ### 改进与增强
 

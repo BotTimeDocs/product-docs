@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：指定Adobe Acrobat右侧工具栏，返回文本元素。
 
-![配置获取屏幕含某文本的元素组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetTextElement1.png)
+![配置获取屏幕含某文本的元素组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetTextElement1.png)

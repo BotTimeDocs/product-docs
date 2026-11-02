@@ -26,11 +26,11 @@
 
 **此流程执行逻辑**：将 Json对象`JObject.Parse("{'名称':'云扩RPA','版本':1.0}")`转换成标准化Json字符串：
 
-![配置项](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject2.png)
+![配置项](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SerializeObject2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SerializeObject3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SerializeObject3.png)
 
 > **说明：**
 >

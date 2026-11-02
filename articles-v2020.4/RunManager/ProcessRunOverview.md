@@ -17,7 +17,7 @@
 
 当我们编辑完流程以后，就要开始运行流程。机器人是专门用来运行流程的，比起编辑器，他可以完成一些更复杂，无人值守的业务场景自动化。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-wanglei-product.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-wanglei-product.png"/>
 
 
 
@@ -103,7 +103,7 @@
 
 不同部署方式：服务器方式部署 VS PC/laptop方式部署
 
-  <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-DeploymentType.png"/>
+  <img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-DeploymentType.png"/>
   
 
 </br></br>
@@ -127,7 +127,7 @@
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-activate.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-activate.png"/>
 
 
   
@@ -144,7 +144,7 @@
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-Independentdesktop.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-Independentdesktop.png"/>
 
 
 
@@ -162,7 +162,7 @@
 
 </br>但是在有些场景上，做这种设置是不安全的。机器人为我们提供了一种自动解锁的运行机制。</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-lockscreen.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-lockscreen.png"/>
 
 
 </br></br>当机器人开始执行流程的时候，计算机处于锁屏状态，勾选自动解锁功能以后，机器人会使用设置好的用户名和密码解锁计算机，使得流程可以正常的执行。</br></br></br>
@@ -189,7 +189,7 @@
 
 在机器人执行流程时，左侧列表会出现“执行日志”页面的按钮，跳转后的页面会展示当前机器人正在执行的步骤以及实时产生的日志信息。</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-Realtimelog.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-Realtimelog.png"/>
 
 
 </br></br></br>
@@ -198,12 +198,12 @@
 
 除了在窗口实时展示以外，流程产生的日志也会记录到相应的日志文件中。在“执行记录”页面可以看到每条执行记录都有对应的日志按钮：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-historylog.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-historylog.png"/>
 
 
 点击“日志”，就可以直接进入目录并查看日志文件。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-journalfile.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-journalfile.png"/>
 
  
 ### 4.2 日志详解
@@ -241,7 +241,7 @@
   2. 在流程出现异常情况时，用于记录当下的异常信息</br>
   3. 错误日志出现时，机器人会相应地抓取当前计算机画面存放于日志目录中，供用户进行错误分析</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-errorlog.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-errorlog.png"/>
  
 
 建议的默认日志级别是**Info级别**，即仅展示关键信息。
@@ -255,7 +255,7 @@
 
 如果日志不足以分析问题时，除了进一步完善日志外，也可以使用录屏的方式，将整个流程的执行过程完整录制下来用来定位问题。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-screenrecording.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-screenrecording.png"/>
 
 
  
@@ -263,7 +263,7 @@
 在执行窗口中，勾选了录制视频后，机器人就会将本次的执行过程完整录制下来，并存放于日志目录。</br>
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-Logdirectory.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-Logdirectory.png"/>
 
 
   
@@ -280,7 +280,7 @@
 如果因为计算机性能不足、或是硬盘空间有限等原因无法使用录屏功能时，也可以使用消耗资源更低的执行过程截图功能。</br>
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-screenshot.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-screenshot.png"/>
 
 
  
@@ -293,4 +293,4 @@
 勾选了执行过程截图的情况下，在流程执行结束后，日志目录会多出一个Screenshots文件夹，用于存放截图。</br>
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/RunManger/0615-screenshotsave.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/RunManger/0615-screenshotsave.png"/>

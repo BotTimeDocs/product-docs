@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：将E盘下的文档复制到D盘的“移动文件”的目录下面。
 
-![配置复制/移动文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFile-2.png)
+![配置复制/移动文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/moveFile-2.png)

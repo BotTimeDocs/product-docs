@@ -7,7 +7,7 @@
 <br/>
 此外，内置了敏感词和违规词汇的检测机制，通过该机制，产品能预防回答含有不合规内容的问题，以确保系统的合规性和安全性。这个特性使其提供智能问答功能的同时，也兼顾到了信息安全的考量。您还可以根据业务场景自定义审查规则，以更大程度的满足您的实际业务需求。
 <br/>
-![aboutkb1](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/aboutkb1.png)
+![aboutkb1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/KB/aboutkb1.png)
 
 ### 示例场景
 
@@ -17,4 +17,4 @@
 <br/>
 当需要获取某些指定信息，如“公司历年的税务抵免政策是什么？”或者“上个财务年度的主要决策与其结果是什么？”时，你或你的同事们可以直接将这些问题输入到智能问答系统中。系统能够即时从你构建的知识库中提取答案，节省你查找资料所需要的时间，并确保信息的准确性。
 <br/>
-![aboutkb2](https://docimages.blob.core.chinacloudapi.cn/images/Console/KB/aboutkb2.png)
+![aboutkb2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/KB/aboutkb2.png)

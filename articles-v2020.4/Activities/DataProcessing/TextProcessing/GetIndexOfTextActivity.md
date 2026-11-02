@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：获取 `RPA` 字符串在 `云扩RPA` 字符串中的索引位置，结果保存至变量 `S` 中。
 
-![配置获取文本索引组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getindexoftext20210809.png)
+![配置获取文本索引组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getindexoftext20210809.png)

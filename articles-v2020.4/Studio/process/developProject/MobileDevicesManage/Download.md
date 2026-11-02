@@ -6,7 +6,7 @@
 
     根据不同的平台类型下载对应的安装包：
 
-    ![手机服务安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobilepackage20210617.png)
+    ![手机服务安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/mobilepackage20210617.png)
 
     - Android（Encoo.Android.Automation）下载地址：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本 Android 服务包。
     - IOS（Encoo.IOS.Automation）下载地址：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本 IOS 服务包。
@@ -15,4 +15,4 @@
 
     - 云扩 RPA 编辑器（企业版）下载地址：在 [云扩 RPA 控制台（企业版）](https://console.encoo.com/) 的 **首页** 中下载最新版本编辑器。
 
-    ![编辑器安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/studiopackage20210617.png)
+    ![编辑器安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/studiopackage20210617.png)

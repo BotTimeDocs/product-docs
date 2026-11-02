@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：为循环操作（Do While）组件创建变量count，设置数据类型为Int32，默认值为1，并添加循环条件 count <= 3；在循环操作（Do While）容器内拖入**赋值**组件并设置count递增，随着每次的循环对变量赋值。
 
-![设置Do While循环操作组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dowhile-2.png)
+![设置Do While循环操作组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dowhile-2.png)

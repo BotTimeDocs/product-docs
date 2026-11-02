@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：获取移动端剪贴板上的已存在的内容。
 
-![获取剪贴板文本属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getclipboardtext20210319.png)
+![获取剪贴板文本属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getclipboardtext20210319.png)

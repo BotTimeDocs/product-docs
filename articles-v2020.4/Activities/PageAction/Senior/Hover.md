@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：指定网页上需要悬停才可以展示的元素。
 
-![配置悬停组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/hover-2.png)
+![配置悬停组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/hover-2.png)

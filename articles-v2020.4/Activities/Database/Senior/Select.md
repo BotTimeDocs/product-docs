@@ -36,4 +36,4 @@
 
 **此流程执行逻辑**：查询数据库中`test.testconnect`数据表中的数据。
 
-![配置查询组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db3.png)
+![配置查询组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/connect_db3.png)

@@ -45,4 +45,4 @@
 
 **此流程执行逻辑**：使用 SMTP 服务，将邮件内容发送给指定的收件人。
 
- ![配置发送邮件(SMTP)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendMailSMTP2020122202.png)
+ ![配置发送邮件(SMTP)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SendMailSMTP2020122202.png)

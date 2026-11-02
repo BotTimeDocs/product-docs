@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：指定网页端或桌面端有多个选项的元素，实现选择多个选项文本。
 
-![配置选择多个项目组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectMultipleItems1.png)
+![配置选择多个项目组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/selectMultipleItems1.png)

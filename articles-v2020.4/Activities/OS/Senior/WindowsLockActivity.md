@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：保存并运行流程，可实现自动把电脑屏幕锁住。
 
-![锁屏样例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/lock20201216.gif)
+![锁屏样例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/lock20201216.gif)

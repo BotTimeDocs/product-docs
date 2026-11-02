@@ -9,7 +9,7 @@
 3. 在弹窗内输入数据表名称；如果需要关联到控制台数据中心，则从下拉框中选择一个已有“数据表”
 4. 单击“确定”，即可在应用内添加一个空白数据表
 
-    ![新建数据表](https://docimages.blob.core.chinacloudapi.cn/images/Kris/createnewdatatable.png)
+    ![新建数据表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/createnewdatatable.png)
 
 >**说明：**
 >
@@ -36,7 +36,7 @@
 1. 在“数据表配置”视图，单击“添加字段”按钮
 2. 在视图页面右侧的抽屉中，设置字段的属性，即可添加字段。
 
-    ![添加字段](https://docimages.blob.core.chinacloudapi.cn/images/Kris/addfield.jpg)
+    ![添加字段](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/addfield.jpg)
 
 >**说明：**
 > 
@@ -51,5 +51,5 @@
 
 **数据表管理**用于查看和管理存储在数据库的数据。
 
-![数据表管理](https://docimages.blob.core.chinacloudapi.cn/images/Kris/datatablemanagement.jpg)
+![数据表管理](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/datatablemanagement.jpg)
 

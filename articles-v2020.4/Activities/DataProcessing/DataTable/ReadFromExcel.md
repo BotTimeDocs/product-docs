@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：读取一个Excel文件，并预览读取到的结果。
 
-![读取Excel文件](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtexcel001.png)
+![读取Excel文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtexcel001.png)

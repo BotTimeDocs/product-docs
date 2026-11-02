@@ -29,11 +29,11 @@
 
 - 写入行数据
 
-![配置写入行数据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn1.png)
+![配置写入行数据组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/WriteRowOrColumn1.png)
 
 - 写入列数据
 
-![配置定稿列数据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/WriteRowOrColumn2.png)
+![配置定稿列数据组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/WriteRowOrColumn2.png)
 
 ## 常见问题
 

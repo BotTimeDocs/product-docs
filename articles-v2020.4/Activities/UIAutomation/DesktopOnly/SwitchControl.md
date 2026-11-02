@@ -38,4 +38,4 @@
 
 **此流程执行逻辑**：指定企业微信桌面端窗口，当发送Ctrl + N 快捷键会打开一个新的聊天窗口，代表焦点发生了变化。
 
-![配置切换控件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SwitchControl1.png)
+![配置切换控件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SwitchControl1.png)

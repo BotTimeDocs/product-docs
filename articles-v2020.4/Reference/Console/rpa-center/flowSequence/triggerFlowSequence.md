@@ -7,7 +7,7 @@
 
 在流程编排详情页中，单击任一流程编排的“定时任务”选项页，即可切换查看该流程编排名下所有的定时任务。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-list.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-list.png)
 
 ## 新建定时任务
 
@@ -15,7 +15,7 @@
 
     在流程编排详情页的“定时任务”选项页中，单击“+新建” ，在弹出的新建对话框中，填写定时任务详情配置。
 
-    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console02.png)
+    ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0626-console02.png)
 
     - **基本**
 
@@ -38,45 +38,45 @@
             >
             > 按分钟，限制间隔需大于等于 10 分钟。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-min.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-min.png)
 
             - **按小时**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-hour.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-hour.png)
 
             - **按天**：以开始时间的天为基准，并按照计划时间，循环触发任务执行。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-day.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-day.png)
 
             - **按周**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-week.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-week.png)
 
             - **按月**：以开始时间的月为基准，并按照计划时间，循环触发任务执行。
             支持“在当前月的正数第几天的几时几分”、“在当前月的倒数第几天的几时几分”、“在当前月的第几个星期几的几时几分”。
 
                 *在当前月的正数第几天的几时几分*:
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-month1.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-month1.png)
 
                 *在当前月的倒数第几天的几时几分*:
 
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-month2.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-month2.png)
 
                 *在当前月的第几个星期几的几时几分*:
 
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-month3.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-month3.png)
 
             - **按工作日历**：按工作日历，触发任务执行。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console03.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0626-console03.png)
 
             - **指定一个时间**：任务将在指定时间执行一次。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-onetime.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-onetime.png)
 
             - **按表达式**：根据 cron 表达式执行。
 
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-cron.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-cron.png)
 
             > **说明：**
             >
@@ -92,7 +92,7 @@
         >
         > 时区，一般用于跨国公司场景，如 IT 运维在美国总部工作，可以设置中国子公司的业务流程按照时区 [(UTC+08: 00) 北京，重庆，香港特别行政区，乌鲁木齐] 执行，也可以设置日本子公司的业务流程照时区 [(UTC+09: 00) 大阪，札幌，东京] 执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console04.png)
+        ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0626-console04.png)
 
 2. 点击“保存”
 
@@ -102,10 +102,10 @@
 
 点击某一定时任务的“查看”按钮，即可查看对应的定时任务详情。点击“编辑”按钮后即可开始对定时任务进行编辑，完成后点击“保存”按钮即可。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-view1.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-view1.png)
 
 ## 启用/停用定时任务
 
 你可以在定时任务列表中点击“操作”选项中的启用/停用按钮，对当前定时任务进行启用/停用操作。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528flowsquence-trigger-start.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528flowsquence-trigger-start.png)

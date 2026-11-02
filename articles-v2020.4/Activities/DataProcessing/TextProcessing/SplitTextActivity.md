@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：将字符串`"123.56"`以`"."`为分隔符分割文本，分割后的文本存储至变量`S`中。
 
-![配置属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/splittext20210104.png)
+![配置属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/splittext20210104.png)

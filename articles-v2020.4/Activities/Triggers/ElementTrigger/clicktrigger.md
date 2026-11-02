@@ -43,4 +43,4 @@
 
 **此流程执行逻辑**：在点击指定的元素后触发“写入日志”操作。
 
-![配置指定触发元素组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locateclicktriggerelement20210510.png)
+![配置指定触发元素组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/locateclicktriggerelement20210510.png)

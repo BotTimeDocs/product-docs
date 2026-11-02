@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：获取数组`new string[]{"A","B","C"}`的长度，并存储至`数组length`变量中。
 
-![配置获取数组长度组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfArrayActivity1.png)
+![配置获取数组长度组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetLengthOfArrayActivity1.png)

@@ -33,4 +33,4 @@
 >
 > 由于页面多语言且每次打开时语言可能和上次不同，所以用来定位窗口的标题会失效。但是，该浏览器进程下只有两个浏览器窗口同时打开，且其中一个标题固定，故可通过此组件来实现反向推断另一个窗口标题的目的，以此来完成后续的操作。
 
-![获取进程名](https://docimages.blob.core.chinacloudapi.cn/images/Activities/processname20210622.png)
+![获取进程名](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/processname20210622.png)

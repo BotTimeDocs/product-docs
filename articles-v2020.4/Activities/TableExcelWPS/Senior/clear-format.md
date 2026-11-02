@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：将桌面中“研发记录清单.xlsx”文件中的 `"Sheet1"` 工作表中的 `"A1:C2"` 区域中的内容，清除格式。
 
-![配置清除格式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clearformat20211115.png)
+![配置清除格式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/clearformat20211115.png)

@@ -12,7 +12,7 @@
     > **说明**
     > 对于SaaS控制台用户而言，安装包对于社区用户或企业用户是同一个</br>
 
-    ![安装包](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot09.png)
+    ![安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/0626-robot09.png)
 
     **获取指定版本安装包**</br>
     对于私有化控制台用户而言，一般需登录私有化控制台，在首页获取指定版本的装包。</br>
@@ -21,9 +21,9 @@
 
 2. 下载完成后双击安装包进行安装，进入如下图所示界面。
   
-    ![正在安装](https://docimages.blob.core.chinacloudapi.cn/images/Robot/InstallRobot-1.gif)
+    ![正在安装](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/InstallRobot-1.gif)
 
 3. 在弹出的“软件许可协议”框中，勾选“已阅读并同意软件许可协议”并点击“确定”。
 
-    ![软件许可协议](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotlicense20211011.png)
+    ![软件许可协议](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotlicense20211011.png)
 

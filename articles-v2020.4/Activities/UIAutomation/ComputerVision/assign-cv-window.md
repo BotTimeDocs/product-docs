@@ -26,7 +26,7 @@
     >
     >当更改选择器属性值后，需单击该窗口的“刷新”图标按钮，否则更改的值不生效。
 
-    ![刷新](https://docimages.blob.core.chinacloudapi.cn/images/Activities/refresh20211110.png)
+    ![刷新](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/refresh20211110.png)
 
 ### 可选项
 
@@ -36,4 +36,4 @@
 
 此组件是计算机视觉（CV）屏幕的作用域，需结合CV类的组件一起使用。
 
-![指定CV窗口](https://docimages.blob.core.chinacloudapi.cn/images/Activities/CVwindow20211110.png)
+![指定CV窗口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/CVwindow20211110.png)

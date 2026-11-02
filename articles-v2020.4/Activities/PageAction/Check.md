@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：指定需勾选的网页元素，并为其执行勾选操作。
 
-![配置勾选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-2.png)
+![配置勾选组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/check-2.png)

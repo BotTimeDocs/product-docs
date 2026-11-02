@@ -2,7 +2,7 @@
 
 你可以通过以下键盘快捷键或者在**开始主页 > 设置 > 快捷键**中访问云扩 RPA 编辑器的相关命令，进行一些操作。
 
-![键盘快捷键入口](https://docimages.blob.core.chinacloudapi.cn/images/Studio/keyboard20210528.png)
+![键盘快捷键入口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/keyboard20210528.png)
 
 ## 全局快捷键
 

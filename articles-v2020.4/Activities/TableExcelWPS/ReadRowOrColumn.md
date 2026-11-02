@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：在 **打开/新建** 组件中，拖入 **读取行/列数据** 组件，读取 sheet1 工作表中 A1 单元格中的数据，通过 **写入行/列数据** 组件写入至 sheet2 工作表中的 A1 单元格中。
 
-![配置读取行/列数据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRowOrColumn2.png)
+![配置读取行/列数据组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadRowOrColumn2.png)

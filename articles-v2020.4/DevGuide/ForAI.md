@@ -8,7 +8,7 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 <br/>
 
-![AI01](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI01.png)
+![AI01](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI01.png)
 
 云扩在RPA\+AI方面进行了多角度探索，具有以下特点：
 
@@ -40,13 +40,13 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 <br/>
 
-![AI02](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI02.png)
+![AI02](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI02.png)
 
 例如：使用[增值税发票识别](https://academy.encoo.com/zh-cn/wiki/Activities/AI/VATInvoiceIdentification.md)组件对发票进行OCR识别
 
 <br/>
 
-![AI03](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI03.gif)
+![AI03](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI03.gif)
 
 更多OCR服务快速试用请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/OCR.md)。
 
@@ -62,7 +62,7 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 <br/>
 
-![AI04](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI04.png)
+![AI04](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI04.png)
 
 具体文档理解技术使用方法，请看[这里](https://academy.encoo.com/zh-cn/wiki/Reference/Console/ai-center/aboutdocreader.md)。
 
@@ -76,7 +76,7 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 <br/>
 
-![AI05](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI05.png)
+![AI05](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI05.png)
 
 若需使用云扩自研AI服务，仅需联系云扩商务人员完成购买。
 
@@ -84,6 +84,6 @@ RPA 是流程自动化，把重复的流程按照一条条规则自动完成，
 
 <br/>
 
-![AI06](https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/AI06.png)
+![AI06](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/AI06.png)
 
 3）点击“运行”即可查看识别结果

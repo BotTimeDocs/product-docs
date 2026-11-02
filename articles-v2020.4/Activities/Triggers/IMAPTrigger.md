@@ -46,4 +46,4 @@
 
 **此流程执行逻辑**：监控指定 Outlook 邮箱的 IMAP 邮件服务器中有新邮件时，在输出窗口中打印出新增邮件的内容。
 
-![配置邮件触发器(IMAP)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IMAPTrigger1.png)
+![配置邮件触发器(IMAP)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/IMAPTrigger1.png)

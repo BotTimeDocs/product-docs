@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：将数据表`table`中的`"年龄"`列进行升序排序。
 
-![配置排序组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SortDataTable20201229.png)
+![配置排序组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SortDataTable20201229.png)

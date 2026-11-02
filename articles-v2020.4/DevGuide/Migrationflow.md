@@ -7,18 +7,18 @@
 
 安装并启用浏览器扩展，以Edge浏览器为例，详情可查看[浏览器扩展](https://academy.encoo.com/zh-cn/wiki/Studio/Extensions/EdgeExtension.md)：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lcqy-00001.png)</br>
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lcqy-00001.png)</br>
 
 
 ## 修改项目文件
 
 进入自动化流程，将流程“**浏览器类型**”为“**IE**”/“**默认**”的修改为其他浏览器，如**Edge**浏览器：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lcqy-00002.png)</br>
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lcqy-00002.png)</br>
 
 当“浏览器类型”为“默认”时，也可通过右键项目文件进入项目设置，将自动化-浏览器类型从IE修改为Edge：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/lcqy-00003.png)</br>
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/lcqy-00003.png)</br>
 
 
 

@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：读取 "D:\\滴滴电子发票 (1).pdf" 文件的第一页中的文字，识别后的文字保存至 result 变量中。
 
-![配置读取文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractText_2.png)
+![配置读取文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExtractText_2.png)

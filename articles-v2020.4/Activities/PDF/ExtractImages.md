@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：读取"D:\\滴滴电子发票 (1).pdf"文件的第一页中的图，识别后的图片保存到D盘路径下。
 
-![配置读取图片组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractImages_2.png)
+![配置读取图片组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExtractImages_2.png)

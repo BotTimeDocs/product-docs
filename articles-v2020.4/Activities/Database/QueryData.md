@@ -36,7 +36,7 @@
 
 **此流程执行逻辑**：查询数据表 `testdemo` 中 "sex" 列为 "女" 的数据，结果保存至 `quertyresult` 变量中。
 
-![查询](https://docimages.blob.core.chinacloudapi.cn/images/Activities/queryfilterdata20210924.png)
+![查询](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/queryfilterdata20210924.png)
 
 
 ## 常见问题

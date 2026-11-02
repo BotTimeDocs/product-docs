@@ -7,7 +7,7 @@
 云扩RPA高密度机器人是指可以在一台机器上同时运行多个机器人实例的功能。这种机器人可以通过水平扩展来提高并发处理能力，可以根据任务的需要灵活调整运行的机器人数量，从而满足不同规模任务的处理需求。
 与传统机器人相比，云扩RPA的高密度机器人可以在同一台机器上同时运行多个机器人实例，提高机器人的处理能力和效率，缩短任务处理的时间，提高业务处理效率。
 
-![高密度机器人](https://docimages.blob.core.chinacloudapi.cn/images/ProductGuide/Lexica%20Aperture7.jpg)
+![高密度机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ProductGuide/Lexica%20Aperture7.jpg)
 
 
 ## 为什么要使用云扩RPA高密度机器人？
@@ -17,7 +17,7 @@
 
 云扩RPA高密度机器人还可以帮助企业降低成本。它可以在同一台机器上同时运行多个机器人实例，减少了硬件设备的需求，降低了企业的硬件成本和维护成本。同时，高密度机器人的可扩展性也非常强，可以根据企业的业务需求，灵活调整机器人的数量和运行状态，实现自动化处理的高度可扩展性。<br/>
 
-![高密度机器人2](https://docimages.blob.core.chinacloudapi.cn/images/ProductGuide/321C74A5-1F25-419d-9C50-36055D9D6551.png)
+![高密度机器人2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/ProductGuide/321C74A5-1F25-419d-9C50-36055D9D6551.png)
 
 此外，云扩RPA高密度机器人还提供了任务调度、监控和管理的功能，可以对机器人的运行状态进行实时监控和管理，以确保机器人的运行稳定和可靠性。这些功能使得企业可以更加轻松地管理和控制机器人的运行状态，减少了出现问题的可能性，提高了机器人的可靠性。
 

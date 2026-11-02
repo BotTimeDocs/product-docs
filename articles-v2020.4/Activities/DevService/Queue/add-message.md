@@ -25,4 +25,4 @@
 **前置必要条件**：在企业版控制台的“数据中心 > 数据队列”中已创建数据队列。
 **此流程执行逻辑**：为控制台中的 `"产品设计与测试"` 部门下的 `"dq"` 数据队列，设置生存时间为 `7天` 的消息内容 `"wx test"`。
 
-![配置写入消息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/addmessage20211122.png)
+![配置写入消息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/addmessage20211122.png)

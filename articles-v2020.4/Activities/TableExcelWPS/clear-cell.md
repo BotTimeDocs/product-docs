@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：将项目路径下 “研发记录清单.xlsx”文件中的 "Sheet1" 工作表的 "A1" 内容清除。
 
-![清除单元格](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clearcell20220408.png)
+![清除单元格](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/clearcell20220408.png)

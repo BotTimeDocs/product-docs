@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：将已添加键值对的字典 `D` 中的键值对(`key3`、`value3`)移除，返回结果存储至变量 `S` 中。
 
-![配置移除键值对组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removekeyvalue20210112.png)
+![配置移除键值对组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/removekeyvalue20210112.png)

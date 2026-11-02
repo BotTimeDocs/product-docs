@@ -48,13 +48,13 @@
 
 **此流程执行逻辑**：使用Outlook服务，将邮件内容发送给指定的收件人。
 
-![配置发送邮件(Outlook)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SendOutlookMail2020122202.png)
+![配置发送邮件(Outlook)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SendOutlookMail2020122202.png)
 
 ## 常见问题
 
 1. 某个程序正试图在 Outlook 中代表你发送电子邮件警告 <br>
 
-   ![发送邮件 outlook](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendoutlookmail20201204.png)
+   ![发送邮件 outlook](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sendoutlookmail20201204.png)
 
    <br>
 

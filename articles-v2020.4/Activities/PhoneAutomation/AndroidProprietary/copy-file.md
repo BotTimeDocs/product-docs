@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将本手机中的 `"/sdcard/DCIM/Camera/IMG_20211215_130018.jpg"` 文件复制到本地计算机的桌面中 `"C:\Users\wangxin\Desktop"`。
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyfile20211215.jpg)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/copyfile20211215.jpg)

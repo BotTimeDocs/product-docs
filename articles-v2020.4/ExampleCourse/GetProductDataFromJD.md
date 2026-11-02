@@ -30,7 +30,7 @@
     
 打开云扩RPA编辑器并创建名为【获取商品信息】的流程
     
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/1.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/1.png)
 
 ### **2.  初始化流程**
 
@@ -43,11 +43,11 @@
 
 【序列】组件适用于逻辑简单的顺序工作流场景。此节这段逻辑比较简单只有2步，判断文件是否存在，存在则删除，所以可以选择使用【序列】。当然，同样也可以选择使用【流程图】，【流程图】适用于逻辑判断较多且复杂的业务场景，想了解更多请点击[这里](https://www.bilibili.com/video/BV1Fa411i7sn?spm_id_from=333.999.0.0)。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/2.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/2.png)
 
 小技巧: 为了让自己或其他伙伴更好的理解要做的事情，可以更改组件名称或选中组件并鼠标右键，在菜单中选择【批注】，填写内容并固定在组件上。完成后如下图：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/3.png"/> 
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/3.png"/> 
 
 ### 2.  判断文件是否存在
     
@@ -63,21 +63,21 @@
 
 注意：exists是变量，用于存储判断结果，点击其右侧【fx】后在弹窗中点击【使用】自动创建变量exists并应用在组件中。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/4.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/4.png)
 
 ### 2.2  在组件库找到组件【条件(if)】并拖拽至组件【文件/文件夹是否存在】下方。
     
 
 在弹窗中填写逻辑判断 exists == true ，如下图。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/5.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/5.png)
 
 ### 2.3  在组件【条件（if）】中的【条件成立】区域中，把组件【删除文件/文件夹】拖拽至此处。并在填写如下内容：
     
 
 文件：“商品数据.xlsx”
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/6.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/6.png)
 
 小结：
 
@@ -103,12 +103,12 @@
 
 注意：在开始前请先安装浏览器扩展，以确保可以实现自动化。本节将在Chrome浏览器中操作，则需先安装【Chrome扩展】
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/7.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/7.png)
 
 ### 3.1.1  点击左上角【流程图_Root】回到第一个设计面板，从左侧组件库找到【打开浏览器】并拖拽到第一个组件下方，填写相应批注。如图所示：
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/8.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/8.png)
 
 ### 3.1.2  双击【打开浏览器】组件进入内部编辑区域，并在网址属性中填写京东地址：
     
@@ -117,7 +117,7 @@
 
 浏览器类型：Chrome
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/9.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/9.png)
 
 ### 3.2  判断是否已登录
     
@@ -127,14 +127,14 @@
 ### 3.2.1  把组件【判断元素是否存在】拖拽进来
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/10.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/10.png)
 
 ### 3.2.2  点击【指定元素】，此时编辑器最小化，在京东首页上把鼠标移动至【你好，请登录】位置，待边框高亮时单击即可完成录制。如下视频所示：
     
 
 在此组件的属性【结果】中点击【fx】并生成变量isLogin，用于保存判断结果。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/11.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/11.png)
 
 ### 3.2.3  在【判断元素是否存在】组件下方添加组件【条件（if）】，并在属性判断条件中设置：
     
@@ -143,11 +143,11 @@
 
 在【条件成立】区域中添加组件【点击】，即在页面上点击【请登录】前往登录页面。同上，使用【指定元素】在页面上选取【请登录】位置高亮后回到设计面板。如下图所示：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/12.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/12.png)
 
 在【条件不成立】区域中添加组件【写入日志】，并填写内容“已有用户登录！”，让我们可以在日志中可以明白已登录且跳过了登录步骤。如下图所示：
 
-<img width = '685'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/13.png"/> 
+<img width = '685'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/13.png"/> 
 
 ### 3.3 登录
 
@@ -155,12 +155,12 @@
 
 ### 3.3.1 回到编辑器设计面板，并在【点击】组件下方在增加一个【点击】组件，以完成自动点击页面上的【账号登录】
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/14.png"/> 
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/14.png"/> 
 
 
 ### 3.3.2 接下来我们继续从组件面板拖拽2个【输入文本】组件放在下方，并使用其【指定元素】分别指定页面上的【用户名和密码】框。
 ![]()  
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/15.png"/> 
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/15.png"/> 
 
 ### 3.3.3  定义流程参数和赋值
     
@@ -183,13 +183,13 @@
 
 步骤4：把密码赋值给第一个【输入文本】组件，即在页面密码框中填写密码；
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/16.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/16.png)
 
 注意：为了确保密码的安全性，建议参数密码的参数类型选择为 Encoo.DataType.Password, 这样的话在输入密码时则会以星号*的方式显示。
 
 ### 3.3.4 最后在最下方再次拖入一个【点击】组件，使用【指定元素】选取页面上的【登录】按钮。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/17.png"/> 
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/17.png"/> 
 
 
 
@@ -202,7 +202,7 @@
 ### 4.1  回到【打开浏览器】设计区域，在【序列】下方添加组件【输入文本】，用于在搜索框中输入商品关键字
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/18.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/18.png)
 
 ### 4.2 单击组件【输入文本】的【指定元素】选取浏览器页面上的【搜索框】，待黄色高亮时单击并返回到设计面板。
     
@@ -210,12 +210,12 @@
 ### 4.3 在【参数面板】添加String类型的参数【商品关键字】并设置默认值 “茅台”，再把填充到【输入文本】组件属性中。如下图所示：
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/19.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/19.png)
 
 ### 4.4 在【输入文本】下方添加组件【点击】，用于自动化点击页面上的【搜索】按钮。
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/20.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/20.png)
 
 ### 5. 获取商品数据
 
@@ -241,7 +241,7 @@
 
 ### 5.2 选中【获取结构化数据】组件，打开【变量面板】，将变量dataTable的【范围】设置为 流程图_Root， 以用于接下来保存此数据至Excel文件中。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/21.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/21.png)
 
 # 6. 将商品数据保存至excel文件
 
@@ -258,9 +258,9 @@
 
 可视：勾选，即整个操作过程可在屏幕上看到
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/22.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/22.png"/>
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/23.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/23.png)
 
 ### 6.2  将数据变量dataTable保存至Excel中。在【打开/新建】组件中添加组件【写入区域】，并指定如下属性：
     
@@ -270,7 +270,7 @@
 起始单元格："A1"
 
 数据表：dataTable，即存储的内容为变量dataTable数据
-<img width = '685'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/24.png"/>
+<img width = '685'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/24.png"/>
 
 ### 7. 运行流程并查看结果
 
@@ -279,7 +279,7 @@
 
 在编辑器工具栏中点击【运行】，并在弹窗中分别输入京东用户名、密码和欲检索的商品关键字。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/25.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/25.png)
 
 ### 7.2  查看结果
     
@@ -287,12 +287,12 @@
 ### 7.2.1 运行结束后，在项目的相对路径目录下找到【商品数据.xlsx】
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/26.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/26.png)
 
 ### 7.2.2 双击【商品数据.xlsx】文件查看商品数据
     
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Course/GetJDData/27.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/GetJDData/27.png)
 
 # 总结
 

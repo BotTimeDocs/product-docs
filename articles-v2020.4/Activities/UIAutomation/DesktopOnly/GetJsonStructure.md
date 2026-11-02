@@ -29,8 +29,8 @@
 
 **此流程执行逻辑**：获取指定记事本文件中的有内容的区域，返回 JSon 格式文本。
 
-![配置获取区域结构组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetJsonStructure2.png)
+![配置获取区域结构组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetJsonStructure2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetJsonStructure3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetJsonStructure3.png)

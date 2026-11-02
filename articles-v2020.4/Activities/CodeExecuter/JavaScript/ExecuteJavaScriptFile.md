@@ -41,7 +41,7 @@
 
 **此流程执行逻辑**：执行`demo.js`文件中的`SetText(st)`方法。
 
-![配置执行JavaScript文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executejavascriptfile20210630.png)
+![配置执行JavaScript文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/executejavascriptfile20210630.png)
 
 >**说明：**
 >

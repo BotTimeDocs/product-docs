@@ -13,19 +13,19 @@
 右键点击项目目录下的数据表，之后点击“新建数据表”
 </br>
 
-![编辑器创建](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt001.png)
+![编辑器创建](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt001.png)
 </br>
 
 在弹出的窗口中输入数据表名称后点击“确定”按钮完成数据表的创建
 </br>
 
-![新建窗口](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt002.png)
+![新建窗口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt002.png)
 </br>
 
 之后根据提示点击“重新加载项目”即可完成数据表创建
 </br>
 
-![重新加载项目](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt003.png)
+![重新加载项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt003.png)
 </br>
 
 >项目中创建的数据表是在流程执行前创建，可以添加初始的数据，在流程运行结束后会还原为初始状态。
@@ -39,12 +39,12 @@
 ### 通过控制台创建数据表
 登录控制台之后进入“数据中心”的“数据表管理”中，点击“新建”按钮
 
-![控制台](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0013.png)
+![控制台](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0013.png)
 </br>
 
 输入“数据表名称”和“备注”后点击“确定”即可完成创建。
 
-![控制台新建](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0014.png)
+![控制台新建](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0014.png)
 </br>
 
 导入控制台数据表参见 [导入控制台数据表](#3--导入控制台数据表)
@@ -56,7 +56,7 @@
 1. ### 通过界面创建
    双击打开创建的数据表后点击数据表页签中的“编辑列”->之后点击“添加列”->在弹窗中编辑要创建的列类型->点击确认即可完成列的创建。
    </br>
-   ![创建数据表](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt005.png)
+   ![创建数据表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt005.png)
 
    **列的属性包括：**
    </br>
@@ -78,18 +78,18 @@
    之后点击行选中，再点击“删除列”即可删除当前选中的列及其中的数据；点击“上移”或“下移”来切换列的排序；也可以点击列的属性进行修改。
    </br>
 
-   ![列按钮](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt007.png)
+   ![列按钮](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt007.png)
 
    创建列之后点击“添加行”，在弹出的弹窗中添加数据后点击“确定”即可在数据表中添加数据
 
-   ![添加行](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt006.png)
+   ![添加行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt006.png)
    </br>
    之后点击行选中，再点击“删除行”即可删除当前选中的行及其中的数据；点击“清空数据”以删除整张表内的全部数据；选中行后双击可以修改数据。
 
-   ![行按钮](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt008.png)
+   ![行按钮](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt008.png)
    </br>
     修改数据后点击“保存数据表”或使用快捷键*Ctrl+S*保存编辑的数据。</br>
-    ![保存按钮](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0015.png)
+    ![保存按钮](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0015.png)
 
     >添加列支持 
 
@@ -97,22 +97,22 @@
    
    点击“导入数据表”->选择“Excel”
 
-   ![导入数据表](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt009.png)
+   ![导入数据表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt009.png)
    
    在弹窗中选择Excel文件->编辑要导入的工作表名->点击“确定”完成导入
    
-   ![导入弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0010.png)
+   ![导入弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0010.png)
 
    >导入的Excel支持.xls、.xlsx、.et、.ett格式的文件
 
 3. ### 导入控制台数据表
    点击“导入数据表”->之后选择“控制台”
 
-   ![导入控制台](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0011.png)
+   ![导入控制台](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0011.png)
    </br>
    在弹出的弹窗中选择“部门”和“数据表”后点“确定”即可导入控制台数据表。
 
-   ![控制台弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0012.png)
+   ![控制台弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0012.png)
 
    >导入控制台数据表前需确保编辑器已登录到控制台、在控制台中对应的部门下已创建数据表并且该拥有该表操作权限 
 
@@ -128,11 +128,11 @@
 ## 怎样使用数据表
 1. 数据表需要通过数据表组件使用。需要使用项目路径下创建的数据表时，在组件中以 **Project.DataTableName** 的方式进行引用，如创建了数据表“DataTable1”，则在需要使用DataTable类型的组件中输入 **Project.DataTable1**.
 
-   ![控制台弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt004.png)
+   ![控制台弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt004.png)
 
 2. 控制台创建的数据表需要使用组件[读取控制台数据表]()读取后直接在组件中使用输出的DataTable类型变量，如创建了DataTbale类型的变量DataTable1，在组件中直接输入DataTable1即可
 
-   ![控制台弹窗](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dt0016.png)
+   ![控制台弹窗](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dt0016.png)
 
 3. 组件创建的数据表同控制台数据表使用方式一样，直接使用组件输出的DataTable类型变量即可。
 

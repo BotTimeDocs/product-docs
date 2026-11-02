@@ -26,8 +26,8 @@
 
 **此流程执行逻辑**：点击 [云扩官网](https://www.encoo.com/) 的 logo 图标两次，先后分别输出循环的次数。
 
-![配置循环操作组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forpro20210813.png)
+![配置循环操作组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/forpro20210813.png)
 
 **执行结果**：
 
-![流程运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/forproresult20210813.png)
+![流程运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/forproresult20210813.png)

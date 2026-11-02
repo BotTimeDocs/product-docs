@@ -33,7 +33,7 @@
 
 **此流程执行逻辑**：将读取到的Excel的"Sheet1"工作表中"A1"单元格的内容写入到"Sheet2"工作表中"A1"单元格中。
 
-![配置写入单元格组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCell2.png)
+![配置写入单元格组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadCell2.png)
 
 ## 常见问题
 

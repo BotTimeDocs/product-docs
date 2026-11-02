@@ -4,7 +4,7 @@
 
 当页面被选中时，页面设计器会立即渲染当前页面的样式。你可以通过单击当前选中页面，展开页面列表切换页面。
 
-![页面](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pagenavigation.jpg)
+![页面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/pagenavigation.jpg)
 
 ## 新建页面
 
@@ -12,7 +12,7 @@
 2. 在弹窗内输入页面名称
 3. 单击“确定”，即可在应用内添加一个空白页面。
 
-    ![新建页面](https://docimages.blob.core.chinacloudapi.cn/images/Kris/addpage.jpg)
+    ![新建页面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/addpage.jpg)
 
 >**说明：**
 >
@@ -33,7 +33,7 @@
 
 首页将作为使用者打开该应用到达的第一个页面，且首页不可删除。
 
-![设为首页](https://docimages.blob.core.chinacloudapi.cn/images/Kris/setashomepage.jpg)
+![设为首页](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/setashomepage.jpg)
 
 ## 修改页面名称
 
@@ -44,7 +44,7 @@
 
 重命名的命名规范与新建页面一致。
 
-![重命名](https://docimages.blob.core.chinacloudapi.cn/images/Kris/renamepage.jpg)
+![重命名](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/renamepage.jpg)
 
 ## 删除页面
 
@@ -53,7 +53,7 @@
 - 选中页面并单击“...”图标，打开菜单并单击"删除"
 - 在打开的二次确认弹窗内，单击“确定”，即可删除页面
 
-    ![删除](https://docimages.blob.core.chinacloudapi.cn/images/Kris/deletepage.jpg)
+    ![删除](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/deletepage.jpg)
 
 > **说明：**
 >

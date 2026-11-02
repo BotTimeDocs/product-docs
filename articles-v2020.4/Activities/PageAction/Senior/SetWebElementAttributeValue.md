@@ -33,8 +33,8 @@
 
 **此流程执行逻辑**：将网页端的“百度经验”按钮，通过更改按钮元素属性值的方法，更改为“百度搜索”。
 
-![配置设置属性组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setwebelement20210225.png)
+![配置设置属性组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setwebelement20210225.png)
 
 **执行结果**：
 
-![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setwebelementresult20210225.png)
+![查看运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setwebelementresult20210225.png)

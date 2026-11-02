@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，将鼠标悬停于该区域中指定的某一个界面元素上。
 
-![配置 CV 悬停组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvhover20211109.png)
+![配置 CV 悬停组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvhover20211109.png)

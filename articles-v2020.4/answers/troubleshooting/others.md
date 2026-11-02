@@ -63,7 +63,7 @@
 * 导出dgs的编辑器版本：2206.14 
 * 导入dgs的编辑器版本：2206.14 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0007_1.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0007_1.jpg"/>
 
 <br>
 
@@ -74,7 +74,7 @@
 先查看当前环境用的是哪个.net版本
 编辑器安装目录下有对应.net版本的中文语言包，找到并安装
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0007_2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0007_2.png"/>
 
 
 </font>
@@ -86,7 +86,7 @@
 
 #### Q：[错误]循环操作失败，详细信息：Specified cast is not valid.
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0044.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0044.png"/>
 
 
 <font color=5a6877>
@@ -102,16 +102,16 @@
 
 #### Q：call remote method timeout,method name : invokeRemoteUiObjectAsync
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0038-1.png"/>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038-2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0038-2.png"/>
 
 <font color=5a6877>
 <br><br>
 
 **【解决办法-AC0038】** ：远程桌面断开后 需要保持RDP会话得，企业版机器人选择里面有保持RDP会话选项。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0038.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0038.png"/>
 
 
 </font>
@@ -133,7 +133,7 @@
 
 #### Q: 编辑器发布到机器人失败，错误原因：Database corrupted
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0017.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0017.png"/>
 
 <br>
 
@@ -150,7 +150,7 @@
 
 #### Q：请检查是否已安装机器人并处于正常运行状态
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0009.jpg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0009.jpg"/>
 
 <br>
 
@@ -162,7 +162,7 @@
 
 **【解决办法-I0020】** ：在任务管理器中，将机器人的服务开启，具体操作图示如下
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0009-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0009-1.png"/>
 
 </font>
 <br><br>
@@ -185,7 +185,7 @@
 
 #### Q：未检测到服务，可能被其他软件卸载
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0002.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0002.png"/>
 
 <font color=5a6877>
 <br> 
@@ -199,7 +199,7 @@
 
 #### Q：机器人执行时报错，错误：无法终止进程……原因：拒绝访问
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0003.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0003.png"/>
 
 <br>
 <font color=5a6877>
@@ -209,7 +209,7 @@
 
 **【解决办法-R0003】** ：除了以管理员权限运行机器人外，还需要在执行流程的时候，勾选“以管理员权限执行”。
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0003-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0003-1.png"/>
 
 </font>
 <br><br>
@@ -218,7 +218,7 @@
 
 #### Q：[Error] 未能转换部分或所有标识引用
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0004.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0004.png"/>
 <br>
 <font color=5a6877>
 
@@ -236,7 +236,7 @@
 
 #### Q：活动"Encooworkflow.Main"的CacheMetadata引发了"System.Xaml.XmalObjectWriterException":无法设置未知成员…… 请确认相关的组件是否包含在nuget目录下
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0005.jpeg"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0005.jpeg"/>
 
 <font color=5a6877>
 <br>
@@ -274,7 +274,7 @@
 
 #### Q：未能生成XXX视图
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0011-1.png"/>
 
 
 <font color=5a6877>
@@ -298,7 +298,7 @@
 
 #### Q：此组件缺失，或无法正常加载
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0011-2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0011-2.png"/>
 
 <font color=5a6877>
 <br>
@@ -328,7 +328,7 @@
 
 #### Q：[错误] Method not found…
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0014-1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0014-1.png"/>
 
 
 <font color=5a6877>
@@ -366,7 +366,7 @@
 
 #### Q：活动“登录”的CacheMeta 引发了"System.Xaml.……:无法创建未知类型"{XXX}……"。请确认相关的组件包是否包含在nuget目录下"
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0016.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0016.png"/>
 
 <font color=5a6877>
 <br> 
@@ -380,7 +380,7 @@
 
 #### Q："执行Python代码报错GBK错误：“UnicodeEncodeError:'gbk' codec can't encode character '\xa5' in position 0:illegal multibyte sequence” "
 
-![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/error06-00001.png)
+![error1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/error06-00001.png)
 
 **【解决办法-I0017】** 主要原因是python自身编码与Windows控制台编码不一致。需要python做编码处理才行。
 
@@ -436,7 +436,7 @@ Windows Registry Editor Version 5.00
 
 **【解决办法-I0018】** ：打开文件资源管理器，进入 ```C:\Users\UserName``` 下，删除“```.nuget```”文件夹，之后重启机器人
 
-![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202005240001.png)
+![error1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202005240001.png)
 
 
 </font>
@@ -450,7 +450,7 @@ Windows Registry Editor Version 5.00
 <font color=5a6877>
 <br> 
 
-![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006020001.png)
+![error1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006020001.png)
 
 
 **【解决办法-I0019】** ：把lib目录复制到Scripts里面去，让python.exe和lib在同一层目录。
@@ -467,13 +467,13 @@ Windows Registry Editor Version 5.00
 <font color=5a6877>
 <br> 
 
-![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006020001.png)
+![error1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006020001.png)
 
 
 **【解决办法-I0020】** ：这种情况一般都是文件的handle还开着，需要强制close file handle或者等待系统回收handle。可以使用sysinternal的handle第三方工具：
 https://jeffgraves.me/2008/05/29/closing-open-file-handles/
 
-![error1](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006060001.png)
+![error1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006060001.png)
 
 </font>
 <br><br>

@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：将收件箱中获取到的邮件移至收件箱下的temp文件夹中。
 
-![移动邮件属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/movemail20210324.png)
+![移动邮件属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/movemail20210324.png)

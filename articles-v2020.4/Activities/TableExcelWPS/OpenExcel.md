@@ -50,4 +50,4 @@
 
 **此流程执行逻辑**：打开或新建一个 Excel 文档。
 
-![打开或新建组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenExcel2.png)
+![打开或新建组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/OpenExcel2.png)

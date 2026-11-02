@@ -27,11 +27,11 @@
 
 **此流程执行逻辑**：将 Sheet1 中的 B 列数据复制粘贴至 Sheet2 中的 A 列。
 
-![配置复制粘贴区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpaste20201217.png)  
+![配置复制粘贴区域组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/copyandpaste20201217.png)  
 
 **执行结果**：
 
-![结果数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/copyandpasteresult20201217.png)
+![结果数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/copyandpasteresult20201217.png)
 
 ## 常见问题
 

@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：获取 Excel 工作表指定列的有数据的最后一行的行号。
 
-![配置获取末行号组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLastRow1.png)
+![配置获取末行号组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetLastRow1.png)

@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：获取当前计算机的设备名称并输出。
 
-![配置获取计算机信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getpcinfo20211230.png)
+![配置获取计算机信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getpcinfo20211230.png)

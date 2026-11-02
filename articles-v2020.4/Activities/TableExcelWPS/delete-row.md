@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：删除 Sheet1 工作表的第五行数据。
 
-![配置删除行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deleterow20211220.png)
+![配置删除行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deleterow20211220.png)

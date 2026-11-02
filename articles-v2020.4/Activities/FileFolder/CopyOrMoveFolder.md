@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：D盘的文件夹复制到E盘路径下。
 
-![配置复制/移动文件夹组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/moveFolder-1.png)
+![配置复制/移动文件夹组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/moveFolder-1.png)

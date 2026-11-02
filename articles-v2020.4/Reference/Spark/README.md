@@ -30,4 +30,4 @@
 
 ## 与云扩其他产品之间的关系
 
-![Spark](https://docimages.blob.core.chinacloudapi.cn/images/spark/sparkproduct20211102.png)
+![Spark](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/spark/sparkproduct20211102.png)

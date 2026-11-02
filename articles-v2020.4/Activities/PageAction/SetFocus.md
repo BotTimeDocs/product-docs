@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：为指定元素设置焦点操作。
 
-![配置设置焦点组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setFocus2.png)
+![配置设置焦点组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setFocus2.png)

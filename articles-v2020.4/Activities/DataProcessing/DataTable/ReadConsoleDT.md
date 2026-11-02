@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：读取一个控制台数据表。
 
-![读取控制台](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtdqconsole001.png)
+![读取控制台](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtdqconsole001.png)

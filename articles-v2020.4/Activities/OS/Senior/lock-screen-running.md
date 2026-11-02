@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：当流程执行到“锁屏运行”组件时，可实现在本地计算机锁屏状态下运行后续流程。
 
-![锁屏运行](https://docimages.blob.core.chinacloudapi.cn/images/Activities/lockrunning20211230.png)
+![锁屏运行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/lockrunning20211230.png)

@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：将 "D:\\滴滴电子发票 (1).pdf" 文件的第一页中的全部内容，提取为一个新文档保存为 "D:\\滴滴电子发票（3）.pdf"。
 
-![配置提取为新文档组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractToNewFile_2.png)
+![配置提取为新文档组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExtractToNewFile_2.png)

@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：将指定的集合 `集合List`清空。
 
-![配置清空集合组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ClearCollectionActivity1.png)
+![配置清空集合组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ClearCollectionActivity1.png)

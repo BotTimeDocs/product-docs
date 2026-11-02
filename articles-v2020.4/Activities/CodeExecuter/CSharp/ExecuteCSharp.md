@@ -22,7 +22,7 @@
 
 **此流程执行逻辑**：在“C#代码编辑器”中打开已选择的C#文件，编写需要执行的C#代码。
   
-![执行 C#代码段](https://docimages.blob.core.chinacloudapi.cn/images/Activities/executecsharpcode20210303.png)
+![执行 C#代码段](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/executecsharpcode20210303.png)
 
 > **说明：**
 >

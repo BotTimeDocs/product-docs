@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：获取集合`集合List`中对象的长度，结果存储至`集合count`变量中。
 
-![配置获取集合长度组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfCollectionActivity1.png)
+![配置获取集合长度组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetLengthOfCollectionActivity1.png)

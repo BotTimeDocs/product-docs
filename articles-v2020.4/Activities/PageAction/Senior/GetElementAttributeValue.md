@@ -40,7 +40,7 @@
 
 **此流程执行逻辑**：获取指定元素的属性值。
 
-![配置获取元素属性值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getElementAttr1.png)
+![配置获取元素属性值组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getElementAttr1.png)
 
 ## 常见问题
 
@@ -52,4 +52,4 @@
 
     **A：** 使用“获取元素属性值”组件，属性选择`outerhtml`。
 
-    ![获取元素属性值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Getelement20210826.png)
+    ![获取元素属性值](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Getelement20210826.png)

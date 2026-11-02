@@ -7,7 +7,7 @@
 >
 > 机器人未激活时, 流程库和定时任务相关功能均无法使用。 
 
-![未激活机器人](https://docimages.blob.core.chinacloudapi.cn/images/Robot/norobotUI20201211.png)
+![未激活机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/norobotUI20201211.png)
 
 ## 激活时的概览页
 
@@ -17,7 +17,7 @@
 >
 >如果需要断开与控制台流程库的绑定，则可以更改其激活方式。
 
-![激活机器人](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotUI20201211.png)
+![激活机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotUI20201211.png)
 
 - **如何开发 RPA 流程**：当流程库中流程数为 0 时，可点击“如何开发 RPA 流程？”链接至课程页进行学习并创建第一个自动化项目。
 - **定时任务**：显示已创建的定时任务。若无定时任务，可单击“创建”按钮，创建定时任务。

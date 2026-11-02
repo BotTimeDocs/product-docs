@@ -44,12 +44,12 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，点击该区域中指定的某一个界面元素。
 
-![CV 点击](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvclick20211109.png)
+![CV 点击](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvclick20211109.png)
 
 ## 常见问题
 
 1. **Q：使用“CV 点击”组件指定元素时，为什么出现许多绿色的框？**
 
-    ![锚点辅助定位](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvinformation20211110.png)
+    ![锚点辅助定位](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvinformation20211110.png)
 
     **A：** 在使用 CV 组件指定元素时，如果识别到有多个类型和文本都一致的 CV 信息时，就会显示绿色框，需要手动点击对应的绿色框以辅助确定真正需要指定的元素。

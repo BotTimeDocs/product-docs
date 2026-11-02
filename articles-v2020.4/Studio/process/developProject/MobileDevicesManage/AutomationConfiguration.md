@@ -15,17 +15,17 @@
     >
     > 自定义的端口号，建议输入 8080~65535 之间的任意数值，但如果连接的模拟器有默认端口，请与之区分。
 
-    ![Android 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/androidservice20210831.png)
+    ![Android 连接服务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/androidservice20210831.png)
 
 4. 服务连接成功，如下图所示。
 
-    ![服务连接成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/serverconnectsucess20210831.png)
+    ![服务连接成功](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/serverconnectsucess20210831.png)
 
 ### 安装 APP 应用（首次）
 
 在解压完成的文件夹下的 **apk** 文件夹中，有以下三个手机应用安装包。根据需要选择对应的 apk 文件, 安装至连接的手机中。
 
-![APP 应用](https://docimages.blob.core.chinacloudapi.cn/images/Studio/encoosmscode20210831.png)
+![APP 应用](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/encoosmscode20210831.png)
 
 > **说明：**
 >
@@ -57,7 +57,7 @@
 
 3. 在弹出的 **云扩 iOS 服务管理器** 窗口中，单击 **连接服务**。
 
-    ![iOS 连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Studio/iosconnect20201104.png)
+    ![iOS 连接服务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/iosconnect20201104.png)
 
 > **说明：**
 > 启动服务后连接手机，可能会遇到的问题，供参考：

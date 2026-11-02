@@ -19,21 +19,21 @@
 在“角色权限”视图，单击“新建”，打开新建窗口
 1. 设置角色基本信息后，单击“下一步”
 
-    ![基本信息](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newrole1.jpg)
+    ![基本信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/newrole1.jpg)
 
 2. 设置角色可访问的页面和数据源权限后，单击“下一步”
 
-    ![权限配置](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newrole2.jpg)
+    ![权限配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/newrole2.jpg)
 
 3. 为该角色添加用户后，单击“确定”即可新建角色
 
-    ![用户管理](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newrole3.jpg)
+    ![用户管理](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/newrole3.jpg)
 
 ## 编辑角色
 
 在“角色权限”视图，选中任一角色，单击“编辑”进入角色详情页编辑角色。
 
-![编辑角色](https://docimages.blob.core.chinacloudapi.cn/images/Kris/editrole.jpg)
+![编辑角色](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/editrole.jpg)
 
 
 ## 删除角色 
@@ -42,14 +42,14 @@
 1. 在“角色权限”视图，选中任一角色，单击“删除”
 2. 在打开的二次确认弹窗内，单击“确定”，即可删除数据源
 
-![删除角色](https://docimages.blob.core.chinacloudapi.cn/images/Kris/deleterole.jpg)
+![删除角色](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/deleterole.jpg)
 
 ## 角色权限
 
 ### 页面访问权限
 当相应角色配置了页面访问权限后，角色关联的用户即可以访问对应页面。
 
-![页面访问权限](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pagepermission.jpg)
+![页面访问权限](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/pagepermission.jpg)
 
 >**说明：**
 >
@@ -61,7 +61,7 @@
 
 当相应角色配置了数据源方法权限后，角色关联的用户才可以对数据源进行相应操作，比如数据的增删改查。
 
-![数据源权限](https://docimages.blob.core.chinacloudapi.cn/images/Kris/pagepermission.jpg)
+![数据源权限](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/pagepermission.jpg)
 
 >**说明：**
 >

@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将已搭建的数据表 `table` 中的第三行数据移除。
 
-![配置移除行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveRow20201228.png)
+![配置移除行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/RemoveRow20201228.png)

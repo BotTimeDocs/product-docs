@@ -9,7 +9,7 @@
 
 **【解决办法-AC0030】** ：C0030
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0030.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0030.jpg"/>
 
 </font>
 <br><br>
@@ -23,7 +23,7 @@
 
 **【解决办法-AC0031】** ：需要在客户端连接字符串设置 AllowLoadLocalInfile=true;服务端设置 SHOW GLOBAL VARIABLES LIKE 'local_infile';SET GLOBAL local_infile = 'ON';<br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0031.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0031.png"/>
 
 
 </font>
@@ -33,7 +33,7 @@
 
 #### Q：无法加载DLL“db2app.dll”：找不到指定的模块（异常来自HRESULT：0x8007007E）
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0032-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0032-1.png"/>
 
 <font color=5a6877>
 

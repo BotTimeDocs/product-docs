@@ -4,7 +4,7 @@
 
 进入 **机器人管理**，你可以看到当前部门下的所有机器人。你可以选择切换部门，查看不同部门下的机器人。
 
- ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-list.png)
+ ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-list.png)
 
 > **说明：**
 >
@@ -28,7 +28,7 @@
 >
 > 支持创建不同许可证类型的机器人，不同许可证类型的机器人，请参见 [许可证列表](./../../management/license/useLicense.md)。
 
- ![新建机器人](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-new.png)
+ ![新建机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-new.png)
 
  新增成功后，系统将自动复制你的机器人连接字符串。你可以直接粘贴机器人连接字符串至客户端机器人，完成激活。详情见：[激活机器人](./../../../Robot/license.md)。
 
@@ -40,7 +40,7 @@
 
 点击对应的机器人名称或“操作”栏中的“查看”选项，即可查看机器人详情信息。
 
- ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-view.png)
+ ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-view.png)
 
 - **基本信息**：展示机器人的基本信息，通过点击“编辑”按钮，可对“基本信息”进行变更。
 - **基本配置**：展示机器人客户端的配置信息，机器人端和控制台端连接的情况下，两端对配置信息的更新，信息互相实时同步。
@@ -52,13 +52,13 @@
 
 新创建的机器人默认拥有一个许可证，若当前机器人属于“已许可”状态，点击“操作”栏中的“移除许可”选项，即可移除当前机器人的许可证。
 
- ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-remove-lic.png)
+ ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-remove-lic.png)
 
 ## 分配许可证
 
 新创建的机器人默认拥有一个许可证，若当前机器人属于“未许可”状态，点击“操作”栏中的“分配许可”选项，即可对当前机器人分配许可证。
 
- ![分配许可证](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-manage-lic.png)
+ ![分配许可证](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-manage-lic.png)
 
 ## 删除机器人
 
@@ -69,7 +69,7 @@
 - 机器人许可状态为：未许可
 
 
- ![robot](https://docimages.blob.core.chinacloudapi.cn/images/Console/robot/robot/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%99%A8%E4%BA%BA.png)
+ ![robot](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/robot/robot/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%99%A8%E4%BA%BA.png)
 
 ## 升级软件
 
@@ -82,9 +82,9 @@
 
 1. 在“机器人管理”页面，勾选需要升级的机器人。
 
-    ![升级机器人](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-upgrade1.png)
+    ![升级机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-upgrade1.png)
 
 2. 在弹出的“升级提示框”中，按需选择计划升级的时间，单击“确定”。
 3. 升级完成后，可查看升级结果。
 
-    ![升级结果](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528robot-upgrade2.png)
+    ![升级结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528robot-upgrade2.png)

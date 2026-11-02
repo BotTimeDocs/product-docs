@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：向初始化的集合 `集合List` 中添加一个对象 `"A1"`。
 
-![配置添加对象组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AddToCollectionActivity1.png)
+![配置添加对象组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AddToCollectionActivity1.png)

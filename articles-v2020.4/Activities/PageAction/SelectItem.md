@@ -32,18 +32,18 @@
 
 **此流程执行逻辑**：指定网页或桌面元素并设置需要选择的选项文本后，验证执行。
 
-![配置选择项目组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectItem2.png)
+![配置选择项目组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/selectItem2.png)
 
 ## 常见问题
 
 1. **Q：下拉列表如需选择其它值，应该使用哪个组件？**
 
-    ![下拉列表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectitem20210824.png)
+    ![下拉列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/selectitem20210824.png)
 
     **A：** 使用“选择单选下拉框”组件，若该组件不支持，可使用“点击”组件选择。
 
 2. **Q：如何选择下图小三角里的“另存为”选项？使用【点击】组件，定位失败。使用【选择单选下拉框】组件，提示不支持。**
 
-    ![选择项目](https://docimages.blob.core.chinacloudapi.cn/images/Activities/saveas20210824.png)
+    ![选择项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/saveas20210824.png)
 
     **A：** 类似这些无法识别为“选择单选下拉框”的，建议使用两次“点击”组件实现。

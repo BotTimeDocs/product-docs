@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：将E盘的文件“新建DOC文档.doc”重命名为“新的文件名.doc”。
 
-![配置重命名文件/文件夹组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/renameFile-2.png)
+![配置重命名文件/文件夹组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/renameFile-2.png)

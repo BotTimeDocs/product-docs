@@ -20,7 +20,7 @@ apt-get install ansible -y
 ansible --version
 ```
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-1.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-1.png)
 
 ### 离线环境运行ansible容器
 
@@ -240,7 +240,7 @@ kubectl apply -f k8s_pvt/yml/idsrv4-cer.yaml
 
 kubectl get secrets -n 命名空间
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-2.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-2.png)
 
 P.S. 当host文件中配置 IS_DEPLOY="true"，则执行ansible-playbook命令时自动部署yml文件，下同。当host文件中配置 IS_DEPLOY="true"，则执行ansible-playbook命令时自动部署yml文件，下同。
 
@@ -265,7 +265,7 @@ kubectl apply -f k8s_pvt/yml/base/migratev4vicodeservicedata.yml
 
 kubectl get pod -n 命名空间
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-3.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-3.png)
 
 如需重新执行某项数据迁移任务， 则需先删除之前的任务
 
@@ -296,7 +296,7 @@ kubectl apply -f k8s_pvt/yml/configs
 
 kubectl get configmaps -n 命名空间
 
-<img width = '680'  src ="https://docimages.blob.core.chinacloudapi.cn/images/cself-1-4.png"/>
+<img width = '680'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-4.png"/>
 
 P.S. 如果对象存储使用的是阿里云oss，则修改 roles/configs/templates/console如果对象存储使用的是阿里云oss，则修改 roles/configs/templates/consoleconfigs/appsettingsconfigs/appsettingsstorage.json.j2中间的S3Type，修改为 "S3Type": "Aliyun" 后再执行ansible-playbook命令。storage.json.j2中间的S3Type，修改为 "S3Type": "Aliyun" 后再执行ansible-playbook命令。
 
@@ -320,7 +320,7 @@ kubectl apply -f k8s_pvt/yml/configs
 
 kubectl get pod -n 命名空间
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-5.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-5.png)
 
 ## 2.5 初始化公司及其管理员账户/上传安装包
 
@@ -345,15 +345,15 @@ kubectl apply -f k8s_pvt/yml/base/organizationusercompanyinit.ym
 
 kubectl get pod -n 命名空间 | grep -E "organizationusercompanyinit|installeruploader"
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-6.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-6.png)
 
 通过 kubectl -n 命名空间  logs organizationusercompanyinit-xxxx 查看初始化公司及其管理员账户执行结果， 如返回200/201或400则初始化成功 
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-7.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-7.png)
 
 通过 kubectl logs  -n 命名空间 installeruploader-xxxxx | tail  查看上传安装包执行结果， 如日志最后提示为completed 上传安装包完成则上传安装包成功
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-8.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-8.png)
 
 如需重新执行初始化公司及其管理员账户或者上传安装包任务， 则需先删除之前的任务
 
@@ -409,9 +409,9 @@ apigateway-websocket-ingress   <none>  gateway.pvttest.com   IP地址 �
 ```
 
 所有域名添加记录解析， 客户端浏览器访问控制台前端站点URL
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-9.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-9.png)
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-10.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-10.png)
 
 部署完成后可备份部署相关文件并保存至本地
 
@@ -443,23 +443,23 @@ kubectl get -n encoo-pvt4 pod,service,configmaps,secret,ingress,job
 
 Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-11.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-11.png)
 
 解决方法
 
 对象存储配置跨域规则(一般联系客户配置)，例如
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-12.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-12.png)
 
 ### 2.8.2 新建连接管理显示异常
 
 数据中心->连接管理->新建 显示异常
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-13.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-13.png)
 
 或者 文件服务->新建文件夹->绑定连接器-新建文件类连接 显示异常
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-14.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-14.png)
 
 解决方法
 
@@ -467,13 +467,13 @@ Access to XMLHttpRequest at '对象存储的url地址' from origin 'xxx'�
 
 kubectl get pod -n 命名空间 | grep dataentity kubectl delete pod  -n 命名空间  pod名称kubectl delete pod  -n 命名空间  pod名称
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-15.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-15.png)
 
 验证
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-16.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-16.png)
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/cself-1-17.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/cself-1-17.png)
 
 # 三. 升级
 

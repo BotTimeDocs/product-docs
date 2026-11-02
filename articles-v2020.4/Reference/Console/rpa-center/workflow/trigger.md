@@ -7,7 +7,7 @@
 
 在流程部署详情页中，单击任一流程部署的“定时任务”选项页，即可切换查看该流程部署名下所有的定时任务。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/workflowTriggerList.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/workflowTriggerList.png)
 
 ## 新建定时任务
 
@@ -15,9 +15,9 @@
 
     在流程部署详情页的“定时任务”选项页中，单击“+新建” ，在弹出的新建对话框中，填写定时任务详情配置。新建页面包含 3 个部分：基础、定时计划、高级。
 
-    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/createTrigger.png)
+    ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/createTrigger.png)
 
-    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/createTrigger2.png)
+    ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/createTrigger2.png)
 
     - **基本**
 
@@ -46,33 +46,33 @@
                 >
                 > 按分钟，限制间隔需大于等于 10 分钟。
                 
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMin.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerMin.png)
 
             - **按小时**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerHour.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerHour.png)
 
             - **按天**：以开始时间的天为基准，并按照计划时间，循环触发任务执行。
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerDay.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerDay.png)
 
             - **按周**：以开始时间的小时为基准，并按照计划时间，循环触发任务执行。
-            ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerWeek.png)
+            ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerWeek.png)
 
             - **按月**：以开始时间的月为基准，并按照计划时间，循环触发任务执行。
             支持“在当前月的正数第几天的几时几分”、“在当前月的倒数第几天的几时几分”、“在当前月的第几个星期几的几时几分”。
                 *在当前月的正数第几天的几时几分*:
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth1.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerMonth1.png)
                 *在当前月的倒数第几天的几时几分*:
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth2.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerMonth2.png)
                 *在当前月的第几个星期几的几时几分*:
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerMonth3.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerMonth3.png)
             - **按工作日历**：按工作日历，触发任务执行。也可以在[日历管理](../calendar-management/calendar-management.md)中自定义日历，并运用在定时任务中。
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0626-console03.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0626-console03.png)
 
             - **指定一个时间**：任务将在指定时间执行一次。
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerOneTime.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerOneTime.png)
 
             - **按表达式**：根据 cron 表达式执行。
-                ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerCron.png)
+                ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerCron.png)
 
             > **说明：**
             >
@@ -89,7 +89,7 @@
         >
         > 时区，一般用于跨国公司场景，如 IT 运维在美国总部工作，可以设置中国子公司的业务流程按照时区 [(UTC+08: 00) 北京，重庆，香港特别行政区，乌鲁木齐] 执行，也可以设置日本子公司的业务流程照时区 [(UTC+09: 00) 大阪，札幌，东京] 执行。
 
-        ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528TriggerUTC.png)
+        ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528TriggerUTC.png)
 
 2. 单击“下一步”，进行执行目标及参数确认
 
@@ -97,7 +97,7 @@
 
     - **参数信息**：展示当前流程包中的参数值，若流程部署已对某参数值进行修改则此处将展示最新值。可在当前环节通过手动填写或导入资产进行重新赋值。
 
-    ![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerStep2.png)
+    ![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/triggerStep2.png)
 
 3. 点击“保存”
 
@@ -112,16 +112,16 @@
 
 点击某一定时任务的“查看”按钮，即可查看对应的定时任务详情。点击“编辑”按钮后即可开始对定时任务进行编辑，完成后点击“保存”按钮即可。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528Trigger-view.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528Trigger-view.png)
 
 ## 查看定时任务的操作日志
 
 点击某一定时任务的操作选项中的“查看日志”按钮，即可查看该定时任务的启用、停用、创建任务情况，便于对定时任务进行跟踪。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerEditLog.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/triggerEditLog.png)
 
 ## 启用/停用定时任务
 
 你可以在定时任务列表中点击“操作”选项中的启用/停用按钮，对当前定时任务进行启用/停用操作。
 
-![trigger](https://docimages.blob.core.chinacloudapi.cn/images/Console/triggerDo.png)
+![trigger](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/triggerDo.png)

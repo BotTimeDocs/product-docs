@@ -21,7 +21,7 @@
 > - 如果目标元素还未出现，并在剩下的15000（毫秒）中继续查找目标元素，直到找到目标元素且在“超时”时间内消失时，才执行下游流程。
 > - 如果目标元素在整个“超时”时间内一直未找到，则默认目标元素已经消失了，在达到“超时”时间后，继续执行下游流程。
 
-![等待元素消失超时属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitelementdisappear20211028.png)
+![等待元素消失超时属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitelementdisappear20211028.png)
 
 ### 输出
 
@@ -40,4 +40,4 @@
 
 **此流程执行逻辑**：实现等待指定的桌面端的“发送”按钮元素从屏幕消失。
 
-![配置等待元素消失组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementVanish2.png)
+![配置等待元素消失组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitElementVanish2.png)

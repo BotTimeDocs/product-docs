@@ -131,4 +131,4 @@
 3. 申请次数 (正式申请 ≥ 50000次)
 
 
-<img width = '200'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Activities/AI/AIContact.png"/>
+<img width = '200'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AI/AIContact.png"/>

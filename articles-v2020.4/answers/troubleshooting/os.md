@@ -82,6 +82,6 @@ net start winmgmt </br>
 
 将 enable设置为0 即可。 
 
-![os0001](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/os00001.png)
+![os0001](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/os00001.png)
 
 > 解决办法转自链接： https://www.cnblogs.com/527289276qq/p/7001816.html

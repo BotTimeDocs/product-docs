@@ -7,7 +7,7 @@
 
 自动化卓越中心管理员根据实际情况在列表中筛选/处理相关需求，并作出相应的评估判断。
 
-![待处理需求列表](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/TODO1.png)
+![待处理需求列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/TODO1.png)
 
 
 ## 需求处理
@@ -17,8 +17,8 @@
 
 ### 查看与更新
 
-![待处理需求列表](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/TODO2.png)
+![待处理需求列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/TODO2.png)
 
 ### 历史记录追踪
 
-![待处理需求列表](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/TODO3.png)
+![待处理需求列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/TODO3.png)

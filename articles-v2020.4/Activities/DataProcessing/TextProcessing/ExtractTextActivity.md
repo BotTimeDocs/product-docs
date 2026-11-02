@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：将源文本`"云扩RPA13812345678RPA"`中的手机号提取出来，保存至`result`变量中。
 
-![Image text](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExtractTextActivity2021010402.png)
+![Image text](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExtractTextActivity2021010402.png)

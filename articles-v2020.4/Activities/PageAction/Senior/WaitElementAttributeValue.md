@@ -35,8 +35,8 @@
 
 **此流程执行逻辑**：指定天气预报网页中的属性名为“class”的元素的值出现。
 
-![配置等待元素属性值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAttr2.png)
+![配置等待元素属性值组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitElementAttr2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAttr3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitElementAttr3.png)

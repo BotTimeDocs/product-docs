@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：将项目路径下 “研发记录清单.xlsx”文件 "Sheet1" 工作表中第”1”行的内容清除。
 
-![清除行](https://docimages.blob.core.chinacloudapi.cn/images/Activities/clearrow20220408.png)
+![清除行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/clearrow20220408.png)

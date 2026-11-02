@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：遍历检查数据表 `table` 的每行的行值和姓名值。
 
-![配置遍历行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ForEachRow20201228.png)
+![配置遍历行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ForEachRow20201228.png)

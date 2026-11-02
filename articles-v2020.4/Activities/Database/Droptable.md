@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：删除数据库中已创建的数据表 `testdemo`。
 
-![删除表](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletetable20210924.png)
+![删除表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deletetable20210924.png)

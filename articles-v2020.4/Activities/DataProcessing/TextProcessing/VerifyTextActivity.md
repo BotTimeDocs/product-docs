@@ -27,6 +27,6 @@
 
 **此流程执行逻辑**：验证`test@test.com`邮箱是否符合邮箱命名规则，结果保存至`isEmail`变量中。
 
-![配置验证文本有效性组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010402.png)
+![配置验证文本有效性组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/VerifyTextActivity2021010402.png)
 
-![配置验证文本有效性组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/VerifyTextActivity2021010403.png)
+![配置验证文本有效性组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/VerifyTextActivity2021010403.png)

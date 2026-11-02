@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：获取指定APP的属性“GetElementAttribute”的值。
 
-![配置获取元素属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dimvarial20201223.png)
+![配置获取元素属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dimvarial20201223.png)

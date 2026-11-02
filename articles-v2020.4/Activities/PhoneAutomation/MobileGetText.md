@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将获取到的文本内容输出至确认框中。
 
-![配置获取文本属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingtextproperty20201223.png)
+![配置获取文本属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingtextproperty20201223.png)

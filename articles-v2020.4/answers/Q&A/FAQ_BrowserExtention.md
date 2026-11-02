@@ -2,7 +2,7 @@
 
 #### Q: Chrome, Edge无法启用云扩录制器(启用按钮被浏览器禁用)怎么办？
 
-<img width = '300'  src ="https://docimages.blob.core.chinacloudapi.cn/images/FAQ/browserproblem1.png"/>
+<img width = '300'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/FAQ/browserproblem1.png"/>
 
 #### A: 在部分场景中（如，系统管理员控制，Chrome, Edge浏览器安全级别较高），插件会被误报成恶意软件而无法启动。此时，可选择手动安装 Chrome, Edge扩展以便完成自动化操作
 

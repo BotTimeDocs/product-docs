@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：刷新指定的网页页面。
 
-![配置刷新浏览器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RefreshBrowser20201221.png)
+![配置刷新浏览器组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/RefreshBrowser20201221.png)

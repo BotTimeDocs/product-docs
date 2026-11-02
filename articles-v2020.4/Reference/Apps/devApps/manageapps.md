@@ -11,7 +11,7 @@
 1. 在控制台中，选择“ViCode 管理 > 应用管理” ，进入应用管理列表页面。
 2. 单击“+新增”，在弹出的“新增应用”弹框中，创建应用。
 
-    ![创建应用](https://docimages.blob.core.chinacloudapi.cn/images/Kris/newapp.jpg)
+    ![创建应用](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/newapp.jpg)
 
     - 应用名称：自定义新创建的应用的名称。
     - 应用图标：为应用选择一个图标。

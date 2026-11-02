@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：连接指定的手机。
 
-![配置连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingconnectservice20201222.png)
+![配置连接设备](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingconnectservice20201222.png)

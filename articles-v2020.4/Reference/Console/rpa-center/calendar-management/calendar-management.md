@@ -11,8 +11,8 @@
 
 1) 创建工作日历
 
-![calendar](https://docimages.blob.core.chinacloudapi.cn/images/Console/Calendar/calendar01.png)
+![calendar](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Calendar/calendar01.png)
 
 2) 在定时任务中选择“按工作日历”模式，并使用工作日历
 
-![calendar](https://docimages.blob.core.chinacloudapi.cn/images/Console/Calendar/calendar02.png)
+![calendar](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Calendar/calendar02.png)

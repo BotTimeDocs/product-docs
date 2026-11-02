@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：设置文本内容至剪贴板，并在“输出面板”查看已设置的文本内容。
 
-![配置设置剪贴板文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setClipboard-3.png)
+![配置设置剪贴板文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setClipboard-3.png)

@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将本地计算机端的 `"C:\Users\wangxin\Desktop\test.jpg"` 文件复制到手机端的相册中 `"/sdcard/DCIM/Camera"`。
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/pushfile20211215.jpg)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/pushfile20211215.jpg)

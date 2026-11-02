@@ -28,8 +28,8 @@
 
 **此流程执行逻辑**：在多项选择框中设置指定的多项选择项。
 
-![配置多项选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselect20210111.png)
+![配置多项选择框组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/mutiselect20210111.png)
 
 **执行结果**：
 
-![运行时的流程弹框](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mutiselectskip20210111.png)
+![运行时的流程弹框](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/mutiselectskip20210111.png)

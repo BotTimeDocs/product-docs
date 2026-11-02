@@ -36,4 +36,4 @@
 
 **此流程执行逻辑**：更新数据库中`test.testconnect`数据表中`C`列的数据。
 
-![配置执行语句组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/connect_db7.png)
+![配置执行语句组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/connect_db7.png)

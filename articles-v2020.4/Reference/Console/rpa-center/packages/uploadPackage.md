@@ -14,7 +14,7 @@
 
 - 手动上传到控制台
 
-    ![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/packageUpload)
+    ![流程包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/packageUpload)
 
 
 > **说明：**

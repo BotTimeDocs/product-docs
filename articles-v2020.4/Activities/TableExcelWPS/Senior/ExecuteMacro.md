@@ -30,9 +30,9 @@
 
 **此流程执行逻辑**：在 Excel 中执行指定的宏。
 
-![宏文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExecuteMacro3.png)
+![宏文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExecuteMacro3.png)
 
-![配置执行宏组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExecuteMacro1.png)
+![配置执行宏组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExecuteMacro1.png)
 
 **执行结果**：
 在“输出面板”日志中打印所有 sheet 名称。
@@ -43,7 +43,7 @@
 
     **A：** 在 Excel 的“选项 > 信任中心 > 信任中心设置 > 宏设置”中，勾选“信任对 VBA 工程对象模型的访问”选项。
 
-    ![Excel 宏](https://docimages.blob.core.chinacloudapi.cn/images/Activities/excelmacro20210824.png)
+    ![Excel 宏](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/excelmacro20210824.png)
 
 2. **Q：执行宏时报错：[错误] 执行宏失败。详细错误信息：无法运行“C”宏。可能是因为该宏在此工作簿中不可用，或者所有的宏都被禁用。”**
 

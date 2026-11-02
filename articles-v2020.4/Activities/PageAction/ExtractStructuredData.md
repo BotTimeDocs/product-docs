@@ -47,7 +47,7 @@
 
 **此流程执行逻辑**：打开含有结构化数据的网页，获取其中的结构化数据内容，并在“预览数据表”组件中展示获取到的内容。
 
-![配置获取结构化数据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/extractStructureData-6.png)
+![配置获取结构化数据组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/extractStructureData-6.png)
 
 ## 常见问题
 
@@ -59,7 +59,7 @@
 
     当获取的数据条数小于最大提取条数且最后一页的“下一页”按钮置灰（如下图所示，disabled = "true"）时，会一直获取最后一页数据，直至满足最大提取条数。
 
-    ![获取结构化数据异常示例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getstructdata20210806.png)
+    ![获取结构化数据异常示例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getstructdata20210806.png)
 
     **【异常原因】**
 
@@ -80,13 +80,13 @@
 
 4. **Q：如何使用用友 U8 获取结构化数据？**
 
-    ![用友 U8](https://docimages.blob.core.chinacloudapi.cn/images/Activities/u820210825.png)
+    ![用友 U8](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/u820210825.png)
 
     **A：** 检查识别的录制技术，如果是 JAVA 录制是可以的，如果是 UIA 录制需要用市场组件 FlexGrid 来抓取。
 
 5. **Q：使用金蝶应用时，不支持获取结构化数据？**
 
-    ![指定元素失败](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locateelement20210826.png)
+    ![指定元素失败](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/locateelement20210826.png)
 
     **A：** 这种表格的格式没有覆盖，暂时不支持。只能用“获取区域结构”组件，自行解析里面的 json。
 

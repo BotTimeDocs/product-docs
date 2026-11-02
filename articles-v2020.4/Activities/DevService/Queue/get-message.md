@@ -35,4 +35,4 @@
 **前置必要条件**：在企业版控制台的“数据中心 > 数据队列”中已创建数据队列。
 **此流程执行逻辑**：从企业版控制台的“数据中心 > 数据队列”中，获取指定 `产品设计与测试组` 部门中的指定 `wx` 队列，获取消息并将消息保留在队列中锁定 30 分钟。
 
-![配置获取消息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getmessage20211122.png)
+![配置获取消息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getmessage20211122.png)

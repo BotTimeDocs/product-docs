@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：将一个数据表保存到控制台。
 
-![保存控制台](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtssaveconsole001.png)
+![保存控制台](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtssaveconsole001.png)

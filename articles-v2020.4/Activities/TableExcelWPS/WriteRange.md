@@ -27,7 +27,7 @@
 
 **此流程执行逻辑**：读取 Excel 的 "sheet1" 中的“A1：D3”区域的内容，写入至 "sheet2" 中的“A1：D3”区域中。
 
-![配置写入区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange2.png)
+![配置写入区域组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadRange2.png)
 
 ## 常见问题
 

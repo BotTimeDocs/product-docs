@@ -16,11 +16,11 @@
 
     - **主流程（Main.xaml）**：打开云扩官网后弹出一个确认框，再点击官网上的 Logo 图标。
 
-    ![主流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cleanup_main20210805.png)
+    ![主流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/cleanup_main20210805.png)
 
     - **终止处理流程(CleanUp.xaml)**：关闭在“打开浏览器”组件中执行的流程所分配的资源。
 
-    ![终止处理流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/cleanup20210805.png)
+    ![终止处理流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/cleanup20210805.png)
 
 2. 保存并运行流程。
 3. 当运行流程时弹出“确认框”后，单击“运行面板”中的“停止”按钮。

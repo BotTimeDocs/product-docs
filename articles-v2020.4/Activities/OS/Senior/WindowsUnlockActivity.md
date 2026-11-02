@@ -33,7 +33,7 @@
 
 **此流程执行逻辑**：将已锁屏的计算机解锁。
 
-![解锁组件示例](https://docimages.blob.core.chinacloudapi.cn/images/Activities/unlock20201216.png)
+![解锁组件示例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/unlock20201216.png)
 
 ## 常见问题
 

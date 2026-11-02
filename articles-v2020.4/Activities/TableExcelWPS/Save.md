@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：保存指定路径下已打开的工作簿 Excel.xlsx。
 
-![配置保存组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/save.png)
+![配置保存组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/save.png)

@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：获取手机端指定区域的结构化数据。
 
-![配置获取结构化数据属性](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getstructdataproperty20210317.png)
+![配置获取结构化数据属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getstructdataproperty20210317.png)

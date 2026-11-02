@@ -20,4 +20,4 @@
 
 **此流程执行逻辑**：选择指定的日期和时间，并在“输出面板”中输出。
 
-![配置设置日期和时间组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setDate-2.png)
+![配置设置日期和时间组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setDate-2.png)

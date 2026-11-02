@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：执行流程判断组件的 True 和 False 端的流程。
 
-![流程判断](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decision-2.png)
+![流程判断](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/decision-2.png)

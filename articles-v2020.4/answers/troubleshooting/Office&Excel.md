@@ -17,9 +17,9 @@
 
 <br>【解决办法】：解决方式如下，即用修复工具修复一下 ，WPS用对应WPS的配置工具，WPS修复示意图：<br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS-修复.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/WPS-修复.png"/>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/WPS修复-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/WPS修复-1.png"/>
 
 <br><br>
 
@@ -27,9 +27,9 @@
 
 <br>【解决办法】：解决方式如下，即用修复工具修复一下 ，Office 365用自带修复方案 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365修复-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/365修复-1.png"/>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/365-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/365-2.png"/>
 
 
 </font><br><br>
@@ -120,7 +120,7 @@
 #### Q：详细错误信息:筛选操作'='不支持复杂类型
 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/筛选复杂类型.jpg "/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/筛选复杂类型.jpg "/>
 <br>
 <font color=5a6877>
 <br>
@@ -170,7 +170,7 @@
 
 **【解决办法-AC0018-1】** ：如下 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0018-1.png"/>
 
 
 <br>
@@ -179,7 +179,7 @@
 
 从[官方下载](https://support.microsoft.com/zh-cn/office/%E4%BB%8E-pc-%E5%8D%B8%E8%BD%BD-office-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)Office完全卸载工具
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0018-2.png"/>
 
 
 <br>
@@ -188,7 +188,7 @@
 
 使用Office Tool工具卸载，链接：[Office Tool Plus 官方网站](https://otp.landian.vip/zh-cn/)
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0018-3.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0018-3.png"/>
 
 </font><br><br>
 ---
@@ -216,7 +216,7 @@
 
 除用工具彻底卸载wps或Office外,如果下图所示注册表,也整个删除
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0004.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0004.png"/>
 
 </font><br><br>
 ---
@@ -240,7 +240,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 注意：删除注册表选项前，请先备份删除的选项。
 如下图所示：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0003.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0003.png"/>
 
 
 </font><br><br>
@@ -272,14 +272,14 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 * 可能是wps安装的问题，你可以试下打开新建组件，切换运行环境为无依赖。
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0019-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0019-2.png"/>
 
 
 <br>
 
 * 运行的时候 设置一下 这个 别选 管理员运行 ，WPS第三方不支持管理员 或者要管理员必须就建议按照office excel。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0019-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0019-1.png"/>
 
 
 <br>*补充：wps是per user 安装，不能用管理员运行。 以上办法都不行时，试一下官方工具卸载之后重装WPS或Office*
@@ -291,7 +291,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 #### Q：WPS“打开/新建”-打开.xlsm文件报错，[错误]文件扩展名不正确
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0020.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0020.png"/>
 
 <font color=5a6877>
 
@@ -400,7 +400,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 #### Q：excel 超出当前范围。 (异常来自 HRESULT:0x8002000A (DISP\_E\_OVERFLOW))，excel 某些单元格格式有问题，读取就会有异常
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0013.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0013.png"/>
 
 <font color=5a6877>
 <br>
@@ -429,7 +429,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 #### Q：读取区域失败，[错误] Exception from HRESULT:0x800A01A8
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0014.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0014.png"/>
 
 <font color=5a6877>
 <br>
@@ -471,7 +471,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 #### Q：工作表筛选\_筛选出错，[错误]类Range的AutoFilter方法无效
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0023.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0023.png"/>
 
 <font color=5a6877>
 <br>
@@ -523,7 +523,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 **【解决办法-AC0025】** ：<br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0025.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0025.jpg"/>
 
 </font><br><br>
 ---
@@ -537,7 +537,7 @@ HKEY\_CLASSES\_ROOT\TypeLib\{00020813-0000-0000-C000-000000000046}
 
 **【解决办法-AC0025】** ：<br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0025.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0025.jpg"/>
 
 </font><br><br>
 ---
@@ -586,7 +586,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 **解决办法一：** 把wps这几项取消勾选
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/0x800A03EC.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/0x800A03EC.png"/>
 
 
 <br>
@@ -619,7 +619,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 **【解决办法-AC0026】** ：要根据创建透视表数据源区域重新算列索引<br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0026.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0026.png"/>
 
 </font>
 <br><br>
@@ -628,7 +628,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 #### Q：新建文件/文件夹失败，详细错误信息：不支持给定路径的格式。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0027.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0027.png"/>
 
 <font color=5a6877>
 <br>
@@ -671,7 +671,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 #### Q：排序失败。详细错误信息：指定的参数已超出有效值的范围
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0040.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0040.png"/>
 
 <font color=5a6877>
 <br>
@@ -687,7 +687,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0041.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0041.png"/>
 
 
 <font color=5a6877>
@@ -710,7 +710,7 @@ https://stackoverflow.com/questions/18910623/the-document-cannot-be-opened-becau
 
 **【解决办法-AC0042】** ：选择无依赖方式 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0042.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0042.png"/>
 
 </font>
 <br><br>

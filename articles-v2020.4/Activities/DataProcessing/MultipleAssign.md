@@ -18,4 +18,4 @@
 
 **此流程执行逻辑**：同时为多个变量赋值。
 
-![配置赋值(多个)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/multipleAssign-1.png)
+![配置赋值(多个)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/multipleAssign-1.png)

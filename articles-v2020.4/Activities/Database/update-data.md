@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：当数据表 `testtable` 中有 "年龄" 列为 "45" 的数据时，更新为 "27"，并使用“预览数据表”组件，查看其结果。
 
-![配置更新数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/updatedata20211111.png)
+![配置更新数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/updatedata20211111.png)

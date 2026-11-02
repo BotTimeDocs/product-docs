@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：向已创建的 `dt` 数据表的第 2 行第 3 列所在的单元格中添加一个值为 `56`。
 
-![设置数据行的值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingdatarow20210806.png)
+![设置数据行的值](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingdatarow20210806.png)

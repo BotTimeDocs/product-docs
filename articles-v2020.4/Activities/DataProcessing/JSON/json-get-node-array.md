@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：读取 `Sample.json` 文件，并获取指定的 `"batters.batter"` 节点对应的值。
 
-![配置获取节点值（数组）](https://docimages.blob.core.chinacloudapi.cn/images/Activities/arraynode20211231.png)
+![配置获取节点值（数组）](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/arraynode20211231.png)

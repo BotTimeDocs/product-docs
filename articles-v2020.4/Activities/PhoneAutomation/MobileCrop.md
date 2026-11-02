@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：将截图的图片保存至预先设定的文件路径中。
 
-![拖拽截屏区域](https://docimages.blob.core.chinacloudapi.cn/images/Activities/mobilescreen20210316.png)
+![拖拽截屏区域](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/mobilescreen20210316.png)

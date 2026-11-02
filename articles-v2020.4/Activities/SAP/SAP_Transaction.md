@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：指定SAP应用中的窗口元素并设置指定的事务代码后自动运行事务代码。
 
-![配置执行事务组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPTransaction-1.png)
+![配置执行事务组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SAPTransaction-1.png)

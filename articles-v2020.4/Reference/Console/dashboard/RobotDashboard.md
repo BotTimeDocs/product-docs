@@ -2,7 +2,7 @@
 
 机器人监控，用户可以按今日、最近 7 天、最近 30 天或自定义时间段，从多维度查看机器人运行状况，具体如下图所示。
 
-![机器人监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/1219robot-all.png)
+![机器人监控](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/1219robot-all.png)
 
 ### 机器人任务分布
 
@@ -22,7 +22,7 @@
 
 - **任务总时长TOP10（饼状图）**：机器人作为执行目标，并以机器人为统计单位。在指定时间区间内，**机器人**执行任务时长较高的前10名机器人。
 - **执行任务总时长**：在指定时间区间内，**机器人**执行任务的总时长，时长以runinstance的执行时间为颗粒度计算（如一次job可能包含3次错误重试的runinstance），一次执行时间=结束时间-开始时间。
-  ![机器人监控](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528dis2-02.png)
+  ![机器人监控](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528dis2-02.png)
 - **今日新增**：今天内，**机器人**执行任务的总时长，时长以runinstance的执行时间为颗粒度计算（如一次job可能包含3次错误重试的runinstance），一次执行时间=结束时间-开始时间。
 
 > **说明：**

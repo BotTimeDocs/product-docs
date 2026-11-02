@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：将指定的文件内容“Hello, World!”写入到 D 盘下的“material.xls”文件中。
 
-![配置写入文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/writeFile-1.png)
+![配置写入文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/writeFile-1.png)

@@ -4,7 +4,7 @@
 
 在一些自动化应用场景中，经常需要获取手机的短信验证码，如，登录界面中的验证码。
 
-![获取短信验证码应用场景](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/smscode20210818.png)
+![获取短信验证码应用场景](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/smscode20210818.png)
 
 > **说明：**
 >
@@ -39,11 +39,11 @@
 
     c. 通过数据线与真机进行连接，点击安装此应用于手机端
 
-    ![手机端验证码应用路径](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/apkpath20210831.png)
+    ![手机端验证码应用路径](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/apkpath20210831.png)
 
 3. **配置“云扩手机验证码监听器”应用**：根据如下配置项配置后，单击“开始监听”按钮。
 
-    ![应用界面](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/apipath20210831.jpg)
+    ![应用界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/apipath20210831.jpg)
 
     - **监听手机号**：需要获取短信来源的手机号，支持指定手机号或正则表达式，如，`183xxxx1256`。
     - **API 地址**：手机在当前规则下获取到的短信信息需发送到的 API 地址（API 服务需自行部署），如，`http://xxxx`。
@@ -70,17 +70,17 @@
 
     c. 通过数据线与真机进行连接，点击安装此应用于手机端
 
-    ![手机端验证码应用路径](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/apkpath20210831.png)
+    ![手机端验证码应用路径](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/apkpath20210831.png)
 
 3. **配置“云扩手机验证码监听器”应用**：根据如下配置项配置后，单击“开始监听”按钮。
 
     - **配置发送邮件的邮箱信息**：单击“云扩手机验证码监听器”应用的右上角的“邮箱配置”，按照提示配置发送邮件的邮箱信息，支持基于 SMTP 的方式。
 
-        ![发件箱配置](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/sendmail20210831.jpg)
+        ![发件箱配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/sendmail20210831.jpg)
 
     - **配置接收邮件的邮箱信息**：
 
-        ![收件箱配置](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/receivemail20210831.jpg)
+        ![收件箱配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/receivemail20210831.jpg)
 
         - **监听手机号**：需要获取短信来源的手机号，支持指定手机号或正则表达式，如，`183xxxx1256`。
 
@@ -90,7 +90,7 @@
 
 通过 WebHook 的方式，支持“**企业微信**”和“**钉钉**”类型，具体使用入口同上述几种方式，具体配置信息如下。
 
-![WebHook](https://docimages.blob.core.chinacloudapi.cn/images/BestPractices/wechatwebhook20211214.png)
+![WebHook](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/BestPractices/wechatwebhook20211214.png)
 
 - **监听手机号**：需要获取短信来源的手机号，支持指定手机号或正则表达式，如，`183xxxx1256`。
 

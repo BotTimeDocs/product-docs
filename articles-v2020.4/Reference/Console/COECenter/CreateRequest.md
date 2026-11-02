@@ -14,7 +14,7 @@
 - 资料：可上传更多相关资料
 - 跟进人：指定需求的跟进人，跟进人为拥有**自动化卓越中心管理员**角色的人员
 
-![新建需求](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/CreateRequest1.png)
+![新建需求](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/CreateRequest1.png)
 
 
 
@@ -22,4 +22,4 @@
 
 业务人员后续可以在 详情页 中查看/追踪此需求的变化和进度。当然，业务人员也可以对当前需求继续更改和撤销等操作。
 
-![新建需求](https://docimages.blob.core.chinacloudapi.cn/images/Console/COE/CreateRequest2.png)
+![新建需求](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/COE/CreateRequest2.png)

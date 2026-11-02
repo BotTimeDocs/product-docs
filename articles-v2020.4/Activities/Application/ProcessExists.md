@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：检查本地电脑上的 `"RuntimeBroker"` 进程是否存在，若存在返回 True，否则返回 False。
 
-![配置进程是否存在组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/processexists20210927.png)
+![配置进程是否存在组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/processexists20210927.png)

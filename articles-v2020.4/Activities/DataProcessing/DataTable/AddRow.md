@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将已搭建的数据表 `table` 中添加一行数据 `"David","50","男"`。
 
-![配置添加数据行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AddRow20201228.png)
+![配置添加数据行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AddRow20201228.png)

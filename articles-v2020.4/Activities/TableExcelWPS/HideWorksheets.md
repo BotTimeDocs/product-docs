@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：隐藏指定的工作表（如，“Sheet2”）。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HideWorksheets1.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/HideWorksheets1.png)

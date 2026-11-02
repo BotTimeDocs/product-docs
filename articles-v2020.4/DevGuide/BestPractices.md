@@ -22,17 +22,17 @@ RPA项目的工程文件主要包括XAML（流程文件）、Json（配置文件
 
 当前项目未启用版本控制功能时，单击“启用”，开启版本控制功能，并进行初始化。
 
-</br> <img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-1.png"/>
+</br> <img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-1.png"/>
 
 </br> 启用后，通过版本控制可以查看工程下的所有文件修改列表，并可以对文件进行回退（放弃修改），对比修改内容，查看历史提交等操作。
 
 具体示例操作见下方图示：
 
 * (1)与未修改的版本比较
-</br><img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-2.png"/> 
+</br><img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-2.png"/> 
 
 * (2)查看历史版本 
-</br> <img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-3.png"/>
+</br> <img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-3.png"/>
 </br></br>
 
 > **注意：**
@@ -62,9 +62,9 @@ RPA项目的工程文件主要包括XAML（流程文件）、Json（配置文件
 
 
 
-</br><img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-4.png"/>
+</br><img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-4.png"/>
 
-</br><img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-5.png"/>
+</br><img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-5.png"/>
 
 <br>
 <br>
@@ -77,7 +77,7 @@ RPA项目的工程文件主要包括XAML（流程文件）、Json（配置文件
 
 流程文件(XAML)作为一种描述性语言，其源码文件并不想程序代码一样容易通过版本管理工具（GIT）进行变更对比。但这不意味着文件对比就无意义，通过编辑器内置的版本对比工具，可以对组件的属性值变更进行对比。
 
-</br><img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/lmx-6.png"/>
+</br><img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/lmx-6.png"/>
 
 </br> </br> </br> 
 

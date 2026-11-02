@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：关闭已打开的指定的 APP 软件。 
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/settingcloseapp20201222.png)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/settingcloseapp20201222.png)

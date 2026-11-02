@@ -47,4 +47,4 @@
 
 **此流程执行逻辑**：指定Exchange邮件服务器地址，自动监听接收新邮件。
 
-![配置邮件触发器(Exchange)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExchangeTrigger1.png)
+![配置邮件触发器(Exchange)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExchangeTrigger1.png)

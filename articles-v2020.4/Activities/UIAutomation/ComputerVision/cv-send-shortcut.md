@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，指定该区域中的某一个界面元素（如，输入框），使用 `Ctrl+V` 快捷键，粘贴剪切板中的内容。
 
-![配置 CV 发送快捷键](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cvsendshortcut20211109.png)
+![配置 CV 发送快捷键](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cvsendshortcut20211109.png)

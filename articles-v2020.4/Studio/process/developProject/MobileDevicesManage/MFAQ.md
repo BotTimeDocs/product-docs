@@ -5,11 +5,11 @@
 **1. Q： 小米手机无法正常连接或无法点击屏幕**
 </br> **A：** 在“开发者选项”中将“**允许模拟点击位置**”、“**USB 安装**”、“**USB 调试(安全设置)**”等选项打开，部分选项的开启可能需要登录 MIUI 账号（需要插入 SIM 卡）
 
-![小米手机设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/xiaomi20210618.png)
+![小米手机设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/xiaomi20210618.png)
 
 **2. Q： 三星手机无法正常连接或无法正常显示屏幕**
 
-![异常现象](https://docimages.blob.core.chinacloudapi.cn/images/Studio/sansung20210618.png)
+![异常现象](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/sansung20210618.png)
 
 </br> **A：**
 
@@ -17,7 +17,7 @@
 
 - 打开“设置 > 显示 > 屏幕分辨率 > 更改屏幕分辨率”，更改为“WQHD”
 
-![更改屏幕分辨率](https://docimages.blob.core.chinacloudapi.cn/images/Studio/sanscreen20210618.png)
+![更改屏幕分辨率](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/sanscreen20210618.png)
 
 **3. Q： 华为手机无法正常连接**
 </br> **A：**
@@ -50,7 +50,7 @@ step4：将“应用 > 权限管理 > 设置 > 权限推荐”设置为“勾选
 **2. Q： 服务运行时使用了 VPN，服务中断，怎么处理？**
 </br> **A：** 使用 VPN 工具时，将本地 PC 地址设置为“不经过代理”。
 
-![不经过代理的地址列表](https://docimages.blob.core.chinacloudapi.cn/images/Studio/proxy20210618.png)
+![不经过代理的地址列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/proxy20210618.png)
 
 **3. Q： 在流程录制过程中，鼠标移动没有定位框，是什么原因？**
 </br> **A：** 手动打开移动设备中的 pocoservice 软件，提示“正在运行”即可。
@@ -93,7 +93,7 @@ step4：将“应用 > 权限管理 > 设置 > 权限推荐”设置为“勾选
 
 **A：** 使用“移动设备管理器”，先点击 1 处的开启录制，然后在屏幕按照期望的滑动方向操作一下。
 
-![移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Studio/updownpage20210826.png)
+![移动设备管理器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/updownpage20210826.png)
 
 ## 手机自动化组件类
 
@@ -101,4 +101,4 @@ step4：将“应用 > 权限管理 > 设置 > 权限推荐”设置为“勾选
 
 **A：** 滑动距离需要根据当前控件的属性决定，所以可以先按下图方式先获取控件属性的 size 属性。滑动组件 duration 参数设置为 2。duration 参数的意义是滑动的时间，从滑动开始到滑动结束。
 
-![手机自动化组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/mobiletap20210827.png)
+![手机自动化组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/mobiletap20210827.png)

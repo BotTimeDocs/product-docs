@@ -23,4 +23,4 @@
 
 **此流程执行逻辑**：删除了E盘下的文件“新建 DOC 文档.doc”。
 
-![删除文件/文件夹](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deleteFile-2.png)
+![删除文件/文件夹](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deleteFile-2.png)

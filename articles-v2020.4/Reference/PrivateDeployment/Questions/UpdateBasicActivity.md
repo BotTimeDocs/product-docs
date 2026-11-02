@@ -67,7 +67,7 @@
 
 2. 修改compose yml文件                                                                                                                             	a. 修改docker-compose.base.yml文件中，mysql服务image字段为需要更新的镜像版本名称，		例如升级Mysql镜像为8.0.28，其他组件同理
 
-![figure 1](https://docimages.blob.core.chinacloudapi.cn/images/905b0cb0-828c-4e85-abf8-30d3f49f5385.png)
+![figure 1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/905b0cb0-828c-4e85-abf8-30d3f49f5385.png)
 
 3. 更新基础组件
 

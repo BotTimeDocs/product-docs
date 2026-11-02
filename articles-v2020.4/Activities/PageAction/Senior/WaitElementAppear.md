@@ -35,11 +35,11 @@
 
 **此流程执行逻辑**：等待指定的元素出现时，执行相应的流程。
 
-![配置等待元素出现组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAppear2.png)
+![配置等待元素出现组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitElementAppear2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/waitElementAppear3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/waitElementAppear3.png)
 
 ## 常见问题
 

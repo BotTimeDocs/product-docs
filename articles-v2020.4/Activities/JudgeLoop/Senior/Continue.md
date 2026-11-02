@@ -18,4 +18,4 @@
 
 **此流程执行逻辑**：在**循环操作（For Each）** 组件内，拖入**流程判断**组件并输入判断条件 item == 1，当判断条件为真时跳出当次循环并开始执行下一次循环；当判断条件为假时将当前值作为日志文本输出。
 
-![配置继续循环组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/continue-4.png)
+![配置继续循环组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/continue-4.png)

@@ -25,4 +25,4 @@
 - 操作：可直接从记录中点击“执行”，再次执行当前流程。点击“日志”，查看当前记录的详细信息。
 - 查询条件，支持关键字（流程库、流程）、执行状态、开始时间过滤
 
-![任务记录页面](https://docimages.blob.core.chinacloudapi.cn/images/Robot/0626-robot02.png)
+![任务记录页面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/0626-robot02.png)

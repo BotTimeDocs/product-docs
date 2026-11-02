@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：将已搭建的数据表 `table` 中的数据清空。
 
-![配置清空数据表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/EmptyDataTable20201225.png)
+![配置清空数据表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/EmptyDataTable20201225.png)

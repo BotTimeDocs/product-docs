@@ -29,4 +29,4 @@
 
 **此流程执行逻辑**：获取“Sheet1”工作表中“A1”单元格的背景色，存储至“color”变量中。
 
-![配置获取单元格背景色组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetCellBackColor1.png)
+![配置获取单元格背景色组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetCellBackColor1.png)

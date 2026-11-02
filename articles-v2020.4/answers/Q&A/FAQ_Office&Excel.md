@@ -60,7 +60,7 @@
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/7-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/7-1.png"/>
 
 
  </font><br><br>
@@ -71,16 +71,16 @@
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/7-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/7-2.png"/>
 
 <font color=5a6877> <br><br><br>【解决办法A4_00007】: 选择 Excel选项>> 高级>> 常规>>请求自动更新<br>
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/7-3.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/7-3.png"/>
 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/8-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/8-1.png"/>
 
  </font><br><br>
 

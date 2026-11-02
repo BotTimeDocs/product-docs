@@ -7,7 +7,7 @@
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/C0004.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/C0004.png"/>
 
 <font color=5a6877>
 <br>
@@ -21,7 +21,7 @@
 
 #### Q：使用许可证本地激活编辑器/机器人时，报错：“该许可证不能在当前计算机上注册。”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A1_00001.png"/>
 
 
 <font color=5a6877> 【解决方法C0005】:
@@ -39,7 +39,7 @@
 
 #### Q：使用控制台账号登录机器人时，报错：“连接字符串无效”。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A1_00001-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A1_00001-1.png"/>
 
 <font color=5a6877> 【解决方法C0006】:
 1. 确认登录界面上的连接字符串是否为控制台首页中的连接字符串。
@@ -62,7 +62,7 @@
 
 #### Q：此应用无法在你的电脑上运行
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0001-1.png"/>
 
 
 <font color=5a6877>
@@ -71,13 +71,13 @@
 **【解决办法-I0001】**
 * Step1、确认一下【计算机配置】—【Windows设置】—【安全设置】—【本地策略】—【安全选项】 已经启用了用户账户控制：以管理员批准模式运行所有管理员…… 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-3.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0001-3.png"/>
 
 <br>
 
 * Step2、如果上一步还是不行，那安装包可能被串改了，重新下载一个安装包吧，注意安装的时候 关闭一下 杀毒软
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0001-4.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0001-4.png"/>
 
 
 </font><br><br>
@@ -104,7 +104,7 @@
 
 #### Q：这计算机中已经安装了.NET Framework 4.6.2(简体中文)或版本更高的更新
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0003.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0003.png"/>
 
 
 <font color=5a6877>
@@ -120,7 +120,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 #### Q：Install .Net 4.6.2
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0021.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0021.png"/>
 
 <font color=5a6877>
 <br>
@@ -178,7 +178,7 @@ Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 C
 
 #### Q：Java扩展安装失败!
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/E0001.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/E0001.png"/>
 
 
 <font color=5a6877>
@@ -210,7 +210,7 @@ cmd 执行 “jabswitch.exe -disable”
 <br>
 * 机器人激活许可证时候，之前可以正常激活，重新卸载激活机器人报"无效许可提示"
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/R0001.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/R0001.png"/>
 
 <font color=5a6877>
 <br>
@@ -224,7 +224,7 @@ cmd 执行 “jabswitch.exe -disable”
 
 #### Q：尚未安装.Net Framework 4.6.2,原因是：时间戳签名和/或证书无法验证或已损坏 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I0008.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I0008.png"/>
 
 <font color=5a6877>
 
@@ -253,7 +253,7 @@ cmd 执行 “jabswitch.exe -disable”
 
 #### Q：应用程序发送异常 未知的软件异常（0xe0434352），位置为0x76f7c5af。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/0xe0434352.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/0xe0434352.png"/>
 
 <br>
 
@@ -275,7 +275,7 @@ cmd 执行 “jabswitch.exe -disable”
 ### Q：[Installation has failed ]
 There was an error while installing the application.Check the setup log for more information and contact the author.
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I00010.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I00010.png"/>
 
 
 <br>
@@ -292,7 +292,7 @@ There was an error while installing the application.Check the setup log for more
 
 #### Q:弹窗错误提示“应用程序无法启动，因为应用程序的并行配置不正确。有关详细信息，请参阅应用程序事件日志，或使用命令行sxstrace.exe 工具”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/I00011.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/I00011.png"/>
 
 <br>
 

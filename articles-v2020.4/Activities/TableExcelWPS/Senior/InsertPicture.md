@@ -31,8 +31,8 @@
 
 **此流程执行逻辑**：在指定的“Sheet1”工作表中插入本地指定路径下的图片。
 
-![配置插入图片组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic1.png)
+![配置插入图片组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InsertPic1.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InsertPic2.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InsertPic2.png)

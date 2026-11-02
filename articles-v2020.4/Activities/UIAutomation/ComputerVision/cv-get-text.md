@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：在使用“指定 CV 窗口”组件指定的区域界面中，获取该区域中指定的某一个界面元素的文本内容，并输出到输出面板中。
 
-![配置 CV 获取文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getcvtext20211109.png)
+![配置 CV 获取文本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getcvtext20211109.png)

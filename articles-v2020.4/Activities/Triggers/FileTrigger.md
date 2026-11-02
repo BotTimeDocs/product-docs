@@ -33,4 +33,4 @@
 
 **此流程执行逻辑**：当指定的文件夹路径下有新增的`.png`文件时，输出该文件路径。
 
-![配置文件触发器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/FileTrigger1.png)
+![配置文件触发器组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/FileTrigger1.png)

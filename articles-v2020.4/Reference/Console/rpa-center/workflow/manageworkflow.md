@@ -2,14 +2,14 @@
 
 ## 流程部署列表
 页面包含多种操作，如新建、查看、删除、执行、批量操作。
-![流程部署](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-list.png)
+![流程部署](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528workflow-list.png)
 
 
 ## 新建流程部署
 
 1. 在流程部署页面中点击“新建”按钮后即可开始新建：
 
-    ![新建流程部署](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-new.png)
+    ![新建流程部署](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528workflow-new.png)
 
     - 填写流程部署基本信息：选择对应的流程包以及流程包版本号
     - 设置失败最大尝试试次数：流程执行失败后将按照该次数自动进行重试
@@ -21,9 +21,9 @@
         - 手动赋值：填写需要进行赋值的参数值即可
         - 导入资产：点击“导入资产”即可选择在资产管理页面中预先存储的资产进行赋值
 
-    ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/%E6%96%B0%E5%BB%BA%E6%B5%81%E7%A8%8B%E9%83%A8%E7%BD%B2%E7%AC%AC%E4%B8%80%E9%A1%B5%E8%A1%A5%E5%85%85.png)
+    ![process](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/process/%E6%96%B0%E5%BB%BA%E6%B5%81%E7%A8%8B%E9%83%A8%E7%BD%B2%E7%AC%AC%E4%B8%80%E9%A1%B5%E8%A1%A5%E5%85%85.png)
 
-    ![process](https://docimages.blob.core.chinacloudapi.cn/images/Console/process/%E6%96%B0%E5%BB%BA%E6%B5%81%E7%A8%8B%E9%83%A8%E7%BD%B2-%E5%AF%BC%E5%85%A5%E8%B5%84%E4%BA%A7.png)
+    ![process](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/process/%E6%96%B0%E5%BB%BA%E6%B5%81%E7%A8%8B%E9%83%A8%E7%BD%B2-%E5%AF%BC%E5%85%A5%E8%B5%84%E4%BA%A7.png)
 
 2. 点击“下一步”开始配置机器人执行目标，选择指定队列执行或指定机器人执行
 
@@ -39,7 +39,7 @@
 
 单击流程部署列表页中的“流程部署名称”或单击“操作”栏中的“查看”选项，可查看流程部署详情。
 
-![流程部署详情](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528workflow-info.png)
+![流程部署详情](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528workflow-info.png)
 
 - **基本信息**：展示当前流程部署的基本信息，单击“编辑”按钮，可变更流程部署的基本信息。
 - **定时任务**：展示当前流程部署的定时任务列表，参见 [管理定时任务](./trigger.md)。

@@ -17,15 +17,15 @@
 1. 打开 SAP 并登录连接
 2. 执行事务代码 **RZ11**
 
-    ![执行事务](https://docimages.blob.core.chinacloudapi.cn/images/Activities/rz11.png)
+    ![执行事务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/rz11.png)
 
 3. **维护参数文件参数维护** 窗口中，参数名称输入 **sapgui/user_scripting**，点击 **显示**
 
-    ![输入参数](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sapgui.png)
+    ![输入参数](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sapgui.png)
 
 4. 点击 **更改值**，**新值** 设置为 **TRUE**，**保存更改**
 
-    ![更改值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/change.png)
+    ![更改值](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/change.png)
 
 5. 重复第四步，分别将下述参数的值改为 **FALSE**
     - sapgui/user\_scripting\_disable\_recording
@@ -43,12 +43,12 @@
 
 1. 点击打开 **选项** 菜单
 
-   ![选项菜单](https://docimages.blob.core.chinacloudapi.cn/images/Activities/itemmenu20210609.png)
+   ![选项菜单](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/itemmenu20210609.png)
 
 2. 转到 **辅助功能与脚本** 后单击 **脚本**
 3. 勾选 **启用脚本**
 
-    ![启用脚本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/script20210609.png)
+    ![启用脚本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/script20210609.png)
 
 4. 不勾选下述选项：
     - 在脚本附加到 SAP GUI 时发出通知
@@ -58,18 +58,18 @@
     >
     > 当勾选启用脚本的操作步骤未执行时，会在运行流程时出现下图提示，请按照上述勾选启用脚本的步骤进行设置。
 
-    ![注意](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/SAPWarning.png)
+    ![注意](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/SAPWarning.png)
 
 ### 启用对话框模式
 
 1. 点击“帮助 > 设置”菜单。
 
-    ![帮助设置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/helpsetting20220402.png)
+    ![帮助设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/helpsetting20220402.png)
 
 2. 点击“F1 帮助”，选择“以对话框模式”。
 
-    ![对话框模式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/F1dialog.png)
+    ![对话框模式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/F1dialog.png)
 
 3. 如果需要使用日期选择，则点击“F4 帮助”，单击“控制（amodal）”
 
-   ![F4 帮助](https://docimages.blob.core.chinacloudapi.cn/images/Activities/F4help.png)
+   ![F4 帮助](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/F4help.png)

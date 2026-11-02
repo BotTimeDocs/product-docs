@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：将指定的文本设置至剪贴板中。
 
-![设置剪贴板文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setclipboardtext20210319.png)
+![设置剪贴板文本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setclipboardtext20210319.png)

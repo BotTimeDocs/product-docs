@@ -34,8 +34,8 @@
 
 **此流程执行逻辑**：下拉选择框中的选项值为获取文件/文件夹列表组件输出的文件列表“files”，将选中的下拉选择框中的值，输出至“输出面板”中。
 
-![配置下拉选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dropDown-2.png)
+![配置下拉选择框组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dropDown-2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dropDown-4.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dropDown-4.png)

@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：将项目路径下 “研发记录清单.xlsx”文件 "Sheet1" 工作表中 "A1" 到 "B1" 区域内的内容清除。
 
-![清除区域](https://docimages.blob.core.chinacloudapi.cn/images/Activities/cleararea20220408.png)
+![清除区域](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/cleararea20220408.png)

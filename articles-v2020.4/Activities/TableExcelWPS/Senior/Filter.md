@@ -23,4 +23,4 @@
 
 **前置必要组件**：筛选 Sheet1 工作表中第 2 列中包含数字为“2”的值。
 
-![配置筛选组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Filter2.png)
+![配置筛选组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Filter2.png)

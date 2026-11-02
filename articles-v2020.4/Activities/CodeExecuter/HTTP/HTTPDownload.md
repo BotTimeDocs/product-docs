@@ -29,7 +29,7 @@
 
 **此流程执行逻辑**：下载指定URL`"https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v5.1.41.19.exe"`中的文件并保存至目录`"D:\下载"`中。
 
-![配置下载文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/HTTPDownload1.png)
+![配置下载文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/HTTPDownload1.png)
 
 ## 常见问题
 

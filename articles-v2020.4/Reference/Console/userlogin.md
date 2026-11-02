@@ -10,7 +10,7 @@
 >
 >或在登录页面，通过点击页面右下**注册**按钮，进入注册页面。
 
- ![注册](https://docimages.blob.core.chinacloudapi.cn/images/Console/登录及注册/注册1.png)
+ ![注册](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/登录及注册/注册1.png)
 
 ## 登录
 
@@ -20,7 +20,7 @@
 >
 >或在注册页面，通过点击页面右下**登录**按钮，进入登录页面。
 
-![登录](https://docimages.blob.core.chinacloudapi.cn/images/Console/登录及注册/登录-验证码登录.png)
+![登录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/登录及注册/登录-验证码登录.png)
 
 ### 企业微信登录
 
@@ -46,4 +46,4 @@
 
 6. 请用登录名及修改后的新密码登录。
 
-![忘记密码](https://docimages.blob.core.chinacloudapi.cn/images/Console/consolelostpassword20201204.png)
+![忘记密码](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/consolelostpassword20201204.png)

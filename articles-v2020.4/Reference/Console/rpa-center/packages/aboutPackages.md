@@ -20,16 +20,16 @@
     > **说明：**
     > 手动上传或者编辑器发布流程包到控制台，最大支持 2GB 的流程包。
 
-    ![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/packageUpload)
+    ![流程包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/packageUpload)
 
 ## 下载流程包
 用户可以将流程包从控制台下载到本地。
 
 控制台下载包含2个入口：
 - 流程包管理主列表页面，默认下载最新版本流程包
-![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528packageDown.png)
+![流程包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528packageDown.png)
 - 版本管理页面，用户可以任意选择一个版本下载
-![流程包](https://docimages.blob.core.chinacloudapi.cn/images/Console/0528packageDownload2.png)
+![流程包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/0528packageDownload2.png)
 
 ## 流程包管理权限说明
 

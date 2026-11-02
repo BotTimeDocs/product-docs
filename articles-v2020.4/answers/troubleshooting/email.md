@@ -38,8 +38,8 @@ So, What is Microsoft Team’s error code caa20002?https://10scopes.com/fix-micr
 **【解决办法-AC0034】**：
 
 查看是否配置了邮箱的账户信息，如果配置了邮箱名称（不是邮箱地址，见图1），使用邮箱名称填写获取邮件
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0034-1.png"/> 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0034-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0034-1.png"/> 
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0034-2.png"/>
 
 
 </font>
@@ -49,7 +49,7 @@ So, What is Microsoft Team’s error code caa20002?https://10scopes.com/fix-micr
 
 #### Q：发送邮件失败。535: Login Fail. Please enter your authorization code to login.
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0035.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0035.png"/>
 
 
 <font color=5a6877>
@@ -74,16 +74,16 @@ So, What is Microsoft Team’s error code caa20002?https://10scopes.com/fix-micr
 
 #### Q：连接服务器失败
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0036.jpg"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0036.jpg"/>
 
 <font color=5a6877>
 <br>
 
 **【解决办法-AC0036】** ：查看自己邮箱设置里面的smtp配置（参考163的配置，如图5），通常私有的邮箱服务器会自己配置smtp,pop3等服务，需要联系自己公司邮箱管理员查询相关信息了；
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0036-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0036-1.png"/>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0036-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0036-2.png"/>
 
 
 
@@ -95,7 +95,7 @@ So, What is Microsoft Team’s error code caa20002?https://10scopes.com/fix-micr
 
 #### Q：[错误]Outlook的COM端口被占用，请检查是否有插件占用改端口或者关闭Outlook客户端。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/AC0037.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/AC0037.png"/>
 
 
 <font color=5a6877>

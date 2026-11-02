@@ -35,4 +35,4 @@
 
 **此流程执行逻辑**：获取指定 Adobe Acrobat 右侧工具栏中的文本。
 
-![配置获取屏幕文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getScreenTxt1.png)
+![配置获取屏幕文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getScreenTxt1.png)

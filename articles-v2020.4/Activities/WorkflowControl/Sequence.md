@@ -18,4 +18,4 @@
 
 **此流程执行逻辑**：在**序列**组件内，可拖入其他任何组件至序列容器内。
 
-![配置序列组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sequence-2.png)
+![配置序列组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sequence-2.png)

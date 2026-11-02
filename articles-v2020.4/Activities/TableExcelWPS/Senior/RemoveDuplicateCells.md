@@ -30,8 +30,8 @@
 
 **此流程执行逻辑**：将指定工作表 Sheet2 中 A 列相同的单元格值进行去重。
 
-![配置去重组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateCells2.png)
+![配置去重组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/RemoveDuplicateCells2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateCells3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/RemoveDuplicateCells3.png)

@@ -51,7 +51,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 #### Q：文本框中自动输入时间的时候出现乱码
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/A_500006.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/A_500006.png"/>
 
 
 
@@ -70,7 +70,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 #### Q：当选择器指定元素 同时找到多个元素时候的处理办法 
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/500007.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/500007.png"/>
 
 
 <br>
@@ -144,12 +144,12 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 【解决方法A3_00004】:在指定数据源后的弹窗中点击“新增”按钮，在下拉框中选择“Href”属性即可获取到文本上的超链接，此外还可以通过该方法获取Title甚至一些自定义属性：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/4-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/4-1.png"/>
 
 
 
 获取成功后如图：
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/5-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/5-1.png"/>
 
 
 
@@ -177,7 +177,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 【解决方法A3_00006】:获取结构化数据会优先识别表格，而指定的这个表是空的，页面显示的数据未存在这个表格内，所以获取到的表就是空的。遇到这种情况可以按F12来查看并指定实际显示数据的表的位置，或者在弹出是否获取整表时点击“取消”，之后根据提示手动指定行列中的数据来逐列获取数据即可。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/5-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/5-2.png"/>
  
  </font><br><br>
  ---
@@ -187,7 +187,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/8-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/8-2.png"/>
 
 
 直接指定上图中的元素后进行验证就会验证失败，这是由于该应用窗口在没有焦点的时候拿到的进程名与有焦点时不一样，录制时焦点不在该窗口上而运行时焦点在该窗口上，所以验证运行就会失败。该问题在Chrome的弹窗、Chrome打印页面或金蝶K3等窗口比较常见。
@@ -223,12 +223,12 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 <br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/9-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/9-1.png"/>
 
 
 之后设置属性“纵坐标偏移”多少像素才能正确触发滚动操作：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/9-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/9-2.png"/>
 
 
 如果指定到的是整个滚动条或滚动条上非滑块的区域就会出现组件运行成功但页面未滚动的现象。
@@ -245,7 +245,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 【解决办法A3_00009】:拖动只运行一点可能是因为设置的偏移属性太小，也可能是窗口未全屏导致的，可将要执行拖动的窗口全屏后，再设置大一些的值(如1000像素)即可成功运行。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/9-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/9-2.png"/>
 
  </font><br><br>
  ---
@@ -259,7 +259,7 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 【解决办法A3_00010】:因为“模拟键盘”是触发key的事件来输入文本的，所以会被系统输入法所阻挡，如果需要以“模拟键盘”的方式输入文本就需要将系统的默认输入法设置为系统自带的“英语(美国) – 美式键盘”，以Win10为例：进入系统设置->打开“时间和语言”->点击“语言”->打开“键盘”，将“替代默认输入法”的选项修改为“英语(美国) – 美式键盘”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/10-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/10-1.png"/>
 
 
 </font><br><br>
@@ -274,11 +274,11 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 【解决办法A3_00011】:运行成功是因为组件找到了元素，并根据设置发送了事件，未成功输入说明发送的事件文本未显示到输入框内，可能是指定错了元素或者元素不支持设置焦点。所以首先判断一下指定的元素是否有误，即确保该组件指定的元素是要输入的文本输入框而不是输入框所在的DIV或窗体；在确认无误后可以将“输入方式”改为“模拟键盘”：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/10-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/10-2.png"/>
 
 
 如仍未输入成功可将“输入前行为”改为“点击”：
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/10-3.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/10-3.png"/>
 
 
  </font><br><br>
@@ -295,11 +295,11 @@ xpath和自动生成的选择器的区别其实只是定位的“标准”不同
 
 “输入文本”支持“input”类型的元素，指定非该类型的元素时就会跳出该提示，解决办法是在“输入文本”前添加一个“点击”组件，点击需要输入文本的元素，之后“输入文本”组件不指定元素，将文本填入即可：
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/11-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/11-1.png"/>
 
 
 或是使用“发送快捷键”、“设置剪贴板”等组件操作。
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/11-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/11-2.png"/>
 
 
  </font><br><br>
@@ -319,11 +319,11 @@ Windows下操作很多应用时需要更高级别的应用时需要管理员权�
 
 在弹出的窗口中找到 常规->执行权限->选择“以管理员权限运行”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/12-1.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/12-1.png"/>
 
 
 之后关闭编辑器，在编辑器上右键，选择“以管理员身份运行”即可：
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/troubleshoot/12-2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/troubleshoot/12-2.png"/>
 
 
 
@@ -353,7 +353,7 @@ Windows下操作很多应用时需要更高级别的应用时需要管理员权�
 <font color=5a6877> 【解决办法A3_00015】:
 把选择器里面的 title属性 换成 url属性 ，标签页相同时可以使用url来区分页面：
 
-<img src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/202006060002.png"/>
+<img src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/202006060002.png"/>
 
 
  

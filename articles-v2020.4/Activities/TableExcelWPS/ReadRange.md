@@ -36,7 +36,7 @@
 
 **此流程执行逻辑**：读取EXCEL文件“sheet1”工作簿中的“A1：D3”单元格区域，写入到“sheet2”工作簿中的“A1：D3”单元格区域。
 
-![配置读取区域组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadRange1.png)
+![配置读取区域组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadRange1.png)
 
 **后置必要组件**：[写入区域](../TableExcelWPS//WriteRange.md)
 

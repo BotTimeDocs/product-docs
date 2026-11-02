@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将"D:\\滴滴电子发票 (1).pdf"和 "D:\\滴滴电子发票.pdf"进行合并，生成新的文件为 "D:\\滴滴电子发票（2）.pdf"。
 
-![配置合并文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MergePDF_2.png)
+![配置合并文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/MergePDF_2.png)

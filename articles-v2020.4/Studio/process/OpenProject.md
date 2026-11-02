@@ -12,7 +12,7 @@
 
 如果需要打开本地已存在的项目，则可以在“开始 > 打开 > 本地项目”列表中选择后打开，也可以直接导入流程项目（dgs）或组件项目（egs）。
 
-![导入项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/importproject20210830.png)
+![导入项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/importproject20210830.png)
 
 ## 打开控制台流程
 
@@ -21,9 +21,9 @@
 ### 打开控制台流程
 
 1. 打开云扩 RPA 编辑器，使用控制台账号进行登录。
-![控制台账号登录](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/consoleaccount20201112.png)
+![控制台账号登录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/workingProcess/consoleaccount20201112.png)
 2. 在开始主页，选择“打开”->“控制台流程”，将会获取到你所在公司部门下的所有流程。
-![打开控制台流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/openconsoleflow20201112.png)
+![打开控制台流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/workingProcess/openconsoleflow20201112.png)
 
 3. 通过部门下拉列表，你可以选择你想要查看的部门，选择完成，将会把该部门下的流程全部加载出来。
 
@@ -40,7 +40,7 @@
 1. 按照正常编辑步骤编辑打开的流程。
 
 2. 编辑完成，你可以将该流程再次发布到控制台。
-![发布流程](https://docimages.blob.core.chinacloudapi.cn/images/Studio/workingProcess/publishconsole20201112.png)
+![发布流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/workingProcess/publishconsole20201112.png)
 
    > **注意：**
    >

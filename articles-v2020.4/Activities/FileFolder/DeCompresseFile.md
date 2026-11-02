@@ -28,8 +28,8 @@
 
 **此流程执行逻辑**：将桌面上的`test.rar`文件，解压至桌面。
 
-![解压缩文件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefile20210225.png)
+![解压缩文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/decompressefile20210225.png)
 
 **执行结果**：
 
-![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/decompressefileresult20210225.png)
+![运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/decompressefileresult20210225.png)

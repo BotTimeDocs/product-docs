@@ -30,10 +30,10 @@
 
 **此流程执行逻辑**：弹框让用户选择指定的日期和时间，并在“输出面板”中输出。
 
-![配置日期和时间选择框组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-2.png)
+![配置日期和时间选择框组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/timePicker-2.png)
 
 **执行结果**：
-![选择指定的日期和时间](https://docimages.blob.core.chinacloudapi.cn/images/Activities/timePicker-4.png)
+![选择指定的日期和时间](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/timePicker-4.png)
 
 ## 常见问题
 

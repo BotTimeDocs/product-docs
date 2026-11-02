@@ -27,11 +27,11 @@
 
 **此流程执行逻辑**：预先配置输入框的内容，运行后在弹框中输入内容。
 
-![输入框配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputdialoge20201221.png)  
+![输入框配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/inputdialoge20201221.png)  
 
 **执行结果**：
 
-![查看运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/showinput20201221.png)
+![查看运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/showinput20201221.png)
 
 >**说明：**
 >

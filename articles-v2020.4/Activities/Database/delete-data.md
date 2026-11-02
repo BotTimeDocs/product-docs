@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：当数据表 `test_table` 中有 "年龄" 小于 "30" 的数据时，则将该记录删除，并使用“预览数据表”组件，查看其结果。
 
-![删除数据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deletedata20211111.png)
+![删除数据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deletedata20211111.png)

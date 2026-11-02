@@ -36,4 +36,4 @@
 
 **此流程执行逻辑**：字符串“abc”是否以指定的字符串“a”开头，返回结果存入变量`flag`中。
 
-![配置值校验组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/valueCheck-2.png)
+![配置值校验组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/valueCheck-2.png)

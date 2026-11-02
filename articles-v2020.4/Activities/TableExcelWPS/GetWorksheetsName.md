@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：获取 Excel 工作簿中，所有的工作表 sheet 名称。
 
-![配置获取所有工作表名组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetWorksheetsName2.png)
+![配置获取所有工作表名组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetWorksheetsName2.png)

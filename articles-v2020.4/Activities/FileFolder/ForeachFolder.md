@@ -27,11 +27,11 @@
 
 **此流程执行逻辑**：查看指定文件夹路径下的文件路径，并输出至“输出面板”中。
 
-![配置遍历文件夹组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-1.png)
+![配置遍历文件夹组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/foreachFolder-1.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/foreachFolder-3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/foreachFolder-3.png)
 
 ## 常见问题
 
@@ -43,4 +43,4 @@
 
    **A：** 先通过“FTP工具 > FTP连接”组件中配置“FTP文件夹路径”，再通过组合“FTP工具 > FTP获取文件/文件夹列表”遍历上传。
 
-   ![FTP连接](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ftpconnect20210824.jpg)
+   ![FTP连接](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/ftpconnect20210824.jpg)

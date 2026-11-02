@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：获取字典 `D` 中对应的键 `"key1"` 的值。
 
-![配置获取值](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getdictionaryvalue20211115.png)
+![配置获取值](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getdictionaryvalue20211115.png)

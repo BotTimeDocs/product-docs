@@ -38,4 +38,4 @@
 
 **此流程执行逻辑**：使用指定元素指定浏览器并打开网页，如，12306 官网。
 
-![配置绑定浏览器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AttacBrowser2020122102.png)
+![配置绑定浏览器组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AttacBrowser2020122102.png)

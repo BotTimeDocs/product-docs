@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：删除 Sheet1 工作表。
 
-![配置删除工作表组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/deleteworksheet20211220.png)
+![配置删除工作表组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/deleteworksheet20211220.png)

@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：在 A 流程中，调用 B 流程并执行。
 
-![子流程配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/invokesubworkflow20211220.png)
+![子流程配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/invokesubworkflow20211220.png)

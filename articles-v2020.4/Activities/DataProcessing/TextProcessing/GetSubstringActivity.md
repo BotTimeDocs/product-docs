@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：截取 `test` 字符串变量值中，开始位置为 `0` 且结束位置为 `1` 的文本，结果保存至变量 `result` 中。
 
-![配置截取文本组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetSubstringActivity2021010501.png)
+![配置截取文本组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetSubstringActivity2021010501.png)

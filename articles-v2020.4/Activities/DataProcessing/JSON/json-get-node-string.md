@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：读取 `Sample.json` 文件，并获取指定的 `name` 节点对应的值。
 
-![获取节点值（字符串）](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getstringnode20211231.png)
+![获取节点值（字符串）](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getstringnode20211231.png)

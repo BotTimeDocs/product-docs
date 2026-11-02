@@ -14,7 +14,7 @@
 
 要实现发布流程，从菜单栏中的“**发布**”中选择你想要发布的位置，然后点击它。
 
-![发布项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishinpath20201019.png)
+![发布项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/automationProject/publishProject/publishinpath20201019.png)
 
 ## 使用示例
 
@@ -22,7 +22,7 @@
 2. 在菜单栏中的“**发布**”中选择发布的位置：
     - **发布到控制台**
 
-        ![发布到控制台](https://docimages.blob.core.chinacloudapi.cn/images/Studio/publishproject20210827.png)
+        ![发布到控制台](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/publishproject20210827.png)
 
         a. 在 **部门** 部分，可以选择需要将项目发布到哪个部门中。
 
@@ -36,7 +36,7 @@
 
     - **发布到机器人**
 
-        ![发布到机器人](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishrobot20201214.png)
+        ![发布到机器人](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/automationProject/publishProject/publishrobot20201214.png)
 
         a. 在 **机器人** 部分，显示的是当前系统中已激活的机器人名称。
 
@@ -50,7 +50,7 @@
 
     - **发布到流程模板市场**
 
-        ![发布到流程模板市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishflowmarket20201214.png)
+        ![发布到流程模板市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/automationProject/publishProject/publishflowmarket20201214.png)
 
         a. 在 **流程模板市场** 部分，可以选择需要将项目发布到哪个流程模板市场中。请注意，首次发布需通过 **管理市场** 配置你的市场，具体步骤请参考 [管理市场](../market/Market.md?_v=v2020.4)。
 
@@ -71,4 +71,4 @@
     - 发布成功的项目名称
     - 该项目的版本号
 
-        ![发布成功](https://docimages.blob.core.chinacloudapi.cn/images/Studio/automationProject/publishProject/publishsucess20201214.png)
+        ![发布成功](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/automationProject/publishProject/publishsucess20201214.png)

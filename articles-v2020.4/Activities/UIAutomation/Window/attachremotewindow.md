@@ -29,8 +29,8 @@
 
 **此流程执行逻辑**：在指定的远程桌面窗口中打开指定浏览器地址，下载云扩学院文档。
 
-![配置指定远程窗口组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindow20210510.png)
+![配置指定远程窗口组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/attachremotewindow20210510.png)
 
 **执行结果**：
 
-![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/attachremotewindowresult20210510.png)
+![运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/attachremotewindowresult20210510.png)

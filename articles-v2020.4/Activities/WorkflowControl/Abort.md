@@ -18,4 +18,4 @@
 
 **此流程执行逻辑**：如果判断条件为真，则用 **终止流程** 组件终止流程；如果判断条件为假，则用 **赋值** 组件进行变量递增，循环继续。
 
-![配置终止流程组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Abort-3.png)
+![配置终止流程组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Abort-3.png)

@@ -34,7 +34,7 @@
     >**说明：**
     >
     >- 坐标偏移可以操作无法录制的元素，如SAP的表格。先指定一个可以录制的元素，之后设置一定的偏移就可以点击：
-    >![123](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/gjkfjq-0001001.png)
+    >![123](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/gjkfjq-0001001.png)
 
 
 ### 可选项
@@ -54,9 +54,9 @@
 
 **此流程执行逻辑**：使用**点击**组件，并指定元素后，打开选择器窗口，点击“未验证”按钮，验证是否识别指定元素。
 
-![属性配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-2.png)
+![属性配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/check-2.png)
 
 **执行结果**：
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/check-3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/check-3.png)
 
 >更多花式点击，请点击[链接](https://academy.encoo.com/learn/unit-detail/33) 查看云扩学院高级课程。

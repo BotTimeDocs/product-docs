@@ -37,8 +37,8 @@
 
 **此流程执行逻辑**：对指定工作表“Sheet2”中的第 1 列数据进行升序排序。
 
-![配置排序组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort2.png)
+![配置排序组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Sort2.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Sort3.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Sort3.png)

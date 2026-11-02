@@ -8,18 +8,18 @@
 
 在执行流程所在的机器人中，可通过单击“**流程库**”列表中的“日志”或单击“**任务记录**”列表中的“日志”，可查看流程的执行日志信息。
 
-![查看日志](https://docimages.blob.core.chinacloudapi.cn/images/Robot/viewlocallog20211026.png)
+![查看日志](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/viewlocallog20211026.png)
 
 本地机器人客户端日志，保存在 `%UserProfile%\AppData\Local\Encoo\Encoo Robot\JobLogs\local` 目录下，里面保存了我们的机器人每一天的执行日志。
 
-![本地日志](https://docimages.blob.core.chinacloudapi.cn/images/Robot/locallog20211026.png)
+![本地日志](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/locallog20211026.png)
 
 ## 方式二：在控制台查看日志
 
 在实际 RPA 应用中，很多场景涉及到的是定时任务以及服务型任务，很多时候我们无法直接访问机器人所在的设备，也就无法直接查看机器人本地的日志了。遇到这种情况呢，不要慌，我们还可以通过控制台，直接查看相应机器人运行流程任务记录的日志。通过登录控制台，在“**RPA 管理 > 任务记录 > 操作 > 查看详情**”中，单击“**查看日志**”，就可以看到我们想要的日志了。
 
-![查看控制台日志](https://docimages.blob.core.chinacloudapi.cn/images/Robot/viewconsolelog20211026.png)
+![查看控制台日志](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/viewconsolelog20211026.png)
 
 在该页面，可按任务记录的执行次序，查看具体的视频日志及文字日志。
 
-![控制台日志详情](https://docimages.blob.core.chinacloudapi.cn/images/Robot/consoledetail20211026.png)
+![控制台日志详情](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/consoledetail20211026.png)

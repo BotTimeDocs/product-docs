@@ -30,4 +30,4 @@
 
 **此流程执行结果**：将指定的元素呈黄色高亮 1 秒时长。
 
-![配置高亮组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/highlight1.png)
+![配置高亮组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/highlight1.png)

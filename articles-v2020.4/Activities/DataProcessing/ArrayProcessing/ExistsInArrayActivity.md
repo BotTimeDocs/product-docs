@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：判断`"B"`元素是否存在于指定的数组`new string[]{"A","B","C"}`中，返回的结果存储在`isexist`变量中。
 
-![配置元素是否存在组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ExistsInArrayActivity1.png)
+![配置元素是否存在组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ExistsInArrayActivity1.png)

@@ -49,10 +49,10 @@
 
 **此流程执行逻辑**：使用组件的选择器指定打开新的应用程序。
 
-![使用指定程序方式打开程序](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-2.png)
+![使用指定程序方式打开程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/openApp-2.png)
 
 ### 手动填写路径方式打开程序
 
 **此流程执行逻辑**：使用在该组件的“程序路径”属性中填写绝对路径，打开指定应用程序。
 
-![使用填写路径方式打开程序](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openApp-3.png)
+![使用填写路径方式打开程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/openApp-3.png)

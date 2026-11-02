@@ -31,4 +31,4 @@
 
 **此流程执行逻辑**：向源文本 `Hello` 中追加文本 ` World!`，最终将追加结果保存至变量 `S` 中。
 
-![追加文本](https://docimages.blob.core.chinacloudapi.cn/images/Activities/appendtext20210111.jpg)
+![追加文本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/appendtext20210111.jpg)

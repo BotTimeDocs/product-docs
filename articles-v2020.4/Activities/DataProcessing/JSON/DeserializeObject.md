@@ -26,7 +26,7 @@
 
 **此流程执行逻辑**：将定义的变量`json字符串`反序列化为`json对象`输出。
 
-![配置反序列化组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DeserializeObject3.png)
+![配置反序列化组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/DeserializeObject3.png)
 
 > **说明：**
 >
@@ -38,4 +38,4 @@
 
     **A：** `Convert.ToString(jobj["data"]["result"][0])`
 
-    ![反序列化](https://docimages.blob.core.chinacloudapi.cn/images/Activities/json20210825.png)
+    ![反序列化](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/json20210825.png)

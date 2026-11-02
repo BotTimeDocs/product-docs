@@ -28,4 +28,4 @@
 
 **此流程执行逻辑**：将数据表`table`中的重复行给去掉，相同的数据只保留一行数据。
 
-![配置移除重复行组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/RemoveDuplicateRow2020122802.png)
+![配置移除重复行组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/RemoveDuplicateRow2020122802.png)

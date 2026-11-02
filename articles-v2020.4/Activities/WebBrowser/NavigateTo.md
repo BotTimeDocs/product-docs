@@ -34,4 +34,4 @@
 
 **此流程执行逻辑**：从云扩科技官网页面跳转至云扩学院标签页。
 
-![配置当前页跳转组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/NavigateTo20201221.png)
+![配置当前页跳转组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/NavigateTo20201221.png)

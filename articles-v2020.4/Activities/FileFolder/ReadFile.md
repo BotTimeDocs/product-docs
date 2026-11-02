@@ -30,7 +30,7 @@
 
 **此流程执行逻辑**：读取D盘下的“新建文本文档.txt”文件中的内容，并输出至“输出面板”中。
 
-![配置读取文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/readFile-2.png)
+![配置读取文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/readFile-2.png)
 
 ## 常见问题
 

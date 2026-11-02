@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：从打开的指定的“Metro 大都会”APP 软件界面返回至手机主页的界面。
 
-![选择软件名称](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openapp20201222.png)
+![选择软件名称](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/openapp20201222.png)

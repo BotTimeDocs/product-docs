@@ -22,7 +22,7 @@
 
 **此流程执行逻辑**：模拟人工移动鼠标操作，设置x、y坐标，运行流程查看效果。
 
-![配置移动鼠标组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/MouseMove-1.png)
+![配置移动鼠标组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/MouseMove-1.png)
 
 >**说明：**
->一般与**获取鼠标位置**组件搭配使用，可参考[滑块验证](https://docimages.blob.core.chinacloudapi.cn/images/dgsSample/滑块验证.egs) 流程了解移动鼠标组件的具体用法。
+>一般与**获取鼠标位置**组件搭配使用，可参考[滑块验证](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/dgsSample/滑块验证.egs) 流程了解移动鼠标组件的具体用法。

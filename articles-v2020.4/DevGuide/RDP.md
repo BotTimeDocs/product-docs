@@ -25,42 +25,42 @@
 **第一步：** 在确认系统支持后，需要在编辑器所在的本地PC安装远程桌面扩展，安装前先退出本地所有的远程桌面连接，之后进入 开始->工具->点击“Windows远程桌面扩展”：
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm001.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm001.png"/>
 
 
 </br></br></br>
 
 **第二步：** 根据提示点击确定后即可完成安装：</br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm002.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm002.png"/>
 
 
 </br></br></br>
 
 **第三步：** 之后进入“帮助”查看并记录本地安装的编辑器版本号：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm003.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm003.png"/>
 
 
 </br></br></br>
 
 **第四步：** 将该版本号提供给云扩工作人员以获取远程桌面安装的扩展包：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm004.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm004.png"/>
 
 </br>
 
 **第五步：** 将远程桌面扩展包复制到要控制的远程桌面上安装，等待安装后完成后会自动退出安装流程：</br>
 
 
-<img width = '200'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm005.png"/>
+<img width = '200'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm005.png"/>
 
 
 </br></br>
 
 **第六步：** 安装扩展后进入远程桌面的“设置”->“电源和睡眠”中，将屏幕设置为从不休眠：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm006.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm006.png"/>
 
 
 </br></br></br>
@@ -78,7 +78,7 @@
 
 </br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm008.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm008.png"/>
 
  
 </br></br></br>
@@ -88,7 +88,7 @@
 `cd C:\Program Files (x86)\EncooRemoteRuntime\app-XXXXXX\packages\XXXXXX\Extensions\Java\`
 </br>
 切换到安装程序所在目录</br></br>
- ![cmd-Java](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm009.png)
+ ![cmd-Java](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm009.png)
 </br>
 
 **第三步：** 执行以下命令执行安装：
@@ -96,7 +96,7 @@
 `EncooJavaExtensionInstaller.exe -install -a`
 </br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0010.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0010.png"/>
 
 
 </br>
@@ -134,27 +134,27 @@
 这里以Chrome为例：
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0011.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0011.png"/>
 
 
 </br></br></br>
 
 **第四步：** 执行命令后会弹出安装扩展的窗口，关闭Chrome后点击“确定”即可完成安装：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0012.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0012.png"/>
 
 </br>
 
 </br></br>**第五步：** 安装完成后进入启动Chrome浏览器，点击提示中的“启用扩展程序”：</br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0013.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0013.png"/>
 
 
 </br>
 
 或依次点击“设置”->“更多工具”->“扩展程序”，找到“云扩录制器”扩展启用即可：</br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0014.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0014.png"/>
 
 </br> 
 
@@ -169,14 +169,14 @@
 
 **第1步：** 首先添加一个“绑定远程桌面”的组件，点击“指定窗口”，进入录制状态后指定一个需要远程操作的远程桌面：</br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0015.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0015.png"/>
 
 </br></br></br>
 
 **第2步：** 指定完成后组件上会显示远程桌面的缩略图，选择器中也会更新该窗口的信息：
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0016.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0016.png"/>
 
 
 </br></br></br>
@@ -185,7 +185,7 @@
 </br>
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0017.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0017.png"/>
 
 
 </br>
@@ -199,21 +199,21 @@
 
 当扩展配置生效之后，指定元素时可以选取录制远程桌面中高亮的元素：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0018.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0018.png"/>
 
 
 </br>
 
 </br></br>点击鼠标左键完成录制后可查看选择器，与本地选择器的区别在于在第一级节点上增加了一个“RemoteMetaData”属性，用于记录需要绑定的远程桌面的信息：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0019.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0019.png"/>
 
 
 </br>
 
 </br></br>验证元素时不会自动将远程桌面窗口拉至前台，建议手动将远程桌面切换至前台，以便获得更好的元素验证体验：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0020.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0020.png"/>
 
 
 </br>
@@ -231,7 +231,7 @@
 
 卸载Windows远程桌面扩展需进入“控制面板”的“程序和功能”中，找到 “Encoo RemoteRuntime”，右键点击，之后点击“卸载”即可：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/yczm0021.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/yczm0021.png"/>
 
 
 </br></br>

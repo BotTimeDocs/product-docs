@@ -39,8 +39,8 @@
 
 **此流程执行逻辑**：将一个名叫 test 的 Excel 中的“语”字替换为“文”字。
 
-![查找替换](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplace20210224.png)
+![查找替换](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/officeexcelreplace20210224.png)
 
 **执行结果**：
 
-![流程执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/officeexcelreplaceresultdata20210224.png)
+![流程执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/officeexcelreplaceresultdata20210224.png)

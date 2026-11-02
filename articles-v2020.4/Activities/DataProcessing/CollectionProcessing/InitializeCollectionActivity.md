@@ -20,4 +20,4 @@
 
 **此流程执行逻辑**：对集合`集合List`初始化。
 
-![配置初始化集合](https://docimages.blob.core.chinacloudapi.cn/images/Activities/InitializeCollectionActivity1.png)
+![配置初始化集合](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/InitializeCollectionActivity1.png)

@@ -16,7 +16,7 @@
 >
 > 支持创建本地或基于特定网络的私有市场。
 
-![ManagementMarket](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/managemarket20201214.png)
+![ManagementMarket](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/managemarket20201214.png)
 
 ### 切换市场
 
@@ -26,13 +26,13 @@
 >
 > 切换市场类别时，可自动保存新创建的市场列表。
 
-![切换市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/switchmarket.png)
+![切换市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/switchmarket.png)
 
 ### 创建市场
 
-单击 ![创建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/add20201214.png)，输入市场名称、市场地址及 ApiKey ，可新增本地或基于特定网络的私有市场。
+单击 ![创建](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/add20201214.png)，输入市场名称、市场地址及 ApiKey ，可新增本地或基于特定网络的私有市场。
 
-![创建市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/createmarket20201214.png)
+![创建市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/createmarket20201214.png)
 
 - **本地私有市场**：在“市场地址”文本框中输入指定本地文件夹并保存后即可加载本地私有市场，如，“D:\workspace\Encoo\Excel 数据迁移”。
   
@@ -44,13 +44,13 @@
 
 ### 删除市场
 
-在市场列表中选中需要删除的市场，单击 ![删除市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/minus20201214.png)，可删除当前市场。
+在市场列表中选中需要删除的市场，单击 ![删除市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/minus20201214.png)，可删除当前市场。
 
 ### 上移/下移市场
 
-在市场列表中选中需要移动的市场，单击 ![上移](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/moveup20201214.png) 或 ![下移](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/movedown20201214.png)，可上移/下移当前市场。
+在市场列表中选中需要移动的市场，单击 ![上移](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/moveup20201214.png) 或 ![下移](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/movedown20201214.png)，可上移/下移当前市场。
 
 ### 启用/禁用市场
 
 在市场列表中勾选/反勾选需要启用/禁用的市场，可启用/禁用当前市场。
-![启用/禁用市场](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/enablemarket20201214.png)
+![启用/禁用市场](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/enablemarket20201214.png)

@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：获取“Sheet1”工作表第一行有数据区域的最后一列列号。
 
-![配置获取末列号组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLastColumn1.png)
+![配置获取末列号组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetLastColumn1.png)

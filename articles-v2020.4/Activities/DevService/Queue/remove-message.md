@@ -27,4 +27,4 @@
 **前置必要条件**：在企业版控制台的“数据中心 > 数据队列”中已创建数据队列。
 **此流程执行逻辑**：从企业版控制台的“数据中心 > 数据队列”中，移除指定 `产品设计与测试组` 部门中的指定 `wx` 队列中的消息。
 
-![配置移除消息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/removemessage20211122.png)
+![配置移除消息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/removemessage20211122.png)

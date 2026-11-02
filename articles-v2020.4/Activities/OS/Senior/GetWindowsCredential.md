@@ -27,8 +27,8 @@
 
 **前置必要步骤**：
 
-![创建凭据](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-2.png)
+![创建凭据](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getWindows-2.png)
 
 **此流程执行逻辑**：根据在“控制面板 > 所有控制面板项 > 凭证管理器”中已创建的凭据，获取该凭据的用户名及密码信息。
 
-![配置获取凭据组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/getWindows-1.png)
+![配置获取凭据组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/getWindows-1.png)

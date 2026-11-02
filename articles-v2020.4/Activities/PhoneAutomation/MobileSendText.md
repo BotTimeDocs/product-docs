@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：将需要发送的文本被发送至微信的发送框中。
 
-![发送文本内容](https://docimages.blob.core.chinacloudapi.cn/images/Activities/sendtextflow20201223.png)
+![发送文本内容](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/sendtextflow20201223.png)

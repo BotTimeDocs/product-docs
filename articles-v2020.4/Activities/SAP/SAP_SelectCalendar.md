@@ -36,4 +36,4 @@
 
 **此流程执行逻辑**：指定 SAP 应用中的日期框并选择所需日期。
 
-   ![配置选择日期组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/selectCalendar-2.png)
+   ![配置选择日期组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/selectCalendar-2.png)

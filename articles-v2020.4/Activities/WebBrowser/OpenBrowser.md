@@ -53,7 +53,7 @@
 
 **此流程执行逻辑**：打开指定类型浏览器的指定网址。
 
-![配置打开浏览器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/OpenBrowser20201221-02.png)
+![配置打开浏览器组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/OpenBrowser20201221-02.png)
 
 ## 常见问题
 
@@ -67,8 +67,8 @@
 
 3. **Q：执行打开浏览器组件之后卡住无法向下执行？**
 
-    ![打开浏览器异常](https://docimages.blob.core.chinacloudapi.cn/images/Activities/openbrowser20210827.png)
+    ![打开浏览器异常](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/openbrowser20210827.png)
 
     **A：** 打开浏览器中的“结束后关闭”属性取消勾选，然后使用“点击”组件关闭浏览器。
 
-    ![解决方法 ](https://docimages.blob.core.chinacloudapi.cn/images/Activities/endtoclose20210827.png)
+    ![解决方法 ](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/endtoclose20210827.png)

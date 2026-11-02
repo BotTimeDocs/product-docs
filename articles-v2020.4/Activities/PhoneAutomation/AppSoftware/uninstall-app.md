@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：卸载指定的手机端中指定的APP应用软件。 
 
-![配置流程](https://docimages.blob.core.chinacloudapi.cn/images/Activities/uninstallapp20211215.jpg)
+![配置流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/uninstallapp20211215.jpg)

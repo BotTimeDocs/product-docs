@@ -30,8 +30,8 @@
 
 **此流程执行逻辑**：获取企业微信聊天窗口搜索框中的焦点。
 
-![配置获取焦点控件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus3.png)
+![配置获取焦点控件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetFocus3.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetFocus5.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetFocus5.png)

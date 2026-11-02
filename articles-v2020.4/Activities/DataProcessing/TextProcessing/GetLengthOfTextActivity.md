@@ -26,4 +26,4 @@
 
 **此流程执行逻辑**：获取字符串`test`变量值的长度，保存至变量`length`中。
 
-![配置获取文本长度组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetLengthOfTextActivity2021010501.png)
+![配置获取文本长度组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetLengthOfTextActivity2021010501.png)

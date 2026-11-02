@@ -24,7 +24,7 @@
     >
     >当“添加列”弹框中勾选“整形自动加一”选项时，不会对已有行数据做更改，只有新加行时，生效。
 
-    ![添加列](https://docimages.blob.core.chinacloudapi.cn/images/Activities/addcolumn20210512.png)
+    ![添加列](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/addcolumn20210512.png)
 
 ## 使用示例
 
@@ -32,4 +32,4 @@
 
 **此流程执行逻辑**：将已搭建的数据表，增加“职业”列。
 
-![配置添加数据列组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/AddColumn20201228.png)
+![配置添加数据列组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/AddColumn20201228.png)

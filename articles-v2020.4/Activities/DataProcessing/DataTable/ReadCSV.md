@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：读取指定的 CSV 文件内容 "C:\云扩科技\savetable.csv"，输出至 `table` 变量中。
 
-![配置读取 CSV 文件组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/ReadCSV20201229.png)
+![配置读取 CSV 文件组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/ReadCSV20201229.png)

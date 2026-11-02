@@ -39,4 +39,4 @@
 
 **此流程执行逻辑**：查找指定工作表 Sheet2 中的值为 100 的单元格所在地址。
 
-![配置查找组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/Search2.png)
+![配置查找组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/Search2.png)

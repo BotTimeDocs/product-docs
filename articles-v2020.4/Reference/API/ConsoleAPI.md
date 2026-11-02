@@ -2,7 +2,7 @@
 
 云扩控制台API最新版本可以在云扩SaaS控制台的“API文档”页面查看。
 
-![api engry](https://docimages.blob.core.chinacloudapi.cn/images/Console/api%20entry.png)
+![api engry](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/api%20entry.png)
 
 快捷入口：<https://api.encoo.com/openapi/static/consoleapi.html>
 

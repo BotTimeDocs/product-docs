@@ -25,4 +25,4 @@
 
 **此流程执行逻辑**：按下指定键盘按键后，触发弹出“提示框”操作。
 
-![配置键盘触发器组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/keyboardtrigger20210508.png)
+![配置键盘触发器组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/keyboardtrigger20210508.png)

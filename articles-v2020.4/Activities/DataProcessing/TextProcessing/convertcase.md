@@ -27,4 +27,4 @@
 
 **此流程执行逻辑**：将一串字符串，转换为小写。
 
-![配置转换大小写组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/covertcase20210427.png)
+![配置转换大小写组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/covertcase20210427.png)

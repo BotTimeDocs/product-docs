@@ -40,4 +40,4 @@
 
 **此流程执行逻辑**：获取 POP3 服务账号中“收件箱”中的邮件。
 
-![配置获取邮件(POP3)组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/GetMailPOP32020122302.png)
+![配置获取邮件(POP3)组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/GetMailPOP32020122302.png)

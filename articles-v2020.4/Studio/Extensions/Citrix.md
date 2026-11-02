@@ -25,13 +25,13 @@ Citrix 扩展安装在本地计算机上，以使 Encoo Studio/Robot 以原生�
 
 1. 在编辑器中的“**开始 > 工具**”页中，获取本地端 Encoo Citrix 扩展。
 2. 单击 **Citrix 扩展**，根据安装向导进行安装。
-   ![安装 Citrix 扩展](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixpath20210107.png)
+   ![安装 Citrix 扩展](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/citrixpath20210107.png)
 
 ### 配置远程服务端
 
 Encoo Remote Runtime 为运行在 Citrix 服务器上的组件，可以使 Citrix 远程桌面或远程应用程序与 Citrix 本地扩展进行通信，从而可以在本地产生选择器并执行自动化操作。
 
-1. 下载远程服务端 [Encoo Remote Runtime 安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Encoo.RemoteRuntime.Setup.exe)。
+1. 下载远程服务端 [Encoo Remote Runtime 安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Encoo.RemoteRuntime.Setup.exe)。
 2. 在需要自动化的 Citrix 应用程序服务器上安装 Encoo Remote Runtime 安装包。
 
     > **说明：**
@@ -67,7 +67,7 @@ Encoo Remote Runtime 为运行在 Citrix 服务器上的组件，可以使 Citri
 
 1. 右键单击 Citrix Receiver 托盘图标，然后单击“连接中心”。
 
-    ![重启生效](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixreceiver20210107.png)
+    ![重启生效](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/citrixreceiver20210107.png)
 
 2. 在弹出的“Citrix 连接中心”窗口中，选择组件会话，然后单击“注销”按钮。
 
@@ -90,10 +90,10 @@ Encoo Remote Runtime 为运行在 Citrix 服务器上的组件，可以使 Citri
 为了展示 Citrix 技术自动化的工作方式，创建一个简单的自动化流程，该流程用于从浏览器中抓取网页数据后，保存到记事本中并修改字体。
 
 1. 在本地客户端的编辑器中搭建一个获取远程服务端网页中的结构化数据的流程保存至远程服务端的记事本中并修改字体样式。
-![Citrix Demo](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixdemo20210108.png)
+![Citrix Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/citrixdemo20210108.png)
 
 2. 保存并运行流程，查看运行结果。
-![Citrix 演示结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixdemoresult20210108.png)
+![Citrix 演示结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/citrixdemoresult20210108.png)
 
 ## 常见问题
 
@@ -109,4 +109,4 @@ Encoo Remote Runtime 为运行在 Citrix 服务器上的组件，可以使 Citri
 
 2. **Q：为何设置了 Citrix 的“首选项 > 显示”后，Web 元素指定元素时的定位发生偏移，桌面元素在窗口滚动后验证仍会高亮显示在原位置？**
    **A：** 当前 Encoo Remote Runtime 仅支持工作在“最佳分辨率”之上，遇到此现象时，需在 Citrix 的“首选项 > 显示”中设置 "最佳分辨率"。
-   ![最佳分辨率](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/citrixproblem20210108.png)
+   ![最佳分辨率](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/citrixproblem20210108.png)

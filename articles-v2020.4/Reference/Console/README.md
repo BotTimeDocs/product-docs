@@ -63,4 +63,4 @@ SaaS 或私有化，支持跨境上云，大大降低规模化成本
 
 ## 与云扩其他产品之间的关系
 
-![与云扩其他产品之间的关系](https://docimages.blob.core.chinacloudapi.cn/images/Console/consoleproduct20211102.png)
+![与云扩其他产品之间的关系](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/consoleproduct20211102.png)

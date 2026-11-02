@@ -35,7 +35,7 @@
 - 冲突处理：选择机器人忙碌时的处理方式，如，取消、等待。
 - 启用/禁用：是否启用该定时任务。
 
-![定时任务设置](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotcronjob20210927.png)
+![定时任务设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotcronjob20210927.png)
 
 ## 定时任务列表
 
@@ -48,4 +48,4 @@
 - 模式：当前任务的执行模式
 - 操作：点击 **编辑** 对当前定时任务修改；点击 **删除** 则删除当前任务
 
-![定时任务列表](https://docimages.blob.core.chinacloudapi.cn/images/Robot/robotJob.png)
+![定时任务列表](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Robot/robotJob.png)

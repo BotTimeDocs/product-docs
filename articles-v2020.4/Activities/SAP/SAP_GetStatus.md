@@ -38,4 +38,4 @@
 
 **此流程执行逻辑**：获取 SAP 应用的状态栏信息内容。
 
-![获取状态栏信息](https://docimages.blob.core.chinacloudapi.cn/images/Activities/SAPGetStatus-2.png)
+![获取状态栏信息](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/SAPGetStatus-2.png)

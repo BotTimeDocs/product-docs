@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：将文本`"123.56"`转换为数值，并保存至变量`S`中。
 
-![配置文本转数值组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/texttonum20210104.png)
+![配置文本转数值组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/texttonum20210104.png)

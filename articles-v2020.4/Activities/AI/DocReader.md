@@ -29,8 +29,8 @@
 
 **前置必要条件**：在控制台中的“文档理解”服务中已创建文档理解的模板。
 
-![前置必要条件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_6.png)
+![前置必要条件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/DocReader_6.png)
 
 **此流程执行逻辑**：将 "D:\\测试.PDF" 按照控制台中已设定的指定的模板识别，结果保存至 `result` 变量中。
 
-![配置文档理解模板](https://docimages.blob.core.chinacloudapi.cn/images/Activities/DocReader_2.jpg)
+![配置文档理解模板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/DocReader_2.jpg)

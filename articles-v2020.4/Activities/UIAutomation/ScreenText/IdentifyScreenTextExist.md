@@ -37,4 +37,4 @@
 
 **此流程执行逻辑**：指定Adobe Acrobat右侧工具栏，判断所指定的文本是否存在，存在和不存在时，分别输出不同的日志信息。
 
-![配置判断屏幕文本是否存在](https://docimages.blob.core.chinacloudapi.cn/images/Activities/IdentifyScreenTextExist1.png)
+![配置判断屏幕文本是否存在](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/IdentifyScreenTextExist1.png)

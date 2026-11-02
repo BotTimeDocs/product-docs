@@ -30,30 +30,30 @@ XPath是一种强大、复杂的查询语言； XPath与编辑器中内置的选
 
 **第1步：** 从左侧组件库拖拽一个自动化组件“高亮”至设计面板，在右侧属性面板中点击属性“选择器”右侧的“...”打开选择器窗口：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana01.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana01.png"/>
 </br><br><br>
 
 **第2步：** 在选择器的弹窗中勾选“生成XPath（仅支持WEB）”选项：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana02.png"/> 
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana02.png"/> 
 
 </br><br><br>
 
 **第3步：** 点击“指定元素”重新指定一个Web元素，例如百度一下按钮，此时选择器中的最后一个层级就自动生成了元素的XPath：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana03.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana03.png"/>
 
 </br><br><br>
 
 **第4步：** 点击右侧的按钮可以打开XPath编辑窗口，选择默认提供的几种XPath，也可手动进行修改：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana04.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana04.png"/>
 
 </br><br><br>
 
 也可直接在节点的属性中点击右键“新增”，之后选择“XPath”
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana05.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana05.png"/>
 
 
 
@@ -62,13 +62,13 @@ XPath是一种强大、复杂的查询语言； XPath与编辑器中内置的选
 ### （3）如何在XPath中使用变量
 在XPath中同样支持选择器中的变量使用方法，即“{{变量名}}”，需注意如在变量中有西文双引需要两个转义为一个，如图中的变量“String1”：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana07.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana07.png"/>
 
 
 </br><br>
 同时也支持变量和常量组合使用：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana08.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana08.png"/>
 
 </br><br><br>
 
@@ -76,7 +76,7 @@ XPath是一种强大、复杂的查询语言； XPath与编辑器中内置的选
 XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开浏览器开发者模式->右键点击需要生成XPath的元素代码->选择Copy->Copy XPath->将复制过来的XPath粘贴到编辑器中使用即可：
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana09.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana09.png"/>
 
 
 
@@ -147,13 +147,13 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 
 如:“Tag”、“Name”、“Id”、“Title”等，由于要切换的是IFrame，所以“Tag”需要为“IFrame”：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana10.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana10.png"/>
 
 </br></br>
 
 获取IFrame的信息可以通过浏览器的开发者模式查看，以qq邮箱登录页面为例，打开邮箱页面，之后按F12进入开发者模式，找到要操作的IFrame信息：</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana11.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana11.png"/>
 
 
 </br></br></br>
@@ -161,7 +161,7 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 
 在完成IFrame的层级编辑后就可编辑要操作的元素信息，这里就与其他Web元素一致了，输入元素的信息，如“Name”、“Id”等，保存后即可操作IFRAME中的元素：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana12.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana12.png"/>
 
 </br>
 
@@ -169,7 +169,7 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 
 多层IFRAME时在选择器中依照层级依次创建IFrame节点，再在IFrame结束后输入要操作的元素信息即可：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615-nana13.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615-nana13.png"/>
 
 </br></br></br></br>
 
@@ -186,7 +186,7 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 
 * 配置文件位置：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N1.png"/>
 
 </br></br></br>
 
@@ -194,27 +194,27 @@ XPath可使用编辑器自动生成，也可从浏览器中复制：按F12打开
 
 1）Encoobrowser.exe.config
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N2.png"/>
 
 </br></br></br>
 
 
 2）Cer文件夹 template.json
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N3.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N3.png"/>
 
 </br></br></br>
 
 对每一个 **network** 请求匹配，**key**值配到后生成带**value**前缀的文件，保存在
 **PathForStoringCacheFiles**下;保存的文件会根据当前日期进行文件夹分割。文件名称为 **规则匹配值 毫秒级时间戳.json 文件,如下图所示；**
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N4.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N4.png"/>
 
 </br></br></br>
 
 文件内容格式如下：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N5.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N5.png"/>
 
 
 
@@ -240,7 +240,7 @@ C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行
 
 </br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N6.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N6.png"/>
 
 
 
@@ -273,7 +273,7 @@ C#代码与编辑器的表达式是高度契合的。C#代码包含一个[执行
 在流程中我们可以下载Nuget包，从而使用第三方的类库。</br>
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615N7.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615N7.png"/>
 
 
 
@@ -312,13 +312,13 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 在[打开/新建](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md) 组件中开启宏功能：
 </br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E2.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E2.png"/>
 
 
 </br>
 打开Excel，在Excel选项-信任中心， 开启宏权限：</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E3.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E3.png"/>
 
 
 
@@ -328,14 +328,14 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 宏代码的使用可以自己书写,亦可有Excel里录制宏功能完成,如图:</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E4.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E4.png"/>
 
 
 </br>
 </br>
 录制完成后,可以点击查看宏,然后找到里面的宏代码</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E5.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E5.png"/>
 
 
 </br></br></br>
@@ -343,7 +343,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 按照步骤可以生成可执行的宏代码文件,里面一些参数可以自己定义</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E6.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E6.png"/>
 
 
 </br></br>
@@ -355,7 +355,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 如上图示，定义了3个参数,单元格地址,列宽和行高来更自由的调整单元格。</br>
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E7.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E7.png"/>
 
 
 
@@ -363,7 +363,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 **最后一步.** 使用执行宏组件,填入各种参数,就可以正确执行:</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E8.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E8.png"/>
 
 </br></br>
 
@@ -371,7 +371,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 </br>自动填充组件，等同于我们在Excel选中一个单元格，下拉拖拽的过程；</br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E1.png"/>
 
 
 
@@ -381,7 +381,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 ### (3) [设置单元格格式](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OfficeExcelFormatCells.md)
 </br>这个组件包括日常涉及到数值，货币，日期，时间等等，用户体验几乎和Office Excel设置单元格效果。</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E9.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E9.png"/>
 
 
 </br></br></br>
@@ -392,7 +392,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 </br></br></br>
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E10.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E10.png"/>
 
 
 </br></br></br>
@@ -401,7 +401,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 </br>分列就是将一列的数据按照既定分割规则填充到指定区域；</br>
 
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615E11.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615E11.png"/>
 
 
 </br></br></br></br>
@@ -432,14 +432,14 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 如上述方法均无效，可使用“点击”组件点击页面上的需要使用的日期：</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R1.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R1.png"/>
 
 
 
 </br></br>
 可以使用变量来“SInfo”中的属性如{{String1}}来动态设置自己需要选择的时间</br></br>
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R2.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R2.png"/>
 
 
 </br></br></br>
@@ -448,7 +448,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 首先网站可以通过JS的方法“document.readyState”等于“complete”来获取网站是否加载完成</br></br>
 
-<img width = '200'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R3.png"/>
+<img width = '200'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R3.png"/>
 
 </br></br>
 
@@ -460,20 +460,20 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 </br></br>网页下拉框的选项对应的是“Select”的“Option”，如图
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R4.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R4.png"/>
 
 
 </br>
 </br></br></br></br>可以通过使用组件“获取元素属性值”指定这个“Select”，之后选择获取该元素的“innerhteml”</br></br>
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R5.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R5.png"/>
 
 
 </br></br>
 
 即可成功获取
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R6.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R6.png"/>
 
 
 
@@ -484,12 +484,12 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 使用组件[点击](https://academy.encoo.com/zh-cn/wiki/Activities/UIAutomation/Click.md)指定要右键的元素，把属性“鼠标键”设置为“右键”即可。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R7.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R7.png"/>
 
 </br>
 </br></br>部分属性可能不支持默认的点击方式，如未成功触发也可修改属性“点击方式”。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DeveloperGuide/0615R8.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DeveloperGuide/0615R8.png"/>
 
 
 </br></br></br>
@@ -511,7 +511,7 @@ Excel宏是一些指令集，每个人在制作表格的过程中也许会有多
 
 部分元素无法直接录制（如SAP表格），此时可以通过使用“点击”组件指定可以录制的元素，之后设置属性“偏移”，即可点击无法录制的元素：
 
-<img width = '600'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/gjkfjq-0001001.png"/>
+<img width = '600'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/gjkfjq-0001001.png"/>
 
 
 

@@ -27,7 +27,7 @@
 
 COE是一个概念，但当落地到企业内部进行实践时，COE则是一个结构良好且人员配置完善、专门用于实施RPA自动化的虚拟中心，是新技术在企业内部落地的先锋组织。
 
-![COE卓越中心组织架构](https://docimages.blob.core.chinacloudapi.cn/images/Kris/organization.png)
+![COE卓越中心组织架构](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/organization.png)
 
 COE卓越中心将由RPA管理者、业务人员、服务支持、技术支持、开发者等多方组成。在企业内部推动自动化转型，需要COE卓越中心的成员深度参与。从最初的RPA自动化概念普及、流程挖掘、需求调研、需求分析，到正式开发、测试、上线以及后续的运维工作，COE卓越中心能让企业在未来部署中不断传播在此累积的知识和资源。
  
@@ -61,7 +61,7 @@ COE是新技术在企业内部落地的先锋组织，通过外部内部的共�
 
 COE卓越中心有六大核心职能，制定战略与机制、治理与标准、变更管理、专业技能与技术架构、建立组织内的知识管理、跨业务与职能领域的支持。
 
-![COE卓越中心六大核心职能](https://docimages.blob.core.chinacloudapi.cn/images/Kris/coefunction.png)
+![COE卓越中心六大核心职能](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/coefunction.png)
 
 我们可以为企业提供以下COE搭建的具体服务：
 
@@ -83,7 +83,7 @@ COE卓越中心有六大核心职能，制定战略与机制、治理与标准�
 
 企业的自动化转型分阶段进行实施，短期以项目制为主，逐渐培育能力；长期构建企业内部自动化团队，自主实现端到端全流程的业务转型。在企业定位好自身的数字化转型目标后，我们将协助企业从0到1建立COE。
 
-![COE落地三步曲](https://docimages.blob.core.chinacloudapi.cn/images/Kris/trilogy.png)
+![COE落地三步曲](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/trilogy.png)
  
 ## 成功案例
 

@@ -73,12 +73,12 @@ if __name__ == "__main__":
 ## 编辑和验证定位器
 
 记录后，可以在定位器选项卡中打开、编辑和验证定位器：
-![clicknium Visual Studio code](https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/1.png)
+![clicknium Visual Studio code](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/CrossPlatform/1.png)
 
 ## 在 Python 代码中使用定位器
 Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类，并通过“定位器”引用定位器。{localorStoreName}.{文件夹名称}.{locator名称}。
 
-![use locator](https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/2.png)
+![use locator](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/CrossPlatform/2.png)
 
 
 ## 打包自动化项目
@@ -88,7 +88,7 @@ Clicknium 提供智能自动完成体验。选择Clicknium包下的定位器类�
 
 ## 视频示例
 
-<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.mp4"> 
+<video controls height='100%' width='100%' src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/CrossPlatform/%E4%BF%A1%E5%88%9B%E8%A7%86%E9%A2%91DEMO.mp4"> 
 </video>
 
 ## 联系我们

@@ -30,4 +30,4 @@
 
 **此流程执行逻辑**：判断网页中的“登录”按钮这个元素是否存在。
 
-![配置判断元素是否存在组件](https://docimages.blob.core.chinacloudapi.cn/images/Activities/whetherelementexists20210927.png)
+![配置判断元素是否存在组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/whetherelementexists20210927.png)

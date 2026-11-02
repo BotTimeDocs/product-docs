@@ -24,4 +24,4 @@
 
 **此流程执行逻辑**：将编辑器创建的数据表追加到控制台的数据表中。
 
-![追加到console](https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/dtapproveconsole001.png)
+![追加到console](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/dtapproveconsole001.png)

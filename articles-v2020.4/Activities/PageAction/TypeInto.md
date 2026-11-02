@@ -36,21 +36,21 @@
 
 **此流程执行逻辑**：使用 **输入文本** 组件，并指定元素后，检查元素是否识别成功，将在识别的该元素中输入指定的文本内容。
 
-![输入文本配置](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-1.png)
+![输入文本配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setTex-1.png)
 
 **执行结果**：
 
-![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Activities/setTex-2.png)
+![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/setTex-2.png)
 
 ## 常见问题
 
 1. **Q：使用“输入文本”组件，如何输入“年/月/日”这种日期格式？**
 
-    ![日期格式](https://docimages.blob.core.chinacloudapi.cn/images/Activities/dateformat20210825.png)
+    ![日期格式](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/dateformat20210825.png)
 
     **A：** 在“输入文本”组件的“文本”属性框中输入，如 `"2000-01-01"`。
 
-    ![输入文本日期](https://docimages.blob.core.chinacloudapi.cn/images/Activities/inputtext20210825.png)
+    ![输入文本日期](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/inputtext20210825.png)
     
 2. **Q：使用“输入文本”组件输入的内容被输入法挡住，或是输入乱码**
 

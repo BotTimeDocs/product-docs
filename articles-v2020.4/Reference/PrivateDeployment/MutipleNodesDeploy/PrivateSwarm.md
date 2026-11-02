@@ -83,7 +83,7 @@ systemctl status docker.service
 
 Ctrl+c
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-1.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-1.jpg)
 
 ## 1.2 Swarm 集群的搭建
 
@@ -99,7 +99,7 @@ cd  /app
 
 docker swarm init
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-2.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-2.jpg)
 
 ### 1.2.2 CentosB,CentosC 服务器中执行以下相同操作，执行节点加入Swarm集群的命令
 
@@ -111,7 +111,7 @@ cd  /app
 
 docker swarm join --token SWMTKN-1-3qe4y4fz7wyhk6rzkbn3sdsx297ck7lrg0lxt3iqsdoh5y4zz1-0bgesujg10h2tpfzn5kxf69yp 172.18.0.16:2377
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-3.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-3.jpg)
 
 ### 1.2.3 CentosA 服务器上进入以下操作，查看Swarm 集群状态，执行集群节点加入管理集群节点的命令
 
@@ -123,19 +123,19 @@ cd  /app
 
 docker  node  ls
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-4.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-4.jpg)
 
 #设置集群管理节点，节点id取自上一步操作执行结果的id
 
   docker  node  promote  mdvemqwhj9sj04w0zmazans7i
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-5.jpg) 
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-5.jpg) 
 
  docker  node  promote  6uxufag8ihz9fx86bwl35zf6f
 
- ![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-6.jpg)
+ ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-6.jpg)
 
-#设置完成后，类似于如下图  ![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-7.jpg)
+#设置完成后，类似于如下图  ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-7.jpg)
 
 ## 1.3 控制台的部署
 
@@ -207,7 +207,7 @@ www.s3storage.com(S3对象储存服务域名)
 
 sh  ha-deploy.sh  init
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-8.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-8.png)
 
 (注释:红框内容是根据客户提供的资源，选项存储对象和redis信息,此处是客户提供redis和存储服务; 是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)
 
@@ -235,7 +235,7 @@ www.rpadomain.com:$port(S3对象储存服务域名)
 
 sh ha-deploy.sh init
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-9.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-9.jpg)
 
 (注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户提供了Redis，因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)
 
@@ -263,7 +263,7 @@ sh ha-deploy.sh init
 
 sh ha-deploy.sh init
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-10.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-10.jpg)
 
 (注释:红框内容是根据客户提供的资源进行的选择，此处选择操作，客户没有提供Redis和对象存储，Redis和对象存储使用的私有化安装包自带的。因为没有提供对象存储服务，使用的是安装包自带的Minio存储服务，所以客户要提供NFS文件共享服务；是否填写外部对象存储和Redis，选择”Y”或者”N”以客户提供的资源为主)
 
@@ -275,15 +275,15 @@ cat .userconfig
 
 IP+端口访问方式：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-11.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-11.jpg)
 
 多域名访问方式：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-12.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-12.jpg)
 
 单域名访问方式：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-13.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-13.jpg)
 
 红框内容就是生成的访问各种服务的URL地址，实际地址以客户提供为准
 
@@ -293,7 +293,7 @@ IP+端口访问方式：
 
 sh ha-deploy.sh start
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-14.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-14.jpg)
 
 ### 1.3.4公司初始化，上传安装包命令操作
 
@@ -301,17 +301,17 @@ sh ha-deploy.sh start
 
 docker service ls
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-15.jpg)  (注释：上图中 REPLICAS 列对应的副本数，斜杠左右两边数字一致，表明服务已全部启动)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-15.jpg)  (注释：上图中 REPLICAS 列对应的副本数，斜杠左右两边数字一致，表明服务已全部启动)
 
 #等服务全部启动成功之后，才能进行公司初始化操作命令
 
 sh ha-deploy.sh organizationUserCompanyInit
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-16.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-16.jpg)
 
 #执行上传安装包操作命令
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-17.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-17.jpg)
 
 ## 1.4 Swarm 高可用验证
 
@@ -325,17 +325,17 @@ cd  /app
 
 docker  service  ls
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-18.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-18.jpg)
 
 REPLICAS 对应列，左右边的数值都保持相同了，说明服务已全部启动。
 
 ### 1.4.2 客户端浏览器访问控制台
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-19.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-19.jpg)
 
 #在浏览器中输入登录地址
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-20.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-20.png)
 
 ## 1.5 高可用控制台的升级
 
@@ -397,11 +397,11 @@ cd  /app/ consolev4pvt-4.1.118041/swarm
 
 sh ha-deploy.sh dataMigrationFoundation
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-21.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-21.png)
 
 sh ha-deploy.sh dataMigrationVicode
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-22.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-22.png)
 
 ### 1.5.6 CentosA 服务器上进行启动控制台服务操作
 
@@ -413,7 +413,7 @@ cd  /app/ consolev4pvt-4.1.118041/swarm
 
 sh ha-deploy.sh start
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-23.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-23.jpg)
 
 ### 1.5.7 公司初始化，上传安装包命令操作
 
@@ -421,7 +421,7 @@ sh ha-deploy.sh start
 
 docker service ls
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-24.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-24.jpg)
 
 (注释：上图中 REPLICAS 列对应的副本数，斜杠左右两边数字一致，表明服务已全部启动)
 
@@ -429,19 +429,19 @@ docker service ls
 
 sh ha-deploy.sh organizationUserCompanyInit
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-25.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-25.jpg)
 
 #执行上传安装包操作命令
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-26.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-26.jpg)
 
 ### 1.5.8 客户端浏览器访问控制台
 
 #打开浏览器输入登录地址
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-27.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-27.jpg)
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-28.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-28.png)
 
 # 二. 常规需求
 
@@ -536,7 +536,7 @@ RPA控制台Swarm高可用最少采用三节点部署，控制台将部分服务
 
 ## 3.2 服务转发规则
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Sself-29.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Sself-29.png)
 
 如上图所示，控制台所需四个域名均解析到负载均衡IP。
 

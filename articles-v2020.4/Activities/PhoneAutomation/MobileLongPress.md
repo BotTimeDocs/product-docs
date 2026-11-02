@@ -22,4 +22,4 @@
 
 **此流程执行逻辑**：长按手机端“京东金融”APP应用。
 
-![指定元素](https://docimages.blob.core.chinacloudapi.cn/images/Activities/locatelongpress20201223.png)
+![指定元素](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Activities/locatelongpress20201223.png)
